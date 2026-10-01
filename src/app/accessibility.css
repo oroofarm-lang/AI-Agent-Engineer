@@ -1,0 +1,357 @@
+/* Paired colors fix the inline-code regression shown in the user's screenshot. */
+code:not(pre code) {
+  background: #26332e;
+  color: #f6ffe9;
+  border: 1px solid #596657;
+  border-radius: 3px;
+  padding: 0.12em 0.3em;
+  overflow-wrap: anywhere;
+}
+pre code {
+  background: transparent;
+  color: inherit;
+  padding: 0;
+}
+.prose code:not(pre code) {
+  color: #f6ffe9;
+}
+.tiny,
+.sidebar-upcoming .eyebrow,
+.upcoming-row .tiny,
+.lesson-step-label > span,
+.map-selected .eyebrow,
+.canvas-mode-button,
+.canvas-kicker {
+  color: #665c48;
+}
+.companion-caption .eyebrow,
+.playground-bottom .icon-button {
+  color: #84354d;
+}
+.map-heading h2 svg {
+  color: #006d70;
+}
+.node-caption {
+  opacity: 1;
+  color: #5a5242;
+}
+.map-node.built .node-ring {
+  color: #275a30;
+}
+.button:disabled {
+  opacity: 0.75;
+}
+:where(a, button, input, select, textarea, summary):focus-visible {
+  outline: 3px solid #87214b;
+  outline-offset: 4px;
+}
+.focus-card h2:focus-visible {
+  outline: 2px solid #87214b;
+  outline-offset: 5px;
+}
+.focus-card,
+#main {
+  scroll-margin-top: 20px;
+}
+.accessibility-toggle {
+  position: fixed;
+  bottom: 18px;
+  inset-inline-end: 18px;
+  z-index: 40;
+  min-height: 44px;
+}
+.utility-dialog {
+  position: fixed;
+  inset: 0;
+  margin: auto;
+  width: min(620px, calc(100vw - 32px));
+  max-height: calc(100dvh - 40px);
+  overflow: auto;
+  padding: 28px;
+  background: #fffaf0;
+  color: #302f29;
+  border: 2px solid #81735a;
+  box-shadow: 6px 6px 0 #b9ac91;
+}
+.utility-dialog::backdrop {
+  background: #302c2266;
+}
+.utility-dialog .dialog-heading {
+  align-items: start;
+}
+.utility-dialog h2 {
+  margin: 0;
+}
+.utility-dialog p,
+.legal-content li {
+  font-size: calc(14px * var(--font-scale, 1));
+  line-height: 1.85;
+}
+.utility-dialog .icon-button {
+  min-width: 44px;
+  min-height: 44px;
+  flex-shrink: 0;
+}
+.toggle-row {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  padding: 12px 0;
+}
+.toggle-row input {
+  width: 22px;
+  height: 22px;
+  accent-color: #356c54;
+  flex-shrink: 0;
+}
+.field-label {
+  display: grid;
+  gap: 8px;
+  margin-block: 18px;
+}
+.field-label input,
+.field-label select {
+  padding: 10px 12px;
+  min-width: 0;
+  width: 100%;
+  border: 1px solid #8f8064;
+  background: #fffdf7;
+  color: #302f29;
+}
+.legal-footer {
+  padding-bottom: 85px;
+  flex-wrap: wrap;
+  color: #625946;
+}
+.legal-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 20px;
+  width: 100%;
+}
+.legal-links button {
+  background: transparent;
+  color: #315e50;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  min-height: 44px;
+}
+.legal-content ul {
+  list-style: disc;
+  padding-inline-start: 24px;
+}
+.legal-content a {
+  color: #00676a;
+  text-decoration: underline;
+}
+html[data-motion='reduce'],
+html[data-motion='reduce'] * {
+  scroll-behavior: auto !important;
+}
+html[data-motion='reduce'] *,
+html[data-motion='reduce'] *::before,
+html[data-motion='reduce'] *::after {
+  animation: none !important;
+  transition: none !important;
+}
+html[data-motion='reduce'] .completion-burst {
+  display: none;
+}
+html[data-motion='reduce'] .bot-eyes {
+  transform: none;
+}
+/* Filter each top-level surface rather than body (body filters break fixed dialogs). */
+html[data-monochrome='true'] .sidebar,
+html[data-monochrome='true'] .app-content,
+html[data-monochrome='true'] .public-content,
+html[data-monochrome='true'] .accessibility-toggle,
+html[data-monochrome='true'] dialog {
+  filter: grayscale(1);
+}
+html[data-contrast='high'] {
+  --bg: #fff;
+  --panel: #fff;
+  --panel-2: #fff;
+  --text: #000;
+  --muted: #000;
+  --border: #000;
+  --accent: #004c4c;
+}
+html[data-contrast='high']
+  body
+  :is(
+    div,
+    section,
+    article,
+    aside,
+    header,
+    footer,
+    nav,
+    main,
+    dialog,
+    p,
+    span,
+    small,
+    strong,
+    b,
+    label,
+    h1,
+    h2,
+    h3,
+    ul,
+    li,
+    a,
+    button,
+    input,
+    select,
+    textarea,
+    summary,
+    output,
+    code,
+    pre
+  ) {
+  color: #000 !important;
+  background-color: #fff !important;
+  background-image: none !important;
+  border-color: #000 !important;
+  text-shadow: none !important;
+}
+html[data-contrast='high'] a {
+  text-decoration: underline;
+}
+html[data-contrast='high'] :focus-visible {
+  outline-color: #000 !important;
+}
+html[data-contrast='high'] .node-ring {
+  box-shadow: 3px 3px #000;
+}
+@media (forced-colors: active) {
+  :focus-visible {
+    outline: 3px solid Highlight;
+  }
+  .button {
+    border: 2px solid ButtonText;
+  }
+}
+.auth-page {
+  display: grid;
+  place-items: center;
+  min-height: 65vh;
+}
+.auth-card {
+  width: min(100%, 520px);
+  padding: 32px;
+}
+.auth-card h1 {
+  font-size: calc(30px * var(--font-scale, 1));
+}
+.auth-card p {
+  font-size: calc(14px * var(--font-scale, 1));
+}
+.auth-options {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+.auth-options button {
+  min-height: 44px;
+  text-decoration: underline;
+}
+.public-header {
+  min-height: 75px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.account-signout {
+  margin-block: 22px;
+}
+.position-status {
+  color: #496344;
+  font-size: calc(12px * var(--font-scale, 1));
+}
+.activity-top {
+  min-height: 70px;
+  height: auto;
+  padding-block: 12px;
+  flex-wrap: wrap;
+}
+.activity-actions {
+  flex-wrap: wrap;
+}
+.header-course-progress {
+  min-height: 37px;
+  height: auto;
+  padding-block: 8px;
+  flex-wrap: wrap;
+}
+.header-course-progress progress {
+  min-width: 80px;
+}
+.neon-stats .card,
+.phase-card,
+.map-heading,
+.canvas-modebar,
+.canvas-pagination {
+  min-width: 0;
+}
+.map-heading {
+  flex-wrap: wrap;
+}
+.week-selector {
+  max-width: 100%;
+}
+.week-selector select {
+  max-width: 100%;
+}
+.node-caption {
+  white-space: normal;
+  width: 64px;
+}
+.node-path {
+  margin-bottom: 35px;
+}
+.canvas-pagination {
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.utility-dialog select {
+  width: 100%;
+}
+@media (max-width: 720px) {
+  .auth-card {
+    padding: 22px;
+  }
+  .page-footer {
+    padding-inline-end: 25px;
+  }
+  .neon-stats {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  }
+}
+/* There is no fixed header; only the card's own scroll margin is needed. */
+html {
+  scroll-padding-top: 0;
+}
+.header-location b {
+  color: #735200;
+}
+.button .tiny {
+  color: #665c48;
+}
+.day-number {
+  color: #5c523f;
+}
+.canvas-mode-button[aria-pressed='true'] {
+  color: #005e61;
+}
+/* Animate position only; text must retain its full contrast during transitions. */
+@keyframes card-enter {
+  from {
+    transform: translateY(8px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}

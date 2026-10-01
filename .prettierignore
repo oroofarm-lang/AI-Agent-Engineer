@@ -1,0 +1,10 @@
+MASTER_SPEC.md
+MASTER_SPEC.md.rtf
+docs/master-curriculum-spec.md
+content/curriculum/
+.next/
+node_modules/
+.data/
+playwright-report/
+test-results/
+package-lock.json

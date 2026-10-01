@@ -1,0 +1,524 @@
+/* Warm phosphor-era plastic and paper: the arcade geometry stays intact. */
+:root {
+  color-scheme: light;
+  --bg: #f3eedf;
+  --panel: #fffaf0;
+  --panel-2: #eae3d1;
+  --border: #a59c88;
+  --text: #302f29;
+  --muted: #696354;
+  --accent: #006d70;
+  --accent-dark: #d7ebe4;
+  --pink: #af305d;
+  --yellow: #856000;
+  --green: #246b43;
+  --violet: #af305d;
+}
+body {
+  background: var(--bg);
+  color: var(--text);
+}
+::selection {
+  background: #f3d874;
+  color: #302f29;
+}
+.sidebar,
+.activity-header {
+  background: #eae3d1;
+  border-color: #aaa18c;
+}
+.sidebar nav a,
+.workspace-label,
+.upcoming-row,
+.sidebar-footer,
+.header-location {
+  color: var(--muted);
+}
+.sidebar nav a[aria-current='page'] {
+  color: #483b1d;
+  background: #f6dfa0;
+  border-color: #8c7547;
+  box-shadow: 3px 3px 0 #b8a16d;
+}
+.sidebar nav a:hover {
+  background: #f7efd9;
+}
+.sidebar-upcoming,
+.sidebar-footer,
+.workspace-label,
+.page-footer {
+  border-color: #c9c0ad;
+}
+.brand-mark {
+  background: #b33e60;
+  border-color: #793043;
+  box-shadow: 3px 3px 0 #c99494;
+}
+.brand small {
+  color: #775714;
+}
+.avatar,
+.profile-avatar {
+  background: #f6dccf;
+  border-color: #9e4b5b;
+  color: #5f2933;
+  box-shadow: 2px 2px 0 #c28d8d;
+}
+.card,
+.neon-hero,
+.focus-card,
+.playground-widget,
+.insight-card,
+.companion-card,
+.settings-card,
+.note-card,
+.assessment-card {
+  background: var(--panel);
+  border-color: var(--border);
+  box-shadow: 5px 5px 0 #c5bba4;
+}
+.card:hover {
+  border-color: #817760;
+}
+.neon-hero,
+.focus-card {
+  border-color: #538b81;
+  box-shadow: 5px 5px 0 #afc4af;
+}
+.button,
+.button.secondary,
+.button.subtle {
+  color: var(--text);
+  background: #f8f0df;
+  border-color: #918570;
+  box-shadow: 3px 3px 0 #c5bba4;
+}
+.button.primary {
+  background: #b5e1cf;
+  color: #194a3b;
+  border-color: #3c7966;
+  box-shadow: 4px 4px 0 #8cb4a0;
+}
+.button:hover,
+.button.primary:hover {
+  background: #d5ecdc;
+  border-color: #487965;
+  box-shadow: 4px 4px 0 #b9909c;
+}
+.button:active,
+.button.primary:active {
+  box-shadow: none;
+}
+.button:disabled {
+  box-shadow: none;
+}
+:focus-visible {
+  outline-color: #9c3e66;
+}
+.xp-badge {
+  color: #91364f;
+  background: #f5e0df;
+  border-color: #b86679;
+}
+.streak-badge,
+.streak-badge span {
+  color: #70531c;
+}
+.streak-meter i {
+  background: #cfc4a6;
+}
+.streak-meter i.is-lit {
+  background: #936920;
+}
+.header-course-progress,
+.header-course-progress b,
+.header-progress-caption {
+  color: #625b4c;
+}
+.header-course-progress progress,
+.header-course-progress progress::-webkit-progress-bar {
+  background: #ded7c3;
+  border-color: #9f947c;
+}
+.header-course-progress progress::-webkit-progress-value {
+  background: repeating-linear-gradient(90deg, #42755a 0 7px, #ded7c3 7px 10px);
+}
+.header-course-progress progress::-moz-progress-bar {
+  background: repeating-linear-gradient(90deg, #42755a 0 7px, #ded7c3 7px 10px);
+}
+.neon-hero .hero-meta,
+.neon-hero .hero-description,
+.hero-tags,
+.hero-bottom,
+.neon-stats .card > div > span,
+.neon-stats p,
+.neon-stats strong small,
+.insight-card > p:not(.eyebrow),
+.insight-footer,
+.release-footnote,
+.release-footnote a,
+.page-footer,
+.map-legend,
+.map-selected .muted,
+.node-caption {
+  color: var(--muted);
+}
+.hero-mini-icon {
+  background: #ede6d5;
+  border-color: #b5aa91;
+}
+.pill,
+.available-tag {
+  background: #dcebd6;
+  color: #2a603d;
+  border-color: #739373;
+}
+.planned-tag,
+.version-tag {
+  background: #ece5d6;
+  color: #69604e;
+  border-color: #b8ad96;
+}
+.skill-tags > span {
+  background: #f2dfe4;
+  color: #833953;
+  border-color: #c39baa;
+}
+.stat-icon.cyan {
+  color: #006d70;
+  background: #dcece3;
+  border-color: #91b7a7;
+}
+.stat-icon.green {
+  color: #2e6843;
+  background: #e1edcf;
+  border-color: #9eb68a;
+}
+.stat-icon.violet,
+.insight-icon {
+  color: #963e5b;
+  background: #f3e0e3;
+  border-color: #c29ca5;
+}
+.text-link,
+.insight-card .text-link,
+.prose a {
+  color: #006d70;
+}
+.notice {
+  color: #6c5524;
+  background: #f5e9c5;
+  border-color: #c4b075;
+}
+.phase-number {
+  color: #865622;
+  text-shadow: 2px 2px #e1c698;
+}
+.lesson-map {
+  background: #faf5e8;
+}
+.node-path svg path {
+  stroke: #a39a84;
+}
+.node-ring,
+.map-node.locked .node-ring {
+  background: #e5decb;
+  border-color: #a89e87;
+  color: #756b57;
+  box-shadow: 4px 4px 0 #c5bba4;
+}
+.map-node.active .node-ring {
+  background: #c6e8da;
+  color: #206752;
+  border-color: #3e8470;
+  box-shadow: 4px 4px 0 #9fbea9;
+}
+.map-node.built .node-ring {
+  background: #dbecc7;
+  color: #376c3a;
+  border-color: #729666;
+  box-shadow: 4px 4px 0 #a9b98e;
+}
+.map-node.selected .node-ring {
+  outline-color: #a24769;
+}
+.map-selected {
+  background: #eee7d5;
+  border-color: #b5aa91;
+}
+.week-selector select,
+.skill-filter input,
+.skill-filter select {
+  background: #fffcf4;
+  color: var(--text);
+  border-color: #a99b80;
+}
+.mascot-stage {
+  background-image: radial-gradient(#b3a58966 1px, transparent 1px);
+}
+.orbital {
+  border-color: #508b7b45;
+}
+.orbital-two {
+  border-color: #b5637c44;
+}
+.floating-symbol {
+  background: #fff8df;
+  border-color: #b05e75;
+  color: #7d5714;
+  box-shadow: 3px 3px 0 #c4a49b;
+}
+.mascot-greeting {
+  background: #fbf5e5;
+  color: #316859;
+  border-color: #6c9787;
+  box-shadow: 3px 3px 0 #b3bda1;
+}
+.mascot-shadow {
+  background: #b7ac90;
+}
+/* A cream casing around a small phosphor display keeps the old-monitor character. */
+.bot-shell {
+  background: #e4d8b8;
+  border-color: #fff8df;
+  box-shadow:
+    inset -10px -10px 0 #b5a785,
+    8px 8px 0 #968e76;
+}
+.bot-highlight {
+  background: #fffbed;
+}
+.bot-antenna,
+.bot-ear,
+.bot-body,
+.bot-hand {
+  background: #d8caa5;
+  box-shadow:
+    inset -4px -4px 0 #a99b78,
+    3px 3px 0 #958c73;
+}
+.bot-body {
+  border-color: #fff7dd;
+}
+.bot-face {
+  background: #263d33;
+  border-color: #8d856c;
+}
+.bot-face:after {
+  background: repeating-linear-gradient(0deg, transparent 0 3px, #bce7aa12 3px 4px);
+}
+.bot-eyes i {
+  background: #d7eaa1;
+  box-shadow: 3px 3px 0 #5e7946;
+}
+.bot-smile {
+  border-color: #d7eaa1;
+}
+.is-happy .bot-eyes i {
+  background: #c4ee9c;
+}
+.canvas-kicker,
+.canvas-mode-button,
+.canvas-pagination > span,
+.card-acknowledgement > span,
+.companion-card > p,
+.companion-footnote,
+.canvas-road button,
+.canvas-road button span,
+.playground-prompt,
+.temperature-control label,
+.temperature-scale,
+.probability-bars > div > span,
+.probability-bars b,
+.playground-bottom p,
+.playground-disclosure,
+.simulation-label {
+  color: var(--muted);
+}
+.prose,
+.prose strong,
+.playground-prompt > span {
+  color: var(--text);
+}
+.playground-widget {
+  background: #f0ecd9;
+  border-color: #a77b85;
+  box-shadow: 4px 4px 0 #ccafb0;
+}
+.playground-top,
+.focus-card-top,
+.card-acknowledgement,
+.canvas-pagination,
+.companion-footnote {
+  border-color: #c9c0a9;
+}
+.temperature-control output {
+  background: #e0edda;
+  color: #316451;
+  border-color: #8bab85;
+}
+.temperature-control input {
+  border-color: #a2997e;
+  background: repeating-linear-gradient(90deg, #c9bea0 0 3px, #e9e1c8 3px 10px);
+}
+.temperature-control input::-webkit-slider-thumb {
+  background: #c69143;
+  border-color: #805e30;
+  box-shadow: 3px 3px 0 #baa16c;
+}
+.temperature-control input::-moz-range-thumb {
+  background: #c69143;
+  border-color: #805e30;
+}
+.probability-bars > div > div {
+  background: #e1d8bf;
+}
+.probability-bars i {
+  background: repeating-linear-gradient(90deg, #4e8e7a 0 5px, #e1d8bf 5px 7px);
+}
+.probability-bars > div:nth-child(even) i {
+  background: repeating-linear-gradient(90deg, #b3667a 0 5px, #e1d8bf 5px 7px);
+}
+.playground-bottom strong,
+.success-line,
+.form-status {
+  color: #316c42;
+}
+.form-error {
+  color: #a02d38;
+}
+.button.acknowledged-button {
+  color: #316c42;
+  background: #dcebcf;
+  border-color: #809b6e;
+}
+.canvas-road button[aria-current='step'] {
+  color: #714e19;
+  background: #f6e6b8;
+}
+.step-progress button span {
+  background: #cec3a9;
+}
+.step-progress button.current span {
+  background: #51866f;
+}
+.step-progress button.acknowledged span {
+  background: #759248;
+}
+.lesson-row {
+  border-color: #ded5c1;
+}
+.lesson-row:hover {
+  background: #eee6d4;
+}
+.day-number {
+  background: #e7deca;
+  color: #6d634f;
+}
+.day-number.active {
+  background: #d9e8cc;
+  color: #356943;
+}
+.row-title small,
+.lesson-section-title small,
+.lesson-toc nav a,
+.lesson-toc nav span {
+  color: var(--muted);
+}
+.source-outline,
+.evidence-text,
+.notes-form textarea,
+.evidence-field textarea {
+  background: #f8f3e5;
+  color: var(--text);
+  border-color: #b5a98f;
+}
+.notes-form textarea::placeholder,
+textarea::placeholder {
+  color: #766c59;
+}
+.code-block {
+  background: #f3efdd;
+  border-color: #b8ac91;
+}
+.code-toolbar {
+  background: #e3dcc6;
+  color: #645b48;
+  border-color: #b8ac91;
+}
+.code-toolbar button,
+.icon-button {
+  background: #faf4e3;
+  color: #514c3e;
+}
+.code-block pre {
+  color: #315e4a;
+}
+.mentor-dialog {
+  background: #fff9ec;
+  color: var(--text);
+  border-color: #a89b80;
+  box-shadow: 6px 6px 0 #afa184;
+}
+.mentor-dialog p {
+  color: var(--muted);
+}
+.mentor-dialog::backdrop {
+  background: #5f543566;
+}
+
+/* Topic catalog shares the cream arcade cards and existing contrast tokens. */
+.curriculum-grid .topic-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1.5rem;
+}
+.topic-card .section-heading {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+.topic-card h2 {
+  margin: 0;
+  font-size: 1.25rem;
+}
+.topic-card h2 a {
+  color: inherit;
+}
+.topic-card p {
+  margin: 0;
+  line-height: 1.75;
+}
+.topic-card progress {
+  width: 100%;
+  height: 10px;
+  accent-color: #216d57;
+  margin-top: auto;
+}
+.topic-card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+.topic-outcome,
+.verification-card {
+  margin-block: 1.5rem;
+}
+.verification-card summary {
+  cursor: pointer;
+  font-weight: 700;
+}
+.verification-card li,
+.verification-card p {
+  line-height: 1.8;
+}
+.legacy-heading {
+  margin-top: 3rem;
+}
+@media (max-width: 600px) {
+  .topic-card-footer {
+    flex-wrap: wrap;
+  }
+}

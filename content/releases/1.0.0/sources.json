@@ -1,0 +1,38 @@
+[
+  {
+    "id": "PYTHON_TUTORIAL",
+    "title": "The Python Tutorial",
+    "url": "https://docs.python.org/3/tutorial/",
+    "type": "official-docs",
+    "vendor": "Python",
+    "lastVerified": null,
+    "lessonIds": [
+      "W01D01_FIRST_AI_PROGRAM"
+    ],
+    "technologyIds": []
+  },
+  {
+    "id": "OPENAI_QUICKSTART",
+    "title": "OpenAI developer quickstart",
+    "url": "https://developers.openai.com/api/docs/quickstart",
+    "type": "official-docs",
+    "vendor": "OpenAI",
+    "lastVerified": null,
+    "lessonIds": [
+      "W01D01_FIRST_AI_PROGRAM"
+    ],
+    "technologyIds": []
+  },
+  {
+    "id": "GIT_BOOK",
+    "title": "Pro Git: Getting Started",
+    "url": "https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control",
+    "type": "official-docs",
+    "vendor": "Git",
+    "lastVerified": null,
+    "lessonIds": [
+      "W01D01_FIRST_AI_PROGRAM"
+    ],
+    "technologyIds": []
+  }
+]

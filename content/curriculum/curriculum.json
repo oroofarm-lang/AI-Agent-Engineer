@@ -1,0 +1,5264 @@
+{
+  "curriculumId": "AI_AGENT_ENGINEER",
+  "version": "2.1.0",
+  "baseline": "September 2026",
+  "releaseDate": "2026-10-01",
+  "lastVerified": null,
+  "minimumMigrationVersion": "1.0.0",
+  "majorChanges": [
+    "Rewrite Hebrew lesson explanations, build instructions, failure exercises and challenges using the beginner-language guide.",
+    "Define CORE as the required entry chapter; preserve stable IDs and prior learner records."
+  ],
+  "weeks": [
+    {
+      "id": "WEEK_01",
+      "number": 1,
+      "title": "מאפס לתוכנת AI עובדת",
+      "titleEn": "ZERO TO WORKING AI SOFTWARE"
+    },
+    {
+      "id": "WEEK_02",
+      "number": 2,
+      "title": "הנדסת LLM",
+      "titleEn": "LLM ENGINEERING"
+    },
+    {
+      "id": "WEEK_03",
+      "number": 3,
+      "title": "לולאת סוכן מאפס",
+      "titleEn": "AGENT LOOP FROM SCRATCH"
+    },
+    {
+      "id": "WEEK_04",
+      "number": 4,
+      "title": "סוכני מחקר",
+      "titleEn": "RESEARCH AGENTS"
+    },
+    {
+      "id": "WEEK_05",
+      "number": 5,
+      "title": "מסדי נתונים, מצב וזיכרון",
+      "titleEn": "DATABASES, STATE & MEMORY"
+    },
+    {
+      "id": "WEEK_06",
+      "number": 6,
+      "title": "RAG ומערכות ידע",
+      "titleEn": "RAG & KNOWLEDGE SYSTEMS"
+    },
+    {
+      "id": "WEEK_07",
+      "number": 7,
+      "title": "מערכות חיצוניות ו־MCP",
+      "titleEn": "EXTERNAL SYSTEMS & MCP"
+    },
+    {
+      "id": "WEEK_08",
+      "number": 8,
+      "title": "סביבות הרצה לסוכנים",
+      "titleEn": "MODERN AGENT RUNTIMES"
+    },
+    {
+      "id": "WEEK_09",
+      "number": 9,
+      "title": "תזמור תהליכים",
+      "titleEn": "ORCHESTRATION"
+    },
+    {
+      "id": "WEEK_10",
+      "number": 10,
+      "title": "מערכות מרובות סוכנים",
+      "titleEn": "MULTI-AGENT SYSTEMS"
+    },
+    {
+      "id": "WEEK_11",
+      "number": 11,
+      "title": "הערכה ותצפיתיות",
+      "titleEn": "EVALS & OBSERVABILITY"
+    },
+    {
+      "id": "WEEK_12",
+      "number": 12,
+      "title": "אבטחה ושליטה אנושית",
+      "titleEn": "SECURITY & HUMAN CONTROL"
+    },
+    {
+      "id": "WEEK_13",
+      "number": 13,
+      "title": "Backend לפרודקשן",
+      "titleEn": "PRODUCTION BACKEND"
+    },
+    {
+      "id": "WEEK_14",
+      "number": 14,
+      "title": "מוצר ופריסה",
+      "titleEn": "PRODUCT & DEPLOYMENT"
+    },
+    {
+      "id": "WEEK_15",
+      "number": 15,
+      "title": "סוכנים מתקדמים",
+      "titleEn": "ADVANCED AGENTS"
+    },
+    {
+      "id": "WEEK_16",
+      "number": 16,
+      "title": "פרויקט גמר",
+      "titleEn": "CAPSTONE"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "W01D01_FIRST_AI_PROGRAM",
+      "week": 1,
+      "day": 1,
+      "title": "תוכנית ה־AI הראשונה שלך",
+      "titleEn": "Your First AI Program",
+      "version": "2.1.0",
+      "stability": "ECOSYSTEM",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "PYTHON",
+        "GIT",
+        "HTTP_APIS"
+      ],
+      "prerequisiteLessonIds": [
+        "FND_01"
+      ],
+      "sourceIds": [
+        "PYTHON_TUTORIAL",
+        "OPENAI_QUICKSTART",
+        "GIT_BOOK"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "Mission\nGo from an empty folder to a working Python application communicating with an AI model.\nLearn\nterminal basics;\ndirectories;\nPython execution;\npackages;\nvirtual environments;\nenvironment variables;\nAPI keys;\nrequest/response basics;\nGit basics.\nBuild\nCLI:\npython app.py\nUser asks a question.\nApplication sends request to model.\nApplication prints response.\nDeep Dive\nUnderstand:\nSDK;\nHTTP;\nAPI;\nmodel;\napplication.\nMastery\nStudent recreates project from an empty folder.",
+      "contentStage": "guided-lesson",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "W01D02_PYTHON_FOR_AGENT_BUILDERS_I",
+      "week": 1,
+      "day": 2,
+      "title": "Python לבוני סוכנים · חלק א׳",
+      "titleEn": "Python for Agent Builders I",
+      "version": "2.1.0",
+      "stability": "FOUNDATION",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "PYTHON",
+        "GIT",
+        "HTTP_APIS"
+      ],
+      "prerequisiteLessonIds": [
+        "W01D01_FIRST_AI_PROGRAM"
+      ],
+      "sourceIds": [
+        "PYTHON_TUTORIAL"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "Learn:\nvariables;\nstrings;\nnumbers;\nbooleans;\nlists;\ndictionaries;\nconditions;\nloops;\nfunctions.\nBuild\nCommand router supporting:\nresearch;\nsummarize;\nextract.\nChallenge\nAdd another capability independently.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "local-tested",
+        "command": "python3 -m unittest discover -s content/labs -p 'test_*.py' -v",
+        "limitations": [
+          "בדיקות המעבדה של הדוגמה המקומית עברו בהצלחה. הרחבות שתבנה דורשות בדיקות משלהן.",
+          "לא בוצעה הרצה עם מודל חיצוני או שירות בתשלום."
+        ]
+      }
+    },
+    {
+      "id": "W01D03_PYTHON_FOR_AGENT_BUILDERS_II",
+      "week": 1,
+      "day": 3,
+      "title": "Python לבוני סוכנים · חלק ב׳",
+      "titleEn": "Python for Agent Builders II",
+      "version": "2.1.0",
+      "stability": "FOUNDATION",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "PYTHON",
+        "GIT",
+        "HTTP_APIS"
+      ],
+      "prerequisiteLessonIds": [
+        "W01D02_PYTHON_FOR_AGENT_BUILDERS_I"
+      ],
+      "sourceIds": [
+        "PYTHON_JSON",
+        "PYTHON_TUTORIAL"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "Learn:\nfunctions;\ntypes;\nclasses basics;\nimports;\npackages;\nexceptions;\nfiles;\nJSON.\nBuild\nSave and load conversations.\nFailure Lab\nHandle:\ncorrupted JSON;\nmissing files;\nmissing properties.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "local-tested",
+        "command": "python3 -m unittest discover -s content/labs -p 'test_*.py' -v",
+        "limitations": [
+          "בדיקות המעבדה של הדוגמה המקומית עברו בהצלחה. הרחבות שתבנה דורשות בדיקות משלהן.",
+          "לא בוצעה הרצה עם מודל חיצוני או שירות בתשלום."
+        ]
+      }
+    },
+    {
+      "id": "W01D04_HTTP_APIS",
+      "week": 1,
+      "day": 4,
+      "title": "HTTP וממשקי API",
+      "titleEn": "HTTP & APIs",
+      "version": "2.1.0",
+      "stability": "FOUNDATION",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "PYTHON",
+        "GIT",
+        "HTTP_APIS"
+      ],
+      "prerequisiteLessonIds": [
+        "W01D03_PYTHON_FOR_AGENT_BUILDERS_II"
+      ],
+      "sourceIds": [
+        "HTTP_OVERVIEW",
+        "PYTHON_JSON"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "Understand:\nclient;\nserver;\nrequest;\nresponse;\nendpoint;\nHTTP method;\nheaders;\nrequest body;\nauthentication;\nstatus codes;\nrate limits.\nBuild\nCall multiple APIs.\nNormalize results.\nMastery\nExplain what happens from application code to external service and back.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "local-tested",
+        "command": "python3 -m unittest discover -s content/labs -p 'test_*.py' -v",
+        "limitations": [
+          "בדיקות המעבדה של הדוגמה המקומית עברו בהצלחה. הרחבות שתבנה דורשות בדיקות משלהן.",
+          "לא בוצעה הרצה עם מודל חיצוני או שירות בתשלום."
+        ]
+      }
+    },
+    {
+      "id": "W01D05_PROJECT_AGENT_ZERO",
+      "week": 1,
+      "day": 5,
+      "title": "פרויקט: Agent Zero",
+      "titleEn": "PROJECT — Agent Zero",
+      "version": "2.1.0",
+      "stability": "FOUNDATION",
+      "estimatedMinutes": 240,
+      "skillIds": [
+        "PYTHON",
+        "GIT",
+        "HTTP_APIS"
+      ],
+      "prerequisiteLessonIds": [
+        "W01D04_HTTP_APIS"
+      ],
+      "sourceIds": [
+        "OPENAI_TOOLS",
+        "PYTHON_TUTORIAL"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "Agent Zero\nRequirements:\nreceives a task;\nuses one external function;\nreturns structured output;\nhandles failures;\nlogs steps.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "W02D06_HOW_LLM_APPLICATIONS_WORK",
+      "week": 2,
+      "day": 6,
+      "title": "איך אפליקציות LLM פועלות",
+      "titleEn": "How LLM Applications Work",
+      "version": "2.1.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "CONTEXT_ENGINEERING",
+        "STRUCTURED_OUTPUTS",
+        "GROUNDING"
+      ],
+      "prerequisiteLessonIds": [
+        "W01D05_PROJECT_AGENT_ZERO"
+      ],
+      "sourceIds": [
+        "OPENAI_QUICKSTART",
+        "GOOGLE_ML"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "Learn:\ntokens;\ncontext;\ninstructions;\nmodel inputs;\noutputs;\nreasoning;\nlatency;\ncosts;\ncontext limits.\nExperiment\nChange context and observe behavior.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "W02D07_CONTEXT_ENGINEERING",
+      "week": 2,
+      "day": 7,
+      "title": "הנדסת הקשר",
+      "titleEn": "Context Engineering",
+      "version": "2.1.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "CONTEXT_ENGINEERING",
+        "STRUCTURED_OUTPUTS",
+        "GROUNDING"
+      ],
+      "prerequisiteLessonIds": [
+        "FND_02"
+      ],
+      "sourceIds": [
+        "OPENAI_QUICKSTART",
+        "ANTHROPIC_AGENTS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "Learn:\nsystem/developer/user instructions;\ntask context;\nexamples;\nconstraints;\nirrelevant information;\ncontext pollution.\nBuild\nThree versions of the same AI application using different context architectures.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "W02D08_STRUCTURED_OUTPUTS",
+      "week": 2,
+      "day": 8,
+      "title": "פלט מובנה ואימות נתונים",
+      "titleEn": "Structured Outputs",
+      "version": "2.1.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "CONTEXT_ENGINEERING",
+        "STRUCTURED_OUTPUTS",
+        "GROUNDING"
+      ],
+      "prerequisiteLessonIds": [
+        "W02D07_CONTEXT_ENGINEERING"
+      ],
+      "sourceIds": [
+        "OPENAI_SCHEMA",
+        "PYTHON_JSON"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "Learn:\nJSON Schema;\nvalidation;\ntyped data;\nrequired fields;\noptional fields;\nenums.\nBuild\nFree text customer inquiry →\nvalidated Lead object.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "W02D09_MODEL_RELIABILITY",
+      "week": 2,
+      "day": 9,
+      "title": "אמינות, ביסוס ואי־ודאות",
+      "titleEn": "Model Reliability",
+      "version": "2.1.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "CONTEXT_ENGINEERING",
+        "STRUCTURED_OUTPUTS",
+        "GROUNDING"
+      ],
+      "prerequisiteLessonIds": [
+        "W02D08_STRUCTURED_OUTPUTS"
+      ],
+      "sourceIds": [
+        "PYTHON_TUTORIAL",
+        "ANTHROPIC_AGENTS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "Learn:\nhallucination;\ngrounding;\nuncertainty;\nverification;\ndeterministic components;\nfallback logic.\nBuild\nSystem that outputs:\nKNOWN\nUNKNOWN\nNEEDS VERIFICATION",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "W02D10_PROJECT_INTELLIGENT_INTAKE_ENGINE",
+      "week": 2,
+      "day": 10,
+      "title": "פרויקט: מנוע קליטת פניות",
+      "titleEn": "PROJECT — Intelligent Intake Engine",
+      "version": "2.1.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 240,
+      "skillIds": [
+        "CONTEXT_ENGINEERING",
+        "STRUCTURED_OUTPUTS",
+        "GROUNDING"
+      ],
+      "prerequisiteLessonIds": [
+        "FND_03"
+      ],
+      "sourceIds": [
+        "PYTHON_TUTORIAL",
+        "ANTHROPIC_AGENTS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "Intelligent Intake Engine\nInput:\ntext;\nfile;\nform.\nOutput:\nvalidated structured record.\nIncludes:\nschema;\nvalidation;\nerror handling;\nlogs;\nuncertainty handling.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "W03D11_WHAT_MAKES_SOMETHING_AN_AGENT",
+      "week": 3,
+      "day": 11,
+      "title": "מה הופך מערכת לסוכן?",
+      "titleEn": "What Makes Something an Agent?",
+      "version": "2.1.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "TOOL_CALLING",
+        "AGENT_LOOP",
+        "STOPPING_CONDITIONS"
+      ],
+      "prerequisiteLessonIds": [
+        "W02D10_PROJECT_INTELLIGENT_INTAKE_ENGINE"
+      ],
+      "sourceIds": [
+        "PYTHON_TUTORIAL",
+        "ANTHROPIC_AGENTS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "Distinguish:\nLLM call;\nchatbot;\nautomation;\nworkflow;\nagent;\nmulti-agent system.\nExercise\nClassify systems.\nExplain why some should NOT be agentic.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "W03D12_TOOL_CALLING",
+      "week": 3,
+      "day": 12,
+      "title": "קריאות לכלים",
+      "titleEn": "Tool Calling",
+      "version": "2.1.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "TOOL_CALLING",
+        "AGENT_LOOP",
+        "STOPPING_CONDITIONS"
+      ],
+      "prerequisiteLessonIds": [
+        "W03D11_WHAT_MAKES_SOMETHING_AN_AGENT"
+      ],
+      "sourceIds": [
+        "OPENAI_TOOLS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "Learn:\ntool definitions;\nschemas;\narguments;\ntool results;\ntool choice;\nvalidation.\nBuild\nTools such as:\ncalculator;\ndatabase lookup;\nmocked external service.\nModel chooses correct tool.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "W03D13_AGENT_LOOP",
+      "week": 3,
+      "day": 13,
+      "title": "לולאת סוכן ידנית",
+      "titleEn": "The Agent Loop",
+      "version": "2.1.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "TOOL_CALLING",
+        "AGENT_LOOP",
+        "STOPPING_CONDITIONS"
+      ],
+      "prerequisiteLessonIds": [
+        "W03D12_TOOL_CALLING"
+      ],
+      "sourceIds": [
+        "OPENAI_TOOLS",
+        "ANTHROPIC_AGENTS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "Implement manually:\nGOAL\n↓\nMODEL\n↓\nTOOL CALL\n↓\nEXECUTION\n↓\nOBSERVATION\n↓\nMODEL\n↓\nSTOP / CONTINUE\nDo not use an agent framework.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "local-tested",
+        "command": "python3 -m unittest discover -s content/labs -p 'test_*.py' -v",
+        "limitations": [
+          "בדיקות המעבדה של הדוגמה המקומית עברו בהצלחה. הרחבות שתבנה דורשות בדיקות משלהן.",
+          "לא בוצעה הרצה עם מודל חיצוני או שירות בתשלום."
+        ]
+      }
+    },
+    {
+      "id": "W03D14_RELIABILITY_FAILURE_HANDLING",
+      "week": 3,
+      "day": 14,
+      "title": "טיפול בכשלים וגבולות סוכן",
+      "titleEn": "Reliability & Failure Handling",
+      "version": "2.1.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "TOOL_CALLING",
+        "AGENT_LOOP",
+        "STOPPING_CONDITIONS"
+      ],
+      "prerequisiteLessonIds": [
+        "W03D13_AGENT_LOOP"
+      ],
+      "sourceIds": [
+        "PYTHON_TUTORIAL",
+        "ANTHROPIC_AGENTS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "Learn:\nretries;\ntimeouts;\ninvalid arguments;\ntool errors;\nmaximum iterations;\ninfinite loops;\nbudget constraints.\nFailure Lab\nCreate a looping agent.\nAdd safeguards.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "W03D15_PROJECT_AGENT_FROM_SCRATCH",
+      "week": 3,
+      "day": 15,
+      "title": "פרויקט: סוכן מאפס",
+      "titleEn": "PROJECT — Agent From Scratch",
+      "version": "2.1.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 240,
+      "skillIds": [
+        "TOOL_CALLING",
+        "AGENT_LOOP",
+        "STOPPING_CONDITIONS"
+      ],
+      "prerequisiteLessonIds": [
+        "W03D14_RELIABILITY_FAILURE_HANDLING"
+      ],
+      "sourceIds": [
+        "PYTHON_TUTORIAL",
+        "ANTHROPIC_AGENTS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "Agent From Scratch\nMust contain:\nmultiple tools;\nrouting;\nlimits;\nstructured final result;\nerror recovery;\nexecution logs;\nbudgets.\nFrameworks forbidden.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "W04D16_TASK_DECOMPOSITION",
+      "week": 4,
+      "day": 16,
+      "title": "פירוק משימות מחקר",
+      "titleEn": "Task Decomposition",
+      "version": "2.1.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "PLANNING",
+        "GROUNDING"
+      ],
+      "prerequisiteLessonIds": [
+        "FND_04"
+      ],
+      "sourceIds": [
+        "ANTHROPIC_AGENTS",
+        "OPENAI_TOOLS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "Convert broad research goals into:\nsubquestions;\nactions;\nevidence requirements.\nBuild\nResearch planner.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "W04D17_SEARCH_EVIDENCE",
+      "week": 4,
+      "day": 17,
+      "title": "חיפוש ואיכות ראיות",
+      "titleEn": "Search & Evidence",
+      "version": "2.1.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "PLANNING",
+        "GROUNDING"
+      ],
+      "prerequisiteLessonIds": [
+        "W04D16_TASK_DECOMPOSITION"
+      ],
+      "sourceIds": [
+        "ANTHROPIC_AGENTS",
+        "OPENAI_TOOLS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "Learn:\nsource quality;\nprimary sources;\nsecondary sources;\nfreshness;\ncitations;\ncontradictions.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "W04D18_ITERATIVE_RESEARCH",
+      "week": 4,
+      "day": 18,
+      "title": "מחקר איטרטיבי ותנאי עצירה",
+      "titleEn": "Iterative Research",
+      "version": "2.1.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "PLANNING",
+        "GROUNDING"
+      ],
+      "prerequisiteLessonIds": [
+        "W04D17_SEARCH_EVIDENCE"
+      ],
+      "sourceIds": [
+        "ANTHROPIC_AGENTS",
+        "OPENAI_TOOLS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "Agent determines:\nwhat is known;\nwhat is missing;\nwhether further research is justified;\nwhen research should stop.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "W04D19_RESEARCH_QUALITY",
+      "week": 4,
+      "day": 19,
+      "title": "אימות דוח מחקר",
+      "titleEn": "Research Quality",
+      "version": "2.1.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "PLANNING",
+        "GROUNDING"
+      ],
+      "prerequisiteLessonIds": [
+        "W04D18_ITERATIVE_RESEARCH"
+      ],
+      "sourceIds": [
+        "ANTHROPIC_AGENTS",
+        "OPENAI_TOOLS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "Learn:\ncitation verification;\nduplicate evidence;\ndisagreement;\nmissing evidence.\nBuild\nEvidence table.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "W04D20_BOSS_LEVEL_1_RESEARCH_AGENT",
+      "week": 4,
+      "day": 20,
+      "title": "מבחן מסכם: סוכן מחקר",
+      "titleEn": "BOSS LEVEL 1 — Research Agent",
+      "version": "2.1.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 240,
+      "skillIds": [
+        "PLANNING",
+        "GROUNDING"
+      ],
+      "prerequisiteLessonIds": [
+        "W04D19_RESEARCH_QUALITY"
+      ],
+      "sourceIds": [
+        "ANTHROPIC_AGENTS",
+        "OPENAI_TOOLS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "Research Agent\nStudent receives specification only.\nMust build system that:\naccepts research goal;\nplans;\nsearches;\ngathers evidence;\nrecords sources;\ndetects contradiction;\nperforms follow-up research;\nstops appropriately;\ncreates sourced report.\nMentor operates primarily in hint mode.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "W05D21_DATABASES",
+      "week": 5,
+      "day": 21,
+      "title": "מסדי נתונים ו־SQL",
+      "titleEn": "Databases",
+      "version": "2.1.0",
+      "stability": "FOUNDATION",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "DATABASE",
+        "STATE",
+        "MEMORY"
+      ],
+      "prerequisiteLessonIds": [
+        "W03D15_PROJECT_AGENT_FROM_SCRATCH"
+      ],
+      "sourceIds": [
+        "PYTHON_SQLITE",
+        "POSTGRES_TRANSACTIONS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "Learn:\nSQL;\ntables;\nrows;\nkeys;\nqueries;\nindexes;\ntransactions.\nStart with SQLite.\nIntroduce PostgreSQL concepts.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "W05D22_STATE",
+      "week": 5,
+      "day": 22,
+      "title": "מצב שיחה ומצב תהליך",
+      "titleEn": "State",
+      "version": "2.1.0",
+      "stability": "FOUNDATION",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "DATABASE",
+        "STATE",
+        "MEMORY"
+      ],
+      "prerequisiteLessonIds": [
+        "W05D21_DATABASES"
+      ],
+      "sourceIds": [
+        "PYTHON_SQLITE",
+        "LANGGRAPH_STATE"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "Distinguish:\napplication state;\nconversation state;\nworkflow state;\npersistent data.\nBuild\nStateful conversation system.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "W05D23_AGENT_MEMORY",
+      "week": 5,
+      "day": 23,
+      "title": "סוגי זיכרון לסוכנים",
+      "titleEn": "Agent Memory",
+      "version": "2.1.0",
+      "stability": "FOUNDATION",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "DATABASE",
+        "STATE",
+        "MEMORY"
+      ],
+      "prerequisiteLessonIds": [
+        "FND_04"
+      ],
+      "sourceIds": [
+        "SEARCH_SECURITY",
+        "ANTHROPIC_EVALS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "Distinguish:\nshort-term memory;\nworking state;\nlong-term memory;\nsemantic memory;\nepisodic memory;\nuser preferences.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "W05D24_MEMORY_QUALITY",
+      "week": 5,
+      "day": 24,
+      "title": "איכות ועדכון זיכרון",
+      "titleEn": "Memory Quality",
+      "version": "2.1.0",
+      "stability": "FOUNDATION",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "DATABASE",
+        "STATE",
+        "MEMORY"
+      ],
+      "prerequisiteLessonIds": [
+        "W05D23_AGENT_MEMORY"
+      ],
+      "sourceIds": [
+        "SEARCH_SECURITY",
+        "ANTHROPIC_EVALS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "Problems:\nincorrect memory;\nstale memory;\nduplicate memory;\nprivacy;\nover-personalization.\nBuild\nMemory write policy.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "W05D25_PROJECT_PERSONAL_MEMORY_AGENT",
+      "week": 5,
+      "day": 25,
+      "title": "פרויקט: סוכן זיכרון אישי",
+      "titleEn": "PROJECT — Personal Memory Agent",
+      "version": "2.1.0",
+      "stability": "FOUNDATION",
+      "estimatedMinutes": 240,
+      "skillIds": [
+        "DATABASE",
+        "STATE",
+        "MEMORY"
+      ],
+      "prerequisiteLessonIds": [
+        "W05D24_MEMORY_QUALITY"
+      ],
+      "sourceIds": [
+        "SEARCH_SECURITY",
+        "ANTHROPIC_EVALS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "Personal Memory Agent\nSupports:\nremember;\nretrieve;\nupdate;\nignore;\ndelete.\nAll memory actions auditable.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "W06D26_EMBEDDINGS",
+      "week": 6,
+      "day": 26,
+      "title": "Embeddings ודמיון סמנטי",
+      "titleEn": "Embeddings",
+      "version": "2.1.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "EMBEDDINGS",
+        "RETRIEVAL",
+        "RAG"
+      ],
+      "prerequisiteLessonIds": [
+        "W05D25_PROJECT_PERSONAL_MEMORY_AGENT"
+      ],
+      "sourceIds": [
+        "SEARCH_SECURITY",
+        "ANTHROPIC_EVALS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "Understand semantic similarity.\nBuild embedding experiments.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "W06D27_CHUNKING_VECTOR_RETRIEVAL",
+      "week": 6,
+      "day": 27,
+      "title": "קליטת מסמכים וחלוקה לקטעים",
+      "titleEn": "Chunking & Vector Retrieval",
+      "version": "2.1.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "EMBEDDINGS",
+        "RETRIEVAL",
+        "RAG"
+      ],
+      "prerequisiteLessonIds": [
+        "W06D26_EMBEDDINGS"
+      ],
+      "sourceIds": [
+        "SEARCH_SECURITY",
+        "ANTHROPIC_EVALS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "Learn:\nchunks;\nmetadata;\nindexes;\nvector search.\nTest chunk sizes.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "W06D28_HYBRID_RETRIEVAL_RERANKING",
+      "week": 6,
+      "day": 28,
+      "title": "שליפה משולבת ודירוג מחדש",
+      "titleEn": "Hybrid Retrieval & Reranking",
+      "version": "2.1.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "EMBEDDINGS",
+        "RETRIEVAL",
+        "RAG"
+      ],
+      "prerequisiteLessonIds": [
+        "W06D27_CHUNKING_VECTOR_RETRIEVAL"
+      ],
+      "sourceIds": [
+        "SEARCH_SECURITY",
+        "ANTHROPIC_EVALS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "Learn:\nfilters;\nlexical + semantic search;\ntop-k;\nreranking;\ncontext assembly.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "W06D29_RAG_FAILURE_MODES",
+      "week": 6,
+      "day": 29,
+      "title": "כשלים במערכות RAG",
+      "titleEn": "RAG Failure Modes",
+      "version": "2.1.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "EMBEDDINGS",
+        "RETRIEVAL",
+        "RAG"
+      ],
+      "prerequisiteLessonIds": [
+        "W06D28_HYBRID_RETRIEVAL_RERANKING"
+      ],
+      "sourceIds": [
+        "SEARCH_SECURITY",
+        "ANTHROPIC_EVALS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "Learn:\nwrong retrieval;\nmissing retrieval;\nfalse grounding;\nretrieval contamination;\ncontext overload.\nCreate retrieval eval dataset.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "W06D30_PROJECT_KNOWLEDGE_AGENT",
+      "week": 6,
+      "day": 30,
+      "title": "פרויקט: עוזר ידע ארגוני",
+      "titleEn": "PROJECT — Knowledge Agent",
+      "version": "2.1.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 240,
+      "skillIds": [
+        "EMBEDDINGS",
+        "RETRIEVAL",
+        "RAG"
+      ],
+      "prerequisiteLessonIds": [
+        "W06D29_RAG_FAILURE_MODES"
+      ],
+      "sourceIds": [
+        "SEARCH_SECURITY",
+        "ANTHROPIC_EVALS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "Knowledge Agent\nRequirements:\ningest documents;\nretrieve;\ncite;\nanswer;\nadmit insufficient evidence;\nexpose supporting passages.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "W07D31_PRODUCTION_APIS",
+      "week": 7,
+      "day": 31,
+      "title": "ממשקי API עסקיים",
+      "titleEn": "Production APIs",
+      "version": "2.1.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "HTTP_APIS",
+        "MCP",
+        "HUMAN_APPROVAL"
+      ],
+      "prerequisiteLessonIds": [
+        "W05D22_STATE"
+      ],
+      "sourceIds": [
+        "HTTP_OVERVIEW",
+        "STRIPE_WEBHOOKS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "Learn:\nREST;\nauth;\nOAuth;\nwebhooks;\npagination;\nrate limits.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "W07D32_TOOL_DESIGN",
+      "week": 7,
+      "day": 32,
+      "title": "תכנון כלים עסקיים",
+      "titleEn": "Tool Design",
+      "version": "2.1.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "HTTP_APIS",
+        "MCP",
+        "HUMAN_APPROVAL"
+      ],
+      "prerequisiteLessonIds": [
+        "FND_04"
+      ],
+      "sourceIds": [
+        "N8N_APPROVALS",
+        "STRIPE_WEBHOOKS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "Learn:\ntool granularity;\nnames;\nschemas;\npermissions;\nside effects.\nExercise\nRefactor badly designed tool catalog.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "W07D33_MCP",
+      "week": 7,
+      "day": 33,
+      "title": "MCP: חיבור כלים והקשר",
+      "titleEn": "MCP",
+      "version": "2.1.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "HTTP_APIS",
+        "MCP",
+        "HUMAN_APPROVAL"
+      ],
+      "prerequisiteLessonIds": [
+        "W07D32_TOOL_DESIGN"
+      ],
+      "sourceIds": [
+        "MCP_SPEC"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "Understand:\nclient;\nserver;\ntools;\nresources;\nprompts;\nauthorization;\ntrust boundaries.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "W07D34_SIDE_EFFECTS_PERMISSIONS",
+      "week": 7,
+      "day": 34,
+      "title": "תופעות לוואי והרשאות",
+      "titleEn": "Side Effects & Permissions",
+      "version": "2.1.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "HTTP_APIS",
+        "MCP",
+        "HUMAN_APPROVAL"
+      ],
+      "prerequisiteLessonIds": [
+        "W07D33_MCP"
+      ],
+      "sourceIds": [
+        "N8N_APPROVALS",
+        "STRIPE_WEBHOOKS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "Classify:\nREAD\nWRITE\nDESTRUCTIVE\nHIGH IMPACT\nBuild\nApproval policy.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "W07D35_PROJECT_OPERATIONS_AGENT",
+      "week": 7,
+      "day": 35,
+      "title": "פרויקט: סוכן תפעול",
+      "titleEn": "PROJECT — Operations Agent",
+      "version": "2.1.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 240,
+      "skillIds": [
+        "HTTP_APIS",
+        "MCP",
+        "HUMAN_APPROVAL"
+      ],
+      "prerequisiteLessonIds": [
+        "W07D34_SIDE_EFFECTS_PERMISSIONS"
+      ],
+      "sourceIds": [
+        "N8N_APPROVALS",
+        "STRIPE_WEBHOOKS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "Operations Agent\nExample:\nread request\n↓\nretrieve information\n↓\ninspect files\n↓\nprepare action\n↓\nrequest approval\n↓\nexecute\n↓\nlog",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "W08D36_RESPONSES_API",
+      "week": 8,
+      "day": 36,
+      "title": "אינטגרציה ישירה עם Responses API",
+      "titleEn": "Responses API",
+      "version": "2.1.0",
+      "stability": "ECOSYSTEM",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "AGENT_LOOP",
+        "STATE",
+        "TRACING"
+      ],
+      "prerequisiteLessonIds": [
+        "W04D20_BOSS_LEVEL_1_RESEARCH_AGENT"
+      ],
+      "sourceIds": [
+        "OPENAI_TOOLS",
+        "OPENAI_QUICKSTART"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "Rebuild prior agent using direct model/tool integration.\nUnderstand explicit orchestration.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "W08D37_AGENTS_SDK",
+      "week": 8,
+      "day": 37,
+      "title": "SDK לסוכנים",
+      "titleEn": "Agents SDK",
+      "version": "2.1.0",
+      "stability": "ECOSYSTEM",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "AGENT_LOOP",
+        "STATE",
+        "TRACING"
+      ],
+      "prerequisiteLessonIds": [
+        "W08D36_RESPONSES_API"
+      ],
+      "sourceIds": [
+        "OPENAI_AGENTS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "Learn:\nAgent;\nRunner;\ntools;\nsessions;\nhandoffs;\nresults;\ntracing;\nguardrails.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "W08D38_MANAGED_DURABLE_AGENT_RUNTIME_CONCEPTS",
+      "week": 8,
+      "day": 38,
+      "title": "סביבות הרצה מנוהלות ושמירת מצב",
+      "titleEn": "Managed / Durable Agent Runtime Concepts",
+      "version": "2.1.0",
+      "stability": "ECOSYSTEM",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "AGENT_LOOP",
+        "STATE",
+        "TRACING"
+      ],
+      "prerequisiteLessonIds": [
+        "W08D37_AGENTS_SDK"
+      ],
+      "sourceIds": [
+        "OPENAI_RUNTIME",
+        "OPENAI_DEPRECATIONS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "Understand differences between:\ndirect API;\nSDK runtime;\nmanaged runtime;\ndurable environments.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "W08D39_LANGGRAPH",
+      "week": 8,
+      "day": 39,
+      "title": "תהליכי גרף עם LangGraph",
+      "titleEn": "LangGraph",
+      "version": "2.1.0",
+      "stability": "ECOSYSTEM",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "AGENT_LOOP",
+        "STATE",
+        "TRACING"
+      ],
+      "prerequisiteLessonIds": [
+        "W08D38_MANAGED_DURABLE_AGENT_RUNTIME_CONCEPTS"
+      ],
+      "sourceIds": [
+        "LANGGRAPH_STATE"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "Learn:\ngraphs;\nnodes;\nedges;\nstate;\ncheckpoints;\ninterrupts;\ndurable execution.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "W08D40_BOSS_LEVEL_2_BUILD_ONE_SYSTEM_TWICE",
+      "week": 8,
+      "day": 40,
+      "title": "מבחן מסכם: שתי ארכיטקטורות לאותה מערכת",
+      "titleEn": "BOSS LEVEL 2 — Build one system twice.",
+      "version": "2.1.0",
+      "stability": "ECOSYSTEM",
+      "estimatedMinutes": 240,
+      "skillIds": [
+        "AGENT_LOOP",
+        "STATE",
+        "TRACING"
+      ],
+      "prerequisiteLessonIds": [
+        "W08D39_LANGGRAPH"
+      ],
+      "sourceIds": [
+        "ANTHROPIC_AGENTS",
+        "OPENAI_TOOLS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "Build one system twice.\nVersion A:\ndirect/manual architecture.\nVersion B:\nagent framework/runtime.\nWrite comparison covering:\ncomplexity;\ncontrol;\nobservability;\npersistence;\nmaintainability;\nlock-in;\nsuitability.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "W09D41_DETERMINISTIC_VS_AGENTIC_WORKFLOW",
+      "week": 9,
+      "day": 41,
+      "title": "תהליכים דטרמיניסטיים עם AI",
+      "titleEn": "Deterministic vs Agentic Workflow",
+      "version": "2.1.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "WORKFLOWS",
+        "ROUTERS",
+        "DURABLE_EXECUTION"
+      ],
+      "prerequisiteLessonIds": [
+        "W08D40_BOSS_LEVEL_2_BUILD_ONE_SYSTEM_TWICE"
+      ],
+      "sourceIds": [
+        "ANTHROPIC_AGENTS",
+        "OPENAI_TOOLS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "Teach principle:\nIf traditional software can reliably make a decision, it often should.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "W09D42_ROUTERS",
+      "week": 9,
+      "day": 42,
+      "title": "ניתוב פניות",
+      "titleEn": "Routers",
+      "version": "2.1.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "WORKFLOWS",
+        "ROUTERS",
+        "DURABLE_EXECUTION"
+      ],
+      "prerequisiteLessonIds": [
+        "W09D41_DETERMINISTIC_VS_AGENTIC_WORKFLOW"
+      ],
+      "sourceIds": [
+        "ANTHROPIC_AGENTS",
+        "OPENAI_TOOLS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "Build request router.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "W09D43_PARALLEL_WORK",
+      "week": 9,
+      "day": 43,
+      "title": "עבודה במקביל",
+      "titleEn": "Parallel Work",
+      "version": "2.1.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "WORKFLOWS",
+        "ROUTERS",
+        "DURABLE_EXECUTION"
+      ],
+      "prerequisiteLessonIds": [
+        "W09D42_ROUTERS"
+      ],
+      "sourceIds": [
+        "PYTHON_ASYNC"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "Learn:\nasync;\nconcurrency;\nfan-out;\nfan-in.\nBuild multiple parallel workers/agents.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "W09D44_LONG_RUNNING_WORKFLOWS",
+      "week": 9,
+      "day": 44,
+      "title": "תהליכים ארוכים והתאוששות",
+      "titleEn": "Long-Running Workflows",
+      "version": "2.1.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "WORKFLOWS",
+        "ROUTERS",
+        "DURABLE_EXECUTION"
+      ],
+      "prerequisiteLessonIds": [
+        "W09D43_PARALLEL_WORK"
+      ],
+      "sourceIds": [
+        "LANGGRAPH_STATE",
+        "STRIPE_WEBHOOKS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "Learn:\ncheckpoints;\nresumability;\nidempotency;\nrecovery.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "W09D45_PROJECT_DURABLE_WORKFLOW_AGENT",
+      "week": 9,
+      "day": 45,
+      "title": "פרויקט: תהליך עבודה שנמשך לאחר תקלה",
+      "titleEn": "PROJECT — Durable Workflow Agent",
+      "version": "2.1.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 240,
+      "skillIds": [
+        "WORKFLOWS",
+        "ROUTERS",
+        "DURABLE_EXECUTION"
+      ],
+      "prerequisiteLessonIds": [
+        "W09D44_LONG_RUNNING_WORKFLOWS"
+      ],
+      "sourceIds": [
+        "LANGGRAPH_STATE",
+        "STRIPE_WEBHOOKS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "Durable Workflow Agent\nStart task.\nInterrupt system.\nRestart.\nResume correctly.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "W10D46_WHEN_MULTI_AGENT_MAKES_SENSE",
+      "week": 10,
+      "day": 46,
+      "title": "מתי כמה סוכנים מועילים?",
+      "titleEn": "When Multi-Agent Makes Sense",
+      "version": "2.1.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "MANAGER",
+        "HANDOFFS",
+        "COORDINATION"
+      ],
+      "prerequisiteLessonIds": [
+        "W09D45_PROJECT_DURABLE_WORKFLOW_AGENT"
+      ],
+      "sourceIds": [
+        "ANTHROPIC_AGENTS",
+        "OPENAI_TOOLS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "Benefits:\nspecialization;\nisolation;\nparallelism;\nownership.\nCosts:\nlatency;\ncost;\ncoordination complexity;\nnondeterminism.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "W10D47_MANAGER_PATTERN",
+      "week": 10,
+      "day": 47,
+      "title": "מנהל ומומחים",
+      "titleEn": "Manager Pattern",
+      "version": "2.1.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "MANAGER",
+        "HANDOFFS",
+        "COORDINATION"
+      ],
+      "prerequisiteLessonIds": [
+        "W10D46_WHEN_MULTI_AGENT_MAKES_SENSE"
+      ],
+      "sourceIds": [
+        "ANTHROPIC_AGENTS",
+        "OPENAI_TOOLS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "Manager remains responsible for outcome.\nSpecialists act as workers/tools.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "W10D48_HANDOFFS",
+      "week": 10,
+      "day": 48,
+      "title": "העברת אחריות בין סוכנים",
+      "titleEn": "Handoffs",
+      "version": "2.1.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "MANAGER",
+        "HANDOFFS",
+        "COORDINATION"
+      ],
+      "prerequisiteLessonIds": [
+        "W10D47_MANAGER_PATTERN"
+      ],
+      "sourceIds": [
+        "ANTHROPIC_AGENTS",
+        "OPENAI_TOOLS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "Transfer ownership to specialist.\nCompare:\nmanager vs handoff.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "W10D49_SHARED_STATE_COORDINATION",
+      "week": 10,
+      "day": 49,
+      "title": "מצב משותף ותיאום",
+      "titleEn": "Shared State & Coordination",
+      "version": "2.1.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "MANAGER",
+        "HANDOFFS",
+        "COORDINATION"
+      ],
+      "prerequisiteLessonIds": [
+        "AGT_01"
+      ],
+      "sourceIds": [
+        "ANTHROPIC_AGENTS",
+        "OPENAI_TOOLS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "Learn:\ncontracts;\nconflict resolution;\nreview patterns;\ncritic patterns.\nAvoid pointless “agent debate”.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "W10D50_PROJECT_AI_COMPANY",
+      "week": 10,
+      "day": 50,
+      "title": "פרויקט: צוות AI עסקי",
+      "titleEn": "PROJECT — AI Company",
+      "version": "2.1.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 240,
+      "skillIds": [
+        "MANAGER",
+        "HANDOFFS",
+        "COORDINATION"
+      ],
+      "prerequisiteLessonIds": [
+        "W10D49_SHARED_STATE_COORDINATION"
+      ],
+      "sourceIds": [
+        "ANTHROPIC_AGENTS",
+        "OPENAI_TOOLS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "AI Company\nMinimum:\nOrchestrator;\nResearch Specialist;\nDomain Specialist;\nExecution Specialist;\nReviewer.\nRequirements:\nparallel task;\nsequential task;\ndelegation;\nshared contracts;\nfailure handling.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "W11D51_WHY_DEMOS_LIE",
+      "week": 11,
+      "day": 51,
+      "title": "למה הדגמה אינה בדיקת איכות?",
+      "titleEn": "Why Demos Lie",
+      "version": "2.1.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "EVALS",
+        "TRACING",
+        "TESTING"
+      ],
+      "prerequisiteLessonIds": [
+        "W07D31_PRODUCTION_APIS"
+      ],
+      "sourceIds": [
+        "PYTHON_TUTORIAL",
+        "ANTHROPIC_AGENTS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "Define formal success criteria.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "W11D52_EVALUATION_DATASET_DESIGN",
+      "week": 11,
+      "day": 52,
+      "title": "תכנון נתוני הערכה",
+      "titleEn": "Evaluation Dataset Design",
+      "version": "2.1.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "EVALS",
+        "TRACING",
+        "TESTING"
+      ],
+      "prerequisiteLessonIds": [
+        "FND_04"
+      ],
+      "sourceIds": [
+        "ANTHROPIC_EVALS",
+        "PROMPTFOO_TESTS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "Include:\nnormal cases;\nedge cases;\nadversarial cases;\nhistorical failures.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "W11D53_GRADERS",
+      "week": 11,
+      "day": 53,
+      "title": "מחוונים ושופטים",
+      "titleEn": "Graders",
+      "version": "2.1.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "EVALS",
+        "TRACING",
+        "TESTING"
+      ],
+      "prerequisiteLessonIds": [
+        "W11D52_EVALUATION_DATASET_DESIGN"
+      ],
+      "sourceIds": [
+        "ANTHROPIC_EVALS",
+        "PROMPTFOO_TESTS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "Learn:\ndeterministic graders;\nAI graders;\nhuman labels;\npairwise comparison.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "W11D54_TRACING",
+      "week": 11,
+      "day": 54,
+      "title": "תיעוד ריצות וניטור",
+      "titleEn": "Tracing",
+      "version": "2.1.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "EVALS",
+        "TRACING",
+        "TESTING"
+      ],
+      "prerequisiteLessonIds": [
+        "W11D53_GRADERS"
+      ],
+      "sourceIds": [
+        "OTEL"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "Observe:\nmodel calls;\ntools;\nlatency;\nfailures;\nhandoffs;\nstate transitions.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "W11D55_PROJECT_AGENT_QUALITY_LAB",
+      "week": 11,
+      "day": 55,
+      "title": "פרויקט: מעבדת איכות לסוכן",
+      "titleEn": "PROJECT — Agent Quality Lab",
+      "version": "2.1.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 240,
+      "skillIds": [
+        "EVALS",
+        "TRACING",
+        "TESTING"
+      ],
+      "prerequisiteLessonIds": [
+        "W11D54_TRACING"
+      ],
+      "sourceIds": [
+        "ANTHROPIC_EVALS",
+        "OWASP_GENAI"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "Agent Quality Lab\nTake prior agent.\nCreate:\neval dataset;\nbaseline;\ngrader;\ntrace review;\nfailure taxonomy.\nImprove agent.\nRun again.\nDemonstrate improvement.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "W12D56_PROMPT_INJECTION",
+      "week": 12,
+      "day": 56,
+      "title": "הזרקת הוראות זדוניות",
+      "titleEn": "Prompt Injection",
+      "version": "2.1.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "PROMPT_INJECTION",
+        "AUTHORIZATION",
+        "HUMAN_APPROVAL"
+      ],
+      "prerequisiteLessonIds": [
+        "W11D55_PROJECT_AGENT_QUALITY_LAB"
+      ],
+      "sourceIds": [
+        "ANTHROPIC_EVALS",
+        "OWASP_GENAI"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "Learn:\ndirect injection;\nindirect injection;\nuntrusted content.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "W12D57_TOOL_ATTACKS",
+      "week": 12,
+      "day": 57,
+      "title": "תקיפות כלים וחשיפת מידע",
+      "titleEn": "Tool Attacks",
+      "version": "2.1.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "PROMPT_INJECTION",
+        "AUTHORIZATION",
+        "HUMAN_APPROVAL"
+      ],
+      "prerequisiteLessonIds": [
+        "W12D56_PROMPT_INJECTION"
+      ],
+      "sourceIds": [
+        "ANTHROPIC_EVALS",
+        "OWASP_GENAI"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "Learn:\nmalicious arguments;\ndata exfiltration;\nover-permissioning;\ncredential exposure.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "W12D58_AUTHENTICATION_AUTHORIZATION",
+      "week": 12,
+      "day": 58,
+      "title": "זהות, הרשאה ובידוד לקוחות",
+      "titleEn": "Authentication & Authorization",
+      "version": "2.1.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "PROMPT_INJECTION",
+        "AUTHORIZATION",
+        "HUMAN_APPROVAL"
+      ],
+      "prerequisiteLessonIds": [
+        "W11D51_WHY_DEMOS_LIE"
+      ],
+      "sourceIds": [
+        "SEARCH_SECURITY",
+        "OWASP_GENAI"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "Understand:\nidentity;\nauthentication;\nauthorization;\nleast privilege;\ntenant isolation;\nsecrets.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "W12D59_HUMAN_IN_THE_LOOP",
+      "week": 12,
+      "day": 59,
+      "title": "אישור אנושי וחידוש תהליך",
+      "titleEn": "Human-in-the-Loop",
+      "version": "2.1.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "PROMPT_INJECTION",
+        "AUTHORIZATION",
+        "HUMAN_APPROVAL"
+      ],
+      "prerequisiteLessonIds": [
+        "W12D57_TOOL_ATTACKS"
+      ],
+      "sourceIds": [
+        "N8N_APPROVALS",
+        "LANGGRAPH_STATE"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "Implement:\napproval;\nedit;\nreject;\nresume.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "W12D60_BOSS_LEVEL_3_RED_TEAM",
+      "week": 12,
+      "day": 60,
+      "title": "מבחן מסכם: בדיקת תקיפה ותיקון",
+      "titleEn": "BOSS LEVEL 3 — Red Team",
+      "version": "2.1.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 240,
+      "skillIds": [
+        "PROMPT_INJECTION",
+        "AUTHORIZATION",
+        "HUMAN_APPROVAL"
+      ],
+      "prerequisiteLessonIds": [
+        "W12D59_HUMAN_IN_THE_LOOP"
+      ],
+      "sourceIds": [
+        "ANTHROPIC_EVALS",
+        "OWASP_GENAI"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "Red Team\nAttack AI Company with:\nprompt injection;\nmalicious file instructions;\nmalicious tool argument;\nprivilege escalation;\nsecret extraction;\ninfinite loop;\nbad API response.\nPatch vulnerabilities.\nCreate regression tests.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "W13D61_BACKEND_APIS",
+      "week": 13,
+      "day": 61,
+      "title": "ממשקי API בצד השרת",
+      "titleEn": "Backend APIs",
+      "version": "2.1.0",
+      "stability": "FOUNDATION",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "BACKEND",
+        "DATABASE",
+        "QUEUES"
+      ],
+      "prerequisiteLessonIds": [
+        "FND_04"
+      ],
+      "sourceIds": [
+        "FASTAPI"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "Learn:\nroutes;\nvalidation;\nresponses;\nFastAPI or equivalent.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "W13D62_PRODUCTION_DATABASES",
+      "week": 13,
+      "day": 62,
+      "title": "PostgreSQL ונתונים לפרודקשן",
+      "titleEn": "Production Databases",
+      "version": "2.1.0",
+      "stability": "FOUNDATION",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "BACKEND",
+        "DATABASE",
+        "QUEUES"
+      ],
+      "prerequisiteLessonIds": [
+        "W13D61_BACKEND_APIS"
+      ],
+      "sourceIds": [
+        "POSTGRES_TRANSACTIONS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "Learn:\nPostgreSQL;\nmigrations;\ntransactions;\nindexing.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "W13D63_QUEUES_WORKERS",
+      "week": 13,
+      "day": 63,
+      "title": "תורים ועובדים",
+      "titleEn": "Queues & Workers",
+      "version": "2.1.0",
+      "stability": "FOUNDATION",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "BACKEND",
+        "DATABASE",
+        "QUEUES"
+      ],
+      "prerequisiteLessonIds": [
+        "W13D62_PRODUCTION_DATABASES"
+      ],
+      "sourceIds": [
+        "STRIPE_WEBHOOKS",
+        "OTEL"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "Learn:\njobs;\nbackground tasks;\nretries;\ndead-letter patterns.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "W13D64_STREAMING",
+      "week": 13,
+      "day": 64,
+      "title": "Streaming ואירועי ריצה",
+      "titleEn": "Streaming",
+      "version": "2.1.0",
+      "stability": "FOUNDATION",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "BACKEND",
+        "DATABASE",
+        "QUEUES"
+      ],
+      "prerequisiteLessonIds": [
+        "W13D63_QUEUES_WORKERS"
+      ],
+      "sourceIds": [
+        "HTTP_OVERVIEW",
+        "FASTAPI"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "Learn:\nstreaming output;\nevents;\nrun status;\nprogress state.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "W13D65_PROJECT_CONVERT_AGENT_INTO_API_SERVICE",
+      "week": 13,
+      "day": 65,
+      "title": "פרויקט: שירות Agent API",
+      "titleEn": "PROJECT — Convert agent into API service.",
+      "version": "2.1.0",
+      "stability": "FOUNDATION",
+      "estimatedMinutes": 240,
+      "skillIds": [
+        "BACKEND",
+        "DATABASE",
+        "QUEUES"
+      ],
+      "prerequisiteLessonIds": [
+        "W13D64_STREAMING"
+      ],
+      "sourceIds": [
+        "FASTAPI",
+        "OTEL"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "Convert agent into API service.\nRequirements:\nauthentication;\npersistence;\njob tracking;\nerror responses;\nlogs.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "W14D66_FRONTEND_FUNDAMENTALS",
+      "week": 14,
+      "day": 66,
+      "title": "React ו־Next.js למערכות AI",
+      "titleEn": "Frontend Fundamentals",
+      "version": "2.1.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "DEPLOYMENT",
+        "MONITORING"
+      ],
+      "prerequisiteLessonIds": [
+        "W13D65_PROJECT_CONVERT_AGENT_INTO_API_SERVICE"
+      ],
+      "sourceIds": [
+        "REACT",
+        "NEXTJS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "Learn:\nReact;\nNext.js;\ncomponents;\nstate;\nAPI interaction.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "W14D67_AGENT_UI",
+      "week": 14,
+      "day": 67,
+      "title": "ממשק לסוכן ולפעולותיו",
+      "titleEn": "Agent UI",
+      "version": "2.1.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "DEPLOYMENT",
+        "MONITORING"
+      ],
+      "prerequisiteLessonIds": [
+        "W14D66_FRONTEND_FUNDAMENTALS"
+      ],
+      "sourceIds": [
+        "REACT",
+        "N8N_APPROVALS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "Build:\nchat;\nrun view;\ntool activity;\napprovals.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "W14D68_DEPLOYMENT",
+      "week": 14,
+      "day": 68,
+      "title": "פריסה וסביבות",
+      "titleEn": "Deployment",
+      "version": "2.1.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "DEPLOYMENT",
+        "MONITORING"
+      ],
+      "prerequisiteLessonIds": [
+        "W14D67_AGENT_UI"
+      ],
+      "sourceIds": [
+        "DOCKER",
+        "NEXTJS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "Learn:\nDocker;\ncloud environments;\nenvironment variables;\ndomains;\nHTTPS.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "W14D69_PRODUCTION_CONCERNS",
+      "week": 14,
+      "day": 69,
+      "title": "עלות, ביצועים וניטור",
+      "titleEn": "Production Concerns",
+      "version": "2.1.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "DEPLOYMENT",
+        "MONITORING"
+      ],
+      "prerequisiteLessonIds": [
+        "W14D68_DEPLOYMENT"
+      ],
+      "sourceIds": [
+        "OTEL",
+        "OPENAI_DATA"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "Learn:\nmonitoring;\nbudgets;\nusage;\ncaching;\nlatency;\nrate limits;\nmodel routing.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "W14D70_PROJECT_AGENT_SAAS",
+      "week": 14,
+      "day": 70,
+      "title": "פרויקט: מוצר AI עסקי",
+      "titleEn": "PROJECT — Agent SaaS",
+      "version": "2.1.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 240,
+      "skillIds": [
+        "DEPLOYMENT",
+        "MONITORING"
+      ],
+      "prerequisiteLessonIds": [
+        "W14D69_PRODUCTION_CONCERNS"
+      ],
+      "sourceIds": [
+        "FASTAPI",
+        "OTEL"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "Agent SaaS\nContains:\nfrontend;\nbackend;\nauthentication;\npersistent data;\nagent;\ntools;\ndeployment;\nmonitoring.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "W15D71_BROWSER_COMPUTER_AGENTS",
+      "week": 15,
+      "day": 71,
+      "title": "סוכני דפדפן ומחשב",
+      "titleEn": "Browser & Computer Agents",
+      "version": "2.1.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "COMPUTER_USE",
+        "SANDBOX_AGENTS",
+        "CODING_AGENTS"
+      ],
+      "prerequisiteLessonIds": [
+        "W10D50_PROJECT_AI_COMPANY"
+      ],
+      "sourceIds": [
+        "ANTHROPIC_AGENTS",
+        "OWASP_GENAI"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "Understand observation/action loops.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "W15D72_CODE_SANDBOX_AGENTS",
+      "week": 15,
+      "day": 72,
+      "title": "Sandbox וסוכני קוד",
+      "titleEn": "Code & Sandbox Agents",
+      "version": "2.1.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "COMPUTER_USE",
+        "SANDBOX_AGENTS",
+        "CODING_AGENTS"
+      ],
+      "prerequisiteLessonIds": [
+        "W15D71_BROWSER_COMPUTER_AGENTS"
+      ],
+      "sourceIds": [
+        "DOCKER",
+        "OWASP_GENAI"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "Learn:\nfiles;\nshell;\npackages;\nisolated execution;\nsecurity boundaries.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "W15D73_DYNAMIC_TOOLS",
+      "week": 15,
+      "day": 73,
+      "title": "גילוי כלים דינמי",
+      "titleEn": "Dynamic Tools",
+      "version": "2.1.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "COMPUTER_USE",
+        "SANDBOX_AGENTS",
+        "CODING_AGENTS"
+      ],
+      "prerequisiteLessonIds": [
+        "W15D72_CODE_SANDBOX_AGENTS"
+      ],
+      "sourceIds": [
+        "MCP_SPEC",
+        "OPENAI_TOOLS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "Learn:\ntool search;\nlarge catalogs;\ndeferred tools;\ndynamic capability discovery.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "W15D74_AGENTIC_CODING",
+      "week": 15,
+      "day": 74,
+      "title": "סוכן כתיבת קוד מבוקר",
+      "titleEn": "Agentic Coding",
+      "version": "2.1.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "COMPUTER_USE",
+        "SANDBOX_AGENTS",
+        "CODING_AGENTS"
+      ],
+      "prerequisiteLessonIds": [
+        "W15D73_DYNAMIC_TOOLS"
+      ],
+      "sourceIds": [
+        "ANTHROPIC_AGENTS",
+        "OPENAI_TOOLS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "Learn loop:\nPlan\n↓\nEdit\n↓\nTest\n↓\nInspect\n↓\nRepair\nBuild controlled coding agent.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "W15D75_PROJECT_AUTONOMOUS_WORKFLOW",
+      "week": 15,
+      "day": 75,
+      "title": "פרויקט: תהליך אוטונומי מבוקר",
+      "titleEn": "PROJECT — Autonomous Workflow",
+      "version": "2.1.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 240,
+      "skillIds": [
+        "COMPUTER_USE",
+        "SANDBOX_AGENTS",
+        "CODING_AGENTS"
+      ],
+      "prerequisiteLessonIds": [
+        "W15D74_AGENTIC_CODING"
+      ],
+      "sourceIds": [
+        "ANTHROPIC_AGENTS",
+        "OPENAI_TOOLS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "Autonomous Workflow\nMust use several:\nplanning;\nfiles;\nexternal tools;\ncode;\nbrowser;\nvalidation;\nhuman checkpoint;\nartifact creation.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "W16D76_DISCOVERY",
+      "week": 16,
+      "day": 76,
+      "title": "פרויקט גמר: גילוי צרכים",
+      "titleEn": "Discovery",
+      "version": "2.1.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "AGENT_LOOP",
+        "EVALS",
+        "DEPLOYMENT",
+        "AUTHORIZATION"
+      ],
+      "prerequisiteLessonIds": [
+        "FND_04",
+        "BIZ_06",
+        "W12D60_BOSS_LEVEL_3_RED_TEAM",
+        "W14D70_PROJECT_AGENT_SAAS",
+        "AUT_08"
+      ],
+      "sourceIds": [
+        "OWASP_GENAI",
+        "ANTHROPIC_EVALS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "Receive business problem.\nProduce:\nrequirements;\nconstraints;\nrisks;\nsuccess metrics.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "W16D77_ARCHITECTURE",
+      "week": 16,
+      "day": 77,
+      "title": "פרויקט גמר: ארכיטקטורה",
+      "titleEn": "Architecture",
+      "version": "2.1.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "AGENT_LOOP",
+        "EVALS",
+        "DEPLOYMENT",
+        "AUTHORIZATION"
+      ],
+      "prerequisiteLessonIds": [
+        "W16D76_DISCOVERY"
+      ],
+      "sourceIds": [
+        "OWASP_GENAI",
+        "ANTHROPIC_EVALS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "Answer:\nwhy AI?\nwhy agent?\nwhy this runtime?\nwhy these tools?\nwhere is state?\nwhere is approval?\nhow does failure recovery work?",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "W16D78_BUILD",
+      "week": 16,
+      "day": 78,
+      "title": "פרויקט גמר: בנייה",
+      "titleEn": "Build",
+      "version": "2.1.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "AGENT_LOOP",
+        "EVALS",
+        "DEPLOYMENT",
+        "AUTHORIZATION"
+      ],
+      "prerequisiteLessonIds": [
+        "W16D77_ARCHITECTURE"
+      ],
+      "sourceIds": [
+        "OWASP_GENAI",
+        "ANTHROPIC_EVALS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "Implement core system.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "W16D79_HARDEN",
+      "week": 16,
+      "day": 79,
+      "title": "פרויקט גמר: הקשחה",
+      "titleEn": "Harden",
+      "version": "2.1.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "AGENT_LOOP",
+        "EVALS",
+        "DEPLOYMENT",
+        "AUTHORIZATION"
+      ],
+      "prerequisiteLessonIds": [
+        "W16D78_BUILD"
+      ],
+      "sourceIds": [
+        "OWASP_GENAI",
+        "ANTHROPIC_EVALS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "Run:\nsecurity checks;\nevals;\nperformance tests;\ntrace review;\nfailure recovery tests.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "W16D80_FINAL_BOSS_DEMONSTRATE_FULL_SOLUTION",
+      "week": 16,
+      "day": 80,
+      "title": "מבחן גמר: פתרון עסקי מלא",
+      "titleEn": "FINAL BOSS — Demonstrate full solution.",
+      "version": "2.1.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 240,
+      "skillIds": [
+        "AGENT_LOOP",
+        "EVALS",
+        "DEPLOYMENT",
+        "AUTHORIZATION"
+      ],
+      "prerequisiteLessonIds": [
+        "W16D79_HARDEN"
+      ],
+      "sourceIds": [
+        "OWASP_GENAI",
+        "ANTHROPIC_EVALS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "Demonstrate full solution.\nStudent must:\nrun live scenarios;\nexplain traces;\nhandle failure;\nshow eval results;\njustify architecture;\nadapt system to one changed requirement live.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "FND_01",
+      "title": "מפת עולם ה־AI",
+      "titleEn": "FND 01",
+      "version": "2.1.0",
+      "stability": "FOUNDATION",
+      "estimatedMinutes": 150,
+      "skillIds": [
+        "AI_FUNDAMENTALS",
+        "MODEL_SELECTION",
+        "EVALS"
+      ],
+      "prerequisiteLessonIds": [],
+      "sourceIds": [
+        "GOOGLE_ML",
+        "ANTHROPIC_AGENTS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "מפה שמונה צרכים בעסק. לכל אחד בחר פתרון בסיסי: כללים, SQL, חיפוש, מודל חיזוי או מודל גנרטיבי. כתוב איזה קלט נדרש, איזו תוצאה רצויה ומי אחראי לבדוק אותה.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "FND_02",
+      "title": "בחירת מודלים לפי מדידה",
+      "titleEn": "FND 02",
+      "version": "2.1.0",
+      "stability": "ECOSYSTEM",
+      "estimatedMinutes": 150,
+      "skillIds": [
+        "AI_FUNDAMENTALS",
+        "MODEL_SELECTION",
+        "EVALS"
+      ],
+      "prerequisiteLessonIds": [
+        "W02D06_HOW_LLM_APPLICATIONS_WORK"
+      ],
+      "sourceIds": [
+        "ANTHROPIC_EVALS",
+        "OPENAI_DATA"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "השווה מודלים על סיווג, חילוץ וסיכום. שמור בטבלה את מזהי המודלים, הגרסאות, הקלטים והתוצאות. השתמש רק בשירותים שיש לך גישה אליהם ותעד את המגבלות.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "FND_03",
+      "title": "מסמכים, תמונות וקול כקלט",
+      "titleEn": "FND 03",
+      "version": "2.1.0",
+      "stability": "ECOSYSTEM",
+      "estimatedMinutes": 150,
+      "skillIds": [
+        "AI_FUNDAMENTALS",
+        "MODEL_SELECTION",
+        "EVALS"
+      ],
+      "prerequisiteLessonIds": [
+        "W02D09_MODEL_RELIABILITY"
+      ],
+      "sourceIds": [
+        "GEMINI_DOCUMENTS",
+        "OPENAI_AUDIO"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "הכן אותה פנייה בשלוש צורות: טקסט, PDF והקלטה. חלץ את הפרטים לאותו מבנה וצרף לכל פרט את המקור שלו. השתמש בקבצים שהומצאו לתרגול.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "FND_04",
+      "title": "מיפוי צורך עסקי ופיילוט",
+      "titleEn": "FND 04",
+      "version": "2.1.0",
+      "stability": "ECOSYSTEM",
+      "estimatedMinutes": 150,
+      "skillIds": [
+        "AI_FUNDAMENTALS",
+        "MODEL_SELECTION",
+        "EVALS"
+      ],
+      "prerequisiteLessonIds": [
+        "W12D58_AUTHENTICATION_AUTHORIZATION"
+      ],
+      "sourceIds": [
+        "PYTHON_TUTORIAL",
+        "ANTHROPIC_AGENTS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "אפיין תהליך לקליטת פניות: כיצד מטפלים בהן היום, מה רוצים לשפר, איך מודדים זאת ואילו נתונים נדרשים. ציין מגבלות והפרד בין עובדות לבין הנחות.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "AGT_01",
+      "title": "MCP, ‏A2A ותקשורת בין סוכנים",
+      "titleEn": "AGT 01",
+      "version": "2.1.0",
+      "stability": "ECOSYSTEM",
+      "estimatedMinutes": 150,
+      "skillIds": [
+        "MCP",
+        "COORDINATION"
+      ],
+      "prerequisiteLessonIds": [
+        "W10D48_HANDOFFS"
+      ],
+      "sourceIds": [
+        "MCP_SPEC",
+        "A2A_SPEC"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "חבר שני שירותים במשימת מחקר. תן למשימה מזהה, מצב ותוצאה. בדוק את כרטיס הסוכן (Agent Card), שמתאר את יכולות השירות, לפי גרסת המפרט שבחרת.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "AUT_01",
+      "title": "אוטומציה ראשונה ב־n8n",
+      "titleEn": "AUT 01",
+      "version": "2.1.0",
+      "stability": "ECOSYSTEM",
+      "estimatedMinutes": 150,
+      "skillIds": [
+        "WORKFLOWS",
+        "HTTP_APIS",
+        "HUMAN_APPROVAL"
+      ],
+      "prerequisiteLessonIds": [
+        "W07D35_PROJECT_OPERATIONS_AGENT"
+      ],
+      "sourceIds": [
+        "N8N_WEBHOOK",
+        "N8N_APPROVALS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "בנה טופס → בדיקת שדות → יצירת משימת מעקב. אחרי כל שלב (Node) בדוק אילו נתונים התקבלו. שמור קובץ יצוא של התהליך בלי סודות.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "AUT_02",
+      "title": "חיבור גיליון, דוא״ל ומערכת CRM",
+      "titleEn": "AUT 02",
+      "version": "2.1.0",
+      "stability": "ECOSYSTEM",
+      "estimatedMinutes": 150,
+      "skillIds": [
+        "WORKFLOWS",
+        "HTTP_APIS",
+        "HUMAN_APPROVAL"
+      ],
+      "prerequisiteLessonIds": [
+        "AUT_01"
+      ],
+      "sourceIds": [
+        "N8N_WEBHOOK",
+        "HUBSPOT_WEBHOOKS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "חבר פנייה בגיליון לרשומת לקוח ולמשימה במערכת CRM של בדיקה. שמור מזהה קבוע למקור הפנייה, כדי לזהות אותה גם בסנכרון הבא.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "AUT_03",
+      "title": "שלב AI בתוך תהליך קבוע",
+      "titleEn": "AUT 03",
+      "version": "2.1.0",
+      "stability": "ECOSYSTEM",
+      "estimatedMinutes": 150,
+      "skillIds": [
+        "WORKFLOWS",
+        "HTTP_APIS",
+        "HUMAN_APPROVAL"
+      ],
+      "prerequisiteLessonIds": [
+        "AUT_02"
+      ],
+      "sourceIds": [
+        "OPENAI_SCHEMA",
+        "N8N_APPROVALS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "הוסף שלב שמסווג פניות ומחלץ מהן פרטים. בדוק את התוצאה לפני שבוחרים מסלול: מכירות (sales), תמיכה (support) או בדיקה נוספת (review).",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "AUT_04",
+      "title": "כשלים, ניסיונות חוזרים וכפילויות",
+      "titleEn": "AUT 04",
+      "version": "2.1.0",
+      "stability": "ECOSYSTEM",
+      "estimatedMinutes": 150,
+      "skillIds": [
+        "WORKFLOWS",
+        "HTTP_APIS",
+        "HUMAN_APPROVAL"
+      ],
+      "prerequisiteLessonIds": [
+        "AUT_03"
+      ],
+      "sourceIds": [
+        "STRIPE_WEBHOOKS",
+        "POSTGRES_TRANSACTIONS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "בנה תהליך לטיפול בשגיאות (Error Workflow). שמור event_id, status ומספר ניסיונות. תעד כשלים שלא נפתרו כדי שאפשר יהיה לחזור אליהם.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "AUT_05",
+      "title": "אישור אנושי בתהליך חזותי",
+      "titleEn": "AUT 05",
+      "version": "2.1.0",
+      "stability": "ECOSYSTEM",
+      "estimatedMinutes": 150,
+      "skillIds": [
+        "WORKFLOWS",
+        "HTTP_APIS",
+        "HUMAN_APPROVAL"
+      ],
+      "prerequisiteLessonIds": [
+        "AUT_04"
+      ],
+      "sourceIds": [
+        "N8N_APPROVALS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "הוסף לטיוטת התשובה approve, edit ו־reject: אישור, עריכה ודחייה. שמור את גרסת הטיוטה ואת זהות האדם שאישר אותה.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "AUT_06",
+      "title": "העברת תהליך ל־Make",
+      "titleEn": "AUT 06",
+      "version": "2.1.0",
+      "stability": "ECOSYSTEM",
+      "estimatedMinutes": 150,
+      "skillIds": [
+        "WORKFLOWS",
+        "HTTP_APIS",
+        "HUMAN_APPROVAL"
+      ],
+      "prerequisiteLessonIds": [
+        "AUT_05"
+      ],
+      "sourceIds": [
+        "MAKE_AGENTS",
+        "N8N_EVALS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "העבר תהליך קטן מ־n8n ל־Make. הרץ אותו על אותם נתוני בדיקה (Dataset), עם אותו מבנה קלט ופלט. בדוק מה נשמר ומה דורש שינוי.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "AUT_07",
+      "title": "הטמעה בסביבת Microsoft 365",
+      "titleEn": "AUT 07",
+      "version": "2.1.0",
+      "stability": "ECOSYSTEM",
+      "estimatedMinutes": 150,
+      "skillIds": [
+        "WORKFLOWS",
+        "HTTP_APIS",
+        "HUMAN_APPROVAL"
+      ],
+      "prerequisiteLessonIds": [
+        "AUT_06"
+      ],
+      "sourceIds": [
+        "COPILOT",
+        "POWER_DLP"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "תכנן פיילוט ב־Teams או ב־SharePoint בעזרת Power Automate או Copilot Studio. כתוב אילו חשבונות והרשאות נדרשים. הרץ רק בסביבת בדיקה שמותר לך להשתמש בה.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "AUT_08",
+      "title": "מבחן מסכם: מערכת אוטומציה עסקית",
+      "titleEn": "AUT 08",
+      "version": "2.1.0",
+      "stability": "ECOSYSTEM",
+      "estimatedMinutes": 150,
+      "skillIds": [
+        "WORKFLOWS",
+        "HTTP_APIS",
+        "HUMAN_APPROVAL"
+      ],
+      "prerequisiteLessonIds": [
+        "AUT_07"
+      ],
+      "sourceIds": [
+        "N8N_APPROVALS",
+        "STRIPE_WEBHOOKS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "בנה פנייה → CRM → משימה → טיוטה → אישור. הגש יצוא של התהליך, נתוני בדיקה (Dataset) ומדריך תפעול (Runbook) שמסביר הפעלה וטיפול בתקלות.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "MKT_01",
+      "title": "בריף מותג וקהל",
+      "titleEn": "MKT 01",
+      "version": "2.1.0",
+      "stability": "ECOSYSTEM",
+      "estimatedMinutes": 150,
+      "skillIds": [
+        "CONTENT_PIPELINES",
+        "GROUNDING"
+      ],
+      "prerequisiteLessonIds": [
+        "FND_04",
+        "AUT_08"
+      ],
+      "sourceIds": [
+        "GOOGLE_AI_CONTENT",
+        "OPENAI_SCHEMA"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "כתוב בריף מותג (Brand Brief) לעסק המעבדה. הגדר קהל, מוצר, מסר וסגנון כתיבה. לכל טענה עובדתית צרף את המקור שעליו היא נשענת.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "MKT_02",
+      "title": "מחקר קהל ומתחרים",
+      "titleEn": "MKT 02",
+      "version": "2.1.0",
+      "stability": "ECOSYSTEM",
+      "estimatedMinutes": 150,
+      "skillIds": [
+        "CONTENT_PIPELINES",
+        "GROUNDING"
+      ],
+      "prerequisiteLessonIds": [
+        "MKT_01"
+      ],
+      "sourceIds": [
+        "GOOGLE_AI_CONTENT",
+        "OPENAI_SCHEMA"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "בנה טבלת מחקר (Research Board) עם צורך, ראיה, מקור ורעיון לתוכן. בדוק תאריכים וסמן מקורות שסותרים זה את זה.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "MKT_03",
+      "title": "אסטרטגיית תוכן ולוח עבודה",
+      "titleEn": "MKT 03",
+      "version": "2.1.0",
+      "stability": "ECOSYSTEM",
+      "estimatedMinutes": 150,
+      "skillIds": [
+        "CONTENT_PIPELINES",
+        "GROUNDING"
+      ],
+      "prerequisiteLessonIds": [
+        "MKT_02"
+      ],
+      "sourceIds": [
+        "GOOGLE_AI_CONTENT",
+        "OPENAI_SCHEMA"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "הכן תוכנית חודשית עם מטרות, סוגי תוכן, מקורות והאדם שצריך לאשר כל פרסום. השתמש בנתוני דוגמה והסבר כיצד כל פרסום משרת את המטרה.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "MKT_04",
+      "title": "כתיבה ועריכה בעברית",
+      "titleEn": "MKT 04",
+      "version": "2.1.0",
+      "stability": "ECOSYSTEM",
+      "estimatedMinutes": 150,
+      "skillIds": [
+        "CONTENT_PIPELINES",
+        "GROUNDING"
+      ],
+      "prerequisiteLessonIds": [
+        "MKT_03"
+      ],
+      "sourceIds": [
+        "OPENAI_QUICKSTART",
+        "GOOGLE_AI_CONTENT"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "בנה תהליך מבריף לטיוטה, בדיקת טענות ועריכה. שמור גרסה לפני העריכה ואחריה, והסבר מה שינית ומדוע.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "MKT_05",
+      "title": "מקור אחד לכמה פורמטים",
+      "titleEn": "MKT 05",
+      "version": "2.1.0",
+      "stability": "ECOSYSTEM",
+      "estimatedMinutes": 150,
+      "skillIds": [
+        "CONTENT_PIPELINES",
+        "GROUNDING"
+      ],
+      "prerequisiteLessonIds": [
+        "MKT_04"
+      ],
+      "sourceIds": [
+        "OPENAI_SCHEMA",
+        "GOOGLE_AI_CONTENT"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "הפוך מאמר מקור לפוסט, לדוא״ל ולתסריט. הכן טבלת עובדות מהמקור והשווה אליה את שלושת התוצרים כדי לבדוק שהמשמעות נשמרה.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "MKT_06",
+      "title": "יצירת תמונות ועריכה לפי בריף",
+      "titleEn": "MKT 06",
+      "version": "2.1.0",
+      "stability": "ECOSYSTEM",
+      "estimatedMinutes": 150,
+      "skillIds": [
+        "CONTENT_PIPELINES",
+        "GROUNDING"
+      ],
+      "prerequisiteLessonIds": [
+        "MKT_05"
+      ],
+      "sourceIds": [
+        "OPENAI_IMAGE"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "צור כמה גרסאות לתמונה לקמפיין בעזרת כלי זמין. שמור את הבריף והגרסאות, והגדר תנאים לבחירת התמונה המתאימה.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "MKT_07",
+      "title": "וידאו: מתסריט לתוצר",
+      "titleEn": "MKT 07",
+      "version": "2.1.0",
+      "stability": "ECOSYSTEM",
+      "estimatedMinutes": 150,
+      "skillIds": [
+        "CONTENT_PIPELINES",
+        "GROUNDING"
+      ],
+      "prerequisiteLessonIds": [
+        "MKT_06"
+      ],
+      "sourceIds": [
+        "OPENAI_VIDEO"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "כתוב תסריט ורשימת קטעי צילום (Shot List) לסרטון קצר. צור חומרי בדיקה או השתמש בחומרים מתאימים, ערוך את הסרטון והוסף כתוביות.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "MKT_08",
+      "title": "קריינות, תמלול ותרגום",
+      "titleEn": "MKT 08",
+      "version": "2.1.0",
+      "stability": "ECOSYSTEM",
+      "estimatedMinutes": 150,
+      "skillIds": [
+        "CONTENT_PIPELINES",
+        "GROUNDING"
+      ],
+      "prerequisiteLessonIds": [
+        "MKT_07"
+      ],
+      "sourceIds": [
+        "OPENAI_AUDIO"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "הפק תמלול, תרגום וקריינות לחומר שהומצא לתרגול. סמן שמות ומספרים והעבר אותם לבדיקה מול המקור.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "MKT_09",
+      "title": "SEO ואישור פרסום",
+      "titleEn": "MKT 09",
+      "version": "2.1.0",
+      "stability": "ECOSYSTEM",
+      "estimatedMinutes": 150,
+      "skillIds": [
+        "CONTENT_PIPELINES",
+        "GROUNDING"
+      ],
+      "prerequisiteLessonIds": [
+        "MKT_08"
+      ],
+      "sourceIds": [
+        "GOOGLE_AI_CONTENT",
+        "N8N_APPROVALS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "הכן בדיקה למאמר: כותרת, מקורות, מידע שימושי, קישורים ותיאור. הוסף שלב שבו התוכן ממתין לאישור לפני פרסום.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "MKT_10",
+      "title": "מבחן מסכם: סטודיו תוכן עסקי",
+      "titleEn": "MKT 10",
+      "version": "2.1.0",
+      "stability": "ECOSYSTEM",
+      "estimatedMinutes": 150,
+      "skillIds": [
+        "CONTENT_PIPELINES",
+        "GROUNDING"
+      ],
+      "prerequisiteLessonIds": [
+        "MKT_09"
+      ],
+      "sourceIds": [
+        "GOOGLE_AI_CONTENT",
+        "OPENAI_SCHEMA"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "הגש תוכנית תוכן, ארבעה תוצרים בכמה פורמטים ותהליך אישור. לכל טענה עובדתית על העסק צרף מקור. ציין מה אושר ומה עדיין דורש תיקון.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "ADS_01",
+      "title": "מדדי פרסום ומשפך",
+      "titleEn": "ADS 01",
+      "version": "2.1.0",
+      "stability": "ECOSYSTEM",
+      "estimatedMinutes": 150,
+      "skillIds": [
+        "PAID_MEDIA",
+        "EVALS",
+        "HUMAN_APPROVAL"
+      ],
+      "prerequisiteLessonIds": [
+        "FND_04",
+        "MKT_10"
+      ],
+      "sourceIds": [
+        "GOOGLE_ADS_TESTS",
+        "ANTHROPIC_EVALS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "חשב דוח מנתוני קמפיינים שהומצאו לתרגול. הצג הוצאות, חשיפות, קליקים, המרות והכנסות לפי התקופה שבה נמדדו.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "ADS_02",
+      "title": "יבוא נתוני קמפיינים",
+      "titleEn": "ADS 02",
+      "version": "2.1.0",
+      "stability": "ECOSYSTEM",
+      "estimatedMinutes": 150,
+      "skillIds": [
+        "PAID_MEDIA",
+        "EVALS",
+        "HUMAN_APPROVAL"
+      ],
+      "prerequisiteLessonIds": [
+        "ADS_01"
+      ],
+      "sourceIds": [
+        "GOOGLE_ADS_TESTS",
+        "ANTHROPIC_EVALS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "בנה יבוא מקובץ CSV, ואם יש גישה מתאימה הוסף גם קריאה מחשבון בדיקה. שמור source_id ובדוק שטעינה חוזרת אינה יוצרת שורות כפולות.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "ADS_03",
+      "title": "קריאייטיב והשערות לניסוי",
+      "titleEn": "ADS 03",
+      "version": "2.1.0",
+      "stability": "ECOSYSTEM",
+      "estimatedMinutes": 150,
+      "skillIds": [
+        "PAID_MEDIA",
+        "EVALS",
+        "HUMAN_APPROVAL"
+      ],
+      "prerequisiteLessonIds": [
+        "ADS_02"
+      ],
+      "sourceIds": [
+        "GOOGLE_ADS_TESTS",
+        "ANTHROPIC_EVALS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "הכן טבלה של מסר, קהל וחומרי פרסום. בכל ניסוי שנה משתנה אחד בלבד, וכתוב איזו השערה השינוי אמור לבדוק.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "ADS_04",
+      "title": "דף נחיתה ומדידה",
+      "titleEn": "ADS 04",
+      "version": "2.1.0",
+      "stability": "ECOSYSTEM",
+      "estimatedMinutes": 150,
+      "skillIds": [
+        "PAID_MEDIA",
+        "EVALS",
+        "HUMAN_APPROVAL"
+      ],
+      "prerequisiteLessonIds": [
+        "ADS_03"
+      ],
+      "sourceIds": [
+        "GOOGLE_ADS_TESTS",
+        "ANTHROPIC_EVALS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "חבר דף נחיתה וטופס לנתוני המעבדה. הוסף פרטי קמפיין לכתובת (UTM). השווה בין שליחת הטופס (Submit) לבין אירוע ההמרה שנרשם.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "ADS_05",
+      "title": "המלצות תקציב וטיוטות שינוי",
+      "titleEn": "ADS 05",
+      "version": "2.1.0",
+      "stability": "ECOSYSTEM",
+      "estimatedMinutes": 150,
+      "skillIds": [
+        "PAID_MEDIA",
+        "EVALS",
+        "HUMAN_APPROVAL"
+      ],
+      "prerequisiteLessonIds": [
+        "ADS_04"
+      ],
+      "sourceIds": [
+        "GOOGLE_ADS_TESTS",
+        "ANTHROPIC_EVALS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "הכן טיוטת שינוי עם התקציב הנוכחי, התקציב המוצע, הסיבה וזהות המאשר. השתמש בנתונים סינתטיים ובבדיקה ללא ביצוע (dry run).",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "ADS_06",
+      "title": "מבחן מסכם: עוזר קמפיינים",
+      "titleEn": "ADS 06",
+      "version": "2.1.0",
+      "stability": "ECOSYSTEM",
+      "estimatedMinutes": 150,
+      "skillIds": [
+        "PAID_MEDIA",
+        "EVALS",
+        "HUMAN_APPROVAL"
+      ],
+      "prerequisiteLessonIds": [
+        "ADS_05"
+      ],
+      "sourceIds": [
+        "GOOGLE_ADS_TESTS",
+        "ANTHROPIC_EVALS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "הגש דוח, טבלת ניסויים וטיוטות לפעולות. הפרד בין הממצאים לבין ההמלצות. אל תפעיל קמפיין אמיתי במסגרת התרגיל.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "CRM_01",
+      "title": "מודל נתונים ללקוחות ולעסקאות",
+      "titleEn": "CRM 01",
+      "version": "2.1.0",
+      "stability": "ECOSYSTEM",
+      "estimatedMinutes": 150,
+      "skillIds": [
+        "CRM_OPERATIONS",
+        "DATABASE",
+        "HTTP_APIS"
+      ],
+      "prerequisiteLessonIds": [
+        "FND_04",
+        "AUT_08"
+      ],
+      "sourceIds": [
+        "HUBSPOT_WEBHOOKS",
+        "STRIPE_WEBHOOKS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "צייר תרשים קשרים בין טבלאות (ERD). הכן נתוני דוגמה ל־contacts, companies, deals ו־activities והסבר כיצד הרשומות קשורות זו לזו.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "CRM_02",
+      "title": "יבוא לקוחות ומניעת כפילות",
+      "titleEn": "CRM 02",
+      "version": "2.1.0",
+      "stability": "ECOSYSTEM",
+      "estimatedMinutes": 150,
+      "skillIds": [
+        "CRM_OPERATIONS",
+        "DATABASE",
+        "HTTP_APIS"
+      ],
+      "prerequisiteLessonIds": [
+        "CRM_01"
+      ],
+      "sourceIds": [
+        "HUBSPOT_WEBHOOKS",
+        "STRIPE_WEBHOOKS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "ייבא קובץ CSV והבא את השדות לפורמט אחיד. סמן רשומות שעשויות להיות כפולות והעבר אותן לבדיקה. אל תמזג על סמך שם בלבד.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "CRM_03",
+      "title": "סיווג לידים ומעקב מכירות",
+      "titleEn": "CRM 03",
+      "version": "2.1.0",
+      "stability": "ECOSYSTEM",
+      "estimatedMinutes": 150,
+      "skillIds": [
+        "CRM_OPERATIONS",
+        "DATABASE",
+        "HTTP_APIS"
+      ],
+      "prerequisiteLessonIds": [
+        "CRM_02"
+      ],
+      "sourceIds": [
+        "HUBSPOT_WEBHOOKS",
+        "STRIPE_WEBHOOKS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "בנה קליטה → בדיקת פרטים → הקצאה לעובד → משימת מעקב (Follow-up). שמור את הסיבה להקצאה ואת המועד להמשך טיפול.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "CRM_04",
+      "title": "הצעות עבודה מתוך קטלוג",
+      "titleEn": "CRM 04",
+      "version": "2.1.0",
+      "stability": "ECOSYSTEM",
+      "estimatedMinutes": 150,
+      "skillIds": [
+        "CRM_OPERATIONS",
+        "DATABASE",
+        "HTTP_APIS"
+      ],
+      "prerequisiteLessonIds": [
+        "CRM_03"
+      ],
+      "sourceIds": [
+        "POSTGRES_TRANSACTIONS",
+        "OPENAI_SCHEMA"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "בנה טיוטת הצעת עבודה מתוך מחירון. חשב את הסכום בקוד והוסף שלב אישור. שמור את גרסת הקטלוג שעל פיה חושב המחיר.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "CRM_05",
+      "title": "שירות בכמה ערוצים",
+      "titleEn": "CRM 05",
+      "version": "2.1.0",
+      "stability": "ECOSYSTEM",
+      "estimatedMinutes": 150,
+      "skillIds": [
+        "CRM_OPERATIONS",
+        "DATABASE",
+        "HTTP_APIS"
+      ],
+      "prerequisiteLessonIds": [
+        "CRM_04"
+      ],
+      "sourceIds": [
+        "TWILIO_SANDBOX",
+        "HUBSPOT_WEBHOOKS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "קלוט טפסים ודוא״ל לאותו תהליך טיפול. אם יש גישה, הוסף WhatsApp Sandbox, סביבת בדיקה להודעות. שמור channel ו־external_id לכל פנייה.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "CRM_06",
+      "title": "סביבת עבודה לעובדים",
+      "titleEn": "CRM 06",
+      "version": "2.1.0",
+      "stability": "ECOSYSTEM",
+      "estimatedMinutes": 150,
+      "skillIds": [
+        "CRM_OPERATIONS",
+        "DATABASE",
+        "HTTP_APIS"
+      ],
+      "prerequisiteLessonIds": [
+        "CRM_05"
+      ],
+      "sourceIds": [
+        "SEARCH_SECURITY",
+        "OWASP_GENAI"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "בנה מסך ניהול (Dashboard) שמציג פניות שהוקצו לעובד, פרטי לקוח וטיוטות לאישור. הוסף תפקידי עובד ומנהל ובדוק את ההרשאות של כל אחד.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "CRM_07",
+      "title": "מלאי, מוצרים והזמנות",
+      "titleEn": "CRM 07",
+      "version": "2.1.0",
+      "stability": "ECOSYSTEM",
+      "estimatedMinutes": 150,
+      "skillIds": [
+        "CRM_OPERATIONS",
+        "DATABASE",
+        "HTTP_APIS"
+      ],
+      "prerequisiteLessonIds": [
+        "CRM_06"
+      ],
+      "sourceIds": [
+        "POSTGRES_TRANSACTIONS",
+        "STRIPE_WEBHOOKS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "בנה רישום של תנועות מלאי, יצירת הזמנה ובדיקת זמינות. הוסף עוזר שמסביר חריגים באמצעות קריאת מידע בלבד, בלי לשנות מלאי.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "CRM_08",
+      "title": "מבחן מסכם: מערכת עבודה לעסק",
+      "titleEn": "CRM 08",
+      "version": "2.1.0",
+      "stability": "ECOSYSTEM",
+      "estimatedMinutes": 150,
+      "skillIds": [
+        "CRM_OPERATIONS",
+        "DATABASE",
+        "HTTP_APIS"
+      ],
+      "prerequisiteLessonIds": [
+        "CRM_07"
+      ],
+      "sourceIds": [
+        "HUBSPOT_WEBHOOKS",
+        "STRIPE_WEBHOOKS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "חבר מערכת CRM, קליטת פניות ותהליך אישור לעסק המעבדה. הוסף נתוני תפעול ומסך לעובדים, ובדוק את המסלול מפנייה עד לטיפול.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "WEB_01",
+      "title": "תכנון אתר ומסע משתמש",
+      "titleEn": "WEB 01",
+      "version": "2.1.0",
+      "stability": "ECOSYSTEM",
+      "estimatedMinutes": 150,
+      "skillIds": [
+        "UI_DESIGN",
+        "BACKEND",
+        "DEPLOYMENT"
+      ],
+      "prerequisiteLessonIds": [
+        "FND_04",
+        "W14D70_PROJECT_AGENT_SAAS"
+      ],
+      "sourceIds": [
+        "REACT",
+        "NEXTJS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "אפיין אתר לעסק המעבדה: למי הוא מיועד, אילו שלושה מסכים צריך ומה הפעולה המרכזית. צייר תרשים מסכים ראשוני (Wireframe) לפני העיצוב.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "WEB_02",
+      "title": "עיצוב, RTL ונגישות",
+      "titleEn": "WEB 02",
+      "version": "2.1.0",
+      "stability": "ECOSYSTEM",
+      "estimatedMinutes": 150,
+      "skillIds": [
+        "UI_DESIGN",
+        "BACKEND",
+        "DEPLOYMENT"
+      ],
+      "prerequisiteLessonIds": [
+        "WEB_01"
+      ],
+      "sourceIds": [
+        "WCAG",
+        "REACT"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "בנה רכיבים עם צבעים ברורים ומצבי מיקוד (focus), שגיאה (error) וחוסר זמינות (disabled). בדוק טקסט ארוך ומסך קטן.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "WEB_03",
+      "title": "בניית אתר בעזרת AI ובדיקת הקוד",
+      "titleEn": "WEB 03",
+      "version": "2.1.0",
+      "stability": "ECOSYSTEM",
+      "estimatedMinutes": 150,
+      "skillIds": [
+        "UI_DESIGN",
+        "BACKEND",
+        "DEPLOYMENT"
+      ],
+      "prerequisiteLessonIds": [
+        "WEB_02"
+      ],
+      "sourceIds": [
+        "REACT",
+        "NEXTJS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "בנה דף נחיתה ב־React או ב־HTML. בדוק טלפון, טאבלט (Tablet) ומחשב (Desktop). הסבר את הקוד של רכיב מרכזי ואיך הוא מגיב לפעולות המשתמש.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "WEB_04",
+      "title": "טפסים וחיבור ל־CRM",
+      "titleEn": "WEB 04",
+      "version": "2.1.0",
+      "stability": "ECOSYSTEM",
+      "estimatedMinutes": 150,
+      "skillIds": [
+        "UI_DESIGN",
+        "BACKEND",
+        "DEPLOYMENT"
+      ],
+      "prerequisiteLessonIds": [
+        "WEB_03"
+      ],
+      "sourceIds": [
+        "FASTAPI",
+        "HUBSPOT_WEBHOOKS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "חבר טופס פנייה לשרת ולמערכת CRM של בדיקה. הצג בבירור המתנה (pending), הצלחה (success) ושגיאה (error).",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "WEB_05",
+      "title": "בדיקות לפני פריסה",
+      "titleEn": "WEB 05",
+      "version": "2.1.0",
+      "stability": "ECOSYSTEM",
+      "estimatedMinutes": 150,
+      "skillIds": [
+        "UI_DESIGN",
+        "BACKEND",
+        "DEPLOYMENT"
+      ],
+      "prerequisiteLessonIds": [
+        "WEB_04"
+      ],
+      "sourceIds": [
+        "WCAG",
+        "DOCKER"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "בדוק כותרות, פרטי עמוד (Metadata), תמונות, טופס ואירועי מדידה. כתוב רשימת בדיקות לפני שחרור (Release Checklist) ושמור את התוצאות.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "WEB_06",
+      "title": "מבחן מסכם: אתר המחובר למערכת AI",
+      "titleEn": "WEB 06",
+      "version": "2.1.0",
+      "stability": "ECOSYSTEM",
+      "estimatedMinutes": 150,
+      "skillIds": [
+        "UI_DESIGN",
+        "BACKEND",
+        "DEPLOYMENT"
+      ],
+      "prerequisiteLessonIds": [
+        "WEB_05"
+      ],
+      "sourceIds": [
+        "REACT",
+        "NEXTJS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "הגש אתר עסקי עם טופס, שרת (Backend) ותהליך עבודה מחובר. הוסף מדריך שמסביר כיצד לערוך את תוכן האתר ולבדוק שהפניות מגיעות ליעדן.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "VOI_01",
+      "title": "תמלול שיחות ובדיקת דיוק",
+      "titleEn": "VOI 01",
+      "version": "2.1.0",
+      "stability": "ECOSYSTEM",
+      "estimatedMinutes": 150,
+      "skillIds": [
+        "VOICE_SYSTEMS",
+        "EVALS"
+      ],
+      "prerequisiteLessonIds": [
+        "FND_04",
+        "AUT_08"
+      ],
+      "sourceIds": [
+        "OPENAI_AUDIO"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "תמלל שיחת בדיקה. שמור חותמות זמן (timestamps) וסמן פרטים שאינם ברורים. השווה את התמלול לטקסט שנבדק ידנית מול ההקלטה.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "VOI_02",
+      "title": "טיפול אחרי שיחה",
+      "titleEn": "VOI 02",
+      "version": "2.1.0",
+      "stability": "ECOSYSTEM",
+      "estimatedMinutes": 150,
+      "skillIds": [
+        "VOICE_SYSTEMS",
+        "EVALS"
+      ],
+      "prerequisiteLessonIds": [
+        "VOI_01"
+      ],
+      "sourceIds": [
+        "OPENAI_AUDIO"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "הפוך תמליל לסיכום ולמשימות. לכל משימה ציין אחראי, מועד והקטע בשיחה שמבסס אותה. הכן טיוטה לעדכון CRM בלי לבצע אותה אוטומטית.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "VOI_03",
+      "title": "ממשק קולי עם תמלול וקריינות",
+      "titleEn": "VOI 03",
+      "version": "2.1.0",
+      "stability": "ECOSYSTEM",
+      "estimatedMinutes": 150,
+      "skillIds": [
+        "VOICE_SYSTEMS",
+        "EVALS"
+      ],
+      "prerequisiteLessonIds": [
+        "VOI_02"
+      ],
+      "sourceIds": [
+        "OPENAI_AUDIO"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "בנה הקלטה → תמלול → תשובה בטקסט → הקראה. השתמש בשיחות שהומצאו לתרגול ובשירות זמין, ובדוק את התוצאה של כל שלב.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "VOI_04",
+      "title": "שיחה חיה וקטיעות",
+      "titleEn": "VOI 04",
+      "version": "2.1.0",
+      "stability": "ECOSYSTEM",
+      "estimatedMinutes": 150,
+      "skillIds": [
+        "VOICE_SYSTEMS",
+        "EVALS"
+      ],
+      "prerequisiteLessonIds": [
+        "VOI_03"
+      ],
+      "sourceIds": [
+        "OPENAI_WEBRTC",
+        "OPENAI_AUDIO"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "בנה אב־טיפוס (Prototype) ב־WebRTC לפי התיעוד העדכני. הוסף כלי לקריאת מידע והגדר מה קורה כשהמשתמש קוטע את התשובה.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "VOI_05",
+      "title": "העברה לאדם ותיאום פגישות",
+      "titleEn": "VOI 05",
+      "version": "2.1.0",
+      "stability": "ECOSYSTEM",
+      "estimatedMinutes": 150,
+      "skillIds": [
+        "VOICE_SYSTEMS",
+        "EVALS"
+      ],
+      "prerequisiteLessonIds": [
+        "VOI_04"
+      ],
+      "sourceIds": [
+        "OPENAI_AUDIO",
+        "HUBSPOT_WEBHOOKS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "בנה בדיקת זמינות, טיוטה לפגישה והעברת טיפול לאדם. תרגל מול יומן בדיקה, ובדוק אם הפגישה באמת נשמרה לפני הצגתה כמאושרת.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "VOI_06",
+      "title": "מבחן מסכם: עוזר קולי עסקי",
+      "titleEn": "VOI 06",
+      "version": "2.1.0",
+      "stability": "ECOSYSTEM",
+      "estimatedMinutes": 150,
+      "skillIds": [
+        "VOICE_SYSTEMS",
+        "EVALS"
+      ],
+      "prerequisiteLessonIds": [
+        "VOI_05"
+      ],
+      "sourceIds": [
+        "OPENAI_AUDIO",
+        "GEMINI_DOCUMENTS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "הגש עוזר קולי עם כלי, סיכום והעברת טיפול (Handoff). הכן כמה שיחות לבדיקה ותעד אילו מצבים המערכת עדיין אינה פותרת.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "DAT_01",
+      "title": "עוזר נתונים עסקיים",
+      "titleEn": "DAT 01",
+      "version": "2.1.0",
+      "stability": "ECOSYSTEM",
+      "estimatedMinutes": 150,
+      "skillIds": [
+        "AI_FUNDAMENTALS",
+        "DATABASE",
+        "EVALS"
+      ],
+      "prerequisiteLessonIds": [
+        "FND_04",
+        "W12D60_BOSS_LEVEL_3_RED_TEAM"
+      ],
+      "sourceIds": [
+        "PYTHON_SQLITE",
+        "POSTGRES_TRANSACTIONS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "בנה עוזר שעונה על שאלות מכירה בעזרת נתוני המעבדה. השווה את התוצאות לחישוב ידני כדי לוודא שהשאילתות אינן משנות את משמעות הנתונים.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "DAT_02",
+      "title": "כללים, חיזוי קלאסי ו־LLM",
+      "titleEn": "DAT 02",
+      "version": "2.1.0",
+      "stability": "ECOSYSTEM",
+      "estimatedMinutes": 150,
+      "skillIds": [
+        "AI_FUNDAMENTALS",
+        "DATABASE",
+        "EVALS"
+      ],
+      "prerequisiteLessonIds": [
+        "DAT_01"
+      ],
+      "sourceIds": [
+        "GOOGLE_ML",
+        "OLLAMA_SCHEMA"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "השווה כלל קבוע, מודל חיזוי קטן ומודל שפה (LLM) על אותה משימת סיווג. הפרד בין נתוני האימון לנתוני הבדיקה ומדוד את שלושת הפתרונות באותו אופן.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "DAT_03",
+      "title": "מודלים מקומיים ומשאבי חומרה",
+      "titleEn": "DAT 03",
+      "version": "2.1.0",
+      "stability": "ECOSYSTEM",
+      "estimatedMinutes": 150,
+      "skillIds": [
+        "AI_FUNDAMENTALS",
+        "DATABASE",
+        "EVALS"
+      ],
+      "prerequisiteLessonIds": [
+        "DAT_02"
+      ],
+      "sourceIds": [
+        "OLLAMA_SCHEMA",
+        "OPENAI_DATA"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "הרץ מודל זמין על המחשב עם פלט במבנה מוגדר. רשום חומרה, גרסה וזמן תגובה. אם חסרים משאבים, תעד מה מנע את ההרצה; אל תמציא תוצאה.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "DAT_04",
+      "title": "Prompting, ‏RAG ו־Fine-tuning",
+      "titleEn": "DAT 04",
+      "version": "2.1.0",
+      "stability": "ECOSYSTEM",
+      "estimatedMinutes": 150,
+      "skillIds": [
+        "AI_FUNDAMENTALS",
+        "DATABASE",
+        "EVALS"
+      ],
+      "prerequisiteLessonIds": [
+        "DAT_03"
+      ],
+      "sourceIds": [
+        "PEFT_LORA",
+        "ANTHROPIC_EVALS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "בחר גישה לשלושה צרכים עסקיים והסבר את ההחלטה. בצע ניסוי קטן רק אם יש נתונים ומשאבים מתאימים, והשווה את התוצאה לבדיקה נפרדת.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "BIZ_01",
+      "title": "בירור צרכים ופגישת אפיון",
+      "titleEn": "BIZ 01",
+      "version": "2.1.0",
+      "stability": "FOUNDATION",
+      "estimatedMinutes": 150,
+      "skillIds": [
+        "BUSINESS_DISCOVERY",
+        "EVALS"
+      ],
+      "prerequisiteLessonIds": [
+        "FND_04"
+      ],
+      "sourceIds": [
+        "ANTHROPIC_AGENTS",
+        "ANTHROPIC_EVALS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "ערוך פגישת אפיון מדומה. תעד את התהליך הקיים, הקשיים, המידע הזמין ואופן המדידה. כתוב שאלות המשך למקומות שבהם עדיין חסר מידע.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "BIZ_02",
+      "title": "בחירת פיילוט לפי ערך וסיכון",
+      "titleEn": "BIZ 02",
+      "version": "2.1.0",
+      "stability": "FOUNDATION",
+      "estimatedMinutes": 150,
+      "skillIds": [
+        "BUSINESS_DISCOVERY",
+        "EVALS"
+      ],
+      "prerequisiteLessonIds": [
+        "BIZ_01"
+      ],
+      "sourceIds": [
+        "ANTHROPIC_AGENTS",
+        "ANTHROPIC_EVALS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "דרג חמש הזדמנויות בעסק ובחר אחת לפיילוט. ציין מה הערך המשוער, איזה מידע חסר ומתי תעצור את הניסוי.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "BIZ_03",
+      "title": "הצעת עבודה וקריטריוני קבלה",
+      "titleEn": "BIZ 03",
+      "version": "2.1.0",
+      "stability": "FOUNDATION",
+      "estimatedMinutes": 150,
+      "skillIds": [
+        "BUSINESS_DISCOVERY",
+        "EVALS"
+      ],
+      "prerequisiteLessonIds": [
+        "BIZ_02"
+      ],
+      "sourceIds": [
+        "ANTHROPIC_AGENTS",
+        "ANTHROPIC_EVALS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "הכן הצעת פיילוט עם תוצרים, הנחות, חשבונות נדרשים ומבחני קבלה. אם אתה מציין סכומים משוערים, כתוב על אילו הנחות הם מבוססים.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "BIZ_04",
+      "title": "חשבונות לקוח, מידע והרשאות",
+      "titleEn": "BIZ 04",
+      "version": "2.1.0",
+      "stability": "FOUNDATION",
+      "estimatedMinutes": 150,
+      "skillIds": [
+        "BUSINESS_DISCOVERY",
+        "EVALS"
+      ],
+      "prerequisiteLessonIds": [
+        "BIZ_03"
+      ],
+      "sourceIds": [
+        "OPENAI_DATA",
+        "OWASP_GENAI"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "כתוב רשימת בדיקות לקליטת לקוח (Onboarding Checklist): בעלי חשבונות, גישות, מידע, סביבות ומחיקה. תרגל עם נתונים שהומצאו לצורך השיעור.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "BIZ_05",
+      "title": "פיילוט, הדרכת עובדים ומסירה",
+      "titleEn": "BIZ 05",
+      "version": "2.1.0",
+      "stability": "FOUNDATION",
+      "estimatedMinutes": 150,
+      "skillIds": [
+        "BUSINESS_DISCOVERY",
+        "EVALS"
+      ],
+      "prerequisiteLessonIds": [
+        "BIZ_04"
+      ],
+      "sourceIds": [
+        "ANTHROPIC_AGENTS",
+        "ANTHROPIC_EVALS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "הכן הדרכה לעובד, תרחישים לפיילוט ומדריך תפעול (Runbook). מדוד זמן עבודה ותיקונים בהדמיה, וציין שאלה נתוני תרגול.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    },
+    {
+      "id": "BIZ_06",
+      "title": "מבחן מסכם: הצגת פתרון ללקוח",
+      "titleEn": "BIZ 06",
+      "version": "2.1.0",
+      "stability": "FOUNDATION",
+      "estimatedMinutes": 150,
+      "skillIds": [
+        "BUSINESS_DISCOVERY",
+        "EVALS"
+      ],
+      "prerequisiteLessonIds": [
+        "BIZ_05"
+      ],
+      "sourceIds": [
+        "ANTHROPIC_AGENTS",
+        "ANTHROPIC_EVALS"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "הצג פתרון עסקי עם הדגמה, תכנון מערכת, תוצאות בדיקה, מגבלות ותוכנית הרחבה. ציין מה פועל בפועל ומה עדיין אינו מחובר.",
+      "contentStage": "practice-workbook",
+      "verification": {
+        "sourcesCheckedAt": null,
+        "hebrewReviewedAt": "2026-10-01",
+        "execution": "not-run",
+        "command": null,
+        "limitations": [
+          "הקישורים למקורות נועדו ללמידה ולהעמקה. לא בוצע אימות טכני מלא של היחידה.",
+          "חיבורים לשירותים חיצוניים ותרגילים בתשלום לא הורצו במסגרת הכנת היחידה."
+        ]
+      }
+    }
+  ],
+  "modules": [
+    {
+      "id": "CORE",
+      "title": "יסודות ובנייה מאפס",
+      "description": "פרק חובה למתחילים: לומדים מה AI יכול לעשות ומה צריך לבדוק, ואז מתרגלים קוד, נתונים, כלים ושמירת מצב. מסיימים את תרגילי הפרק לפני שמתחילים התמחות חדשה.",
+      "outcome": "תוכנית AI קטנה ותהליך קליטת פניות, עם בדיקת נתונים, טיפול בשגיאות ותיעוד הבדיקות.",
+      "lessonIds": [
+        "FND_01",
+        "W01D01_FIRST_AI_PROGRAM",
+        "W01D02_PYTHON_FOR_AGENT_BUILDERS_I",
+        "W01D03_PYTHON_FOR_AGENT_BUILDERS_II",
+        "W01D04_HTTP_APIS",
+        "W01D05_PROJECT_AGENT_ZERO",
+        "W02D06_HOW_LLM_APPLICATIONS_WORK",
+        "FND_02",
+        "W02D07_CONTEXT_ENGINEERING",
+        "W02D08_STRUCTURED_OUTPUTS",
+        "W02D09_MODEL_RELIABILITY",
+        "FND_03",
+        "W02D10_PROJECT_INTELLIGENT_INTAKE_ENGINE",
+        "W03D11_WHAT_MAKES_SOMETHING_AN_AGENT",
+        "W03D12_TOOL_CALLING",
+        "W03D13_AGENT_LOOP",
+        "W03D14_RELIABILITY_FAILURE_HANDLING",
+        "W03D15_PROJECT_AGENT_FROM_SCRATCH",
+        "W05D21_DATABASES",
+        "W05D22_STATE",
+        "W07D31_PRODUCTION_APIS",
+        "W11D51_WHY_DEMOS_LIE",
+        "W12D58_AUTHENTICATION_AUTHORIZATION",
+        "FND_04"
+      ],
+      "prerequisiteModuleIds": [],
+      "requiredEntry": true
+    },
+    {
+      "id": "AGENTS",
+      "title": "סוכנים ותזמור",
+      "description": "מבצע מחקר עם מקורות שאפשר לבדוק, משווה סביבות הרצה ובונה סוכנים ותהליכים שיכולים להימשך לאחר תקלה.",
+      "outcome": "מערכת מחקר ותפעול שמחלקת משימות, מתעדת את שלבי הריצה, מבקשת אישורים ומתאוששת מתקלות.",
+      "lessonIds": [
+        "W04D16_TASK_DECOMPOSITION",
+        "W04D17_SEARCH_EVIDENCE",
+        "W04D18_ITERATIVE_RESEARCH",
+        "W04D19_RESEARCH_QUALITY",
+        "W04D20_BOSS_LEVEL_1_RESEARCH_AGENT",
+        "W08D36_RESPONSES_API",
+        "W08D37_AGENTS_SDK",
+        "W08D38_MANAGED_DURABLE_AGENT_RUNTIME_CONCEPTS",
+        "W08D39_LANGGRAPH",
+        "W08D40_BOSS_LEVEL_2_BUILD_ONE_SYSTEM_TWICE",
+        "W09D41_DETERMINISTIC_VS_AGENTIC_WORKFLOW",
+        "W09D42_ROUTERS",
+        "W09D43_PARALLEL_WORK",
+        "W09D44_LONG_RUNNING_WORKFLOWS",
+        "W09D45_PROJECT_DURABLE_WORKFLOW_AGENT",
+        "W10D46_WHEN_MULTI_AGENT_MAKES_SENSE",
+        "W10D47_MANAGER_PATTERN",
+        "W10D48_HANDOFFS",
+        "AGT_01",
+        "W10D49_SHARED_STATE_COORDINATION",
+        "W10D50_PROJECT_AI_COMPANY",
+        "W15D71_BROWSER_COMPUTER_AGENTS",
+        "W15D72_CODE_SANDBOX_AGENTS",
+        "W15D73_DYNAMIC_TOOLS",
+        "W15D74_AGENTIC_CODING",
+        "W15D75_PROJECT_AUTONOMOUS_WORKFLOW"
+      ],
+      "prerequisiteModuleIds": [
+        "CORE"
+      ]
+    },
+    {
+      "id": "KNOWLEDGE",
+      "title": "זיכרון ומערכות ידע",
+      "description": "בונה מדיניות זיכרון, חילוץ מסמכים וחיפוש המבוסס על מקורות והרשאות.",
+      "outcome": "עוזר ידע שמציג קטעים תומכים ומודה כשאין מידע מספק.",
+      "lessonIds": [
+        "W05D23_AGENT_MEMORY",
+        "W05D24_MEMORY_QUALITY",
+        "W05D25_PROJECT_PERSONAL_MEMORY_AGENT",
+        "W06D26_EMBEDDINGS",
+        "W06D27_CHUNKING_VECTOR_RETRIEVAL",
+        "W06D28_HYBRID_RETRIEVAL_RERANKING",
+        "W06D29_RAG_FAILURE_MODES",
+        "W06D30_PROJECT_KNOWLEDGE_AGENT"
+      ],
+      "prerequisiteModuleIds": [
+        "CORE"
+      ]
+    },
+    {
+      "id": "AUTOMATION",
+      "title": "אוטומציה והטמעת מערכות",
+      "description": "מחבר תהליכים ב־n8n וב־Make ולומד לטפל בכפילויות, אישורים, תקלות ועלויות.",
+      "outcome": "תהליך מקבלת פנייה ועד לטיפול בה עם שחזור, יומן ומסירה מסודרת ללקוח.",
+      "lessonIds": [
+        "W07D32_TOOL_DESIGN",
+        "W07D33_MCP",
+        "W07D34_SIDE_EFFECTS_PERMISSIONS",
+        "W07D35_PROJECT_OPERATIONS_AGENT",
+        "AUT_01",
+        "AUT_02",
+        "AUT_03",
+        "AUT_04",
+        "AUT_05",
+        "AUT_06",
+        "AUT_07",
+        "AUT_08"
+      ],
+      "prerequisiteModuleIds": [
+        "CORE"
+      ]
+    },
+    {
+      "id": "QUALITY",
+      "title": "איכות, אבטחה ובקרה",
+      "description": "יוצר קבוצות של מקרי בדיקה, בוחן תיעוד ריצות ובודק ניסיונות תקיפה, הרשאות ופעולות הדורשות אישור.",
+      "outcome": "תיק בדיקות שמציג תוצאות ומגבלות, ובודק שתיקונים אינם מחזירים תקלות שכבר נפתרו.",
+      "lessonIds": [
+        "W11D52_EVALUATION_DATASET_DESIGN",
+        "W11D53_GRADERS",
+        "W11D54_TRACING",
+        "W11D55_PROJECT_AGENT_QUALITY_LAB",
+        "W12D56_PROMPT_INJECTION",
+        "W12D57_TOOL_ATTACKS",
+        "W12D59_HUMAN_IN_THE_LOOP",
+        "W12D60_BOSS_LEVEL_3_RED_TEAM"
+      ],
+      "prerequisiteModuleIds": [
+        "CORE"
+      ]
+    },
+    {
+      "id": "PRODUCT",
+      "title": "מוצר, שירות ופריסה",
+      "description": "הופך סוכן לשירות עם API, עבודות רקע, ממשק משתמש, אחסון, ניטור ופריסה.",
+      "outcome": "מוצר עם חשבונות, מעקב משימות, בדיקות ונתיב התאוששות.",
+      "lessonIds": [
+        "W13D61_BACKEND_APIS",
+        "W13D62_PRODUCTION_DATABASES",
+        "W13D63_QUEUES_WORKERS",
+        "W13D64_STREAMING",
+        "W13D65_PROJECT_CONVERT_AGENT_INTO_API_SERVICE",
+        "W14D66_FRONTEND_FUNDAMENTALS",
+        "W14D67_AGENT_UI",
+        "W14D68_DEPLOYMENT",
+        "W14D69_PRODUCTION_CONCERNS",
+        "W14D70_PROJECT_AGENT_SAAS"
+      ],
+      "prerequisiteModuleIds": [
+        "CORE"
+      ]
+    },
+    {
+      "id": "MARKETING",
+      "title": "תוכן ושיווק עם AI",
+      "description": "בונה תהליך מהגדרת מטרת התוכן ועד להכנת קמפיין, עם מקורות, עריכה, אישורים ומדידה.",
+      "outcome": "ספריית תכנים וזרימת עבודה מבוקרת שאפשר למסור לצוות שיווק.",
+      "lessonIds": [
+        "MKT_01",
+        "MKT_02",
+        "MKT_03",
+        "MKT_04",
+        "MKT_05",
+        "MKT_06",
+        "MKT_07",
+        "MKT_08",
+        "MKT_09",
+        "MKT_10"
+      ],
+      "prerequisiteModuleIds": [
+        "CORE",
+        "AUTOMATION"
+      ]
+    },
+    {
+      "id": "ADS",
+      "title": "פרסום ומדידה",
+      "description": "מכין קמפיינים וחומרי פרסום, בודק מדידה ומפריד בין הצעה לשינוי לבין פעולה שמוציאה כסף.",
+      "outcome": "קמפיין בסביבת בדיקה עם מגבלות תקציב, תצוגה מקדימה ואישור.",
+      "lessonIds": [
+        "ADS_01",
+        "ADS_02",
+        "ADS_03",
+        "ADS_04",
+        "ADS_05",
+        "ADS_06"
+      ],
+      "prerequisiteModuleIds": [
+        "MARKETING"
+      ]
+    },
+    {
+      "id": "CRM",
+      "title": "מכירות ושירות לקוחות",
+      "description": "מחבר קליטת פניות למערכת ניהול לקוחות (CRM), להודעות ולשירות, ובודק כפילויות והרשאות.",
+      "outcome": "תהליך מקליטת פנייה ועד לטיפול בה, עם אחראי לטיפול, מדדים ויומן פעולות.",
+      "lessonIds": [
+        "CRM_01",
+        "CRM_02",
+        "CRM_03",
+        "CRM_04",
+        "CRM_05",
+        "CRM_06",
+        "CRM_07",
+        "CRM_08"
+      ],
+      "prerequisiteModuleIds": [
+        "CORE",
+        "AUTOMATION"
+      ]
+    },
+    {
+      "id": "WEB",
+      "title": "אתרים וכלים פנימיים",
+      "description": "מגדיר מסכים לפי צורך עסקי, בונה אותם ומחבר נתונים, ואז בודק נגישות והעלאה לסביבת הרצה.",
+      "outcome": "כלי פנימי עם ממשק שמציג את מצב העבודה האמיתי.",
+      "lessonIds": [
+        "WEB_01",
+        "WEB_02",
+        "WEB_03",
+        "WEB_04",
+        "WEB_05",
+        "WEB_06"
+      ],
+      "prerequisiteModuleIds": [
+        "PRODUCT"
+      ]
+    },
+    {
+      "id": "VOICE",
+      "title": "קול ושירות לקוחות",
+      "description": "מתמלל דיבור ובונה עוזר קולי שמטפל בזמני תגובה, בהפסקת דבריו ובהעברת הטיפול לאדם.",
+      "outcome": "עוזר קולי עם תיעוד שלבי הריצה, מגבלות פעולה ובדיקות של מקרי שגיאה.",
+      "lessonIds": [
+        "VOI_01",
+        "VOI_02",
+        "VOI_03",
+        "VOI_04",
+        "VOI_05",
+        "VOI_06"
+      ],
+      "prerequisiteModuleIds": [
+        "CORE",
+        "AUTOMATION"
+      ]
+    },
+    {
+      "id": "DATA",
+      "title": "נתונים ומודלים מקומיים",
+      "description": "משווה שאילתות נתונים, חיזוי ושימוש במודל שפה גדול (LLM), ובודק מתי כדאי להריץ מודל מקומי או להתאים מודל.",
+      "outcome": "דוח בחירת פתרון עם נתונים, מדדי איכות ומגבלות משאבים.",
+      "lessonIds": [
+        "DAT_01",
+        "DAT_02",
+        "DAT_03",
+        "DAT_04"
+      ],
+      "prerequisiteModuleIds": [
+        "CORE",
+        "QUALITY"
+      ]
+    },
+    {
+      "id": "BUSINESS",
+      "title": "הפיכת הידע לשירות",
+      "description": "מגדיר ניסוי מצומצם עם לקוח, מתמחר לפי הנחות מפורשות ומכין הצעת עבודה, מסירה ותמיכה.",
+      "outcome": "תיק שירות עם הצעת עבודה, גבולות אחריות ומבחני קבלה.",
+      "lessonIds": [
+        "BIZ_01",
+        "BIZ_02",
+        "BIZ_03",
+        "BIZ_04",
+        "BIZ_05",
+        "BIZ_06"
+      ],
+      "prerequisiteModuleIds": [
+        "CORE"
+      ]
+    },
+    {
+      "id": "CAPSTONE",
+      "title": "פרויקט גמר לעסק",
+      "description": "מקבל בעיה עסקית ומנמק את החלטותיו, מהגדרת הצורך ועד להדגמה שכוללת תקלות מתוכננות.",
+      "outcome": "פתרון מתועד שניתן לבדיקה עם לקוח, מבחני איכות ותוכנית תחזוקה.",
+      "lessonIds": [
+        "W16D76_DISCOVERY",
+        "W16D77_ARCHITECTURE",
+        "W16D78_BUILD",
+        "W16D79_HARDEN",
+        "W16D80_FINAL_BOSS_DEMONSTRATE_FULL_SOLUTION"
+      ],
+      "prerequisiteModuleIds": [
+        "BUSINESS",
+        "QUALITY",
+        "PRODUCT",
+        "AUTOMATION"
+      ]
+    }
+  ]
+}

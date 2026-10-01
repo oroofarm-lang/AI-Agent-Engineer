@@ -1,0 +1,124 @@
+.learning-journey {
+  padding: 1.5rem;
+  margin-block: 1.5rem;
+}
+.learning-journey ol {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.2rem;
+  padding: 0;
+  list-style: none;
+}
+.learning-journey li {
+  border-inline-start: 3px solid #00656b;
+  padding-inline-start: 1rem;
+}
+.learning-journey p {
+  line-height: 1.7;
+}
+.practice-fields {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.8rem;
+  margin-block: 1rem;
+}
+.practice-fields select {
+  width: 100%;
+  min-width: 0;
+  padding: 0.6rem;
+  background: #fffaf0;
+  color: #292723;
+  border: 2px solid #8d856e;
+  font: inherit;
+}
+.instruction-practice p {
+  line-height: 1.7;
+}
+.mentor-panel {
+  width: min(850px, calc(100vw - 2rem));
+  max-width: 850px;
+  max-height: calc(100dvh - 2rem);
+  overflow-y: auto;
+}
+.mentor-panel textarea {
+  width: 100%;
+  min-width: 0;
+  padding: 0.7rem;
+  color: #292723;
+  background: #fffaf0;
+  border: 2px solid #8d856e;
+  font: inherit;
+}
+.mentor-panel .field-label {
+  margin-block: 0.7rem;
+}
+.mentor-panel details {
+  padding: 0.7rem;
+  border: 1px solid #8d856e;
+  margin-block: 1rem;
+}
+.mentor-message {
+  padding: 1rem;
+  margin-block: 0.8rem;
+  background: #fffaf0;
+  color: #292723;
+  border: 2px solid #8d856e;
+}
+.mentor-message.user {
+  background: #f4e6ba;
+}
+.directory-table {
+  overflow-x: auto;
+  padding: 1rem;
+}
+.directory-table table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: start;
+}
+.directory-table th,
+.directory-table td {
+  padding: 0.8rem;
+  border-bottom: 1px solid #8d856e;
+}
+.directory-table caption {
+  font-weight: 700;
+  text-align: start;
+  padding: 0.8rem;
+}
+.connection-status {
+  display: grid;
+  gap: 0.8rem;
+}
+.reflection-form textarea,
+.reflection-form input:not([type='hidden']),
+.reflection-form select {
+  width: 100%;
+  min-width: 0;
+  font: inherit;
+  padding: 0.6rem;
+  border: 2px solid #8d856e;
+  color: #292723;
+  background: #fffaf0;
+}
+.reflection-form .field-label {
+  margin-block: 1rem;
+}
+.reflection-text {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+@media (max-width: 700px) {
+  .practice-fields,
+  .learning-journey ol {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Visible page numbers work on touch screens and in the keyboard reading order. */
+.numbered-steps { display:flex; flex-wrap:wrap; gap:8px; margin-block:16px; }
+.numbered-steps button { flex:none; min-width:44px; min-height:44px; padding:6px; border:2px solid #817663; background:#fff9ed; color:#302d27; box-shadow:2px 2px 0 #b2a58c; font:inherit; font-weight:700; }
+.numbered-steps button span { display:inline; height:auto; width:auto; background:transparent; border:0; color:inherit; }
+.numbered-steps button.current { color:#fff; background:#333a32; border-color:#333a32; }
+.numbered-steps button.acknowledged:not(.current) { background:#d5edc4; }
+.numbered-steps button:active { transform:translate(2px,2px); box-shadow:none; }

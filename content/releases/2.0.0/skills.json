@@ -1,0 +1,389 @@
+[
+  {
+    "id": "PYTHON",
+    "name": "Python",
+    "domain": "Programming",
+    "description": "יכולת הנדסית: Python. הבנה, מימוש, ולבסוף תכנון וניפוי שגיאות באופן עצמאי.",
+    "prerequisiteSkillIds": []
+  },
+  {
+    "id": "GIT",
+    "name": "Git",
+    "domain": "Programming",
+    "description": "יכולת הנדסית: Git. הבנה, מימוש, ולבסוף תכנון וניפוי שגיאות באופן עצמאי.",
+    "prerequisiteSkillIds": []
+  },
+  {
+    "id": "HTTP_APIS",
+    "name": "HTTP/APIs",
+    "domain": "Programming",
+    "description": "יכולת הנדסית: HTTP/APIs. הבנה, מימוש, ולבסוף תכנון וניפוי שגיאות באופן עצמאי.",
+    "prerequisiteSkillIds": []
+  },
+  {
+    "id": "JSON_SCHEMAS",
+    "name": "JSON/Schemas",
+    "domain": "Programming",
+    "description": "יכולת הנדסית: JSON/Schemas. הבנה, מימוש, ולבסוף תכנון וניפוי שגיאות באופן עצמאי.",
+    "prerequisiteSkillIds": []
+  },
+  {
+    "id": "ASYNC_CONCURRENCY",
+    "name": "Async/Concurrency",
+    "domain": "Programming",
+    "description": "יכולת הנדסית: Async/Concurrency. הבנה, מימוש, ולבסוף תכנון וניפוי שגיאות באופן עצמאי.",
+    "prerequisiteSkillIds": []
+  },
+  {
+    "id": "CONTEXT_ENGINEERING",
+    "name": "Context Engineering",
+    "domain": "LLM Engineering",
+    "description": "יכולת הנדסית: Context Engineering. הבנה, מימוש, ולבסוף תכנון וניפוי שגיאות באופן עצמאי.",
+    "prerequisiteSkillIds": []
+  },
+  {
+    "id": "STRUCTURED_OUTPUTS",
+    "name": "Structured Outputs",
+    "domain": "LLM Engineering",
+    "description": "יכולת הנדסית: Structured Outputs. הבנה, מימוש, ולבסוף תכנון וניפוי שגיאות באופן עצמאי.",
+    "prerequisiteSkillIds": []
+  },
+  {
+    "id": "GROUNDING",
+    "name": "Grounding",
+    "domain": "LLM Engineering",
+    "description": "יכולת הנדסית: Grounding. הבנה, מימוש, ולבסוף תכנון וניפוי שגיאות באופן עצמאי.",
+    "prerequisiteSkillIds": []
+  },
+  {
+    "id": "MODEL_SELECTION",
+    "name": "Model Selection",
+    "domain": "LLM Engineering",
+    "description": "יכולת הנדסית: Model Selection. הבנה, מימוש, ולבסוף תכנון וניפוי שגיאות באופן עצמאי.",
+    "prerequisiteSkillIds": []
+  },
+  {
+    "id": "COST_LATENCY",
+    "name": "Cost & Latency",
+    "domain": "LLM Engineering",
+    "description": "יכולת הנדסית: Cost & Latency. הבנה, מימוש, ולבסוף תכנון וניפוי שגיאות באופן עצמאי.",
+    "prerequisiteSkillIds": []
+  },
+  {
+    "id": "TOOL_CALLING",
+    "name": "Tool Calling",
+    "domain": "Agent Engineering",
+    "description": "יכולת הנדסית: Tool Calling. הבנה, מימוש, ולבסוף תכנון וניפוי שגיאות באופן עצמאי.",
+    "prerequisiteSkillIds": [
+      "JSON_SCHEMAS"
+    ]
+  },
+  {
+    "id": "AGENT_LOOP",
+    "name": "Agent Loop",
+    "domain": "Agent Engineering",
+    "description": "יכולת הנדסית: Agent Loop. הבנה, מימוש, ולבסוף תכנון וניפוי שגיאות באופן עצמאי.",
+    "prerequisiteSkillIds": [
+      "TOOL_CALLING"
+    ]
+  },
+  {
+    "id": "PLANNING",
+    "name": "Planning",
+    "domain": "Agent Engineering",
+    "description": "יכולת הנדסית: Planning. הבנה, מימוש, ולבסוף תכנון וניפוי שגיאות באופן עצמאי.",
+    "prerequisiteSkillIds": []
+  },
+  {
+    "id": "STOPPING_CONDITIONS",
+    "name": "Stopping Conditions",
+    "domain": "Agent Engineering",
+    "description": "יכולת הנדסית: Stopping Conditions. הבנה, מימוש, ולבסוף תכנון וניפוי שגיאות באופן עצמאי.",
+    "prerequisiteSkillIds": []
+  },
+  {
+    "id": "STATE",
+    "name": "State",
+    "domain": "Agent Engineering",
+    "description": "יכולת הנדסית: State. הבנה, מימוש, ולבסוף תכנון וניפוי שגיאות באופן עצמאי.",
+    "prerequisiteSkillIds": []
+  },
+  {
+    "id": "MEMORY",
+    "name": "Memory",
+    "domain": "Agent Engineering",
+    "description": "יכולת הנדסית: Memory. הבנה, מימוש, ולבסוף תכנון וניפוי שגיאות באופן עצמאי.",
+    "prerequisiteSkillIds": [
+      "STATE"
+    ]
+  },
+  {
+    "id": "EMBEDDINGS",
+    "name": "Embeddings",
+    "domain": "Knowledge",
+    "description": "יכולת הנדסית: Embeddings. הבנה, מימוש, ולבסוף תכנון וניפוי שגיאות באופן עצמאי.",
+    "prerequisiteSkillIds": []
+  },
+  {
+    "id": "RETRIEVAL",
+    "name": "Retrieval",
+    "domain": "Knowledge",
+    "description": "יכולת הנדסית: Retrieval. הבנה, מימוש, ולבסוף תכנון וניפוי שגיאות באופן עצמאי.",
+    "prerequisiteSkillIds": [
+      "EMBEDDINGS"
+    ]
+  },
+  {
+    "id": "RAG",
+    "name": "RAG",
+    "domain": "Knowledge",
+    "description": "יכולת הנדסית: RAG. הבנה, מימוש, ולבסוף תכנון וניפוי שגיאות באופן עצמאי.",
+    "prerequisiteSkillIds": [
+      "RETRIEVAL"
+    ]
+  },
+  {
+    "id": "RERANKING",
+    "name": "Reranking",
+    "domain": "Knowledge",
+    "description": "יכולת הנדסית: Reranking. הבנה, מימוש, ולבסוף תכנון וניפוי שגיאות באופן עצמאי.",
+    "prerequisiteSkillIds": []
+  },
+  {
+    "id": "WORKFLOWS",
+    "name": "Workflows",
+    "domain": "Orchestration",
+    "description": "יכולת הנדסית: Workflows. הבנה, מימוש, ולבסוף תכנון וניפוי שגיאות באופן עצמאי.",
+    "prerequisiteSkillIds": []
+  },
+  {
+    "id": "ROUTERS",
+    "name": "Routers",
+    "domain": "Orchestration",
+    "description": "יכולת הנדסית: Routers. הבנה, מימוש, ולבסוף תכנון וניפוי שגיאות באופן עצמאי.",
+    "prerequisiteSkillIds": []
+  },
+  {
+    "id": "PARALLELIZATION",
+    "name": "Parallelization",
+    "domain": "Orchestration",
+    "description": "יכולת הנדסית: Parallelization. הבנה, מימוש, ולבסוף תכנון וניפוי שגיאות באופן עצמאי.",
+    "prerequisiteSkillIds": [
+      "ASYNC_CONCURRENCY"
+    ]
+  },
+  {
+    "id": "DURABLE_EXECUTION",
+    "name": "Durable Execution",
+    "domain": "Orchestration",
+    "description": "יכולת הנדסית: Durable Execution. הבנה, מימוש, ולבסוף תכנון וניפוי שגיאות באופן עצמאי.",
+    "prerequisiteSkillIds": [
+      "STATE"
+    ]
+  },
+  {
+    "id": "MANAGER",
+    "name": "Manager",
+    "domain": "Multi-Agent",
+    "description": "יכולת הנדסית: Manager. הבנה, מימוש, ולבסוף תכנון וניפוי שגיאות באופן עצמאי.",
+    "prerequisiteSkillIds": []
+  },
+  {
+    "id": "HANDOFFS",
+    "name": "Handoffs",
+    "domain": "Multi-Agent",
+    "description": "יכולת הנדסית: Handoffs. הבנה, מימוש, ולבסוף תכנון וניפוי שגיאות באופן עצמאי.",
+    "prerequisiteSkillIds": [
+      "AGENT_LOOP"
+    ]
+  },
+  {
+    "id": "SPECIALIZATION",
+    "name": "Specialization",
+    "domain": "Multi-Agent",
+    "description": "יכולת הנדסית: Specialization. הבנה, מימוש, ולבסוף תכנון וניפוי שגיאות באופן עצמאי.",
+    "prerequisiteSkillIds": []
+  },
+  {
+    "id": "COORDINATION",
+    "name": "Coordination",
+    "domain": "Multi-Agent",
+    "description": "יכולת הנדסית: Coordination. הבנה, מימוש, ולבסוף תכנון וניפוי שגיאות באופן עצמאי.",
+    "prerequisiteSkillIds": []
+  },
+  {
+    "id": "TESTING",
+    "name": "Testing",
+    "domain": "Reliability",
+    "description": "יכולת הנדסית: Testing. הבנה, מימוש, ולבסוף תכנון וניפוי שגיאות באופן עצמאי.",
+    "prerequisiteSkillIds": []
+  },
+  {
+    "id": "EVALS",
+    "name": "Evals",
+    "domain": "Reliability",
+    "description": "יכולת הנדסית: Evals. הבנה, מימוש, ולבסוף תכנון וניפוי שגיאות באופן עצמאי.",
+    "prerequisiteSkillIds": []
+  },
+  {
+    "id": "TRACING",
+    "name": "Tracing",
+    "domain": "Reliability",
+    "description": "יכולת הנדסית: Tracing. הבנה, מימוש, ולבסוף תכנון וניפוי שגיאות באופן עצמאי.",
+    "prerequisiteSkillIds": []
+  },
+  {
+    "id": "OBSERVABILITY",
+    "name": "Observability",
+    "domain": "Reliability",
+    "description": "יכולת הנדסית: Observability. הבנה, מימוש, ולבסוף תכנון וניפוי שגיאות באופן עצמאי.",
+    "prerequisiteSkillIds": []
+  },
+  {
+    "id": "PROMPT_INJECTION",
+    "name": "Prompt Injection",
+    "domain": "Security",
+    "description": "יכולת הנדסית: Prompt Injection. הבנה, מימוש, ולבסוף תכנון וניפוי שגיאות באופן עצמאי.",
+    "prerequisiteSkillIds": []
+  },
+  {
+    "id": "AUTHORIZATION",
+    "name": "Authorization",
+    "domain": "Security",
+    "description": "יכולת הנדסית: Authorization. הבנה, מימוש, ולבסוף תכנון וניפוי שגיאות באופן עצמאי.",
+    "prerequisiteSkillIds": []
+  },
+  {
+    "id": "GUARDRAILS",
+    "name": "Guardrails",
+    "domain": "Security",
+    "description": "יכולת הנדסית: Guardrails. הבנה, מימוש, ולבסוף תכנון וניפוי שגיאות באופן עצמאי.",
+    "prerequisiteSkillIds": []
+  },
+  {
+    "id": "HUMAN_APPROVAL",
+    "name": "Human Approval",
+    "domain": "Security",
+    "description": "יכולת הנדסית: Human Approval. הבנה, מימוש, ולבסוף תכנון וניפוי שגיאות באופן עצמאי.",
+    "prerequisiteSkillIds": []
+  },
+  {
+    "id": "BACKEND",
+    "name": "Backend",
+    "domain": "Production",
+    "description": "יכולת הנדסית: Backend. הבנה, מימוש, ולבסוף תכנון וניפוי שגיאות באופן עצמאי.",
+    "prerequisiteSkillIds": []
+  },
+  {
+    "id": "DATABASE",
+    "name": "Database",
+    "domain": "Production",
+    "description": "יכולת הנדסית: Database. הבנה, מימוש, ולבסוף תכנון וניפוי שגיאות באופן עצמאי.",
+    "prerequisiteSkillIds": []
+  },
+  {
+    "id": "QUEUES",
+    "name": "Queues",
+    "domain": "Production",
+    "description": "יכולת הנדסית: Queues. הבנה, מימוש, ולבסוף תכנון וניפוי שגיאות באופן עצמאי.",
+    "prerequisiteSkillIds": []
+  },
+  {
+    "id": "DEPLOYMENT",
+    "name": "Deployment",
+    "domain": "Production",
+    "description": "יכולת הנדסית: Deployment. הבנה, מימוש, ולבסוף תכנון וניפוי שגיאות באופן עצמאי.",
+    "prerequisiteSkillIds": []
+  },
+  {
+    "id": "MONITORING",
+    "name": "Monitoring",
+    "domain": "Production",
+    "description": "יכולת הנדסית: Monitoring. הבנה, מימוש, ולבסוף תכנון וניפוי שגיאות באופן עצמאי.",
+    "prerequisiteSkillIds": []
+  },
+  {
+    "id": "MCP",
+    "name": "MCP",
+    "domain": "Advanced",
+    "description": "יכולת הנדסית: MCP. הבנה, מימוש, ולבסוף תכנון וניפוי שגיאות באופן עצמאי.",
+    "prerequisiteSkillIds": []
+  },
+  {
+    "id": "COMPUTER_USE",
+    "name": "Computer Use",
+    "domain": "Advanced",
+    "description": "יכולת הנדסית: Computer Use. הבנה, מימוש, ולבסוף תכנון וניפוי שגיאות באופן עצמאי.",
+    "prerequisiteSkillIds": []
+  },
+  {
+    "id": "SANDBOX_AGENTS",
+    "name": "Sandbox Agents",
+    "domain": "Advanced",
+    "description": "יכולת הנדסית: Sandbox Agents. הבנה, מימוש, ולבסוף תכנון וניפוי שגיאות באופן עצמאי.",
+    "prerequisiteSkillIds": []
+  },
+  {
+    "id": "CODING_AGENTS",
+    "name": "Coding Agents",
+    "domain": "Advanced",
+    "description": "יכולת הנדסית: Coding Agents. הבנה, מימוש, ולבסוף תכנון וניפוי שגיאות באופן עצמאי.",
+    "prerequisiteSkillIds": []
+  },
+  {
+    "id": "DYNAMIC_TOOLS",
+    "name": "Dynamic Tools",
+    "domain": "Advanced",
+    "description": "יכולת הנדסית: Dynamic Tools. הבנה, מימוש, ולבסוף תכנון וניפוי שגיאות באופן עצמאי.",
+    "prerequisiteSkillIds": []
+  },
+  {
+    "id": "AI_FUNDAMENTALS",
+    "name": "יסודות AI",
+    "domain": "Foundations",
+    "description": "הבחנה בין אימון, הפעלה, חיזוי ויצירת תוכן באמצעות משימה ומדידה.",
+    "prerequisiteSkillIds": []
+  },
+  {
+    "id": "CONTENT_PIPELINES",
+    "name": "מערכות תוכן",
+    "domain": "Business applications",
+    "description": "בניית תדריך, יצירה, עריכה, אישור ומדידת תוכן לפי מקורות.",
+    "prerequisiteSkillIds": []
+  },
+  {
+    "id": "PAID_MEDIA",
+    "name": "פרסום ומדידה",
+    "domain": "Business applications",
+    "description": "הכנת קמפיינים ובדיקת מדידה עם גבולות תקציב ואישור לפני פרסום.",
+    "prerequisiteSkillIds": []
+  },
+  {
+    "id": "CRM_OPERATIONS",
+    "name": "CRM ותפעול לקוחות",
+    "domain": "Business applications",
+    "description": "ניהול קליטת לקוחות, כפילויות, פעולות ואחריות אנושית.",
+    "prerequisiteSkillIds": []
+  },
+  {
+    "id": "UI_DESIGN",
+    "name": "ממשק ונגישות",
+    "domain": "Product",
+    "description": "בניית מסכים עם מצב אמיתי, שגיאות, ניווט ונגישות.",
+    "prerequisiteSkillIds": []
+  },
+  {
+    "id": "VOICE_SYSTEMS",
+    "name": "קול ומסמכים",
+    "domain": "Business applications",
+    "description": "עיבוד דיבור ומסמכים עם מיקום מקור, מדידה ואימות שגיאות.",
+    "prerequisiteSkillIds": []
+  },
+  {
+    "id": "BUSINESS_DISCOVERY",
+    "name": "אפיון ומסירת שירות",
+    "domain": "Business applications",
+    "description": "תרגום צורך עסקי לפיילוט מדיד, הצעה, מבחן קבלה ומסירה.",
+    "prerequisiteSkillIds": []
+  }
+]

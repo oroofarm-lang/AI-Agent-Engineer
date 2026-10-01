@@ -1,0 +1,24 @@
+[
+  {
+    "version": "1.0.0",
+    "date": "2026-09-30",
+    "changes": [
+      "Initial source-derived syllabus; first lesson authored. Remaining lessons are planned outlines."
+    ]
+  },
+  {
+    "version": "1.1.0",
+    "date": "2026-09-30",
+    "changes": [
+      "Add practical evidence submission for Day 1 and navigable skill prerequisites; no automatic mastery grading."
+    ]
+  },
+  {
+    "version": "2.0.0",
+    "date": "2026-10-01",
+    "changes": [
+      "Add 14 topic modules and 59 stable-ID specialization units alongside the preserved original 80-day syllabus.",
+      "Publish practical workbooks, primary references and evidence rubrics; workbook availability does not certify external execution or mastery."
+    ]
+  }
+]

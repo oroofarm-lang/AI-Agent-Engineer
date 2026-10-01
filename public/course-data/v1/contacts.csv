@@ -1,0 +1,6 @@
+source_id,tenant_id,name,email
+CONTACT_1,DEMO_A,דנה לדוגמה,dana@example.test
+CONTACT_2,DEMO_A,אורי לדוגמה,uri@example.test
+CONTACT_3,DEMO_B,דנה לדוגמה,other-dana@example.test
+CONTACT_1,DEMO_A,דנה לדוגמה,dana@example.test
+CONTACT_4,DEMO_A,לקוח ללא דואר,

@@ -1,0 +1,1868 @@
+{
+  "curriculumId": "AI_AGENT_ENGINEER",
+  "version": "1.0.0",
+  "baseline": "September 2026",
+  "releaseDate": "2026-09-30",
+  "lastVerified": null,
+  "minimumMigrationVersion": "1.0.0",
+  "majorChanges": [
+    "Initial source-derived syllabus; first lesson authored. Remaining lessons are planned outlines."
+  ],
+  "weeks": [
+    {
+      "id": "WEEK_01",
+      "number": 1,
+      "title": "מאפס לתוכנת AI עובדת",
+      "titleEn": "ZERO TO WORKING AI SOFTWARE"
+    },
+    {
+      "id": "WEEK_02",
+      "number": 2,
+      "title": "הנדסת LLM",
+      "titleEn": "LLM ENGINEERING"
+    },
+    {
+      "id": "WEEK_03",
+      "number": 3,
+      "title": "לולאת סוכן מאפס",
+      "titleEn": "AGENT LOOP FROM SCRATCH"
+    },
+    {
+      "id": "WEEK_04",
+      "number": 4,
+      "title": "סוכני מחקר",
+      "titleEn": "RESEARCH AGENTS"
+    },
+    {
+      "id": "WEEK_05",
+      "number": 5,
+      "title": "מסדי נתונים, מצב וזיכרון",
+      "titleEn": "DATABASES, STATE & MEMORY"
+    },
+    {
+      "id": "WEEK_06",
+      "number": 6,
+      "title": "RAG ומערכות ידע",
+      "titleEn": "RAG & KNOWLEDGE SYSTEMS"
+    },
+    {
+      "id": "WEEK_07",
+      "number": 7,
+      "title": "מערכות חיצוניות ו־MCP",
+      "titleEn": "EXTERNAL SYSTEMS & MCP"
+    },
+    {
+      "id": "WEEK_08",
+      "number": 8,
+      "title": "סביבות הרצה לסוכנים",
+      "titleEn": "MODERN AGENT RUNTIMES"
+    },
+    {
+      "id": "WEEK_09",
+      "number": 9,
+      "title": "תזמור תהליכים",
+      "titleEn": "ORCHESTRATION"
+    },
+    {
+      "id": "WEEK_10",
+      "number": 10,
+      "title": "מערכות מרובות סוכנים",
+      "titleEn": "MULTI-AGENT SYSTEMS"
+    },
+    {
+      "id": "WEEK_11",
+      "number": 11,
+      "title": "הערכה ותצפיתיות",
+      "titleEn": "EVALS & OBSERVABILITY"
+    },
+    {
+      "id": "WEEK_12",
+      "number": 12,
+      "title": "אבטחה ושליטה אנושית",
+      "titleEn": "SECURITY & HUMAN CONTROL"
+    },
+    {
+      "id": "WEEK_13",
+      "number": 13,
+      "title": "Backend לפרודקשן",
+      "titleEn": "PRODUCTION BACKEND"
+    },
+    {
+      "id": "WEEK_14",
+      "number": 14,
+      "title": "מוצר ופריסה",
+      "titleEn": "PRODUCT & DEPLOYMENT"
+    },
+    {
+      "id": "WEEK_15",
+      "number": 15,
+      "title": "סוכנים מתקדמים",
+      "titleEn": "ADVANCED AGENTS"
+    },
+    {
+      "id": "WEEK_16",
+      "number": 16,
+      "title": "פרויקט גמר",
+      "titleEn": "CAPSTONE"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "W01D01_FIRST_AI_PROGRAM",
+      "week": 1,
+      "day": 1,
+      "title": "תוכנית ה־AI הראשונה שלך",
+      "titleEn": "Your First AI Program",
+      "version": "1.0.0",
+      "stability": "ECOSYSTEM",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "PYTHON",
+        "GIT",
+        "HTTP_APIS"
+      ],
+      "prerequisiteLessonIds": [],
+      "sourceIds": [
+        "PYTHON_TUTORIAL",
+        "OPENAI_QUICKSTART",
+        "GIT_BOOK"
+      ],
+      "publicationStatus": "published",
+      "lastVerified": null,
+      "outline": "Mission\nGo from an empty folder to a working Python application communicating with an AI model.\nLearn\nterminal basics;\ndirectories;\nPython execution;\npackages;\nvirtual environments;\nenvironment variables;\nAPI keys;\nrequest/response basics;\nGit basics.\nBuild\nCLI:\npython app.py\nUser asks a question.\nApplication sends request to model.\nApplication prints response.\nDeep Dive\nUnderstand:\nSDK;\nHTTP;\nAPI;\nmodel;\napplication.\nMastery\nStudent recreates project from an empty folder."
+    },
+    {
+      "id": "W01D02_PYTHON_FOR_AGENT_BUILDERS_I",
+      "week": 1,
+      "day": 2,
+      "title": "Python לבוני סוכנים · חלק א׳",
+      "titleEn": "Python for Agent Builders I",
+      "version": "1.0.0",
+      "stability": "FOUNDATION",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "PYTHON",
+        "GIT",
+        "HTTP_APIS"
+      ],
+      "prerequisiteLessonIds": [
+        "W01D01_FIRST_AI_PROGRAM"
+      ],
+      "sourceIds": [],
+      "publicationStatus": "planned",
+      "lastVerified": null,
+      "outline": "Learn:\nvariables;\nstrings;\nnumbers;\nbooleans;\nlists;\ndictionaries;\nconditions;\nloops;\nfunctions.\nBuild\nCommand router supporting:\nresearch;\nsummarize;\nextract.\nChallenge\nAdd another capability independently."
+    },
+    {
+      "id": "W01D03_PYTHON_FOR_AGENT_BUILDERS_II",
+      "week": 1,
+      "day": 3,
+      "title": "Python לבוני סוכנים · חלק ב׳",
+      "titleEn": "Python for Agent Builders II",
+      "version": "1.0.0",
+      "stability": "FOUNDATION",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "PYTHON",
+        "GIT",
+        "HTTP_APIS"
+      ],
+      "prerequisiteLessonIds": [
+        "W01D02_PYTHON_FOR_AGENT_BUILDERS_I"
+      ],
+      "sourceIds": [],
+      "publicationStatus": "planned",
+      "lastVerified": null,
+      "outline": "Learn:\nfunctions;\ntypes;\nclasses basics;\nimports;\npackages;\nexceptions;\nfiles;\nJSON.\nBuild\nSave and load conversations.\nFailure Lab\nHandle:\ncorrupted JSON;\nmissing files;\nmissing properties."
+    },
+    {
+      "id": "W01D04_HTTP_APIS",
+      "week": 1,
+      "day": 4,
+      "title": "HTTP וממשקי API",
+      "titleEn": "HTTP & APIs",
+      "version": "1.0.0",
+      "stability": "FOUNDATION",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "PYTHON",
+        "GIT",
+        "HTTP_APIS"
+      ],
+      "prerequisiteLessonIds": [
+        "W01D03_PYTHON_FOR_AGENT_BUILDERS_II"
+      ],
+      "sourceIds": [],
+      "publicationStatus": "planned",
+      "lastVerified": null,
+      "outline": "Understand:\nclient;\nserver;\nrequest;\nresponse;\nendpoint;\nHTTP method;\nheaders;\nrequest body;\nauthentication;\nstatus codes;\nrate limits.\nBuild\nCall multiple APIs.\nNormalize results.\nMastery\nExplain what happens from application code to external service and back."
+    },
+    {
+      "id": "W01D05_PROJECT_AGENT_ZERO",
+      "week": 1,
+      "day": 5,
+      "title": "פרויקט: Agent Zero",
+      "titleEn": "PROJECT — Agent Zero",
+      "version": "1.0.0",
+      "stability": "FOUNDATION",
+      "estimatedMinutes": 240,
+      "skillIds": [
+        "PYTHON",
+        "GIT",
+        "HTTP_APIS"
+      ],
+      "prerequisiteLessonIds": [
+        "W01D04_HTTP_APIS"
+      ],
+      "sourceIds": [],
+      "publicationStatus": "planned",
+      "lastVerified": null,
+      "outline": "Agent Zero\nRequirements:\nreceives a task;\nuses one external function;\nreturns structured output;\nhandles failures;\nlogs steps."
+    },
+    {
+      "id": "W02D06_HOW_LLM_APPLICATIONS_WORK",
+      "week": 2,
+      "day": 6,
+      "title": "How LLM Applications Work",
+      "titleEn": "How LLM Applications Work",
+      "version": "1.0.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "CONTEXT_ENGINEERING",
+        "STRUCTURED_OUTPUTS",
+        "GROUNDING"
+      ],
+      "prerequisiteLessonIds": [
+        "W01D05_PROJECT_AGENT_ZERO"
+      ],
+      "sourceIds": [],
+      "publicationStatus": "planned",
+      "lastVerified": null,
+      "outline": "Learn:\ntokens;\ncontext;\ninstructions;\nmodel inputs;\noutputs;\nreasoning;\nlatency;\ncosts;\ncontext limits.\nExperiment\nChange context and observe behavior."
+    },
+    {
+      "id": "W02D07_CONTEXT_ENGINEERING",
+      "week": 2,
+      "day": 7,
+      "title": "Context Engineering",
+      "titleEn": "Context Engineering",
+      "version": "1.0.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "CONTEXT_ENGINEERING",
+        "STRUCTURED_OUTPUTS",
+        "GROUNDING"
+      ],
+      "prerequisiteLessonIds": [
+        "W02D06_HOW_LLM_APPLICATIONS_WORK"
+      ],
+      "sourceIds": [],
+      "publicationStatus": "planned",
+      "lastVerified": null,
+      "outline": "Learn:\nsystem/developer/user instructions;\ntask context;\nexamples;\nconstraints;\nirrelevant information;\ncontext pollution.\nBuild\nThree versions of the same AI application using different context architectures."
+    },
+    {
+      "id": "W02D08_STRUCTURED_OUTPUTS",
+      "week": 2,
+      "day": 8,
+      "title": "Structured Outputs",
+      "titleEn": "Structured Outputs",
+      "version": "1.0.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "CONTEXT_ENGINEERING",
+        "STRUCTURED_OUTPUTS",
+        "GROUNDING"
+      ],
+      "prerequisiteLessonIds": [
+        "W02D07_CONTEXT_ENGINEERING"
+      ],
+      "sourceIds": [],
+      "publicationStatus": "planned",
+      "lastVerified": null,
+      "outline": "Learn:\nJSON Schema;\nvalidation;\ntyped data;\nrequired fields;\noptional fields;\nenums.\nBuild\nFree text customer inquiry →\nvalidated Lead object."
+    },
+    {
+      "id": "W02D09_MODEL_RELIABILITY",
+      "week": 2,
+      "day": 9,
+      "title": "Model Reliability",
+      "titleEn": "Model Reliability",
+      "version": "1.0.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "CONTEXT_ENGINEERING",
+        "STRUCTURED_OUTPUTS",
+        "GROUNDING"
+      ],
+      "prerequisiteLessonIds": [
+        "W02D08_STRUCTURED_OUTPUTS"
+      ],
+      "sourceIds": [],
+      "publicationStatus": "planned",
+      "lastVerified": null,
+      "outline": "Learn:\nhallucination;\ngrounding;\nuncertainty;\nverification;\ndeterministic components;\nfallback logic.\nBuild\nSystem that outputs:\nKNOWN\nUNKNOWN\nNEEDS VERIFICATION"
+    },
+    {
+      "id": "W02D10_PROJECT_INTELLIGENT_INTAKE_ENGINE",
+      "week": 2,
+      "day": 10,
+      "title": "PROJECT — Intelligent Intake Engine",
+      "titleEn": "PROJECT — Intelligent Intake Engine",
+      "version": "1.0.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 240,
+      "skillIds": [
+        "CONTEXT_ENGINEERING",
+        "STRUCTURED_OUTPUTS",
+        "GROUNDING"
+      ],
+      "prerequisiteLessonIds": [
+        "W02D09_MODEL_RELIABILITY"
+      ],
+      "sourceIds": [],
+      "publicationStatus": "planned",
+      "lastVerified": null,
+      "outline": "Intelligent Intake Engine\nInput:\ntext;\nfile;\nform.\nOutput:\nvalidated structured record.\nIncludes:\nschema;\nvalidation;\nerror handling;\nlogs;\nuncertainty handling."
+    },
+    {
+      "id": "W03D11_WHAT_MAKES_SOMETHING_AN_AGENT",
+      "week": 3,
+      "day": 11,
+      "title": "What Makes Something an Agent?",
+      "titleEn": "What Makes Something an Agent?",
+      "version": "1.0.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "TOOL_CALLING",
+        "AGENT_LOOP",
+        "STOPPING_CONDITIONS"
+      ],
+      "prerequisiteLessonIds": [
+        "W02D10_PROJECT_INTELLIGENT_INTAKE_ENGINE"
+      ],
+      "sourceIds": [],
+      "publicationStatus": "planned",
+      "lastVerified": null,
+      "outline": "Distinguish:\nLLM call;\nchatbot;\nautomation;\nworkflow;\nagent;\nmulti-agent system.\nExercise\nClassify systems.\nExplain why some should NOT be agentic."
+    },
+    {
+      "id": "W03D12_TOOL_CALLING",
+      "week": 3,
+      "day": 12,
+      "title": "Tool Calling",
+      "titleEn": "Tool Calling",
+      "version": "1.0.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "TOOL_CALLING",
+        "AGENT_LOOP",
+        "STOPPING_CONDITIONS"
+      ],
+      "prerequisiteLessonIds": [
+        "W03D11_WHAT_MAKES_SOMETHING_AN_AGENT"
+      ],
+      "sourceIds": [],
+      "publicationStatus": "planned",
+      "lastVerified": null,
+      "outline": "Learn:\ntool definitions;\nschemas;\narguments;\ntool results;\ntool choice;\nvalidation.\nBuild\nTools such as:\ncalculator;\ndatabase lookup;\nmocked external service.\nModel chooses correct tool."
+    },
+    {
+      "id": "W03D13_AGENT_LOOP",
+      "week": 3,
+      "day": 13,
+      "title": "The Agent Loop",
+      "titleEn": "The Agent Loop",
+      "version": "1.0.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "TOOL_CALLING",
+        "AGENT_LOOP",
+        "STOPPING_CONDITIONS"
+      ],
+      "prerequisiteLessonIds": [
+        "W03D12_TOOL_CALLING"
+      ],
+      "sourceIds": [],
+      "publicationStatus": "planned",
+      "lastVerified": null,
+      "outline": "Implement manually:\nGOAL\n↓\nMODEL\n↓\nTOOL CALL\n↓\nEXECUTION\n↓\nOBSERVATION\n↓\nMODEL\n↓\nSTOP / CONTINUE\nDo not use an agent framework."
+    },
+    {
+      "id": "W03D14_RELIABILITY_FAILURE_HANDLING",
+      "week": 3,
+      "day": 14,
+      "title": "Reliability & Failure Handling",
+      "titleEn": "Reliability & Failure Handling",
+      "version": "1.0.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "TOOL_CALLING",
+        "AGENT_LOOP",
+        "STOPPING_CONDITIONS"
+      ],
+      "prerequisiteLessonIds": [
+        "W03D13_AGENT_LOOP"
+      ],
+      "sourceIds": [],
+      "publicationStatus": "planned",
+      "lastVerified": null,
+      "outline": "Learn:\nretries;\ntimeouts;\ninvalid arguments;\ntool errors;\nmaximum iterations;\ninfinite loops;\nbudget constraints.\nFailure Lab\nCreate a looping agent.\nAdd safeguards."
+    },
+    {
+      "id": "W03D15_PROJECT_AGENT_FROM_SCRATCH",
+      "week": 3,
+      "day": 15,
+      "title": "PROJECT — Agent From Scratch",
+      "titleEn": "PROJECT — Agent From Scratch",
+      "version": "1.0.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 240,
+      "skillIds": [
+        "TOOL_CALLING",
+        "AGENT_LOOP",
+        "STOPPING_CONDITIONS"
+      ],
+      "prerequisiteLessonIds": [
+        "W03D14_RELIABILITY_FAILURE_HANDLING"
+      ],
+      "sourceIds": [],
+      "publicationStatus": "planned",
+      "lastVerified": null,
+      "outline": "Agent From Scratch\nMust contain:\nmultiple tools;\nrouting;\nlimits;\nstructured final result;\nerror recovery;\nexecution logs;\nbudgets.\nFrameworks forbidden."
+    },
+    {
+      "id": "W04D16_TASK_DECOMPOSITION",
+      "week": 4,
+      "day": 16,
+      "title": "Task Decomposition",
+      "titleEn": "Task Decomposition",
+      "version": "1.0.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "PLANNING",
+        "GROUNDING"
+      ],
+      "prerequisiteLessonIds": [
+        "W03D15_PROJECT_AGENT_FROM_SCRATCH"
+      ],
+      "sourceIds": [],
+      "publicationStatus": "planned",
+      "lastVerified": null,
+      "outline": "Convert broad research goals into:\nsubquestions;\nactions;\nevidence requirements.\nBuild\nResearch planner."
+    },
+    {
+      "id": "W04D17_SEARCH_EVIDENCE",
+      "week": 4,
+      "day": 17,
+      "title": "Search & Evidence",
+      "titleEn": "Search & Evidence",
+      "version": "1.0.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "PLANNING",
+        "GROUNDING"
+      ],
+      "prerequisiteLessonIds": [
+        "W04D16_TASK_DECOMPOSITION"
+      ],
+      "sourceIds": [],
+      "publicationStatus": "planned",
+      "lastVerified": null,
+      "outline": "Learn:\nsource quality;\nprimary sources;\nsecondary sources;\nfreshness;\ncitations;\ncontradictions."
+    },
+    {
+      "id": "W04D18_ITERATIVE_RESEARCH",
+      "week": 4,
+      "day": 18,
+      "title": "Iterative Research",
+      "titleEn": "Iterative Research",
+      "version": "1.0.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "PLANNING",
+        "GROUNDING"
+      ],
+      "prerequisiteLessonIds": [
+        "W04D17_SEARCH_EVIDENCE"
+      ],
+      "sourceIds": [],
+      "publicationStatus": "planned",
+      "lastVerified": null,
+      "outline": "Agent determines:\nwhat is known;\nwhat is missing;\nwhether further research is justified;\nwhen research should stop."
+    },
+    {
+      "id": "W04D19_RESEARCH_QUALITY",
+      "week": 4,
+      "day": 19,
+      "title": "Research Quality",
+      "titleEn": "Research Quality",
+      "version": "1.0.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "PLANNING",
+        "GROUNDING"
+      ],
+      "prerequisiteLessonIds": [
+        "W04D18_ITERATIVE_RESEARCH"
+      ],
+      "sourceIds": [],
+      "publicationStatus": "planned",
+      "lastVerified": null,
+      "outline": "Learn:\ncitation verification;\nduplicate evidence;\ndisagreement;\nmissing evidence.\nBuild\nEvidence table."
+    },
+    {
+      "id": "W04D20_BOSS_LEVEL_1_RESEARCH_AGENT",
+      "week": 4,
+      "day": 20,
+      "title": "BOSS LEVEL 1 — Research Agent",
+      "titleEn": "BOSS LEVEL 1 — Research Agent",
+      "version": "1.0.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 240,
+      "skillIds": [
+        "PLANNING",
+        "GROUNDING"
+      ],
+      "prerequisiteLessonIds": [
+        "W04D19_RESEARCH_QUALITY"
+      ],
+      "sourceIds": [],
+      "publicationStatus": "planned",
+      "lastVerified": null,
+      "outline": "Research Agent\nStudent receives specification only.\nMust build system that:\naccepts research goal;\nplans;\nsearches;\ngathers evidence;\nrecords sources;\ndetects contradiction;\nperforms follow-up research;\nstops appropriately;\ncreates sourced report.\nMentor operates primarily in hint mode."
+    },
+    {
+      "id": "W05D21_DATABASES",
+      "week": 5,
+      "day": 21,
+      "title": "Databases",
+      "titleEn": "Databases",
+      "version": "1.0.0",
+      "stability": "FOUNDATION",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "DATABASE",
+        "STATE",
+        "MEMORY"
+      ],
+      "prerequisiteLessonIds": [
+        "W04D20_BOSS_LEVEL_1_RESEARCH_AGENT"
+      ],
+      "sourceIds": [],
+      "publicationStatus": "planned",
+      "lastVerified": null,
+      "outline": "Learn:\nSQL;\ntables;\nrows;\nkeys;\nqueries;\nindexes;\ntransactions.\nStart with SQLite.\nIntroduce PostgreSQL concepts."
+    },
+    {
+      "id": "W05D22_STATE",
+      "week": 5,
+      "day": 22,
+      "title": "State",
+      "titleEn": "State",
+      "version": "1.0.0",
+      "stability": "FOUNDATION",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "DATABASE",
+        "STATE",
+        "MEMORY"
+      ],
+      "prerequisiteLessonIds": [
+        "W05D21_DATABASES"
+      ],
+      "sourceIds": [],
+      "publicationStatus": "planned",
+      "lastVerified": null,
+      "outline": "Distinguish:\napplication state;\nconversation state;\nworkflow state;\npersistent data.\nBuild\nStateful conversation system."
+    },
+    {
+      "id": "W05D23_AGENT_MEMORY",
+      "week": 5,
+      "day": 23,
+      "title": "Agent Memory",
+      "titleEn": "Agent Memory",
+      "version": "1.0.0",
+      "stability": "FOUNDATION",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "DATABASE",
+        "STATE",
+        "MEMORY"
+      ],
+      "prerequisiteLessonIds": [
+        "W05D22_STATE"
+      ],
+      "sourceIds": [],
+      "publicationStatus": "planned",
+      "lastVerified": null,
+      "outline": "Distinguish:\nshort-term memory;\nworking state;\nlong-term memory;\nsemantic memory;\nepisodic memory;\nuser preferences."
+    },
+    {
+      "id": "W05D24_MEMORY_QUALITY",
+      "week": 5,
+      "day": 24,
+      "title": "Memory Quality",
+      "titleEn": "Memory Quality",
+      "version": "1.0.0",
+      "stability": "FOUNDATION",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "DATABASE",
+        "STATE",
+        "MEMORY"
+      ],
+      "prerequisiteLessonIds": [
+        "W05D23_AGENT_MEMORY"
+      ],
+      "sourceIds": [],
+      "publicationStatus": "planned",
+      "lastVerified": null,
+      "outline": "Problems:\nincorrect memory;\nstale memory;\nduplicate memory;\nprivacy;\nover-personalization.\nBuild\nMemory write policy."
+    },
+    {
+      "id": "W05D25_PROJECT_PERSONAL_MEMORY_AGENT",
+      "week": 5,
+      "day": 25,
+      "title": "PROJECT — Personal Memory Agent",
+      "titleEn": "PROJECT — Personal Memory Agent",
+      "version": "1.0.0",
+      "stability": "FOUNDATION",
+      "estimatedMinutes": 240,
+      "skillIds": [
+        "DATABASE",
+        "STATE",
+        "MEMORY"
+      ],
+      "prerequisiteLessonIds": [
+        "W05D24_MEMORY_QUALITY"
+      ],
+      "sourceIds": [],
+      "publicationStatus": "planned",
+      "lastVerified": null,
+      "outline": "Personal Memory Agent\nSupports:\nremember;\nretrieve;\nupdate;\nignore;\ndelete.\nAll memory actions auditable."
+    },
+    {
+      "id": "W06D26_EMBEDDINGS",
+      "week": 6,
+      "day": 26,
+      "title": "Embeddings",
+      "titleEn": "Embeddings",
+      "version": "1.0.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "EMBEDDINGS",
+        "RETRIEVAL",
+        "RAG"
+      ],
+      "prerequisiteLessonIds": [
+        "W05D25_PROJECT_PERSONAL_MEMORY_AGENT"
+      ],
+      "sourceIds": [],
+      "publicationStatus": "planned",
+      "lastVerified": null,
+      "outline": "Understand semantic similarity.\nBuild embedding experiments."
+    },
+    {
+      "id": "W06D27_CHUNKING_VECTOR_RETRIEVAL",
+      "week": 6,
+      "day": 27,
+      "title": "Chunking & Vector Retrieval",
+      "titleEn": "Chunking & Vector Retrieval",
+      "version": "1.0.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "EMBEDDINGS",
+        "RETRIEVAL",
+        "RAG"
+      ],
+      "prerequisiteLessonIds": [
+        "W06D26_EMBEDDINGS"
+      ],
+      "sourceIds": [],
+      "publicationStatus": "planned",
+      "lastVerified": null,
+      "outline": "Learn:\nchunks;\nmetadata;\nindexes;\nvector search.\nTest chunk sizes."
+    },
+    {
+      "id": "W06D28_HYBRID_RETRIEVAL_RERANKING",
+      "week": 6,
+      "day": 28,
+      "title": "Hybrid Retrieval & Reranking",
+      "titleEn": "Hybrid Retrieval & Reranking",
+      "version": "1.0.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "EMBEDDINGS",
+        "RETRIEVAL",
+        "RAG"
+      ],
+      "prerequisiteLessonIds": [
+        "W06D27_CHUNKING_VECTOR_RETRIEVAL"
+      ],
+      "sourceIds": [],
+      "publicationStatus": "planned",
+      "lastVerified": null,
+      "outline": "Learn:\nfilters;\nlexical + semantic search;\ntop-k;\nreranking;\ncontext assembly."
+    },
+    {
+      "id": "W06D29_RAG_FAILURE_MODES",
+      "week": 6,
+      "day": 29,
+      "title": "RAG Failure Modes",
+      "titleEn": "RAG Failure Modes",
+      "version": "1.0.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "EMBEDDINGS",
+        "RETRIEVAL",
+        "RAG"
+      ],
+      "prerequisiteLessonIds": [
+        "W06D28_HYBRID_RETRIEVAL_RERANKING"
+      ],
+      "sourceIds": [],
+      "publicationStatus": "planned",
+      "lastVerified": null,
+      "outline": "Learn:\nwrong retrieval;\nmissing retrieval;\nfalse grounding;\nretrieval contamination;\ncontext overload.\nCreate retrieval eval dataset."
+    },
+    {
+      "id": "W06D30_PROJECT_KNOWLEDGE_AGENT",
+      "week": 6,
+      "day": 30,
+      "title": "PROJECT — Knowledge Agent",
+      "titleEn": "PROJECT — Knowledge Agent",
+      "version": "1.0.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 240,
+      "skillIds": [
+        "EMBEDDINGS",
+        "RETRIEVAL",
+        "RAG"
+      ],
+      "prerequisiteLessonIds": [
+        "W06D29_RAG_FAILURE_MODES"
+      ],
+      "sourceIds": [],
+      "publicationStatus": "planned",
+      "lastVerified": null,
+      "outline": "Knowledge Agent\nRequirements:\ningest documents;\nretrieve;\ncite;\nanswer;\nadmit insufficient evidence;\nexpose supporting passages."
+    },
+    {
+      "id": "W07D31_PRODUCTION_APIS",
+      "week": 7,
+      "day": 31,
+      "title": "Production APIs",
+      "titleEn": "Production APIs",
+      "version": "1.0.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "HTTP_APIS",
+        "MCP",
+        "HUMAN_APPROVAL"
+      ],
+      "prerequisiteLessonIds": [
+        "W06D30_PROJECT_KNOWLEDGE_AGENT"
+      ],
+      "sourceIds": [],
+      "publicationStatus": "planned",
+      "lastVerified": null,
+      "outline": "Learn:\nREST;\nauth;\nOAuth;\nwebhooks;\npagination;\nrate limits."
+    },
+    {
+      "id": "W07D32_TOOL_DESIGN",
+      "week": 7,
+      "day": 32,
+      "title": "Tool Design",
+      "titleEn": "Tool Design",
+      "version": "1.0.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "HTTP_APIS",
+        "MCP",
+        "HUMAN_APPROVAL"
+      ],
+      "prerequisiteLessonIds": [
+        "W07D31_PRODUCTION_APIS"
+      ],
+      "sourceIds": [],
+      "publicationStatus": "planned",
+      "lastVerified": null,
+      "outline": "Learn:\ntool granularity;\nnames;\nschemas;\npermissions;\nside effects.\nExercise\nRefactor badly designed tool catalog."
+    },
+    {
+      "id": "W07D33_MCP",
+      "week": 7,
+      "day": 33,
+      "title": "MCP",
+      "titleEn": "MCP",
+      "version": "1.0.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "HTTP_APIS",
+        "MCP",
+        "HUMAN_APPROVAL"
+      ],
+      "prerequisiteLessonIds": [
+        "W07D32_TOOL_DESIGN"
+      ],
+      "sourceIds": [],
+      "publicationStatus": "planned",
+      "lastVerified": null,
+      "outline": "Understand:\nclient;\nserver;\ntools;\nresources;\nprompts;\nauthorization;\ntrust boundaries."
+    },
+    {
+      "id": "W07D34_SIDE_EFFECTS_PERMISSIONS",
+      "week": 7,
+      "day": 34,
+      "title": "Side Effects & Permissions",
+      "titleEn": "Side Effects & Permissions",
+      "version": "1.0.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "HTTP_APIS",
+        "MCP",
+        "HUMAN_APPROVAL"
+      ],
+      "prerequisiteLessonIds": [
+        "W07D33_MCP"
+      ],
+      "sourceIds": [],
+      "publicationStatus": "planned",
+      "lastVerified": null,
+      "outline": "Classify:\nREAD\nWRITE\nDESTRUCTIVE\nHIGH IMPACT\nBuild\nApproval policy."
+    },
+    {
+      "id": "W07D35_PROJECT_OPERATIONS_AGENT",
+      "week": 7,
+      "day": 35,
+      "title": "PROJECT — Operations Agent",
+      "titleEn": "PROJECT — Operations Agent",
+      "version": "1.0.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 240,
+      "skillIds": [
+        "HTTP_APIS",
+        "MCP",
+        "HUMAN_APPROVAL"
+      ],
+      "prerequisiteLessonIds": [
+        "W07D34_SIDE_EFFECTS_PERMISSIONS"
+      ],
+      "sourceIds": [],
+      "publicationStatus": "planned",
+      "lastVerified": null,
+      "outline": "Operations Agent\nExample:\nread request\n↓\nretrieve information\n↓\ninspect files\n↓\nprepare action\n↓\nrequest approval\n↓\nexecute\n↓\nlog"
+    },
+    {
+      "id": "W08D36_RESPONSES_API",
+      "week": 8,
+      "day": 36,
+      "title": "Responses API",
+      "titleEn": "Responses API",
+      "version": "1.0.0",
+      "stability": "ECOSYSTEM",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "AGENT_LOOP",
+        "STATE",
+        "TRACING"
+      ],
+      "prerequisiteLessonIds": [
+        "W07D35_PROJECT_OPERATIONS_AGENT"
+      ],
+      "sourceIds": [],
+      "publicationStatus": "planned",
+      "lastVerified": null,
+      "outline": "Rebuild prior agent using direct model/tool integration.\nUnderstand explicit orchestration."
+    },
+    {
+      "id": "W08D37_AGENTS_SDK",
+      "week": 8,
+      "day": 37,
+      "title": "Agents SDK",
+      "titleEn": "Agents SDK",
+      "version": "1.0.0",
+      "stability": "ECOSYSTEM",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "AGENT_LOOP",
+        "STATE",
+        "TRACING"
+      ],
+      "prerequisiteLessonIds": [
+        "W08D36_RESPONSES_API"
+      ],
+      "sourceIds": [],
+      "publicationStatus": "planned",
+      "lastVerified": null,
+      "outline": "Learn:\nAgent;\nRunner;\ntools;\nsessions;\nhandoffs;\nresults;\ntracing;\nguardrails."
+    },
+    {
+      "id": "W08D38_MANAGED_DURABLE_AGENT_RUNTIME_CONCEPTS",
+      "week": 8,
+      "day": 38,
+      "title": "Managed / Durable Agent Runtime Concepts",
+      "titleEn": "Managed / Durable Agent Runtime Concepts",
+      "version": "1.0.0",
+      "stability": "ECOSYSTEM",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "AGENT_LOOP",
+        "STATE",
+        "TRACING"
+      ],
+      "prerequisiteLessonIds": [
+        "W08D37_AGENTS_SDK"
+      ],
+      "sourceIds": [],
+      "publicationStatus": "planned",
+      "lastVerified": null,
+      "outline": "Understand differences between:\ndirect API;\nSDK runtime;\nmanaged runtime;\ndurable environments."
+    },
+    {
+      "id": "W08D39_LANGGRAPH",
+      "week": 8,
+      "day": 39,
+      "title": "LangGraph",
+      "titleEn": "LangGraph",
+      "version": "1.0.0",
+      "stability": "ECOSYSTEM",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "AGENT_LOOP",
+        "STATE",
+        "TRACING"
+      ],
+      "prerequisiteLessonIds": [
+        "W08D38_MANAGED_DURABLE_AGENT_RUNTIME_CONCEPTS"
+      ],
+      "sourceIds": [],
+      "publicationStatus": "planned",
+      "lastVerified": null,
+      "outline": "Learn:\ngraphs;\nnodes;\nedges;\nstate;\ncheckpoints;\ninterrupts;\ndurable execution."
+    },
+    {
+      "id": "W08D40_BOSS_LEVEL_2_BUILD_ONE_SYSTEM_TWICE",
+      "week": 8,
+      "day": 40,
+      "title": "BOSS LEVEL 2 — Build one system twice.",
+      "titleEn": "BOSS LEVEL 2 — Build one system twice.",
+      "version": "1.0.0",
+      "stability": "ECOSYSTEM",
+      "estimatedMinutes": 240,
+      "skillIds": [
+        "AGENT_LOOP",
+        "STATE",
+        "TRACING"
+      ],
+      "prerequisiteLessonIds": [
+        "W08D39_LANGGRAPH"
+      ],
+      "sourceIds": [],
+      "publicationStatus": "planned",
+      "lastVerified": null,
+      "outline": "Build one system twice.\nVersion A:\ndirect/manual architecture.\nVersion B:\nagent framework/runtime.\nWrite comparison covering:\ncomplexity;\ncontrol;\nobservability;\npersistence;\nmaintainability;\nlock-in;\nsuitability."
+    },
+    {
+      "id": "W09D41_DETERMINISTIC_VS_AGENTIC_WORKFLOW",
+      "week": 9,
+      "day": 41,
+      "title": "Deterministic vs Agentic Workflow",
+      "titleEn": "Deterministic vs Agentic Workflow",
+      "version": "1.0.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "WORKFLOWS",
+        "ROUTERS",
+        "DURABLE_EXECUTION"
+      ],
+      "prerequisiteLessonIds": [
+        "W08D40_BOSS_LEVEL_2_BUILD_ONE_SYSTEM_TWICE"
+      ],
+      "sourceIds": [],
+      "publicationStatus": "planned",
+      "lastVerified": null,
+      "outline": "Teach principle:\nIf traditional software can reliably make a decision, it often should."
+    },
+    {
+      "id": "W09D42_ROUTERS",
+      "week": 9,
+      "day": 42,
+      "title": "Routers",
+      "titleEn": "Routers",
+      "version": "1.0.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "WORKFLOWS",
+        "ROUTERS",
+        "DURABLE_EXECUTION"
+      ],
+      "prerequisiteLessonIds": [
+        "W09D41_DETERMINISTIC_VS_AGENTIC_WORKFLOW"
+      ],
+      "sourceIds": [],
+      "publicationStatus": "planned",
+      "lastVerified": null,
+      "outline": "Build request router."
+    },
+    {
+      "id": "W09D43_PARALLEL_WORK",
+      "week": 9,
+      "day": 43,
+      "title": "Parallel Work",
+      "titleEn": "Parallel Work",
+      "version": "1.0.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "WORKFLOWS",
+        "ROUTERS",
+        "DURABLE_EXECUTION"
+      ],
+      "prerequisiteLessonIds": [
+        "W09D42_ROUTERS"
+      ],
+      "sourceIds": [],
+      "publicationStatus": "planned",
+      "lastVerified": null,
+      "outline": "Learn:\nasync;\nconcurrency;\nfan-out;\nfan-in.\nBuild multiple parallel workers/agents."
+    },
+    {
+      "id": "W09D44_LONG_RUNNING_WORKFLOWS",
+      "week": 9,
+      "day": 44,
+      "title": "Long-Running Workflows",
+      "titleEn": "Long-Running Workflows",
+      "version": "1.0.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "WORKFLOWS",
+        "ROUTERS",
+        "DURABLE_EXECUTION"
+      ],
+      "prerequisiteLessonIds": [
+        "W09D43_PARALLEL_WORK"
+      ],
+      "sourceIds": [],
+      "publicationStatus": "planned",
+      "lastVerified": null,
+      "outline": "Learn:\ncheckpoints;\nresumability;\nidempotency;\nrecovery."
+    },
+    {
+      "id": "W09D45_PROJECT_DURABLE_WORKFLOW_AGENT",
+      "week": 9,
+      "day": 45,
+      "title": "PROJECT — Durable Workflow Agent",
+      "titleEn": "PROJECT — Durable Workflow Agent",
+      "version": "1.0.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 240,
+      "skillIds": [
+        "WORKFLOWS",
+        "ROUTERS",
+        "DURABLE_EXECUTION"
+      ],
+      "prerequisiteLessonIds": [
+        "W09D44_LONG_RUNNING_WORKFLOWS"
+      ],
+      "sourceIds": [],
+      "publicationStatus": "planned",
+      "lastVerified": null,
+      "outline": "Durable Workflow Agent\nStart task.\nInterrupt system.\nRestart.\nResume correctly."
+    },
+    {
+      "id": "W10D46_WHEN_MULTI_AGENT_MAKES_SENSE",
+      "week": 10,
+      "day": 46,
+      "title": "When Multi-Agent Makes Sense",
+      "titleEn": "When Multi-Agent Makes Sense",
+      "version": "1.0.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "MANAGER",
+        "HANDOFFS",
+        "COORDINATION"
+      ],
+      "prerequisiteLessonIds": [
+        "W09D45_PROJECT_DURABLE_WORKFLOW_AGENT"
+      ],
+      "sourceIds": [],
+      "publicationStatus": "planned",
+      "lastVerified": null,
+      "outline": "Benefits:\nspecialization;\nisolation;\nparallelism;\nownership.\nCosts:\nlatency;\ncost;\ncoordination complexity;\nnondeterminism."
+    },
+    {
+      "id": "W10D47_MANAGER_PATTERN",
+      "week": 10,
+      "day": 47,
+      "title": "Manager Pattern",
+      "titleEn": "Manager Pattern",
+      "version": "1.0.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "MANAGER",
+        "HANDOFFS",
+        "COORDINATION"
+      ],
+      "prerequisiteLessonIds": [
+        "W10D46_WHEN_MULTI_AGENT_MAKES_SENSE"
+      ],
+      "sourceIds": [],
+      "publicationStatus": "planned",
+      "lastVerified": null,
+      "outline": "Manager remains responsible for outcome.\nSpecialists act as workers/tools."
+    },
+    {
+      "id": "W10D48_HANDOFFS",
+      "week": 10,
+      "day": 48,
+      "title": "Handoffs",
+      "titleEn": "Handoffs",
+      "version": "1.0.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "MANAGER",
+        "HANDOFFS",
+        "COORDINATION"
+      ],
+      "prerequisiteLessonIds": [
+        "W10D47_MANAGER_PATTERN"
+      ],
+      "sourceIds": [],
+      "publicationStatus": "planned",
+      "lastVerified": null,
+      "outline": "Transfer ownership to specialist.\nCompare:\nmanager vs handoff."
+    },
+    {
+      "id": "W10D49_SHARED_STATE_COORDINATION",
+      "week": 10,
+      "day": 49,
+      "title": "Shared State & Coordination",
+      "titleEn": "Shared State & Coordination",
+      "version": "1.0.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "MANAGER",
+        "HANDOFFS",
+        "COORDINATION"
+      ],
+      "prerequisiteLessonIds": [
+        "W10D48_HANDOFFS"
+      ],
+      "sourceIds": [],
+      "publicationStatus": "planned",
+      "lastVerified": null,
+      "outline": "Learn:\ncontracts;\nconflict resolution;\nreview patterns;\ncritic patterns.\nAvoid pointless “agent debate”."
+    },
+    {
+      "id": "W10D50_PROJECT_AI_COMPANY",
+      "week": 10,
+      "day": 50,
+      "title": "PROJECT — AI Company",
+      "titleEn": "PROJECT — AI Company",
+      "version": "1.0.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 240,
+      "skillIds": [
+        "MANAGER",
+        "HANDOFFS",
+        "COORDINATION"
+      ],
+      "prerequisiteLessonIds": [
+        "W10D49_SHARED_STATE_COORDINATION"
+      ],
+      "sourceIds": [],
+      "publicationStatus": "planned",
+      "lastVerified": null,
+      "outline": "AI Company\nMinimum:\nOrchestrator;\nResearch Specialist;\nDomain Specialist;\nExecution Specialist;\nReviewer.\nRequirements:\nparallel task;\nsequential task;\ndelegation;\nshared contracts;\nfailure handling."
+    },
+    {
+      "id": "W11D51_WHY_DEMOS_LIE",
+      "week": 11,
+      "day": 51,
+      "title": "Why Demos Lie",
+      "titleEn": "Why Demos Lie",
+      "version": "1.0.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "EVALS",
+        "TRACING",
+        "TESTING"
+      ],
+      "prerequisiteLessonIds": [
+        "W10D50_PROJECT_AI_COMPANY"
+      ],
+      "sourceIds": [],
+      "publicationStatus": "planned",
+      "lastVerified": null,
+      "outline": "Define formal success criteria."
+    },
+    {
+      "id": "W11D52_EVALUATION_DATASET_DESIGN",
+      "week": 11,
+      "day": 52,
+      "title": "Evaluation Dataset Design",
+      "titleEn": "Evaluation Dataset Design",
+      "version": "1.0.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "EVALS",
+        "TRACING",
+        "TESTING"
+      ],
+      "prerequisiteLessonIds": [
+        "W11D51_WHY_DEMOS_LIE"
+      ],
+      "sourceIds": [],
+      "publicationStatus": "planned",
+      "lastVerified": null,
+      "outline": "Include:\nnormal cases;\nedge cases;\nadversarial cases;\nhistorical failures."
+    },
+    {
+      "id": "W11D53_GRADERS",
+      "week": 11,
+      "day": 53,
+      "title": "Graders",
+      "titleEn": "Graders",
+      "version": "1.0.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "EVALS",
+        "TRACING",
+        "TESTING"
+      ],
+      "prerequisiteLessonIds": [
+        "W11D52_EVALUATION_DATASET_DESIGN"
+      ],
+      "sourceIds": [],
+      "publicationStatus": "planned",
+      "lastVerified": null,
+      "outline": "Learn:\ndeterministic graders;\nAI graders;\nhuman labels;\npairwise comparison."
+    },
+    {
+      "id": "W11D54_TRACING",
+      "week": 11,
+      "day": 54,
+      "title": "Tracing",
+      "titleEn": "Tracing",
+      "version": "1.0.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "EVALS",
+        "TRACING",
+        "TESTING"
+      ],
+      "prerequisiteLessonIds": [
+        "W11D53_GRADERS"
+      ],
+      "sourceIds": [],
+      "publicationStatus": "planned",
+      "lastVerified": null,
+      "outline": "Observe:\nmodel calls;\ntools;\nlatency;\nfailures;\nhandoffs;\nstate transitions."
+    },
+    {
+      "id": "W11D55_PROJECT_AGENT_QUALITY_LAB",
+      "week": 11,
+      "day": 55,
+      "title": "PROJECT — Agent Quality Lab",
+      "titleEn": "PROJECT — Agent Quality Lab",
+      "version": "1.0.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 240,
+      "skillIds": [
+        "EVALS",
+        "TRACING",
+        "TESTING"
+      ],
+      "prerequisiteLessonIds": [
+        "W11D54_TRACING"
+      ],
+      "sourceIds": [],
+      "publicationStatus": "planned",
+      "lastVerified": null,
+      "outline": "Agent Quality Lab\nTake prior agent.\nCreate:\neval dataset;\nbaseline;\ngrader;\ntrace review;\nfailure taxonomy.\nImprove agent.\nRun again.\nDemonstrate improvement."
+    },
+    {
+      "id": "W12D56_PROMPT_INJECTION",
+      "week": 12,
+      "day": 56,
+      "title": "Prompt Injection",
+      "titleEn": "Prompt Injection",
+      "version": "1.0.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "PROMPT_INJECTION",
+        "AUTHORIZATION",
+        "HUMAN_APPROVAL"
+      ],
+      "prerequisiteLessonIds": [
+        "W11D55_PROJECT_AGENT_QUALITY_LAB"
+      ],
+      "sourceIds": [],
+      "publicationStatus": "planned",
+      "lastVerified": null,
+      "outline": "Learn:\ndirect injection;\nindirect injection;\nuntrusted content."
+    },
+    {
+      "id": "W12D57_TOOL_ATTACKS",
+      "week": 12,
+      "day": 57,
+      "title": "Tool Attacks",
+      "titleEn": "Tool Attacks",
+      "version": "1.0.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "PROMPT_INJECTION",
+        "AUTHORIZATION",
+        "HUMAN_APPROVAL"
+      ],
+      "prerequisiteLessonIds": [
+        "W12D56_PROMPT_INJECTION"
+      ],
+      "sourceIds": [],
+      "publicationStatus": "planned",
+      "lastVerified": null,
+      "outline": "Learn:\nmalicious arguments;\ndata exfiltration;\nover-permissioning;\ncredential exposure."
+    },
+    {
+      "id": "W12D58_AUTHENTICATION_AUTHORIZATION",
+      "week": 12,
+      "day": 58,
+      "title": "Authentication & Authorization",
+      "titleEn": "Authentication & Authorization",
+      "version": "1.0.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "PROMPT_INJECTION",
+        "AUTHORIZATION",
+        "HUMAN_APPROVAL"
+      ],
+      "prerequisiteLessonIds": [
+        "W12D57_TOOL_ATTACKS"
+      ],
+      "sourceIds": [],
+      "publicationStatus": "planned",
+      "lastVerified": null,
+      "outline": "Understand:\nidentity;\nauthentication;\nauthorization;\nleast privilege;\ntenant isolation;\nsecrets."
+    },
+    {
+      "id": "W12D59_HUMAN_IN_THE_LOOP",
+      "week": 12,
+      "day": 59,
+      "title": "Human-in-the-Loop",
+      "titleEn": "Human-in-the-Loop",
+      "version": "1.0.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "PROMPT_INJECTION",
+        "AUTHORIZATION",
+        "HUMAN_APPROVAL"
+      ],
+      "prerequisiteLessonIds": [
+        "W12D58_AUTHENTICATION_AUTHORIZATION"
+      ],
+      "sourceIds": [],
+      "publicationStatus": "planned",
+      "lastVerified": null,
+      "outline": "Implement:\napproval;\nedit;\nreject;\nresume."
+    },
+    {
+      "id": "W12D60_BOSS_LEVEL_3_RED_TEAM",
+      "week": 12,
+      "day": 60,
+      "title": "BOSS LEVEL 3 — Red Team",
+      "titleEn": "BOSS LEVEL 3 — Red Team",
+      "version": "1.0.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 240,
+      "skillIds": [
+        "PROMPT_INJECTION",
+        "AUTHORIZATION",
+        "HUMAN_APPROVAL"
+      ],
+      "prerequisiteLessonIds": [
+        "W12D59_HUMAN_IN_THE_LOOP"
+      ],
+      "sourceIds": [],
+      "publicationStatus": "planned",
+      "lastVerified": null,
+      "outline": "Red Team\nAttack AI Company with:\nprompt injection;\nmalicious file instructions;\nmalicious tool argument;\nprivilege escalation;\nsecret extraction;\ninfinite loop;\nbad API response.\nPatch vulnerabilities.\nCreate regression tests."
+    },
+    {
+      "id": "W13D61_BACKEND_APIS",
+      "week": 13,
+      "day": 61,
+      "title": "Backend APIs",
+      "titleEn": "Backend APIs",
+      "version": "1.0.0",
+      "stability": "FOUNDATION",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "BACKEND",
+        "DATABASE",
+        "QUEUES"
+      ],
+      "prerequisiteLessonIds": [
+        "W12D60_BOSS_LEVEL_3_RED_TEAM"
+      ],
+      "sourceIds": [],
+      "publicationStatus": "planned",
+      "lastVerified": null,
+      "outline": "Learn:\nroutes;\nvalidation;\nresponses;\nFastAPI or equivalent."
+    },
+    {
+      "id": "W13D62_PRODUCTION_DATABASES",
+      "week": 13,
+      "day": 62,
+      "title": "Production Databases",
+      "titleEn": "Production Databases",
+      "version": "1.0.0",
+      "stability": "FOUNDATION",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "BACKEND",
+        "DATABASE",
+        "QUEUES"
+      ],
+      "prerequisiteLessonIds": [
+        "W13D61_BACKEND_APIS"
+      ],
+      "sourceIds": [],
+      "publicationStatus": "planned",
+      "lastVerified": null,
+      "outline": "Learn:\nPostgreSQL;\nmigrations;\ntransactions;\nindexing."
+    },
+    {
+      "id": "W13D63_QUEUES_WORKERS",
+      "week": 13,
+      "day": 63,
+      "title": "Queues & Workers",
+      "titleEn": "Queues & Workers",
+      "version": "1.0.0",
+      "stability": "FOUNDATION",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "BACKEND",
+        "DATABASE",
+        "QUEUES"
+      ],
+      "prerequisiteLessonIds": [
+        "W13D62_PRODUCTION_DATABASES"
+      ],
+      "sourceIds": [],
+      "publicationStatus": "planned",
+      "lastVerified": null,
+      "outline": "Learn:\njobs;\nbackground tasks;\nretries;\ndead-letter patterns."
+    },
+    {
+      "id": "W13D64_STREAMING",
+      "week": 13,
+      "day": 64,
+      "title": "Streaming",
+      "titleEn": "Streaming",
+      "version": "1.0.0",
+      "stability": "FOUNDATION",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "BACKEND",
+        "DATABASE",
+        "QUEUES"
+      ],
+      "prerequisiteLessonIds": [
+        "W13D63_QUEUES_WORKERS"
+      ],
+      "sourceIds": [],
+      "publicationStatus": "planned",
+      "lastVerified": null,
+      "outline": "Learn:\nstreaming output;\nevents;\nrun status;\nprogress state."
+    },
+    {
+      "id": "W13D65_PROJECT_CONVERT_AGENT_INTO_API_SERVICE",
+      "week": 13,
+      "day": 65,
+      "title": "PROJECT — Convert agent into API service.",
+      "titleEn": "PROJECT — Convert agent into API service.",
+      "version": "1.0.0",
+      "stability": "FOUNDATION",
+      "estimatedMinutes": 240,
+      "skillIds": [
+        "BACKEND",
+        "DATABASE",
+        "QUEUES"
+      ],
+      "prerequisiteLessonIds": [
+        "W13D64_STREAMING"
+      ],
+      "sourceIds": [],
+      "publicationStatus": "planned",
+      "lastVerified": null,
+      "outline": "Convert agent into API service.\nRequirements:\nauthentication;\npersistence;\njob tracking;\nerror responses;\nlogs."
+    },
+    {
+      "id": "W14D66_FRONTEND_FUNDAMENTALS",
+      "week": 14,
+      "day": 66,
+      "title": "Frontend Fundamentals",
+      "titleEn": "Frontend Fundamentals",
+      "version": "1.0.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "DEPLOYMENT",
+        "MONITORING"
+      ],
+      "prerequisiteLessonIds": [
+        "W13D65_PROJECT_CONVERT_AGENT_INTO_API_SERVICE"
+      ],
+      "sourceIds": [],
+      "publicationStatus": "planned",
+      "lastVerified": null,
+      "outline": "Learn:\nReact;\nNext.js;\ncomponents;\nstate;\nAPI interaction."
+    },
+    {
+      "id": "W14D67_AGENT_UI",
+      "week": 14,
+      "day": 67,
+      "title": "Agent UI",
+      "titleEn": "Agent UI",
+      "version": "1.0.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "DEPLOYMENT",
+        "MONITORING"
+      ],
+      "prerequisiteLessonIds": [
+        "W14D66_FRONTEND_FUNDAMENTALS"
+      ],
+      "sourceIds": [],
+      "publicationStatus": "planned",
+      "lastVerified": null,
+      "outline": "Build:\nchat;\nrun view;\ntool activity;\napprovals."
+    },
+    {
+      "id": "W14D68_DEPLOYMENT",
+      "week": 14,
+      "day": 68,
+      "title": "Deployment",
+      "titleEn": "Deployment",
+      "version": "1.0.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "DEPLOYMENT",
+        "MONITORING"
+      ],
+      "prerequisiteLessonIds": [
+        "W14D67_AGENT_UI"
+      ],
+      "sourceIds": [],
+      "publicationStatus": "planned",
+      "lastVerified": null,
+      "outline": "Learn:\nDocker;\ncloud environments;\nenvironment variables;\ndomains;\nHTTPS."
+    },
+    {
+      "id": "W14D69_PRODUCTION_CONCERNS",
+      "week": 14,
+      "day": 69,
+      "title": "Production Concerns",
+      "titleEn": "Production Concerns",
+      "version": "1.0.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "DEPLOYMENT",
+        "MONITORING"
+      ],
+      "prerequisiteLessonIds": [
+        "W14D68_DEPLOYMENT"
+      ],
+      "sourceIds": [],
+      "publicationStatus": "planned",
+      "lastVerified": null,
+      "outline": "Learn:\nmonitoring;\nbudgets;\nusage;\ncaching;\nlatency;\nrate limits;\nmodel routing."
+    },
+    {
+      "id": "W14D70_PROJECT_AGENT_SAAS",
+      "week": 14,
+      "day": 70,
+      "title": "PROJECT — Agent SaaS",
+      "titleEn": "PROJECT — Agent SaaS",
+      "version": "1.0.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 240,
+      "skillIds": [
+        "DEPLOYMENT",
+        "MONITORING"
+      ],
+      "prerequisiteLessonIds": [
+        "W14D69_PRODUCTION_CONCERNS"
+      ],
+      "sourceIds": [],
+      "publicationStatus": "planned",
+      "lastVerified": null,
+      "outline": "Agent SaaS\nContains:\nfrontend;\nbackend;\nauthentication;\npersistent data;\nagent;\ntools;\ndeployment;\nmonitoring."
+    },
+    {
+      "id": "W15D71_BROWSER_COMPUTER_AGENTS",
+      "week": 15,
+      "day": 71,
+      "title": "Browser & Computer Agents",
+      "titleEn": "Browser & Computer Agents",
+      "version": "1.0.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "COMPUTER_USE",
+        "SANDBOX_AGENTS",
+        "CODING_AGENTS"
+      ],
+      "prerequisiteLessonIds": [
+        "W14D70_PROJECT_AGENT_SAAS"
+      ],
+      "sourceIds": [],
+      "publicationStatus": "planned",
+      "lastVerified": null,
+      "outline": "Understand observation/action loops."
+    },
+    {
+      "id": "W15D72_CODE_SANDBOX_AGENTS",
+      "week": 15,
+      "day": 72,
+      "title": "Code & Sandbox Agents",
+      "titleEn": "Code & Sandbox Agents",
+      "version": "1.0.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "COMPUTER_USE",
+        "SANDBOX_AGENTS",
+        "CODING_AGENTS"
+      ],
+      "prerequisiteLessonIds": [
+        "W15D71_BROWSER_COMPUTER_AGENTS"
+      ],
+      "sourceIds": [],
+      "publicationStatus": "planned",
+      "lastVerified": null,
+      "outline": "Learn:\nfiles;\nshell;\npackages;\nisolated execution;\nsecurity boundaries."
+    },
+    {
+      "id": "W15D73_DYNAMIC_TOOLS",
+      "week": 15,
+      "day": 73,
+      "title": "Dynamic Tools",
+      "titleEn": "Dynamic Tools",
+      "version": "1.0.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "COMPUTER_USE",
+        "SANDBOX_AGENTS",
+        "CODING_AGENTS"
+      ],
+      "prerequisiteLessonIds": [
+        "W15D72_CODE_SANDBOX_AGENTS"
+      ],
+      "sourceIds": [],
+      "publicationStatus": "planned",
+      "lastVerified": null,
+      "outline": "Learn:\ntool search;\nlarge catalogs;\ndeferred tools;\ndynamic capability discovery."
+    },
+    {
+      "id": "W15D74_AGENTIC_CODING",
+      "week": 15,
+      "day": 74,
+      "title": "Agentic Coding",
+      "titleEn": "Agentic Coding",
+      "version": "1.0.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "COMPUTER_USE",
+        "SANDBOX_AGENTS",
+        "CODING_AGENTS"
+      ],
+      "prerequisiteLessonIds": [
+        "W15D73_DYNAMIC_TOOLS"
+      ],
+      "sourceIds": [],
+      "publicationStatus": "planned",
+      "lastVerified": null,
+      "outline": "Learn loop:\nPlan\n↓\nEdit\n↓\nTest\n↓\nInspect\n↓\nRepair\nBuild controlled coding agent."
+    },
+    {
+      "id": "W15D75_PROJECT_AUTONOMOUS_WORKFLOW",
+      "week": 15,
+      "day": 75,
+      "title": "PROJECT — Autonomous Workflow",
+      "titleEn": "PROJECT — Autonomous Workflow",
+      "version": "1.0.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 240,
+      "skillIds": [
+        "COMPUTER_USE",
+        "SANDBOX_AGENTS",
+        "CODING_AGENTS"
+      ],
+      "prerequisiteLessonIds": [
+        "W15D74_AGENTIC_CODING"
+      ],
+      "sourceIds": [],
+      "publicationStatus": "planned",
+      "lastVerified": null,
+      "outline": "Autonomous Workflow\nMust use several:\nplanning;\nfiles;\nexternal tools;\ncode;\nbrowser;\nvalidation;\nhuman checkpoint;\nartifact creation."
+    },
+    {
+      "id": "W16D76_DISCOVERY",
+      "week": 16,
+      "day": 76,
+      "title": "Discovery",
+      "titleEn": "Discovery",
+      "version": "1.0.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "AGENT_LOOP",
+        "EVALS",
+        "DEPLOYMENT",
+        "AUTHORIZATION"
+      ],
+      "prerequisiteLessonIds": [
+        "W15D75_PROJECT_AUTONOMOUS_WORKFLOW"
+      ],
+      "sourceIds": [],
+      "publicationStatus": "planned",
+      "lastVerified": null,
+      "outline": "Receive business problem.\nProduce:\nrequirements;\nconstraints;\nrisks;\nsuccess metrics."
+    },
+    {
+      "id": "W16D77_ARCHITECTURE",
+      "week": 16,
+      "day": 77,
+      "title": "Architecture",
+      "titleEn": "Architecture",
+      "version": "1.0.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "AGENT_LOOP",
+        "EVALS",
+        "DEPLOYMENT",
+        "AUTHORIZATION"
+      ],
+      "prerequisiteLessonIds": [
+        "W16D76_DISCOVERY"
+      ],
+      "sourceIds": [],
+      "publicationStatus": "planned",
+      "lastVerified": null,
+      "outline": "Answer:\nwhy AI?\nwhy agent?\nwhy this runtime?\nwhy these tools?\nwhere is state?\nwhere is approval?\nhow does failure recovery work?"
+    },
+    {
+      "id": "W16D78_BUILD",
+      "week": 16,
+      "day": 78,
+      "title": "Build",
+      "titleEn": "Build",
+      "version": "1.0.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "AGENT_LOOP",
+        "EVALS",
+        "DEPLOYMENT",
+        "AUTHORIZATION"
+      ],
+      "prerequisiteLessonIds": [
+        "W16D77_ARCHITECTURE"
+      ],
+      "sourceIds": [],
+      "publicationStatus": "planned",
+      "lastVerified": null,
+      "outline": "Implement core system."
+    },
+    {
+      "id": "W16D79_HARDEN",
+      "week": 16,
+      "day": 79,
+      "title": "Harden",
+      "titleEn": "Harden",
+      "version": "1.0.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 180,
+      "skillIds": [
+        "AGENT_LOOP",
+        "EVALS",
+        "DEPLOYMENT",
+        "AUTHORIZATION"
+      ],
+      "prerequisiteLessonIds": [
+        "W16D78_BUILD"
+      ],
+      "sourceIds": [],
+      "publicationStatus": "planned",
+      "lastVerified": null,
+      "outline": "Run:\nsecurity checks;\nevals;\nperformance tests;\ntrace review;\nfailure recovery tests."
+    },
+    {
+      "id": "W16D80_FINAL_BOSS_DEMONSTRATE_FULL_SOLUTION",
+      "week": 16,
+      "day": 80,
+      "title": "FINAL BOSS — Demonstrate full solution.",
+      "titleEn": "FINAL BOSS — Demonstrate full solution.",
+      "version": "1.0.0",
+      "stability": "AGENT_ENGINEERING",
+      "estimatedMinutes": 240,
+      "skillIds": [
+        "AGENT_LOOP",
+        "EVALS",
+        "DEPLOYMENT",
+        "AUTHORIZATION"
+      ],
+      "prerequisiteLessonIds": [
+        "W16D79_HARDEN"
+      ],
+      "sourceIds": [],
+      "publicationStatus": "planned",
+      "lastVerified": null,
+      "outline": "Demonstrate full solution.\nStudent must:\nrun live scenarios;\nexplain traces;\nhandle failure;\nshow eval results;\njustify architecture;\nadapt system to one changed requirement live."
+    }
+  ]
+}

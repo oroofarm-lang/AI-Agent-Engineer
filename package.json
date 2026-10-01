@@ -1,0 +1,61 @@
+{
+  "name": "ai-agent-engineer",
+  "version": "0.2.0",
+  "private": true,
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "dev": "next dev --hostname 127.0.0.1",
+    "build": "npm run curriculum:check && next build",
+    "start": "next start --hostname 127.0.0.1",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "db:setup": "node scripts/init-auth.mjs && tsx scripts/setup-db.ts",
+    "db:seed": "npm run db:setup",
+    "curriculum:check": "tsx scripts/check-curriculum.ts",
+    "check": "npm run lint && npm run typecheck && npm test",
+    "verify": "npm run check && npm run test:labs && npm run build && npm run test:e2e",
+    "test:e2e:ui": "playwright test --ui",
+    "test:a11y": "playwright test accessibility",
+    "deploy:check": "node scripts/check-deployment.mjs",
+    "db:cleanup": "tsx scripts/cleanup-auth.ts",
+    "test:labs": "python3 -m unittest discover -s content/labs -p 'test_*.py' -v",
+    "mail:check": "tsx scripts/check-mail.ts",
+    "vault:sync": "node scripts/sync-vault.mjs"
+  },
+  "dependencies": {
+    "@fontsource/vt323": "^5.3.0",
+    "better-auth": "^1.7.7",
+    "better-sqlite3": "^13.0.3",
+    "drizzle-orm": "^0.45.3",
+    "lucide-react": "^1.49.0",
+    "next": "^16.3.7",
+    "nodemailer": "^10.0.13",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "react-markdown": "^10.1.0",
+    "remark-gfm": "^4.0.1",
+    "server-only": "^0.0.1",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.13.0",
+    "@playwright/test": "^1.63.0",
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/better-sqlite3": "^9.6.0",
+    "@types/node": "^26.6.3",
+    "@types/nodemailer": "^8.0.2",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "^16.3.7",
+    "prettier": "^3.9.9",
+    "tailwindcss": "^4.3.3",
+    "tsx": "^4.23.15",
+    "typescript": "^6.0.3",
+    "vitest": "^5.0.2"
+  }
+}
