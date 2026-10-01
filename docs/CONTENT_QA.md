@@ -1,16 +1,16 @@
-# Curriculum 2.0.0 — content and verification contract
+# Curriculum 2.2.0 — content and verification contract
 
 ## Approved scope
 
 The user requested a practical AI implementation and services curriculum extending the original 80-day agent-engineering course. Version 2.0.0 preserves those 80 stable IDs and adds 59 specialization units in 14 topic modules. Original 16-week metadata remains a compatibility view, not a promise that the expanded course fits into 16 weeks. `docs/master-curriculum-spec.md` remains the original pedagogical baseline. This dated addendum records the user-authorized extension.
 
-All units retain Build → Understand → Break → Debug → Rebuild → Prove and the ten required lesson sections. Topic order is independent of original day numbers. Original `/learn/W…` URLs continue to navigate by day; topic links pass `?module=<ID>` and navigate within that module. Foreign module IDs are ignored. Requirements are learning recommendations, not artificial content locks.
+All units retain Build → Understand → Break → Debug → Rebuild → Prove and the ten required lesson sections. Topic order is independent of original day numbers. Original `/learn/W…` URLs continue to navigate by day; topic links pass `?module=<ID>` and navigate within that module. Foreign module IDs are ignored. CORE is now a mandatory foundation chapter: all 24 exercises must be marked complete before advanced lessons unlock. Other prerequisite metadata remains a learning recommendation.
 
 ## Actual content depth
 
-- Day 1 is a guided lesson with installation steps and a provider SDK example.
-- The other 138 units are **practical workbooks**, with a unique mission, technical explanation, build task, failure experiment, independent challenge, primary references and evidence rubric. Core units have additional beginner explanations; four include runnable local Python examples. Module study notes provide wider context.
-- These compact workbooks are available for learning; they are **not 138 fully developed beginner tutorials or solved production projects**. Some require independent documentation study. Further step-by-step instruction, datasets and project starter interfaces should be added incrementally.
+- Day 1 is guided with installation steps and a provider SDK example. Release 2.2.0 also provides guided FND_01 and Python I lessons, including learner-paced diagrams and worked examples.
+- The other 136 units are **practical workbooks**, with a unique mission, technical explanation, build task, failure experiment, independent challenge, primary references and evidence rubric. Core units have additional beginner explanations; four include runnable local Python examples. Module study notes provide wider context.
+- These compact workbooks are available for learning; they are **not 136 fully developed beginner tutorials or solved production projects**. Some require independent documentation study. Further step-by-step instruction, datasets and project starter interfaces should be added incrementally.
 - Projects and Boss units intentionally provide contracts and evidence requirements rather than finished solutions. The application stores submitted evidence and never grants mastery based on text length or reading completion.
 
 ## What verification means
@@ -50,4 +50,4 @@ Python 3.12+ is needed for the laboratory checks. No paid API credentials are ne
 
 ## Laboratory data
 
-`public/course-data/v1` contains explicitly synthetic business data, ten products, requests, document versions, a hostile test document, CSV import duplicates, campaign arithmetic cases and a call script. The lesson UI provides downloads and a README with expectations. None are real customers, real campaign results or market prices. Assets use their own versioned path and should remain immutable once learners use them. The Hebrew reviewer reviewed the new asset copy in round 5.
+`public/course-data/v1` contains explicitly synthetic business data, ten products, requests, document versions, a hostile test document, CSV import duplicates, campaign arithmetic cases and a call script. The versioned directory includes a README with expectations; generic developer resource panels have been removed from learner screens. None are real customers, real campaign results or market prices. Assets use their own versioned path and should remain immutable once learners use them. The Hebrew reviewer reviewed the new asset copy in round 5.

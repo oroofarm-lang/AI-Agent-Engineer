@@ -85,7 +85,7 @@ export function AiMascot({
         aria-pressed={waving}
       >
         <Sparkles size={14} />
-        {waving ? 'היי! מוכנים לבנות?' : 'תגידו לי שלום'}
+        {waving ? 'היי! מוכן לבנות?' : 'תגיד לי שלום'}
       </button>
       {!compact && (
         <span className="mascot-caption" dir="ltr">

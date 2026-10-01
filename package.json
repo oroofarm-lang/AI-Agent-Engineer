@@ -24,7 +24,9 @@
     "db:cleanup": "tsx scripts/cleanup-auth.ts",
     "test:labs": "python3 -m unittest discover -s content/labs -p 'test_*.py' -v",
     "mail:check": "tsx scripts/check-mail.ts",
-    "vault:sync": "node scripts/sync-vault.mjs"
+    "vault:sync": "node scripts/sync-vault.mjs",
+    "quality:inventory": "node scripts/quality-inventory.mjs",
+    "quality:audit": "npm run quality:inventory && npm run verify"
   },
   "dependencies": {
     "@fontsource/vt323": "^5.3.0",

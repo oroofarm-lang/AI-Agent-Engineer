@@ -1,5 +1,36 @@
 # Implementation ledger
 
+## Current checkpoint — 2026-10-01, curriculum 2.2.0
+
+Older entries below are dated historical milestones, not current capability claims.
+The latest slice enforces all 24 CORE foundation exercises before advanced lessons,
+preserves prior progress, simplifies learner navigation and labels, and adds numbered
+reading progress, guided FND_01/Python I teaching and keyboard-accessible diagrams.
+Human rubric assessment, project starters and Boss attempts are implemented.
+
+Optional course-update consent defaults off, persists as append-only account events,
+can be withdrawn, and is included in personal export/deletion. Verified, allowlisted
+operators can export only verified opted-in contacts. No marketing email is sent.
+A daily ACTIVE Codex heartbeat (`ux`) and source-copy inventory support ongoing
+Hebrew/UX review; no scheduled run or paid API call is claimed as already executed.
+
+Executed `npm run quality:audit`: lint and types passed, 54 unit tests and 18 Python
+tests passed, curriculum integrity and production build passed, all 20 Chromium
+E2E tests passed. The browser audit opens all 139 lessons after completing foundation
+builds through real test-account UI. Test databases are isolated from learner data.
+The real database was privately backed up before migration; comparison across
+migration/release registration preserved all original learner/auth rows.
+
+Hebrew review read 707 public-copy segments across 53 source files, then checked
+all 57 proposed corrections against the final 25 affected files. Two new guided
+lessons and their rubrics were read in full; the shared documentation change was
+reviewed separately. This is not a new claim-by-claim technical audit of all lessons.
+See `QUALITY_AGENT.md` and `quality-reports/2026-10-01-final-hebrew.md`.
+
+Remaining system milestones: deeper instruction for the 136 remaining workbooks,
+trusted-source Curriculum Auditor with proposals/approval/rollback, search/palette,
+and deployment-specific email/provider/manual accessibility acceptance.
+
 ## Milestone 1 — foundation delivered
 
 Read the full supplied RTF specification, preserved it and extracted `MASTER_SPEC.md` and Part II. Documented architecture, folder structure, content/database contracts, Mentor/Auditor design and phases before implementation. Initialized clean Git repository.

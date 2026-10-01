@@ -48,7 +48,7 @@ export function LessonCanvas({
         if (sequence === saveSequence.current) setSaveMessage('מיקום הקריאה נשמר.');
       } catch {
         if (sequence === saveSequence.current)
-          setSaveMessage('המיקום לא נשמר. בדקו את החיבור ונסו שוב.');
+          setSaveMessage('המיקום לא נשמר. בדוק את החיבור ונסה שוב.');
       }
     });
   }
@@ -105,6 +105,10 @@ export function LessonCanvas({
             </button>
           ))}
         </nav>
+        <div className="lesson-reading-progress">
+          <progress aria-label="מיקום הקריאה בשיעור" value={index + 1} max={steps.length} />
+          <span>{Math.round(((index + 1) / steps.length) * 100)}% מהדרך בשיעור</span>
+        </div>
         {reading ? (
           <article className="canvas-reading card">
             {steps.map((s) => (
@@ -117,9 +121,8 @@ export function LessonCanvas({
         ) : (
           <article className="focus-card card" aria-labelledby="canvas-step-title">
             <div className="focus-card-top">
-              <span className="lesson-step-label" dir="ltr">
-                STEP {String(index + 1).padStart(2, '0')}{' '}
-                <span>/ {String(steps.length).padStart(2, '0')}</span>
+              <span className="lesson-step-label">
+                שקופית {index + 1} <span>מתוך {steps.length}</span>
               </span>
               <span className="focus-card-tag">
                 <span className="status-dot" />
@@ -132,9 +135,9 @@ export function LessonCanvas({
               </h2>
               <div className="canvas-step-content">{step.content}</div>
               {index === 0 &&
-                ['FND_01', 'W01D01_FIRST_AI_PROGRAM', 'W02D07_CONTEXT_ENGINEERING'].includes(
-                  lessonId,
-                ) && <InstructionPractice />}
+                ['W01D01_FIRST_AI_PROGRAM', 'W02D07_CONTEXT_ENGINEERING'].includes(lessonId) && (
+                  <InstructionPractice />
+                )}
             </div>
             <div className="card-acknowledgement">
               <button
@@ -143,12 +146,16 @@ export function LessonCanvas({
                 disabled={index === steps.length - 1 && finished.includes(index)}
               >
                 <Check size={16} />
-                {index === steps.length - 1 ? (finished.includes(index) ? 'סיימתי לקרוא' : 'הבנתי, סיימתי לקרוא') : 'הבנתי, לשקופית הבאה'}
+                {index === steps.length - 1
+                  ? finished.includes(index)
+                    ? 'סיימתי לקרוא'
+                    : 'הבנתי, סיימתי לקרוא'
+                  : 'הבנתי, לשקופית הבאה'}
               </button>
               <span role="status">
                 {finished.includes(index)
                   ? 'סימון קריאה בלבד. את תרגיל הבנייה מגישים בנפרד.'
-                  : 'הסימון תקף למפגש הזה בלבד ואינו משלים את השיעור.'}
+                  : 'סימון הקריאה הזה זמני ואינו מסמן שהשיעור הושלם.'}
               </span>
             </div>
             {burst > 0 && (
@@ -209,7 +216,7 @@ export function LessonCanvas({
           <AiMascot compact mood={finished.includes(index) ? 'happy' : 'curious'} />
           <h3>סקרנות היא כוח־על.</h3>
           <p>
-            שנו משהו קטן. בדקו מה קורה.
+            שנה משהו קטן. בדוק מה קורה.
             <br />
             ככה בונים אינטואיציה הנדסית.
           </p>

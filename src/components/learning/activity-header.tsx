@@ -30,7 +30,7 @@ export async function ActivityHeader() {
           <b dir="ltr">AI ENGINEERING</b>
         </div>
         <div className="activity-actions">
-          <span className="streak-badge" title="רצף ימים עם בנייה שהושלמה · שעון ישראל">
+          <span className="streak-badge" title="רצף ימים שבהם סיימת תרגיל בנייה · לפי שעון ישראל">
             <Zap size={17} />
             <b>{activity.streak}</b>
             <span>ימי רצף</span>
@@ -61,7 +61,7 @@ export async function ActivityHeader() {
       </div>
       <div className="header-course-progress">
         <span>התקדמות בבנייה</span>
-        <progress aria-label="השלמת הקורס" value={progress.built} max={progress.total} />
+        <progress aria-label="השלמת תרגילי הקורס" value={progress.built} max={progress.total} />
         <b>{progress.buildPercent}%</b>
         <span className="header-progress-caption">
           {progress.built} / {progress.total} תרגילי בנייה

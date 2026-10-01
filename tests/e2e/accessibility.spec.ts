@@ -12,7 +12,6 @@ test('WCAG automated checks across public, learning and account screens', async 
     '/projects/W01D05_PROJECT_AGENT_ZERO',
     '/boss',
     '/settings',
-    '/roadmap',
     '/journal',
     '/failures',
     '/topics',

@@ -68,7 +68,7 @@ export function AccessibilityMenu() {
             <X aria-hidden="true" />
           </button>
         </div>
-        <p>ההעדפות נשמרות בדפדפן הזה. אפשר להשתמש גם בזום של הדפדפן.</p>
+        <p>ההעדפות נשמרות בדפדפן הזה. אפשר להשתמש גם בהגדלת התצוגה של הדפדפן (זום).</p>
         <label className="toggle-row">
           <input
             type="checkbox"

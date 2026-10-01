@@ -12,7 +12,7 @@ import {
 import { getCurriculum, getRepository } from '@/lib/data';
 import { readLesson } from '@/lib/curriculum/load';
 import { calculateProgress } from '@/lib/domain/progress';
-import { learningPath } from '@/lib/domain/learning-path';
+import { learningPath, canStudyLesson } from '@/lib/domain/learning-path';
 import { AiMascot } from '@/components/learning/ai-mascot';
 import { LessonMap } from '@/components/learning/lesson-map';
 export const dynamic = 'force-dynamic';
@@ -163,7 +163,14 @@ export default async function Dashboard() {
         </Link>
       </section>
       <div className="dashboard-path-layout">
-        <LessonMap lessons={c.lessons} weeks={c.weeks} records={records} />
+        <LessonMap
+          lessons={c.lessons}
+          weeks={c.weeks}
+          records={records}
+          lockedIds={c.lessons
+            .filter((unit) => !canStudyLesson(c, records, unit))
+            .map((unit) => unit.id)}
+        />
         <aside className="insight-card card">
           <span className="insight-icon">
             <Sparkles size={23} />
@@ -190,12 +197,9 @@ export default async function Dashboard() {
       </div>
       <div className="release-footnote">
         <span className="status-dot" />
-        <p>
-          תוכנית <b dir="ltr">v{c.version}</b> · {c.lessons.length} יחידות לקריאה ולתרגול · מצב
-          האימות מפורט בכל יחידה
-        </p>
-        <Link href="/roadmap">
-          מפת הפיתוח
+        <p>{c.lessons.length} יחידות לקריאה ולתרגול · מתחילים ביסודות ומתקדמים לבנייה מעשית</p>
+        <Link href="/topics">
+          לכל פרקי הקורס
           <ArrowUpLeft size={12} />
         </Link>
       </div>

@@ -1,0 +1,782 @@
+[
+  {
+    "id": "PYTHON_TUTORIAL",
+    "title": "Python tutorial",
+    "url": "https://docs.python.org/3/tutorial/",
+    "type": "official-docs",
+    "vendor": "Python",
+    "lastVerified": null,
+    "lessonIds": [
+      "W01D01_FIRST_AI_PROGRAM",
+      "W01D02_PYTHON_FOR_AGENT_BUILDERS_I",
+      "W01D03_PYTHON_FOR_AGENT_BUILDERS_II",
+      "W01D05_PROJECT_AGENT_ZERO",
+      "W02D09_MODEL_RELIABILITY",
+      "W02D10_PROJECT_INTELLIGENT_INTAKE_ENGINE",
+      "W03D11_WHAT_MAKES_SOMETHING_AN_AGENT",
+      "W03D14_RELIABILITY_FAILURE_HANDLING",
+      "W03D15_PROJECT_AGENT_FROM_SCRATCH",
+      "W11D51_WHY_DEMOS_LIE",
+      "FND_04"
+    ],
+    "technologyIds": []
+  },
+  {
+    "id": "PYTHON_JSON",
+    "title": "Python JSON module",
+    "url": "https://docs.python.org/3/library/json.html",
+    "type": "official-docs",
+    "vendor": "Python",
+    "lastVerified": null,
+    "lessonIds": [
+      "W01D03_PYTHON_FOR_AGENT_BUILDERS_II",
+      "W01D04_HTTP_APIS",
+      "W02D08_STRUCTURED_OUTPUTS"
+    ],
+    "technologyIds": []
+  },
+  {
+    "id": "PYTHON_SQLITE",
+    "title": "Python SQLite module",
+    "url": "https://docs.python.org/3/library/sqlite3.html",
+    "type": "official-docs",
+    "vendor": "Python",
+    "lastVerified": null,
+    "lessonIds": [
+      "W05D21_DATABASES",
+      "W05D22_STATE",
+      "DAT_01"
+    ],
+    "technologyIds": []
+  },
+  {
+    "id": "PYTHON_ASYNC",
+    "title": "Python asyncio",
+    "url": "https://docs.python.org/3/library/asyncio.html",
+    "type": "official-docs",
+    "vendor": "Python",
+    "lastVerified": null,
+    "lessonIds": [
+      "W09D43_PARALLEL_WORK"
+    ],
+    "technologyIds": []
+  },
+  {
+    "id": "OPENAI_QUICKSTART",
+    "title": "OpenAI quickstart",
+    "url": "https://developers.openai.com/api/docs/quickstart",
+    "type": "official-docs",
+    "vendor": "OpenAI",
+    "lastVerified": null,
+    "lessonIds": [
+      "W01D01_FIRST_AI_PROGRAM",
+      "W02D06_HOW_LLM_APPLICATIONS_WORK",
+      "W02D07_CONTEXT_ENGINEERING",
+      "W08D36_RESPONSES_API",
+      "MKT_04"
+    ],
+    "technologyIds": []
+  },
+  {
+    "id": "OPENAI_TOOLS",
+    "title": "OpenAI function calling",
+    "url": "https://developers.openai.com/api/docs/guides/function-calling",
+    "type": "official-docs",
+    "vendor": "OpenAI",
+    "lastVerified": null,
+    "lessonIds": [
+      "W01D05_PROJECT_AGENT_ZERO",
+      "W03D12_TOOL_CALLING",
+      "W03D13_AGENT_LOOP",
+      "W04D16_TASK_DECOMPOSITION",
+      "W04D17_SEARCH_EVIDENCE",
+      "W04D18_ITERATIVE_RESEARCH",
+      "W04D19_RESEARCH_QUALITY",
+      "W04D20_BOSS_LEVEL_1_RESEARCH_AGENT",
+      "W08D36_RESPONSES_API",
+      "W08D40_BOSS_LEVEL_2_BUILD_ONE_SYSTEM_TWICE",
+      "W09D41_DETERMINISTIC_VS_AGENTIC_WORKFLOW",
+      "W09D42_ROUTERS",
+      "W10D46_WHEN_MULTI_AGENT_MAKES_SENSE",
+      "W10D47_MANAGER_PATTERN",
+      "W10D48_HANDOFFS",
+      "W10D49_SHARED_STATE_COORDINATION",
+      "W10D50_PROJECT_AI_COMPANY",
+      "W15D73_DYNAMIC_TOOLS",
+      "W15D74_AGENTIC_CODING",
+      "W15D75_PROJECT_AUTONOMOUS_WORKFLOW"
+    ],
+    "technologyIds": []
+  },
+  {
+    "id": "OPENAI_SCHEMA",
+    "title": "OpenAI structured outputs",
+    "url": "https://developers.openai.com/api/docs/guides/structured-outputs",
+    "type": "official-docs",
+    "vendor": "OpenAI",
+    "lastVerified": null,
+    "lessonIds": [
+      "W02D08_STRUCTURED_OUTPUTS",
+      "AUT_03",
+      "MKT_01",
+      "MKT_02",
+      "MKT_03",
+      "MKT_05",
+      "MKT_10",
+      "CRM_04"
+    ],
+    "technologyIds": []
+  },
+  {
+    "id": "OPENAI_AGENTS",
+    "title": "OpenAI Agents SDK",
+    "url": "https://openai.github.io/openai-agents-python/",
+    "type": "official-docs",
+    "vendor": "OpenAI",
+    "lastVerified": null,
+    "lessonIds": [
+      "W08D37_AGENTS_SDK"
+    ],
+    "technologyIds": []
+  },
+  {
+    "id": "OPENAI_RUNTIME",
+    "title": "OpenAI managed agent runtime",
+    "url": "https://developers.openai.com/api/docs/guides/agents-api/overview",
+    "type": "official-docs",
+    "vendor": "OpenAI",
+    "lastVerified": null,
+    "lessonIds": [
+      "W08D38_MANAGED_DURABLE_AGENT_RUNTIME_CONCEPTS"
+    ],
+    "technologyIds": []
+  },
+  {
+    "id": "OPENAI_DATA",
+    "title": "OpenAI data controls",
+    "url": "https://developers.openai.com/api/docs/guides/your-data",
+    "type": "official-docs",
+    "vendor": "OpenAI",
+    "lastVerified": null,
+    "lessonIds": [
+      "W14D69_PRODUCTION_CONCERNS",
+      "FND_02",
+      "DAT_03",
+      "BIZ_04"
+    ],
+    "technologyIds": []
+  },
+  {
+    "id": "OPENAI_AUDIO",
+    "title": "OpenAI audio guide",
+    "url": "https://developers.openai.com/api/docs/guides/audio",
+    "type": "official-docs",
+    "vendor": "OpenAI",
+    "lastVerified": null,
+    "lessonIds": [
+      "FND_03",
+      "MKT_08",
+      "VOI_01",
+      "VOI_02",
+      "VOI_03",
+      "VOI_04",
+      "VOI_05",
+      "VOI_06"
+    ],
+    "technologyIds": []
+  },
+  {
+    "id": "OPENAI_IMAGE",
+    "title": "OpenAI image generation",
+    "url": "https://developers.openai.com/api/docs/guides/image-generation",
+    "type": "official-docs",
+    "vendor": "OpenAI",
+    "lastVerified": null,
+    "lessonIds": [
+      "MKT_06"
+    ],
+    "technologyIds": []
+  },
+  {
+    "id": "OPENAI_VIDEO",
+    "title": "OpenAI video generation",
+    "url": "https://developers.openai.com/api/docs/guides/video-generation",
+    "type": "official-docs",
+    "vendor": "OpenAI",
+    "lastVerified": null,
+    "lessonIds": [
+      "MKT_07"
+    ],
+    "technologyIds": []
+  },
+  {
+    "id": "OPENAI_DEPRECATIONS",
+    "title": "OpenAI deprecations",
+    "url": "https://developers.openai.com/api/docs/deprecations",
+    "type": "official-docs",
+    "vendor": "OpenAI",
+    "lastVerified": null,
+    "lessonIds": [
+      "W08D38_MANAGED_DURABLE_AGENT_RUNTIME_CONCEPTS"
+    ],
+    "technologyIds": []
+  },
+  {
+    "id": "GIT_BOOK",
+    "title": "Pro Git",
+    "url": "https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control",
+    "type": "official-docs",
+    "vendor": "Git",
+    "lastVerified": null,
+    "lessonIds": [
+      "W01D01_FIRST_AI_PROGRAM"
+    ],
+    "technologyIds": []
+  },
+  {
+    "id": "HTTP_OVERVIEW",
+    "title": "HTTP overview",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Overview",
+    "type": "official-docs",
+    "vendor": "Mozilla",
+    "lastVerified": null,
+    "lessonIds": [
+      "W01D04_HTTP_APIS",
+      "W07D31_PRODUCTION_APIS",
+      "W13D64_STREAMING"
+    ],
+    "technologyIds": []
+  },
+  {
+    "id": "POSTGRES_TRANSACTIONS",
+    "title": "PostgreSQL transactions",
+    "url": "https://www.postgresql.org/docs/current/tutorial-transactions.html",
+    "type": "official-docs",
+    "vendor": "PostgreSQL",
+    "lastVerified": null,
+    "lessonIds": [
+      "W05D21_DATABASES",
+      "W13D62_PRODUCTION_DATABASES",
+      "AUT_04",
+      "CRM_04",
+      "CRM_07",
+      "DAT_01"
+    ],
+    "technologyIds": []
+  },
+  {
+    "id": "ANTHROPIC_AGENTS",
+    "title": "Building effective agents",
+    "url": "https://www.anthropic.com/engineering/building-effective-agents",
+    "type": "official-docs",
+    "vendor": "Anthropic",
+    "lastVerified": null,
+    "lessonIds": [
+      "W02D07_CONTEXT_ENGINEERING",
+      "W02D09_MODEL_RELIABILITY",
+      "W02D10_PROJECT_INTELLIGENT_INTAKE_ENGINE",
+      "W03D11_WHAT_MAKES_SOMETHING_AN_AGENT",
+      "W03D13_AGENT_LOOP",
+      "W03D14_RELIABILITY_FAILURE_HANDLING",
+      "W03D15_PROJECT_AGENT_FROM_SCRATCH",
+      "W04D16_TASK_DECOMPOSITION",
+      "W04D17_SEARCH_EVIDENCE",
+      "W04D18_ITERATIVE_RESEARCH",
+      "W04D19_RESEARCH_QUALITY",
+      "W04D20_BOSS_LEVEL_1_RESEARCH_AGENT",
+      "W08D40_BOSS_LEVEL_2_BUILD_ONE_SYSTEM_TWICE",
+      "W09D41_DETERMINISTIC_VS_AGENTIC_WORKFLOW",
+      "W09D42_ROUTERS",
+      "W10D46_WHEN_MULTI_AGENT_MAKES_SENSE",
+      "W10D47_MANAGER_PATTERN",
+      "W10D48_HANDOFFS",
+      "W10D49_SHARED_STATE_COORDINATION",
+      "W10D50_PROJECT_AI_COMPANY",
+      "W11D51_WHY_DEMOS_LIE",
+      "W15D71_BROWSER_COMPUTER_AGENTS",
+      "W15D74_AGENTIC_CODING",
+      "W15D75_PROJECT_AUTONOMOUS_WORKFLOW",
+      "FND_01",
+      "FND_04",
+      "BIZ_01",
+      "BIZ_02",
+      "BIZ_03",
+      "BIZ_05",
+      "BIZ_06"
+    ],
+    "technologyIds": []
+  },
+  {
+    "id": "ANTHROPIC_EVALS",
+    "title": "Demystifying evals for AI agents",
+    "url": "https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents",
+    "type": "official-docs",
+    "vendor": "Anthropic",
+    "lastVerified": null,
+    "lessonIds": [
+      "W05D23_AGENT_MEMORY",
+      "W05D24_MEMORY_QUALITY",
+      "W05D25_PROJECT_PERSONAL_MEMORY_AGENT",
+      "W06D26_EMBEDDINGS",
+      "W06D27_CHUNKING_VECTOR_RETRIEVAL",
+      "W06D28_HYBRID_RETRIEVAL_RERANKING",
+      "W06D29_RAG_FAILURE_MODES",
+      "W06D30_PROJECT_KNOWLEDGE_AGENT",
+      "W11D52_EVALUATION_DATASET_DESIGN",
+      "W11D53_GRADERS",
+      "W11D55_PROJECT_AGENT_QUALITY_LAB",
+      "W12D56_PROMPT_INJECTION",
+      "W12D57_TOOL_ATTACKS",
+      "W12D60_BOSS_LEVEL_3_RED_TEAM",
+      "W16D76_DISCOVERY",
+      "W16D77_ARCHITECTURE",
+      "W16D78_BUILD",
+      "W16D79_HARDEN",
+      "W16D80_FINAL_BOSS_DEMONSTRATE_FULL_SOLUTION",
+      "FND_02",
+      "ADS_01",
+      "ADS_02",
+      "ADS_03",
+      "ADS_04",
+      "ADS_05",
+      "ADS_06",
+      "DAT_04",
+      "BIZ_01",
+      "BIZ_02",
+      "BIZ_03",
+      "BIZ_05",
+      "BIZ_06"
+    ],
+    "technologyIds": []
+  },
+  {
+    "id": "MCP_SPEC",
+    "title": "MCP specification",
+    "url": "https://modelcontextprotocol.io/specification/2026-07-28",
+    "type": "specification",
+    "vendor": "MCP",
+    "lastVerified": null,
+    "lessonIds": [
+      "W07D33_MCP",
+      "W15D73_DYNAMIC_TOOLS",
+      "AGT_01"
+    ],
+    "technologyIds": []
+  },
+  {
+    "id": "A2A_SPEC",
+    "title": "A2A specification",
+    "url": "https://a2a-protocol.org/latest/specification/",
+    "type": "specification",
+    "vendor": "A2A",
+    "lastVerified": null,
+    "lessonIds": [
+      "AGT_01"
+    ],
+    "technologyIds": []
+  },
+  {
+    "id": "LANGGRAPH_STATE",
+    "title": "LangGraph persistence",
+    "url": "https://docs.langchain.com/oss/python/langgraph/persistence",
+    "type": "official-docs",
+    "vendor": "LangChain",
+    "lastVerified": null,
+    "lessonIds": [
+      "W05D22_STATE",
+      "W08D39_LANGGRAPH",
+      "W09D44_LONG_RUNNING_WORKFLOWS",
+      "W09D45_PROJECT_DURABLE_WORKFLOW_AGENT",
+      "W12D59_HUMAN_IN_THE_LOOP"
+    ],
+    "technologyIds": []
+  },
+  {
+    "id": "N8N_APPROVALS",
+    "title": "n8n human-in-the-loop",
+    "url": "https://docs.n8n.io/build/integrate-ai/ai-examples/human-in-the-loop-for-tools",
+    "type": "official-docs",
+    "vendor": "n8n",
+    "lastVerified": null,
+    "lessonIds": [
+      "W07D32_TOOL_DESIGN",
+      "W07D34_SIDE_EFFECTS_PERMISSIONS",
+      "W07D35_PROJECT_OPERATIONS_AGENT",
+      "W12D59_HUMAN_IN_THE_LOOP",
+      "W14D67_AGENT_UI",
+      "AUT_01",
+      "AUT_03",
+      "AUT_05",
+      "AUT_08",
+      "MKT_09"
+    ],
+    "technologyIds": []
+  },
+  {
+    "id": "N8N_EVALS",
+    "title": "n8n quality metrics",
+    "url": "https://docs.n8n.io/build/integrate-ai/test-and-improve-ai-workflows/use-metrics-to-measure-quality",
+    "type": "official-docs",
+    "vendor": "n8n",
+    "lastVerified": null,
+    "lessonIds": [
+      "AUT_06"
+    ],
+    "technologyIds": []
+  },
+  {
+    "id": "MAKE_AGENTS",
+    "title": "Make AI agents",
+    "url": "https://help.make.com/introduction-to-make-ai-agent-new",
+    "type": "official-docs",
+    "vendor": "Make",
+    "lastVerified": null,
+    "lessonIds": [
+      "AUT_06"
+    ],
+    "technologyIds": []
+  },
+  {
+    "id": "STRIPE_WEBHOOKS",
+    "title": "Stripe webhooks",
+    "url": "https://docs.stripe.com/webhooks",
+    "type": "official-docs",
+    "vendor": "Stripe",
+    "lastVerified": null,
+    "lessonIds": [
+      "W07D31_PRODUCTION_APIS",
+      "W07D32_TOOL_DESIGN",
+      "W07D34_SIDE_EFFECTS_PERMISSIONS",
+      "W07D35_PROJECT_OPERATIONS_AGENT",
+      "W09D44_LONG_RUNNING_WORKFLOWS",
+      "W09D45_PROJECT_DURABLE_WORKFLOW_AGENT",
+      "W13D63_QUEUES_WORKERS",
+      "AUT_04",
+      "AUT_08",
+      "CRM_01",
+      "CRM_02",
+      "CRM_03",
+      "CRM_07",
+      "CRM_08"
+    ],
+    "technologyIds": []
+  },
+  {
+    "id": "PROMPTFOO_TESTS",
+    "title": "Promptfoo test cases",
+    "url": "https://www.promptfoo.dev/docs/configuration/test-cases/",
+    "type": "official-docs",
+    "vendor": "Promptfoo",
+    "lastVerified": null,
+    "lessonIds": [
+      "W11D52_EVALUATION_DATASET_DESIGN",
+      "W11D53_GRADERS"
+    ],
+    "technologyIds": []
+  },
+  {
+    "id": "OWASP_GENAI",
+    "title": "OWASP LLM risks",
+    "url": "https://genai.owasp.org/llm-top-10/",
+    "type": "official-docs",
+    "vendor": "OWASP",
+    "lastVerified": null,
+    "lessonIds": [
+      "W11D55_PROJECT_AGENT_QUALITY_LAB",
+      "W12D56_PROMPT_INJECTION",
+      "W12D57_TOOL_ATTACKS",
+      "W12D58_AUTHENTICATION_AUTHORIZATION",
+      "W12D60_BOSS_LEVEL_3_RED_TEAM",
+      "W15D71_BROWSER_COMPUTER_AGENTS",
+      "W15D72_CODE_SANDBOX_AGENTS",
+      "W16D76_DISCOVERY",
+      "W16D77_ARCHITECTURE",
+      "W16D78_BUILD",
+      "W16D79_HARDEN",
+      "W16D80_FINAL_BOSS_DEMONSTRATE_FULL_SOLUTION",
+      "CRM_06",
+      "BIZ_04"
+    ],
+    "technologyIds": []
+  },
+  {
+    "id": "SEARCH_SECURITY",
+    "title": "Azure search security trimming",
+    "url": "https://learn.microsoft.com/en-us/azure/search/search-security-trimming-for-azure-search",
+    "type": "official-docs",
+    "vendor": "Microsoft",
+    "lastVerified": null,
+    "lessonIds": [
+      "W05D23_AGENT_MEMORY",
+      "W05D24_MEMORY_QUALITY",
+      "W05D25_PROJECT_PERSONAL_MEMORY_AGENT",
+      "W06D26_EMBEDDINGS",
+      "W06D27_CHUNKING_VECTOR_RETRIEVAL",
+      "W06D28_HYBRID_RETRIEVAL_RERANKING",
+      "W06D29_RAG_FAILURE_MODES",
+      "W06D30_PROJECT_KNOWLEDGE_AGENT",
+      "W12D58_AUTHENTICATION_AUTHORIZATION",
+      "CRM_06"
+    ],
+    "technologyIds": []
+  },
+  {
+    "id": "FASTAPI",
+    "title": "FastAPI tutorial",
+    "url": "https://fastapi.tiangolo.com/tutorial/",
+    "type": "official-docs",
+    "vendor": "FastAPI",
+    "lastVerified": null,
+    "lessonIds": [
+      "W13D61_BACKEND_APIS",
+      "W13D64_STREAMING",
+      "W13D65_PROJECT_CONVERT_AGENT_INTO_API_SERVICE",
+      "W14D70_PROJECT_AGENT_SAAS",
+      "WEB_04"
+    ],
+    "technologyIds": []
+  },
+  {
+    "id": "REACT",
+    "title": "React learn",
+    "url": "https://react.dev/learn",
+    "type": "official-docs",
+    "vendor": "React",
+    "lastVerified": null,
+    "lessonIds": [
+      "W14D66_FRONTEND_FUNDAMENTALS",
+      "W14D67_AGENT_UI",
+      "WEB_01",
+      "WEB_02",
+      "WEB_03",
+      "WEB_06"
+    ],
+    "technologyIds": []
+  },
+  {
+    "id": "NEXTJS",
+    "title": "Next.js App Router",
+    "url": "https://nextjs.org/docs/app",
+    "type": "official-docs",
+    "vendor": "Vercel",
+    "lastVerified": null,
+    "lessonIds": [
+      "W14D66_FRONTEND_FUNDAMENTALS",
+      "W14D68_DEPLOYMENT",
+      "WEB_01",
+      "WEB_03",
+      "WEB_06"
+    ],
+    "technologyIds": []
+  },
+  {
+    "id": "DOCKER",
+    "title": "Docker overview",
+    "url": "https://docs.docker.com/get-started/docker-overview/",
+    "type": "official-docs",
+    "vendor": "Docker",
+    "lastVerified": null,
+    "lessonIds": [
+      "W14D68_DEPLOYMENT",
+      "W15D72_CODE_SANDBOX_AGENTS",
+      "WEB_05"
+    ],
+    "technologyIds": []
+  },
+  {
+    "id": "OTEL",
+    "title": "OpenTelemetry signals",
+    "url": "https://opentelemetry.io/docs/concepts/signals/",
+    "type": "official-docs",
+    "vendor": "OpenTelemetry",
+    "lastVerified": null,
+    "lessonIds": [
+      "W11D54_TRACING",
+      "W13D63_QUEUES_WORKERS",
+      "W13D65_PROJECT_CONVERT_AGENT_INTO_API_SERVICE",
+      "W14D69_PRODUCTION_CONCERNS",
+      "W14D70_PROJECT_AGENT_SAAS"
+    ],
+    "technologyIds": []
+  },
+  {
+    "id": "GOOGLE_ADS_TESTS",
+    "title": "Google Ads API testing",
+    "url": "https://developers.google.com/google-ads/api/docs/best-practices/testing",
+    "type": "official-docs",
+    "vendor": "Google",
+    "lastVerified": null,
+    "lessonIds": [
+      "ADS_01",
+      "ADS_02",
+      "ADS_03",
+      "ADS_04",
+      "ADS_05",
+      "ADS_06"
+    ],
+    "technologyIds": []
+  },
+  {
+    "id": "GOOGLE_AI_CONTENT",
+    "title": "Google guidance on AI content",
+    "url": "https://developers.google.com/search/docs/fundamentals/using-gen-ai-content",
+    "type": "official-docs",
+    "vendor": "Google",
+    "lastVerified": null,
+    "lessonIds": [
+      "MKT_01",
+      "MKT_02",
+      "MKT_03",
+      "MKT_04",
+      "MKT_05",
+      "MKT_09",
+      "MKT_10"
+    ],
+    "technologyIds": []
+  },
+  {
+    "id": "HUBSPOT_WEBHOOKS",
+    "title": "HubSpot webhooks",
+    "url": "https://developers.hubspot.com/docs/apps/developer-platform/add-features/configure-webhooks",
+    "type": "official-docs",
+    "vendor": "HubSpot",
+    "lastVerified": null,
+    "lessonIds": [
+      "AUT_02",
+      "CRM_01",
+      "CRM_02",
+      "CRM_03",
+      "CRM_05",
+      "CRM_08",
+      "WEB_04",
+      "VOI_05"
+    ],
+    "technologyIds": []
+  },
+  {
+    "id": "TWILIO_SANDBOX",
+    "title": "WhatsApp sandbox",
+    "url": "https://www.twilio.com/docs/whatsapp/sandbox",
+    "type": "official-docs",
+    "vendor": "Twilio",
+    "lastVerified": null,
+    "lessonIds": [
+      "CRM_05"
+    ],
+    "technologyIds": []
+  },
+  {
+    "id": "GEMINI_DOCUMENTS",
+    "title": "Gemini document processing",
+    "url": "https://ai.google.dev/gemini-api/docs/document-processing",
+    "type": "official-docs",
+    "vendor": "Google",
+    "lastVerified": null,
+    "lessonIds": [
+      "FND_03",
+      "VOI_06"
+    ],
+    "technologyIds": []
+  },
+  {
+    "id": "OLLAMA_SCHEMA",
+    "title": "Ollama structured outputs",
+    "url": "https://docs.ollama.com/capabilities/structured-outputs",
+    "type": "official-docs",
+    "vendor": "Ollama",
+    "lastVerified": null,
+    "lessonIds": [
+      "DAT_02",
+      "DAT_03"
+    ],
+    "technologyIds": []
+  },
+  {
+    "id": "PEFT_LORA",
+    "title": "PEFT LoRA",
+    "url": "https://huggingface.co/docs/peft/en/package_reference/lora",
+    "type": "official-docs",
+    "vendor": "Hugging Face",
+    "lastVerified": null,
+    "lessonIds": [
+      "DAT_04"
+    ],
+    "technologyIds": []
+  },
+  {
+    "id": "GOOGLE_ML",
+    "title": "Machine Learning Crash Course",
+    "url": "https://developers.google.com/machine-learning/crash-course/llm",
+    "type": "official-docs",
+    "vendor": "Google",
+    "lastVerified": null,
+    "lessonIds": [
+      "W02D06_HOW_LLM_APPLICATIONS_WORK",
+      "FND_01",
+      "DAT_02"
+    ],
+    "technologyIds": []
+  },
+  {
+    "id": "POWER_DLP",
+    "title": "Power Platform data policies",
+    "url": "https://learn.microsoft.com/en-us/power-platform/admin/wp-data-loss-prevention",
+    "type": "official-docs",
+    "vendor": "Microsoft",
+    "lastVerified": null,
+    "lessonIds": [
+      "AUT_07"
+    ],
+    "technologyIds": []
+  },
+  {
+    "id": "COPILOT",
+    "title": "Copilot Studio generative actions",
+    "url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/advanced-generative-actions",
+    "type": "official-docs",
+    "vendor": "Microsoft",
+    "lastVerified": null,
+    "lessonIds": [
+      "AUT_07"
+    ],
+    "technologyIds": []
+  },
+  {
+    "id": "OPENAI_WEBRTC",
+    "title": "OpenAI WebRTC",
+    "url": "https://developers.openai.com/api/docs/guides/voice-webrtc",
+    "vendor": "OpenAI",
+    "type": "official-docs",
+    "lastVerified": null,
+    "lessonIds": [
+      "VOI_04"
+    ],
+    "technologyIds": []
+  },
+  {
+    "id": "N8N_WEBHOOK",
+    "title": "n8n webhook credentials",
+    "url": "https://docs.n8n.io/integrations/builtin/credentials/webhook",
+    "vendor": "n8n",
+    "type": "official-docs",
+    "lastVerified": null,
+    "lessonIds": [
+      "AUT_01",
+      "AUT_02"
+    ],
+    "technologyIds": []
+  },
+  {
+    "id": "WCAG",
+    "title": "WCAG 2.2",
+    "url": "https://www.w3.org/TR/WCAG22/",
+    "vendor": "W3C",
+    "type": "specification",
+    "lastVerified": null,
+    "lessonIds": [
+      "WEB_02",
+      "WEB_05"
+    ],
+    "technologyIds": []
+  }
+]

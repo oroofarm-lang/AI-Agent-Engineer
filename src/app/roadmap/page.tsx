@@ -1,3 +1,6 @@
+import { notFound } from 'next/navigation';
+import { requireUser } from '@/lib/auth/session';
+import { isOperator } from '@/lib/admin/access';
 export const metadata = { title: 'מפת הפיתוח' };
 const phases = [
   {
@@ -9,8 +12,8 @@ const phases = [
   {
     n: '02',
     title: 'מערכת למידה והוכחת שליטה',
-    status: 'בפיתוח · ראיות ומיומנויות זמינות',
-    body: 'זמינים: פרק בסיס נדרש, עץ מיומנויות, הגשת ראיות, היסטוריית ניסיונות, יומן למידה ותיעוד תקלות ומקרי בדיקה. בהמשך: בדיקת ראיות וציונים, העמקת ההדרכה, פרויקטים ואתגרי סיום.',
+    status: 'מערכת למידה זמינה',
+    body: 'פרק יסודות נדרש, עץ מיומנויות, הגשת עבודות והערכה אנושית, פרויקטים, מבחנים מסכמים, יומן ותיעוד תקלות. הבדיקות מכסות שמירה לפי חשבון, מחוונים והיסטוריית גרסאות. ההדרכה המפורטת מורחבת בהדרגה.',
   },
   {
     n: '03',
@@ -31,14 +34,15 @@ const phases = [
     body: 'חיפוש, תפריט פקודות, מסלול מותאם, בדיקות נגישות ורספונסיביות, הרחבת הבדיקות ותיעוד מלא.',
   },
 ];
-export default function Roadmap() {
+export default async function Roadmap() {
+  if (!isOperator(await requireUser())) notFound();
   return (
     <div className="page narrow">
       <div className="page-heading">
         <div>
           <p className="eyebrow">BUILT IN INCREMENTS</p>
           <h1>מערכת רצינית, שלב אחרי שלב.</h1>
-          <p className="muted">מפת הפיתוח מציגה בדיוק מה עובד ומה עדיין בדרך.</p>
+          <p className="muted">מפת הפיתוח מציגה את שלבי הפיתוח ואת היכולות הזמינות והמתוכננות.</p>
         </div>
       </div>
       <div className="roadmap-list">

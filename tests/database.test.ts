@@ -65,7 +65,7 @@ describe('SQLite learner persistence', () => {
       connection = make();
     setupDatabase(connection, c);
     repository(connection, c, 'local').updateProgress(c.lessons[0].id, 'complete-build');
-    const updated = { ...c, version: '2.2.0' };
+    const updated = { ...c, version: '2.3.0' };
     setupDatabase(connection, updated);
     expect(repository(connection, updated, 'local').progress()[0].curriculumVersion).toBe(
       c.version,

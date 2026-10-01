@@ -33,7 +33,7 @@ test('signup, build, resume after login, tenant isolation and account deletion',
   await page.getByRole('button', { name: 'התחלת השיעור', exact: true }).click();
   await page.getByRole('button', { name: 'סימון הבנייה כהושלמה', exact: true }).click();
   await expect(page.locator('.xp-badge')).toContainText('00100');
-  await page.getByLabel('ההערות ההנדסיות שלך').fill('Only learner one can read this note');
+  await page.getByLabel('ההערות שלי לשיעור').fill('Only learner one can read this note');
   await page.getByRole('button', { name: 'שמירת הערות' }).click();
   await expect(page.getByText('ההערות נשמרו בחשבון שלך.')).toBeVisible();
   await page.getByRole('button', { name: 'הבא', exact: true }).click();

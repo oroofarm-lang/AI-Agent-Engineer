@@ -9,10 +9,12 @@ export function LessonMap({
   lessons,
   weeks,
   records,
+  lockedIds,
 }: {
   lessons: Lesson[];
   weeks: Curriculum['weeks'];
   records: Progress[];
+  lockedIds: string[];
 }) {
   const [week, setWeek] = useState(1),
     [selectedId, setSelectedId] = useState(lessons[0].id);
@@ -49,7 +51,7 @@ export function LessonMap({
           <i className="legend-active" /> זמין ללמידה
         </span>
         <span>
-          <i className="legend-locked" /> תוכן בפיתוח
+          <i className="legend-locked" /> אחרי פרק הבסיס
         </span>
       </div>
       <div className="node-path" dir="ltr">
@@ -57,11 +59,13 @@ export function LessonMap({
           <path d="M50 55 H100 V110 H200 V55 H300 V110 H400 V55 H450" />
         </svg>
         {visible.map((lesson, i) => {
-          const state = built.has(lesson.id)
-            ? 'built'
-            : lesson.publicationStatus === 'published'
-              ? 'active'
-              : 'locked';
+          const state = lockedIds.includes(lesson.id)
+            ? 'locked'
+            : built.has(lesson.id)
+              ? 'built'
+              : lesson.publicationStatus === 'published'
+                ? 'active'
+                : 'locked';
           return (
             <button
               key={lesson.id}
@@ -74,7 +78,7 @@ export function LessonMap({
               }
               onClick={() => setSelectedId(lesson.id)}
               aria-pressed={selected.id === lesson.id}
-              aria-label={`יום ${lesson.day}: ${lesson.title} · ${state === 'built' ? 'הבנייה הושלמה' : state === 'active' ? 'זמין' : 'תוכן בפיתוח'}`}
+              aria-label={`יום ${lesson.day}: ${lesson.title} · ${state === 'built' ? 'הבנייה הושלמה' : state === 'active' ? 'זמין' : 'נעול עד להשלמת פרק הבסיס'}`}
             >
               <span className="node-ring">
                 {state === 'built' ? (
@@ -98,14 +102,18 @@ export function LessonMap({
           <h3 dir="auto">{selected.title}</h3>
           <span className="muted">
             <Clock3 size={13} /> עד {selected.estimatedMinutes} דקות{' '}
-            {selected.publicationStatus === 'planned' ? '· מתווה בלבד, השיעור עדיין בפיתוח' : ''}
+            {lockedIds.includes(selected.id) ? '· נפתח אחרי תרגילי הבסיס' : ''}
           </span>
         </div>
         <Link
-          href={`/learn/${selected.id}`}
+          href={lockedIds.includes(selected.id) ? '/topics/CORE' : `/learn/${selected.id}`}
           className={`button ${selected.publicationStatus === 'published' ? 'primary' : 'secondary'}`}
         >
-          {selected.publicationStatus === 'published' ? 'למרחב הלמידה' : 'צפייה במתווה'}
+          {lockedIds.includes(selected.id)
+            ? 'להשלמת פרק הבסיס'
+            : selected.publicationStatus === 'published'
+              ? 'למרחב הלמידה'
+              : 'צפייה במתווה'}
           <ArrowLeft size={16} />
         </Link>
       </div>

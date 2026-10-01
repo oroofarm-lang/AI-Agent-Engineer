@@ -18,7 +18,7 @@ export async function updateProgress(
   } catch {
     return {
       ok: false,
-      message: 'לא הצלחנו לשמור את ההתקדמות. הנתונים הקודמים נשמרו; אפשר לנסות שוב.',
+      message: 'לא הצלחנו להשלים את שמירת ההתקדמות. נסה שוב.',
     };
   }
   revalidatePath('/');
@@ -30,7 +30,7 @@ export async function updateProgress(
     message:
       parsed.data.action === 'start'
         ? 'השיעור התחיל. בהצלחה בבנייה!'
-        : 'הבנייה נשמרה. שליטה דורשת הערכה נפרדת.',
+        : 'סימון השלמת התרגיל נשמר. הערכת העבודה היא שלב נפרד.',
   };
 }
 export async function saveNote(_previous: ActionResult, form: FormData): Promise<ActionResult> {

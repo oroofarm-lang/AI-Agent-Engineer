@@ -32,6 +32,9 @@ export default async function Admin({
       <Link className="button secondary" href="/admin/reviews">
         לבדיקת ראיות הלומדים
       </Link>
+      <a className="button secondary" href="/api/admin/contacts" download>
+        ייצוא כתובות של משתמשים שאימתו את המייל ובחרו לקבל עדכונים
+      </a>
       <div className="notice">
         {mailConfigured()
           ? 'שליחת מיילים מוגדרת. הגדרה אינה מוכיחה שהודעה הגיעה לתיבת הדואר.'
@@ -58,7 +61,7 @@ export default async function Admin({
                 <td>
                   <bdi>{account.email}</bdi>
                 </td>
-                <td>{account.emailVerified ? 'אומת' : 'טרם אומת'}</td>
+                <td>{account.emailVerified ? 'אומתה' : 'טרם אומתה'}</td>
                 <td>
                   {new Date(account.createdAt).toLocaleDateString('he-IL', {
                     timeZone: 'Asia/Jerusalem',

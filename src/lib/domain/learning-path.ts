@@ -27,9 +27,5 @@ export function canStudyLesson(
   // Historic releases had no chapter prerequisite. Preserve their repository/migration semantics.
   if (!curriculum.modules) return true;
   const path = learningPath(curriculum, records);
-  return (
-    path.ready ||
-    path.core.lessonIds.includes(lesson.id) ||
-    records.some((record) => record.lessonId === lesson.id && record.state !== 'NOT_STARTED')
-  );
+  return path.ready || path.core.lessonIds.includes(lesson.id);
 }

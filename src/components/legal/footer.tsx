@@ -31,7 +31,7 @@ export function LegalFooter({
       <span>
         © {new Date().getFullYear()} {operator} · זכויות צדדים שלישיים שמורות.
       </span>
-      <span>תוכן לימודי עשוי להסתייע ב־AI. יש לאמת לפני שימוש.</span>
+      <span>התוכן הלימודי עשוי להיכתב בעזרת AI. בדוק את המידע לפני שימוש.</span>
       <dialog
         onKeyDown={containDialogFocus}
         ref={dialog}

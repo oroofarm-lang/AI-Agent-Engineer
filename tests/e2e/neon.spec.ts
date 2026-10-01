@@ -53,7 +53,7 @@ test('arcade UI fits mobile and respects reduced motion', async ({ page }) => {
     animations: 'disabled',
   });
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
-  await expect(page.getByRole('progressbar', { name: 'השלמת הקורס' })).toBeVisible();
+  await expect(page.getByRole('progressbar', { name: 'השלמת תרגילי הקורס' })).toBeVisible();
   expect(
     await page.locator('.mascot-rig').evaluate((el) => getComputedStyle(el).animationName),
   ).toBe('none');

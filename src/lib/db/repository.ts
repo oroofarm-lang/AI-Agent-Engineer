@@ -94,7 +94,10 @@ export function repository(connection: Connection, curriculum: Curriculum, userI
     },
     exportData() {
       return sqlite.transaction(() => ({
-        schemaVersion: 6,
+        schemaVersion: 7,
+        contactConsentEvents: sqlite
+          .prepare('SELECT * FROM marketing_consent_events WHERE user_id=? ORDER BY rowid')
+          .all(userId),
         assessmentReviews: sqlite
           .prepare('SELECT * FROM assessment_reviews WHERE user_id=?')
           .all(userId),

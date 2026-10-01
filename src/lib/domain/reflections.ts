@@ -15,10 +15,10 @@ export const failureCategories = [
   'CONTEXT_OVERFLOW',
 ] as const;
 export const categoryLabels: Record<(typeof failureCategories)[number], string> = {
-  INVALID_SCHEMA: 'סכמה לא תקינה',
+  INVALID_SCHEMA: 'נתונים במבנה לא תקין',
   TOOL_TIMEOUT: 'הכלי לא סיים בזמן',
   WRONG_TOOL: 'כלי שגוי',
-  BAD_RETRIEVAL: 'אחזור שגוי',
+  BAD_RETRIEVAL: 'מידע שאינו מתאים לבקשה נמצא בחיפוש',
   CONTEXT_FAILURE: 'מידע חסר או שגוי בהקשר',
   PROMPT_INJECTION: 'הזרקת הוראות זדוניות',
   HANDOFF_LOOP: 'העברת טיפול ללא סוף',
@@ -26,13 +26,13 @@ export const categoryLabels: Record<(typeof failureCategories)[number], string> 
   PERMISSION_ISSUE: 'בעיית הרשאות',
   API_ISSUE: 'בעיית API',
   FALSE_ASSUMPTION: 'הנחה שגויה',
-  AGENT_LOOP: 'לולאת סוכן',
+  AGENT_LOOP: 'הסוכן חוזר על פעולות ללא התקדמות',
   CONTEXT_OVERFLOW: 'חריגה ממגבלת ההקשר',
 };
 const body = z
   .string()
   .max(12000)
-  .refine((s) => s.trim().length >= 10, 'יש לפרט לפחות 10 תווים');
+  .refine((s) => s.trim().length >= 10, 'כתוב לפחות 10 תווים');
 const base = {
   id: z.uuid(),
   revision: z.number().int().nonnegative(),

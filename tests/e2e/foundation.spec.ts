@@ -10,11 +10,11 @@ test('dashboard → lesson → build → notes → export persists without an AP
   await page.getByRole('button', { name: 'התחלת השיעור' }).click();
   await page.getByRole('button', { name: 'סימון הבנייה כהושלמה' }).click();
   await expect(page.getByText('הבנייה הושלמה ונשמרה')).toBeVisible();
-  await page.getByLabel('ההערות ההנדסיות שלך').fill('בדיקת E2E: תיקנתי משתנה סביבה חסר.');
+  await page.getByLabel('ההערות שלי לשיעור').fill('בדיקת E2E: תיקנתי משתנה סביבה חסר.');
   await page.getByRole('button', { name: 'שמירת הערות' }).click();
   await expect(page.getByText('ההערות נשמרו בחשבון שלך.')).toBeVisible();
   await page.reload();
-  await expect(page.getByLabel('ההערות ההנדסיות שלך')).toHaveValue(
+  await expect(page.getByLabel('ההערות שלי לשיעור')).toHaveValue(
     'בדיקת E2E: תיקנתי משתנה סביבה חסר.',
   );
   const exported = await page.request.get('/api/export');
@@ -37,15 +37,15 @@ test('dashboard → lesson → build → notes → export persists without an AP
   await fields.nth(0).fill(' '.repeat(90));
   await page.getByRole('button', { name: 'הגשת ראיות להערכה' }).click();
   await expect(
-    page.getByText('ההגשה לא נשמרה. יש למלא כל סעיף ב־80–12,000 תווים ולנסות שוב.'),
+    page.getByText('ההגשה לא נשמרה. כתוב בין 80 ל־12,000 תווים בכל סעיף ונסה שוב.'),
   ).toBeVisible();
   await expect(fields.nth(1)).toHaveValue(retainedEvidence);
   await fields.nth(0).fill(retainedEvidence);
   await page.getByRole('button', { name: 'הגשת ראיות להערכה' }).click();
   await expect(
-    page.getByText('הראיות נשמרו וממתינות להערכה. לא הוענקה שליטה ולא הורץ קוד.'),
+    page.getByText('העבודה נשמרה וממתינה להערכה. ההגשה אינה מריצה קוד ואינה מוכיחה שליטה בנושא.'),
   ).toBeVisible();
-  await page.getByRole('link', { name: 'צפייה בתיק הראיות ובהגשות הקודמות ←' }).click();
+  await page.getByRole('link', { name: 'לעבודות שהגשתי ולמשוב ←' }).click();
   await page.locator('.attempt summary').click();
   await expect(page.locator('.attempt-body')).toContainText('ראיות E2E');
   const after = await (await page.request.get('/api/export')).json();
@@ -55,6 +55,7 @@ test('dashboard → lesson → build → notes → export persists without an AP
 test('original lessons now contain usable workbooks and evidence controls', async ({ page }) => {
   await page.goto('/learn');
   await expect(page.getByRole('heading', { name: 'בונים יכולת, יום אחרי יום.' })).toBeVisible();
+  await page.getByText('הצגת שיעורי ההנדסה לפי שבועות', { exact: true }).click();
   await page.getByRole('link').filter({ hasText: 'Python לבוני סוכנים · חלק א׳' }).click();
   await expect(
     page.getByRole('heading', { name: 'Python לבוני סוכנים · חלק א׳', exact: true }),

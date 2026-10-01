@@ -21,13 +21,13 @@ The first catalog uses week-level skill mappings. Refine them at lesson level as
 
 ## Projects and Boss Levels (phase 2)
 
-Project entities, briefs, rubric schemas and starter folders are proposed in ARCHITECTURE.md but have not been materialized yet. Add those contracts and validators alongside the feature. Require stable project and assessment IDs, business context, requirements, acceptance criteria, test checklist, architecture/reflection prompts and relevant skill/lesson references. Starter code provides interfaces, empty functions and tests, not solved projects. Boss Levels cannot be automatically skipped.
+Project briefs, starter downloads, attempt history and verified-operator human review are implemented. Continue extending these contracts incrementally. Require stable project and assessment IDs, business context, requirements, acceptance criteria, test checklist, architecture/reflection prompts and relevant skill/lesson references. Starter code provides interfaces, empty functions and tests, not solved projects. Boss Levels cannot be automatically skipped.
 
 ## Technology-sensitive sources
 
 `sources.json` stores source metadata. Each source stores stable ID, title, HTTPS URL, type, vendor, related lesson IDs, technology IDs and nullable lastVerified. A source link alone does not mean verification. Keep lastVerified null until someone has checked what is taught against the source and recorded a rationale. A baseline/release date is not a verification date.
 
-The full technology registry and audited evidence storage are phase 4 work. Until then, update references manually through a reviewed content change and record the reason. Foundation content should not change in response to vendor marketing. The UI explicitly states that freshness has not been audited.
+The full technology registry and audited evidence storage are phase 4 work. Until then, update references manually through a reviewed content change and record the reason. Foundation content should not change in response to vendor marketing. Operator documentation records that full freshness auditing is still unavailable.
 
 ## Version releases and progress
 
@@ -55,10 +55,14 @@ The checker validates 139 units, the preserved 80 day records, 14 modules and 16
 
 `assessments.json` contains strict assessment records: stable ID, published lesson ID, rubric semantic version, title, instructions, and uniquely identified criteria. Each criterion names a skill already linked to its lesson, a practical prompt and an evidence hint. One rubric per lesson is currently supported. Validate with the curriculum checker. Rubric edits require a rubric version and curriculum release bump. Every submitted attempt stores the original rubric, so later edits cannot change its interpretation.
 
-Evidence submissions do not grant mastery. They require build completion and exact current version tokens; a rejected or stale submission must preserve the learner's typed text. Do not add automatic scoring based on answer length or keywords. A future grading workflow must assess the practical evidence.
+Evidence submissions do not grant mastery. They require build completion and exact current version tokens; a rejected or stale submission must preserve the learner's typed text. Do not add automatic scoring based on answer length or keywords. The verified-operator review workflow assesses the practical evidence against the stored rubric.
 
 From 1.1.0, setup also hashes published lesson bodies and rubric data as part of the registered manifest. Preserve prior content snapshots; do not change an already registered release in place. Approval-bound application/rollback is still not implemented.
 
 ## Topic extension and workbook availability (2.0.0)
 
-See `CONTENT_QA.md` for the approved scope and actual depth. `contentStage` distinguishes a guided lesson from a compact practice workbook. `verification` separates Hebrew review, source audit and local execution. Publication is availability, not a certificate of technical verification. Record a command only after running it. The module dependency graph, lesson graph, complete module membership, stable IDs and rubric references are validated. All units have evidence rubrics; mastery remains ungraded.
+See `CONTENT_QA.md` for the approved scope and actual depth. `contentStage` distinguishes a guided lesson from a compact practice workbook. `verification` separates Hebrew review, source audit and local execution. Publication is availability, not a certificate of technical verification. Record a command only after running it. The module dependency graph, lesson graph, complete module membership, stable IDs and rubric references are validated. All units have evidence rubrics; mastery requires recorded human assessment rather than reading or automated keyword scores.
+
+## Release 2.2.0
+
+CORE is the mandatory entry chapter. All 24 foundation builds must be marked complete before current advanced units unlock, including previously started units; previous learner records remain untouched. FND_01 and Python I now have guided instruction and validated `learning-flow` fences. A flow has a title, 2–7 ordered steps (title/detail/example) and a conclusion; extra executable fields and oversized content are rejected. The renderer is keyboard accessible and advances only through learner actions. Preserve immutable release snapshots and bump versions for further prose changes.

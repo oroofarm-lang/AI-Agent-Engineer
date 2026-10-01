@@ -11,7 +11,7 @@ import { readLesson } from '@/lib/curriculum/load';
 import { he } from '@/lib/i18n/he';
 import { LessonCanvas } from '@/components/learning/lesson-canvas';
 import { markdownCards } from '@/lib/curriculum/cards';
-import { CodeBlock } from '@/components/code-block';
+import { LessonPre } from '@/components/learning/lesson-pre';
 import { ProgressControls, LessonNotes } from '@/components/lesson-controls';
 import { canStudyLesson } from '@/lib/domain/learning-path';
 export const dynamic = 'force-dynamic';
@@ -112,13 +112,13 @@ export default async function LessonPage({
                 title:
                   he.sections[section.title] +
                   (parts.length > 1 ? ` · ${part + 1}/${parts.length}` : ''),
-                label: section.title,
+                label: he.sections[section.title],
                 content: (
                   <div className="prose">
                     <ReactMarkdown
                       remarkPlugins={[remarkGfm]}
                       components={{
-                        pre: ({ children }) => <CodeBlock>{children}</CodeBlock>,
+                        pre: ({ children }) => <LessonPre>{children}</LessonPre>,
                         a: ({ href, children }) => (
                           <a href={href} target="_blank" rel="noopener noreferrer">
                             {children}

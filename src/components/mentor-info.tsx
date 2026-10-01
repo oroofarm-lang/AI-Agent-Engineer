@@ -3,7 +3,6 @@ import { containDialogFocus } from '@/lib/client/dialog';
 import { useRef, useState } from 'react';
 import { usePathname } from 'next/navigation';
 import { Sparkles, X } from 'lucide-react';
-import Link from 'next/link';
 import ReactMarkdown from 'react-markdown';
 import { CodeBlock } from './code-block';
 import { helpLabels } from '@/lib/ai/policy';
@@ -87,7 +86,7 @@ export function MentorInfo() {
       if (!response.ok) {
         await load();
         setStatus(
-          errors[data.error] || 'הבקשה לא הושלמה. לא נוצרה תשובת AI ולא בוצע ניסיון חוזר אוטומטי.',
+          errors[data.error] || 'הבקשה לא הושלמה. לא התקבלה כאן תשובת AI ולא שלחנו את הבקשה שוב באופן אוטומטי.',
         );
         return;
       }
@@ -136,10 +135,8 @@ export function MentorInfo() {
         {loaded && !ready && (
           <div className="notice">
             <strong>חיבור ה־AI עדיין לא פעיל.</strong>
-            <p>אין מפתח API ומודל מוגדרים, ולכן לא נשלחות בקשות AI ולא נוצרות תשובות מדומות.</p>
-            <Link href="/settings#connections" onClick={() => dialog.current?.close()}>
-              להוראות חיבור
-            </Link>
+            <p>חיבור המנטור עדיין לא הוגדר, ולכן אי אפשר לשלוח אליו שאלות כרגע.</p>
+            <p>מפעיל הקורס צריך להפעיל את החיבור. אפשר להמשיך ללמוד, לתרגל ולשמור התקדמות בינתיים.</p>
           </div>
         )}
         <div className="mentor-transcript" role="region" aria-label="היסטוריית השיחה">

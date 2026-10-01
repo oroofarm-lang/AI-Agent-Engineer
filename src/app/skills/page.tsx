@@ -39,8 +39,7 @@ export default async function Skills({
         </div>
       </div>
       <div className="notice">
-        רמות השליטה: 0 — אין מספיק ראיות להערכת היכולת · 1 — הבנה · 2 — מימוש בעזרת מקורות · 3 — תכנון וניפוי שגיאות
-        עצמאיים. רמה מתעדכנת רק בעקבות הערכה אנושית של ראיות; קריאה או הגשה אינן מעלות אותה.
+        רמות השליטה: 0 — אין מספיק ראיות להערכת היכולת; 1 — הבנה; 2 — מימוש בעזרת מקורות; 3 — תכנון ואיתור תקלות באופן עצמאי. הרמה מתעדכנת רק לאחר שבודק אנושי העריך את העבודה שהוגשה. קריאה והגשה בלבד אינן מעלות אותה.
       </div>
       <form className="skill-filter" action="/skills">
         <label>
@@ -89,7 +88,7 @@ export default async function Skills({
                   <strong dir="ltr">{skill.name}</strong>
                 </span>
                 <span className="planned-tag">
-                  {demonstrated ? `רמה ${demonstrated.level}` : 'ללא הערכה מאושרת'}
+                  {demonstrated ? `רמה ${demonstrated.level}` : 'טרם נקבעה רמה'}
                 </span>
               </summary>
               <div className="skill-detail">
@@ -108,7 +107,7 @@ export default async function Skills({
                   {skill.prerequisiteSkillIds.length ? (
                     skill.prerequisiteSkillIds.map(skillLink)
                   ) : (
-                    <span className="muted">אין תנאים מוקדמים בגרף הנוכחי.</span>
+                    <span className="muted">לא הוגדרו כאן מיומנויות שצריך ללמוד קודם.</span>
                   )}
                 </div>
                 <h3>מיומנויות המשך</h3>

@@ -19,11 +19,12 @@ export function AssessmentForm({
   const submitted = result.ok && result.message.length > 0;
   return (
     <section className="card assessment-card" id="assessment">
-      <p className="eyebrow">PRACTICAL EVIDENCE</p>
+      <p className="eyebrow">העבודה שלך לבדיקה</p>
       <h2>{assessment.title}</h2>
       <p className="muted">{assessment.instructions}</p>
       <p className="notice">
-        הגשה בלבד · בדיקת הקוד ומתן ציונים עדיין אינם זמינים. השליטה אינה משתנה בעקבות הגשה.
+        לאחר ההגשה, בודק מורשה יכול לתת משוב לפי הדרישות שבמחוון. ההגשה אינה ציון; התוצאה תופיע לצד
+        העבודה לאחר הבדיקה.
       </p>
       {!built && (
         <p className="muted">
@@ -69,7 +70,7 @@ export function AssessmentForm({
         </p>
       </form>
       <Link className="text-link" href="/assessments">
-        צפייה בתיק הראיות ובהגשות הקודמות ←
+        לעבודות שהגשתי ולמשוב ←
       </Link>
     </section>
   );

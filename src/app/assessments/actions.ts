@@ -25,17 +25,17 @@ export async function submitEvidence(
       ok: false,
       message:
         message === 'BUILD_REQUIRED'
-          ? 'יש להשלים את הבנייה לפני הגשת ראיות.'
+          ? 'השלם את תרגיל הבנייה וסמן אותו כהושלם לפני הגשת העבודה לבדיקה.'
           : message === 'STALE_ASSESSMENT'
             ? 'גרסת המחוון השתנתה. שמור עותק של התשובות ורענן את העמוד לפני הגשה.'
             : message === 'SUBMISSION_CONFLICT'
               ? 'ההגשה הקודמת כבר נשמרה. להגשה חדשה יש לפתוח שוב את השיעור.'
-              : 'ההגשה לא נשמרה. יש למלא כל סעיף ב־80–12,000 תווים ולנסות שוב.',
+              : 'ההגשה לא נשמרה. כתוב בין 80 ל־12,000 תווים בכל סעיף ונסה שוב.',
     };
   }
   revalidatePath('/learn', 'layout');
   revalidatePath('/skills');
   revalidatePath('/assessments');
   revalidatePath('/');
-  return { ok: true, message: 'הראיות נשמרו וממתינות להערכה. לא הוענקה שליטה ולא הורץ קוד.' };
+  return { ok: true, message: 'העבודה נשמרה וממתינה להערכה. ההגשה אינה מריצה קוד ואינה מוכיחה שליטה בנושא.' };
 }

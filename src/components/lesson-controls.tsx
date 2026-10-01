@@ -29,7 +29,7 @@ export function ProgressControls({ lessonId, state }: { lessonId: string; state:
       <p className={result.ok ? 'form-status' : 'form-error'} role="status">
         {result.message}
       </p>
-      <small className="muted">סימון הבנייה לא מעניק שליטה. המחוון המעשי מופיע בהמשך השיעור.</small>
+      <small className="muted">סימון שהתרגיל נבנה אינו מוכיח שליטה בנושא. בהמשך השיעור מופיע המחוון להערכת העבודה.</small>
     </div>
   );
 }
@@ -39,7 +39,7 @@ export function LessonNotes({ lessonId, body }: { lessonId: string; body: string
   return (
     <form action={action} className="notes-form">
       <input type="hidden" name="lessonId" value={lessonId} />
-      <label htmlFor="engineering-notes">ההערות ההנדסיות שלך</label>
+      <label htmlFor="engineering-notes">ההערות שלי לשיעור</label>
       <p className="muted">מה בנית? מה נכשל? איזו החלטה קיבלת, ומה תשנה בפעם הבאה?</p>
       <textarea
         id="engineering-notes"

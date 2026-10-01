@@ -14,7 +14,7 @@ export function AccountControls({ name, email }: { name: string; email: string }
       router.replace('/auth');
       router.refresh();
     } catch {
-      setMessage('ההתנתקות נכשלה. נסו שוב.');
+      setMessage('ההתנתקות נכשלה. נסה שוב.');
       setBusy(false);
     }
   }
@@ -44,7 +44,7 @@ export function AccountControls({ name, email }: { name: string; email: string }
         callbackURL: '/auth',
       });
       if (result.error) {
-        setMessage('המחיקה נכשלה. בדקו את הסיסמה והתחברו מחדש.');
+        setMessage('המחיקה נכשלה. בדוק את הסיסמה והתחבר מחדש.');
         return;
       }
       router.replace('/auth');

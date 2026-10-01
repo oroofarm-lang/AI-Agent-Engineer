@@ -31,7 +31,7 @@ export async function reviewEvidence(_previous: Result, form: FormData): Promise
       ok: false,
       message:
         error instanceof Error && error.message === 'SELF_REVIEW'
-          ? 'אי אפשר לאשר את ההגשה שלך בעצמך. נדרש בודק מורשה אחר.'
+          ? 'אי אפשר להעריך את ההגשה שלך בעצמך. נדרש בודק מורשה אחר.'
           : 'ההערכה לא נשמרה. בדוק את ההרשאה וכתוב משוב של לפחות 20 תווים לכל סעיף. אי אפשר להחליף הערכה שכבר נשמרה.',
     };
   }

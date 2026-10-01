@@ -3,7 +3,7 @@ import { getAssessmentRepository, getCurriculum, getLearningSystem } from '@/lib
 import { assessmentSchema } from '@/lib/curriculum/assessment';
 import { z } from 'zod';
 export const dynamic = 'force-dynamic';
-export const metadata = { title: 'תיק הראיות' };
+export const metadata = { title: 'העבודות והמשוב שלי' };
 export default async function Assessments() {
   const c = getCurriculum(),
     attempts = (await getAssessmentRepository()).attempts(),
@@ -13,8 +13,8 @@ export default async function Assessments() {
       <div className="page-heading">
         <div>
           <p className="eyebrow">EVIDENCE BEFORE MASTERY</p>
-          <h1>תיק הראיות שלך</h1>
-          <p className="muted">כל ניסיון נשמר עם המחוון וגרסת התוכנית שהיו בתוקף בזמן ההגשה.</p>
+          <h1>העבודות והמשוב שלי</h1>
+          <p className="muted">כאן תמצא את העבודות שהגשת ואת המשוב שקיבלת. כל הגשה נשמרת בנפרד.</p>
         </div>
       </div>
       <div className="notice">
@@ -24,8 +24,14 @@ export default async function Assessments() {
       {attempts.length === 0 ? (
         <section className="card settings-card">
           <h2>עדיין אין הגשות</h2>
-          <p>השלם את הבנייה בשיעור הראשון, שחזר את הפרויקט בעצמך וצרף ראיות לכל סעיף במחוון.</p>
-          <Link href={`/learn/${c.lessons[0].id}#assessment`} className="button primary">
+          <p>
+            מתחילים בתרגיל בפרק היסודות. לאחר שתסיים, צרף את העבודה ואת ההסבר שלך לפי ההוראות
+            בשיעור.
+          </p>
+          <Link
+            href={`/learn/${c.modules?.find((chapter) => chapter.requiredEntry)?.lessonIds[0] || c.lessons[0].id}#assessment`}
+            className="button primary"
+          >
             למחוון המעשי הראשון
           </Link>
         </section>
@@ -70,7 +76,7 @@ export default async function Assessments() {
                       </pre>
                       {feedback && (
                         <div className="notice">
-                          <p>רמה {feedback[criterion.id].level} בקריטריון · הערכה אנושית</p>
+                          <p>רמה {feedback[criterion.id].level} בסעיף · הערכה אנושית</p>
                           <p className="reflection-text">{feedback[criterion.id].feedback}</p>
                         </div>
                       )}

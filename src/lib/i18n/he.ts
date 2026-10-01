@@ -9,8 +9,8 @@ export const he = {
     IN_PROGRESS: 'בתהליך',
     BUILD_COMPLETE: 'הבנייה הושלמה',
     MASTERY_PENDING: 'ממתין להערכת שליטה',
-    MASTERED: 'שליטה מוכחת',
-    COMPLETED_WITHOUT_MASTERY: 'הושלם ללא שליטה',
+    MASTERED: 'עמד בדרישות המחוון',
+    COMPLETED_WITHOUT_MASTERY: 'התרגיל הושלם ללא אישור שליטה',
   } satisfies Record<ProgressState, string>,
   sections: {
     Mission: 'המשימה',
@@ -22,6 +22,6 @@ export const he = {
     Challenge: 'האתגר שלך',
     'Mastery Check': 'הוכחת הבנה',
     Documentation: 'תיעוד ומקורות',
-    'Engineering Notes': 'הערות הנדסיות',
+    'Engineering Notes': 'הערות לשיעור',
   } as Record<string, string>,
 };

@@ -108,7 +108,7 @@ describe('practical evidence without fabricated grading', () => {
       validateAssessments([{ ...a, criteria: [{ ...a.criteria[0], skillId: 'MISSING' }] }], c),
     ).toThrow('outside');
   });
-  it('registers the real 1.0.0 → 2.1.0 release without losing prior data', () => {
+  it('registers the real 1.0.0 → current release without losing prior data', () => {
     const { c, connection } = fixture();
     const read = (name: string) =>
       JSON.parse(fs.readFileSync(`content/releases/1.0.0/${name}.json`, 'utf8'));

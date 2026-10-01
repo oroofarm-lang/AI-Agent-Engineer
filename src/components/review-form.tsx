@@ -18,8 +18,7 @@ export function ReviewForm({
       <input type="hidden" name="id" value={reviewId} />
       <input type="hidden" name="submissionId" value={submissionId} />
       <p>
-        בדוק את הראיות לפי כל קריטריון. אם אין מספיק ראיות, אל תניח שהיכולת הוכחה. כל הקריטריונים
-        צריכים להיות ברמה 2 לפחות כדי לאשר את הניסיון.
+        בדוק את העבודה לפי כל סעיף במחוון. אם אין מספיק ראיות, אל תניח שהיכולת הוכחה. כדי לאשר את הניסיון, העבודה צריכה לקבל רמה 2 לפחות בכל סעיף.
       </p>
       {rubric.criteria.map((item) => (
         <fieldset key={item.id}>
@@ -33,7 +32,7 @@ export function ReviewForm({
               <option value="0">0 · אין מספיק ראיות</option>
               <option value="1">1 · הבנה ללא מימוש מוכח</option>
               <option value="2">2 · מימוש שנבדק, עם עזרה ומקורות</option>
-              <option value="3">3 · תכנון וניפוי שגיאות עצמאיים</option>
+              <option value="3">3 · תכנון ואיתור תקלות באופן עצמאי</option>
             </select>
           </label>
           <label className="field-label">

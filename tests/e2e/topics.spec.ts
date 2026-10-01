@@ -37,7 +37,7 @@ test('topic → new stable-ID lesson → resume → build → export is persiste
   await expect(page.locator('#canvas-step-title')).toContainText('קודם בונים');
   await page.getByRole('button', { name: 'סימון הבנייה כהושלמה' }).click();
   await expect(page.getByText('הבנייה הושלמה ונשמרה')).toBeVisible();
-  await page.getByLabel('ההערות ההנדסיות שלך').fill('הפרדתי עובדות מהנחות בבריף המותג.');
+  await page.getByLabel('ההערות שלי לשיעור').fill('הפרדתי עובדות מהנחות בבריף המותג.');
   await page.getByRole('button', { name: 'שמירת הערות' }).click();
   await expect(page.getByText('ההערות נשמרו בחשבון שלך.')).toBeVisible();
   const fixture = await (await page.request.get('/course-data/v1/business.json')).json();
@@ -62,7 +62,7 @@ test('topic → new stable-ID lesson → resume → build → export is persiste
   }
   await page.getByRole('button', { name: 'הגשת ראיות להערכה' }).click();
   await expect(
-    page.getByText('הראיות נשמרו וממתינות להערכה. לא הוענקה שליטה ולא הורץ קוד.'),
+    page.getByText('העבודה נשמרה וממתינה להערכה. ההגשה אינה מריצה קוד ואינה מוכיחה שליטה בנושא.'),
   ).toBeVisible();
   const afterEvidence = await (await page.request.get('/api/export')).json();
   expect(afterEvidence.assessmentResults[0].lessonId).toBe('MKT_01');

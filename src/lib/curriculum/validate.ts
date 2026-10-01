@@ -1,5 +1,6 @@
 import type { Curriculum, Skill, Source } from './schema';
 import { requiredSections } from './schema';
+import { parseLearningFlow } from './learning-flow';
 export function assertUnique(values: string[], label: string) {
   if (new Set(values).size !== values.length) throw new Error(`Duplicate ${label}`);
 }
@@ -95,6 +96,8 @@ export function validateIntegrity(c: Curriculum, skills: Skill[], sources: Sourc
   }
 }
 export function validateBody(body: string, id: string) {
+  for (const block of body.matchAll(/```learning-flow\n([\s\S]*?)\n```/g))
+    parseLearningFlow(block[1]);
   const headings = [...body.matchAll(/^## (.+)$/gm)].map((m) => m[1]);
   if (headings.join('|') !== requiredSections.join('|'))
     throw new Error(`Invalid lesson sections: ${id}`);

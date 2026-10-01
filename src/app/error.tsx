@@ -4,8 +4,7 @@ export default function ErrorPage({ reset }: { reset: () => void }) {
     <div className="page narrow">
       <h1>לא הצלחנו לטעון את סביבת הלמידה</h1>
       <p>
-        הנתונים לא אופסו. בהתקנה ראשונה, יש להריץ <code dir="ltr">npm run db:setup</code> ולעיין
-        בהוראות ההתקנה.
+        נסה לטעון את העמוד שוב. אם התקלה נמשכת, פנה למפעיל הקורס.
       </p>
       <button className="button primary" onClick={reset}>
         ניסיון נוסף

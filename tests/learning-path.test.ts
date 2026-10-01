@@ -5,7 +5,7 @@ import { calculateProgress, type Progress } from '../src/lib/domain/progress';
 import { connect } from '../src/lib/db/connection';
 import { setupDatabase } from '../src/lib/db/migrate';
 import { repository } from '../src/lib/db/repository';
-it('starts with the first ordered core unit, gates new specialist work and preserves prior work', () => {
+it('starts with the first ordered core unit and gates even previously started specialist work without deleting it', () => {
   const c = loadCurriculum();
   const path = learningPath(c, []);
   expect(path.next.id).toBe(path.core.lessonIds[0]);
@@ -14,7 +14,8 @@ it('starts with the first ordered core unit, gates new specialist work and prese
   const prior: Progress[] = [
     { lessonId: special.id, state: 'IN_PROGRESS', buildCompletedAt: null },
   ];
-  expect(canStudyLesson(c, prior, special)).toBe(true);
+  expect(canStudyLesson(c, prior, special)).toBe(false);
+  expect(prior[0].state).toBe('IN_PROGRESS');
   expect(learningPath(c, prior).next.id).toBe(path.core.lessonIds[0]);
   const complete: Progress[] = path.core.lessonIds.map((lessonId) => ({
     lessonId,

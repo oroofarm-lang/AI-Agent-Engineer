@@ -38,7 +38,7 @@ export async function bossAction(_previous: Result, form: FormData): Promise<Res
       message:
         form.get('action') === 'start'
           ? 'הניסיון התחיל ונשמר בחשבון שלך.'
-          : 'הראיות קושרו לניסיון. הן ממתינות להערכה אנושית.',
+          : 'העבודה צורפה לניסיון וממתינה להערכה אנושית.',
     };
   } catch {
     return {

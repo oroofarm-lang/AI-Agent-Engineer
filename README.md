@@ -2,11 +2,11 @@
 
 A local-first, Hebrew RTL learning environment for AI agent engineering. The teaching loop is **Build → Understand → Break → Debug → Rebuild → Prove**.
 
-**Current checkpoint: authenticated learning workspace; the curriculum and AI features are still incremental.**
+**Current checkpoint: curriculum 2.2.0, mandatory foundation, account-scoped learning and contact consent.**
 
-Implemented: cream retro-arcade responsive workspace, authentication and per-account progress, 14 topic modules containing 139 units, skill dependencies, lesson cards with saved resume positions, engineering notes, evidence submissions and JSON export. Original 80 stable lesson IDs remain intact. Day 1 is guided; the other units are practical workbooks with unique tasks, failure labs, challenges, sources and rubrics. Core units include added instruction and four locally tested Python examples. This is not a claim that all external integrations or 139 full tutorials have been verified. See [content depth and verification](docs/CONTENT_QA.md).
+Implemented: cream retro-arcade responsive workspace, authentication and per-account progress, 14 topic modules containing 139 units, skill dependencies, numbered lesson cards with saved resume positions, notes, evidence submissions and JSON export. Original 80 stable lesson IDs remain intact. Day 1, FND_01 and Python I have guided instruction; the other 136 units are practical workbooks. Interactive diagrams illustrate the two newly guided units. This is not a claim that all external integrations or 139 full tutorials have been verified. See [content depth and verification](docs/CONTENT_QA.md).
 
-The server-side Mentor, SMTP verification/reset flow, verified-operator account directory, journal and Failure Library are implemented. Live provider execution still requires credentials. Human assessment/mastery, projects/Boss attempts and Curriculum Auditor remain incremental milestones.
+The server-side Mentor, SMTP verification/reset flow, verified-operator directory, human assessment workflow, project starters/Boss attempts, journal and Failure Library are implemented. Live provider execution still requires credentials. The Curriculum Auditor remains a later milestone.
 
 ## Run locally
 
@@ -70,11 +70,11 @@ Next.js App Router + React + TypeScript; Tailwind and local CSS design tokens; Z
 - `src/lib/domain`: deterministic progress policies.
 - `src/lib/db`: migrations, models and repository layer.
 
-Opening a lesson does not change progress. An explicit start records IN_PROGRESS, and build completion records BUILD_COMPLETE. It never grants mastery or full lesson completion. Mastery remains unassessed until evidence-based assessment ships. Curriculum freshness remains unverified rather than displaying a fabricated score.
+Opening a lesson does not grant completion. An explicit start records IN_PROGRESS, and build completion records BUILD_COMPLETE. Mastery requires evidence and a verified operator's rubric review; reading does not award mastery. Curriculum freshness remains unverified rather than displaying a fabricated score.
 
 ## Database and backups
 
-Migrations in `src/lib/db/migrations` run transactionally and are checksum-tracked. Do not edit applied migrations; add a new migration. The initial content version is `1.0.0` with September 2026 baseline. Database setup records a hash of the curriculum metadata/skill/source manifest and refuses changed metadata under the same version. Curriculum 1.1.0 adds rubric metadata and published Markdown body hashes to the registered manifest. The original 1.0.0 and 1.1.0 content is preserved in `content/releases`. Version 2.0.0 adds topic modules; 2.1.0 improves Hebrew and marks CORE as the mandatory entry chapter, without resetting progress. Setup rejects in-place changes, but a full approval/rollback release workflow remains phase 4 work.
+Migrations in `src/lib/db/migrations` run transactionally and are checksum-tracked. Do not edit applied migrations; add a new migration. The initial content version is `1.0.0` with September 2026 baseline. Database setup records a hash of the curriculum metadata/skill/source manifest and refuses changed metadata under the same version. Curriculum 1.1.0 adds rubric metadata and published Markdown body hashes to the registered manifest. The original 1.0.0 and 1.1.0 content is preserved in `content/releases`. Version 2.0.0 adds topic modules; 2.1.0 improves Hebrew and marks CORE as the mandatory entry chapter; 2.2.0 enforces the full foundation gate and adds two guided units and interactive diagrams, without resetting progress. Setup rejects in-place changes, but a full approval/rollback release workflow remains phase 4 work.
 
 Use **Settings → Export my data** for JSON including learner profile, progress, notes, assessment submissions with rubric snapshots, journal/failure records and test-case snapshots, Mentor history/usage, and registered versions. Export excludes credentials. For a complete physical backup, stop the server, then copy the `.data` directory (including any SQLite sidecar files) to a safe location. There is no destructive reset or UI restore feature. Do not treat the JSON export as an automatic recovery/import workflow.
 
@@ -86,13 +86,13 @@ Phase 4 will add a technology registry, official-source verification, evidence-b
 
 ## Next milestone
 
-Expand the instructional content and implement the phase 2 evidence-based learning system in small, tested slices: practical assessments/mastery, skills, projects/Boss Levels, journal, failure library. Finish these in independent working slices; curriculum update automation follows.
+Expand the remaining workbook instruction incrementally and implement the trusted-source Curriculum Auditor. Configure SMTP and the optional Mentor locally before public deployment; see the deployment guide.
 
 ## Evidence checkpoint
 
-After updating an existing installation, run `npm run db:setup` before restarting. Migration 0002 adds assessment storage without resetting prior data. The current curriculum is 2.1.0; the baseline remains September 2026.
+After updating an existing installation, run `npm run db:setup` before restarting. Migration 0008 adds consent history without resetting prior data. The current curriculum is 2.2.0; the baseline remains September 2026.
 
-A build must be complete before evidence submission. All rubric criteria require 80–12,000 non-padding characters (the submitted text, including code indentation, is preserved). Submissions are stored with an exact rubric snapshot and content version, are idempotent per submission ID, and set MASTERY_PENDING without awarding a score. They are not code execution or AI review. The history is append-only. A later grading feature must validate evidence before awarding mastery.
+A build must be complete before evidence submission. All rubric criteria require 80–12,000 non-padding characters (the submitted text, including code indentation, is preserved). Submissions store exact rubric snapshots and content versions, are idempotent and set MASTERY_PENDING without awarding a score. A verified, allowlisted operator can assess evidence, record rubric-level reasoning and award the corresponding mastery. Submission is not code execution or AI review; history is append-only.
 
 ## Interactive learning layout
 
@@ -108,4 +108,10 @@ Run `npm run verify` for the complete release gate. GitHub Actions runs it on pu
 
 ## Course navigation
 
-Open **ספריית פרקים** (`/topics`) to follow the core and specializations. Each unit displays its content type, language review and code execution status. Topic next links stay within the selected chapter. `/learn` also retains the original 80-day map. Course examples are run on your own computer, never silently executed in the site.
+Open **פרקי הקורס** (`/topics`) to follow the foundation and specializations. The 24 foundation exercises must be marked complete before advanced lessons unlock; earlier records remain preserved. Topic next links stay within the selected chapter. `/learn` retains the original weekly view in an expandable section. Course examples run on your own computer, never silently inside the site.
+
+## Contacts and ongoing quality review
+
+Name, email and progress are stored per account in SQLite. Course-update consent is separate, optional and off by default; withdrawal takes effect immediately. Only a verified, allowlisted operator can export verified opt-in contacts as CSV. No marketing email is sent by this phase.
+
+`npm run quality:audit` creates a public-copy inventory and runs all verification checks, including browser inspection of all 139 lessons. A daily Codex heartbeat reviews Hebrew and UX; it needs the local scheduler/workspace, not an extra API key. This is separate from the future Curriculum Auditor. See [quality agent scope and limitations](docs/QUALITY_AGENT.md).
