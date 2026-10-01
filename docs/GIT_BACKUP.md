@@ -17,9 +17,10 @@ Validation on 2026-10-01: lint, TypeScript, 51 unit tests, 15 Python lab tests,
 curriculum integrity, production build, and all 17 Playwright tests passed.
 The generated course notes contain no broken Obsidian links.
 
-The repository was public when first inspected. Upload is pending either a
-change to private visibility (the user's original preference) or explicit
-approval to publish this source checkpoint publicly.
+The user explicitly approved uploading the source checkpoint to this public
+repository on 2026-10-01. The connected GitHub integration can upload source
+when the local command line has no GitHub credentials. Ordinary future
+`git push` commands require a separately authenticated local Git client.
 
 After a remote backup is established, create subsequent source checkpoints
 with `git add` and `git commit`, then use `git push`. Inspect staged files before
