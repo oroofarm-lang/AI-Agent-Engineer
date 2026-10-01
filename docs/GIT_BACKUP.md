@@ -1,6 +1,10 @@
 # Git backup
 
-The configured remote is `https://github.com/oroofarm-lang/AI-Agent-Engineer.git`.
+Repository: `https://github.com/oroofarm-lang/AI-Agent-Engineer`.
+
+The configured Git remote is
+`git@github.com:oroofarm-lang/AI-Agent-Engineer.git`. SSH authentication already
+available on this machine was verified before uploading.
 
 This source checkpoint includes the application, curriculum release 2.1.0,
 authoring drafts, tests, deployment instructions, and generated Obsidian course
@@ -18,9 +22,9 @@ curriculum integrity, production build, and all 17 Playwright tests passed.
 The generated course notes contain no broken Obsidian links.
 
 The user explicitly approved uploading the source checkpoint to this public
-repository on 2026-10-01. The connected GitHub integration can upload source
-when the local command line has no GitHub credentials. Ordinary future
-`git push` commands require a separately authenticated local Git client.
+repository on 2026-10-01. HTTPS Git authentication was unavailable, so the
+backup uses the existing authenticated SSH connection. No new credentials
+were created or read. The backup includes local source commit history.
 
 After a remote backup is established, create subsequent source checkpoints
 with `git add` and `git commit`, then use `git push`. Inspect staged files before
