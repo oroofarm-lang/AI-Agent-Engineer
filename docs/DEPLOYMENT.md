@@ -70,7 +70,10 @@ outside the deploy bundle. `npm run mentor:refresh` uses no model key and reads 
 fixed public official release APIs. It records unavailable sources honestly; it
 never applies a curriculum release. A manual GitHub workflow produces a cache
 artifact; it does not synchronize that artifact to the running application.
-Automatic background scheduling is pending user approval. On-demand configured
+User-approved local heartbeat `automation` is active for Monday/Wednesday/Friday
+at 09:00 Asia/Jerusalem. Keep the computer on and the desktop app running; the
+project must remain available. This is not a hosted scheduler and the first scheduled
+run has not yet been observed. See the [official scheduled-task documentation](https://learn.chatgpt.com/docs/automations?surface=app). On-demand configured
 Mentor requests refresh once per Monday/Wednesday/Friday UTC slot when stale.
 
 The implementation follows [Next.js Server Actions request limits](https://nextjs.org/docs/app/api-reference/config/next-config-js/serverActions)

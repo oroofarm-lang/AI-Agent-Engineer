@@ -68,8 +68,10 @@ bottom corner and reserve page space rather than creating a second trigger.
   returned nine references from three successful sources on 2026-10-02. No paid model
   generation or complete technical audit of those releases was performed.
 - Scheduling: Monday/Wednesday/Friday due slots and on-demand stale-cache refresh are
-  implemented. Dedicated background scheduling awaits explicit approval after the
-  automatic approval reviewer rejected task creation; manual GitHub dispatch remains.
+  implemented. After explicit approval on 2026-10-02, local heartbeat `automation`
+  was created ACTIVE for Monday/Wednesday/Friday at 09:00 Asia/Jerusalem. It requires
+  the computer and desktop app running; its first scheduled run has not yet been
+  observed. Manual GitHub dispatch remains separate.
 - Curriculum: release 2.2.0, stable IDs and released teaching content unchanged.
 
 Local database backup and additive migration were explicitly approved and executed.

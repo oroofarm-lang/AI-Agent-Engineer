@@ -114,7 +114,7 @@ Open **פרקי הקורס** (`/topics`) to follow the foundation and specializa
 
 Name, email and progress are stored per account in SQLite. Course-update consent is separate, optional and off by default; withdrawal takes effect immediately. Only a verified, allowlisted operator can export verified opt-in contacts as CSV. No marketing email is sent by this phase.
 
-`npm run quality:audit` creates a public-copy inventory and runs all verification checks, including browser inspection of all 139 lessons. A daily Codex heartbeat reviews Hebrew and UX; it needs the local scheduler/workspace, not an extra API key. This is separate from the future Curriculum Auditor. See [quality agent scope and limitations](docs/QUALITY_AGENT.md).
+`npm run quality:audit` creates a public-copy inventory and runs all verification checks, including browser inspection of all 139 lessons. A weekly Codex heartbeat reviews Hebrew and UX; it needs the local scheduler/workspace, not an extra API key. This is separate from the future Curriculum Auditor. See [quality agent scope and limitations](docs/QUALITY_AGENT.md).
 
 ## Assessment and portfolio refinement — 2026-10-02
 
@@ -130,6 +130,6 @@ official repositories (OpenAI Agents Python, LangGraph, MCP TypeScript SDK). Thi
 is not a full research audit or a claim that new API behavior was verified. The
 Mentor resolves active card/question IDs on the server and includes current progress.
 Missing credentials still disable generation. Weekly slots are Monday/Wednesday/Friday;
-on-demand refresh happens only on a configured Mentor request. A background local
-schedule awaits explicit approval; the GitHub workflow currently supports manual
-refresh only. See [refinement architecture and acceptance](docs/UX_REFINEMENT.md).
+on-demand refresh happens only on a configured Mentor request. A user-approved local Codex heartbeat refreshes Monday/Wednesday/Friday at 09:00
+Asia/Jerusalem. The computer and app must be running; scheduled execution has not
+yet been observed. The GitHub workflow supports manual refresh only. See [refinement architecture and acceptance](docs/UX_REFINEMENT.md).

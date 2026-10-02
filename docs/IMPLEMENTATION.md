@@ -145,3 +145,14 @@ Local port 3000 responds with its normal auth redirect, but the in-app browser
 connection still returned a connection-refused error during manual preview. Do not
 claim that the user-facing browser preview was successfully opened. Private data,
 backups, caches and credentials remain ignored by Git.
+
+
+### Scheduling confirmation — 2026-10-02
+
+The user explicitly approved the pending schedule. The Codex app created the local
+heartbeat `automation` with ACTIVE status for Monday/Wednesday/Friday at 09:00,
+Asia/Jerusalem. Its prompt permits only the public-source cache refresh, excludes
+private learner data and paid model calls, and stays quiet on routine success.
+Creation/status were verified; no scheduled execution is claimed yet. Computer and
+desktop app availability are required. The prior pending-approval statements above
+record the earlier checkpoint and are superseded by this confirmation.
