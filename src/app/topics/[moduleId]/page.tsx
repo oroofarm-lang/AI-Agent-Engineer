@@ -42,10 +42,10 @@ export default async function Topic({ params }: { params: Promise<{ moduleId: st
         ) : !path.ready ? (
           <>
             אפשר לעיין בתוכנית הפרק עכשיו. כדי להתחיל יחידות חדשות צריך להשלים את תרגילי{' '}
-            <Link href="/topics/CORE">פרק הבסיס</Link>. ההתקדמות הקודמת שלך נשמרה.
+            <Link href="/topics/CORE">פרק היסודות</Link>. ההתקדמות הקודמת שלך נשמרה.
           </>
         ) : (
-          'פרק הבסיס הושלם. אפשר להתחיל את ההתמחות ולתרגל לפי הסדר.'
+          'פרק היסודות הושלם. אפשר להתחיל את ההתמחות ולתרגל לפי הסדר.'
         )}
       </div>
       <section className="card topic-outcome">
@@ -92,7 +92,7 @@ export default async function Topic({ params }: { params: Promise<{ moduleId: st
                 <small>
                   {canStudyLesson(c, records, lesson)
                     ? he.states[record?.state ?? 'NOT_STARTED']
-                    : 'צריך להשלים קודם את פרק הבסיס'}{' '}
+                    : 'צריך להשלים קודם את פרק היסודות'}{' '}
                   · {lesson.contentStage === 'guided-lesson' ? 'שיעור מודרך' : 'חוברת תרגול'}
                 </small>
               </span>

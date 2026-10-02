@@ -48,7 +48,7 @@ export default async function Dashboard() {
           <div className="hero-meta">
             <span className="pill">
               <span className="status-dot" />{' '}
-              {path.ready ? 'ממשיכים להתמחות' : 'מתחילים בפרק הבסיס · חובה'}
+              {path.ready ? 'ממשיכים להתמחות' : 'מתחילים בפרק היסודות · חובה'}
             </span>
             <span>
               {!path.ready
@@ -126,7 +126,7 @@ export default async function Dashboard() {
             <Terminal size={20} />
           </span>
           <div>
-            <span>פרק הבסיס · חובה</span>
+            <span>פרק היסודות · חובה</span>
             <strong>
               {path.built}
               <small> / {path.core.lessonIds.length}</small>
@@ -159,7 +159,7 @@ export default async function Dashboard() {
           </li>
         </ol>
         <Link href="/topics/CORE" className="text-link">
-          לפרק הבסיס ולרשימת השלבים <ArrowLeft size={16} />
+          לפרק היסודות ולרשימת השלבים <ArrowLeft size={16} />
         </Link>
       </section>
       <div className="dashboard-path-layout">

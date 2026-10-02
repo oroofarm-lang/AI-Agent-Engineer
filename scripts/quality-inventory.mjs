@@ -51,13 +51,40 @@ const lessons = catalog.lessons
       body = fs.readFileSync(path.join(root, file), 'utf8');
     return { file, id: lesson.id, title: lesson.title, sha256: hash(body), body };
   });
+// Learner-visible rubrics and catalog labels are data, not JSX literals.
+// Restrict this collection to the public curriculum manifests.
+const structuredCopy = [];
+for (const name of [
+  'curriculum.json',
+  'assessments.json',
+  'skills.json',
+  'sources.json',
+  'changelog.json',
+]) {
+  const file = `content/curriculum/${name}`;
+  const source = fs.readFileSync(path.join(root, file), 'utf8');
+  const copy = [];
+  function visit(value, jsonPath) {
+    if (typeof value === 'string' && /[\u0590-\u05ff]/.test(value)) {
+      copy.push({ jsonPath, text: value });
+    } else if (Array.isArray(value)) {
+      value.forEach((item, index) => visit(item, `${jsonPath}[${index}]`));
+    } else if (value && typeof value === 'object') {
+      for (const [key, item] of Object.entries(value))
+        visit(item, `${jsonPath}[${JSON.stringify(key)}]`);
+    }
+  }
+  visit(JSON.parse(source), '$');
+  structuredCopy.push({ file, sha256: hash(source), copy });
+}
 const output = {
-  schemaVersion: 1,
+  schemaVersion: 2,
   curriculumVersion: catalog.version,
   generatedAt: new Date().toISOString(),
   scope:
     'Source-authored public copy only. No accounts, environment values, personal notes, or database records.',
   publicCopy,
+  structuredCopy,
   modules: catalog.modules,
   lessons,
 };
@@ -68,5 +95,5 @@ fs.writeFileSync(
   { mode: 0o600 },
 );
 console.log(
-  `Public-copy inventory: ${lessons.length} published lessons, ${catalog.modules.length} chapters, ${publicCopy.length} UI/source files. Saved to .data/quality/public-copy.json; no AI judgment or browser checks claimed.`,
+  `Public-copy inventory: ${lessons.length} published lessons, ${catalog.modules.length} chapters, ${publicCopy.length} UI/source files, ${structuredCopy.reduce((total, item) => total + item.copy.length, 0)} structured text records. Saved to .data/quality/public-copy.json; no AI judgment or browser checks claimed.`,
 );

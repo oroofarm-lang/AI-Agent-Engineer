@@ -39,7 +39,9 @@ export default async function Skills({
         </div>
       </div>
       <div className="notice">
-        רמות השליטה: 0 — אין מספיק ראיות להערכת היכולת; 1 — הבנה; 2 — מימוש בעזרת מקורות; 3 — תכנון ואיתור תקלות באופן עצמאי. הרמה מתעדכנת רק לאחר שבודק אנושי העריך את העבודה שהוגשה. קריאה והגשה בלבד אינן מעלות אותה.
+        רמות השליטה: 0 — אין מספיק ראיות להערכת היכולת; 1 — הבנה; 2 — מימוש בעזרת מקורות; 3 — תכנון
+        ואיתור תקלות באופן עצמאי. הרמה מתעדכנת רק לאחר שבודק אנושי העריך את העבודה שהוגשה. קריאה
+        והגשה בלבד אינן מעלות אותה.
       </div>
       <form className="skill-filter" action="/skills">
         <label>
@@ -95,7 +97,8 @@ export default async function Skills({
                 <p>{skill.description}</p>
                 {demonstrated && (
                   <p>
-                    הרמה נקבעה בהערכה אנושית של עבודה שהוגשה בגרסת תוכנית הלימודים {demonstrated.curriculum_version}.{' '}
+                    הרמה נקבעה בהערכה אנושית של עבודה שהוגשה בגרסת תוכנית הלימודים{' '}
+                    {demonstrated.curriculum_version}.{' '}
                     <Link href="/assessments">לראיות ולמשוב</Link>
                   </p>
                 )}
@@ -115,7 +118,7 @@ export default async function Skills({
                   {downstream.length ? (
                     downstream.map((s) => skillLink(s.id))
                   ) : (
-                    <span className="muted">אין קשרי המשך שהוגדרו עדיין.</span>
+                    <span className="muted">לא הוגדרו כאן מיומנויות שלומדים בהמשך.</span>
                   )}
                 </div>
                 <h3>שיעורים רלוונטיים</h3>

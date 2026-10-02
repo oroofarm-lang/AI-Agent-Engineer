@@ -8,7 +8,7 @@ test('topic → new stable-ID lesson → resume → build → export is persiste
   await expect(page.locator('.hero')).toContainText('חובה');
   await page.goto('/learn/MKT_01?module=MARKETING');
   await expect(
-    page.getByRole('heading', { name: 'מתחילים בפרק הבסיס', exact: true }),
+    page.getByRole('heading', { name: 'מתחילים בפרק היסודות', exact: true }),
   ).toBeVisible();
   await expect(page.getByRole('button', { name: 'התחלת השיעור' })).toHaveCount(0);
   await page.goto('/topics/CORE');
@@ -55,7 +55,12 @@ test('topic → new stable-ID lesson → resume → build → export is persiste
   ).toContain('בריף');
   const fields = page.locator('.evidence-field textarea');
   expect(await fields.count()).toBe(3);
-  for (const field of await fields.all()) {
+  for (let i = 0; i < (await fields.count()); i++) {
+    await page
+      .getByRole('navigation', { name: 'מעבר בין שאלות ההערכה' })
+      .getByRole('button', { name: new RegExp(`^שאלה ${i + 1}( |$)`) })
+      .click();
+    const field = fields.nth(i);
     await field.fill(
       'ראיית בדיקה: יצרתי בריף עם מקורות לטענות, זיהיתי הבטחה שאינה קיימת בנתוני העסק ותיקנתי אותה. השוויתי את התוצר למקור והצגתי מגבלה ברורה.',
     );

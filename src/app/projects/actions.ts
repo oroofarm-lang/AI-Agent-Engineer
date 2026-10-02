@@ -19,7 +19,7 @@ export async function saveWorkspace(_previous: Result, form: FormData): Promise<
       message:
         error instanceof Error && error.message === 'STALE_WORKSPACE'
           ? 'התיעוד השתנה מאז שפתחת אותו. העתק את השינויים שלך ורענן את העמוד לפני שמירה נוספת.'
-          : 'התיעוד לא נשמר. בדוק שסיימת את פרק הבסיס ונסה שוב.',
+          : 'התיעוד לא נשמר. בדוק שסיימת את פרק היסודות ונסה שוב.',
     };
   }
 }
@@ -43,7 +43,7 @@ export async function bossAction(_previous: Result, form: FormData): Promise<Res
   } catch {
     return {
       ok: false,
-      message: 'הניסיון לא נשמר. ודא שהשלמת את תרגילי פרק הבסיס, ובדוק שהגשת ראיות לשיעור ולגרסה המתאימים.',
+      message: 'הניסיון לא נשמר. ודא שהשלמת את תרגילי פרק היסודות, ובדוק שהגשת ראיות לשיעור ולגרסה המתאימים.',
     };
   }
 }

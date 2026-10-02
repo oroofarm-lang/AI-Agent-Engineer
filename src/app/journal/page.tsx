@@ -8,13 +8,14 @@ export const metadata = { title: 'יומן הלמידה' };
 export default async function Journal({
   searchParams,
 }: {
-  searchParams: Promise<{ edit?: string }>;
+  searchParams: Promise<{ edit?: string; lesson?: string }>;
 }) {
   const c = getCurriculum(),
     entries = (await getReflectionRepository()).journals();
-  const { edit } = await searchParams,
+  const { edit, lesson } = await searchParams,
     entry = entries.find((item) => item.id === edit);
   if (edit && !entry) notFound();
+  const relatedLesson = c.lessons.find((item) => item.id === lesson);
   return (
     <div className="page narrow">
       <div className="page-heading">
@@ -25,11 +26,11 @@ export default async function Journal({
         </div>
       </div>
       <ReflectionForm
-        key={entry?.id || 'new'}
+        key={entry?.id || `new-${relatedLesson?.id || 'unlinked'}`}
         kind="journal"
         id={entry?.id || randomUUID()}
         revision={entry?.revision}
-        values={entry ? JSON.parse(entry.content) : {}}
+        values={entry ? JSON.parse(entry.content) : { lessonId: relatedLesson?.id || '' }}
         lessons={c.lessons}
         skills={c.skills.map((skill) => ({ id: skill.id, title: skill.name }))}
       />

@@ -40,13 +40,13 @@ export default async function LessonPage({
       <div className="page narrow">
         <h1>{lesson.title}</h1>
         <section className="card settings-card">
-          <h2>מתחילים בפרק הבסיס</h2>
+          <h2>מתחילים בפרק היסודות</h2>
           <p>
             היחידה הזו משתמשת במושגים ובכלים שלומדים בפרק החובה. השלם קודם את תרגילי הבסיס כדי
             להתחיל אותה.
           </p>
           <Link href="/topics/CORE" className="button primary">
-            לפרק הבסיס · חובה למתחילים
+            לפרק היסודות · חובה למתחילים
           </Link>
           <Link href="/topics" className="text-link">
             לתוכניות הפרקים

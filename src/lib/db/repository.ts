@@ -94,7 +94,19 @@ export function repository(connection: Connection, curriculum: Curriculum, userI
     },
     exportData() {
       return sqlite.transaction(() => ({
-        schemaVersion: 7,
+        schemaVersion: 8,
+        assessmentArtifacts: (
+          sqlite
+            .prepare('SELECT * FROM assessment_artifacts WHERE user_id=? ORDER BY rowid')
+            .all(userId) as { data: Buffer }[]
+        ).map(({ data, ...metadata }) => ({
+          ...metadata,
+          encoding: 'base64',
+          data: data.toString('base64'),
+        })),
+        portfolioEntries: sqlite
+          .prepare('SELECT * FROM portfolio_entries WHERE user_id=?')
+          .all(userId),
         contactConsentEvents: sqlite
           .prepare('SELECT * FROM marketing_consent_events WHERE user_id=? ORDER BY rowid')
           .all(userId),

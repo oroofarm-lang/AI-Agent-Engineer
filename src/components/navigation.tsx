@@ -19,6 +19,7 @@ const routes = [
   { href: '/topics', label: 'פרקי הקורס', icon: FolderCode },
   { href: '/skills', label: 'עץ מיומנויות', icon: GitBranch },
   { href: '/assessments', label: 'העבודות והמשוב שלי', icon: NotebookPen },
+  { href: '/portfolio', label: 'תיק העבודות שלי', icon: FolderCode },
   { href: '/projects', label: 'פרויקטים', icon: FolderCode },
   { href: '/boss', label: 'מבחנים מסכמים', icon: Flag },
   { href: '/journal', label: 'יומן הלמידה', icon: NotebookPen },

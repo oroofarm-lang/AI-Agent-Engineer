@@ -22,7 +22,7 @@ export function TopicCatalog({
         return (
           <section key={module.id} className="card topic-card">
             <div className="section-heading">
-              <p className="eyebrow">פרק {index + 1} {module.id === path.core.id ? '· חובה למתחילים' : !path.ready ? '· אחרי פרק הבסיס' : '· התמחות'}</p>
+              <p className="eyebrow">פרק {index + 1} {module.id === path.core.id ? '· חובה למתחילים' : !path.ready ? '· אחרי פרק היסודות' : '· התמחות'}</p>
               <span className="version-tag">{module.lessonIds.length} יחידות</span>
             </div>
             <h2>

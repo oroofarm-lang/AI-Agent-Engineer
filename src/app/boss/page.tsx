@@ -49,7 +49,7 @@ export default async function Boss() {
               />
             ) : (
               <p>
-                מתחילים אחרי <Link href="/topics/CORE">פרק הבסיס</Link>.
+                מתחילים אחרי <Link href="/topics/CORE">פרק היסודות</Link>.
               </p>
             )}
             <ul>

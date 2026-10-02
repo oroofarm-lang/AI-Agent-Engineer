@@ -18,7 +18,7 @@ export const categoryLabels: Record<(typeof failureCategories)[number], string> 
   INVALID_SCHEMA: 'נתונים במבנה לא תקין',
   TOOL_TIMEOUT: 'הכלי לא סיים בזמן',
   WRONG_TOOL: 'כלי שגוי',
-  BAD_RETRIEVAL: 'מידע שאינו מתאים לבקשה נמצא בחיפוש',
+  BAD_RETRIEVAL: 'החיפוש החזיר מידע שאינו מתאים לבקשה',
   CONTEXT_FAILURE: 'מידע חסר או שגוי בהקשר',
   PROMPT_INJECTION: 'הזרקת הוראות זדוניות',
   HANDOFF_LOOP: 'העברת טיפול ללא סוף',

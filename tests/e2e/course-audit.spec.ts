@@ -11,7 +11,7 @@ test('mandatory foundation unlocks advanced chapters and every published lesson 
   test.setTimeout(600000);
   const core = course.modules.find((chapter) => chapter.id === 'CORE')!;
   await page.goto('/learn/MKT_01');
-  await expect(page.getByRole('heading', { name: 'מתחילים בפרק הבסיס' })).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'מתחילים בפרק היסודות' })).toBeVisible();
   for (const id of core.lessonIds) {
     await page.goto(`/learn/${id}?module=CORE`);
     await page.getByRole('button', { name: 'התחלת השיעור', exact: true }).click();

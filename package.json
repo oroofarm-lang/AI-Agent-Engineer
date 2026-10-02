@@ -26,6 +26,7 @@
     "mail:check": "tsx scripts/check-mail.ts",
     "vault:sync": "node scripts/sync-vault.mjs",
     "quality:inventory": "node scripts/quality-inventory.mjs",
+    "mentor:refresh": "tsx scripts/refresh-mentor-knowledge.ts",
     "quality:audit": "npm run quality:inventory && npm run verify"
   },
   "dependencies": {

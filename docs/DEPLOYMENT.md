@@ -45,3 +45,36 @@ The automated suite checks signup/login/logout, revocation, throttling, tenant i
 ## Connection checkpoint — 2.1.0
 
 See `CONNECTION_SETUP_HE.md` for Gmail app-password prerequisites, the no-send `mail:check`, verified operator access and the optional real Mentor. SMTP transport tests and model doubles are not live acceptance. There are no configured provider credentials in this installation. The owner email is saved in ignored local configuration. Project/mastery review and curriculum auditing are still pending.
+
+## Private artifacts and knowledge cache — migration 0009
+
+Back up the existing SQLite database consistently before `npm run db:setup`, then
+restart the app. Migration 0009 adds tables and a nullable fingerprint column;
+it does not overwrite learning records. Artifact bytes, answers and portfolio
+metadata commit in one transaction. Limits: 3 MiB per file, six files and 8 MiB per
+submission, 100 MiB per learner. Configure request/body limits at the reverse proxy;
+the Server Action limit is 12 MiB including multipart overhead. Accepted text/code,
+CSV/JSON/Markdown, PDF and PNG/JPEG files are validated on the server. Downloads
+always use attachment disposition, no-store and nosniff, and require the owner or
+a verified allowlisted reviewer. There is no antivirus scanning or public sharing.
+
+Profile export includes uploaded bytes as base64, private portfolio metadata and
+assessment records. Treat exports and backups as private; they are excluded from
+Git. Account deletion removes active artifact and portfolio rows, while operators
+must enforce backup retention separately. Review upload limits against expected
+volume before expanding beyond a single persistent Node host.
+
+The optional Mentor knowledge cache defaults to `.data/mentor/knowledge.json`.
+`MENTOR_KNOWLEDGE_PATH` overrides its path. Preserve a writable private directory
+outside the deploy bundle. `npm run mentor:refresh` uses no model key and reads only
+fixed public official release APIs. It records unavailable sources honestly; it
+never applies a curriculum release. A manual GitHub workflow produces a cache
+artifact; it does not synchronize that artifact to the running application.
+Automatic background scheduling is pending user approval. On-demand configured
+Mentor requests refresh once per Monday/Wednesday/Friday UTC slot when stale.
+
+The implementation follows [Next.js Server Actions request limits](https://nextjs.org/docs/app/api-reference/config/next-config-js/serverActions)
+and [GitHub's release API](https://docs.github.com/en/rest/releases/releases#list-releases).
+Release metadata is a discovery aid, not evidence of API correctness. Actual
+provider generation still needs an explicit available model and server key; follow
+the connection setup guide for live acceptance.

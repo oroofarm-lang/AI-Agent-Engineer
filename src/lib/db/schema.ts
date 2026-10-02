@@ -63,6 +63,7 @@ export const assessmentResults = sqliteTable('assessment_results', {
   evidence: text('evidence').notNull(),
   status: text('status', { enum: ['PENDING_REVIEW'] }).notNull(),
   submittedAt: text('submitted_at').notNull(),
+  payloadFingerprint: text('payload_fingerprint'),
 });
 
 export const journalEntries = sqliteTable('journal_entries', {

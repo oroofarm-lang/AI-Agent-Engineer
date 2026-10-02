@@ -27,6 +27,10 @@ test('dashboard → lesson → build → notes → export persists without an AP
   });
   const fields = page.locator('.evidence-field textarea');
   for (let i = 0; i < (await fields.count()); i++) {
+    await page
+      .getByRole('navigation', { name: 'מעבר בין שאלות ההערכה' })
+      .getByRole('button', { name: new RegExp(`^שאלה ${i + 1}( |$)`) })
+      .click();
     await fields
       .nth(i)
       .fill(
@@ -34,6 +38,10 @@ test('dashboard → lesson → build → notes → export persists without an AP
       );
   }
   const retainedEvidence = await fields.nth(1).inputValue();
+  await page
+    .getByRole('navigation', { name: 'מעבר בין שאלות ההערכה' })
+    .getByRole('button', { name: /^שאלה 1( |$)/ })
+    .click();
   await fields.nth(0).fill(' '.repeat(90));
   await page.getByRole('button', { name: 'הגשת ראיות להערכה' }).click();
   await expect(

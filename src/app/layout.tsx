@@ -5,6 +5,7 @@ import { legalDocuments } from '@/lib/legal';
 import type { Metadata } from 'next';
 import { Navigation } from '@/components/navigation';
 import { ActivityHeader } from '@/components/learning/activity-header';
+import { MentorContext } from '@/components/learning/mentor-context';
 import './globals.css';
 import './neon.css';
 import '@fontsource/vt323/latin-400.css';
@@ -12,6 +13,7 @@ import './arcade.css';
 import './cream.css';
 import './connections.css';
 import './accessibility.css';
+import './refinement.css';
 export const dynamic = 'force-dynamic';
 export const metadata: Metadata = {
   title: { default: 'Agent Engineer · סביבת הלמידה', template: '%s · Agent Engineer' },
@@ -24,19 +26,21 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <a className="skip-link" href="#main">
           דלג לתוכן
         </a>
-        <AccessibilityMenu />
-        <RouteFocus />
-        <Navigation />
-        <div className="app-content">
-          <ActivityHeader />
-          <main id="main" tabIndex={-1}>
-            {children}
-          </main>
-          <LegalFooter
-            documents={legalDocuments()}
-            operator={process.env.LEGAL_OPERATOR || 'Agent Engineer'}
-          />
-        </div>
+        <MentorContext>
+          <AccessibilityMenu />
+          <RouteFocus />
+          <Navigation />
+          <div className="app-content">
+            <ActivityHeader />
+            <main id="main" tabIndex={-1}>
+              {children}
+            </main>
+            <LegalFooter
+              documents={legalDocuments()}
+              operator={process.env.LEGAL_OPERATOR || 'Agent Engineer'}
+            />
+          </div>
+        </MentorContext>
       </body>
     </html>
   );

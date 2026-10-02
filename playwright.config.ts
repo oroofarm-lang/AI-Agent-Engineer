@@ -25,6 +25,7 @@ export default defineConfig({
       SMTP_PASSWORD: '',
       MAIL_FROM: '',
       ADMIN_EMAILS: 'qa-manager@example.test',
+      MENTOR_KNOWLEDGE_PATH: '.data/e2e-mentor-knowledge.json',
     },
   },
 });

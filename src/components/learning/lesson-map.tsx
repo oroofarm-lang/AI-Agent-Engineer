@@ -43,6 +43,15 @@ export function LessonMap({
           </select>
         </label>
       </div>
+      <div className="map-foundation-banner">
+        <span className="pill">
+          {week === 1 ? 'מתחילים כאן · שבוע 1' : 'קודם בונים את היסודות'}
+        </span>
+        <p>פרק היסודות הוא נקודת ההתחלה. מסיימים את תרגילי החובה לפני שפותחים התמחות חדשה.</p>
+        <Link href="/topics/CORE" className="text-link">
+          לפרק היסודות ולסדר הלמידה ←
+        </Link>
+      </div>
       <div className="map-legend">
         <span>
           <i className="legend-built" /> הבנייה הושלמה
@@ -51,7 +60,7 @@ export function LessonMap({
           <i className="legend-active" /> זמין ללמידה
         </span>
         <span>
-          <i className="legend-locked" /> אחרי פרק הבסיס
+          <i className="legend-locked" /> אחרי פרק היסודות
         </span>
       </div>
       <div className="node-path" dir="ltr">
@@ -78,7 +87,7 @@ export function LessonMap({
               }
               onClick={() => setSelectedId(lesson.id)}
               aria-pressed={selected.id === lesson.id}
-              aria-label={`יום ${lesson.day}: ${lesson.title} · ${state === 'built' ? 'הבנייה הושלמה' : state === 'active' ? 'זמין' : 'נעול עד להשלמת פרק הבסיס'}`}
+              aria-label={`יום ${lesson.day}: ${lesson.title} · ${state === 'built' ? 'הבנייה הושלמה' : state === 'active' ? 'זמין' : 'נעול עד להשלמת פרק היסודות'}`}
             >
               <span className="node-ring">
                 {state === 'built' ? (
@@ -102,7 +111,7 @@ export function LessonMap({
           <h3 dir="auto">{selected.title}</h3>
           <span className="muted">
             <Clock3 size={13} /> עד {selected.estimatedMinutes} דקות{' '}
-            {lockedIds.includes(selected.id) ? '· נפתח אחרי תרגילי הבסיס' : ''}
+            {lockedIds.includes(selected.id) ? '· נפתח אחרי תרגילי פרק היסודות' : ''}
           </span>
         </div>
         <Link
@@ -110,9 +119,9 @@ export function LessonMap({
           className={`button ${selected.publicationStatus === 'published' ? 'primary' : 'secondary'}`}
         >
           {lockedIds.includes(selected.id)
-            ? 'להשלמת פרק הבסיס'
+            ? 'להשלמת פרק היסודות'
             : selected.publicationStatus === 'published'
-              ? 'למרחב הלמידה'
+              ? 'מעבר לשיעור'
               : 'צפייה במתווה'}
           <ArrowLeft size={16} />
         </Link>

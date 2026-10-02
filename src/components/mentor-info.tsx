@@ -6,6 +6,7 @@ import { Sparkles, X } from 'lucide-react';
 import ReactMarkdown from 'react-markdown';
 import { CodeBlock } from './code-block';
 import { helpLabels } from '@/lib/ai/policy';
+import { useMentorContext } from './learning/mentor-context';
 type Message = { id: string; role: 'user' | 'assistant'; body: string };
 const errors: Record<string, string> = {
   AI_NOT_CONFIGURED: 'חיבור ה־AI עדיין לא הוגדר. בעל המערכת צריך להגדיר מפתח ומודל בצד השרת.',
@@ -13,11 +14,12 @@ const errors: Record<string, string> = {
   MENTOR_DAILY_LIMIT: 'הגעת למגבלה של 20 בקשות ביום. אפשר להמשיך ללמוד ללא המנטור.',
   AI_RATE_LIMIT: 'ספק ה־AI הגביל את הבקשה. לא בוצע ניסיון חוזר אוטומטי.',
   AI_CONNECTION_FAILED: 'לא התקבלה תשובה בזמן. ייתכן שהבקשה נקלטה אצל הספק; לא שלחנו אותה שוב.',
-  FOUNDATION_REQUIRED: 'צריך להשלים את תרגילי פרק הבסיס לפני עבודה ביחידה הזו.',
+  FOUNDATION_REQUIRED: 'צריך להשלים את תרגילי פרק היסודות לפני עבודה ביחידה הזו.',
 };
 export function MentorInfo() {
   const dialog = useRef<HTMLDialogElement>(null);
   const pathname = usePathname();
+  const activeTask = useMentorContext();
   const lessonId = /^\/(learn|projects)\//.test(pathname) ? pathname.split('/')[2] : null;
   const [messages, setMessages] = useState<Message[]>([]);
   const [threadId, setThreadId] = useState<string>();
@@ -32,6 +34,7 @@ export function MentorInfo() {
   const [helpLevel, setHelpLevel] = useState(1);
   const [includeNotes, setIncludeNotes] = useState(false);
   const [includeReflections, setIncludeReflections] = useState(false);
+  const [knowledgeStatus, setKnowledgeStatus] = useState('');
   async function load() {
     const response = await fetch(
       `/api/mentor${lessonId ? `?lessonId=${encodeURIComponent(lessonId)}` : ''}`,
@@ -42,6 +45,11 @@ export function MentorInfo() {
     setLoaded(true);
     setMessages(data.messages);
     setThreadId(data.threadId);
+    setKnowledgeStatus(
+      data.knowledge
+        ? `מקורות עדכון: ${data.knowledge.sources.filter((source: { status: string }) => source.status === 'ok').length} מתוך ${data.knowledge.sources.length} זמינים. ניסיון העדכון האחרון: ${new Intl.DateTimeFormat('he-IL', { dateStyle: 'short', timeZone: 'Asia/Jerusalem' }).format(new Date(data.knowledge.attemptedAt))}.`
+        : 'עדיין לא בוצע ניסיון לעדכן את המקורות.',
+    );
   }
   async function open() {
     dialog.current?.showModal();
@@ -80,13 +88,15 @@ export function MentorInfo() {
           helpLevel,
           includeNotes,
           includeReflections,
+          activeTask: activeTask ? { kind: activeTask.kind, id: activeTask.id } : null,
         }),
       });
       const data = await response.json();
       if (!response.ok) {
         await load();
         setStatus(
-          errors[data.error] || 'הבקשה לא הושלמה. לא התקבלה כאן תשובת AI ולא שלחנו את הבקשה שוב באופן אוטומטי.',
+          errors[data.error] ||
+            'הבקשה לא הושלמה. לא התקבלה כאן תשובת AI ולא שלחנו את הבקשה שוב באופן אוטומטי.',
         );
         return;
       }
@@ -132,11 +142,24 @@ export function MentorInfo() {
             : 'שיחה כללית על הלמידה ועל ההתקדמות שלך.'}{' '}
           מתחילים ברמז, ובוחרים כמה עזרה לקבל.
         </p>
+        {activeTask && lessonId && (
+          <p className="notice">
+            עזרה ב{activeTask.kind === 'assessment' ? 'שאלה' : 'שקופית'}: {activeTask.title}
+          </p>
+        )}
+        {loaded && (
+          <p className="muted tiny">
+            {knowledgeStatus} רענון המקורות מתוכנן לימי שני, רביעי ושישי. קישור לגרסה חדשה אינו
+            אימות של כל פרט טכני.
+          </p>
+        )}
         {loaded && !ready && (
           <div className="notice">
             <strong>חיבור ה־AI עדיין לא פעיל.</strong>
             <p>חיבור המנטור עדיין לא הוגדר, ולכן אי אפשר לשלוח אליו שאלות כרגע.</p>
-            <p>מפעיל הקורס צריך להפעיל את החיבור. אפשר להמשיך ללמוד, לתרגל ולשמור התקדמות בינתיים.</p>
+            <p>
+              מפעיל הקורס צריך להפעיל את החיבור. אפשר להמשיך ללמוד, לתרגל ולשמור התקדמות בינתיים.
+            </p>
           </div>
         )}
         <div className="mentor-transcript" role="region" aria-label="היסטוריית השיחה">
@@ -168,7 +191,7 @@ export function MentorInfo() {
                 <option value="hint">רמז</option>
                 <option value="explain">הסבר</option>
                 <option value="debug">איתור תקלה</option>
-                <option value="review">בדיקת קוד</option>
+                <option value="review">סקירת קוד</option>
                 <option value="quiz">שאלות לתרגול</option>
                 <option value="challenge">אתגר נוסף</option>
                 <option value="architecture">בדיקת תכנון</option>

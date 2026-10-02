@@ -2,9 +2,19 @@ import Link from 'next/link';
 import { getAssessmentRepository, getCurriculum, getLearningSystem } from '@/lib/data';
 import { assessmentSchema } from '@/lib/curriculum/assessment';
 import { z } from 'zod';
+import { requireUser } from '@/lib/auth/session';
+import { getConnection } from '@/lib/db/connection';
+import { artifactRepository } from '@/lib/db/artifacts';
+import { portfolioRepository } from '@/lib/db/portfolio';
+import { PortfolioToggle } from '@/components/assessment/portfolio-toggle';
+import { ArtifactLinks } from '@/components/assessment/artifact-links';
 export const dynamic = 'force-dynamic';
 export const metadata = { title: 'העבודות והמשוב שלי' };
 export default async function Assessments() {
+  const user = await requireUser(),
+    connection = getConnection();
+  const files = artifactRepository(connection, user.id).metadata(),
+    portfolio = portfolioRepository(connection, user.id).entries();
   const c = getCurriculum(),
     attempts = (await getAssessmentRepository()).attempts(),
     reviews = (await getLearningSystem()).reviews();
@@ -74,6 +84,12 @@ export default async function Assessments() {
                       <pre className="evidence-text" dir="auto">
                         {evidence[criterion.id]}
                       </pre>
+                      <ArtifactLinks
+                        files={files.filter(
+                          (file) =>
+                            file.submission_id === attempt.id && file.criterion_id === criterion.id,
+                        )}
+                      />
                       {feedback && (
                         <div className="notice">
                           <p>רמה {feedback[criterion.id].level} בסעיף · הערכה אנושית</p>
@@ -85,6 +101,12 @@ export default async function Assessments() {
                   <Link href={`/learn/${attempt.lessonId}#assessment`} className="text-link">
                     חזרה לשיעור והגשת ניסיון נוסף ←
                   </Link>
+                  <PortfolioToggle
+                    submissionId={attempt.id}
+                    included={Boolean(
+                      portfolio.find((item) => item.submission_id === attempt.id)?.included,
+                    )}
+                  />
                 </div>
               </details>
             );

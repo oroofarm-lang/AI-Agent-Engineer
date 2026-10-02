@@ -7,6 +7,7 @@ import { mentorConfiguration, openAIProvider } from '@/lib/ai/provider';
 import { sendMentorMessage } from '@/lib/ai/service';
 import { readLesson } from '@/lib/curriculum/load';
 import { boundedJSON } from '@/lib/http/body';
+import { ensureKnowledge, readKnowledge } from '@/lib/ai/knowledge-store';
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
 const headers = { 'Cache-Control': 'no-store' };
@@ -23,6 +24,7 @@ export async function GET(request: Request) {
       configuration: mentorConfiguration(),
       threadId: thread?.id,
       messages: thread ? repo.messages(thread.id) : [],
+      knowledge: await readKnowledge(),
     },
     { headers },
   );
@@ -51,12 +53,14 @@ export async function POST(request: Request) {
       input,
       openAIProvider(),
       body,
+      await ensureKnowledge().catch(() => undefined),
     );
     return Response.json(result, { headers });
   } catch (error) {
     const code = error instanceof Error ? error.message : '';
     const allowed = [
       'BODY_TOO_LARGE',
+      'INVALID_TASK_CONTEXT',
       'FOUNDATION_REQUIRED',
       'UNKNOWN_LESSON',
       'UNKNOWN_THREAD',

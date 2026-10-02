@@ -28,6 +28,7 @@ export function LessonCanvas({
     [reading, setReading] = useState(false),
     [burst, setBurst] = useState(0);
   const heading = useRef<HTMLHeadingElement>(null);
+  const readingHeading = useRef<HTMLHeadingElement>(null);
   const step = steps[index];
   const moved = useRef(false),
     queue = useRef(Promise.resolve()),
@@ -54,10 +55,10 @@ export function LessonCanvas({
   }
   useEffect(() => {
     if (!moved.current) return;
-    const target = heading.current;
+    const target = reading ? readingHeading.current : heading.current;
     target?.focus({ preventScroll: true });
     target
-      ?.closest('.focus-card')
+      ?.closest('.focus-card, .canvas-reading')
       ?.scrollIntoView({ block: 'start', behavior: reducedMotion() ? 'instant' : 'smooth' });
   }, [index, reading]);
   function go(next: number) {
@@ -83,7 +84,10 @@ export function LessonCanvas({
           <button
             className="canvas-mode-button"
             aria-pressed={reading}
-            onClick={() => setReading((value) => !value)}
+            onClick={() => {
+              moved.current = true;
+              setReading((value) => !value);
+            }}
           >
             <BookOpen size={15} />
             {reading ? 'חזרה לכרטיסיות' : 'קריאה רציפה'}
@@ -111,15 +115,29 @@ export function LessonCanvas({
         </div>
         {reading ? (
           <article className="canvas-reading card">
-            {steps.map((s) => (
-              <section id={s.id} key={s.id}>
-                <h2>{s.title}</h2>
+            {steps.map((s, i) => (
+              <section
+                id={s.id}
+                key={s.id}
+                data-mentor-kind="lesson"
+                data-mentor-id={s.id}
+                data-mentor-title={s.title}
+              >
+                <h2 ref={i === 0 ? readingHeading : undefined} tabIndex={i === 0 ? -1 : undefined}>
+                  {s.title}
+                </h2>
                 {s.content}
               </section>
             ))}
           </article>
         ) : (
-          <article className="focus-card card" aria-labelledby="canvas-step-title">
+          <article
+            className="focus-card card"
+            aria-labelledby="canvas-step-title"
+            data-mentor-kind="lesson"
+            data-mentor-id={step.id}
+            data-mentor-title={step.title}
+          >
             <div className="focus-card-top">
               <span className="lesson-step-label">
                 שקופית {index + 1} <span>מתוך {steps.length}</span>

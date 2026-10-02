@@ -7,6 +7,8 @@ import { getConnection } from '@/lib/db/connection';
 import { assessmentReviewer } from '@/lib/db/learning-system';
 import { assessmentSchema } from '@/lib/curriculum/assessment';
 import { ReviewForm } from '@/components/review-form';
+import { artifactRepository } from '@/lib/db/artifacts';
+import { ArtifactLinks } from '@/components/assessment/artifact-links';
 export const metadata = { title: 'בדיקת ראיות' };
 export default async function Reviews() {
   const user = await requireUser();
@@ -27,6 +29,7 @@ export default async function Reviews() {
       {attempts.map((attempt) => {
         const rubric = assessmentSchema.parse(JSON.parse(attempt.rubric_snapshot)),
           evidence = JSON.parse(attempt.evidence) as Record<string, string>;
+        const files = artifactRepository(getConnection(), attempt.user_id).metadata(attempt.id);
         return (
           <details className="card verification-card" key={attempt.id}>
             <summary>
@@ -41,6 +44,7 @@ export default async function Reviews() {
                 <pre className="evidence-text" dir="auto">
                   {evidence[item.id]}
                 </pre>
+                <ArtifactLinks files={files.filter((file) => file.criterion_id === item.id)} />
               </section>
             ))}
             {attempt.user_id === user.id ? (

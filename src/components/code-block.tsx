@@ -17,6 +17,7 @@ export function CodeBlock({ children }: { children: React.ReactNode }) {
               setFailed(false);
               setTimeout(() => setCopied(false), 2000);
             } catch {
+              setCopied(false);
               setFailed(true);
             }
           }}
@@ -30,7 +31,7 @@ export function CodeBlock({ children }: { children: React.ReactNode }) {
       </pre>
       {failed && (
         <p role="status" dir="rtl">
-          ההעתקה חסומה בדפדפן. אפשר לבחור את הקוד ולהעתיק ידנית.
+          ההעתקה האוטומטית לא הצליחה. אפשר לבחור את הקוד ולהעתיק ידנית.
         </p>
       )}
     </div>

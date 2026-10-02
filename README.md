@@ -82,7 +82,7 @@ Use **Settings → Export my data** for JSON including learner profile, progress
 
 The Mentor implements server-only Responses calls, persistent user-owned threads, explicit context selection, learning modes and help levels, timeouts, idempotency and usage limits. No paid call has been performed for acceptance. SMTP code handles verification/reset; the admin account directory requires a configured allowlist plus verified ownership. Follow [the Hebrew setup guide](docs/CONNECTION_SETUP_HE.md); enter secrets locally, never in chat.
 
-Phase 4 will add a technology registry, official-source verification, evidence-backed proposals, diffs, human approval and validated version application with rollback. No source scan, background update, freshness verification or curriculum rewriting currently runs. The architecture requires preserving prior progress and mastery with update supplements.
+Phase 4 will add a technology registry, official-source verification, evidence-backed proposals, diffs, human approval and validated version application with rollback. The Mentor can refresh a bounded list of official release references; this is separate from source verification and curriculum rewriting, which remain unimplemented. The architecture requires preserving prior progress and mastery with update supplements.
 
 ## Next milestone
 
@@ -90,7 +90,7 @@ Expand the remaining workbook instruction incrementally and implement the truste
 
 ## Evidence checkpoint
 
-After updating an existing installation, run `npm run db:setup` before restarting. Migration 0008 adds consent history without resetting prior data. The current curriculum is 2.2.0; the baseline remains September 2026.
+After updating an existing installation, run `npm run db:setup` before restarting. Migration 0008 adds consent history; migration 0009 adds private uploaded artifacts and portfolio entries without resetting prior data. The current curriculum is 2.2.0; the baseline remains September 2026.
 
 A build must be complete before evidence submission. All rubric criteria require 80–12,000 non-padding characters (the submitted text, including code indentation, is preserved). Submissions store exact rubric snapshots and content versions, are idempotent and set MASTERY_PENDING without awarding a score. A verified, allowlisted operator can assess evidence, record rubric-level reasoning and award the corresponding mastery. Submission is not code execution or AI review; history is append-only.
 
@@ -115,3 +115,21 @@ Open **פרקי הקורס** (`/topics`) to follow the foundation and specializa
 Name, email and progress are stored per account in SQLite. Course-update consent is separate, optional and off by default; withdrawal takes effect immediately. Only a verified, allowlisted operator can export verified opt-in contacts as CSV. No marketing email is sent by this phase.
 
 `npm run quality:audit` creates a public-copy inventory and runs all verification checks, including browser inspection of all 139 lessons. A daily Codex heartbeat reviews Hebrew and UX; it needs the local scheduler/workspace, not an extra API key. This is separate from the future Curriculum Auditor. See [quality agent scope and limitations](docs/QUALITY_AGENT.md).
+
+## Assessment and portfolio refinement — 2026-10-02
+
+Practical evidence now uses one question at a time, numbered navigation, immediate
+completeness feedback and an optional reinforcement quiz. Text remains subject to
+human rubric review. Files can be picked or dropped, previewed, replaced or removed
+before submission. Code/text and images have local previews; PDFs show file metadata.
+Selected files upload only with the final submission. `/portfolio` is a private,
+reversible showcase of saved work, with actual review status and authorized downloads.
+
+`npm run mentor:refresh` fetches release titles, dates and links from three fixed
+official repositories (OpenAI Agents Python, LangGraph, MCP TypeScript SDK). This
+is not a full research audit or a claim that new API behavior was verified. The
+Mentor resolves active card/question IDs on the server and includes current progress.
+Missing credentials still disable generation. Weekly slots are Monday/Wednesday/Friday;
+on-demand refresh happens only on a configured Mentor request. A background local
+schedule awaits explicit approval; the GitHub workflow currently supports manual
+refresh only. See [refinement architecture and acceptance](docs/UX_REFINEMENT.md).

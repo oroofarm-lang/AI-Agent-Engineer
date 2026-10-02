@@ -44,7 +44,7 @@ export default async function Project({ params }: { params: Promise<{ lessonId: 
       </p>
       {!allowed ? (
         <div className="notice">
-          כדי להתחיל לעבוד, השלם את תרגילי <Link href="/topics/CORE">פרק הבסיס</Link>.
+          כדי להתחיל לעבוד, השלם את תרגילי <Link href="/topics/CORE">פרק היסודות</Link>.
         </div>
       ) : (
         <div className="auth-options">

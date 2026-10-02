@@ -17,10 +17,16 @@ test('focus cards, concrete instruction practice and reading acknowledgement wor
   ).toBeVisible();
   await page.getByRole('button', { name: 'הבנתי, לשקופית הבאה' }).click();
   await expect(page.locator('#canvas-step-title')).toBeFocused();
-  const numbered=page.getByRole('navigation',{name:'מעבר לפי מספר שקופית'});
-  await expect(numbered.getByRole('button',{name:/^שקופית 2:/})).toHaveAttribute('aria-current','step');
+  const numbered = page.getByRole('navigation', { name: 'מעבר לפי מספר שקופית' });
+  await expect(numbered.getByRole('button', { name: /^שקופית 2:/ })).toHaveAttribute(
+    'aria-current',
+    'step',
+  );
   await expect(page.locator('#canvas-step-title')).toContainText('קודם בונים');
-  await page.getByRole('navigation',{name:'מעבר לפי מספר שקופית'}).getByRole('button',{name:/^שקופית 1:/}).click();
+  await page
+    .getByRole('navigation', { name: 'מעבר לפי מספר שקופית' })
+    .getByRole('button', { name: /^שקופית 1:/ })
+    .click();
   await expect(page.getByRole('heading', { name: 'המשימה', exact: true })).toBeVisible();
   const after = await (await page.request.get('/api/export')).json();
   expect(after.lessonProgress).toEqual(before.lessonProgress);
@@ -38,7 +44,7 @@ test('map nodes expose published workbooks and week selection', async ({ page })
   await expect(page.locator('.map-selected')).toContainText('Python לבוני סוכנים');
   await page.getByLabel('בחירת שבוע במפה').selectOption('2');
   await expect(page.getByRole('button', { name: /יום 6:/ })).toBeVisible();
-  await page.getByRole('link', { name: 'למרחב הלמידה', exact: true }).click();
+  await page.getByRole('link', { name: 'מעבר לשיעור', exact: true }).click();
   await expect(
     page.getByRole('heading', { name: 'איך אפליקציות LLM פועלות', exact: true }),
   ).toBeVisible();

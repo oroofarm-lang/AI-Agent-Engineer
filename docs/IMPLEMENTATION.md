@@ -106,3 +106,42 @@ Implemented optional SMTP transport/verification/reset, verified owner allowlist
 Release checks: lint, TypeScript, 46 unit/integration tests, 15 Python lab tests, schema integrity and production build passed. Full browser run passed 15/16; the remaining failure was an exact label locator that included prefilled textarea text. The corrected accessible-role test and no-provider/administrator denial test both passed in the targeted two-test rerun. Journal export proves revision 2 and failure snapshots persist after reload. No real SMTP delivery or paid AI call was exercised. The local SQLite backup and all existing table rows were compared across migration and release registration; all matched.
 
 Remaining: projects/starters/Boss attempts, real human mastery review, Auditor evidence/proposals/approval/apply/rollback, global search/palette and deployment acceptance. The goal remains active.
+
+
+## 2026-10-02 — practical evidence, portfolio and contextual Mentor
+
+Implemented the assessment wizard, optional reinforcement question, actual multipart
+file uploads and atomic SQLite storage, owner/reviewer downloads, private portfolio
+preview and reversible inclusion. Migration 0009 was applied after an explicitly
+approved private backup; all old columns/rows in 22 existing tables matched the
+backup. Export includes actual uploaded bytes; account deletion removes active rows.
+The released curriculum and prior progress were preserved.
+
+Map selection/CTA, foundation emphasis, mobile path and Byte greeting now support
+keyboard activation and reduced motion. Fixed map legend overflow at 320px/200%
+text, overlap of Byte's caption and greeting, and low-contrast speech text inherited
+from the hero. One accessibility trigger remains. Reading mode focus and clipboard
+error reporting were also repaired. A Hebrew reviewer read ten changed UI files;
+see the dated quality report for exact scope, without blanket course/WCAG claims.
+
+Mentor resolves active card/question context on the server and uses actual progress
+and mastery. A bounded cache reads official release titles/dates/links from three
+fixed repositories. Manual refresh succeeded with nine references from three sources;
+no API behavior was certified and no paid provider call was performed. Background
+scheduling awaits explicit approval; the manual workflow is configuration only and
+has not been run remotely or connected to a hosted deployment.
+
+Verification executed: lint and TypeScript passed; 65 unit/integration tests and 18
+Python lab tests passed; curriculum integrity and the final production build passed.
+The full 25-test browser run passed 24, including all 139 published lessons, and
+exposed a real large-text overflow. After fixes, all 11 affected UI/accessibility
+scenarios passed. Final speech contrast/RTL changes passed the three refinement
+scenarios with open-bubble axe checks at 320/768/1440px and 200% text. No claim of a
+single clean final 25-test run is made. Isolated test accounts/databases were used.
+Screenshots of the wizard, mobile map and Byte were inspected. The browser server
+logged an interrupted response during rapid navigation; scenario assertions passed.
+
+Local port 3000 responds with its normal auth redirect, but the in-app browser
+connection still returned a connection-refused error during manual preview. Do not
+claim that the user-facing browser preview was successfully opened. Private data,
+backups, caches and credentials remain ignored by Git.
