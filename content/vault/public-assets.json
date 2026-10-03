@@ -2,6 +2,23 @@
   "schemaVersion": 1,
   "assets": [
     {
+      "id": "TEMPLATE_DRAFT_CONTRACT",
+      "title": "מבנה בקשות לשמירת טיוטות פרטיות",
+      "sourcePath": "src/lib/templates/persistence.ts",
+      "kind": "template-api-schema",
+      "moduleIds": [
+        "PRODUCT",
+        "QUALITY"
+      ],
+      "agentIds": [
+        "Agent-Curriculum-Pedagogy",
+        "Agent-Progress-Tracker",
+        "Agent-Security-Auditor"
+      ],
+      "body": "import { z } from 'zod';\nimport { templateDocumentSchema } from './schema';\nconst templateId = z.string().regex(/^[A-Z][A-Z0-9_]{0,199}$/);\nexport const definitionHashSchema = z.string().regex(/^[a-f0-9]{64}$/);\nexport const draftQuerySchema = z.strictObject({\n  templateId,\n  definitionHash: definitionHashSchema.optional(),\n});\nexport const draftSaveSchema = z.strictObject({\n  requestId: z.uuid(),\n  templateId,\n  definitionHash: definitionHashSchema,\n  curriculumVersion: z.string().regex(/^\\d{1,4}\\.\\d{1,4}\\.\\d{1,4}$/),\n  expectedRevision: z.number().int().min(0).max(1_000_000_000),\n  document: templateDocumentSchema,\n});\nexport type DraftSaveInput = z.infer<typeof draftSaveSchema>;\n",
+      "sha256": "6be7cc090c00d1f4fc17f103e31be3bfadcd9db488bda0ae5194d6a3e94f5a3d"
+    },
+    {
       "id": "TEMPLATE_SCHEMA",
       "title": "סכמות תבניות טקסט וטבלה",
       "sourcePath": "src/lib/templates/schema.ts",
@@ -293,6 +310,19 @@
     }
   ],
   "apis": [
+    {
+      "id": "TEMPLATE_DRAFTS",
+      "path": "/api/templates/drafts",
+      "methods": [
+        "GET",
+        "POST"
+      ],
+      "title": "שמירת טיוטות עבודה פרטיות",
+      "scope": "own",
+      "sourcePath": "src/app/api/templates/drafts/route.ts",
+      "description": "חשבון מחובר יכול לטעון ולשמור רק את טיוטות העבודה שלו. השמירה קושרת את התוכן לגרסת התבנית המדויקת, ובודקת את גרסת העריכה כדי למנוע דריסה בין לשוניות. בקשה זהה שנשלחת שוב בתוך 30 יום מחזירה את אישור השמירה של הבקשה המקורית, לצד הטיוטה העדכנית. האישור עשוי להתייחס לגרסת עריכה קודמת; השליחה החוזרת אינה מחזירה את העבודה לאחור. תבניות קודמות נשמרות לקריאה בלבד. הטיוטות כלולות בגיבוי האישי ונמחקות עם החשבון. העורך והשמירה האוטומטית עדיין לא חוברו לממשק השיעור. תוכן טיוטות ומזהי חשבונות אינם מיוצאים ל־Volt.",
+      "status": "implemented"
+    },
     {
       "id": "QUIZ_REVIEW",
       "path": "/api/quizzes/review",

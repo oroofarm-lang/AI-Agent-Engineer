@@ -972,7 +972,7 @@ describe('public interactive-template structure projection', () => {
       const file = `03_PRACTICAL_PROOFS/template-workspaces/1.0.0/${definition.id}.md`;
       const note = result.files.get(file)!;
       expect(note).toContain(definition.prompt);
-      expect(note).toContain('definitions-and-formats-only');
+      expect(note).toContain('definitions-formats-owned-drafts-no-editor');
       expect(note).toContain('זו הגדרת תבנית בלבד');
       expect(nodes.has(file)).toBe(true);
       for (const related of [
@@ -980,6 +980,8 @@ describe('public interactive-template structure projection', () => {
         `03_PRACTICAL_PROOFS/${curriculum.version}/rubrics/${definition.assessmentId}.md`,
         '04_AUTOMATIONS_AND_APIS/assets/TEMPLATE_SCHEMA.md',
         '04_AUTOMATIONS_AND_APIS/assets/TEMPLATE_FORMATS.md',
+        '04_AUTOMATIONS_AND_APIS/assets/TEMPLATE_DRAFT_CONTRACT.md',
+        '04_AUTOMATIONS_AND_APIS/endpoints/TEMPLATE_DRAFTS.md',
         '01_AGENTS/Orchestrator-Prime.md',
       ]) {
         expect(links.has(`${file}\0${related}`)).toBe(true);

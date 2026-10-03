@@ -25,12 +25,12 @@ export function addTemplateWorkspaces({
     'index',
     'TEMPLATE_WORKSPACES_INDEX',
     'תבניות טקסט וטבלה לכל סעיפי ההערכה',
-    'הגדרות ציבוריות של מבנה התשובות: טקסט, כותרות טבלה ושורות התחלה. הן אינן עבודות שהוגשו. העורכים והשמירה האוטומטית עדיין לא חוברו לממשק השיעור. הייבוא, הייצוא ובדיקת מבנה הנתונים ממומשים בקובצי המקור המקושרים.\n\n' +
+    'הגדרות ציבוריות של מבנה התשובות: טקסט, כותרות טבלה ושורות התחלה. הן אינן עבודות שהוגשו. שירות שמירת הטיוטות הפרטיות ממומש בממשק ה־API המקושר. העורכים והשמירה האוטומטית עדיין לא חוברו לממשק השיעור. הייבוא, הייצוא ובדיקת מבנה הנתונים ממומשים בקובצי המקור המקושרים.\n\n' +
       sourceLink(sourcePath),
     {
       template_version: catalog.version,
       source_curriculum_version: catalog.sourceCurriculumVersion,
-      implementation_status: 'definitions-and-formats-only',
+      implementation_status: 'definitions-formats-owned-drafts-no-editor',
     },
   );
   connect(sectionIndex, index, 'מבנה תבניות ההגשה');
@@ -86,7 +86,7 @@ export function addTemplateWorkspaces({
       throw new Error('Invalid template table');
     const lesson = lessons.find((item) => item.id === definition.lessonId);
     if (!lesson) throw new Error('Template without published lesson');
-    const body = `## המשימה\n\n${definition.prompt}\n\n## מה לצרף\n\n${definition.evidenceHint}\n\n## מבנה העבודה\n\n${definition.guidance}\n\n${table ? 'עמודות הטבלה:\n\n' + table.columns.map((column) => `- ${column.label}`).join('\n') + `\n\nמספר השורות בתבנית: ${table.rows.length}. מספר השורות שיש למלא במלואן: ${definition.minimumRows}.\n\n\`\`\`json\n` + JSON.stringify({ columns: table.columns.map(({ id, label }) => ({ id, label })), rows: table.rows }, null, 2) + '\n\`\`\`' : 'תבנית טקסט בפורמט Markdown. המסמך מתחיל ריק; כתיבת כותרות בלבד אינה משלימה את המשימה.'}\n\n${sourceLink(sourcePath)}\n\nזו הגדרת תבנית בלבד. אין כאן תשובת לומד, שמירה אוטומטית, הגשה או תוצאה של הרצת קוד.`;
+    const body = `## המשימה\n\n${definition.prompt}\n\n## מה לצרף\n\n${definition.evidenceHint}\n\n## מבנה העבודה\n\n${definition.guidance}\n\n${table ? 'עמודות הטבלה:\n\n' + table.columns.map((column) => `- ${column.label}`).join('\n') + `\n\nמספר השורות בתבנית: ${table.rows.length}. מספר השורות שיש למלא במלואן: ${definition.minimumRows}.\n\n\`\`\`json\n` + JSON.stringify({ columns: table.columns.map(({ id, label }) => ({ id, label })), rows: table.rows }, null, 2) + '\n\`\`\`' : 'תבנית טקסט בפורמט Markdown. המסמך מתחיל ריק; כתיבת כותרות בלבד אינה משלימה את המשימה.'}\n\n${sourceLink(sourcePath)}\n\nזו הגדרת תבנית בלבד. אין כאן תשובת לומד, הגשה או תוצאה של הרצת קוד. שירות שמירת הטיוטות הפרטיות מקושר בנפרד; עורך השיעור עדיין לא חובר אליו.`;
     const file = add(
       `${root}/${definition.id}.md`,
       'interactive-template',
@@ -102,7 +102,7 @@ export function addTemplateWorkspaces({
         rubric_version: definition.rubricVersion,
         editor_kind: definition.kind,
         source_path: sourcePath,
-        implementation_status: 'definitions-and-formats-only',
+        implementation_status: 'definitions-formats-owned-drafts-no-editor',
       },
     );
     if (!byLesson.has(definition.lessonId)) byLesson.set(definition.lessonId, []);
@@ -130,8 +130,10 @@ export function addTemplateWorkspaces({
       )
         connect(file, paths.agent.get(agent.id), 'תחום עזרה בתבנית');
     }
-    for (const id of ['TEMPLATE_SCHEMA', 'TEMPLATE_FORMATS'])
+    for (const id of ['TEMPLATE_SCHEMA', 'TEMPLATE_FORMATS', 'TEMPLATE_DRAFT_CONTRACT'])
       if (paths.asset.has(id)) connect(file, paths.asset.get(id), 'קוד מבנה ופורמטים');
+    if (paths.api.has('TEMPLATE_DRAFTS'))
+      connect(file, paths.api.get('TEMPLATE_DRAFTS'), 'שמירת טיוטה פרטית');
   }
   return { count: seen.size, byLesson };
 }

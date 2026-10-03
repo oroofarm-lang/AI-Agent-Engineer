@@ -41,7 +41,7 @@ test('practice answer survives reload/login, retries a lost confirmation once, a
   expect(tokens[0]).toBe(tokens[1]);
   await page.unroute('**/api/quizzes');
   const after = await (await page.request.get('/api/export')).json();
-  expect(after.schemaVersion).toBe(10);
+  expect(after.schemaVersion).toBe(11);
   expect(after.quizAttempts).toHaveLength(2);
   expect(after.quizAttempts[1].option_id).toBe('evidence');
   expect(after.lessonProgress).toEqual(before.lessonProgress);

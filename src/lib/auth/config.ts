@@ -79,6 +79,8 @@ export function authOptions(connection: Connection) {
               .prepare('UPDATE assessment_reviews SET reviewer_id=NULL WHERE reviewer_id=?')
               .run(user.id);
             for (const table of [
+              'template_draft_requests',
+              'template_drafts',
               'quiz_attempts',
               'assessment_artifacts',
               'portfolio_entries',

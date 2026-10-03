@@ -1,4 +1,4 @@
-import { sqliteTable, text, primaryKey, integer } from 'drizzle-orm/sqlite-core';
+import { sqliteTable, text, primaryKey, integer, foreignKey } from 'drizzle-orm/sqlite-core';
 export const users = sqliteTable('users', {
   id: text('id').primaryKey(),
   locale: text('locale').notNull(),
@@ -148,4 +148,51 @@ export const quizAttempts = sqliteTable(
     createdAt: text('created_at').notNull(),
   },
   (table) => [primaryKey({ columns: [table.id, table.userId] })],
+);
+
+export const templateDrafts = sqliteTable(
+  'template_drafts',
+  {
+    userId: text('user_id')
+      .notNull()
+      .references(() => users.id, { onDelete: 'cascade' }),
+    templateId: text('template_id').notNull(),
+    definitionHash: text('definition_hash').notNull(),
+    definitionSnapshot: text('definition_snapshot').notNull(),
+    document: text('document').notNull(),
+    documentHash: text('document_hash').notNull(),
+    documentBytes: integer('document_bytes').notNull(),
+    curriculumVersion: text('curriculum_version')
+      .notNull()
+      .references(() => curriculumVersions.version),
+    revision: integer('revision').notNull(),
+    createdAt: text('created_at').notNull(),
+    updatedAt: text('updated_at').notNull(),
+  },
+  (table) => [primaryKey({ columns: [table.userId, table.templateId, table.definitionHash] })],
+);
+export const templateDraftRequests = sqliteTable(
+  'template_draft_requests',
+  {
+    userId: text('user_id')
+      .notNull()
+      .references(() => users.id, { onDelete: 'cascade' }),
+    id: text('id').notNull(),
+    templateId: text('template_id').notNull(),
+    definitionHash: text('definition_hash').notNull(),
+    payloadFingerprint: text('payload_fingerprint').notNull(),
+    revision: integer('revision').notNull(),
+    createdAt: text('created_at').notNull(),
+  },
+  (table) => [
+    primaryKey({ columns: [table.userId, table.id] }),
+    foreignKey({
+      columns: [table.userId, table.templateId, table.definitionHash],
+      foreignColumns: [
+        templateDrafts.userId,
+        templateDrafts.templateId,
+        templateDrafts.definitionHash,
+      ],
+    }).onDelete('cascade'),
+  ],
 );

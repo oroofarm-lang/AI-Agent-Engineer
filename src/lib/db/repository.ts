@@ -94,7 +94,15 @@ export function repository(connection: Connection, curriculum: Curriculum, userI
     },
     exportData() {
       return sqlite.transaction(() => ({
-        schemaVersion: 10,
+        schemaVersion: 11,
+        templateDrafts: sqlite
+          .prepare(
+            'SELECT * FROM template_drafts WHERE user_id=? ORDER BY template_id,definition_hash',
+          )
+          .all(userId),
+        templateDraftRequests: sqlite
+          .prepare('SELECT * FROM template_draft_requests WHERE user_id=? ORDER BY created_at,id')
+          .all(userId),
         quizAttempts: sqlite
           .prepare('SELECT * FROM quiz_attempts WHERE user_id=? ORDER BY rowid')
           .all(userId),

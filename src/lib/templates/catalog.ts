@@ -1,12 +1,10 @@
 import 'server-only';
-import { createHash } from 'node:crypto';
 import rawCatalog from '../../../content/templates/releases/1.0.0.json';
-import { templateCatalogSchema, validateTemplateCatalog, type TemplateDefinition } from './schema';
+import { templateCatalogSchema, validateTemplateCatalog } from './schema';
+import { templateHash } from './hash';
+export { templateHash } from './hash';
 
 export const publicTemplateCatalog = templateCatalogSchema.parse(rawCatalog);
-export function templateHash(definition: TemplateDefinition) {
-  return createHash('sha256').update(JSON.stringify(definition)).digest('hex');
-}
 export function templatesForAssessment(assessment: {
   id: string;
   lessonId: string;

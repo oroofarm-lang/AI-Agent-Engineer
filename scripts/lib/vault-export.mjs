@@ -11,6 +11,14 @@ const wikilink = (file, title) => `[[${file.replace(/\.md$/, '')}|${safeTitle(ti
 /** Public source descriptors point to real files; they are not uploaded learner artifacts. */
 export const publicAssetCatalog = [
   {
+    id: 'TEMPLATE_DRAFT_CONTRACT',
+    title: 'מבנה בקשות לשמירת טיוטות פרטיות',
+    sourcePath: 'src/lib/templates/persistence.ts',
+    kind: 'template-api-schema',
+    moduleIds: ['PRODUCT', 'QUALITY'],
+    agentIds: ['Agent-Curriculum-Pedagogy', 'Agent-Progress-Tracker', 'Agent-Security-Auditor'],
+  },
+  {
     id: 'TEMPLATE_SCHEMA',
     title: 'סכמות תבניות טקסט וטבלה',
     sourcePath: 'src/lib/templates/schema.ts',
@@ -178,6 +186,16 @@ export const publicAssetCatalog = [
 ];
 
 export const publicApiCatalog = [
+  {
+    id: 'TEMPLATE_DRAFTS',
+    path: '/api/templates/drafts',
+    methods: ['GET', 'POST'],
+    title: 'שמירת טיוטות עבודה פרטיות',
+    scope: 'own',
+    sourcePath: 'src/app/api/templates/drafts/route.ts',
+    description:
+      'חשבון מחובר יכול לטעון ולשמור רק את טיוטות העבודה שלו. השמירה קושרת את התוכן לגרסת התבנית המדויקת, ובודקת את גרסת העריכה כדי למנוע דריסה בין לשוניות. בקשה זהה שנשלחת שוב בתוך 30 יום מחזירה את אישור השמירה של הבקשה המקורית, לצד הטיוטה העדכנית. האישור עשוי להתייחס לגרסת עריכה קודמת; השליחה החוזרת אינה מחזירה את העבודה לאחור. תבניות קודמות נשמרות לקריאה בלבד. הטיוטות כלולות בגיבוי האישי ונמחקות עם החשבון. העורך והשמירה האוטומטית עדיין לא חוברו לממשק השיעור. תוכן טיוטות ומזהי חשבונות אינם מיוצאים ל־Volt.',
+  },
   {
     id: 'QUIZ_REVIEW',
     path: '/api/quizzes/review',
