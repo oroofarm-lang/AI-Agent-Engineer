@@ -3,6 +3,7 @@ import fs from 'node:fs/promises';
 import { existsSync, readFileSync } from 'node:fs';
 import path from 'node:path';
 import os from 'node:os';
+import { createHash } from 'node:crypto';
 import { loadCurriculum, readLesson } from '../src/lib/curriculum/load';
 import { loadKnowledgeRegistry } from '../src/lib/ai/knowledge-registry';
 
@@ -462,6 +463,196 @@ describe('complete public knowledge graph', () => {
 });
 
 describe('protected public vault writer', () => {
+  const canvasFile = '00_ORCHESTRATION/System_Overview.canvas';
+  const canvas = {
+    nodes: [
+      { id: 'a', type: 'file', file: 'Index.md', x: 0, y: 0, width: 440, height: 160 },
+      {
+        id: 'b',
+        type: 'file',
+        file: '01_AGENTS/Agent-Test.md',
+        x: 530,
+        y: 0,
+        width: 440,
+        height: 160,
+      },
+    ],
+    edges: [{ id: 'ab', fromNode: 'a', toNode: 'b', label: 'מומחה' }],
+  };
+  const canvasBody = `${JSON.stringify(canvas, null, 2)}\n`;
+  const nativeCanvasBody = JSON.stringify(
+    {
+      edges: canvas.edges.map((edge) => ({
+        label: edge.label,
+        toNode: edge.toNode,
+        fromNode: edge.fromNode,
+        id: edge.id,
+      })),
+      nodes: canvas.nodes.map((node) => Object.fromEntries(Object.entries(node).reverse())),
+    },
+    null,
+    '\t',
+  );
+  const canvasExport = (body = canvasBody) =>
+    new Map([
+      ['Index.md', '# public index'],
+      ['01_AGENTS/Agent-Test.md', '# public agent'],
+      [canvasFile, body],
+    ]);
+
+  it('adopts native JSON formatting from an old manifest without rewriting the Canvas and remains idempotent', async () => {
+    const folder = await newVault();
+    await write(folder, canvasExport());
+    const manifestPath = path.join(folder, '.course-export.json');
+    const legacy = JSON.parse(await fs.readFile(manifestPath, 'utf8'));
+    delete legacy.canvasFiles;
+    await fs.writeFile(manifestPath, `${JSON.stringify(legacy, null, 2)}\n`);
+    await fs.writeFile(path.join(folder, canvasFile), nativeCanvasBody);
+    const rename = vi.spyOn(fs, 'rename');
+    expect(await write(folder, canvasExport())).toMatchObject({
+      changed: 0,
+      manifestChanged: true,
+    });
+    expect(rename.mock.calls).toHaveLength(1);
+    expect(String(rename.mock.calls[0][1])).toBe(await fs.realpath(manifestPath));
+    expect(await fs.readFile(path.join(folder, canvasFile), 'utf8')).toBe(nativeCanvasBody);
+    const saved = JSON.parse(await fs.readFile(manifestPath, 'utf8'));
+    expect(saved.files[canvasFile]).toBe(
+      createHash('sha256').update(nativeCanvasBody).digest('hex'),
+    );
+    expect(saved.canvasFiles[canvasFile]).toMatch(/^[a-f0-9]{64}$/);
+    expect(await write(folder, canvasExport())).toMatchObject({
+      changed: 0,
+      manifestChanged: false,
+    });
+  });
+
+  it('uses the saved structural fingerprint for a real new release after a formatting-only save and retains history', async () => {
+    const folder = await newVault();
+    await write(folder, canvasExport());
+    await fs.writeFile(path.join(folder, canvasFile), nativeCanvasBody);
+    const next = JSON.stringify({
+      ...canvas,
+      nodes: canvas.nodes.map((node) => ({ ...node, x: node.x + 100 })),
+    });
+    expect(
+      await writer.writeVaultFiles({
+        vaultRoot: folder,
+        files: canvasExport(next),
+        version: '2.2.1',
+      }),
+    ).toMatchObject({ changed: 1 });
+    expect(await fs.readFile(path.join(folder, canvasFile), 'utf8')).toBe(next);
+    const before = JSON.parse(await fs.readFile(path.join(folder, '.course-export.json'), 'utf8'));
+    await writer.writeVaultFiles({
+      vaultRoot: folder,
+      files: new Map([['Index.md', '# later index']]),
+      version: '2.2.2',
+    });
+    const after = JSON.parse(await fs.readFile(path.join(folder, '.course-export.json'), 'utf8'));
+    expect(after.canvasFiles[canvasFile]).toBe(before.canvasFiles[canvasFile]);
+    expect(after.files[canvasFile]).toBe(before.files[canvasFile]);
+  });
+
+  it('preserves genuine node, edge, array-order, unknown-property and invalid-JSON edits before writing any target', async () => {
+    for (const body of [
+      JSON.stringify({ ...canvas, nodes: canvas.nodes.map((node) => ({ ...node, x: 42 })) }),
+      JSON.stringify({ ...canvas, edges: [{ ...canvas.edges[0], label: 'my edit' }] }),
+      JSON.stringify({ ...canvas, nodes: [...canvas.nodes].reverse() }),
+      JSON.stringify({ ...canvas, personalLayout: true }),
+      '{invalid',
+    ]) {
+      const folder = await newVault();
+      await write(folder, canvasExport());
+      await fs.writeFile(path.join(folder, canvasFile), body);
+      const manifest = await fs.readFile(path.join(folder, '.course-export.json'), 'utf8');
+      const files = canvasExport();
+      files.set('Index.md', '# must not be written');
+      await expect(write(folder, files)).rejects.toThrow(`VAULT_EDITED_NOTE:${canvasFile}`);
+      expect(await fs.readFile(path.join(folder, canvasFile), 'utf8')).toBe(body);
+      expect(await fs.readFile(path.join(folder, 'Index.md'), 'utf8')).toBe('# public index');
+      expect(await fs.readFile(path.join(folder, '.course-export.json'), 'utf8')).toBe(manifest);
+    }
+  });
+
+  it('rejects malformed Canvas fingerprints and invalid generated JSON without accessing private paths', async () => {
+    const folder = await newVault();
+    await write(folder, canvasExport());
+    const manifestPath = path.join(folder, '.course-export.json');
+    const saved = JSON.parse(await fs.readFile(manifestPath, 'utf8'));
+    for (const canvasFiles of [
+      null,
+      [],
+      { 'מחברת/private.canvas': 'a'.repeat(64) },
+      { 'Index.md': 'a'.repeat(64) },
+      { 'Root_Knowledge_Graph.canvas': 'a'.repeat(64) },
+      { [canvasFile]: 'invalid' },
+    ]) {
+      await fs.writeFile(manifestPath, JSON.stringify({ ...saved, canvasFiles }));
+      const open = vi.spyOn(fs, 'open');
+      await expect(write(folder, canvasExport())).rejects.toThrow(/INVALID_/);
+      expect(open.mock.calls.every(([target]) => !String(target).includes('מחברת'))).toBe(true);
+      open.mockRestore();
+    }
+    await fs.writeFile(manifestPath, JSON.stringify(saved));
+    for (const body of ['null', '{"nodes":[],"edges":false}', '{invalid'])
+      await expect(write(folder, canvasExport(body))).rejects.toThrow('INVALID_VAULT_CANVAS');
+    const nested: { nodes: unknown[]; edges: unknown[]; value?: unknown } = {
+      nodes: [],
+      edges: [],
+    };
+    let parent: { value?: unknown } = nested;
+    for (let i = 0; i < 90; i++) parent = parent.value = {};
+    await expect(write(folder, canvasExport(JSON.stringify(nested)))).rejects.toThrow(
+      'INVALID_VAULT_CANVAS',
+    );
+    expect(await fs.readFile(path.join(folder, canvasFile), 'utf8')).toBe(canvasBody);
+  });
+
+  it('rolls back this run when an editor changes an adopted Canvas before manifest publication', async () => {
+    const folder = await newVault();
+    const actualRoot = await fs.realpath(folder);
+    await write(folder, canvasExport());
+    await fs.writeFile(path.join(folder, canvasFile), nativeCanvasBody);
+    const manifest = await fs.readFile(path.join(folder, '.course-export.json'), 'utf8');
+    const concurrentEdit = JSON.stringify({ ...canvas, editorChange: true });
+    const rename = fs.rename.bind(fs);
+    let edited = false;
+    vi.spyOn(fs, 'rename').mockImplementation(async (from, to) => {
+      const result = await rename(from, to);
+      if (!edited && String(to) === path.join(actualRoot, 'Index.md')) {
+        edited = true;
+        await fs.writeFile(path.join(folder, canvasFile), concurrentEdit);
+      }
+      return result;
+    });
+    const files = canvasExport();
+    files.set('Index.md', '# changed index');
+    await expect(write(folder, files)).rejects.toThrow('VAULT_CHANGED_DURING_SYNC');
+    expect(edited).toBe(true);
+    expect(await fs.readFile(path.join(folder, canvasFile), 'utf8')).toBe(concurrentEdit);
+    expect(await fs.readFile(path.join(folder, 'Index.md'), 'utf8')).toBe('# public index');
+    expect(await fs.readFile(path.join(folder, '.course-export.json'), 'utf8')).toBe(manifest);
+  });
+
+  it('preserves native formatting and the old manifest when manifest publication fails', async () => {
+    const folder = await newVault();
+    await write(folder, canvasExport());
+    await fs.writeFile(path.join(folder, canvasFile), nativeCanvasBody);
+    const oldManifest = await fs.readFile(path.join(folder, '.course-export.json'), 'utf8');
+    const rename = fs.rename.bind(fs);
+    vi.spyOn(fs, 'rename').mockImplementation(async (from, to) => {
+      if (String(to).endsWith('.course-export.json')) throw new Error('manifest unavailable');
+      return rename(from, to);
+    });
+    const files = canvasExport();
+    files.set('Index.md', '# changed index');
+    await expect(write(folder, files)).rejects.toThrow('manifest unavailable');
+    expect(await fs.readFile(path.join(folder, canvasFile), 'utf8')).toBe(nativeCanvasBody);
+    expect(await fs.readFile(path.join(folder, 'Index.md'), 'utf8')).toBe('# public index');
+    expect(await fs.readFile(path.join(folder, '.course-export.json'), 'utf8')).toBe(oldManifest);
+  });
+
   it('prepares a waiting projection only after acquiring the real lock and the preceding writer finishes', async () => {
     const folder = await newVault();
     const { writeVaultFiles, readVaultManifest } = await import(writerPath);

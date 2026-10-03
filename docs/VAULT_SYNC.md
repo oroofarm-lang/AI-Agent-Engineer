@@ -30,3 +30,13 @@ No database migration or learner schema change is needed. Public projection fail
 4. Review new Hebrew copy, run the appropriate quality gate and production tracing, regenerate the real public graph and back up only reviewed public changes to Git.
 
 This connection publishes only an already human-approved curriculum. It does not approve teaching, publish the question draft, provision hosting, supply model credentials or establish native Sidian acceptance.
+
+## Native Canvas formatting — 2026-10-03
+
+Opening and fitting the actual public overview in Obsidian 1.13.7 caused the application to serialize the same Canvas with different indentation and property order. The existing byte-only edit guard then rejected the otherwise unchanged export. Treat Canvas JSON formatting separately from changes to its data.
+
+Add optional `canvasFiles` structural SHA-256 fingerprints to the version-2 manifest. Fingerprint complete parsed Canvas objects with recursively sorted object keys; preserve array order, all string values, coordinates, edges and unknown properties. Invalid or excessively nested JSON fails closed. Existing manifests can establish this fingerprint only when the current bytes are still trusted or the parsed current Canvas exactly equals the newly generated Canvas. Historical entries remain retained. Markdown protection continues to use exact bytes.
+
+Preserve an existing Canvas's bytes when only formatting differs. Record its actual byte hash and structural fingerprint; use the saved structural fingerprint to allow a later generated update after another formatting-only save. Real node moves, added properties, content changes, array reordering and invalid JSON continue to stop the entire preflight. Recheck newly adopted file bytes before committing the manifest, and roll back this run's writes if a concurrent editor changes them.
+
+Verify with isolated filesystem cases covering old manifests, native-style serialization followed by a new graph version, genuine edits, malformed manifests, concurrent editing and failed manifest publication. Then rerun the appropriate quality gate, export the public Volt and inspect its native overview and full Canvas again. No private notes, learner rows or Obsidian preferences need to be read or changed.

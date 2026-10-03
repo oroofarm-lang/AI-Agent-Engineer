@@ -5,6 +5,28 @@ import { createHash, randomUUID } from 'node:crypto';
 
 const queues = new Map();
 const hash = (value) => createHash('sha256').update(value).digest('hex');
+
+/** JSON formatting is not a Canvas edit. Keep every property and array's drawing order. */
+function canvasFingerprint(body) {
+  const canonical = (value, depth = 0) => {
+    if (depth > 80) throw new Error('CANVAS_TOO_DEEP');
+    if (Array.isArray(value)) return value.map((item) => canonical(item, depth + 1));
+    if (value && typeof value === 'object')
+      return Object.fromEntries(
+        Object.keys(value)
+          .sort()
+          .map((key) => [key, canonical(value[key], depth + 1)]),
+      );
+    return value;
+  };
+  try {
+    const canvas = JSON.parse(body.toString('utf8'));
+    if (!canvas || !Array.isArray(canvas.nodes) || !Array.isArray(canvas.edges)) return null;
+    return hash(JSON.stringify(canonical(canvas)));
+  } catch {
+    return null;
+  }
+}
 const publicPrefixes = [
   '00_ORCHESTRATION/',
   '01_AGENTS/',
@@ -121,6 +143,24 @@ function parseManifest(saved) {
     validateGeneratedPath(relative);
     if (!/^[a-f0-9]{64}$/.test(value)) throw new Error('INVALID_VAULT_MANIFEST');
   }
+  if (previous.canvasFiles !== undefined) {
+    if (
+      !previous.canvasFiles ||
+      typeof previous.canvasFiles !== 'object' ||
+      Array.isArray(previous.canvasFiles)
+    )
+      throw new Error('INVALID_VAULT_MANIFEST');
+    for (const [relative, value] of Object.entries(previous.canvasFiles)) {
+      validateGeneratedPath(relative);
+      if (
+        !relative.endsWith('.canvas') ||
+        !Object.hasOwn(previous.files, relative) ||
+        typeof value !== 'string' ||
+        !/^[a-f0-9]{64}$/.test(value)
+      )
+        throw new Error('INVALID_VAULT_MANIFEST');
+    }
+  }
   if (previous.curriculumHash !== undefined && !/^[a-f0-9]{64}$/.test(previous.curriculumHash))
     throw new Error('INVALID_VAULT_MANIFEST');
   return previous;
@@ -174,25 +214,48 @@ async function performWrite(options) {
       (curriculumHash !== undefined && !/^[a-f0-9]{64}$/.test(curriculumHash))
     )
       throw new Error('INVALID_VAULT_EXPORT');
+    const desiredCanvases = new Map();
     for (const [relative, body] of files) {
       validateGeneratedPath(relative);
       if (typeof body !== 'string' || Buffer.byteLength(body) > 8_000_000)
         throw new Error('INVALID_VAULT_DOCUMENT');
+      if (relative.endsWith('.canvas')) {
+        const fingerprint = canvasFingerprint(body);
+        if (!fingerprint) throw new Error('INVALID_VAULT_CANVAS');
+        desiredCanvases.set(relative, fingerprint);
+      }
     }
     const savedManifest = await readRegular(root, manifestName, 2_000_000);
     const previous = parseManifest(savedManifest),
-      hashes = { ...previous.files };
-    const updates = [];
+      hashes = { ...previous.files },
+      canvasFiles = { ...previous.canvasFiles };
+    const updates = [],
+      adoptions = [];
     // Preflight every target before publishing any document. Do not traverse unrelated notes.
     for (const [relative, body] of files) {
       const old = await readRegular(root, relative);
       const bytes = Buffer.from(body, 'utf8');
-      if (old && !old.body.equals(bytes) && hashes[relative] !== hash(old.body))
+      const nextCanvas = desiredCanvases.get(relative);
+      const oldHash = old && hash(old.body);
+      const oldCanvas = old && nextCanvas ? canvasFingerprint(old.body) : null;
+      const sameCanvas = Boolean(oldCanvas && oldCanvas === nextCanvas);
+      if (
+        old &&
+        !old.body.equals(bytes) &&
+        hashes[relative] !== oldHash &&
+        !sameCanvas &&
+        !(oldCanvas && oldCanvas === canvasFiles[relative])
+      )
         throw new Error(`VAULT_EDITED_NOTE:${relative}`);
-      if (!old || !old.body.equals(bytes)) updates.push({ relative, bytes, old });
-      hashes[relative] = hash(bytes);
+      if (!old || (!old.body.equals(bytes) && !sameCanvas)) updates.push({ relative, bytes, old });
+      // A formatting-only save stays byte-for-byte intact, including a legacy manifest adoption.
+      if (sameCanvas && hashes[relative] !== oldHash) adoptions.push({ relative, old });
+      hashes[relative] = sameCanvas ? oldHash : hash(bytes);
+      if (nextCanvas) canvasFiles[relative] = nextCanvas;
     }
-    const manifest = `${JSON.stringify({ schemaVersion: 2, version, ...(curriculumHash ? { curriculumHash } : {}), files: Object.fromEntries(Object.entries(hashes).sort(([a], [b]) => a.localeCompare(b, 'en'))) }, null, 2)}\n`;
+    const ordered = (values) =>
+      Object.fromEntries(Object.entries(values).sort(([a], [b]) => a.localeCompare(b, 'en')));
+    const manifest = `${JSON.stringify({ schemaVersion: 2, version, ...(curriculumHash ? { curriculumHash } : {}), files: ordered(hashes), ...(Object.keys(canvasFiles).length ? { canvasFiles: ordered(canvasFiles) } : {}) }, null, 2)}\n`;
     const manifestChanged = !savedManifest || savedManifest.body.toString('utf8') !== manifest;
     const published = [];
     try {
@@ -203,6 +266,10 @@ async function performWrite(options) {
           throw new Error('VAULT_CHANGED_DURING_SYNC');
         await atomicWrite(root, update.relative, update.bytes, update.old?.mode);
         published.push(update);
+      }
+      for (const adoption of adoptions) {
+        const now = await readRegular(root, adoption.relative);
+        if (!now?.body.equals(adoption.old.body)) throw new Error('VAULT_CHANGED_DURING_SYNC');
       }
       if (manifestChanged)
         await atomicWrite(root, manifestName, manifest, savedManifest?.mode || 0o600);
