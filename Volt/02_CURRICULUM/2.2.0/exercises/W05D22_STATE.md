@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "W05D22_STATE"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "0f93eec747b97ccc0539db71d23ede9626c1471128d1b9062c12c768c7e2c9e7"
-related: ["[[02_CURRICULUM/2.2.0/lessons/W05D22_STATE]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W05D22_STATE]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W05D22_STATE]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/W05D22_STATE]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W05D22_STATE]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W05D22_STATE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W05D22_STATE_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W05D22_STATE_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W05D22_STATE_TRANSFER]]"]
 ---
 
 # התרגול: מצב שיחה ומצב תהליך
@@ -63,3 +63,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/W05D22_STATE]]","[[02_CURRICULUM/quiz-b
 - [[02_CURRICULUM/2.2.0/lessons/W05D22_STATE|מצב שיחה ומצב תהליך]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W05D22_STATE|בדיקת הבנה: מה צריך לשמור כדי להמשיך תהליך אחרי סגירת התוכנית?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W05D22_STATE|הוכחה מעשית · מצב שיחה ומצב תהליך]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W05D22_STATE_BUILD|תבנית טקסט: מצב שיחה ומצב תהליך · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W05D22_STATE_DIAGNOSE|תבנית טקסט: מצב שיחה ומצב תהליך · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W05D22_STATE_TRANSFER|תבנית טקסט: מצב שיחה ומצב תהליך · TRANSFER]] — ארגון העבודה

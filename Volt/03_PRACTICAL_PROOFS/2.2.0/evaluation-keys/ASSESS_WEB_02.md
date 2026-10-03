@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_WEB_02"
 assessment_version: "2.1.0"
 lesson_id: "WEB_02"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_WEB_02]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_WEB_02]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_WEB_02_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_WEB_02_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_WEB_02_TRANSFER]]"]
 ---
 
 # תנאי בדיקה: הוכחה מעשית · עיצוב, RTL ונגישות
@@ -41,3 +41,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_WEB_02]]"]
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_WEB_02|הוכחה מעשית · עיצוב, RTL ונגישות]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_WEB_02_BUILD|תבנית טקסט: עיצוב, RTL ונגישות · BUILD]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_WEB_02_DIAGNOSE|תבנית טקסט: עיצוב, RTL ונגישות · DIAGNOSE]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_WEB_02_TRANSFER|תבנית טקסט: עיצוב, RTL ונגישות · TRANSFER]] — תנאי בדיקה

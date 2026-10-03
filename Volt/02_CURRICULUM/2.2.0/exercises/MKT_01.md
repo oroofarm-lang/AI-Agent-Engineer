@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "MKT_01"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "b8444e584571000c94e85385761c8065f51ba3da9508f814a5c100882d9b45c2"
-related: ["[[02_CURRICULUM/2.2.0/lessons/MKT_01]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_MKT_01]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_01]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/MKT_01]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_MKT_01]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_01]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_01_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_01_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_01_TRANSFER]]"]
 ---
 
 # התרגול: בריף מותג וקהל
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/MKT_01]]","[[02_CURRICULUM/quiz-banks/1
 - [[02_CURRICULUM/2.2.0/lessons/MKT_01|בריף מותג וקהל]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_MKT_01|בדיקת הבנה: בריף מותג כולל המלצת לקוח שאין לה מקור. מה נכון לעשות לפני יצירת התוכן?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_01|הוכחה מעשית · בריף מותג וקהל]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_01_BUILD|תבנית טקסט: בריף מותג וקהל · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_01_DIAGNOSE|תבנית טקסט: בריף מותג וקהל · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_01_TRANSFER|תבנית טקסט: בריף מותג וקהל · TRANSFER]] — ארגון העבודה

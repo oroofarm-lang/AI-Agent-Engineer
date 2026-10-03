@@ -6,7 +6,7 @@ entity_id: "VAULT_SYNC_COMPONENT"
 curriculum_version: "2.2.0"
 source_path: "src/components/vault-sync-status.tsx"
 asset_kind: "ui-code"
-source_sha256: "8a5e6ed67300eee1001365100f3c18b8f763d4eb1bd16062963f75bbcfa2888b"
+source_sha256: "e000168aafc32346aeac2d85c0ef1adeb2edd216ccc87dca58187ae23b6be472"
 related: ["[[01_AGENTS/Agent-Curriculum-Auditor]]","[[01_AGENTS/Agent-Database-Architect]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Knowledge-RAG]]","[[01_AGENTS/Agent-Production-Reliability]]","[[01_AGENTS/Agent-Progress-Tracker]]","[[01_AGENTS/Agent-Quiz-Designer]]","[[01_AGENTS/Agent-Security-Auditor]]","[[02_CURRICULUM/2.2.0/modules/KNOWLEDGE]]","[[02_CURRICULUM/2.2.0/modules/QUALITY]]","[[04_AUTOMATIONS_AND_APIS/Index]]"]
 ---
 
@@ -109,17 +109,17 @@ export function VaultSyncStatus() {
           </p>
           <p role="status">
             {status.state === 'CURRENT'
-              ? 'גרסת הייצוא השמור תואמת לגרסת הקורס ולמצב מאגר השאלות באפליקציה.'
+              ? 'גרסת הייצוא השמור תואמת לקורס, למאגר השאלות ולהגדרות התבניות באפליקציה.'
               : status.state === 'PENDING'
-                ? 'מפת הידע טרם עודכנה לגרסת הקורס ולמצב מאגר השאלות באפליקציה.'
+                ? 'מפת הידע טרם עודכנה לקורס, למאגר השאלות ולהגדרות התבניות באפליקציה.'
                 : 'לא ניתן היה לבדוק את הייצוא השמור.'}
           </p>
         </div>
       )}
       {!status && !error && <p role="status">בודק את גרסת הייצוא…</p>}
       <p>
-        הבדיקה משווה את גרסת הקורס, את מזהה התוכן שלה ואת מאגר השאלות הפעיל לייצוא השמור. היא אינה
-        בודקת עריכות שנעשו בקבצים לאחר הייצוא.
+        הבדיקה משווה את הקורס, את מאגר השאלות ואת הגדרות התבניות לייצוא השמור. היא אינה בודקת עריכות
+        שנעשו בקבצים לאחר הייצוא.
       </p>
       {message && <p role="status">{message}</p>}
       {error && (

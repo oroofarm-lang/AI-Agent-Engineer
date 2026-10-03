@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_VOI_02"
 assessment_version: "2.1.0"
 lesson_id: "VOI_02"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_VOI_02]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_VOI_02]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_VOI_02_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_VOI_02_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_VOI_02_TRANSFER]]"]
 ---
 
 # תבנית הגשה: הוכחה מעשית · טיפול אחרי שיחה
@@ -53,3 +53,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_VOI_02]]"]
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_VOI_02|הוכחה מעשית · טיפול אחרי שיחה]] — תבנית הגשה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_VOI_02_BUILD|תבנית טקסט: טיפול אחרי שיחה · BUILD]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_VOI_02_DIAGNOSE|תבנית טקסט: טיפול אחרי שיחה · DIAGNOSE]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_VOI_02_TRANSFER|תבנית טקסט: טיפול אחרי שיחה · TRANSFER]] — תבנית סעיף

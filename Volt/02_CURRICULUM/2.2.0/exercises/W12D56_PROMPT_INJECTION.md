@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "W12D56_PROMPT_INJECTION"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "7d6537789c4239c21351f90bbc8612840d5c67a1ac027464cbe063d789e9d64a"
-related: ["[[02_CURRICULUM/2.2.0/lessons/W12D56_PROMPT_INJECTION]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W12D56_PROMPT_INJECTION]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W12D56_PROMPT_INJECTION]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/W12D56_PROMPT_INJECTION]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W12D56_PROMPT_INJECTION]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W12D56_PROMPT_INJECTION]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W12D56_PROMPT_INJECTION_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W12D56_PROMPT_INJECTION_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W12D56_PROMPT_INJECTION_TRANSFER]]"]
 ---
 
 # התרגול: הזרקת הוראות זדוניות
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/W12D56_PROMPT_INJECTION]]","[[02_CURRIC
 - [[02_CURRICULUM/2.2.0/lessons/W12D56_PROMPT_INJECTION|הזרקת הוראות זדוניות]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W12D56_PROMPT_INJECTION|בדיקת הבנה: מסמך חיצוני מבקש לשלוח מידע ליעד שאינו מורשה. איזו הגנה נדרשת מעבר להנחיית בטיחות למודל?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W12D56_PROMPT_INJECTION|הוכחה מעשית · הזרקת הוראות זדוניות]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W12D56_PROMPT_INJECTION_BUILD|תבנית טקסט: הזרקת הוראות זדוניות · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W12D56_PROMPT_INJECTION_DIAGNOSE|תבנית טקסט: הזרקת הוראות זדוניות · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W12D56_PROMPT_INJECTION_TRANSFER|תבנית טקסט: הזרקת הוראות זדוניות · TRANSFER]] — ארגון העבודה

@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_W06D30_PROJECT_KNOWLEDGE_AGENT"
 assessment_version: "2.1.0"
 lesson_id: "W06D30_PROJECT_KNOWLEDGE_AGENT"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W06D30_PROJECT_KNOWLEDGE_AGENT]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W06D30_PROJECT_KNOWLEDGE_AGENT]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W06D30_PROJECT_KNOWLEDGE_AGENT_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W06D30_PROJECT_KNOWLEDGE_AGENT_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W06D30_PROJECT_KNOWLEDGE_AGENT_TRANSFER]]"]
 ---
 
 # תנאי בדיקה: הוכחה מעשית · פרויקט: עוזר ידע ארגוני
@@ -41,3 +41,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W06D30_PROJECT_KNOWLEDGE_A
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W06D30_PROJECT_KNOWLEDGE_AGENT|הוכחה מעשית · פרויקט: עוזר ידע ארגוני]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W06D30_PROJECT_KNOWLEDGE_AGENT_BUILD|תבנית טקסט: פרויקט: עוזר ידע ארגוני · BUILD]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W06D30_PROJECT_KNOWLEDGE_AGENT_DIAGNOSE|תבנית טקסט: פרויקט: עוזר ידע ארגוני · DIAGNOSE]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W06D30_PROJECT_KNOWLEDGE_AGENT_TRANSFER|תבנית טקסט: פרויקט: עוזר ידע ארגוני · TRANSFER]] — תנאי בדיקה

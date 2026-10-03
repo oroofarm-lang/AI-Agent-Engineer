@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_W16D79_HARDEN"
 assessment_version: "2.1.0"
 lesson_id: "W16D79_HARDEN"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W16D79_HARDEN]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W16D79_HARDEN]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W16D79_HARDEN_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W16D79_HARDEN_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W16D79_HARDEN_TRANSFER]]"]
 ---
 
 # תבנית הגשה: הוכחה מעשית · פרויקט גמר: הקשחה
@@ -53,3 +53,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W16D79_HARDEN]]"]
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W16D79_HARDEN|הוכחה מעשית · פרויקט גמר: הקשחה]] — תבנית הגשה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W16D79_HARDEN_BUILD|תבנית טקסט: פרויקט גמר: הקשחה · BUILD]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W16D79_HARDEN_DIAGNOSE|תבנית טקסט: פרויקט גמר: הקשחה · DIAGNOSE]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W16D79_HARDEN_TRANSFER|תבנית טקסט: פרויקט גמר: הקשחה · TRANSFER]] — תבנית סעיף

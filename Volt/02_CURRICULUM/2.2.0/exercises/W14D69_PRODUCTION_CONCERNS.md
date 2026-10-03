@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "W14D69_PRODUCTION_CONCERNS"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "3908d747d1b4eb4387837f3adbe867caacff8c9d36823f18c7d46e25edb7ec6a"
-related: ["[[02_CURRICULUM/2.2.0/lessons/W14D69_PRODUCTION_CONCERNS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W14D69_PRODUCTION_CONCERNS]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W14D69_PRODUCTION_CONCERNS]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/W14D69_PRODUCTION_CONCERNS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W14D69_PRODUCTION_CONCERNS]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W14D69_PRODUCTION_CONCERNS]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W14D69_PRODUCTION_CONCERNS_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W14D69_PRODUCTION_CONCERNS_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W14D69_PRODUCTION_CONCERNS_TRANSFER]]"]
 ---
 
 # התרגול: עלות, ביצועים וניטור
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/W14D69_PRODUCTION_CONCERNS]]","[[02_CUR
 - [[02_CURRICULUM/2.2.0/lessons/W14D69_PRODUCTION_CONCERNS|עלות, ביצועים וניטור]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W14D69_PRODUCTION_CONCERNS|בדיקת הבנה: מה צריך מפתח המטמון להביא בחשבון כדי שלא להחזיר מידע ישן או של לקוח אחר?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W14D69_PRODUCTION_CONCERNS|הוכחה מעשית · עלות, ביצועים וניטור]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W14D69_PRODUCTION_CONCERNS_BUILD|תבנית טקסט: עלות, ביצועים וניטור · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W14D69_PRODUCTION_CONCERNS_DIAGNOSE|תבנית טקסט: עלות, ביצועים וניטור · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W14D69_PRODUCTION_CONCERNS_TRANSFER|תבנית טקסט: עלות, ביצועים וניטור · TRANSFER]] — ארגון העבודה

@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "W02D07_CONTEXT_ENGINEERING"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "28639894e47d7a262d94f860c9430c53f1c5eade918471c448bca3fd89062824"
-related: ["[[02_CURRICULUM/2.2.0/lessons/W02D07_CONTEXT_ENGINEERING]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W02D07_CONTEXT_ENGINEERING]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W02D07_CONTEXT_ENGINEERING]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/W02D07_CONTEXT_ENGINEERING]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W02D07_CONTEXT_ENGINEERING]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W02D07_CONTEXT_ENGINEERING]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W02D07_CONTEXT_ENGINEERING_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W02D07_CONTEXT_ENGINEERING_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W02D07_CONTEXT_ENGINEERING_TRANSFER]]"]
 ---
 
 # התרגול: הנדסת הקשר
@@ -63,3 +63,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/W02D07_CONTEXT_ENGINEERING]]","[[02_CUR
 - [[02_CURRICULUM/2.2.0/lessons/W02D07_CONTEXT_ENGINEERING|הנדסת הקשר]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W02D07_CONTEXT_ENGINEERING|בדיקת הבנה: מסמך שצורף לעוזר פניות כולל הוראה לשנות את המשימה. כיצד צריך להתייחס אליה?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W02D07_CONTEXT_ENGINEERING|הוכחה מעשית · הנדסת הקשר]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W02D07_CONTEXT_ENGINEERING_BUILD|תבנית טקסט: הנדסת הקשר · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W02D07_CONTEXT_ENGINEERING_DIAGNOSE|תבנית טקסט: הנדסת הקשר · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W02D07_CONTEXT_ENGINEERING_TRANSFER|תבנית טקסט: הנדסת הקשר · TRANSFER]] — ארגון העבודה

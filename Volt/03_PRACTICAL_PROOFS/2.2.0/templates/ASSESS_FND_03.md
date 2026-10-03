@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_FND_03"
 assessment_version: "2.1.0"
 lesson_id: "FND_03"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_FND_03]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_FND_03]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_FND_03_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_FND_03_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_FND_03_TRANSFER]]"]
 ---
 
 # תבנית הגשה: הוכחה מעשית · מסמכים, תמונות וקול כקלט
@@ -53,3 +53,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_FND_03]]"]
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_FND_03|הוכחה מעשית · מסמכים, תמונות וקול כקלט]] — תבנית הגשה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_FND_03_BUILD|תבנית טקסט: מסמכים, תמונות וקול כקלט · BUILD]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_FND_03_DIAGNOSE|תבנית טקסט: מסמכים, תמונות וקול כקלט · DIAGNOSE]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_FND_03_TRANSFER|תבנית טקסט: מסמכים, תמונות וקול כקלט · TRANSFER]] — תבנית סעיף

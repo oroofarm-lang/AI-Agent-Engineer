@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "FND_04"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "fd18c2237e5115bfb186b8e6833c656a4f5db98980a3e1b7344fe796778c9027"
-related: ["[[02_CURRICULUM/2.2.0/lessons/FND_04]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_FND_04]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_FND_04]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/FND_04]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_FND_04]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_FND_04]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_FND_04_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_FND_04_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_FND_04_TRANSFER]]"]
 ---
 
 # התרגול: מיפוי צורך עסקי ופיילוט
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/FND_04]]","[[02_CURRICULUM/quiz-banks/1
 - [[02_CURRICULUM/2.2.0/lessons/FND_04|מיפוי צורך עסקי ופיילוט]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_FND_04|בדיקת הבנה: איזו אמירה מבחינה נכון בין הערכה לבין תוצאת פיילוט?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_FND_04|הוכחה מעשית · מיפוי צורך עסקי ופיילוט]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_FND_04_BUILD|תבנית טקסט: מיפוי צורך עסקי ופיילוט · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_FND_04_DIAGNOSE|תבנית טקסט: מיפוי צורך עסקי ופיילוט · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_FND_04_TRANSFER|תבנית טקסט: מיפוי צורך עסקי ופיילוט · TRANSFER]] — ארגון העבודה

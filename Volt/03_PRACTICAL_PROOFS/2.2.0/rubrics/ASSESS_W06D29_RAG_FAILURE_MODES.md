@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_W06D29_RAG_FAILURE_MODES"
 assessment_version: "2.1.0"
 lesson_id: "W06D29_RAG_FAILURE_MODES"
-related: ["[[01_AGENTS/Agent-Agentic-Workflows]]","[[01_AGENTS/Agent-Curriculum-Auditor]]","[[01_AGENTS/Agent-Database-Architect]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Knowledge-RAG]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/exercises/W06D29_RAG_FAILURE_MODES]]","[[02_CURRICULUM/2.2.0/lessons/W06D29_RAG_FAILURE_MODES]]","[[02_CURRICULUM/2.2.0/skills/EMBEDDINGS]]","[[02_CURRICULUM/2.2.0/skills/RAG]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W06D29_RAG_FAILURE_MODES]]","[[02_CURRICULUM/system-quizzes/1.0.0/QUIZ_EVIDENCE_NEXT_STEP]]","[[03_PRACTICAL_PROOFS/2.2.0/evaluation-keys/ASSESS_W06D29_RAG_FAILURE_MODES]]","[[03_PRACTICAL_PROOFS/2.2.0/Index]]","[[03_PRACTICAL_PROOFS/2.2.0/templates/ASSESS_W06D29_RAG_FAILURE_MODES]]","[[04_AUTOMATIONS_AND_APIS/endpoints/AGENT_EVALUATE]]","[[04_AUTOMATIONS_AND_APIS/endpoints/ARTIFACT_DOWNLOAD]]"]
+related: ["[[01_AGENTS/Agent-Agentic-Workflows]]","[[01_AGENTS/Agent-Curriculum-Auditor]]","[[01_AGENTS/Agent-Database-Architect]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Knowledge-RAG]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/exercises/W06D29_RAG_FAILURE_MODES]]","[[02_CURRICULUM/2.2.0/lessons/W06D29_RAG_FAILURE_MODES]]","[[02_CURRICULUM/2.2.0/skills/EMBEDDINGS]]","[[02_CURRICULUM/2.2.0/skills/RAG]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W06D29_RAG_FAILURE_MODES]]","[[02_CURRICULUM/system-quizzes/1.0.0/QUIZ_EVIDENCE_NEXT_STEP]]","[[03_PRACTICAL_PROOFS/2.2.0/evaluation-keys/ASSESS_W06D29_RAG_FAILURE_MODES]]","[[03_PRACTICAL_PROOFS/2.2.0/Index]]","[[03_PRACTICAL_PROOFS/2.2.0/templates/ASSESS_W06D29_RAG_FAILURE_MODES]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W06D29_RAG_FAILURE_MODES_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W06D29_RAG_FAILURE_MODES_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W06D29_RAG_FAILURE_MODES_TRANSFER]]","[[04_AUTOMATIONS_AND_APIS/endpoints/AGENT_EVALUATE]]","[[04_AUTOMATIONS_AND_APIS/endpoints/ARTIFACT_DOWNLOAD]]"]
 ---
 
 # הוכחה מעשית · כשלים במערכות RAG
@@ -51,5 +51,8 @@ related: ["[[01_AGENTS/Agent-Agentic-Workflows]]","[[01_AGENTS/Agent-Curriculum-
 - [[03_PRACTICAL_PROOFS/2.2.0/evaluation-keys/ASSESS_W06D29_RAG_FAILURE_MODES|תנאי בדיקה: הוכחה מעשית · כשלים במערכות RAG]] — תנאי בדיקה
 - [[03_PRACTICAL_PROOFS/2.2.0/Index|תרגילים, ראיות ותיק עבודות]] — מחוון
 - [[03_PRACTICAL_PROOFS/2.2.0/templates/ASSESS_W06D29_RAG_FAILURE_MODES|תבנית הגשה: הוכחה מעשית · כשלים במערכות RAG]] — תבנית הגשה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W06D29_RAG_FAILURE_MODES_BUILD|תבנית טקסט: כשלים במערכות RAG · BUILD]] — סעיף במחוון
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W06D29_RAG_FAILURE_MODES_DIAGNOSE|תבנית טקסט: כשלים במערכות RAG · DIAGNOSE]] — סעיף במחוון
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W06D29_RAG_FAILURE_MODES_TRANSFER|תבנית טקסט: כשלים במערכות RAG · TRANSFER]] — סעיף במחוון
 - [[04_AUTOMATIONS_AND_APIS/endpoints/AGENT_EVALUATE|משוב מנומק על עבודה]] — ראיות והגשות
 - [[04_AUTOMATIONS_AND_APIS/endpoints/ARTIFACT_DOWNLOAD|הורדת קובץ של הגשה]] — ראיות והגשות

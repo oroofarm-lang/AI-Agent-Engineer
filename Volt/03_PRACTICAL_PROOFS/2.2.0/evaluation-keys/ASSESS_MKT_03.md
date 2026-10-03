@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_MKT_03"
 assessment_version: "2.1.0"
 lesson_id: "MKT_03"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_03]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_03]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_03_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_03_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_03_TRANSFER]]"]
 ---
 
 # תנאי בדיקה: הוכחה מעשית · אסטרטגיית תוכן ולוח עבודה
@@ -41,3 +41,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_03]]"]
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_03|הוכחה מעשית · אסטרטגיית תוכן ולוח עבודה]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_03_BUILD|תבנית טקסט: אסטרטגיית תוכן ולוח עבודה · BUILD]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_03_DIAGNOSE|תבנית טקסט: אסטרטגיית תוכן ולוח עבודה · DIAGNOSE]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_03_TRANSFER|תבנית טקסט: אסטרטגיית תוכן ולוח עבודה · TRANSFER]] — תנאי בדיקה

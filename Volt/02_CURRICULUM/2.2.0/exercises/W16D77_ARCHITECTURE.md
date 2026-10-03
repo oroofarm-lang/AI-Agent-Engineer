@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "W16D77_ARCHITECTURE"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "e62598eb939ad2204756b8a60d9931dc94f9b566d98b1766c221da521f3ba017"
-related: ["[[02_CURRICULUM/2.2.0/lessons/W16D77_ARCHITECTURE]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W16D77_ARCHITECTURE]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W16D77_ARCHITECTURE]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/W16D77_ARCHITECTURE]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W16D77_ARCHITECTURE]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W16D77_ARCHITECTURE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W16D77_ARCHITECTURE_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W16D77_ARCHITECTURE_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W16D77_ARCHITECTURE_TRANSFER]]"]
 ---
 
 # התרגול: פרויקט גמר: ארכיטקטורה
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/W16D77_ARCHITECTURE]]","[[02_CURRICULUM
 - [[02_CURRICULUM/2.2.0/lessons/W16D77_ARCHITECTURE|פרויקט גמר: ארכיטקטורה]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W16D77_ARCHITECTURE|בדיקת הבנה: איזה מידע צריך תרשים הארכיטקטורה להבהיר מעבר לשמות הרכיבים?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W16D77_ARCHITECTURE|הוכחה מעשית · פרויקט גמר: ארכיטקטורה]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W16D77_ARCHITECTURE_BUILD|תבנית טקסט: פרויקט גמר: ארכיטקטורה · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W16D77_ARCHITECTURE_DIAGNOSE|תבנית טקסט: פרויקט גמר: ארכיטקטורה · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W16D77_ARCHITECTURE_TRANSFER|תבנית טקסט: פרויקט גמר: ארכיטקטורה · TRANSFER]] — ארגון העבודה

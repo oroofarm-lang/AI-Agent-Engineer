@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_MKT_09"
 assessment_version: "2.1.0"
 lesson_id: "MKT_09"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_09]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_09]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_09_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_09_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_09_TRANSFER]]"]
 ---
 
 # תנאי בדיקה: הוכחה מעשית · SEO ואישור פרסום
@@ -41,3 +41,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_09]]"]
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_09|הוכחה מעשית · SEO ואישור פרסום]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_09_BUILD|תבנית טקסט: SEO ואישור פרסום · BUILD]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_09_DIAGNOSE|תבנית טקסט: SEO ואישור פרסום · DIAGNOSE]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_09_TRANSFER|תבנית טקסט: SEO ואישור פרסום · TRANSFER]] — תנאי בדיקה

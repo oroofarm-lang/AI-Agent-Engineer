@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_W13D64_STREAMING"
 assessment_version: "2.1.0"
 lesson_id: "W13D64_STREAMING"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W13D64_STREAMING]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W13D64_STREAMING]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W13D64_STREAMING_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W13D64_STREAMING_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W13D64_STREAMING_TRANSFER]]"]
 ---
 
 # תבנית הגשה: הוכחה מעשית · Streaming ואירועי ריצה
@@ -53,3 +53,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W13D64_STREAMING]]"]
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W13D64_STREAMING|הוכחה מעשית · Streaming ואירועי ריצה]] — תבנית הגשה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W13D64_STREAMING_BUILD|תבנית טקסט: Streaming ואירועי ריצה · BUILD]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W13D64_STREAMING_DIAGNOSE|תבנית טקסט: Streaming ואירועי ריצה · DIAGNOSE]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W13D64_STREAMING_TRANSFER|תבנית טקסט: Streaming ואירועי ריצה · TRANSFER]] — תבנית סעיף

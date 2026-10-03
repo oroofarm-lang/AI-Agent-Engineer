@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "W14D68_DEPLOYMENT"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "80fb15b8e9e4d4cd4d0eb6e65efb82aaef7605f0f94f868366375245fc10cb4d"
-related: ["[[02_CURRICULUM/2.2.0/lessons/W14D68_DEPLOYMENT]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W14D68_DEPLOYMENT]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W14D68_DEPLOYMENT]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/W14D68_DEPLOYMENT]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W14D68_DEPLOYMENT]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W14D68_DEPLOYMENT]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W14D68_DEPLOYMENT_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W14D68_DEPLOYMENT_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W14D68_DEPLOYMENT_TRANSFER]]"]
 ---
 
 # התרגול: פריסה וסביבות
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/W14D68_DEPLOYMENT]]","[[02_CURRICULUM/q
 - [[02_CURRICULUM/2.2.0/lessons/W14D68_DEPLOYMENT|פריסה וסביבות]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W14D68_DEPLOYMENT|בדיקת הבנה: השירות נארז ב־Docker. איזו מסקנה אינה מוצדקת מהאריזה לבדה?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W14D68_DEPLOYMENT|הוכחה מעשית · פריסה וסביבות]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W14D68_DEPLOYMENT_BUILD|תבנית טקסט: פריסה וסביבות · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W14D68_DEPLOYMENT_DIAGNOSE|תבנית טקסט: פריסה וסביבות · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W14D68_DEPLOYMENT_TRANSFER|תבנית טקסט: פריסה וסביבות · TRANSFER]] — ארגון העבודה

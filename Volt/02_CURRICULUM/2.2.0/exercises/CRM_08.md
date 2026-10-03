@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "CRM_08"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "5ff39aaca5ba6f59722d524e815d96026c187a093f33683656d7998003e4e6a7"
-related: ["[[02_CURRICULUM/2.2.0/lessons/CRM_08]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_CRM_08]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_CRM_08]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/CRM_08]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_CRM_08]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_CRM_08]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_CRM_08_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_CRM_08_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_CRM_08_TRANSFER]]"]
 ---
 
 # התרגול: מבחן מסכם: מערכת עבודה לעסק
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/CRM_08]]","[[02_CURRICULUM/quiz-banks/1
 - [[02_CURRICULUM/2.2.0/lessons/CRM_08|מבחן מסכם: מערכת עבודה לעסק]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_CRM_08|בדיקת הבנה: מערכת הפניות מחוברת ל־CRM. האם החיבור מאפשר לדלג על בדיקת ההרשאות ב־CRM?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_CRM_08|הוכחה מעשית · מבחן מסכם: מערכת עבודה לעסק]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_CRM_08_BUILD|תבנית טקסט: מבחן מסכם: מערכת עבודה לעסק · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_CRM_08_DIAGNOSE|תבנית טקסט: מבחן מסכם: מערכת עבודה לעסק · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_CRM_08_TRANSFER|תבנית טקסט: מבחן מסכם: מערכת עבודה לעסק · TRANSFER]] — ארגון העבודה

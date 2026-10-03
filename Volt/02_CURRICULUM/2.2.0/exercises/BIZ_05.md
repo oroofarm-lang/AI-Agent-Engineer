@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "BIZ_05"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "faa64da39266b937d906c7e3c95fb97dc68ee97cb38229cd9d1ad60ca915f1a1"
-related: ["[[02_CURRICULUM/2.2.0/lessons/BIZ_05]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_BIZ_05]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_BIZ_05]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/BIZ_05]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_BIZ_05]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_BIZ_05]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_BIZ_05_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_BIZ_05_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_BIZ_05_TRANSFER]]"]
 ---
 
 # התרגול: פיילוט, הדרכת עובדים ומסירה
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/BIZ_05]]","[[02_CURRICULUM/quiz-banks/1
 - [[02_CURRICULUM/2.2.0/lessons/BIZ_05|פיילוט, הדרכת עובדים ומסירה]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_BIZ_05|בדיקת הבנה: הפיילוט פועל ב־Shadow Mode. מה המערכת עושה במצב הזה?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_BIZ_05|הוכחה מעשית · פיילוט, הדרכת עובדים ומסירה]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_BIZ_05_BUILD|תבנית טקסט: פיילוט, הדרכת עובדים ומסירה · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_BIZ_05_DIAGNOSE|תבנית טקסט: פיילוט, הדרכת עובדים ומסירה · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_BIZ_05_TRANSFER|תבנית טקסט: פיילוט, הדרכת עובדים ומסירה · TRANSFER]] — ארגון העבודה

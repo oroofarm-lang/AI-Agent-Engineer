@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_W02D09_MODEL_RELIABILITY"
 assessment_version: "2.1.0"
 lesson_id: "W02D09_MODEL_RELIABILITY"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W02D09_MODEL_RELIABILITY]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W02D09_MODEL_RELIABILITY]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W02D09_MODEL_RELIABILITY_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W02D09_MODEL_RELIABILITY_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W02D09_MODEL_RELIABILITY_TRANSFER]]"]
 ---
 
 # תנאי בדיקה: הוכחה מעשית · אמינות, ביסוס ואי־ודאות
@@ -41,3 +41,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W02D09_MODEL_RELIABILITY]]
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W02D09_MODEL_RELIABILITY|הוכחה מעשית · אמינות, ביסוס ואי־ודאות]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W02D09_MODEL_RELIABILITY_BUILD|תבנית טקסט: אמינות, ביסוס ואי־ודאות · BUILD]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W02D09_MODEL_RELIABILITY_DIAGNOSE|תבנית טקסט: אמינות, ביסוס ואי־ודאות · DIAGNOSE]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W02D09_MODEL_RELIABILITY_TRANSFER|תבנית טקסט: אמינות, ביסוס ואי־ודאות · TRANSFER]] — תנאי בדיקה

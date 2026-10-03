@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "W04D18_ITERATIVE_RESEARCH"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "6fc4abd71ad962fac19a6393804d30abfa2dc93c2344fedb7e13452251f6c46c"
-related: ["[[02_CURRICULUM/2.2.0/lessons/W04D18_ITERATIVE_RESEARCH]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W04D18_ITERATIVE_RESEARCH]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W04D18_ITERATIVE_RESEARCH]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/W04D18_ITERATIVE_RESEARCH]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W04D18_ITERATIVE_RESEARCH]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W04D18_ITERATIVE_RESEARCH]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W04D18_ITERATIVE_RESEARCH_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W04D18_ITERATIVE_RESEARCH_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W04D18_ITERATIVE_RESEARCH_TRANSFER]]"]
 ---
 
 # התרגול: מחקר איטרטיבי ותנאי עצירה
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/W04D18_ITERATIVE_RESEARCH]]","[[02_CURR
 - [[02_CURRICULUM/2.2.0/lessons/W04D18_ITERATIVE_RESEARCH|מחקר איטרטיבי ותנאי עצירה]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W04D18_ITERATIVE_RESEARCH|בדיקת הבנה: בסבב מחקר נוסף נמצאו שוב אותם קישורים בלי מידע שמקדם את ההחלטה. מה מתאים לתנאי העצירה?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W04D18_ITERATIVE_RESEARCH|הוכחה מעשית · מחקר איטרטיבי ותנאי עצירה]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W04D18_ITERATIVE_RESEARCH_BUILD|תבנית טקסט: מחקר איטרטיבי ותנאי עצירה · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W04D18_ITERATIVE_RESEARCH_DIAGNOSE|תבנית טקסט: מחקר איטרטיבי ותנאי עצירה · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W04D18_ITERATIVE_RESEARCH_TRANSFER|תבנית טקסט: מחקר איטרטיבי ותנאי עצירה · TRANSFER]] — ארגון העבודה

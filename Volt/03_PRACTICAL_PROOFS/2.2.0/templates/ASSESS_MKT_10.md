@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_MKT_10"
 assessment_version: "2.1.0"
 lesson_id: "MKT_10"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_10]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_10]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_10_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_10_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_10_TRANSFER]]"]
 ---
 
 # תבנית הגשה: הוכחה מעשית · מבחן מסכם: סטודיו תוכן עסקי
@@ -53,3 +53,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_10]]"]
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_10|הוכחה מעשית · מבחן מסכם: סטודיו תוכן עסקי]] — תבנית הגשה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_10_BUILD|תבנית טקסט: מבחן מסכם: סטודיו תוכן עסקי · BUILD]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_10_DIAGNOSE|תבנית טקסט: מבחן מסכם: סטודיו תוכן עסקי · DIAGNOSE]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_10_TRANSFER|תבנית טקסט: מבחן מסכם: סטודיו תוכן עסקי · TRANSFER]] — תבנית סעיף

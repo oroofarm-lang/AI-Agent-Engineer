@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "ADS_02"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "e8a0cb24a93599d0f9dd4b622f02bdc3afe06415bb652730dfb454bf558dd945"
-related: ["[[02_CURRICULUM/2.2.0/lessons/ADS_02]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_ADS_02]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_ADS_02]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/ADS_02]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_ADS_02]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_ADS_02]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_02_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_02_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_02_TRANSFER]]"]
 ---
 
 # התרגול: יבוא נתוני קמפיינים
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/ADS_02]]","[[02_CURRICULUM/quiz-banks/1
 - [[02_CURRICULUM/2.2.0/lessons/ADS_02|יבוא נתוני קמפיינים]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_ADS_02|בדיקת הבנה: אותו קובץ נתוני קמפיינים מיובא שוב. מה צריך להבטיח כדי לא לנפח את ההוצאות בדוח?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_ADS_02|הוכחה מעשית · יבוא נתוני קמפיינים]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_02_BUILD|תבנית טבלה: יבוא נתוני קמפיינים · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_02_DIAGNOSE|תבנית טקסט: יבוא נתוני קמפיינים · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_02_TRANSFER|תבנית טקסט: יבוא נתוני קמפיינים · TRANSFER]] — ארגון העבודה

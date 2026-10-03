@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "W04D20_BOSS_LEVEL_1_RESEARCH_AGENT"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "0be338e49c83dd4b5a9d495f9575613e236aa8881c501e408f03a4ad380bcb1e"
-related: ["[[02_CURRICULUM/2.2.0/lessons/W04D20_BOSS_LEVEL_1_RESEARCH_AGENT]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W04D20_BOSS_LEVEL_1_RESEARCH_AGENT]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W04D20_BOSS_LEVEL_1_RESEARCH_AGENT]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/W04D20_BOSS_LEVEL_1_RESEARCH_AGENT]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W04D20_BOSS_LEVEL_1_RESEARCH_AGENT]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W04D20_BOSS_LEVEL_1_RESEARCH_AGENT]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W04D20_BOSS_LEVEL_1_RESEARCH_AGENT_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W04D20_BOSS_LEVEL_1_RESEARCH_AGENT_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W04D20_BOSS_LEVEL_1_RESEARCH_AGENT_TRANSFER]]"]
 ---
 
 # התרגול: מבחן מסכם: סוכן מחקר
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/W04D20_BOSS_LEVEL_1_RESEARCH_AGENT]]","
 - [[02_CURRICULUM/2.2.0/lessons/W04D20_BOSS_LEVEL_1_RESEARCH_AGENT|מבחן מסכם: סוכן מחקר]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W04D20_BOSS_LEVEL_1_RESEARCH_AGENT|בדיקת הבנה: באיזה מדד לא מספיק להשתמש לבדו כדי להעריך את סוכן המחקר?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W04D20_BOSS_LEVEL_1_RESEARCH_AGENT|הוכחה מעשית · מבחן מסכם: סוכן מחקר]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W04D20_BOSS_LEVEL_1_RESEARCH_AGENT_BUILD|תבנית טקסט: מבחן מסכם: סוכן מחקר · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W04D20_BOSS_LEVEL_1_RESEARCH_AGENT_DIAGNOSE|תבנית טקסט: מבחן מסכם: סוכן מחקר · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W04D20_BOSS_LEVEL_1_RESEARCH_AGENT_TRANSFER|תבנית טקסט: מבחן מסכם: סוכן מחקר · TRANSFER]] — ארגון העבודה

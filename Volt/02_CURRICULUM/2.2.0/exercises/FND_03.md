@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "FND_03"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "365398ee62426203d9281961dd8434259a5132482c136ae2fb1665a1d9457853"
-related: ["[[02_CURRICULUM/2.2.0/lessons/FND_03]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_FND_03]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_FND_03]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/FND_03]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_FND_03]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_FND_03]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_FND_03_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_FND_03_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_FND_03_TRANSFER]]"]
 ---
 
 # התרגול: מסמכים, תמונות וקול כקלט
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/FND_03]]","[[02_CURRICULUM/quiz-banks/1
 - [[02_CURRICULUM/2.2.0/lessons/FND_03|מסמכים, תמונות וקול כקלט]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_FND_03|בדיקת הבנה: שם בהקלטה תומלל בצורה לא ברורה. איך צריך לשמור אותו בתהליך החילוץ?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_FND_03|הוכחה מעשית · מסמכים, תמונות וקול כקלט]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_FND_03_BUILD|תבנית טקסט: מסמכים, תמונות וקול כקלט · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_FND_03_DIAGNOSE|תבנית טקסט: מסמכים, תמונות וקול כקלט · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_FND_03_TRANSFER|תבנית טקסט: מסמכים, תמונות וקול כקלט · TRANSFER]] — ארגון העבודה

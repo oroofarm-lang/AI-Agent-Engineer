@@ -11,7 +11,7 @@ source_ids: ["HUBSPOT_WEBHOOKS","STRIPE_WEBHOOKS"]
 prerequisite_lesson_ids: ["FND_04","AUT_08"]
 source_sha256: "ff59b96654c2c8a46f9e719e6f49b1aff7f5a054aca161522e6a91f0ad138739"
 estimated_minutes: 150
-related: ["[[01_AGENTS/Agent-Automation-Engineer]]","[[01_AGENTS/Agent-Code-Reviewer]]","[[01_AGENTS/Agent-CRM-Sales]]","[[01_AGENTS/Agent-Database-Architect]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Voice-Audio]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/exercises/CRM_01]]","[[02_CURRICULUM/2.2.0/lessons/AUT_08]]","[[02_CURRICULUM/2.2.0/lessons/CRM_02]]","[[02_CURRICULUM/2.2.0/lessons/FND_04]]","[[02_CURRICULUM/2.2.0/modules/CRM]]","[[02_CURRICULUM/2.2.0/skills/CRM_OPERATIONS]]","[[02_CURRICULUM/2.2.0/skills/DATABASE]]","[[02_CURRICULUM/2.2.0/skills/HTTP_APIS]]","[[02_CURRICULUM/2.2.0/sources/HUBSPOT_WEBHOOKS]]","[[02_CURRICULUM/2.2.0/sources/STRIPE_WEBHOOKS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_CRM_01]]","[[02_CURRICULUM/system-quizzes/1.0.0/QUIZ_EVIDENCE_NEXT_STEP]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_CRM_01]]"]
+related: ["[[01_AGENTS/Agent-Automation-Engineer]]","[[01_AGENTS/Agent-Code-Reviewer]]","[[01_AGENTS/Agent-CRM-Sales]]","[[01_AGENTS/Agent-Database-Architect]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Voice-Audio]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/exercises/CRM_01]]","[[02_CURRICULUM/2.2.0/lessons/AUT_08]]","[[02_CURRICULUM/2.2.0/lessons/CRM_02]]","[[02_CURRICULUM/2.2.0/lessons/FND_04]]","[[02_CURRICULUM/2.2.0/modules/CRM]]","[[02_CURRICULUM/2.2.0/skills/CRM_OPERATIONS]]","[[02_CURRICULUM/2.2.0/skills/DATABASE]]","[[02_CURRICULUM/2.2.0/skills/HTTP_APIS]]","[[02_CURRICULUM/2.2.0/sources/HUBSPOT_WEBHOOKS]]","[[02_CURRICULUM/2.2.0/sources/STRIPE_WEBHOOKS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_CRM_01]]","[[02_CURRICULUM/system-quizzes/1.0.0/QUIZ_EVIDENCE_NEXT_STEP]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_CRM_01]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_CRM_01_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_CRM_01_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_CRM_01_TRANSFER]]"]
 ---
 
 # מודל נתונים ללקוחות ולעסקאות
@@ -127,3 +127,6 @@ Input → Contract check → Work / model proposal → Result check → Evidence
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_CRM_01|בדיקת הבנה: לאותו לקוח יש שתי עסקאות. איך נכון לייצג זאת במודל הנתונים של ה־CRM?]] — בדיקת הבנה
 - [[02_CURRICULUM/system-quizzes/1.0.0/QUIZ_EVIDENCE_NEXT_STEP|לפני שמגישים · שאלה קצרה לתרגול]] — תרגול לפני הגשה
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_CRM_01|הוכחה מעשית · מודל נתונים ללקוחות ולעסקאות]] — הוכחה מעשית
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_CRM_01_BUILD|תבנית טבלה: מודל נתונים ללקוחות ולעסקאות · BUILD]] — מבנה תשובה לשיעור
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_CRM_01_DIAGNOSE|תבנית טקסט: מודל נתונים ללקוחות ולעסקאות · DIAGNOSE]] — מבנה תשובה לשיעור
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_CRM_01_TRANSFER|תבנית טקסט: מודל נתונים ללקוחות ולעסקאות · TRANSFER]] — מבנה תשובה לשיעור

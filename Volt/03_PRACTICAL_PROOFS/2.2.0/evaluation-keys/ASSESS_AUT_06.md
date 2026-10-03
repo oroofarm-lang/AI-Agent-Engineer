@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_AUT_06"
 assessment_version: "2.1.0"
 lesson_id: "AUT_06"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AUT_06]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AUT_06]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_06_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_06_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_06_TRANSFER]]"]
 ---
 
 # תנאי בדיקה: הוכחה מעשית · העברת תהליך ל־Make
@@ -41,3 +41,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AUT_06]]"]
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AUT_06|הוכחה מעשית · העברת תהליך ל־Make]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_06_BUILD|תבנית טקסט: העברת תהליך ל־Make · BUILD]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_06_DIAGNOSE|תבנית טקסט: העברת תהליך ל־Make · DIAGNOSE]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_06_TRANSFER|תבנית טקסט: העברת תהליך ל־Make · TRANSFER]] — תנאי בדיקה

@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "W09D42_ROUTERS"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "0cd7d6fc660a9a3b8313fe9cf53d7c26800a2ae4fd4d55ad91f4d0bfe2c1fe66"
-related: ["[[02_CURRICULUM/2.2.0/lessons/W09D42_ROUTERS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W09D42_ROUTERS]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W09D42_ROUTERS]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/W09D42_ROUTERS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W09D42_ROUTERS]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W09D42_ROUTERS]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W09D42_ROUTERS_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W09D42_ROUTERS_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W09D42_ROUTERS_TRANSFER]]"]
 ---
 
 # התרגול: ניתוב פניות
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/W09D42_ROUTERS]]","[[02_CURRICULUM/quiz
 - [[02_CURRICULUM/2.2.0/lessons/W09D42_ROUTERS|ניתוב פניות]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W09D42_ROUTERS|בדיקת הבנה: פנייה עוסקת גם במכירה וגם בתמיכה, ואין די מידע לבחור יעד. מה יכול הנתב להחזיר?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W09D42_ROUTERS|הוכחה מעשית · ניתוב פניות]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W09D42_ROUTERS_BUILD|תבנית טקסט: ניתוב פניות · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W09D42_ROUTERS_DIAGNOSE|תבנית טקסט: ניתוב פניות · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W09D42_ROUTERS_TRANSFER|תבנית טקסט: ניתוב פניות · TRANSFER]] — ארגון העבודה

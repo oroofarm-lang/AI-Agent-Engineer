@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "W03D15_PROJECT_AGENT_FROM_SCRATCH"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "ac014573ab7cdb6378327f6f8707bdfe265e9c04328d1e15d6c54da8d55f7d31"
-related: ["[[02_CURRICULUM/2.2.0/lessons/W03D15_PROJECT_AGENT_FROM_SCRATCH]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W03D15_PROJECT_AGENT_FROM_SCRATCH]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W03D15_PROJECT_AGENT_FROM_SCRATCH]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/W03D15_PROJECT_AGENT_FROM_SCRATCH]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W03D15_PROJECT_AGENT_FROM_SCRATCH]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W03D15_PROJECT_AGENT_FROM_SCRATCH]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W03D15_PROJECT_AGENT_FROM_SCRATCH_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W03D15_PROJECT_AGENT_FROM_SCRATCH_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W03D15_PROJECT_AGENT_FROM_SCRATCH_TRANSFER]]"]
 ---
 
 # התרגול: פרויקט: סוכן מאפס
@@ -63,3 +63,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/W03D15_PROJECT_AGENT_FROM_SCRATCH]]","[
 - [[02_CURRICULUM/2.2.0/lessons/W03D15_PROJECT_AGENT_FROM_SCRATCH|פרויקט: סוכן מאפס]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W03D15_PROJECT_AGENT_FROM_SCRATCH|בדיקת הבנה: מה בודקת הדמיה שמחזירה רצף החלטות קבוע במקום מודל אמיתי?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W03D15_PROJECT_AGENT_FROM_SCRATCH|הוכחה מעשית · פרויקט: סוכן מאפס]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W03D15_PROJECT_AGENT_FROM_SCRATCH_BUILD|תבנית טקסט: פרויקט: סוכן מאפס · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W03D15_PROJECT_AGENT_FROM_SCRATCH_DIAGNOSE|תבנית טקסט: פרויקט: סוכן מאפס · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W03D15_PROJECT_AGENT_FROM_SCRATCH_TRANSFER|תבנית טקסט: פרויקט: סוכן מאפס · TRANSFER]] — ארגון העבודה

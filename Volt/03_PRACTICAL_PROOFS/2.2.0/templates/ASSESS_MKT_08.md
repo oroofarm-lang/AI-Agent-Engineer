@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_MKT_08"
 assessment_version: "2.1.0"
 lesson_id: "MKT_08"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_08]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_08]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_08_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_08_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_08_TRANSFER]]"]
 ---
 
 # תבנית הגשה: הוכחה מעשית · קריינות, תמלול ותרגום
@@ -53,3 +53,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_08]]"]
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_08|הוכחה מעשית · קריינות, תמלול ותרגום]] — תבנית הגשה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_08_BUILD|תבנית טקסט: קריינות, תמלול ותרגום · BUILD]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_08_DIAGNOSE|תבנית טקסט: קריינות, תמלול ותרגום · DIAGNOSE]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_08_TRANSFER|תבנית טקסט: קריינות, תמלול ותרגום · TRANSFER]] — תבנית סעיף

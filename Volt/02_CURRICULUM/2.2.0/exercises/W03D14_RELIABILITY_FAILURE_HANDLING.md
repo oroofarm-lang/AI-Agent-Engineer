@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "W03D14_RELIABILITY_FAILURE_HANDLING"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "5bf786cfca5c50bef5391179d4b8bc0864e8aecd554b35d59d5336a918715862"
-related: ["[[02_CURRICULUM/2.2.0/lessons/W03D14_RELIABILITY_FAILURE_HANDLING]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W03D14_RELIABILITY_FAILURE_HANDLING]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W03D14_RELIABILITY_FAILURE_HANDLING]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/W03D14_RELIABILITY_FAILURE_HANDLING]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W03D14_RELIABILITY_FAILURE_HANDLING]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W03D14_RELIABILITY_FAILURE_HANDLING]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W03D14_RELIABILITY_FAILURE_HANDLING_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W03D14_RELIABILITY_FAILURE_HANDLING_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W03D14_RELIABILITY_FAILURE_HANDLING_TRANSFER]]"]
 ---
 
 # התרגול: טיפול בכשלים וגבולות סוכן
@@ -63,3 +63,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/W03D14_RELIABILITY_FAILURE_HANDLING]]",
 - [[02_CURRICULUM/2.2.0/lessons/W03D14_RELIABILITY_FAILURE_HANDLING|טיפול בכשלים וגבולות סוכן]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W03D14_RELIABILITY_FAILURE_HANDLING|בדיקת הבנה: פעולת כתיבה הסתיימה בהמתנה ארוכה, ולא ברור אם כבר שינתה נתונים. מה נכון לעשות לפני ניסיון חוזר?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W03D14_RELIABILITY_FAILURE_HANDLING|הוכחה מעשית · טיפול בכשלים וגבולות סוכן]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W03D14_RELIABILITY_FAILURE_HANDLING_BUILD|תבנית טקסט: טיפול בכשלים וגבולות סוכן · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W03D14_RELIABILITY_FAILURE_HANDLING_DIAGNOSE|תבנית טקסט: טיפול בכשלים וגבולות סוכן · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W03D14_RELIABILITY_FAILURE_HANDLING_TRANSFER|תבנית טקסט: טיפול בכשלים וגבולות סוכן · TRANSFER]] — ארגון העבודה

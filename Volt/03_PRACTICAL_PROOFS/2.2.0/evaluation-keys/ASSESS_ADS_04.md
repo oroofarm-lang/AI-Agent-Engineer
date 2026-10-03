@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_ADS_04"
 assessment_version: "2.1.0"
 lesson_id: "ADS_04"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_ADS_04]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_ADS_04]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_04_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_04_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_04_TRANSFER]]"]
 ---
 
 # תנאי בדיקה: הוכחה מעשית · דף נחיתה ומדידה
@@ -41,3 +41,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_ADS_04]]"]
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_ADS_04|הוכחה מעשית · דף נחיתה ומדידה]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_04_BUILD|תבנית טקסט: דף נחיתה ומדידה · BUILD]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_04_DIAGNOSE|תבנית טקסט: דף נחיתה ומדידה · DIAGNOSE]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_04_TRANSFER|תבנית טקסט: דף נחיתה ומדידה · TRANSFER]] — תנאי בדיקה

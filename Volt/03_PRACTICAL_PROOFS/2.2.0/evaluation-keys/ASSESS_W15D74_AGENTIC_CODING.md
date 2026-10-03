@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_W15D74_AGENTIC_CODING"
 assessment_version: "2.1.0"
 lesson_id: "W15D74_AGENTIC_CODING"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W15D74_AGENTIC_CODING]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W15D74_AGENTIC_CODING]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W15D74_AGENTIC_CODING_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W15D74_AGENTIC_CODING_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W15D74_AGENTIC_CODING_TRANSFER]]"]
 ---
 
 # תנאי בדיקה: הוכחה מעשית · סוכן כתיבת קוד מבוקר
@@ -41,3 +41,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W15D74_AGENTIC_CODING]]"]
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W15D74_AGENTIC_CODING|הוכחה מעשית · סוכן כתיבת קוד מבוקר]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W15D74_AGENTIC_CODING_BUILD|תבנית טקסט: סוכן כתיבת קוד מבוקר · BUILD]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W15D74_AGENTIC_CODING_DIAGNOSE|תבנית טקסט: סוכן כתיבת קוד מבוקר · DIAGNOSE]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W15D74_AGENTIC_CODING_TRANSFER|תבנית טקסט: סוכן כתיבת קוד מבוקר · TRANSFER]] — תנאי בדיקה

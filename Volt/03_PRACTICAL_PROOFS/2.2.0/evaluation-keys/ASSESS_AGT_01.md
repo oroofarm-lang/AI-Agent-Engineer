@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_AGT_01"
 assessment_version: "2.1.0"
 lesson_id: "AGT_01"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AGT_01]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AGT_01]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AGT_01_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AGT_01_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AGT_01_TRANSFER]]"]
 ---
 
 # תנאי בדיקה: הוכחה מעשית · MCP, ‏A2A ותקשורת בין סוכנים
@@ -41,3 +41,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AGT_01]]"]
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AGT_01|הוכחה מעשית · MCP, ‏A2A ותקשורת בין סוכנים]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AGT_01_BUILD|תבנית טקסט: MCP, ‏A2A ותקשורת בין סוכנים · BUILD]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AGT_01_DIAGNOSE|תבנית טקסט: MCP, ‏A2A ותקשורת בין סוכנים · DIAGNOSE]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AGT_01_TRANSFER|תבנית טקסט: MCP, ‏A2A ותקשורת בין סוכנים · TRANSFER]] — תנאי בדיקה

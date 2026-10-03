@@ -8,7 +8,7 @@ source_id: "OPENAI_WEBRTC"
 url: "https://developers.openai.com/api/docs/guides/voice-webrtc"
 last_verified: null
 technology_ids: []
-related: ["[[01_AGENTS/Agent-Voice-Audio]]","[[02_CURRICULUM/2.2.0/Index]]","[[02_CURRICULUM/2.2.0/lessons/VOI_04]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_VOI_04]]","[[04_AUTOMATIONS_AND_APIS/Knowledge-Updates]]"]
+related: ["[[01_AGENTS/Agent-Voice-Audio]]","[[02_CURRICULUM/2.2.0/Index]]","[[02_CURRICULUM/2.2.0/lessons/VOI_04]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_VOI_04]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_VOI_04_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_VOI_04_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_VOI_04_TRANSFER]]","[[04_AUTOMATIONS_AND_APIS/Knowledge-Updates]]"]
 ---
 
 # OpenAI WebRTC
@@ -29,4 +29,7 @@ related: ["[[01_AGENTS/Agent-Voice-Audio]]","[[02_CURRICULUM/2.2.0/Index]]","[[0
 - [[02_CURRICULUM/2.2.0/Index|כל הפרקים והשיעורים]] — מקור
 - [[02_CURRICULUM/2.2.0/lessons/VOI_04|שיחה חיה וקטיעות]] — מקור לשיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_VOI_04|בדיקת הבנה: משתמש קוטע תשובה קולית ומשנה את בקשתו בזמן שכלי עובד. מה צריך לנהל לצד הדיבור?]] — מקור השאלה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_VOI_04_BUILD|תבנית טקסט: שיחה חיה וקטיעות · BUILD]] — מקור לשיעור
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_VOI_04_DIAGNOSE|תבנית טקסט: שיחה חיה וקטיעות · DIAGNOSE]] — מקור לשיעור
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_VOI_04_TRANSFER|תבנית טקסט: שיחה חיה וקטיעות · TRANSFER]] — מקור לשיעור
 - [[04_AUTOMATIONS_AND_APIS/Knowledge-Updates|רענון מקורות וביקורת תוכן]] — מקור בקטלוג

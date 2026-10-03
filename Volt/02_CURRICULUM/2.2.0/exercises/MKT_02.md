@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "MKT_02"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "5218bdcf5cffb0d5de78f14d51971dd38a69cfa34b97589a551200243c64e6b6"
-related: ["[[02_CURRICULUM/2.2.0/lessons/MKT_02]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_MKT_02]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_02]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/MKT_02]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_MKT_02]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_02]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_02_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_02_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_02_TRANSFER]]"]
 ---
 
 # התרגול: מחקר קהל ומתחרים
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/MKT_02]]","[[02_CURRICULUM/quiz-banks/1
 - [[02_CURRICULUM/2.2.0/lessons/MKT_02|מחקר קהל ומתחרים]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_MKT_02|בדיקת הבנה: מתחרה פרסם הרבה סרטונים על נושא מסוים. מה אפשר להסיק מכך במחקר קהל?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_02|הוכחה מעשית · מחקר קהל ומתחרים]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_02_BUILD|תבנית טבלה: מחקר קהל ומתחרים · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_02_DIAGNOSE|תבנית טקסט: מחקר קהל ומתחרים · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_02_TRANSFER|תבנית טקסט: מחקר קהל ומתחרים · TRANSFER]] — ארגון העבודה

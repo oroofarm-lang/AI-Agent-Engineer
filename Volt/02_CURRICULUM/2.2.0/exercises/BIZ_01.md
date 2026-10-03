@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "BIZ_01"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "21fcd5848227c1305ce984bdc9f11693662f8836dd621155479478da16f43650"
-related: ["[[02_CURRICULUM/2.2.0/lessons/BIZ_01]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_BIZ_01]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_BIZ_01]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/BIZ_01]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_BIZ_01]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_BIZ_01]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_BIZ_01_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_BIZ_01_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_BIZ_01_TRANSFER]]"]
 ---
 
 # התרגול: בירור צרכים ופגישת אפיון
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/BIZ_01]]","[[02_CURRICULUM/quiz-banks/1
 - [[02_CURRICULUM/2.2.0/lessons/BIZ_01|בירור צרכים ופגישת אפיון]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_BIZ_01|בדיקת הבנה: לקוח אומר רק ״אנחנו רוצים AI״. מה צריך לברר בפגישת האפיון לפני בחירת מוצר?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_BIZ_01|הוכחה מעשית · בירור צרכים ופגישת אפיון]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_BIZ_01_BUILD|תבנית טקסט: בירור צרכים ופגישת אפיון · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_BIZ_01_DIAGNOSE|תבנית טקסט: בירור צרכים ופגישת אפיון · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_BIZ_01_TRANSFER|תבנית טקסט: בירור צרכים ופגישת אפיון · TRANSFER]] — ארגון העבודה

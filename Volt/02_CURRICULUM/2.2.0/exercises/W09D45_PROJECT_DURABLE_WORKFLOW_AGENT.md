@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "W09D45_PROJECT_DURABLE_WORKFLOW_AGENT"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "96732aaf9f6b246182cde24cdca1289d3f30baf9b737810766cef15e94c05e5f"
-related: ["[[02_CURRICULUM/2.2.0/lessons/W09D45_PROJECT_DURABLE_WORKFLOW_AGENT]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W09D45_PROJECT_DURABLE_WORKFLOW_AGENT]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W09D45_PROJECT_DURABLE_WORKFLOW_AGENT]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/W09D45_PROJECT_DURABLE_WORKFLOW_AGENT]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W09D45_PROJECT_DURABLE_WORKFLOW_AGENT]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W09D45_PROJECT_DURABLE_WORKFLOW_AGENT]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W09D45_PROJECT_DURABLE_WORKFLOW_AGENT_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W09D45_PROJECT_DURABLE_WORKFLOW_AGENT_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W09D45_PROJECT_DURABLE_WORKFLOW_AGENT_TRANSFER]]"]
 ---
 
 # התרגול: פרויקט: תהליך עבודה שנמשך לאחר תקלה
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/W09D45_PROJECT_DURABLE_WORKFLOW_AGENT]]
 - [[02_CURRICULUM/2.2.0/lessons/W09D45_PROJECT_DURABLE_WORKFLOW_AGENT|פרויקט: תהליך עבודה שנמשך לאחר תקלה]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W09D45_PROJECT_DURABLE_WORKFLOW_AGENT|בדיקת הבנה: איזה ניסוי בודק התאוששות לאחר הפעלה מחדש של תהליך העבודה?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W09D45_PROJECT_DURABLE_WORKFLOW_AGENT|הוכחה מעשית · פרויקט: תהליך עבודה שנמשך לאחר תקלה]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W09D45_PROJECT_DURABLE_WORKFLOW_AGENT_BUILD|תבנית טקסט: פרויקט: תהליך עבודה שנמשך לאחר תקלה · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W09D45_PROJECT_DURABLE_WORKFLOW_AGENT_DIAGNOSE|תבנית טקסט: פרויקט: תהליך עבודה שנמשך לאחר תקלה · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W09D45_PROJECT_DURABLE_WORKFLOW_AGENT_TRANSFER|תבנית טקסט: פרויקט: תהליך עבודה שנמשך לאחר תקלה · TRANSFER]] — ארגון העבודה

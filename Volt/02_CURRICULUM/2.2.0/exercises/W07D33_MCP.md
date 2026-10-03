@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "W07D33_MCP"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "ead2027bf5af880be3d5ff97b7585e7962b3d0e76480b2385b95bfa812a1f4b5"
-related: ["[[02_CURRICULUM/2.2.0/lessons/W07D33_MCP]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W07D33_MCP]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W07D33_MCP]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/W07D33_MCP]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W07D33_MCP]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W07D33_MCP]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W07D33_MCP_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W07D33_MCP_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W07D33_MCP_TRANSFER]]"]
 ---
 
 # התרגול: MCP: חיבור כלים והקשר
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/W07D33_MCP]]","[[02_CURRICULUM/quiz-ban
 - [[02_CURRICULUM/2.2.0/lessons/W07D33_MCP|MCP: חיבור כלים והקשר]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W07D33_MCP|בדיקת הבנה: מה ההבדל בין Tool ל־Resource בתיאור MCP שבשיעור?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W07D33_MCP|הוכחה מעשית · MCP: חיבור כלים והקשר]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W07D33_MCP_BUILD|תבנית טקסט: MCP: חיבור כלים והקשר · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W07D33_MCP_DIAGNOSE|תבנית טקסט: MCP: חיבור כלים והקשר · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W07D33_MCP_TRANSFER|תבנית טקסט: MCP: חיבור כלים והקשר · TRANSFER]] — ארגון העבודה

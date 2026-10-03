@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "DAT_03"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "6b24e48f8a3788d0fa1a8b6f57662a468cf6275c392c2362ebf2f21943ce150a"
-related: ["[[02_CURRICULUM/2.2.0/lessons/DAT_03]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_DAT_03]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_DAT_03]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/DAT_03]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_DAT_03]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_DAT_03]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_DAT_03_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_DAT_03_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_DAT_03_TRANSFER]]"]
 ---
 
 # התרגול: מודלים מקומיים ומשאבי חומרה
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/DAT_03]]","[[02_CURRICULUM/quiz-banks/1
 - [[02_CURRICULUM/2.2.0/lessons/DAT_03|מודלים מקומיים ומשאבי חומרה]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_DAT_03|בדיקת הבנה: מודל מופעל במחשב המקומי. איזו מסקנה מותר להסיק מכך בלבד?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_DAT_03|הוכחה מעשית · מודלים מקומיים ומשאבי חומרה]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_DAT_03_BUILD|תבנית טקסט: מודלים מקומיים ומשאבי חומרה · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_DAT_03_DIAGNOSE|תבנית טקסט: מודלים מקומיים ומשאבי חומרה · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_DAT_03_TRANSFER|תבנית טקסט: מודלים מקומיים ומשאבי חומרה · TRANSFER]] — ארגון העבודה

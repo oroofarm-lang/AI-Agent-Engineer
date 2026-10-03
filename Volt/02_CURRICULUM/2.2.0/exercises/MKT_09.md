@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "MKT_09"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "c1d01ae2668ff4b3f5c0f2ea3ebe2aa2fd10b0f91a5e476a19947fab778e8935"
-related: ["[[02_CURRICULUM/2.2.0/lessons/MKT_09]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_MKT_09]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_09]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/MKT_09]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_MKT_09]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_09]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_09_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_09_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_09_TRANSFER]]"]
 ---
 
 # התרגול: SEO ואישור פרסום
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/MKT_09]]","[[02_CURRICULUM/quiz-banks/1
 - [[02_CURRICULUM/2.2.0/lessons/MKT_09|SEO ואישור פרסום]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_MKT_09|בדיקת הבנה: מאמר כולל כותרת ותיאור לחיפוש, אך אינו מוסיף מידע מועיל לקורא. האם אפשר לאשר אותו רק בזכות הגדרות ה־SEO?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_09|הוכחה מעשית · SEO ואישור פרסום]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_09_BUILD|תבנית טקסט: SEO ואישור פרסום · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_09_DIAGNOSE|תבנית טקסט: SEO ואישור פרסום · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_09_TRANSFER|תבנית טקסט: SEO ואישור פרסום · TRANSFER]] — ארגון העבודה

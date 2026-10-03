@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_W14D66_FRONTEND_FUNDAMENTALS"
 assessment_version: "2.1.0"
 lesson_id: "W14D66_FRONTEND_FUNDAMENTALS"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W14D66_FRONTEND_FUNDAMENTALS]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W14D66_FRONTEND_FUNDAMENTALS]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W14D66_FRONTEND_FUNDAMENTALS_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W14D66_FRONTEND_FUNDAMENTALS_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W14D66_FRONTEND_FUNDAMENTALS_TRANSFER]]"]
 ---
 
 # תנאי בדיקה: הוכחה מעשית · React ו־Next.js למערכות AI
@@ -41,3 +41,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W14D66_FRONTEND_FUNDAMENTA
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W14D66_FRONTEND_FUNDAMENTALS|הוכחה מעשית · React ו־Next.js למערכות AI]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W14D66_FRONTEND_FUNDAMENTALS_BUILD|תבנית טקסט: React ו־Next.js למערכות AI · BUILD]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W14D66_FRONTEND_FUNDAMENTALS_DIAGNOSE|תבנית טקסט: React ו־Next.js למערכות AI · DIAGNOSE]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W14D66_FRONTEND_FUNDAMENTALS_TRANSFER|תבנית טקסט: React ו־Next.js למערכות AI · TRANSFER]] — תנאי בדיקה

@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "W12D58_AUTHENTICATION_AUTHORIZATION"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "34c6755a284000ee88c38ea98a0c09923d543b0c428bedd19eb0f4d32bcc455b"
-related: ["[[02_CURRICULUM/2.2.0/lessons/W12D58_AUTHENTICATION_AUTHORIZATION]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W12D58_AUTHENTICATION_AUTHORIZATION]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W12D58_AUTHENTICATION_AUTHORIZATION]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/W12D58_AUTHENTICATION_AUTHORIZATION]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W12D58_AUTHENTICATION_AUTHORIZATION]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W12D58_AUTHENTICATION_AUTHORIZATION]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W12D58_AUTHENTICATION_AUTHORIZATION_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W12D58_AUTHENTICATION_AUTHORIZATION_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W12D58_AUTHENTICATION_AUTHORIZATION_TRANSFER]]"]
 ---
 
 # התרגול: זהות, הרשאה ובידוד לקוחות
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/W12D58_AUTHENTICATION_AUTHORIZATION]]",
 - [[02_CURRICULUM/2.2.0/lessons/W12D58_AUTHENTICATION_AUTHORIZATION|זהות, הרשאה ובידוד לקוחות]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W12D58_AUTHENTICATION_AUTHORIZATION|בדיקת הבנה: משתמש נכנס לחשבון ושינה tenant_id בבקשה. מדוע אין בכך הרשאה לקרוא לקוח אחר?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W12D58_AUTHENTICATION_AUTHORIZATION|הוכחה מעשית · זהות, הרשאה ובידוד לקוחות]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W12D58_AUTHENTICATION_AUTHORIZATION_BUILD|תבנית טקסט: זהות, הרשאה ובידוד לקוחות · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W12D58_AUTHENTICATION_AUTHORIZATION_DIAGNOSE|תבנית טקסט: זהות, הרשאה ובידוד לקוחות · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W12D58_AUTHENTICATION_AUTHORIZATION_TRANSFER|תבנית טקסט: זהות, הרשאה ובידוד לקוחות · TRANSFER]] — ארגון העבודה

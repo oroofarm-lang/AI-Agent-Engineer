@@ -4,7 +4,10 @@ import { createHash } from 'node:crypto';
 import { publicAssetCatalog, publicApiCatalog } from './lib/vault-export.mjs';
 const assets = publicAssetCatalog.map((asset) => {
   if (
-    !/^(src\/components|content\/labs|public\/course-data)\//.test(asset.sourcePath) ||
+    !(
+      /^(src\/components|content\/labs|public\/course-data)\//.test(asset.sourcePath) ||
+      /^src\/lib\/templates\/(schema|formats)\.ts$/.test(asset.sourcePath)
+    ) ||
     asset.sourcePath.split('/').some((part) => part === '..')
   )
     throw new Error('INVALID_PUBLIC_ASSET');

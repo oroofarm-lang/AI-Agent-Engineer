@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "W07D35_PROJECT_OPERATIONS_AGENT"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "4014d70c9aa79ca6207bfa4b10d7de682d8ac589ba57defd6621f5eb3ba4dc3f"
-related: ["[[02_CURRICULUM/2.2.0/lessons/W07D35_PROJECT_OPERATIONS_AGENT]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W07D35_PROJECT_OPERATIONS_AGENT]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W07D35_PROJECT_OPERATIONS_AGENT]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/W07D35_PROJECT_OPERATIONS_AGENT]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W07D35_PROJECT_OPERATIONS_AGENT]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W07D35_PROJECT_OPERATIONS_AGENT]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W07D35_PROJECT_OPERATIONS_AGENT_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W07D35_PROJECT_OPERATIONS_AGENT_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W07D35_PROJECT_OPERATIONS_AGENT_TRANSFER]]"]
 ---
 
 # התרגול: פרויקט: סוכן תפעול
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/W07D35_PROJECT_OPERATIONS_AGENT]]","[[0
 - [[02_CURRICULUM/2.2.0/lessons/W07D35_PROJECT_OPERATIONS_AGENT|פרויקט: סוכן תפעול]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W07D35_PROJECT_OPERATIONS_AGENT|בדיקת הבנה: הסוכן הכין טיוטת עדכון CRM אך טרם קיבל אישור. מה מותר להציג?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W07D35_PROJECT_OPERATIONS_AGENT|הוכחה מעשית · פרויקט: סוכן תפעול]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W07D35_PROJECT_OPERATIONS_AGENT_BUILD|תבנית טקסט: פרויקט: סוכן תפעול · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W07D35_PROJECT_OPERATIONS_AGENT_DIAGNOSE|תבנית טקסט: פרויקט: סוכן תפעול · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W07D35_PROJECT_OPERATIONS_AGENT_TRANSFER|תבנית טקסט: פרויקט: סוכן תפעול · TRANSFER]] — ארגון העבודה

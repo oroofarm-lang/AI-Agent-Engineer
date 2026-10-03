@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_W15D73_DYNAMIC_TOOLS"
 assessment_version: "2.1.0"
 lesson_id: "W15D73_DYNAMIC_TOOLS"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W15D73_DYNAMIC_TOOLS]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W15D73_DYNAMIC_TOOLS]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W15D73_DYNAMIC_TOOLS_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W15D73_DYNAMIC_TOOLS_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W15D73_DYNAMIC_TOOLS_TRANSFER]]"]
 ---
 
 # תבנית הגשה: הוכחה מעשית · גילוי כלים דינמי
@@ -53,3 +53,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W15D73_DYNAMIC_TOOLS]]"]
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W15D73_DYNAMIC_TOOLS|הוכחה מעשית · גילוי כלים דינמי]] — תבנית הגשה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W15D73_DYNAMIC_TOOLS_BUILD|תבנית טקסט: גילוי כלים דינמי · BUILD]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W15D73_DYNAMIC_TOOLS_DIAGNOSE|תבנית טקסט: גילוי כלים דינמי · DIAGNOSE]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W15D73_DYNAMIC_TOOLS_TRANSFER|תבנית טקסט: גילוי כלים דינמי · TRANSFER]] — תבנית סעיף

@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "W10D48_HANDOFFS"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "dc4463d168a6b0a170f2060e8ad8a9468a8c208457cd87d12d37fc494bb9ea97"
-related: ["[[02_CURRICULUM/2.2.0/lessons/W10D48_HANDOFFS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W10D48_HANDOFFS]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W10D48_HANDOFFS]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/W10D48_HANDOFFS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W10D48_HANDOFFS]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W10D48_HANDOFFS]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W10D48_HANDOFFS_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W10D48_HANDOFFS_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W10D48_HANDOFFS_TRANSFER]]"]
 ---
 
 # התרגול: העברת אחריות בין סוכנים
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/W10D48_HANDOFFS]]","[[02_CURRICULUM/qui
 - [[02_CURRICULUM/2.2.0/lessons/W10D48_HANDOFFS|העברת אחריות בין סוכנים]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W10D48_HANDOFFS|בדיקת הבנה: מה מבדיל Handoff מבקשה למומחה לבצע חישוב?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W10D48_HANDOFFS|הוכחה מעשית · העברת אחריות בין סוכנים]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W10D48_HANDOFFS_BUILD|תבנית טקסט: העברת אחריות בין סוכנים · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W10D48_HANDOFFS_DIAGNOSE|תבנית טקסט: העברת אחריות בין סוכנים · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W10D48_HANDOFFS_TRANSFER|תבנית טקסט: העברת אחריות בין סוכנים · TRANSFER]] — ארגון העבודה

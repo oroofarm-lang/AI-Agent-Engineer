@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "MKT_05"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "5b0b8669bfecaefea682c9366dc1dc0a0e8a48eafb36b2d57507da20c1548a86"
-related: ["[[02_CURRICULUM/2.2.0/lessons/MKT_05]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_MKT_05]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_05]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/MKT_05]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_MKT_05]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_05]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_05_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_05_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_05_TRANSFER]]"]
 ---
 
 # התרגול: מקור אחד לכמה פורמטים
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/MKT_05]]","[[02_CURRICULUM/quiz-banks/1
 - [[02_CURRICULUM/2.2.0/lessons/MKT_05|מקור אחד לכמה פורמטים]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_MKT_05|בדיקת הבנה: מאמר אומר שהשירות זמין רק ללקוחות רשומים, אך הפוסט המקוצר משמיט את התנאי. האם זו התאמה תקינה לפורמט?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_05|הוכחה מעשית · מקור אחד לכמה פורמטים]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_05_BUILD|תבנית טבלה: מקור אחד לכמה פורמטים · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_05_DIAGNOSE|תבנית טקסט: מקור אחד לכמה פורמטים · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_05_TRANSFER|תבנית טקסט: מקור אחד לכמה פורמטים · TRANSFER]] — ארגון העבודה

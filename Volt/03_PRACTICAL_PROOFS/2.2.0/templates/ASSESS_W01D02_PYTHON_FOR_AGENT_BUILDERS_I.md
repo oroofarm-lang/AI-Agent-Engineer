@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_W01D02_PYTHON_FOR_AGENT_BUILDERS_I"
 assessment_version: "2.2.0"
 lesson_id: "W01D02_PYTHON_FOR_AGENT_BUILDERS_I"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W01D02_PYTHON_FOR_AGENT_BUILDERS_I]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W01D02_PYTHON_FOR_AGENT_BUILDERS_I]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W01D02_PYTHON_FOR_AGENT_BUILDERS_I_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W01D02_PYTHON_FOR_AGENT_BUILDERS_I_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W01D02_PYTHON_FOR_AGENT_BUILDERS_I_TRANSFER]]"]
 ---
 
 # תבנית הגשה: הוכחה מעשית · Python לבוני סוכנים · חלק א׳
@@ -53,3 +53,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W01D02_PYTHON_FOR_AGENT_BU
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W01D02_PYTHON_FOR_AGENT_BUILDERS_I|הוכחה מעשית · Python לבוני סוכנים · חלק א׳]] — תבנית הגשה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W01D02_PYTHON_FOR_AGENT_BUILDERS_I_BUILD|תבנית טקסט: Python לבוני סוכנים · חלק א׳ · BUILD]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W01D02_PYTHON_FOR_AGENT_BUILDERS_I_DIAGNOSE|תבנית טקסט: Python לבוני סוכנים · חלק א׳ · DIAGNOSE]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W01D02_PYTHON_FOR_AGENT_BUILDERS_I_TRANSFER|תבנית טקסט: Python לבוני סוכנים · חלק א׳ · TRANSFER]] — תבנית סעיף

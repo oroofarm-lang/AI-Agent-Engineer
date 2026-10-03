@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "FND_01"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "8e081bffb45c98522a5f8e79b0c412fc505481baf1fcc27f9986ecc7707865fb"
-related: ["[[02_CURRICULUM/2.2.0/lessons/FND_01]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_FND_01]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_FND_01]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/FND_01]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_FND_01]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_FND_01]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_FND_01_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_FND_01_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_FND_01_TRANSFER]]"]
 ---
 
 # התרגול: מפת עולם ה־AI
@@ -98,3 +98,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/FND_01]]","[[02_CURRICULUM/quiz-banks/1
 - [[02_CURRICULUM/2.2.0/lessons/FND_01|מפת עולם ה־AI]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_FND_01|בדיקת הבנה: לקוח כתב ״אני צריך התקנה ביום ראשון״. מדוע עדיין אי אפשר להציע לו את מחיר P1 שבדוגמה?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_FND_01|הוכחה מעשית · מפת עולם ה־AI]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_FND_01_BUILD|תבנית טבלה: מפת עולם ה־AI · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_FND_01_DIAGNOSE|תבנית טקסט: מפת עולם ה־AI · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_FND_01_TRANSFER|תבנית טקסט: מפת עולם ה־AI · TRANSFER]] — ארגון העבודה

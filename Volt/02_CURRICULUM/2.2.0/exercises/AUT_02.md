@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "AUT_02"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "10a07331361547b01f8826b02d840671eda060c906ea14805795b9657fb2e3d9"
-related: ["[[02_CURRICULUM/2.2.0/lessons/AUT_02]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_AUT_02]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AUT_02]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/AUT_02]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_AUT_02]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AUT_02]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_02_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_02_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_02_TRANSFER]]"]
 ---
 
 # התרגול: חיבור גיליון, דוא״ל ומערכת CRM
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/AUT_02]]","[[02_CURRICULUM/quiz-banks/1
 - [[02_CURRICULUM/2.2.0/lessons/AUT_02|חיבור גיליון, דוא״ל ומערכת CRM]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_AUT_02|בדיקת הבנה: בגיליון יש שני לקוחות בעלי אותו שם. על מה נכון לבסס סנכרון של רשומה חוזרת?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AUT_02|הוכחה מעשית · חיבור גיליון, דוא״ל ומערכת CRM]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_02_BUILD|תבנית טקסט: חיבור גיליון, דוא״ל ומערכת CRM · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_02_DIAGNOSE|תבנית טקסט: חיבור גיליון, דוא״ל ומערכת CRM · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_02_TRANSFER|תבנית טקסט: חיבור גיליון, דוא״ל ומערכת CRM · TRANSFER]] — ארגון העבודה

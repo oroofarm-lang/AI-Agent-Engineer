@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_W10D48_HANDOFFS"
 assessment_version: "2.1.0"
 lesson_id: "W10D48_HANDOFFS"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W10D48_HANDOFFS]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W10D48_HANDOFFS]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W10D48_HANDOFFS_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W10D48_HANDOFFS_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W10D48_HANDOFFS_TRANSFER]]"]
 ---
 
 # תבנית הגשה: הוכחה מעשית · העברת אחריות בין סוכנים
@@ -53,3 +53,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W10D48_HANDOFFS]]"]
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W10D48_HANDOFFS|הוכחה מעשית · העברת אחריות בין סוכנים]] — תבנית הגשה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W10D48_HANDOFFS_BUILD|תבנית טקסט: העברת אחריות בין סוכנים · BUILD]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W10D48_HANDOFFS_DIAGNOSE|תבנית טקסט: העברת אחריות בין סוכנים · DIAGNOSE]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W10D48_HANDOFFS_TRANSFER|תבנית טקסט: העברת אחריות בין סוכנים · TRANSFER]] — תבנית סעיף

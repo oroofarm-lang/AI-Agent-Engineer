@@ -8,7 +8,7 @@ source_id: "OPENAI_DATA"
 url: "https://developers.openai.com/api/docs/guides/your-data"
 last_verified: null
 technology_ids: []
-related: ["[[01_AGENTS/Agent-Security-Auditor]]","[[02_CURRICULUM/2.2.0/Index]]","[[02_CURRICULUM/2.2.0/lessons/BIZ_04]]","[[02_CURRICULUM/2.2.0/lessons/DAT_03]]","[[02_CURRICULUM/2.2.0/lessons/FND_02]]","[[02_CURRICULUM/2.2.0/lessons/W14D69_PRODUCTION_CONCERNS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_BIZ_04]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_DAT_03]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_FND_02]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W14D69_PRODUCTION_CONCERNS]]","[[04_AUTOMATIONS_AND_APIS/Knowledge-Updates]]"]
+related: ["[[01_AGENTS/Agent-Security-Auditor]]","[[02_CURRICULUM/2.2.0/Index]]","[[02_CURRICULUM/2.2.0/lessons/BIZ_04]]","[[02_CURRICULUM/2.2.0/lessons/DAT_03]]","[[02_CURRICULUM/2.2.0/lessons/FND_02]]","[[02_CURRICULUM/2.2.0/lessons/W14D69_PRODUCTION_CONCERNS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_BIZ_04]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_DAT_03]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_FND_02]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W14D69_PRODUCTION_CONCERNS]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_BIZ_04_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_BIZ_04_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_BIZ_04_TRANSFER]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_DAT_03_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_DAT_03_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_DAT_03_TRANSFER]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_FND_02_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_FND_02_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_FND_02_TRANSFER]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W14D69_PRODUCTION_CONCERNS_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W14D69_PRODUCTION_CONCERNS_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W14D69_PRODUCTION_CONCERNS_TRANSFER]]","[[04_AUTOMATIONS_AND_APIS/Knowledge-Updates]]"]
 ---
 
 # OpenAI data controls
@@ -35,4 +35,16 @@ related: ["[[01_AGENTS/Agent-Security-Auditor]]","[[02_CURRICULUM/2.2.0/Index]]"
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_DAT_03|בדיקת הבנה: מודל מופעל במחשב המקומי. איזו מסקנה מותר להסיק מכך בלבד?]] — מקור השאלה
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_FND_02|בדיקת הבנה: מהי השוואה מתאימה לבחירת מודל למשימת חילוץ?]] — מקור השאלה
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W14D69_PRODUCTION_CONCERNS|בדיקת הבנה: מה צריך מפתח המטמון להביא בחשבון כדי שלא להחזיר מידע ישן או של לקוח אחר?]] — מקור השאלה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_BIZ_04_BUILD|תבנית טקסט: חשבונות לקוח, מידע והרשאות · BUILD]] — מקור לשיעור
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_BIZ_04_DIAGNOSE|תבנית טקסט: חשבונות לקוח, מידע והרשאות · DIAGNOSE]] — מקור לשיעור
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_BIZ_04_TRANSFER|תבנית טקסט: חשבונות לקוח, מידע והרשאות · TRANSFER]] — מקור לשיעור
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_DAT_03_BUILD|תבנית טקסט: מודלים מקומיים ומשאבי חומרה · BUILD]] — מקור לשיעור
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_DAT_03_DIAGNOSE|תבנית טקסט: מודלים מקומיים ומשאבי חומרה · DIAGNOSE]] — מקור לשיעור
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_DAT_03_TRANSFER|תבנית טקסט: מודלים מקומיים ומשאבי חומרה · TRANSFER]] — מקור לשיעור
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_FND_02_BUILD|תבנית טבלה: בחירת מודלים לפי מדידה · BUILD]] — מקור לשיעור
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_FND_02_DIAGNOSE|תבנית טקסט: בחירת מודלים לפי מדידה · DIAGNOSE]] — מקור לשיעור
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_FND_02_TRANSFER|תבנית טקסט: בחירת מודלים לפי מדידה · TRANSFER]] — מקור לשיעור
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W14D69_PRODUCTION_CONCERNS_BUILD|תבנית טקסט: עלות, ביצועים וניטור · BUILD]] — מקור לשיעור
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W14D69_PRODUCTION_CONCERNS_DIAGNOSE|תבנית טקסט: עלות, ביצועים וניטור · DIAGNOSE]] — מקור לשיעור
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W14D69_PRODUCTION_CONCERNS_TRANSFER|תבנית טקסט: עלות, ביצועים וניטור · TRANSFER]] — מקור לשיעור
 - [[04_AUTOMATIONS_AND_APIS/Knowledge-Updates|רענון מקורות וביקורת תוכן]] — מקור בקטלוג

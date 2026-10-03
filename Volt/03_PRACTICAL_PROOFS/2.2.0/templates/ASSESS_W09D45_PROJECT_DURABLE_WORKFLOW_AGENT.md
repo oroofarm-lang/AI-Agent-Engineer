@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_W09D45_PROJECT_DURABLE_WORKFLOW_AGENT"
 assessment_version: "2.1.0"
 lesson_id: "W09D45_PROJECT_DURABLE_WORKFLOW_AGENT"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W09D45_PROJECT_DURABLE_WORKFLOW_AGENT]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W09D45_PROJECT_DURABLE_WORKFLOW_AGENT]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W09D45_PROJECT_DURABLE_WORKFLOW_AGENT_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W09D45_PROJECT_DURABLE_WORKFLOW_AGENT_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W09D45_PROJECT_DURABLE_WORKFLOW_AGENT_TRANSFER]]"]
 ---
 
 # תבנית הגשה: הוכחה מעשית · פרויקט: תהליך עבודה שנמשך לאחר תקלה
@@ -53,3 +53,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W09D45_PROJECT_DURABLE_WOR
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W09D45_PROJECT_DURABLE_WORKFLOW_AGENT|הוכחה מעשית · פרויקט: תהליך עבודה שנמשך לאחר תקלה]] — תבנית הגשה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W09D45_PROJECT_DURABLE_WORKFLOW_AGENT_BUILD|תבנית טקסט: פרויקט: תהליך עבודה שנמשך לאחר תקלה · BUILD]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W09D45_PROJECT_DURABLE_WORKFLOW_AGENT_DIAGNOSE|תבנית טקסט: פרויקט: תהליך עבודה שנמשך לאחר תקלה · DIAGNOSE]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W09D45_PROJECT_DURABLE_WORKFLOW_AGENT_TRANSFER|תבנית טקסט: פרויקט: תהליך עבודה שנמשך לאחר תקלה · TRANSFER]] — תבנית סעיף

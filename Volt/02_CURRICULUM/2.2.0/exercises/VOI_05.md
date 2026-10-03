@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "VOI_05"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "86d3c7eb559180857812cee666c5fc8aa418f6883d29e022638bec33f37ebc8f"
-related: ["[[02_CURRICULUM/2.2.0/lessons/VOI_05]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_VOI_05]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_VOI_05]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/VOI_05]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_VOI_05]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_VOI_05]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_VOI_05_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_VOI_05_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_VOI_05_TRANSFER]]"]
 ---
 
 # התרגול: העברה לאדם ותיאום פגישות
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/VOI_05]]","[[02_CURRICULUM/quiz-banks/1
 - [[02_CURRICULUM/2.2.0/lessons/VOI_05|העברה לאדם ותיאום פגישות]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_VOI_05|בדיקת הבנה: העוזר הציע שעה לפגישה, אבל היומן עדיין לא אישר שהפגישה נשמרה. איך נכון להציג את המצב?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_VOI_05|הוכחה מעשית · העברה לאדם ותיאום פגישות]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_VOI_05_BUILD|תבנית טקסט: העברה לאדם ותיאום פגישות · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_VOI_05_DIAGNOSE|תבנית טקסט: העברה לאדם ותיאום פגישות · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_VOI_05_TRANSFER|תבנית טקסט: העברה לאדם ותיאום פגישות · TRANSFER]] — ארגון העבודה

@@ -1,5 +1,6 @@
 import { createHash } from 'node:crypto';
 import { focusedCanvas } from './vault-canvas.mjs';
+import { addTemplateWorkspaces } from './vault-templates.mjs';
 
 const stableId = /^[A-Za-z][A-Za-z0-9_.-]*$/;
 const digest = (value) => createHash('sha256').update(value).digest('hex');
@@ -9,6 +10,22 @@ const wikilink = (file, title) => `[[${file.replace(/\.md$/, '')}|${safeTitle(ti
 
 /** Public source descriptors point to real files; they are not uploaded learner artifacts. */
 export const publicAssetCatalog = [
+  {
+    id: 'TEMPLATE_SCHEMA',
+    title: 'סכמות תבניות טקסט וטבלה',
+    sourcePath: 'src/lib/templates/schema.ts',
+    kind: 'template-schema',
+    moduleIds: ['PRODUCT', 'QUALITY'],
+    agentIds: ['Agent-Curriculum-Pedagogy', 'Agent-Hebrew-UX'],
+  },
+  {
+    id: 'TEMPLATE_FORMATS',
+    title: 'ייבוא וייצוא של תבניות העבודה',
+    sourcePath: 'src/lib/templates/formats.ts',
+    kind: 'template-code',
+    moduleIds: ['PRODUCT', 'QUALITY'],
+    agentIds: ['Agent-Curriculum-Pedagogy', 'Agent-Progress-Tracker'],
+  },
   {
     id: 'VAULT_SYNC_COMPONENT',
     title: 'גרסת מפת הידע ועדכון הייצוא',
@@ -366,7 +383,10 @@ function safePublicSource(sourcePath) {
     typeof sourcePath !== 'string' ||
     sourcePath.includes('\\') ||
     sourcePath.split('/').some((part) => !part || part === '.' || part === '..') ||
-    !/^(src|content\/labs|public\/course-data|scripts)\//.test(sourcePath)
+    !(
+      /^(src|content\/labs|public\/course-data|scripts)\//.test(sourcePath) ||
+      /^content\/templates\/releases\/\d{1,4}\.\d{1,4}\.\d{1,4}\.json$/.test(sourcePath)
+    )
   )
     throw new Error('Invalid public source path');
   return sourcePath;
@@ -397,6 +417,7 @@ export function buildVaultFiles({
   publishedQuizBank,
   systemQuestion,
   knowledgeRegistry,
+  templateCatalog,
   publicAssets = publicAssetCatalog,
   apis = publicApiCatalog,
 }) {
@@ -1089,6 +1110,20 @@ export function buildVaultFiles({
     }
     systemQuizzes = 1;
   }
+  const templateWorkspaces = addTemplateWorkspaces({
+    catalog: templateCatalog,
+    assessments,
+    lessons,
+    registry,
+    paths: {
+      ...paths,
+      moduleLessons: new Map(modules.map((chapter) => [chapter.id, chapter.lessonIds])),
+    },
+    add,
+    connect,
+    sectionIndex: sectionIndexes.proofs,
+    sourceLink,
+  });
   // Keep each chapter and specialist navigable without zooming through the full graph.
   // These are projections of existing relationships, never fabricated connections.
   const focusedMaps = [];
@@ -1120,6 +1155,15 @@ export function buildVaultFiles({
           files: chapter.lessonIds.map((id) => paths.proof.get(id)).filter(Boolean),
           color: '4',
         },
+        ...(templateWorkspaces.count
+          ? [
+              {
+                label: 'מבנה תבניות טקסט וטבלה · טרם חוברו לעורך',
+                files: chapter.lessonIds.flatMap((id) => templateWorkspaces.byLesson.get(id) || []),
+                color: '3',
+              },
+            ]
+          : []),
         {
           label: 'שאלות לחיזוק ההבנה · טיוטות מסומנות ברשומות',
           files: neighbors(lessonFiles, ['quiz']),
@@ -1149,6 +1193,15 @@ export function buildVaultFiles({
         { label: 'פרקים הקשורים לתחום העזרה', files: neighbors([root], ['module']), color: '5' },
         { label: 'מיומנויות ומקורות', files: neighbors([root], ['skill', 'source']), color: '2' },
         { label: 'כלים וממשקי הפעלה', files: neighbors([root], ['tool', 'api']), color: '6' },
+        ...(templateWorkspaces.count
+          ? [
+              {
+                label: 'הגדרות תבניות הקשורות לתחום העזרה',
+                files: neighbors([root], ['interactive-template']),
+                color: '3',
+              },
+            ]
+          : []),
         {
           label: 'תיאום הצוות וכללי הפעולה',
           files: neighbors([root], ['orchestration', 'automation', 'index']),
@@ -1193,7 +1246,13 @@ export function buildVaultFiles({
   const buckets = [
     ['מערכת ומומחים', ['root', 'index', 'orchestration', 'agent'], 0, 0, '#4'],
     ['פרקים ושיעורים', ['module', 'lesson', 'exercise'], 5000, 0, '#5'],
-    ['הוכחות מעשיות', ['proof', 'submission-template', 'evaluation-key'], 10000, 0, '#3'],
+    [
+      'הוכחות מעשיות',
+      ['proof', 'submission-template', 'evaluation-key', 'interactive-template'],
+      10000,
+      0,
+      '#3',
+    ],
     ['מיומנויות ומקורות', ['skill', 'source', 'quiz'], 15000, 0, '#2'],
     [
       'ממשקים וקובצי עזר',
@@ -1354,6 +1413,7 @@ export function buildVaultFiles({
       skills: skills.length,
       sources: sources.length,
       rubrics: assessments.length,
+      templateWorkspaces: templateWorkspaces.count,
       exercises: paths.exercise.size,
       agents: registry.agents.length,
       tools: registry.tools.length,

@@ -722,6 +722,7 @@ describe('protected public vault writer', () => {
       version: '2.2.1',
       curriculumHash: 'b'.repeat(64),
       quizBankHash: null,
+      templateCatalogHash: null,
     });
     expect(await fs.readFile(path.join(folder, 'Index.md'), 'utf8')).toBe('# second');
   });
@@ -735,6 +736,7 @@ describe('protected public vault writer', () => {
       version: curriculum.version,
       curriculumHash: null,
       quizBankHash: null,
+      templateCatalogHash: null,
     });
     await writeVaultFiles({
       vaultRoot: folder,
@@ -742,12 +744,14 @@ describe('protected public vault writer', () => {
       version: curriculum.version,
       curriculumHash: 'c'.repeat(64),
       quizBankHash: null,
+      templateCatalogHash: null,
     });
     const open = vi.spyOn(fs, 'open');
     expect(await readVaultManifest(folder)).toEqual({
       version: curriculum.version,
       curriculumHash: 'c'.repeat(64),
       quizBankHash: null,
+      templateCatalogHash: null,
     });
     expect(open.mock.calls).toHaveLength(1);
     expect(String(open.mock.calls[0][0])).toBe(
@@ -770,6 +774,7 @@ describe('protected public vault writer', () => {
       version: curriculum.version,
       curriculumHash: 'd'.repeat(64),
       quizBankHash: 'e'.repeat(64),
+      templateCatalogHash: null,
     });
     const file = path.join(folder, '.course-export.json');
     const previous = await fs.readFile(file, 'utf8');
@@ -945,5 +950,115 @@ describe('protected public vault writer', () => {
     expect(await fs.readFile(path.join(folder, 'Index.md'), 'utf8')).toBe('# original');
     expect(existsSync(path.join(folder, '01_AGENTS', 'Agent-Test.md'))).toBe(false);
     expect(await fs.readFile(path.join(folder, '.course-export.json'), 'utf8')).toBe(oldManifest);
+  });
+});
+
+describe('public interactive-template structure projection', () => {
+  it('links all 418 exact definitions to real lessons, rubrics, skills, sources, specialists and code', () => {
+    const templateCatalog = JSON.parse(
+      readFileSync('content/templates/releases/1.0.0.json', 'utf8'),
+    );
+    const result = builder.buildVaultFiles({ curriculum, lessonBodies, registry, templateCatalog });
+    expect(result.counts.templateWorkspaces).toBe(418);
+    expect(result.counts.canvasFileNodes).toBe(result.counts.documents);
+    const links = new Set(result.relations.map((edge) => `${edge.from}\0${edge.to}`));
+    const canvas = JSON.parse(result.files.get('Root_Knowledge_Graph.canvas')!);
+    const nodes = new Set(
+      canvas.nodes
+        .filter((node: { type: string }) => node.type === 'file')
+        .map((node: { file: string }) => node.file),
+    );
+    for (const definition of templateCatalog.templates) {
+      const file = `03_PRACTICAL_PROOFS/template-workspaces/1.0.0/${definition.id}.md`;
+      const note = result.files.get(file)!;
+      expect(note).toContain(definition.prompt);
+      expect(note).toContain('definitions-and-formats-only');
+      expect(note).toContain('זו הגדרת תבנית בלבד');
+      expect(nodes.has(file)).toBe(true);
+      for (const related of [
+        `02_CURRICULUM/${curriculum.version}/lessons/${definition.lessonId}.md`,
+        `03_PRACTICAL_PROOFS/${curriculum.version}/rubrics/${definition.assessmentId}.md`,
+        '04_AUTOMATIONS_AND_APIS/assets/TEMPLATE_SCHEMA.md',
+        '04_AUTOMATIONS_AND_APIS/assets/TEMPLATE_FORMATS.md',
+        '01_AGENTS/Orchestrator-Prime.md',
+      ]) {
+        expect(links.has(`${file}\0${related}`)).toBe(true);
+        expect(links.has(`${related}\0${file}`)).toBe(true);
+      }
+      const chapter = curriculum.modules!.find((item) =>
+        item.lessonIds.includes(definition.lessonId),
+      )!;
+      const chapterCanvas = JSON.parse(
+        result.files.get(`02_CURRICULUM/${curriculum.version}/maps/${chapter.id}.canvas`)!,
+      );
+      expect(chapterCanvas.nodes.some((node: { file: string }) => node.file === file)).toBe(true);
+    }
+    expect(
+      JSON.parse(result.files.get('01_AGENTS/maps/Orchestrator-Prime.canvas')!).nodes.filter(
+        (node: { file?: string }) => node.file?.includes('template-workspaces/1.0.0/TEMPLATE_'),
+      ),
+    ).toHaveLength(418);
+  });
+  it('rejects missing or drifted bindings and never serializes unknown private fields', () => {
+    const templateCatalog = JSON.parse(
+      readFileSync('content/templates/releases/1.0.0.json', 'utf8'),
+    );
+    expect(() =>
+      builder.buildVaultFiles({
+        curriculum,
+        lessonBodies,
+        registry,
+        templateCatalog: { ...templateCatalog, templates: templateCatalog.templates.slice(1) },
+      }),
+    ).toThrow('Template coverage mismatch');
+    const drifted = structuredClone(templateCatalog);
+    drifted.templates[0].prompt += ' change';
+    expect(() =>
+      builder.buildVaultFiles({ curriculum, lessonBodies, registry, templateCatalog: drifted }),
+    ).toThrow('Template criterion mismatch');
+    templateCatalog.templates[0].privateLearnerNotes = 'PRIVATE_FIXTURE_NOT_FOR_EXPORT';
+    templateCatalog.userId = 'PRIVATE_FIXTURE_NOT_FOR_EXPORT';
+    const result = builder.buildVaultFiles({ curriculum, lessonBodies, registry, templateCatalog });
+    expect(
+      [...result.files.values()].some((body) => body.includes('PRIVATE_FIXTURE_NOT_FOR_EXPORT')),
+    ).toBe(false);
+    const changedCourse = builder.buildVaultFiles({
+      curriculum: { ...curriculum, version: '2.2.1' },
+      lessonBodies,
+      registry,
+      templateCatalog,
+    });
+    expect(changedCourse.counts.templateWorkspaces).toBe(418);
+    expect(
+      changedCourse.files.get('03_PRACTICAL_PROOFS/template-workspaces/1.0.0/Index.md'),
+    ).toContain('source_curriculum_version: "2.2.0"');
+  });
+  it('records template identity separately from a fixed course and bank and rejects malformed metadata without writes', async () => {
+    const folder = await newVault();
+    const { writeVaultFiles, readVaultManifest } = await import(writerPath);
+    const projection = {
+      vaultRoot: folder,
+      files: new Map([['Index.md', '# public']]),
+      version: curriculum.version,
+      curriculumHash: 'd'.repeat(64),
+      quizBankHash: null,
+    };
+    await writeVaultFiles({ ...projection, templateCatalogHash: 'f'.repeat(64) });
+    expect(await readVaultManifest(folder)).toMatchObject({ templateCatalogHash: 'f'.repeat(64) });
+    await writeVaultFiles({ ...projection, templateCatalogHash: 'a'.repeat(64) });
+    expect(await readVaultManifest(folder)).toMatchObject({
+      version: curriculum.version,
+      templateCatalogHash: 'a'.repeat(64),
+    });
+    const file = path.join(folder, '.course-export.json'),
+      before = await fs.readFile(file, 'utf8');
+    await expect(writeVaultFiles({ ...projection, templateCatalogHash: 'bad' })).rejects.toThrow(
+      'INVALID_VAULT_EXPORT',
+    );
+    expect(await fs.readFile(file, 'utf8')).toBe(before);
+    const malformed = JSON.parse(before);
+    malformed.templateCatalogHash = 123;
+    await fs.writeFile(file, JSON.stringify(malformed));
+    await expect(readVaultManifest(folder)).rejects.toThrow('INVALID_VAULT_MANIFEST');
   });
 });

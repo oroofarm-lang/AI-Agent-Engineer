@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "W09D43_PARALLEL_WORK"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "0d797c16098cab58dc38c5b4e43049fbe6dd6f61b275ce917b22c23b27fd8369"
-related: ["[[02_CURRICULUM/2.2.0/lessons/W09D43_PARALLEL_WORK]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W09D43_PARALLEL_WORK]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W09D43_PARALLEL_WORK]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/W09D43_PARALLEL_WORK]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W09D43_PARALLEL_WORK]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W09D43_PARALLEL_WORK]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W09D43_PARALLEL_WORK_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W09D43_PARALLEL_WORK_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W09D43_PARALLEL_WORK_TRANSFER]]"]
 ---
 
 # התרגול: עבודה במקביל
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/W09D43_PARALLEL_WORK]]","[[02_CURRICULU
 - [[02_CURRICULUM/2.2.0/lessons/W09D43_PARALLEL_WORK|עבודה במקביל]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W09D43_PARALLEL_WORK|בדיקת הבנה: בשלוש קריאות מחקר בו־זמניות, קריאה אחת נכשלת. מה צריך שלב איסוף התוצאות לעשות?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W09D43_PARALLEL_WORK|הוכחה מעשית · עבודה במקביל]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W09D43_PARALLEL_WORK_BUILD|תבנית טקסט: עבודה במקביל · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W09D43_PARALLEL_WORK_DIAGNOSE|תבנית טקסט: עבודה במקביל · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W09D43_PARALLEL_WORK_TRANSFER|תבנית טקסט: עבודה במקביל · TRANSFER]] — ארגון העבודה

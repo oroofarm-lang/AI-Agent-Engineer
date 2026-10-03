@@ -7,7 +7,7 @@
   },
   "scripts": {
     "dev": "next dev --hostname 127.0.0.1",
-    "build": "npm run curriculum:check && node scripts/prepare-vault-assets.mjs && next build && node scripts/check-build-privacy.mjs",
+    "build": "npm run curriculum:check && npm run templates:check && node scripts/prepare-vault-assets.mjs && next build && node scripts/check-build-privacy.mjs",
     "start": "next start --hostname 127.0.0.1",
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
@@ -28,7 +28,8 @@
     "vault:sync": "node scripts/prepare-vault-assets.mjs && tsx scripts/sync-vault.ts",
     "quality:inventory": "node scripts/quality-inventory.mjs",
     "mentor:refresh": "tsx scripts/refresh-mentor-knowledge.ts",
-    "quality:audit": "npm run quality:inventory && npm run verify"
+    "quality:audit": "npm run quality:inventory && npm run verify",
+    "templates:check": "tsx scripts/check-templates.ts"
   },
   "dependencies": {
     "@fontsource/vt323": "^5.3.0",

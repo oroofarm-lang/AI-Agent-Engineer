@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "W12D60_BOSS_LEVEL_3_RED_TEAM"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "1779a2bb45e6cccf7a5b07df556e658199c783a38d555686ac66e320b8dd9754"
-related: ["[[02_CURRICULUM/2.2.0/lessons/W12D60_BOSS_LEVEL_3_RED_TEAM]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W12D60_BOSS_LEVEL_3_RED_TEAM]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W12D60_BOSS_LEVEL_3_RED_TEAM]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/W12D60_BOSS_LEVEL_3_RED_TEAM]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W12D60_BOSS_LEVEL_3_RED_TEAM]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W12D60_BOSS_LEVEL_3_RED_TEAM]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W12D60_BOSS_LEVEL_3_RED_TEAM_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W12D60_BOSS_LEVEL_3_RED_TEAM_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W12D60_BOSS_LEVEL_3_RED_TEAM_TRANSFER]]"]
 ---
 
 # התרגול: מבחן מסכם: בדיקת תקיפה ותיקון
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/W12D60_BOSS_LEVEL_3_RED_TEAM]]","[[02_C
 - [[02_CURRICULUM/2.2.0/lessons/W12D60_BOSS_LEVEL_3_RED_TEAM|מבחן מסכם: בדיקת תקיפה ותיקון]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W12D60_BOSS_LEVEL_3_RED_TEAM|בדיקת הבנה: תוקנה תקיפה אחת במערכת. איזו בדיקה נוספת דורש המבחן המסכם?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W12D60_BOSS_LEVEL_3_RED_TEAM|הוכחה מעשית · מבחן מסכם: בדיקת תקיפה ותיקון]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W12D60_BOSS_LEVEL_3_RED_TEAM_BUILD|תבנית טקסט: מבחן מסכם: בדיקת תקיפה ותיקון · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W12D60_BOSS_LEVEL_3_RED_TEAM_DIAGNOSE|תבנית טקסט: מבחן מסכם: בדיקת תקיפה ותיקון · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W12D60_BOSS_LEVEL_3_RED_TEAM_TRANSFER|תבנית טקסט: מבחן מסכם: בדיקת תקיפה ותיקון · TRANSFER]] — ארגון העבודה

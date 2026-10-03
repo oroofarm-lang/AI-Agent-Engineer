@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_FND_02"
 assessment_version: "2.1.0"
 lesson_id: "FND_02"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_FND_02]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_FND_02]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_FND_02_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_FND_02_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_FND_02_TRANSFER]]"]
 ---
 
 # תנאי בדיקה: הוכחה מעשית · בחירת מודלים לפי מדידה
@@ -41,3 +41,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_FND_02]]"]
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_FND_02|הוכחה מעשית · בחירת מודלים לפי מדידה]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_FND_02_BUILD|תבנית טבלה: בחירת מודלים לפי מדידה · BUILD]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_FND_02_DIAGNOSE|תבנית טקסט: בחירת מודלים לפי מדידה · DIAGNOSE]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_FND_02_TRANSFER|תבנית טקסט: בחירת מודלים לפי מדידה · TRANSFER]] — תנאי בדיקה

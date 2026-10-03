@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_W12D59_HUMAN_IN_THE_LOOP"
 assessment_version: "2.1.0"
 lesson_id: "W12D59_HUMAN_IN_THE_LOOP"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W12D59_HUMAN_IN_THE_LOOP]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W12D59_HUMAN_IN_THE_LOOP]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W12D59_HUMAN_IN_THE_LOOP_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W12D59_HUMAN_IN_THE_LOOP_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W12D59_HUMAN_IN_THE_LOOP_TRANSFER]]"]
 ---
 
 # תנאי בדיקה: הוכחה מעשית · אישור אנושי וחידוש תהליך
@@ -41,3 +41,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W12D59_HUMAN_IN_THE_LOOP]]
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W12D59_HUMAN_IN_THE_LOOP|הוכחה מעשית · אישור אנושי וחידוש תהליך]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W12D59_HUMAN_IN_THE_LOOP_BUILD|תבנית טקסט: אישור אנושי וחידוש תהליך · BUILD]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W12D59_HUMAN_IN_THE_LOOP_DIAGNOSE|תבנית טקסט: אישור אנושי וחידוש תהליך · DIAGNOSE]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W12D59_HUMAN_IN_THE_LOOP_TRANSFER|תבנית טקסט: אישור אנושי וחידוש תהליך · TRANSFER]] — תנאי בדיקה

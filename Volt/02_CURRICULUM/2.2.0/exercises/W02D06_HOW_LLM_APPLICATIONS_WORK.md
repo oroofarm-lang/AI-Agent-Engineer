@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "W02D06_HOW_LLM_APPLICATIONS_WORK"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "f3b6524f7271e1fffe6fc6da0c9a5ddcc948c0081f324e97feaf79c7370f4342"
-related: ["[[02_CURRICULUM/2.2.0/lessons/W02D06_HOW_LLM_APPLICATIONS_WORK]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W02D06_HOW_LLM_APPLICATIONS_WORK]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W02D06_HOW_LLM_APPLICATIONS_WORK]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/W02D06_HOW_LLM_APPLICATIONS_WORK]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W02D06_HOW_LLM_APPLICATIONS_WORK]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W02D06_HOW_LLM_APPLICATIONS_WORK]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W02D06_HOW_LLM_APPLICATIONS_WORK_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W02D06_HOW_LLM_APPLICATIONS_WORK_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W02D06_HOW_LLM_APPLICATIONS_WORK_TRANSFER]]"]
 ---
 
 # התרגול: איך אפליקציות LLM פועלות
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/W02D06_HOW_LLM_APPLICATIONS_WORK]]","[[
 - [[02_CURRICULUM/2.2.0/lessons/W02D06_HOW_LLM_APPLICATIONS_WORK|איך אפליקציות LLM פועלות]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W02D06_HOW_LLM_APPLICATIONS_WORK|בדיקת הבנה: מה ההבדל בין טוקן לבין מילה שלמה?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W02D06_HOW_LLM_APPLICATIONS_WORK|הוכחה מעשית · איך אפליקציות LLM פועלות]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W02D06_HOW_LLM_APPLICATIONS_WORK_BUILD|תבנית טקסט: איך אפליקציות LLM פועלות · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W02D06_HOW_LLM_APPLICATIONS_WORK_DIAGNOSE|תבנית טקסט: איך אפליקציות LLM פועלות · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W02D06_HOW_LLM_APPLICATIONS_WORK_TRANSFER|תבנית טקסט: איך אפליקציות LLM פועלות · TRANSFER]] — ארגון העבודה

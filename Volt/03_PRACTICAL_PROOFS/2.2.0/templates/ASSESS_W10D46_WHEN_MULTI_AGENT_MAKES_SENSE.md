@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_W10D46_WHEN_MULTI_AGENT_MAKES_SENSE"
 assessment_version: "2.1.0"
 lesson_id: "W10D46_WHEN_MULTI_AGENT_MAKES_SENSE"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W10D46_WHEN_MULTI_AGENT_MAKES_SENSE]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W10D46_WHEN_MULTI_AGENT_MAKES_SENSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W10D46_WHEN_MULTI_AGENT_MAKES_SENSE_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W10D46_WHEN_MULTI_AGENT_MAKES_SENSE_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W10D46_WHEN_MULTI_AGENT_MAKES_SENSE_TRANSFER]]"]
 ---
 
 # תבנית הגשה: הוכחה מעשית · מתי כמה סוכנים מועילים?
@@ -53,3 +53,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W10D46_WHEN_MULTI_AGENT_MA
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W10D46_WHEN_MULTI_AGENT_MAKES_SENSE|הוכחה מעשית · מתי כמה סוכנים מועילים?]] — תבנית הגשה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W10D46_WHEN_MULTI_AGENT_MAKES_SENSE_BUILD|תבנית טקסט: מתי כמה סוכנים מועילים? · BUILD]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W10D46_WHEN_MULTI_AGENT_MAKES_SENSE_DIAGNOSE|תבנית טקסט: מתי כמה סוכנים מועילים? · DIAGNOSE]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W10D46_WHEN_MULTI_AGENT_MAKES_SENSE_TRANSFER|תבנית טקסט: מתי כמה סוכנים מועילים? · TRANSFER]] — תבנית סעיף

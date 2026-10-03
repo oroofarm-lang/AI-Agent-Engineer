@@ -176,7 +176,8 @@ describe('immutable reviewed publication and rollback', () => {
       'נוסח נוסף לבדיקת מערכת פרסום מבודדת בלבד',
     );
     expect(safeVaultError(new Error('private fixture path or secret'))).toBe('VAULT_SYNC_FAILED');
-  }, 30000);
+    // This journey performs three protected filesystem exports of the complete public graph.
+  }, 60000);
   it('requires a verified operator and explicit exact-hash review before activation', () => {
     const { store, connection, directory } = workspace();
     expect(() =>

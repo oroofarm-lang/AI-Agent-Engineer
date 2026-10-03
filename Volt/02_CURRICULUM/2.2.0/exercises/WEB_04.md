@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "WEB_04"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "b869aa97840aa5701e2a3885748043b7502cb9385c45b8ca2ec7114305827780"
-related: ["[[02_CURRICULUM/2.2.0/lessons/WEB_04]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_WEB_04]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_WEB_04]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/WEB_04]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_WEB_04]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_WEB_04]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_WEB_04_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_WEB_04_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_WEB_04_TRANSFER]]"]
 ---
 
 # התרגול: טפסים וחיבור ל־CRM
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/WEB_04]]","[[02_CURRICULUM/quiz-banks/1
 - [[02_CURRICULUM/2.2.0/lessons/WEB_04|טפסים וחיבור ל־CRM]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_WEB_04|בדיקת הבנה: הטופס נשלח, הרשת נותקה, והמשתמש מנסה שוב. מה עוזר למנוע יצירת שתי פניות?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_WEB_04|הוכחה מעשית · טפסים וחיבור ל־CRM]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_WEB_04_BUILD|תבנית טקסט: טפסים וחיבור ל־CRM · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_WEB_04_DIAGNOSE|תבנית טקסט: טפסים וחיבור ל־CRM · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_WEB_04_TRANSFER|תבנית טקסט: טפסים וחיבור ל־CRM · TRANSFER]] — ארגון העבודה

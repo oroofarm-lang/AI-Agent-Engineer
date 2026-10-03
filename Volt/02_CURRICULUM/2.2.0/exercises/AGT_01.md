@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "AGT_01"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "0df92b1537019b079fd40baaaed263a34a66bdf7ce9a8a9b60aa4fcddf0364da"
-related: ["[[02_CURRICULUM/2.2.0/lessons/AGT_01]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_AGT_01]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AGT_01]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/AGT_01]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_AGT_01]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AGT_01]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AGT_01_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AGT_01_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AGT_01_TRANSFER]]"]
 ---
 
 # התרגול: MCP, ‏A2A ותקשורת בין סוכנים
@@ -63,3 +63,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/AGT_01]]","[[02_CURRICULUM/quiz-banks/1
 - [[02_CURRICULUM/2.2.0/lessons/AGT_01|MCP, ‏A2A ותקשורת בין סוכנים]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_AGT_01|בדיקת הבנה: מה מתאר Agent Card בתרגיל התקשורת בין שירותים?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AGT_01|הוכחה מעשית · MCP, ‏A2A ותקשורת בין סוכנים]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AGT_01_BUILD|תבנית טקסט: MCP, ‏A2A ותקשורת בין סוכנים · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AGT_01_DIAGNOSE|תבנית טקסט: MCP, ‏A2A ותקשורת בין סוכנים · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AGT_01_TRANSFER|תבנית טקסט: MCP, ‏A2A ותקשורת בין סוכנים · TRANSFER]] — ארגון העבודה

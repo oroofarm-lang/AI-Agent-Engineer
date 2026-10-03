@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "W11D51_WHY_DEMOS_LIE"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "42f6d085debd8e638ba56c02d85cc3d10394794a7892a181964c5a19ca7dac8f"
-related: ["[[02_CURRICULUM/2.2.0/lessons/W11D51_WHY_DEMOS_LIE]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W11D51_WHY_DEMOS_LIE]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W11D51_WHY_DEMOS_LIE]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/W11D51_WHY_DEMOS_LIE]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W11D51_WHY_DEMOS_LIE]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W11D51_WHY_DEMOS_LIE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W11D51_WHY_DEMOS_LIE_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W11D51_WHY_DEMOS_LIE_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W11D51_WHY_DEMOS_LIE_TRANSFER]]"]
 ---
 
 # התרגול: למה הדגמה אינה בדיקת איכות?
@@ -63,3 +63,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/W11D51_WHY_DEMOS_LIE]]","[[02_CURRICULU
 - [[02_CURRICULUM/2.2.0/lessons/W11D51_WHY_DEMOS_LIE|למה הדגמה אינה בדיקת איכות?]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W11D51_WHY_DEMOS_LIE|בדיקת הבנה: מערכת הצליחה בדוגמה ששימשה לשיפור ההוראות. האם זו בדיקת איכות עצמאית?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W11D51_WHY_DEMOS_LIE|הוכחה מעשית · למה הדגמה אינה בדיקת איכות?]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W11D51_WHY_DEMOS_LIE_BUILD|תבנית טקסט: למה הדגמה אינה בדיקת איכות? · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W11D51_WHY_DEMOS_LIE_DIAGNOSE|תבנית טקסט: למה הדגמה אינה בדיקת איכות? · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W11D51_WHY_DEMOS_LIE_TRANSFER|תבנית טקסט: למה הדגמה אינה בדיקת איכות? · TRANSFER]] — ארגון העבודה

@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "W06D27_CHUNKING_VECTOR_RETRIEVAL"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "16de07fb4b681fb4c5230e8d52857232246d227a6515f59066364a39f70a72ca"
-related: ["[[02_CURRICULUM/2.2.0/lessons/W06D27_CHUNKING_VECTOR_RETRIEVAL]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W06D27_CHUNKING_VECTOR_RETRIEVAL]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W06D27_CHUNKING_VECTOR_RETRIEVAL]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/W06D27_CHUNKING_VECTOR_RETRIEVAL]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W06D27_CHUNKING_VECTOR_RETRIEVAL]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W06D27_CHUNKING_VECTOR_RETRIEVAL]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W06D27_CHUNKING_VECTOR_RETRIEVAL_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W06D27_CHUNKING_VECTOR_RETRIEVAL_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W06D27_CHUNKING_VECTOR_RETRIEVAL_TRANSFER]]"]
 ---
 
 # התרגול: קליטת מסמכים וחלוקה לקטעים
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/W06D27_CHUNKING_VECTOR_RETRIEVAL]]","[[
 - [[02_CURRICULUM/2.2.0/lessons/W06D27_CHUNKING_VECTOR_RETRIEVAL|קליטת מסמכים וחלוקה לקטעים]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W06D27_CHUNKING_VECTOR_RETRIEVAL|בדיקת הבנה: מדוע שומרים לכל קטע document_id, version, page ו־chunk_id?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W06D27_CHUNKING_VECTOR_RETRIEVAL|הוכחה מעשית · קליטת מסמכים וחלוקה לקטעים]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W06D27_CHUNKING_VECTOR_RETRIEVAL_BUILD|תבנית טבלה: קליטת מסמכים וחלוקה לקטעים · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W06D27_CHUNKING_VECTOR_RETRIEVAL_DIAGNOSE|תבנית טבלה: קליטת מסמכים וחלוקה לקטעים · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W06D27_CHUNKING_VECTOR_RETRIEVAL_TRANSFER|תבנית טקסט: קליטת מסמכים וחלוקה לקטעים · TRANSFER]] — ארגון העבודה

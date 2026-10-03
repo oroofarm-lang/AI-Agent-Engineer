@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "W09D44_LONG_RUNNING_WORKFLOWS"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "5ccc87713253e8683376f6c5100d6e5e4cf23c38e3c962fc71a674974cdb6893"
-related: ["[[02_CURRICULUM/2.2.0/lessons/W09D44_LONG_RUNNING_WORKFLOWS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W09D44_LONG_RUNNING_WORKFLOWS]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W09D44_LONG_RUNNING_WORKFLOWS]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/W09D44_LONG_RUNNING_WORKFLOWS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W09D44_LONG_RUNNING_WORKFLOWS]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W09D44_LONG_RUNNING_WORKFLOWS]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W09D44_LONG_RUNNING_WORKFLOWS_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W09D44_LONG_RUNNING_WORKFLOWS_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W09D44_LONG_RUNNING_WORKFLOWS_TRANSFER]]"]
 ---
 
 # התרגול: תהליכים ארוכים והתאוששות
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/W09D44_LONG_RUNNING_WORKFLOWS]]","[[02_
 - [[02_CURRICULUM/2.2.0/lessons/W09D44_LONG_RUNNING_WORKFLOWS|תהליכים ארוכים והתאוששות]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W09D44_LONG_RUNNING_WORKFLOWS|בדיקת הבנה: השירות החיצוני ביצע שינוי, אך התוכנית קרסה לפני רישום הצלחה. למה נדרש שלב reconcile?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W09D44_LONG_RUNNING_WORKFLOWS|הוכחה מעשית · תהליכים ארוכים והתאוששות]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W09D44_LONG_RUNNING_WORKFLOWS_BUILD|תבנית טקסט: תהליכים ארוכים והתאוששות · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W09D44_LONG_RUNNING_WORKFLOWS_DIAGNOSE|תבנית טקסט: תהליכים ארוכים והתאוששות · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W09D44_LONG_RUNNING_WORKFLOWS_TRANSFER|תבנית טקסט: תהליכים ארוכים והתאוששות · TRANSFER]] — ארגון העבודה

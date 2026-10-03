@@ -11,7 +11,7 @@ source_ids: ["HUBSPOT_WEBHOOKS","STRIPE_WEBHOOKS"]
 prerequisite_lesson_ids: ["CRM_02"]
 source_sha256: "45339afe1bbfcec08690cb577417ed21a862dc57e652f688e7964d36588a94ea"
 estimated_minutes: 150
-related: ["[[01_AGENTS/Agent-Automation-Engineer]]","[[01_AGENTS/Agent-Code-Reviewer]]","[[01_AGENTS/Agent-CRM-Sales]]","[[01_AGENTS/Agent-Database-Architect]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Voice-Audio]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/exercises/CRM_03]]","[[02_CURRICULUM/2.2.0/lessons/CRM_02]]","[[02_CURRICULUM/2.2.0/lessons/CRM_04]]","[[02_CURRICULUM/2.2.0/modules/CRM]]","[[02_CURRICULUM/2.2.0/skills/CRM_OPERATIONS]]","[[02_CURRICULUM/2.2.0/skills/DATABASE]]","[[02_CURRICULUM/2.2.0/skills/HTTP_APIS]]","[[02_CURRICULUM/2.2.0/sources/HUBSPOT_WEBHOOKS]]","[[02_CURRICULUM/2.2.0/sources/STRIPE_WEBHOOKS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_CRM_03]]","[[02_CURRICULUM/system-quizzes/1.0.0/QUIZ_EVIDENCE_NEXT_STEP]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_CRM_03]]"]
+related: ["[[01_AGENTS/Agent-Automation-Engineer]]","[[01_AGENTS/Agent-Code-Reviewer]]","[[01_AGENTS/Agent-CRM-Sales]]","[[01_AGENTS/Agent-Database-Architect]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Voice-Audio]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/exercises/CRM_03]]","[[02_CURRICULUM/2.2.0/lessons/CRM_02]]","[[02_CURRICULUM/2.2.0/lessons/CRM_04]]","[[02_CURRICULUM/2.2.0/modules/CRM]]","[[02_CURRICULUM/2.2.0/skills/CRM_OPERATIONS]]","[[02_CURRICULUM/2.2.0/skills/DATABASE]]","[[02_CURRICULUM/2.2.0/skills/HTTP_APIS]]","[[02_CURRICULUM/2.2.0/sources/HUBSPOT_WEBHOOKS]]","[[02_CURRICULUM/2.2.0/sources/STRIPE_WEBHOOKS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_CRM_03]]","[[02_CURRICULUM/system-quizzes/1.0.0/QUIZ_EVIDENCE_NEXT_STEP]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_CRM_03]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_CRM_03_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_CRM_03_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_CRM_03_TRANSFER]]"]
 ---
 
 # סיווג לידים ומעקב מכירות
@@ -127,3 +127,6 @@ Input → Contract check → Work / model proposal → Result check → Evidence
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_CRM_03|בדיקת הבנה: נוצרה משימת מעקב לליד, אך לא נקבע מי מטפל בו ומתי. מה חסר כדי שהמעקב יהיה שימושי?]] — בדיקת הבנה
 - [[02_CURRICULUM/system-quizzes/1.0.0/QUIZ_EVIDENCE_NEXT_STEP|לפני שמגישים · שאלה קצרה לתרגול]] — תרגול לפני הגשה
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_CRM_03|הוכחה מעשית · סיווג לידים ומעקב מכירות]] — הוכחה מעשית
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_CRM_03_BUILD|תבנית טקסט: סיווג לידים ומעקב מכירות · BUILD]] — מבנה תשובה לשיעור
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_CRM_03_DIAGNOSE|תבנית טקסט: סיווג לידים ומעקב מכירות · DIAGNOSE]] — מבנה תשובה לשיעור
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_CRM_03_TRANSFER|תבנית טקסט: סיווג לידים ומעקב מכירות · TRANSFER]] — מבנה תשובה לשיעור

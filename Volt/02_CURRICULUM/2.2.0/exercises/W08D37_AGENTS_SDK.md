@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "W08D37_AGENTS_SDK"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "6b28d1cc6208af80761e8f4f03f5363e24d5d2a7750b016f8d9b6e8d4f693304"
-related: ["[[02_CURRICULUM/2.2.0/lessons/W08D37_AGENTS_SDK]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W08D37_AGENTS_SDK]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W08D37_AGENTS_SDK]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/W08D37_AGENTS_SDK]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W08D37_AGENTS_SDK]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W08D37_AGENTS_SDK]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W08D37_AGENTS_SDK_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W08D37_AGENTS_SDK_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W08D37_AGENTS_SDK_TRANSFER]]"]
 ---
 
 # התרגול: SDK לסוכנים
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/W08D37_AGENTS_SDK]]","[[02_CURRICULUM/q
 - [[02_CURRICULUM/2.2.0/lessons/W08D37_AGENTS_SDK|SDK לסוכנים]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W08D37_AGENTS_SDK|בדיקת הבנה: אחרי מעבר לסוכן מבוסס SDK, מי עדיין אחראי להרשאות הכלים והמידע?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W08D37_AGENTS_SDK|הוכחה מעשית · SDK לסוכנים]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W08D37_AGENTS_SDK_BUILD|תבנית טקסט: SDK לסוכנים · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W08D37_AGENTS_SDK_DIAGNOSE|תבנית טקסט: SDK לסוכנים · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W08D37_AGENTS_SDK_TRANSFER|תבנית טקסט: SDK לסוכנים · TRANSFER]] — ארגון העבודה

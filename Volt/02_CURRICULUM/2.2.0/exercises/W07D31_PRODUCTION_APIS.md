@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "W07D31_PRODUCTION_APIS"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "f2d4df6bad98843a2449dca05557e48f5a2d731c7fe2d4cca0d5e9c63e7688bd"
-related: ["[[02_CURRICULUM/2.2.0/lessons/W07D31_PRODUCTION_APIS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W07D31_PRODUCTION_APIS]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W07D31_PRODUCTION_APIS]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/W07D31_PRODUCTION_APIS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W07D31_PRODUCTION_APIS]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W07D31_PRODUCTION_APIS]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W07D31_PRODUCTION_APIS_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W07D31_PRODUCTION_APIS_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W07D31_PRODUCTION_APIS_TRANSFER]]"]
 ---
 
 # התרגול: ממשקי API עסקיים
@@ -63,3 +63,6 @@ OAuth מאפשר מתן הרשאות גישה לפי התהליך שהספק ה�
 - [[02_CURRICULUM/2.2.0/lessons/W07D31_PRODUCTION_APIS|ממשקי API עסקיים]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W07D31_PRODUCTION_APIS|בדיקת הבנה: Webhook התקבל והשרת אישר קבלה, אבל העבודה בתור טרם הסתיימה. איזה מצב נכון להציג?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W07D31_PRODUCTION_APIS|הוכחה מעשית · ממשקי API עסקיים]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W07D31_PRODUCTION_APIS_BUILD|תבנית טקסט: ממשקי API עסקיים · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W07D31_PRODUCTION_APIS_DIAGNOSE|תבנית טקסט: ממשקי API עסקיים · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W07D31_PRODUCTION_APIS_TRANSFER|תבנית טקסט: ממשקי API עסקיים · TRANSFER]] — ארגון העבודה

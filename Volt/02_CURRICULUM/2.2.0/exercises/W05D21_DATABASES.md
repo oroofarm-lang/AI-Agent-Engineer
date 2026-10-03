@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "W05D21_DATABASES"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "3e555c53847f6423ff7ccfb6f3dfefdff3220da0f1427c207927967a1a294050"
-related: ["[[02_CURRICULUM/2.2.0/lessons/W05D21_DATABASES]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W05D21_DATABASES]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W05D21_DATABASES]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/W05D21_DATABASES]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W05D21_DATABASES]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W05D21_DATABASES]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W05D21_DATABASES_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W05D21_DATABASES_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W05D21_DATABASES_TRANSFER]]"]
 ---
 
 # התרגול: מסדי נתונים ו־SQL
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/W05D21_DATABASES]]","[[02_CURRICULUM/qu
 - [[02_CURRICULUM/2.2.0/lessons/W05D21_DATABASES|מסדי נתונים ו־SQL]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W05D21_DATABASES|בדיקת הבנה: הוספת לקוח הצליחה, אך הוספת הפנייה באותה עסקה נכשלה. מה מטרת ROLLBACK בתרגיל?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W05D21_DATABASES|הוכחה מעשית · מסדי נתונים ו־SQL]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W05D21_DATABASES_BUILD|תבנית טבלה: מסדי נתונים ו־SQL · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W05D21_DATABASES_DIAGNOSE|תבנית טקסט: מסדי נתונים ו־SQL · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W05D21_DATABASES_TRANSFER|תבנית טקסט: מסדי נתונים ו־SQL · TRANSFER]] — ארגון העבודה

@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_W14D68_DEPLOYMENT"
 assessment_version: "2.1.0"
 lesson_id: "W14D68_DEPLOYMENT"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W14D68_DEPLOYMENT]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W14D68_DEPLOYMENT]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W14D68_DEPLOYMENT_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W14D68_DEPLOYMENT_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W14D68_DEPLOYMENT_TRANSFER]]"]
 ---
 
 # תבנית הגשה: הוכחה מעשית · פריסה וסביבות
@@ -53,3 +53,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W14D68_DEPLOYMENT]]"]
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W14D68_DEPLOYMENT|הוכחה מעשית · פריסה וסביבות]] — תבנית הגשה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W14D68_DEPLOYMENT_BUILD|תבנית טקסט: פריסה וסביבות · BUILD]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W14D68_DEPLOYMENT_DIAGNOSE|תבנית טקסט: פריסה וסביבות · DIAGNOSE]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W14D68_DEPLOYMENT_TRANSFER|תבנית טקסט: פריסה וסביבות · TRANSFER]] — תבנית סעיף

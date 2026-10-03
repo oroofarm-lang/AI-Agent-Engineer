@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "W11D54_TRACING"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "f54d1c0f7922b5bd4695fd24b3b6316d29c509aba86fa5c9a0ab224edf1fa0bd"
-related: ["[[02_CURRICULUM/2.2.0/lessons/W11D54_TRACING]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W11D54_TRACING]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W11D54_TRACING]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/W11D54_TRACING]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W11D54_TRACING]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W11D54_TRACING]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W11D54_TRACING_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W11D54_TRACING_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W11D54_TRACING_TRANSFER]]"]
 ---
 
 # התרגול: תיעוד ריצות וניטור
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/W11D54_TRACING]]","[[02_CURRICULUM/quiz
 - [[02_CURRICULUM/2.2.0/lessons/W11D54_TRACING|תיעוד ריצות וניטור]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W11D54_TRACING|בדיקת הבנה: ריצה איטית לא החזירה חריגה. איזה תיעוד מסייע לאתר את העיכוב?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W11D54_TRACING|הוכחה מעשית · תיעוד ריצות וניטור]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W11D54_TRACING_BUILD|תבנית טקסט: תיעוד ריצות וניטור · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W11D54_TRACING_DIAGNOSE|תבנית טקסט: תיעוד ריצות וניטור · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W11D54_TRACING_TRANSFER|תבנית טקסט: תיעוד ריצות וניטור · TRANSFER]] — ארגון העבודה

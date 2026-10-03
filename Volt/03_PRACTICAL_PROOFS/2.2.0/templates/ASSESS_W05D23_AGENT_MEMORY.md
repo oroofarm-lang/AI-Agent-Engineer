@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_W05D23_AGENT_MEMORY"
 assessment_version: "2.1.0"
 lesson_id: "W05D23_AGENT_MEMORY"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W05D23_AGENT_MEMORY]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W05D23_AGENT_MEMORY]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W05D23_AGENT_MEMORY_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W05D23_AGENT_MEMORY_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W05D23_AGENT_MEMORY_TRANSFER]]"]
 ---
 
 # תבנית הגשה: הוכחה מעשית · סוגי זיכרון לסוכנים
@@ -53,3 +53,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W05D23_AGENT_MEMORY]]"]
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W05D23_AGENT_MEMORY|הוכחה מעשית · סוגי זיכרון לסוכנים]] — תבנית הגשה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W05D23_AGENT_MEMORY_BUILD|תבנית טקסט: סוגי זיכרון לסוכנים · BUILD]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W05D23_AGENT_MEMORY_DIAGNOSE|תבנית טקסט: סוגי זיכרון לסוכנים · DIAGNOSE]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W05D23_AGENT_MEMORY_TRANSFER|תבנית טקסט: סוגי זיכרון לסוכנים · TRANSFER]] — תבנית סעיף

@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_W09D42_ROUTERS"
 assessment_version: "2.1.0"
 lesson_id: "W09D42_ROUTERS"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W09D42_ROUTERS]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W09D42_ROUTERS]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W09D42_ROUTERS_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W09D42_ROUTERS_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W09D42_ROUTERS_TRANSFER]]"]
 ---
 
 # תבנית הגשה: הוכחה מעשית · ניתוב פניות
@@ -53,3 +53,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W09D42_ROUTERS]]"]
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W09D42_ROUTERS|הוכחה מעשית · ניתוב פניות]] — תבנית הגשה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W09D42_ROUTERS_BUILD|תבנית טקסט: ניתוב פניות · BUILD]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W09D42_ROUTERS_DIAGNOSE|תבנית טקסט: ניתוב פניות · DIAGNOSE]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W09D42_ROUTERS_TRANSFER|תבנית טקסט: ניתוב פניות · TRANSFER]] — תבנית סעיף

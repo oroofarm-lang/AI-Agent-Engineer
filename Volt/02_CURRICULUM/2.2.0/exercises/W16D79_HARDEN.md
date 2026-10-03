@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "W16D79_HARDEN"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "3190a6258b80ae2645558b59a0a94dd922a3d3bc7b330e7594106ce0812e3053"
-related: ["[[02_CURRICULUM/2.2.0/lessons/W16D79_HARDEN]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W16D79_HARDEN]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W16D79_HARDEN]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/W16D79_HARDEN]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W16D79_HARDEN]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W16D79_HARDEN]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W16D79_HARDEN_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W16D79_HARDEN_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W16D79_HARDEN_TRANSFER]]"]
 ---
 
 # התרגול: פרויקט גמר: הקשחה
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/W16D79_HARDEN]]","[[02_CURRICULUM/quiz-
 - [[02_CURRICULUM/2.2.0/lessons/W16D79_HARDEN|פרויקט גמר: הקשחה]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W16D79_HARDEN|בדיקת הבנה: בדיקת הפעלה מחדש חשפה פעולה עסקית כפולה. מהו הצעד הנדרש לאחר אבחון הכשל?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W16D79_HARDEN|הוכחה מעשית · פרויקט גמר: הקשחה]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W16D79_HARDEN_BUILD|תבנית טקסט: פרויקט גמר: הקשחה · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W16D79_HARDEN_DIAGNOSE|תבנית טקסט: פרויקט גמר: הקשחה · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W16D79_HARDEN_TRANSFER|תבנית טקסט: פרויקט גמר: הקשחה · TRANSFER]] — ארגון העבודה

@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "W10D50_PROJECT_AI_COMPANY"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "b833a284b9af4de7a272a4465f247a977aa5458b237ece68df2c281d8759dd56"
-related: ["[[02_CURRICULUM/2.2.0/lessons/W10D50_PROJECT_AI_COMPANY]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W10D50_PROJECT_AI_COMPANY]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W10D50_PROJECT_AI_COMPANY]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/W10D50_PROJECT_AI_COMPANY]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W10D50_PROJECT_AI_COMPANY]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W10D50_PROJECT_AI_COMPANY]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W10D50_PROJECT_AI_COMPANY_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W10D50_PROJECT_AI_COMPANY_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W10D50_PROJECT_AI_COMPANY_TRANSFER]]"]
 ---
 
 # התרגול: פרויקט: צוות AI עסקי
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/W10D50_PROJECT_AI_COMPANY]]","[[02_CURR
 - [[02_CURRICULUM/2.2.0/lessons/W10D50_PROJECT_AI_COMPANY|פרויקט: צוות AI עסקי]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W10D50_PROJECT_AI_COMPANY|בדיקת הבנה: מומחה אחד נכשל ולתוצאה אחרת חסר מקור. מה צריך צוות ה־AI לתעד?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W10D50_PROJECT_AI_COMPANY|הוכחה מעשית · פרויקט: צוות AI עסקי]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W10D50_PROJECT_AI_COMPANY_BUILD|תבנית טקסט: פרויקט: צוות AI עסקי · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W10D50_PROJECT_AI_COMPANY_DIAGNOSE|תבנית טקסט: פרויקט: צוות AI עסקי · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W10D50_PROJECT_AI_COMPANY_TRANSFER|תבנית טקסט: פרויקט: צוות AI עסקי · TRANSFER]] — ארגון העבודה

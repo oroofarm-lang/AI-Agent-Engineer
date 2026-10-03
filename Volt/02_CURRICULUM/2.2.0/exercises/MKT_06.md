@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "MKT_06"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "5e1c7b2984f0bbb4bcdcfc70cc78ce195a71920d2f956eb1f765169c5402ad8f"
-related: ["[[02_CURRICULUM/2.2.0/lessons/MKT_06]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_MKT_06]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_06]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/MKT_06]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_MKT_06]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_06]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_06_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_06_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_06_TRANSFER]]"]
 ---
 
 # התרגול: יצירת תמונות ועריכה לפי בריף
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/MKT_06]]","[[02_CURRICULUM/quiz-banks/1
 - [[02_CURRICULUM/2.2.0/lessons/MKT_06|יצירת תמונות ועריכה לפי בריף]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_MKT_06|בדיקת הבנה: תמונת קמפיין נראית מרשימה, אבל שם המוצר בתוכה שגוי. איך נכון להתייחס לגרסה?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_06|הוכחה מעשית · יצירת תמונות ועריכה לפי בריף]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_06_BUILD|תבנית טקסט: יצירת תמונות ועריכה לפי בריף · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_06_DIAGNOSE|תבנית טקסט: יצירת תמונות ועריכה לפי בריף · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_06_TRANSFER|תבנית טקסט: יצירת תמונות ועריכה לפי בריף · TRANSFER]] — ארגון העבודה

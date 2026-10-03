@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_W02D06_HOW_LLM_APPLICATIONS_WORK"
 assessment_version: "2.1.0"
 lesson_id: "W02D06_HOW_LLM_APPLICATIONS_WORK"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W02D06_HOW_LLM_APPLICATIONS_WORK]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W02D06_HOW_LLM_APPLICATIONS_WORK]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W02D06_HOW_LLM_APPLICATIONS_WORK_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W02D06_HOW_LLM_APPLICATIONS_WORK_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W02D06_HOW_LLM_APPLICATIONS_WORK_TRANSFER]]"]
 ---
 
 # תנאי בדיקה: הוכחה מעשית · איך אפליקציות LLM פועלות
@@ -41,3 +41,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W02D06_HOW_LLM_APPLICATION
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W02D06_HOW_LLM_APPLICATIONS_WORK|הוכחה מעשית · איך אפליקציות LLM פועלות]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W02D06_HOW_LLM_APPLICATIONS_WORK_BUILD|תבנית טקסט: איך אפליקציות LLM פועלות · BUILD]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W02D06_HOW_LLM_APPLICATIONS_WORK_DIAGNOSE|תבנית טקסט: איך אפליקציות LLM פועלות · DIAGNOSE]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W02D06_HOW_LLM_APPLICATIONS_WORK_TRANSFER|תבנית טקסט: איך אפליקציות LLM פועלות · TRANSFER]] — תנאי בדיקה

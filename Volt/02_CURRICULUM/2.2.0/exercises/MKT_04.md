@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "MKT_04"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "187bed5813038e6bef0984de752f757a9741d45595fa4735d15a3b582bb40ccd"
-related: ["[[02_CURRICULUM/2.2.0/lessons/MKT_04]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_MKT_04]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_04]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/MKT_04]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_MKT_04]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_04]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_04_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_04_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_04_TRANSFER]]"]
 ---
 
 # התרגול: כתיבה ועריכה בעברית
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/MKT_04]]","[[02_CURRICULUM/quiz-banks/1
 - [[02_CURRICULUM/2.2.0/lessons/MKT_04|כתיבה ועריכה בעברית]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_MKT_04|בדיקת הבנה: בטיוטה בעברית מופיעה הבטחה על מוצר שאינה קיימת במידע שסופק. מה צריך לעשות בעריכה?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_04|הוכחה מעשית · כתיבה ועריכה בעברית]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_04_BUILD|תבנית טקסט: כתיבה ועריכה בעברית · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_04_DIAGNOSE|תבנית טקסט: כתיבה ועריכה בעברית · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_04_TRANSFER|תבנית טקסט: כתיבה ועריכה בעברית · TRANSFER]] — ארגון העבודה

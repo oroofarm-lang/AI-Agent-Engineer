@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_W04D18_ITERATIVE_RESEARCH"
 assessment_version: "2.1.0"
 lesson_id: "W04D18_ITERATIVE_RESEARCH"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W04D18_ITERATIVE_RESEARCH]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W04D18_ITERATIVE_RESEARCH]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W04D18_ITERATIVE_RESEARCH_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W04D18_ITERATIVE_RESEARCH_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W04D18_ITERATIVE_RESEARCH_TRANSFER]]"]
 ---
 
 # תבנית הגשה: הוכחה מעשית · מחקר איטרטיבי ותנאי עצירה
@@ -53,3 +53,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W04D18_ITERATIVE_RESEARCH]
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W04D18_ITERATIVE_RESEARCH|הוכחה מעשית · מחקר איטרטיבי ותנאי עצירה]] — תבנית הגשה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W04D18_ITERATIVE_RESEARCH_BUILD|תבנית טקסט: מחקר איטרטיבי ותנאי עצירה · BUILD]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W04D18_ITERATIVE_RESEARCH_DIAGNOSE|תבנית טקסט: מחקר איטרטיבי ותנאי עצירה · DIAGNOSE]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W04D18_ITERATIVE_RESEARCH_TRANSFER|תבנית טקסט: מחקר איטרטיבי ותנאי עצירה · TRANSFER]] — תבנית סעיף

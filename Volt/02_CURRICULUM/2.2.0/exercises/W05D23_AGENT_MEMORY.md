@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "W05D23_AGENT_MEMORY"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "8fa73632b0d9187e48501ebb977280cb82b8c72a0e43d6d0953efe0158a4ebf8"
-related: ["[[02_CURRICULUM/2.2.0/lessons/W05D23_AGENT_MEMORY]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W05D23_AGENT_MEMORY]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W05D23_AGENT_MEMORY]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/W05D23_AGENT_MEMORY]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W05D23_AGENT_MEMORY]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W05D23_AGENT_MEMORY]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W05D23_AGENT_MEMORY_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W05D23_AGENT_MEMORY_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W05D23_AGENT_MEMORY_TRANSFER]]"]
 ---
 
 # התרגול: סוגי זיכרון לסוכנים
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/W05D23_AGENT_MEMORY]]","[[02_CURRICULUM
 - [[02_CURRICULUM/2.2.0/lessons/W05D23_AGENT_MEMORY|סוגי זיכרון לסוכנים]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W05D23_AGENT_MEMORY|בדיקת הבנה: משתמש אומר: ״היום אני מעדיף שיחה קצרה״. מה צריך לברר לפני שמירתה כהעדפה ארוכת טווח?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W05D23_AGENT_MEMORY|הוכחה מעשית · סוגי זיכרון לסוכנים]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W05D23_AGENT_MEMORY_BUILD|תבנית טקסט: סוגי זיכרון לסוכנים · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W05D23_AGENT_MEMORY_DIAGNOSE|תבנית טקסט: סוגי זיכרון לסוכנים · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W05D23_AGENT_MEMORY_TRANSFER|תבנית טקסט: סוגי זיכרון לסוכנים · TRANSFER]] — ארגון העבודה

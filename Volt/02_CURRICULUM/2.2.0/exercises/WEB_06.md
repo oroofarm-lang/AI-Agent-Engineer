@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "WEB_06"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "49be7e581b803ed546fa43986f64565589820d717b0b9030cecaba9bd8d7af1b"
-related: ["[[02_CURRICULUM/2.2.0/lessons/WEB_06]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_WEB_06]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_WEB_06]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/WEB_06]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_WEB_06]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_WEB_06]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_WEB_06_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_WEB_06_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_WEB_06_TRANSFER]]"]
 ---
 
 # התרגול: מבחן מסכם: אתר המחובר למערכת AI
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/WEB_06]]","[[02_CURRICULUM/quiz-banks/1
 - [[02_CURRICULUM/2.2.0/lessons/WEB_06|מבחן מסכם: אתר המחובר למערכת AI]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_WEB_06|בדיקת הבנה: העוזר באתר מציג תשובות קבועות לצורכי הדגמה. כיצד נכון לתאר אותו למשתמש?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_WEB_06|הוכחה מעשית · מבחן מסכם: אתר המחובר למערכת AI]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_WEB_06_BUILD|תבנית טקסט: מבחן מסכם: אתר המחובר למערכת AI · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_WEB_06_DIAGNOSE|תבנית טקסט: מבחן מסכם: אתר המחובר למערכת AI · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_WEB_06_TRANSFER|תבנית טקסט: מבחן מסכם: אתר המחובר למערכת AI · TRANSFER]] — ארגון העבודה

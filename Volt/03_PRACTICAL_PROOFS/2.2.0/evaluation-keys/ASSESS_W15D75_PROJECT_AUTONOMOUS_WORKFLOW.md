@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_W15D75_PROJECT_AUTONOMOUS_WORKFLOW"
 assessment_version: "2.1.0"
 lesson_id: "W15D75_PROJECT_AUTONOMOUS_WORKFLOW"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W15D75_PROJECT_AUTONOMOUS_WORKFLOW]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W15D75_PROJECT_AUTONOMOUS_WORKFLOW]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W15D75_PROJECT_AUTONOMOUS_WORKFLOW_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W15D75_PROJECT_AUTONOMOUS_WORKFLOW_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W15D75_PROJECT_AUTONOMOUS_WORKFLOW_TRANSFER]]"]
 ---
 
 # תנאי בדיקה: הוכחה מעשית · פרויקט: תהליך אוטונומי מבוקר
@@ -41,3 +41,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W15D75_PROJECT_AUTONOMOUS_
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W15D75_PROJECT_AUTONOMOUS_WORKFLOW|הוכחה מעשית · פרויקט: תהליך אוטונומי מבוקר]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W15D75_PROJECT_AUTONOMOUS_WORKFLOW_BUILD|תבנית טקסט: פרויקט: תהליך אוטונומי מבוקר · BUILD]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W15D75_PROJECT_AUTONOMOUS_WORKFLOW_DIAGNOSE|תבנית טקסט: פרויקט: תהליך אוטונומי מבוקר · DIAGNOSE]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W15D75_PROJECT_AUTONOMOUS_WORKFLOW_TRANSFER|תבנית טקסט: פרויקט: תהליך אוטונומי מבוקר · TRANSFER]] — תנאי בדיקה

@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "AUT_08"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "e31f54312c510e18d07308fabe141b243c34595962a7da285775eb169ab90c1e"
-related: ["[[02_CURRICULUM/2.2.0/lessons/AUT_08]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_AUT_08]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AUT_08]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/AUT_08]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_AUT_08]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AUT_08]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_08_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_08_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_08_TRANSFER]]"]
 ---
 
 # התרגול: מבחן מסכם: מערכת אוטומציה עסקית
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/AUT_08]]","[[02_CURRICULUM/quiz-banks/1
 - [[02_CURRICULUM/2.2.0/lessons/AUT_08|מבחן מסכם: מערכת אוטומציה עסקית]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_AUT_08|בדיקת הבנה: שלב יצירת משימה הצליח, אבל הפנייה אינה ב־CRM הנכון. איך צריך להעריך את התהליך?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AUT_08|הוכחה מעשית · מבחן מסכם: מערכת אוטומציה עסקית]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_08_BUILD|תבנית טקסט: מבחן מסכם: מערכת אוטומציה עסקית · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_08_DIAGNOSE|תבנית טקסט: מבחן מסכם: מערכת אוטומציה עסקית · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_08_TRANSFER|תבנית טקסט: מבחן מסכם: מערכת אוטומציה עסקית · TRANSFER]] — ארגון העבודה

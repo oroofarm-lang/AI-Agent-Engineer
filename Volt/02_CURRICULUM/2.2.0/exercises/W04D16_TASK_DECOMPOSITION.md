@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "W04D16_TASK_DECOMPOSITION"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "a2927db64ea0d728d8694f6dd422c6ae755e978a5eb73abe893a1e56812ecea5"
-related: ["[[02_CURRICULUM/2.2.0/lessons/W04D16_TASK_DECOMPOSITION]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W04D16_TASK_DECOMPOSITION]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W04D16_TASK_DECOMPOSITION]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/W04D16_TASK_DECOMPOSITION]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W04D16_TASK_DECOMPOSITION]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W04D16_TASK_DECOMPOSITION]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W04D16_TASK_DECOMPOSITION_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W04D16_TASK_DECOMPOSITION_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W04D16_TASK_DECOMPOSITION_TRANSFER]]"]
 ---
 
 # התרגול: פירוק משימות מחקר
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/W04D16_TASK_DECOMPOSITION]]","[[02_CURR
 - [[02_CURRICULUM/2.2.0/lessons/W04D16_TASK_DECOMPOSITION|פירוק משימות מחקר]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W04D16_TASK_DECOMPOSITION|בדיקת הבנה: איזו שאלת משנה כדאי להשאיר בתוכנית להשוואת ספקים?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W04D16_TASK_DECOMPOSITION|הוכחה מעשית · פירוק משימות מחקר]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W04D16_TASK_DECOMPOSITION_BUILD|תבנית טקסט: פירוק משימות מחקר · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W04D16_TASK_DECOMPOSITION_DIAGNOSE|תבנית טקסט: פירוק משימות מחקר · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W04D16_TASK_DECOMPOSITION_TRANSFER|תבנית טקסט: פירוק משימות מחקר · TRANSFER]] — ארגון העבודה

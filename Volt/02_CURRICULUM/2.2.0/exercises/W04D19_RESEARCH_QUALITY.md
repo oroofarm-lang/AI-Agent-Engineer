@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "W04D19_RESEARCH_QUALITY"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "b9bd1e3de9b42bda84d4c2a8062a117309a6b9fc4a35d6822c3f7a496d0063bd"
-related: ["[[02_CURRICULUM/2.2.0/lessons/W04D19_RESEARCH_QUALITY]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W04D19_RESEARCH_QUALITY]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W04D19_RESEARCH_QUALITY]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/W04D19_RESEARCH_QUALITY]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W04D19_RESEARCH_QUALITY]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W04D19_RESEARCH_QUALITY]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W04D19_RESEARCH_QUALITY_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W04D19_RESEARCH_QUALITY_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W04D19_RESEARCH_QUALITY_TRANSFER]]"]
 ---
 
 # התרגול: אימות דוח מחקר
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/W04D19_RESEARCH_QUALITY]]","[[02_CURRIC
 - [[02_CURRICULUM/2.2.0/lessons/W04D19_RESEARCH_QUALITY|אימות דוח מחקר]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W04D19_RESEARCH_QUALITY|בדיקת הבנה: קישור בדוח נפתח בהצלחה, אבל הקטע אינו תומך בטענה שלידו. מה הבעיה?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W04D19_RESEARCH_QUALITY|הוכחה מעשית · אימות דוח מחקר]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W04D19_RESEARCH_QUALITY_BUILD|תבנית טבלה: אימות דוח מחקר · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W04D19_RESEARCH_QUALITY_DIAGNOSE|תבנית טקסט: אימות דוח מחקר · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W04D19_RESEARCH_QUALITY_TRANSFER|תבנית טקסט: אימות דוח מחקר · TRANSFER]] — ארגון העבודה

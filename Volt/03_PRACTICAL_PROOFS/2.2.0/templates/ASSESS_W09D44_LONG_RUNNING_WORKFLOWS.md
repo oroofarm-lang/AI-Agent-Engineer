@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_W09D44_LONG_RUNNING_WORKFLOWS"
 assessment_version: "2.1.0"
 lesson_id: "W09D44_LONG_RUNNING_WORKFLOWS"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W09D44_LONG_RUNNING_WORKFLOWS]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W09D44_LONG_RUNNING_WORKFLOWS]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W09D44_LONG_RUNNING_WORKFLOWS_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W09D44_LONG_RUNNING_WORKFLOWS_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W09D44_LONG_RUNNING_WORKFLOWS_TRANSFER]]"]
 ---
 
 # תבנית הגשה: הוכחה מעשית · תהליכים ארוכים והתאוששות
@@ -53,3 +53,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W09D44_LONG_RUNNING_WORKFL
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W09D44_LONG_RUNNING_WORKFLOWS|הוכחה מעשית · תהליכים ארוכים והתאוששות]] — תבנית הגשה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W09D44_LONG_RUNNING_WORKFLOWS_BUILD|תבנית טקסט: תהליכים ארוכים והתאוששות · BUILD]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W09D44_LONG_RUNNING_WORKFLOWS_DIAGNOSE|תבנית טקסט: תהליכים ארוכים והתאוששות · DIAGNOSE]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W09D44_LONG_RUNNING_WORKFLOWS_TRANSFER|תבנית טקסט: תהליכים ארוכים והתאוששות · TRANSFER]] — תבנית סעיף

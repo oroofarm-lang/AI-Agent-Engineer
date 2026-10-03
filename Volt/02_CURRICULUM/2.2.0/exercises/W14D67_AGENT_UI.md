@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "W14D67_AGENT_UI"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "a76f2f54b618dbcbe230a96936537dbe40a9941289e2602190452a49da56b892"
-related: ["[[02_CURRICULUM/2.2.0/lessons/W14D67_AGENT_UI]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W14D67_AGENT_UI]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W14D67_AGENT_UI]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/W14D67_AGENT_UI]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W14D67_AGENT_UI]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W14D67_AGENT_UI]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W14D67_AGENT_UI_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W14D67_AGENT_UI_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W14D67_AGENT_UI_TRANSFER]]"]
 ---
 
 # התרגול: ממשק לסוכן ולפעולותיו
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/W14D67_AGENT_UI]]","[[02_CURRICULUM/qui
 - [[02_CURRICULUM/2.2.0/lessons/W14D67_AGENT_UI|ממשק לסוכן ולפעולותיו]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W14D67_AGENT_UI|בדיקת הבנה: איזה מידע צריך להציג לפני לחיצה על אישור פעולה?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W14D67_AGENT_UI|הוכחה מעשית · ממשק לסוכן ולפעולותיו]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W14D67_AGENT_UI_BUILD|תבנית טקסט: ממשק לסוכן ולפעולותיו · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W14D67_AGENT_UI_DIAGNOSE|תבנית טקסט: ממשק לסוכן ולפעולותיו · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W14D67_AGENT_UI_TRANSFER|תבנית טקסט: ממשק לסוכן ולפעולותיו · TRANSFER]] — ארגון העבודה

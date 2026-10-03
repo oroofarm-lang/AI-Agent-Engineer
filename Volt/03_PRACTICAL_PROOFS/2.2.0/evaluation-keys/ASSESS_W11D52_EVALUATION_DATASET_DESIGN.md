@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_W11D52_EVALUATION_DATASET_DESIGN"
 assessment_version: "2.1.0"
 lesson_id: "W11D52_EVALUATION_DATASET_DESIGN"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W11D52_EVALUATION_DATASET_DESIGN]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W11D52_EVALUATION_DATASET_DESIGN]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W11D52_EVALUATION_DATASET_DESIGN_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W11D52_EVALUATION_DATASET_DESIGN_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W11D52_EVALUATION_DATASET_DESIGN_TRANSFER]]"]
 ---
 
 # תנאי בדיקה: הוכחה מעשית · תכנון נתוני הערכה
@@ -41,3 +41,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W11D52_EVALUATION_DATASET_
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W11D52_EVALUATION_DATASET_DESIGN|הוכחה מעשית · תכנון נתוני הערכה]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W11D52_EVALUATION_DATASET_DESIGN_BUILD|תבנית טקסט: תכנון נתוני הערכה · BUILD]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W11D52_EVALUATION_DATASET_DESIGN_DIAGNOSE|תבנית טקסט: תכנון נתוני הערכה · DIAGNOSE]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W11D52_EVALUATION_DATASET_DESIGN_TRANSFER|תבנית טקסט: תכנון נתוני הערכה · TRANSFER]] — תנאי בדיקה

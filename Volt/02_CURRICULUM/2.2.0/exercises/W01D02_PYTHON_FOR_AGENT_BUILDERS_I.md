@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "W01D02_PYTHON_FOR_AGENT_BUILDERS_I"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "3f3496d5b0333d006de144419f137fb48da60f898fbd34b1aa5695559cee9383"
-related: ["[[02_CURRICULUM/2.2.0/lessons/W01D02_PYTHON_FOR_AGENT_BUILDERS_I]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W01D02_PYTHON_FOR_AGENT_BUILDERS_I]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W01D02_PYTHON_FOR_AGENT_BUILDERS_I]]","[[04_AUTOMATIONS_AND_APIS/assets/PYTHON_I_LAB]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/W01D02_PYTHON_FOR_AGENT_BUILDERS_I]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W01D02_PYTHON_FOR_AGENT_BUILDERS_I]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W01D02_PYTHON_FOR_AGENT_BUILDERS_I]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W01D02_PYTHON_FOR_AGENT_BUILDERS_I_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W01D02_PYTHON_FOR_AGENT_BUILDERS_I_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W01D02_PYTHON_FOR_AGENT_BUILDERS_I_TRANSFER]]","[[04_AUTOMATIONS_AND_APIS/assets/PYTHON_I_LAB]]"]
 ---
 
 # התרגול: Python לבוני סוכנים · חלק א׳
@@ -136,4 +136,7 @@ print('שלוש הבדיקות עברו')
 - [[02_CURRICULUM/2.2.0/lessons/W01D02_PYTHON_FOR_AGENT_BUILDERS_I|Python לבוני סוכנים · חלק א׳]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W01D02_PYTHON_FOR_AGENT_BUILDERS_I|בדיקת הבנה: הנתב החזיר status מסוג not_searched עבור הפעולה research. מה אפשר להסיק?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W01D02_PYTHON_FOR_AGENT_BUILDERS_I|הוכחה מעשית · Python לבוני סוכנים · חלק א׳]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W01D02_PYTHON_FOR_AGENT_BUILDERS_I_BUILD|תבנית טקסט: Python לבוני סוכנים · חלק א׳ · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W01D02_PYTHON_FOR_AGENT_BUILDERS_I_DIAGNOSE|תבנית טקסט: Python לבוני סוכנים · חלק א׳ · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W01D02_PYTHON_FOR_AGENT_BUILDERS_I_TRANSFER|תבנית טקסט: Python לבוני סוכנים · חלק א׳ · TRANSFER]] — ארגון העבודה
 - [[04_AUTOMATIONS_AND_APIS/assets/PYTHON_I_LAB|תרגיל Python — חלק א׳]] — קוד לתרגול

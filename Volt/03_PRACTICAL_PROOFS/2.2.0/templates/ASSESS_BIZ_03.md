@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_BIZ_03"
 assessment_version: "2.1.0"
 lesson_id: "BIZ_03"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_BIZ_03]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_BIZ_03]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_BIZ_03_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_BIZ_03_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_BIZ_03_TRANSFER]]"]
 ---
 
 # תבנית הגשה: הוכחה מעשית · הצעת עבודה וקריטריוני קבלה
@@ -53,3 +53,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_BIZ_03]]"]
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_BIZ_03|הוכחה מעשית · הצעת עבודה וקריטריוני קבלה]] — תבנית הגשה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_BIZ_03_BUILD|תבנית טקסט: הצעת עבודה וקריטריוני קבלה · BUILD]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_BIZ_03_DIAGNOSE|תבנית טקסט: הצעת עבודה וקריטריוני קבלה · DIAGNOSE]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_BIZ_03_TRANSFER|תבנית טקסט: הצעת עבודה וקריטריוני קבלה · TRANSFER]] — תבנית סעיף

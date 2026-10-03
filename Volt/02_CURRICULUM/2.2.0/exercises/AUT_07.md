@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "AUT_07"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "8b2371e1a51e81992c7928db0d94c7b1fd2b3b0b8e5b34697ed55fc0cb3d9862"
-related: ["[[02_CURRICULUM/2.2.0/lessons/AUT_07]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_AUT_07]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AUT_07]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/AUT_07]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_AUT_07]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AUT_07]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_07_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_07_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_07_TRANSFER]]"]
 ---
 
 # התרגול: הטמעה בסביבת Microsoft 365
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/AUT_07]]","[[02_CURRICULUM/quiz-banks/1
 - [[02_CURRICULUM/2.2.0/lessons/AUT_07|הטמעה בסביבת Microsoft 365]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_AUT_07|בדיקת הבנה: Copilot Studio מציע Connector שהארגון לא אישר. האם עצם הופעתו במוצר מאפשרת להשתמש בו?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AUT_07|הוכחה מעשית · הטמעה בסביבת Microsoft 365]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_07_BUILD|תבנית טקסט: הטמעה בסביבת Microsoft 365 · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_07_DIAGNOSE|תבנית טקסט: הטמעה בסביבת Microsoft 365 · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_07_TRANSFER|תבנית טקסט: הטמעה בסביבת Microsoft 365 · TRANSFER]] — ארגון העבודה

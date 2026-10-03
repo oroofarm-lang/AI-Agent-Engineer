@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_ADS_06"
 assessment_version: "2.1.0"
 lesson_id: "ADS_06"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_ADS_06]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_ADS_06]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_06_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_06_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_06_TRANSFER]]"]
 ---
 
 # תבנית הגשה: הוכחה מעשית · מבחן מסכם: עוזר קמפיינים
@@ -53,3 +53,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_ADS_06]]"]
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_ADS_06|הוכחה מעשית · מבחן מסכם: עוזר קמפיינים]] — תבנית הגשה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_06_BUILD|תבנית טבלה: מבחן מסכם: עוזר קמפיינים · BUILD]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_06_DIAGNOSE|תבנית טקסט: מבחן מסכם: עוזר קמפיינים · DIAGNOSE]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_06_TRANSFER|תבנית טקסט: מבחן מסכם: עוזר קמפיינים · TRANSFER]] — תבנית סעיף

@@ -6,7 +6,7 @@ entity_id: "MEMORY"
 curriculum_version: "2.2.0"
 skill_id: "MEMORY"
 prerequisite_skill_ids: ["STATE"]
-related: ["[[01_AGENTS/Agent-Agentic-Workflows]]","[[01_AGENTS/Agent-Database-Architect]]","[[01_AGENTS/Agent-Knowledge-RAG]]","[[02_CURRICULUM/2.2.0/Index]]","[[02_CURRICULUM/2.2.0/lessons/W05D21_DATABASES]]","[[02_CURRICULUM/2.2.0/lessons/W05D22_STATE]]","[[02_CURRICULUM/2.2.0/lessons/W05D23_AGENT_MEMORY]]","[[02_CURRICULUM/2.2.0/lessons/W05D24_MEMORY_QUALITY]]","[[02_CURRICULUM/2.2.0/lessons/W05D25_PROJECT_PERSONAL_MEMORY_AGENT]]","[[02_CURRICULUM/2.2.0/skills/STATE]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W05D21_DATABASES]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W05D22_STATE]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W05D23_AGENT_MEMORY]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W05D24_MEMORY_QUALITY]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W05D25_PROJECT_PERSONAL_MEMORY_AGENT]]","[[04_AUTOMATIONS_AND_APIS/technologies/LANGGRAPH]]"]
+related: ["[[01_AGENTS/Agent-Agentic-Workflows]]","[[01_AGENTS/Agent-Database-Architect]]","[[01_AGENTS/Agent-Knowledge-RAG]]","[[02_CURRICULUM/2.2.0/Index]]","[[02_CURRICULUM/2.2.0/lessons/W05D21_DATABASES]]","[[02_CURRICULUM/2.2.0/lessons/W05D22_STATE]]","[[02_CURRICULUM/2.2.0/lessons/W05D23_AGENT_MEMORY]]","[[02_CURRICULUM/2.2.0/lessons/W05D24_MEMORY_QUALITY]]","[[02_CURRICULUM/2.2.0/lessons/W05D25_PROJECT_PERSONAL_MEMORY_AGENT]]","[[02_CURRICULUM/2.2.0/skills/STATE]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W05D21_DATABASES]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W05D22_STATE]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W05D23_AGENT_MEMORY]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W05D24_MEMORY_QUALITY]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W05D25_PROJECT_PERSONAL_MEMORY_AGENT]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W05D21_DATABASES_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W05D22_STATE_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W05D23_AGENT_MEMORY_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W05D24_MEMORY_QUALITY_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W05D25_PROJECT_PERSONAL_MEMORY_AGENT_DIAGNOSE]]","[[04_AUTOMATIONS_AND_APIS/technologies/LANGGRAPH]]"]
 ---
 
 # Memory
@@ -32,4 +32,9 @@ related: ["[[01_AGENTS/Agent-Agentic-Workflows]]","[[01_AGENTS/Agent-Database-Ar
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W05D23_AGENT_MEMORY|הוכחה מעשית · סוגי זיכרון לסוכנים]] — מיומנות שנבדקת
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W05D24_MEMORY_QUALITY|הוכחה מעשית · איכות ועדכון זיכרון]] — מיומנות שנבדקת
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W05D25_PROJECT_PERSONAL_MEMORY_AGENT|הוכחה מעשית · פרויקט: סוכן זיכרון אישי]] — מיומנות שנבדקת
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W05D21_DATABASES_DIAGNOSE|תבנית טקסט: מסדי נתונים ו־SQL · DIAGNOSE]] — מיומנות בתשובה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W05D22_STATE_DIAGNOSE|תבנית טקסט: מצב שיחה ומצב תהליך · DIAGNOSE]] — מיומנות בתשובה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W05D23_AGENT_MEMORY_DIAGNOSE|תבנית טקסט: סוגי זיכרון לסוכנים · DIAGNOSE]] — מיומנות בתשובה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W05D24_MEMORY_QUALITY_DIAGNOSE|תבנית טקסט: איכות ועדכון זיכרון · DIAGNOSE]] — מיומנות בתשובה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W05D25_PROJECT_PERSONAL_MEMORY_AGENT_DIAGNOSE|תבנית טקסט: פרויקט: סוכן זיכרון אישי · DIAGNOSE]] — מיומנות בתשובה
 - [[04_AUTOMATIONS_AND_APIS/technologies/LANGGRAPH|LangGraph]] — מיומנות קשורה

@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_VOI_05"
 assessment_version: "2.1.0"
 lesson_id: "VOI_05"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_VOI_05]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_VOI_05]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_VOI_05_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_VOI_05_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_VOI_05_TRANSFER]]"]
 ---
 
 # תבנית הגשה: הוכחה מעשית · העברה לאדם ותיאום פגישות
@@ -53,3 +53,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_VOI_05]]"]
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_VOI_05|הוכחה מעשית · העברה לאדם ותיאום פגישות]] — תבנית הגשה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_VOI_05_BUILD|תבנית טקסט: העברה לאדם ותיאום פגישות · BUILD]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_VOI_05_DIAGNOSE|תבנית טקסט: העברה לאדם ותיאום פגישות · DIAGNOSE]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_VOI_05_TRANSFER|תבנית טקסט: העברה לאדם ותיאום פגישות · TRANSFER]] — תבנית סעיף

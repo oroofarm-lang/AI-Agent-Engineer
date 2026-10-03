@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "ADS_04"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "c33f8a45429333df74616dd56b1f675c33d29b3ee77fd70c790092b1757a5e81"
-related: ["[[02_CURRICULUM/2.2.0/lessons/ADS_04]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_ADS_04]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_ADS_04]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/ADS_04]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_ADS_04]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_ADS_04]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_04_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_04_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_04_TRANSFER]]"]
 ---
 
 # התרגול: דף נחיתה ומדידה
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/ADS_04]]","[[02_CURRICULUM/quiz-banks/1
 - [[02_CURRICULUM/2.2.0/lessons/ADS_04|דף נחיתה ומדידה]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_ADS_04|בדיקת הבנה: פניות מגיעות מטופס דף הנחיתה, אבל אירוע ההמרה לא נרשם. מה צריך לבדוק לפני מסקנה שהקמפיין נכשל?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_ADS_04|הוכחה מעשית · דף נחיתה ומדידה]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_04_BUILD|תבנית טקסט: דף נחיתה ומדידה · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_04_DIAGNOSE|תבנית טקסט: דף נחיתה ומדידה · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_04_TRANSFER|תבנית טקסט: דף נחיתה ומדידה · TRANSFER]] — ארגון העבודה

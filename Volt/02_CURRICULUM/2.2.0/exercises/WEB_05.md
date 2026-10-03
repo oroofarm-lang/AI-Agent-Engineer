@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "WEB_05"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "15b8ebbe1948bd139f6c50706d64ccc1ab5638ade51b611cd27efbef99fab3c3"
-related: ["[[02_CURRICULUM/2.2.0/lessons/WEB_05]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_WEB_05]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_WEB_05]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/WEB_05]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_WEB_05]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_WEB_05]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_WEB_05_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_WEB_05_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_WEB_05_TRANSFER]]"]
 ---
 
 # התרגול: בדיקות לפני פריסה
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/WEB_05]]","[[02_CURRICULUM/quiz-banks/1
 - [[02_CURRICULUM/2.2.0/lessons/WEB_05|בדיקות לפני פריסה]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_WEB_05|בדיקת הבנה: דוח אוטומטי על האתר נראה תקין. איזו בדיקה עסקית עדיין צריך לבצע לפני פרסום?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_WEB_05|הוכחה מעשית · בדיקות לפני פריסה]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_WEB_05_BUILD|תבנית טקסט: בדיקות לפני פריסה · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_WEB_05_DIAGNOSE|תבנית טקסט: בדיקות לפני פריסה · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_WEB_05_TRANSFER|תבנית טקסט: בדיקות לפני פריסה · TRANSFER]] — ארגון העבודה

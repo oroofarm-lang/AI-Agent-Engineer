@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "W12D59_HUMAN_IN_THE_LOOP"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "af5021bb78430e4cf748f6a4f56296fb89a8dc32ebd202a26559fc2a1201f6f6"
-related: ["[[02_CURRICULUM/2.2.0/lessons/W12D59_HUMAN_IN_THE_LOOP]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W12D59_HUMAN_IN_THE_LOOP]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W12D59_HUMAN_IN_THE_LOOP]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/W12D59_HUMAN_IN_THE_LOOP]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W12D59_HUMAN_IN_THE_LOOP]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W12D59_HUMAN_IN_THE_LOOP]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W12D59_HUMAN_IN_THE_LOOP_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W12D59_HUMAN_IN_THE_LOOP_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W12D59_HUMAN_IN_THE_LOOP_TRANSFER]]"]
 ---
 
 # התרגול: אישור אנושי וחידוש תהליך
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/W12D59_HUMAN_IN_THE_LOOP]]","[[02_CURRI
 - [[02_CURRICULUM/2.2.0/lessons/W12D59_HUMAN_IN_THE_LOOP|אישור אנושי וחידוש תהליך]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W12D59_HUMAN_IN_THE_LOOP|בדיקת הבנה: טיוטת הפעולה נערכה אחרי אישור אנושי. מה צריך לבדוק לפני הביצוע?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W12D59_HUMAN_IN_THE_LOOP|הוכחה מעשית · אישור אנושי וחידוש תהליך]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W12D59_HUMAN_IN_THE_LOOP_BUILD|תבנית טקסט: אישור אנושי וחידוש תהליך · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W12D59_HUMAN_IN_THE_LOOP_DIAGNOSE|תבנית טקסט: אישור אנושי וחידוש תהליך · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W12D59_HUMAN_IN_THE_LOOP_TRANSFER|תבנית טקסט: אישור אנושי וחידוש תהליך · TRANSFER]] — ארגון העבודה

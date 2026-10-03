@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_W06D29_RAG_FAILURE_MODES"
 assessment_version: "2.1.0"
 lesson_id: "W06D29_RAG_FAILURE_MODES"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W06D29_RAG_FAILURE_MODES]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W06D29_RAG_FAILURE_MODES]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W06D29_RAG_FAILURE_MODES_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W06D29_RAG_FAILURE_MODES_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W06D29_RAG_FAILURE_MODES_TRANSFER]]"]
 ---
 
 # תבנית הגשה: הוכחה מעשית · כשלים במערכות RAG
@@ -53,3 +53,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W06D29_RAG_FAILURE_MODES]]
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W06D29_RAG_FAILURE_MODES|הוכחה מעשית · כשלים במערכות RAG]] — תבנית הגשה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W06D29_RAG_FAILURE_MODES_BUILD|תבנית טקסט: כשלים במערכות RAG · BUILD]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W06D29_RAG_FAILURE_MODES_DIAGNOSE|תבנית טקסט: כשלים במערכות RAG · DIAGNOSE]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W06D29_RAG_FAILURE_MODES_TRANSFER|תבנית טקסט: כשלים במערכות RAG · TRANSFER]] — תבנית סעיף

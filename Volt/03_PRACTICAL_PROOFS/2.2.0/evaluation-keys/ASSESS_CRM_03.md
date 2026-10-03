@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_CRM_03"
 assessment_version: "2.1.0"
 lesson_id: "CRM_03"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_CRM_03]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_CRM_03]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_CRM_03_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_CRM_03_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_CRM_03_TRANSFER]]"]
 ---
 
 # תנאי בדיקה: הוכחה מעשית · סיווג לידים ומעקב מכירות
@@ -41,3 +41,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_CRM_03]]"]
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_CRM_03|הוכחה מעשית · סיווג לידים ומעקב מכירות]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_CRM_03_BUILD|תבנית טקסט: סיווג לידים ומעקב מכירות · BUILD]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_CRM_03_DIAGNOSE|תבנית טקסט: סיווג לידים ומעקב מכירות · DIAGNOSE]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_CRM_03_TRANSFER|תבנית טקסט: סיווג לידים ומעקב מכירות · TRANSFER]] — תנאי בדיקה

@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "W01D04_HTTP_APIS"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "c6740249f35f81a1b50588f32bbbcabc94f72911ca41275f0474e6fef31a633e"
-related: ["[[02_CURRICULUM/2.2.0/lessons/W01D04_HTTP_APIS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W01D04_HTTP_APIS]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W01D04_HTTP_APIS]]","[[04_AUTOMATIONS_AND_APIS/assets/HTTP_LAB]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/W01D04_HTTP_APIS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W01D04_HTTP_APIS]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W01D04_HTTP_APIS]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W01D04_HTTP_APIS_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W01D04_HTTP_APIS_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W01D04_HTTP_APIS_TRANSFER]]","[[04_AUTOMATIONS_AND_APIS/assets/HTTP_LAB]]"]
 ---
 
 # התרגול: HTTP וממשקי API
@@ -123,4 +123,7 @@ if __name__ == '__main__':
 - [[02_CURRICULUM/2.2.0/lessons/W01D04_HTTP_APIS|HTTP וממשקי API]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W01D04_HTTP_APIS|בדיקת הבנה: שרת המעבדה החזיר קוד 200, אבל גוף התגובה הוא not-json. היכן עלולה הקריאה להיכשל?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W01D04_HTTP_APIS|הוכחה מעשית · HTTP וממשקי API]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W01D04_HTTP_APIS_BUILD|תבנית טקסט: HTTP וממשקי API · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W01D04_HTTP_APIS_DIAGNOSE|תבנית טקסט: HTTP וממשקי API · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W01D04_HTTP_APIS_TRANSFER|תבנית טקסט: HTTP וממשקי API · TRANSFER]] — ארגון העבודה
 - [[04_AUTOMATIONS_AND_APIS/assets/HTTP_LAB|תרגיל HTTP]] — קוד לתרגול

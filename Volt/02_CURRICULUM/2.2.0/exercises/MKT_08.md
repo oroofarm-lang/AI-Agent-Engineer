@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "MKT_08"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "00d0b636f268464b06d22fca2ca0304a5930aefbad64795d23829d72a92adf98"
-related: ["[[02_CURRICULUM/2.2.0/lessons/MKT_08]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_MKT_08]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_08]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/MKT_08]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_MKT_08]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_08]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_08_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_08_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_08_TRANSFER]]"]
 ---
 
 # התרגול: קריינות, תמלול ותרגום
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/MKT_08]]","[[02_CURRICULUM/quiz-banks/1
 - [[02_CURRICULUM/2.2.0/lessons/MKT_08|קריינות, תמלול ותרגום]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_MKT_08|בדיקת הבנה: בתרגום של תמלול השתנה מספר שמופיע בהקלטה המקורית. מהי הבדיקה המתאימה?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_08|הוכחה מעשית · קריינות, תמלול ותרגום]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_08_BUILD|תבנית טקסט: קריינות, תמלול ותרגום · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_08_DIAGNOSE|תבנית טקסט: קריינות, תמלול ותרגום · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_08_TRANSFER|תבנית טקסט: קריינות, תמלול ותרגום · TRANSFER]] — ארגון העבודה

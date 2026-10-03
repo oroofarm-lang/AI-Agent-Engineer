@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_MKT_05"
 assessment_version: "2.1.0"
 lesson_id: "MKT_05"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_05]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_05]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_05_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_05_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_05_TRANSFER]]"]
 ---
 
 # תבנית הגשה: הוכחה מעשית · מקור אחד לכמה פורמטים
@@ -53,3 +53,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_05]]"]
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_05|הוכחה מעשית · מקור אחד לכמה פורמטים]] — תבנית הגשה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_05_BUILD|תבנית טבלה: מקור אחד לכמה פורמטים · BUILD]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_05_DIAGNOSE|תבנית טקסט: מקור אחד לכמה פורמטים · DIAGNOSE]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_05_TRANSFER|תבנית טקסט: מקור אחד לכמה פורמטים · TRANSFER]] — תבנית סעיף

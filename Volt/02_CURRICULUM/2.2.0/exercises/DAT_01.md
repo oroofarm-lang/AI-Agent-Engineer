@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "DAT_01"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "b65b6740424213dff11104ec39016b90c02c64a6e88dbc104e96d985e3b19db8"
-related: ["[[02_CURRICULUM/2.2.0/lessons/DAT_01]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_DAT_01]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_DAT_01]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/DAT_01]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_DAT_01]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_DAT_01]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_DAT_01_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_DAT_01_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_DAT_01_TRANSFER]]"]
 ---
 
 # התרגול: עוזר נתונים עסקיים
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/DAT_01]]","[[02_CURRICULUM/quiz-banks/1
 - [[02_CURRICULUM/2.2.0/lessons/DAT_01|עוזר נתונים עסקיים]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_DAT_01|בדיקת הבנה: שאילתת מכירות רצה בלי שגיאה, אך JOIN הכפיל שורות והגדיל את סכום ההכנסות. מה צריך לבדוק?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_DAT_01|הוכחה מעשית · עוזר נתונים עסקיים]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_DAT_01_BUILD|תבנית טקסט: עוזר נתונים עסקיים · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_DAT_01_DIAGNOSE|תבנית טבלה: עוזר נתונים עסקיים · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_DAT_01_TRANSFER|תבנית טקסט: עוזר נתונים עסקיים · TRANSFER]] — ארגון העבודה

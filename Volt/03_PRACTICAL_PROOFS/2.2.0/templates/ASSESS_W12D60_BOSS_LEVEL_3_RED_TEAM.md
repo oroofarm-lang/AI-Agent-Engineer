@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_W12D60_BOSS_LEVEL_3_RED_TEAM"
 assessment_version: "2.1.0"
 lesson_id: "W12D60_BOSS_LEVEL_3_RED_TEAM"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W12D60_BOSS_LEVEL_3_RED_TEAM]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W12D60_BOSS_LEVEL_3_RED_TEAM]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W12D60_BOSS_LEVEL_3_RED_TEAM_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W12D60_BOSS_LEVEL_3_RED_TEAM_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W12D60_BOSS_LEVEL_3_RED_TEAM_TRANSFER]]"]
 ---
 
 # תבנית הגשה: הוכחה מעשית · מבחן מסכם: בדיקת תקיפה ותיקון
@@ -53,3 +53,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W12D60_BOSS_LEVEL_3_RED_TE
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W12D60_BOSS_LEVEL_3_RED_TEAM|הוכחה מעשית · מבחן מסכם: בדיקת תקיפה ותיקון]] — תבנית הגשה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W12D60_BOSS_LEVEL_3_RED_TEAM_BUILD|תבנית טקסט: מבחן מסכם: בדיקת תקיפה ותיקון · BUILD]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W12D60_BOSS_LEVEL_3_RED_TEAM_DIAGNOSE|תבנית טקסט: מבחן מסכם: בדיקת תקיפה ותיקון · DIAGNOSE]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W12D60_BOSS_LEVEL_3_RED_TEAM_TRANSFER|תבנית טקסט: מבחן מסכם: בדיקת תקיפה ותיקון · TRANSFER]] — תבנית סעיף

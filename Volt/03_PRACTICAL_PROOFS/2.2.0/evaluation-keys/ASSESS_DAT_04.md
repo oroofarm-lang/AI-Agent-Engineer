@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_DAT_04"
 assessment_version: "2.1.0"
 lesson_id: "DAT_04"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_DAT_04]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_DAT_04]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_DAT_04_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_DAT_04_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_DAT_04_TRANSFER]]"]
 ---
 
 # תנאי בדיקה: הוכחה מעשית · Prompting, ‏RAG ו־Fine-tuning
@@ -41,3 +41,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_DAT_04]]"]
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_DAT_04|הוכחה מעשית · Prompting, ‏RAG ו־Fine-tuning]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_DAT_04_BUILD|תבנית טקסט: Prompting, ‏RAG ו־Fine-tuning · BUILD]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_DAT_04_DIAGNOSE|תבנית טקסט: Prompting, ‏RAG ו־Fine-tuning · DIAGNOSE]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_DAT_04_TRANSFER|תבנית טקסט: Prompting, ‏RAG ו־Fine-tuning · TRANSFER]] — תנאי בדיקה

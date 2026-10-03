@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_W05D21_DATABASES"
 assessment_version: "2.1.0"
 lesson_id: "W05D21_DATABASES"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W05D21_DATABASES]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W05D21_DATABASES]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W05D21_DATABASES_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W05D21_DATABASES_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W05D21_DATABASES_TRANSFER]]"]
 ---
 
 # תבנית הגשה: הוכחה מעשית · מסדי נתונים ו־SQL
@@ -53,3 +53,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W05D21_DATABASES]]"]
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W05D21_DATABASES|הוכחה מעשית · מסדי נתונים ו־SQL]] — תבנית הגשה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W05D21_DATABASES_BUILD|תבנית טבלה: מסדי נתונים ו־SQL · BUILD]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W05D21_DATABASES_DIAGNOSE|תבנית טקסט: מסדי נתונים ו־SQL · DIAGNOSE]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W05D21_DATABASES_TRANSFER|תבנית טקסט: מסדי נתונים ו־SQL · TRANSFER]] — תבנית סעיף

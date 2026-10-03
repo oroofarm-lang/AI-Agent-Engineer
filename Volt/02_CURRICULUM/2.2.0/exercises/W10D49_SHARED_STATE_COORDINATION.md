@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "W10D49_SHARED_STATE_COORDINATION"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "4eb7a24c2ddffe220eb11e761f25167e6df7132ee019e04a3de1abc1030677df"
-related: ["[[02_CURRICULUM/2.2.0/lessons/W10D49_SHARED_STATE_COORDINATION]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W10D49_SHARED_STATE_COORDINATION]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W10D49_SHARED_STATE_COORDINATION]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/W10D49_SHARED_STATE_COORDINATION]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W10D49_SHARED_STATE_COORDINATION]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W10D49_SHARED_STATE_COORDINATION]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W10D49_SHARED_STATE_COORDINATION_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W10D49_SHARED_STATE_COORDINATION_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W10D49_SHARED_STATE_COORDINATION_TRANSFER]]"]
 ---
 
 # התרגול: מצב משותף ותיאום
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/W10D49_SHARED_STATE_COORDINATION]]","[[
 - [[02_CURRICULUM/2.2.0/lessons/W10D49_SHARED_STATE_COORDINATION|מצב משותף ותיאום]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W10D49_SHARED_STATE_COORDINATION|בדיקת הבנה: שני מומחים מציעים ערכים שונים לאותו שדה במצב המשותף. מה נדרש?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W10D49_SHARED_STATE_COORDINATION|הוכחה מעשית · מצב משותף ותיאום]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W10D49_SHARED_STATE_COORDINATION_BUILD|תבנית טקסט: מצב משותף ותיאום · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W10D49_SHARED_STATE_COORDINATION_DIAGNOSE|תבנית טקסט: מצב משותף ותיאום · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W10D49_SHARED_STATE_COORDINATION_TRANSFER|תבנית טקסט: מצב משותף ותיאום · TRANSFER]] — ארגון העבודה

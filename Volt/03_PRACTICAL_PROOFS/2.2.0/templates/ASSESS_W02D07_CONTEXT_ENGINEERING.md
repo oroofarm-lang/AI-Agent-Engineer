@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_W02D07_CONTEXT_ENGINEERING"
 assessment_version: "2.1.0"
 lesson_id: "W02D07_CONTEXT_ENGINEERING"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W02D07_CONTEXT_ENGINEERING]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W02D07_CONTEXT_ENGINEERING]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W02D07_CONTEXT_ENGINEERING_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W02D07_CONTEXT_ENGINEERING_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W02D07_CONTEXT_ENGINEERING_TRANSFER]]"]
 ---
 
 # תבנית הגשה: הוכחה מעשית · הנדסת הקשר
@@ -53,3 +53,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W02D07_CONTEXT_ENGINEERING
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W02D07_CONTEXT_ENGINEERING|הוכחה מעשית · הנדסת הקשר]] — תבנית הגשה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W02D07_CONTEXT_ENGINEERING_BUILD|תבנית טקסט: הנדסת הקשר · BUILD]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W02D07_CONTEXT_ENGINEERING_DIAGNOSE|תבנית טקסט: הנדסת הקשר · DIAGNOSE]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W02D07_CONTEXT_ENGINEERING_TRANSFER|תבנית טקסט: הנדסת הקשר · TRANSFER]] — תבנית סעיף

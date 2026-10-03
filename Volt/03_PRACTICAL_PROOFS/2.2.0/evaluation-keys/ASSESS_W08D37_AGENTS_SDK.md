@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_W08D37_AGENTS_SDK"
 assessment_version: "2.1.0"
 lesson_id: "W08D37_AGENTS_SDK"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W08D37_AGENTS_SDK]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W08D37_AGENTS_SDK]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W08D37_AGENTS_SDK_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W08D37_AGENTS_SDK_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W08D37_AGENTS_SDK_TRANSFER]]"]
 ---
 
 # תנאי בדיקה: הוכחה מעשית · SDK לסוכנים
@@ -41,3 +41,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W08D37_AGENTS_SDK]]"]
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W08D37_AGENTS_SDK|הוכחה מעשית · SDK לסוכנים]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W08D37_AGENTS_SDK_BUILD|תבנית טקסט: SDK לסוכנים · BUILD]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W08D37_AGENTS_SDK_DIAGNOSE|תבנית טקסט: SDK לסוכנים · DIAGNOSE]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W08D37_AGENTS_SDK_TRANSFER|תבנית טקסט: SDK לסוכנים · TRANSFER]] — תנאי בדיקה

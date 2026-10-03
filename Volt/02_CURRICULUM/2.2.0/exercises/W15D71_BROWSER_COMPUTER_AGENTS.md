@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "W15D71_BROWSER_COMPUTER_AGENTS"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "46b8ac5371f22448355febedd877f9feafbaec722f45b86b01868d44bc2bd392"
-related: ["[[02_CURRICULUM/2.2.0/lessons/W15D71_BROWSER_COMPUTER_AGENTS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W15D71_BROWSER_COMPUTER_AGENTS]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W15D71_BROWSER_COMPUTER_AGENTS]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/W15D71_BROWSER_COMPUTER_AGENTS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W15D71_BROWSER_COMPUTER_AGENTS]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W15D71_BROWSER_COMPUTER_AGENTS]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W15D71_BROWSER_COMPUTER_AGENTS_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W15D71_BROWSER_COMPUTER_AGENTS_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W15D71_BROWSER_COMPUTER_AGENTS_TRANSFER]]"]
 ---
 
 # התרגול: סוכני דפדפן ומחשב
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/W15D71_BROWSER_COMPUTER_AGENTS]]","[[02
 - [[02_CURRICULUM/2.2.0/lessons/W15D71_BROWSER_COMPUTER_AGENTS|סוכני דפדפן ומחשב]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W15D71_BROWSER_COMPUTER_AGENTS|בדיקת הבנה: כפתור עבר מקום ונפתח חלון נוסף. מה צריך סוכן הדפדפן לבדוק לפני פעולה שמשנה נתונים?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W15D71_BROWSER_COMPUTER_AGENTS|הוכחה מעשית · סוכני דפדפן ומחשב]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W15D71_BROWSER_COMPUTER_AGENTS_BUILD|תבנית טקסט: סוכני דפדפן ומחשב · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W15D71_BROWSER_COMPUTER_AGENTS_DIAGNOSE|תבנית טקסט: סוכני דפדפן ומחשב · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W15D71_BROWSER_COMPUTER_AGENTS_TRANSFER|תבנית טקסט: סוכני דפדפן ומחשב · TRANSFER]] — ארגון העבודה

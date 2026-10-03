@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "W16D78_BUILD"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "1e9ab3b22d6fff8baff40221a5f20eca90904f6bafe2be7216fd2ba880586169"
-related: ["[[02_CURRICULUM/2.2.0/lessons/W16D78_BUILD]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W16D78_BUILD]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W16D78_BUILD]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/W16D78_BUILD]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W16D78_BUILD]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W16D78_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W16D78_BUILD_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W16D78_BUILD_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W16D78_BUILD_TRANSFER]]"]
 ---
 
 # התרגול: פרויקט גמר: בנייה
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/W16D78_BUILD]]","[[02_CURRICULUM/quiz-b
 - [[02_CURRICULUM/2.2.0/lessons/W16D78_BUILD|פרויקט גמר: בנייה]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W16D78_BUILD|בדיקת הבנה: מהי המטרה של Vertical Slice בפרויקט הגמר?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W16D78_BUILD|הוכחה מעשית · פרויקט גמר: בנייה]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W16D78_BUILD_BUILD|תבנית טקסט: פרויקט גמר: בנייה · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W16D78_BUILD_DIAGNOSE|תבנית טקסט: פרויקט גמר: בנייה · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W16D78_BUILD_TRANSFER|תבנית טקסט: פרויקט גמר: בנייה · TRANSFER]] — ארגון העבודה

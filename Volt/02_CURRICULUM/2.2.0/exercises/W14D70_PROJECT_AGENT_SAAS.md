@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "W14D70_PROJECT_AGENT_SAAS"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "0dcb5e0e9f39cc089d753134dc800bbaf9826e467e4c8ea0d80b3a6538fac904"
-related: ["[[02_CURRICULUM/2.2.0/lessons/W14D70_PROJECT_AGENT_SAAS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W14D70_PROJECT_AGENT_SAAS]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W14D70_PROJECT_AGENT_SAAS]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/W14D70_PROJECT_AGENT_SAAS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W14D70_PROJECT_AGENT_SAAS]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W14D70_PROJECT_AGENT_SAAS]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W14D70_PROJECT_AGENT_SAAS_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W14D70_PROJECT_AGENT_SAAS_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W14D70_PROJECT_AGENT_SAAS_TRANSFER]]"]
 ---
 
 # התרגול: פרויקט: מוצר AI עסקי
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/W14D70_PROJECT_AGENT_SAAS]]","[[02_CURR
 - [[02_CURRICULUM/2.2.0/lessons/W14D70_PROJECT_AGENT_SAAS|פרויקט: מוצר AI עסקי]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W14D70_PROJECT_AGENT_SAAS|בדיקת הבנה: ממשק המוצר נראה תקין. איזו בדיקה עדיין נדרשת לפני מסירה?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W14D70_PROJECT_AGENT_SAAS|הוכחה מעשית · פרויקט: מוצר AI עסקי]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W14D70_PROJECT_AGENT_SAAS_BUILD|תבנית טקסט: פרויקט: מוצר AI עסקי · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W14D70_PROJECT_AGENT_SAAS_DIAGNOSE|תבנית טקסט: פרויקט: מוצר AI עסקי · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W14D70_PROJECT_AGENT_SAAS_TRANSFER|תבנית טקסט: פרויקט: מוצר AI עסקי · TRANSFER]] — ארגון העבודה

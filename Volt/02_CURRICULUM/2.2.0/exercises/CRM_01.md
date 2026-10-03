@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "CRM_01"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "ff59b96654c2c8a46f9e719e6f49b1aff7f5a054aca161522e6a91f0ad138739"
-related: ["[[02_CURRICULUM/2.2.0/lessons/CRM_01]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_CRM_01]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_CRM_01]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/CRM_01]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_CRM_01]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_CRM_01]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_CRM_01_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_CRM_01_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_CRM_01_TRANSFER]]"]
 ---
 
 # התרגול: מודל נתונים ללקוחות ולעסקאות
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/CRM_01]]","[[02_CURRICULUM/quiz-banks/1
 - [[02_CURRICULUM/2.2.0/lessons/CRM_01|מודל נתונים ללקוחות ולעסקאות]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_CRM_01|בדיקת הבנה: לאותו לקוח יש שתי עסקאות. איך נכון לייצג זאת במודל הנתונים של ה־CRM?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_CRM_01|הוכחה מעשית · מודל נתונים ללקוחות ולעסקאות]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_CRM_01_BUILD|תבנית טבלה: מודל נתונים ללקוחות ולעסקאות · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_CRM_01_DIAGNOSE|תבנית טקסט: מודל נתונים ללקוחות ולעסקאות · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_CRM_01_TRANSFER|תבנית טקסט: מודל נתונים ללקוחות ולעסקאות · TRANSFER]] — ארגון העבודה

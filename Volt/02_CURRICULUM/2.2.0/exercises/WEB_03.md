@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "WEB_03"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "9b8c903c26e2c4e27a16415da3cc22a495e8cfe7f2747c0da3a3d38b43a6eb6e"
-related: ["[[02_CURRICULUM/2.2.0/lessons/WEB_03]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_WEB_03]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_WEB_03]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/WEB_03]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_WEB_03]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_WEB_03]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_WEB_03_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_WEB_03_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_WEB_03_TRANSFER]]"]
 ---
 
 # התרגול: בניית אתר בעזרת AI ובדיקת הקוד
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/WEB_03]]","[[02_CURRICULUM/quiz-banks/1
 - [[02_CURRICULUM/2.2.0/lessons/WEB_03|בניית אתר בעזרת AI ובדיקת הקוד]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_WEB_03|בדיקת הבנה: כרטיס בדף שנוצר בעזרת AI נראה טוב במחשב אך חורג מרוחב הטלפון. מה נדרש כדי להשלים את הבנייה?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_WEB_03|הוכחה מעשית · בניית אתר בעזרת AI ובדיקת הקוד]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_WEB_03_BUILD|תבנית טקסט: בניית אתר בעזרת AI ובדיקת הקוד · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_WEB_03_DIAGNOSE|תבנית טקסט: בניית אתר בעזרת AI ובדיקת הקוד · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_WEB_03_TRANSFER|תבנית טקסט: בניית אתר בעזרת AI ובדיקת הקוד · TRANSFER]] — ארגון העבודה

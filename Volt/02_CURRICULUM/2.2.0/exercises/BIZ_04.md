@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "BIZ_04"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "52fac964f06216590fc5bfb563bc98adb2e5cd013d09fe2439755bff6d3eb57e"
-related: ["[[02_CURRICULUM/2.2.0/lessons/BIZ_04]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_BIZ_04]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_BIZ_04]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/BIZ_04]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_BIZ_04]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_BIZ_04]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_BIZ_04_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_BIZ_04_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_BIZ_04_TRANSFER]]"]
 ---
 
 # התרגול: חשבונות לקוח, מידע והרשאות
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/BIZ_04]]","[[02_CURRICULUM/quiz-banks/1
 - [[02_CURRICULUM/2.2.0/lessons/BIZ_04|חשבונות לקוח, מידע והרשאות]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_BIZ_04|בדיקת הבנה: מערכת הלקוח עדיין תלויה במפתח גישה של ספק השירות. מה צריך להבהיר ולתכנן במסירה?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_BIZ_04|הוכחה מעשית · חשבונות לקוח, מידע והרשאות]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_BIZ_04_BUILD|תבנית טקסט: חשבונות לקוח, מידע והרשאות · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_BIZ_04_DIAGNOSE|תבנית טקסט: חשבונות לקוח, מידע והרשאות · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_BIZ_04_TRANSFER|תבנית טקסט: חשבונות לקוח, מידע והרשאות · TRANSFER]] — ארגון העבודה

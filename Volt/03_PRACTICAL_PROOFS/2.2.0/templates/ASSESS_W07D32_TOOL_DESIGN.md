@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_W07D32_TOOL_DESIGN"
 assessment_version: "2.1.0"
 lesson_id: "W07D32_TOOL_DESIGN"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W07D32_TOOL_DESIGN]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W07D32_TOOL_DESIGN]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W07D32_TOOL_DESIGN_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W07D32_TOOL_DESIGN_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W07D32_TOOL_DESIGN_TRANSFER]]"]
 ---
 
 # תבנית הגשה: הוכחה מעשית · תכנון כלים עסקיים
@@ -53,3 +53,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W07D32_TOOL_DESIGN]]"]
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W07D32_TOOL_DESIGN|הוכחה מעשית · תכנון כלים עסקיים]] — תבנית הגשה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W07D32_TOOL_DESIGN_BUILD|תבנית טקסט: תכנון כלים עסקיים · BUILD]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W07D32_TOOL_DESIGN_DIAGNOSE|תבנית טקסט: תכנון כלים עסקיים · DIAGNOSE]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W07D32_TOOL_DESIGN_TRANSFER|תבנית טקסט: תכנון כלים עסקיים · TRANSFER]] — תבנית סעיף

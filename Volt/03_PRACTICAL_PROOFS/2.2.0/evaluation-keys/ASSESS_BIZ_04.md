@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_BIZ_04"
 assessment_version: "2.1.0"
 lesson_id: "BIZ_04"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_BIZ_04]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_BIZ_04]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_BIZ_04_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_BIZ_04_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_BIZ_04_TRANSFER]]"]
 ---
 
 # תנאי בדיקה: הוכחה מעשית · חשבונות לקוח, מידע והרשאות
@@ -41,3 +41,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_BIZ_04]]"]
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_BIZ_04|הוכחה מעשית · חשבונות לקוח, מידע והרשאות]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_BIZ_04_BUILD|תבנית טקסט: חשבונות לקוח, מידע והרשאות · BUILD]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_BIZ_04_DIAGNOSE|תבנית טקסט: חשבונות לקוח, מידע והרשאות · DIAGNOSE]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_BIZ_04_TRANSFER|תבנית טקסט: חשבונות לקוח, מידע והרשאות · TRANSFER]] — תנאי בדיקה

@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "W14D66_FRONTEND_FUNDAMENTALS"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "b009b2dc1fdfe7d393ab4f060841dc69206f056f7cbb475900898a1453668f18"
-related: ["[[02_CURRICULUM/2.2.0/lessons/W14D66_FRONTEND_FUNDAMENTALS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W14D66_FRONTEND_FUNDAMENTALS]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W14D66_FRONTEND_FUNDAMENTALS]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/W14D66_FRONTEND_FUNDAMENTALS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W14D66_FRONTEND_FUNDAMENTALS]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W14D66_FRONTEND_FUNDAMENTALS]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W14D66_FRONTEND_FUNDAMENTALS_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W14D66_FRONTEND_FUNDAMENTALS_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W14D66_FRONTEND_FUNDAMENTALS_TRANSFER]]"]
 ---
 
 # התרגול: React ו־Next.js למערכות AI
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/W14D66_FRONTEND_FUNDAMENTALS]]","[[02_C
 - [[02_CURRICULUM/2.2.0/lessons/W14D66_FRONTEND_FUNDAMENTALS|React ו־Next.js למערכות AI]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W14D66_FRONTEND_FUNDAMENTALS|בדיקת הבנה: תשובה לבקשה ישנה הגיעה אחרי תשובה לבקשה החדשה. מה צריך הממשק למנוע?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W14D66_FRONTEND_FUNDAMENTALS|הוכחה מעשית · React ו־Next.js למערכות AI]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W14D66_FRONTEND_FUNDAMENTALS_BUILD|תבנית טקסט: React ו־Next.js למערכות AI · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W14D66_FRONTEND_FUNDAMENTALS_DIAGNOSE|תבנית טקסט: React ו־Next.js למערכות AI · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W14D66_FRONTEND_FUNDAMENTALS_TRANSFER|תבנית טקסט: React ו־Next.js למערכות AI · TRANSFER]] — ארגון העבודה

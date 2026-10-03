@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "W08D36_RESPONSES_API"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "66790f97d958cdbb8087a7c62817d44c8762bd12f8d78c1c55d40ef9b771a6ce"
-related: ["[[02_CURRICULUM/2.2.0/lessons/W08D36_RESPONSES_API]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W08D36_RESPONSES_API]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W08D36_RESPONSES_API]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/W08D36_RESPONSES_API]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W08D36_RESPONSES_API]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W08D36_RESPONSES_API]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W08D36_RESPONSES_API_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W08D36_RESPONSES_API_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W08D36_RESPONSES_API_TRANSFER]]"]
 ---
 
 # התרגול: אינטגרציה ישירה עם Responses API
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/W08D36_RESPONSES_API]]","[[02_CURRICULU
 - [[02_CURRICULUM/2.2.0/lessons/W08D36_RESPONSES_API|אינטגרציה ישירה עם Responses API]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W08D36_RESPONSES_API|בדיקת הבנה: מדוע מחזירים תוצאת כלי עם ה־call_id המתאים?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W08D36_RESPONSES_API|הוכחה מעשית · אינטגרציה ישירה עם Responses API]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W08D36_RESPONSES_API_BUILD|תבנית טקסט: אינטגרציה ישירה עם Responses API · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W08D36_RESPONSES_API_DIAGNOSE|תבנית טקסט: אינטגרציה ישירה עם Responses API · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W08D36_RESPONSES_API_TRANSFER|תבנית טקסט: אינטגרציה ישירה עם Responses API · TRANSFER]] — ארגון העבודה

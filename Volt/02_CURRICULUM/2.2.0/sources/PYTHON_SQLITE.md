@@ -8,7 +8,7 @@ source_id: "PYTHON_SQLITE"
 url: "https://docs.python.org/3/library/sqlite3.html"
 last_verified: null
 technology_ids: []
-related: ["[[01_AGENTS/Agent-Database-Architect]]","[[02_CURRICULUM/2.2.0/Index]]","[[02_CURRICULUM/2.2.0/lessons/DAT_01]]","[[02_CURRICULUM/2.2.0/lessons/W05D21_DATABASES]]","[[02_CURRICULUM/2.2.0/lessons/W05D22_STATE]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_DAT_01]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W05D21_DATABASES]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W05D22_STATE]]","[[04_AUTOMATIONS_AND_APIS/Knowledge-Updates]]"]
+related: ["[[01_AGENTS/Agent-Database-Architect]]","[[02_CURRICULUM/2.2.0/Index]]","[[02_CURRICULUM/2.2.0/lessons/DAT_01]]","[[02_CURRICULUM/2.2.0/lessons/W05D21_DATABASES]]","[[02_CURRICULUM/2.2.0/lessons/W05D22_STATE]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_DAT_01]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W05D21_DATABASES]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W05D22_STATE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_DAT_01_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_DAT_01_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_DAT_01_TRANSFER]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W05D21_DATABASES_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W05D21_DATABASES_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W05D21_DATABASES_TRANSFER]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W05D22_STATE_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W05D22_STATE_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W05D22_STATE_TRANSFER]]","[[04_AUTOMATIONS_AND_APIS/Knowledge-Updates]]"]
 ---
 
 # Python SQLite module
@@ -33,4 +33,13 @@ related: ["[[01_AGENTS/Agent-Database-Architect]]","[[02_CURRICULUM/2.2.0/Index]
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_DAT_01|בדיקת הבנה: שאילתת מכירות רצה בלי שגיאה, אך JOIN הכפיל שורות והגדיל את סכום ההכנסות. מה צריך לבדוק?]] — מקור השאלה
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W05D21_DATABASES|בדיקת הבנה: הוספת לקוח הצליחה, אך הוספת הפנייה באותה עסקה נכשלה. מה מטרת ROLLBACK בתרגיל?]] — מקור השאלה
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W05D22_STATE|בדיקת הבנה: מה צריך לשמור כדי להמשיך תהליך אחרי סגירת התוכנית?]] — מקור השאלה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_DAT_01_BUILD|תבנית טקסט: עוזר נתונים עסקיים · BUILD]] — מקור לשיעור
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_DAT_01_DIAGNOSE|תבנית טבלה: עוזר נתונים עסקיים · DIAGNOSE]] — מקור לשיעור
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_DAT_01_TRANSFER|תבנית טקסט: עוזר נתונים עסקיים · TRANSFER]] — מקור לשיעור
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W05D21_DATABASES_BUILD|תבנית טבלה: מסדי נתונים ו־SQL · BUILD]] — מקור לשיעור
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W05D21_DATABASES_DIAGNOSE|תבנית טקסט: מסדי נתונים ו־SQL · DIAGNOSE]] — מקור לשיעור
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W05D21_DATABASES_TRANSFER|תבנית טקסט: מסדי נתונים ו־SQL · TRANSFER]] — מקור לשיעור
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W05D22_STATE_BUILD|תבנית טקסט: מצב שיחה ומצב תהליך · BUILD]] — מקור לשיעור
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W05D22_STATE_DIAGNOSE|תבנית טקסט: מצב שיחה ומצב תהליך · DIAGNOSE]] — מקור לשיעור
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W05D22_STATE_TRANSFER|תבנית טקסט: מצב שיחה ומצב תהליך · TRANSFER]] — מקור לשיעור
 - [[04_AUTOMATIONS_AND_APIS/Knowledge-Updates|רענון מקורות וביקורת תוכן]] — מקור בקטלוג

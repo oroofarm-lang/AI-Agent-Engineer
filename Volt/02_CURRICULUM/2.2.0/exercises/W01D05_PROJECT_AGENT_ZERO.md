@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "W01D05_PROJECT_AGENT_ZERO"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "b95edb571d1d2085c0a6cdc8cc0aae1d57efdcf5d9bf7e0219e226a72bb68cfb"
-related: ["[[02_CURRICULUM/2.2.0/lessons/W01D05_PROJECT_AGENT_ZERO]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W01D05_PROJECT_AGENT_ZERO]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W01D05_PROJECT_AGENT_ZERO]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/W01D05_PROJECT_AGENT_ZERO]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W01D05_PROJECT_AGENT_ZERO]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W01D05_PROJECT_AGENT_ZERO]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W01D05_PROJECT_AGENT_ZERO_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W01D05_PROJECT_AGENT_ZERO_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W01D05_PROJECT_AGENT_ZERO_TRANSFER]]"]
 ---
 
 # התרגול: פרויקט: Agent Zero
@@ -67,3 +67,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/W01D05_PROJECT_AGENT_ZERO]]","[[02_CURR
 - [[02_CURRICULUM/2.2.0/lessons/W01D05_PROJECT_AGENT_ZERO|פרויקט: Agent Zero]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W01D05_PROJECT_AGENT_ZERO|בדיקת הבנה: הכלי lookup_product נכשל ולא סיפק נתוני מלאי. איזו תשובה מתאימה לדרישת הפרויקט?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W01D05_PROJECT_AGENT_ZERO|הוכחה מעשית · פרויקט: Agent Zero]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W01D05_PROJECT_AGENT_ZERO_BUILD|תבנית טקסט: פרויקט: Agent Zero · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W01D05_PROJECT_AGENT_ZERO_DIAGNOSE|תבנית טקסט: פרויקט: Agent Zero · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W01D05_PROJECT_AGENT_ZERO_TRANSFER|תבנית טקסט: פרויקט: Agent Zero · TRANSFER]] — ארגון העבודה

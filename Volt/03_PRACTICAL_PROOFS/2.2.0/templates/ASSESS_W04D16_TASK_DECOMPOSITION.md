@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_W04D16_TASK_DECOMPOSITION"
 assessment_version: "2.1.0"
 lesson_id: "W04D16_TASK_DECOMPOSITION"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W04D16_TASK_DECOMPOSITION]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W04D16_TASK_DECOMPOSITION]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W04D16_TASK_DECOMPOSITION_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W04D16_TASK_DECOMPOSITION_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W04D16_TASK_DECOMPOSITION_TRANSFER]]"]
 ---
 
 # תבנית הגשה: הוכחה מעשית · פירוק משימות מחקר
@@ -53,3 +53,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W04D16_TASK_DECOMPOSITION]
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W04D16_TASK_DECOMPOSITION|הוכחה מעשית · פירוק משימות מחקר]] — תבנית הגשה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W04D16_TASK_DECOMPOSITION_BUILD|תבנית טקסט: פירוק משימות מחקר · BUILD]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W04D16_TASK_DECOMPOSITION_DIAGNOSE|תבנית טקסט: פירוק משימות מחקר · DIAGNOSE]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W04D16_TASK_DECOMPOSITION_TRANSFER|תבנית טקסט: פירוק משימות מחקר · TRANSFER]] — תבנית סעיף

@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "W13D61_BACKEND_APIS"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "7fca1136384b16f6041b0eea3de118f0e7f013e19944fe0ac7a0e40caf2062ef"
-related: ["[[02_CURRICULUM/2.2.0/lessons/W13D61_BACKEND_APIS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W13D61_BACKEND_APIS]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W13D61_BACKEND_APIS]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/W13D61_BACKEND_APIS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W13D61_BACKEND_APIS]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W13D61_BACKEND_APIS]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W13D61_BACKEND_APIS_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W13D61_BACKEND_APIS_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W13D61_BACKEND_APIS_TRANSFER]]"]
 ---
 
 # התרגול: ממשקי API בצד השרת
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/W13D61_BACKEND_APIS]]","[[02_CURRICULUM
 - [[02_CURRICULUM/2.2.0/lessons/W13D61_BACKEND_APIS|ממשקי API בצד השרת]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W13D61_BACKEND_APIS|בדיקת הבנה: מה צריך GET /runs/{id} לבדוק לפני החזרת פרטי ריצה?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W13D61_BACKEND_APIS|הוכחה מעשית · ממשקי API בצד השרת]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W13D61_BACKEND_APIS_BUILD|תבנית טקסט: ממשקי API בצד השרת · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W13D61_BACKEND_APIS_DIAGNOSE|תבנית טקסט: ממשקי API בצד השרת · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W13D61_BACKEND_APIS_TRANSFER|תבנית טקסט: ממשקי API בצד השרת · TRANSFER]] — ארגון העבודה

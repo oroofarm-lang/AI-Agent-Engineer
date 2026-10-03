@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_W12D56_PROMPT_INJECTION"
 assessment_version: "2.1.0"
 lesson_id: "W12D56_PROMPT_INJECTION"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W12D56_PROMPT_INJECTION]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W12D56_PROMPT_INJECTION]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W12D56_PROMPT_INJECTION_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W12D56_PROMPT_INJECTION_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W12D56_PROMPT_INJECTION_TRANSFER]]"]
 ---
 
 # תבנית הגשה: הוכחה מעשית · הזרקת הוראות זדוניות
@@ -53,3 +53,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W12D56_PROMPT_INJECTION]]"
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W12D56_PROMPT_INJECTION|הוכחה מעשית · הזרקת הוראות זדוניות]] — תבנית הגשה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W12D56_PROMPT_INJECTION_BUILD|תבנית טקסט: הזרקת הוראות זדוניות · BUILD]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W12D56_PROMPT_INJECTION_DIAGNOSE|תבנית טקסט: הזרקת הוראות זדוניות · DIAGNOSE]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W12D56_PROMPT_INJECTION_TRANSFER|תבנית טקסט: הזרקת הוראות זדוניות · TRANSFER]] — תבנית סעיף

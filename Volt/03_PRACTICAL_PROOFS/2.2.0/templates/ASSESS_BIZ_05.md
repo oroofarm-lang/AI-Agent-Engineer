@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_BIZ_05"
 assessment_version: "2.1.0"
 lesson_id: "BIZ_05"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_BIZ_05]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_BIZ_05]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_BIZ_05_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_BIZ_05_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_BIZ_05_TRANSFER]]"]
 ---
 
 # תבנית הגשה: הוכחה מעשית · פיילוט, הדרכת עובדים ומסירה
@@ -53,3 +53,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_BIZ_05]]"]
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_BIZ_05|הוכחה מעשית · פיילוט, הדרכת עובדים ומסירה]] — תבנית הגשה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_BIZ_05_BUILD|תבנית טקסט: פיילוט, הדרכת עובדים ומסירה · BUILD]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_BIZ_05_DIAGNOSE|תבנית טקסט: פיילוט, הדרכת עובדים ומסירה · DIAGNOSE]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_BIZ_05_TRANSFER|תבנית טקסט: פיילוט, הדרכת עובדים ומסירה · TRANSFER]] — תבנית סעיף

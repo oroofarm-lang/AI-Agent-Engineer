@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_W14D69_PRODUCTION_CONCERNS"
 assessment_version: "2.1.0"
 lesson_id: "W14D69_PRODUCTION_CONCERNS"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W14D69_PRODUCTION_CONCERNS]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W14D69_PRODUCTION_CONCERNS]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W14D69_PRODUCTION_CONCERNS_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W14D69_PRODUCTION_CONCERNS_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W14D69_PRODUCTION_CONCERNS_TRANSFER]]"]
 ---
 
 # תנאי בדיקה: הוכחה מעשית · עלות, ביצועים וניטור
@@ -41,3 +41,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W14D69_PRODUCTION_CONCERNS
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W14D69_PRODUCTION_CONCERNS|הוכחה מעשית · עלות, ביצועים וניטור]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W14D69_PRODUCTION_CONCERNS_BUILD|תבנית טקסט: עלות, ביצועים וניטור · BUILD]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W14D69_PRODUCTION_CONCERNS_DIAGNOSE|תבנית טקסט: עלות, ביצועים וניטור · DIAGNOSE]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W14D69_PRODUCTION_CONCERNS_TRANSFER|תבנית טקסט: עלות, ביצועים וניטור · TRANSFER]] — תנאי בדיקה

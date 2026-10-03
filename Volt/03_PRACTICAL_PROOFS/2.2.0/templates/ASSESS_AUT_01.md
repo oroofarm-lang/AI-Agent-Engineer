@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_AUT_01"
 assessment_version: "2.1.0"
 lesson_id: "AUT_01"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AUT_01]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AUT_01]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_01_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_01_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_01_TRANSFER]]"]
 ---
 
 # תבנית הגשה: הוכחה מעשית · אוטומציה ראשונה ב־n8n
@@ -53,3 +53,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AUT_01]]"]
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AUT_01|הוכחה מעשית · אוטומציה ראשונה ב־n8n]] — תבנית הגשה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_01_BUILD|תבנית טקסט: אוטומציה ראשונה ב־n8n · BUILD]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_01_DIAGNOSE|תבנית טקסט: אוטומציה ראשונה ב־n8n · DIAGNOSE]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_01_TRANSFER|תבנית טקסט: אוטומציה ראשונה ב־n8n · TRANSFER]] — תבנית סעיף

@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_DAT_01"
 assessment_version: "2.1.0"
 lesson_id: "DAT_01"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_DAT_01]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_DAT_01]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_DAT_01_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_DAT_01_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_DAT_01_TRANSFER]]"]
 ---
 
 # תבנית הגשה: הוכחה מעשית · עוזר נתונים עסקיים
@@ -53,3 +53,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_DAT_01]]"]
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_DAT_01|הוכחה מעשית · עוזר נתונים עסקיים]] — תבנית הגשה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_DAT_01_BUILD|תבנית טקסט: עוזר נתונים עסקיים · BUILD]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_DAT_01_DIAGNOSE|תבנית טבלה: עוזר נתונים עסקיים · DIAGNOSE]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_DAT_01_TRANSFER|תבנית טקסט: עוזר נתונים עסקיים · TRANSFER]] — תבנית סעיף

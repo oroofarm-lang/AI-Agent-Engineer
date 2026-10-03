@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_W13D63_QUEUES_WORKERS"
 assessment_version: "2.1.0"
 lesson_id: "W13D63_QUEUES_WORKERS"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W13D63_QUEUES_WORKERS]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W13D63_QUEUES_WORKERS]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W13D63_QUEUES_WORKERS_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W13D63_QUEUES_WORKERS_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W13D63_QUEUES_WORKERS_TRANSFER]]"]
 ---
 
 # תנאי בדיקה: הוכחה מעשית · תורים ועובדים
@@ -41,3 +41,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W13D63_QUEUES_WORKERS]]"]
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W13D63_QUEUES_WORKERS|הוכחה מעשית · תורים ועובדים]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W13D63_QUEUES_WORKERS_BUILD|תבנית טקסט: תורים ועובדים · BUILD]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W13D63_QUEUES_WORKERS_DIAGNOSE|תבנית טקסט: תורים ועובדים · DIAGNOSE]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W13D63_QUEUES_WORKERS_TRANSFER|תבנית טקסט: תורים ועובדים · TRANSFER]] — תנאי בדיקה

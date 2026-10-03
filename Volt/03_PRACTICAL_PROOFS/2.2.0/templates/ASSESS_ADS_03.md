@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_ADS_03"
 assessment_version: "2.1.0"
 lesson_id: "ADS_03"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_ADS_03]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_ADS_03]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_03_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_03_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_03_TRANSFER]]"]
 ---
 
 # תבנית הגשה: הוכחה מעשית · קריאייטיב והשערות לניסוי
@@ -53,3 +53,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_ADS_03]]"]
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_ADS_03|הוכחה מעשית · קריאייטיב והשערות לניסוי]] — תבנית הגשה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_03_BUILD|תבנית טבלה: קריאייטיב והשערות לניסוי · BUILD]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_03_DIAGNOSE|תבנית טקסט: קריאייטיב והשערות לניסוי · DIAGNOSE]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_03_TRANSFER|תבנית טקסט: קריאייטיב והשערות לניסוי · TRANSFER]] — תבנית סעיף

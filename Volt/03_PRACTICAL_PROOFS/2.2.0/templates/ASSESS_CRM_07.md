@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_CRM_07"
 assessment_version: "2.1.0"
 lesson_id: "CRM_07"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_CRM_07]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_CRM_07]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_CRM_07_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_CRM_07_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_CRM_07_TRANSFER]]"]
 ---
 
 # תבנית הגשה: הוכחה מעשית · מלאי, מוצרים והזמנות
@@ -53,3 +53,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_CRM_07]]"]
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_CRM_07|הוכחה מעשית · מלאי, מוצרים והזמנות]] — תבנית הגשה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_CRM_07_BUILD|תבנית טקסט: מלאי, מוצרים והזמנות · BUILD]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_CRM_07_DIAGNOSE|תבנית טקסט: מלאי, מוצרים והזמנות · DIAGNOSE]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_CRM_07_TRANSFER|תבנית טקסט: מלאי, מוצרים והזמנות · TRANSFER]] — תבנית סעיף

@@ -8,7 +8,7 @@ source_id: "GOOGLE_ADS_TESTS"
 url: "https://developers.google.com/google-ads/api/docs/best-practices/testing"
 last_verified: null
 technology_ids: []
-related: ["[[01_AGENTS/Agent-Paid-Media-Measurement]]","[[02_CURRICULUM/2.2.0/Index]]","[[02_CURRICULUM/2.2.0/lessons/ADS_01]]","[[02_CURRICULUM/2.2.0/lessons/ADS_02]]","[[02_CURRICULUM/2.2.0/lessons/ADS_03]]","[[02_CURRICULUM/2.2.0/lessons/ADS_04]]","[[02_CURRICULUM/2.2.0/lessons/ADS_05]]","[[02_CURRICULUM/2.2.0/lessons/ADS_06]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_ADS_01]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_ADS_02]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_ADS_03]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_ADS_04]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_ADS_05]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_ADS_06]]","[[04_AUTOMATIONS_AND_APIS/Knowledge-Updates]]"]
+related: ["[[01_AGENTS/Agent-Paid-Media-Measurement]]","[[02_CURRICULUM/2.2.0/Index]]","[[02_CURRICULUM/2.2.0/lessons/ADS_01]]","[[02_CURRICULUM/2.2.0/lessons/ADS_02]]","[[02_CURRICULUM/2.2.0/lessons/ADS_03]]","[[02_CURRICULUM/2.2.0/lessons/ADS_04]]","[[02_CURRICULUM/2.2.0/lessons/ADS_05]]","[[02_CURRICULUM/2.2.0/lessons/ADS_06]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_ADS_01]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_ADS_02]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_ADS_03]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_ADS_04]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_ADS_05]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_ADS_06]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_01_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_01_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_01_TRANSFER]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_02_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_02_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_02_TRANSFER]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_03_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_03_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_03_TRANSFER]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_04_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_04_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_04_TRANSFER]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_05_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_05_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_05_TRANSFER]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_06_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_06_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_06_TRANSFER]]","[[04_AUTOMATIONS_AND_APIS/Knowledge-Updates]]"]
 ---
 
 # Google Ads API testing
@@ -39,4 +39,22 @@ related: ["[[01_AGENTS/Agent-Paid-Media-Measurement]]","[[02_CURRICULUM/2.2.0/In
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_ADS_04|בדיקת הבנה: פניות מגיעות מטופס דף הנחיתה, אבל אירוע ההמרה לא נרשם. מה צריך לבדוק לפני מסקנה שהקמפיין נכשל?]] — מקור השאלה
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_ADS_05|בדיקת הבנה: העוזר ממליץ להעלות תקציב, אך אין אישור לשינוי. מהו המצב הנכון של ההמלצה?]] — מקור השאלה
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_ADS_06|בדיקת הבנה: בדוח המסכם נכתב שינוי תקציב מוצע בלי שבוצע בפועל. כיצד צריך לתעד אותו?]] — מקור השאלה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_01_BUILD|תבנית טקסט: מדדי פרסום ומשפך · BUILD]] — מקור לשיעור
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_01_DIAGNOSE|תבנית טקסט: מדדי פרסום ומשפך · DIAGNOSE]] — מקור לשיעור
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_01_TRANSFER|תבנית טקסט: מדדי פרסום ומשפך · TRANSFER]] — מקור לשיעור
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_02_BUILD|תבנית טבלה: יבוא נתוני קמפיינים · BUILD]] — מקור לשיעור
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_02_DIAGNOSE|תבנית טקסט: יבוא נתוני קמפיינים · DIAGNOSE]] — מקור לשיעור
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_02_TRANSFER|תבנית טקסט: יבוא נתוני קמפיינים · TRANSFER]] — מקור לשיעור
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_03_BUILD|תבנית טבלה: קריאייטיב והשערות לניסוי · BUILD]] — מקור לשיעור
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_03_DIAGNOSE|תבנית טקסט: קריאייטיב והשערות לניסוי · DIAGNOSE]] — מקור לשיעור
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_03_TRANSFER|תבנית טקסט: קריאייטיב והשערות לניסוי · TRANSFER]] — מקור לשיעור
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_04_BUILD|תבנית טקסט: דף נחיתה ומדידה · BUILD]] — מקור לשיעור
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_04_DIAGNOSE|תבנית טקסט: דף נחיתה ומדידה · DIAGNOSE]] — מקור לשיעור
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_04_TRANSFER|תבנית טקסט: דף נחיתה ומדידה · TRANSFER]] — מקור לשיעור
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_05_BUILD|תבנית טקסט: המלצות תקציב וטיוטות שינוי · BUILD]] — מקור לשיעור
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_05_DIAGNOSE|תבנית טקסט: המלצות תקציב וטיוטות שינוי · DIAGNOSE]] — מקור לשיעור
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_05_TRANSFER|תבנית טקסט: המלצות תקציב וטיוטות שינוי · TRANSFER]] — מקור לשיעור
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_06_BUILD|תבנית טבלה: מבחן מסכם: עוזר קמפיינים · BUILD]] — מקור לשיעור
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_06_DIAGNOSE|תבנית טקסט: מבחן מסכם: עוזר קמפיינים · DIAGNOSE]] — מקור לשיעור
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_06_TRANSFER|תבנית טקסט: מבחן מסכם: עוזר קמפיינים · TRANSFER]] — מקור לשיעור
 - [[04_AUTOMATIONS_AND_APIS/Knowledge-Updates|רענון מקורות וביקורת תוכן]] — מקור בקטלוג

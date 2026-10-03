@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "AUT_03"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "234b59446b6d920bbf8d86f0e94704cc451bf50bc2a6f4faf4bfebc849fef1cf"
-related: ["[[02_CURRICULUM/2.2.0/lessons/AUT_03]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_AUT_03]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AUT_03]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/AUT_03]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_AUT_03]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AUT_03]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_03_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_03_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_03_TRANSFER]]"]
 ---
 
 # התרגול: שלב AI בתוך תהליך קבוע
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/AUT_03]]","[[02_CURRICULUM/quiz-banks/1
 - [[02_CURRICULUM/2.2.0/lessons/AUT_03|שלב AI בתוך תהליך קבוע]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_AUT_03|בדיקת הבנה: שלב ה־AI החזיר טקסט חופשי במקום המבנה שהוגדר. מה צריך לקרות לפני כתיבה ל־CRM?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AUT_03|הוכחה מעשית · שלב AI בתוך תהליך קבוע]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_03_BUILD|תבנית טקסט: שלב AI בתוך תהליך קבוע · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_03_DIAGNOSE|תבנית טקסט: שלב AI בתוך תהליך קבוע · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_03_TRANSFER|תבנית טקסט: שלב AI בתוך תהליך קבוע · TRANSFER]] — ארגון העבודה

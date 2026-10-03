@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_AUT_04"
 assessment_version: "2.1.0"
 lesson_id: "AUT_04"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AUT_04]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AUT_04]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_04_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_04_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_04_TRANSFER]]"]
 ---
 
 # תבנית הגשה: הוכחה מעשית · כשלים, ניסיונות חוזרים וכפילויות
@@ -53,3 +53,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AUT_04]]"]
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AUT_04|הוכחה מעשית · כשלים, ניסיונות חוזרים וכפילויות]] — תבנית הגשה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_04_BUILD|תבנית טקסט: כשלים, ניסיונות חוזרים וכפילויות · BUILD]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_04_DIAGNOSE|תבנית טקסט: כשלים, ניסיונות חוזרים וכפילויות · DIAGNOSE]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_04_TRANSFER|תבנית טקסט: כשלים, ניסיונות חוזרים וכפילויות · TRANSFER]] — תבנית סעיף

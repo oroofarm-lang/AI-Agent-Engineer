@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "CRM_07"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "a81ce64914d66c2b4202d930569942eee131f09c438ef8db17fddc596a41b059"
-related: ["[[02_CURRICULUM/2.2.0/lessons/CRM_07]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_CRM_07]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_CRM_07]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/CRM_07]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_CRM_07]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_CRM_07]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_CRM_07_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_CRM_07_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_CRM_07_TRANSFER]]"]
 ---
 
 # התרגול: מלאי, מוצרים והזמנות
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/CRM_07]]","[[02_CURRICULUM/quiz-banks/1
 - [[02_CURRICULUM/2.2.0/lessons/CRM_07|מלאי, מוצרים והזמנות]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_CRM_07|בדיקת הבנה: שתי הזמנות מנסות לרכוש את הפריט האחרון במלאי. איזה עיקרון צריך להנחות את עדכון היתרה?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_CRM_07|הוכחה מעשית · מלאי, מוצרים והזמנות]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_CRM_07_BUILD|תבנית טקסט: מלאי, מוצרים והזמנות · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_CRM_07_DIAGNOSE|תבנית טקסט: מלאי, מוצרים והזמנות · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_CRM_07_TRANSFER|תבנית טקסט: מלאי, מוצרים והזמנות · TRANSFER]] — ארגון העבודה

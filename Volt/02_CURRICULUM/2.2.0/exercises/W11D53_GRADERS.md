@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "W11D53_GRADERS"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "419daaee9ed9d2c1a1513c4d6eba907825138bb1f3039a1da4ae68bde9de17a7"
-related: ["[[02_CURRICULUM/2.2.0/lessons/W11D53_GRADERS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W11D53_GRADERS]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W11D53_GRADERS]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/W11D53_GRADERS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W11D53_GRADERS]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W11D53_GRADERS]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W11D53_GRADERS_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W11D53_GRADERS_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W11D53_GRADERS_TRANSFER]]"]
 ---
 
 # התרגול: מחוונים ושופטים
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/W11D53_GRADERS]]","[[02_CURRICULUM/quiz
 - [[02_CURRICULUM/2.2.0/lessons/W11D53_GRADERS|מחוונים ושופטים]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W11D53_GRADERS|בדיקת הבנה: מודל בודק נתן ציון גבוה לתשובה יפה אך שגויה. מה צריך לעשות לפני הסתמכות על ציוניו?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W11D53_GRADERS|הוכחה מעשית · מחוונים ושופטים]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W11D53_GRADERS_BUILD|תבנית טקסט: מחוונים ושופטים · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W11D53_GRADERS_DIAGNOSE|תבנית טקסט: מחוונים ושופטים · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W11D53_GRADERS_TRANSFER|תבנית טקסט: מחוונים ושופטים · TRANSFER]] — ארגון העבודה

@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "DAT_02"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "0289124e6ed72dbddde28b3157392dc33dc0d98d38d9606fbc7d11a02add68ec"
-related: ["[[02_CURRICULUM/2.2.0/lessons/DAT_02]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_DAT_02]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_DAT_02]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/DAT_02]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_DAT_02]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_DAT_02]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_DAT_02_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_DAT_02_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_DAT_02_TRANSFER]]"]
 ---
 
 # התרגול: כללים, חיזוי קלאסי ו־LLM
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/DAT_02]]","[[02_CURRICULUM/quiz-banks/1
 - [[02_CURRICULUM/2.2.0/lessons/DAT_02|כללים, חיזוי קלאסי ו־LLM]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_DAT_02|בדיקת הבנה: במשימת חיזוי נוסף לקלט שדה שמגלה את התשובה ואינו זמין בזמן ההחלטה. מה הבעיה?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_DAT_02|הוכחה מעשית · כללים, חיזוי קלאסי ו־LLM]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_DAT_02_BUILD|תבנית טקסט: כללים, חיזוי קלאסי ו־LLM · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_DAT_02_DIAGNOSE|תבנית טקסט: כללים, חיזוי קלאסי ו־LLM · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_DAT_02_TRANSFER|תבנית טקסט: כללים, חיזוי קלאסי ו־LLM · TRANSFER]] — ארגון העבודה

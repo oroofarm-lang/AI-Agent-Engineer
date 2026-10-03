@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_W09D43_PARALLEL_WORK"
 assessment_version: "2.1.0"
 lesson_id: "W09D43_PARALLEL_WORK"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W09D43_PARALLEL_WORK]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W09D43_PARALLEL_WORK]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W09D43_PARALLEL_WORK_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W09D43_PARALLEL_WORK_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W09D43_PARALLEL_WORK_TRANSFER]]"]
 ---
 
 # תבנית הגשה: הוכחה מעשית · עבודה במקביל
@@ -53,3 +53,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W09D43_PARALLEL_WORK]]"]
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W09D43_PARALLEL_WORK|הוכחה מעשית · עבודה במקביל]] — תבנית הגשה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W09D43_PARALLEL_WORK_BUILD|תבנית טקסט: עבודה במקביל · BUILD]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W09D43_PARALLEL_WORK_DIAGNOSE|תבנית טקסט: עבודה במקביל · DIAGNOSE]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W09D43_PARALLEL_WORK_TRANSFER|תבנית טקסט: עבודה במקביל · TRANSFER]] — תבנית סעיף

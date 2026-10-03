@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_W16D76_DISCOVERY"
 assessment_version: "2.1.0"
 lesson_id: "W16D76_DISCOVERY"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W16D76_DISCOVERY]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W16D76_DISCOVERY]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W16D76_DISCOVERY_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W16D76_DISCOVERY_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W16D76_DISCOVERY_TRANSFER]]"]
 ---
 
 # תנאי בדיקה: הוכחה מעשית · פרויקט גמר: גילוי צרכים
@@ -41,3 +41,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W16D76_DISCOVERY]]"]
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W16D76_DISCOVERY|הוכחה מעשית · פרויקט גמר: גילוי צרכים]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W16D76_DISCOVERY_BUILD|תבנית טקסט: פרויקט גמר: גילוי צרכים · BUILD]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W16D76_DISCOVERY_DIAGNOSE|תבנית טקסט: פרויקט גמר: גילוי צרכים · DIAGNOSE]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W16D76_DISCOVERY_TRANSFER|תבנית טקסט: פרויקט גמר: גילוי צרכים · TRANSFER]] — תנאי בדיקה

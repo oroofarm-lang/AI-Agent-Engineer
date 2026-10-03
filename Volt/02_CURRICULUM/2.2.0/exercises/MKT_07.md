@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "MKT_07"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "7ebee566766abeb4526823db4bff821707b3066b45d83fa6e98a910e46c38abc"
-related: ["[[02_CURRICULUM/2.2.0/lessons/MKT_07]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_MKT_07]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_07]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/MKT_07]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_MKT_07]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_07]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_07_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_07_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_07_TRANSFER]]"]
 ---
 
 # התרגול: וידאו: מתסריט לתוצר
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/MKT_07]]","[[02_CURRICULUM/quiz-banks/1
 - [[02_CURRICULUM/2.2.0/lessons/MKT_07|וידאו: מתסריט לתוצר]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_MKT_07|בדיקת הבנה: הפרומפט לסרטון מתאר דמות אחידה, אך עדיין לא צפית בתוצר. איזו בדיקה נדרשת לפני אישורו?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_07|הוכחה מעשית · וידאו: מתסריט לתוצר]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_07_BUILD|תבנית טקסט: וידאו: מתסריט לתוצר · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_07_DIAGNOSE|תבנית טקסט: וידאו: מתסריט לתוצר · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_07_TRANSFER|תבנית טקסט: וידאו: מתסריט לתוצר · TRANSFER]] — ארגון העבודה

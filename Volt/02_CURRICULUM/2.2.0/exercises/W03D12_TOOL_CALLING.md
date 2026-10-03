@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "W03D12_TOOL_CALLING"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "3627eb3e16a735b6affcb8e1b540300e3eea5404d093e135650b188eef83beea"
-related: ["[[02_CURRICULUM/2.2.0/lessons/W03D12_TOOL_CALLING]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W03D12_TOOL_CALLING]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W03D12_TOOL_CALLING]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/W03D12_TOOL_CALLING]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W03D12_TOOL_CALLING]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W03D12_TOOL_CALLING]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W03D12_TOOL_CALLING_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W03D12_TOOL_CALLING_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W03D12_TOOL_CALLING_TRANSFER]]"]
 ---
 
 # התרגול: קריאות לכלים
@@ -63,3 +63,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/W03D12_TOOL_CALLING]]","[[02_CURRICULUM
 - [[02_CURRICULUM/2.2.0/lessons/W03D12_TOOL_CALLING|קריאות לכלים]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W03D12_TOOL_CALLING|בדיקת הבנה: המודל ביקש להפעיל כלי שאינו ברשימת הכלים המורשים. מה תפקיד הקוד?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W03D12_TOOL_CALLING|הוכחה מעשית · קריאות לכלים]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W03D12_TOOL_CALLING_BUILD|תבנית טקסט: קריאות לכלים · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W03D12_TOOL_CALLING_DIAGNOSE|תבנית טקסט: קריאות לכלים · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W03D12_TOOL_CALLING_TRANSFER|תבנית טקסט: קריאות לכלים · TRANSFER]] — ארגון העבודה

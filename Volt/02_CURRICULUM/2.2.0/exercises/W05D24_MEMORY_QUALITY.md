@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "W05D24_MEMORY_QUALITY"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "fe35b835e317e7231a9bd79bf3b9a3d377ab63b3e694a4a6729130f0355dac9a"
-related: ["[[02_CURRICULUM/2.2.0/lessons/W05D24_MEMORY_QUALITY]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W05D24_MEMORY_QUALITY]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W05D24_MEMORY_QUALITY]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/W05D24_MEMORY_QUALITY]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W05D24_MEMORY_QUALITY]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W05D24_MEMORY_QUALITY]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W05D24_MEMORY_QUALITY_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W05D24_MEMORY_QUALITY_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W05D24_MEMORY_QUALITY_TRANSFER]]"]
 ---
 
 # התרגול: איכות ועדכון זיכרון
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/W05D24_MEMORY_QUALITY]]","[[02_CURRICUL
 - [[02_CURRICULUM/2.2.0/lessons/W05D24_MEMORY_QUALITY|איכות ועדכון זיכרון]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W05D24_MEMORY_QUALITY|בדיקת הבנה: רשומה חדשה סותרת זיכרון קיים. האם תאריך חדש יותר מספיק כדי לקבל אותה?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W05D24_MEMORY_QUALITY|הוכחה מעשית · איכות ועדכון זיכרון]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W05D24_MEMORY_QUALITY_BUILD|תבנית טקסט: איכות ועדכון זיכרון · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W05D24_MEMORY_QUALITY_DIAGNOSE|תבנית טקסט: איכות ועדכון זיכרון · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W05D24_MEMORY_QUALITY_TRANSFER|תבנית טקסט: איכות ועדכון זיכרון · TRANSFER]] — ארגון העבודה

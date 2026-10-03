@@ -6,7 +6,7 @@ entity_id: "TESTING"
 curriculum_version: "2.2.0"
 skill_id: "TESTING"
 prerequisite_skill_ids: []
-related: ["[[01_AGENTS/Agent-Code-Reviewer]]","[[01_AGENTS/Agent-Production-Reliability]]","[[01_AGENTS/Agent-Progress-Tracker]]","[[01_AGENTS/Agent-Quiz-Designer]]","[[02_CURRICULUM/2.2.0/Index]]","[[02_CURRICULUM/2.2.0/lessons/W11D51_WHY_DEMOS_LIE]]","[[02_CURRICULUM/2.2.0/lessons/W11D52_EVALUATION_DATASET_DESIGN]]","[[02_CURRICULUM/2.2.0/lessons/W11D53_GRADERS]]","[[02_CURRICULUM/2.2.0/lessons/W11D54_TRACING]]","[[02_CURRICULUM/2.2.0/lessons/W11D55_PROJECT_AGENT_QUALITY_LAB]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W11D51_WHY_DEMOS_LIE]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W11D52_EVALUATION_DATASET_DESIGN]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W11D53_GRADERS]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W11D54_TRACING]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W11D55_PROJECT_AGENT_QUALITY_LAB]]"]
+related: ["[[01_AGENTS/Agent-Code-Reviewer]]","[[01_AGENTS/Agent-Production-Reliability]]","[[01_AGENTS/Agent-Progress-Tracker]]","[[01_AGENTS/Agent-Quiz-Designer]]","[[02_CURRICULUM/2.2.0/Index]]","[[02_CURRICULUM/2.2.0/lessons/W11D51_WHY_DEMOS_LIE]]","[[02_CURRICULUM/2.2.0/lessons/W11D52_EVALUATION_DATASET_DESIGN]]","[[02_CURRICULUM/2.2.0/lessons/W11D53_GRADERS]]","[[02_CURRICULUM/2.2.0/lessons/W11D54_TRACING]]","[[02_CURRICULUM/2.2.0/lessons/W11D55_PROJECT_AGENT_QUALITY_LAB]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W11D51_WHY_DEMOS_LIE]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W11D52_EVALUATION_DATASET_DESIGN]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W11D53_GRADERS]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W11D54_TRACING]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W11D55_PROJECT_AGENT_QUALITY_LAB]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W11D51_WHY_DEMOS_LIE_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W11D52_EVALUATION_DATASET_DESIGN_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W11D53_GRADERS_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W11D54_TRACING_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W11D55_PROJECT_AGENT_QUALITY_LAB_DIAGNOSE]]"]
 ---
 
 # Testing
@@ -32,3 +32,8 @@ related: ["[[01_AGENTS/Agent-Code-Reviewer]]","[[01_AGENTS/Agent-Production-Reli
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W11D53_GRADERS|הוכחה מעשית · מחוונים ושופטים]] — מיומנות שנבדקת
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W11D54_TRACING|הוכחה מעשית · תיעוד ריצות וניטור]] — מיומנות שנבדקת
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W11D55_PROJECT_AGENT_QUALITY_LAB|הוכחה מעשית · פרויקט: מעבדת איכות לסוכן]] — מיומנות שנבדקת
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W11D51_WHY_DEMOS_LIE_DIAGNOSE|תבנית טקסט: למה הדגמה אינה בדיקת איכות? · DIAGNOSE]] — מיומנות בתשובה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W11D52_EVALUATION_DATASET_DESIGN_DIAGNOSE|תבנית טקסט: תכנון נתוני הערכה · DIAGNOSE]] — מיומנות בתשובה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W11D53_GRADERS_DIAGNOSE|תבנית טקסט: מחוונים ושופטים · DIAGNOSE]] — מיומנות בתשובה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W11D54_TRACING_DIAGNOSE|תבנית טקסט: תיעוד ריצות וניטור · DIAGNOSE]] — מיומנות בתשובה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W11D55_PROJECT_AGENT_QUALITY_LAB_DIAGNOSE|תבנית טקסט: פרויקט: מעבדת איכות לסוכן · DIAGNOSE]] — מיומנות בתשובה

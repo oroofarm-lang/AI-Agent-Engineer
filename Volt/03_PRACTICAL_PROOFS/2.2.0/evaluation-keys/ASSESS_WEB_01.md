@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_WEB_01"
 assessment_version: "2.1.0"
 lesson_id: "WEB_01"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_WEB_01]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_WEB_01]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_WEB_01_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_WEB_01_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_WEB_01_TRANSFER]]"]
 ---
 
 # תנאי בדיקה: הוכחה מעשית · תכנון אתר ומסע משתמש
@@ -41,3 +41,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_WEB_01]]"]
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_WEB_01|הוכחה מעשית · תכנון אתר ומסע משתמש]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_WEB_01_BUILD|תבנית טקסט: תכנון אתר ומסע משתמש · BUILD]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_WEB_01_DIAGNOSE|תבנית טקסט: תכנון אתר ומסע משתמש · DIAGNOSE]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_WEB_01_TRANSFER|תבנית טקסט: תכנון אתר ומסע משתמש · TRANSFER]] — תנאי בדיקה

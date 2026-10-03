@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "CRM_06"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "4419f5ad3d96dd60bc5599be02a81f03f84c86d7bd80301add685151fe5c79a5"
-related: ["[[02_CURRICULUM/2.2.0/lessons/CRM_06]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_CRM_06]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_CRM_06]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/CRM_06]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_CRM_06]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_CRM_06]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_CRM_06_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_CRM_06_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_CRM_06_TRANSFER]]"]
 ---
 
 # התרגול: סביבת עבודה לעובדים
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/CRM_06]]","[[02_CURRICULUM/quiz-banks/1
 - [[02_CURRICULUM/2.2.0/lessons/CRM_06|סביבת עבודה לעובדים]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_CRM_06|בדיקת הבנה: עובד משנה את כתובת העמוד כדי לפתוח פנייה שלא הוקצתה לו. מה צריכה מערכת ההרשאות לבדוק?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_CRM_06|הוכחה מעשית · סביבת עבודה לעובדים]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_CRM_06_BUILD|תבנית טקסט: סביבת עבודה לעובדים · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_CRM_06_DIAGNOSE|תבנית טקסט: סביבת עבודה לעובדים · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_CRM_06_TRANSFER|תבנית טקסט: סביבת עבודה לעובדים · TRANSFER]] — ארגון העבודה

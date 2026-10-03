@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "VOI_03"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "627012ff13cd190506aa370e81e3ad7cb52cb6e7c15a6b1279bf5e3183a49d40"
-related: ["[[02_CURRICULUM/2.2.0/lessons/VOI_03]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_VOI_03]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_VOI_03]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/VOI_03]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_VOI_03]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_VOI_03]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_VOI_03_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_VOI_03_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_VOI_03_TRANSFER]]"]
 ---
 
 # התרגול: ממשק קולי עם תמלול וקריינות
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/VOI_03]]","[[02_CURRICULUM/quiz-banks/1
 - [[02_CURRICULUM/2.2.0/lessons/VOI_03|ממשק קולי עם תמלול וקריינות]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_VOI_03|בדיקת הבנה: שם מוצר נשמע שגוי בהקראה של העוזר. איך מאתרים את מקור התקלה בתהליך הקולי המדורג?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_VOI_03|הוכחה מעשית · ממשק קולי עם תמלול וקריינות]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_VOI_03_BUILD|תבנית טקסט: ממשק קולי עם תמלול וקריינות · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_VOI_03_DIAGNOSE|תבנית טקסט: ממשק קולי עם תמלול וקריינות · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_VOI_03_TRANSFER|תבנית טקסט: ממשק קולי עם תמלול וקריינות · TRANSFER]] — ארגון העבודה

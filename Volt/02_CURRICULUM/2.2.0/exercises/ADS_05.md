@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "ADS_05"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "17b861bc96947a09da5271d7e49d519a78a293dc414bc1f32334891ea0f658c2"
-related: ["[[02_CURRICULUM/2.2.0/lessons/ADS_05]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_ADS_05]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_ADS_05]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/ADS_05]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_ADS_05]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_ADS_05]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_05_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_05_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_05_TRANSFER]]"]
 ---
 
 # התרגול: המלצות תקציב וטיוטות שינוי
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/ADS_05]]","[[02_CURRICULUM/quiz-banks/1
 - [[02_CURRICULUM/2.2.0/lessons/ADS_05|המלצות תקציב וטיוטות שינוי]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_ADS_05|בדיקת הבנה: העוזר ממליץ להעלות תקציב, אך אין אישור לשינוי. מהו המצב הנכון של ההמלצה?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_ADS_05|הוכחה מעשית · המלצות תקציב וטיוטות שינוי]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_05_BUILD|תבנית טקסט: המלצות תקציב וטיוטות שינוי · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_05_DIAGNOSE|תבנית טקסט: המלצות תקציב וטיוטות שינוי · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_05_TRANSFER|תבנית טקסט: המלצות תקציב וטיוטות שינוי · TRANSFER]] — ארגון העבודה

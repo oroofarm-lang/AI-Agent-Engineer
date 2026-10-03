@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "W07D34_SIDE_EFFECTS_PERMISSIONS"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "fbd405e9f7446d06169a3a1b56c60576b8576eb2ad08bd0602fb15cde69feea1"
-related: ["[[02_CURRICULUM/2.2.0/lessons/W07D34_SIDE_EFFECTS_PERMISSIONS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W07D34_SIDE_EFFECTS_PERMISSIONS]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W07D34_SIDE_EFFECTS_PERMISSIONS]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/W07D34_SIDE_EFFECTS_PERMISSIONS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W07D34_SIDE_EFFECTS_PERMISSIONS]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W07D34_SIDE_EFFECTS_PERMISSIONS]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W07D34_SIDE_EFFECTS_PERMISSIONS_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W07D34_SIDE_EFFECTS_PERMISSIONS_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W07D34_SIDE_EFFECTS_PERMISSIONS_TRANSFER]]"]
 ---
 
 # התרגול: תופעות לוואי והרשאות
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/W07D34_SIDE_EFFECTS_PERMISSIONS]]","[[0
 - [[02_CURRICULUM/2.2.0/lessons/W07D34_SIDE_EFFECTS_PERMISSIONS|תופעות לוואי והרשאות]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W07D34_SIDE_EFFECTS_PERMISSIONS|בדיקת הבנה: מה צריך להגדיר אישור אנושי לפעולה בעלת השפעה משמעותית?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W07D34_SIDE_EFFECTS_PERMISSIONS|הוכחה מעשית · תופעות לוואי והרשאות]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W07D34_SIDE_EFFECTS_PERMISSIONS_BUILD|תבנית טקסט: תופעות לוואי והרשאות · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W07D34_SIDE_EFFECTS_PERMISSIONS_DIAGNOSE|תבנית טקסט: תופעות לוואי והרשאות · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W07D34_SIDE_EFFECTS_PERMISSIONS_TRANSFER|תבנית טקסט: תופעות לוואי והרשאות · TRANSFER]] — ארגון העבודה

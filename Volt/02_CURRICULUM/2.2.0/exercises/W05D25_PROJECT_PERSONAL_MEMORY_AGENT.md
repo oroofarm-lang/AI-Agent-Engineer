@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "W05D25_PROJECT_PERSONAL_MEMORY_AGENT"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "2020d2e620d49b921287d3155828b272ec49274425ffe4cb5974eae36c99e600"
-related: ["[[02_CURRICULUM/2.2.0/lessons/W05D25_PROJECT_PERSONAL_MEMORY_AGENT]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W05D25_PROJECT_PERSONAL_MEMORY_AGENT]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W05D25_PROJECT_PERSONAL_MEMORY_AGENT]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/W05D25_PROJECT_PERSONAL_MEMORY_AGENT]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W05D25_PROJECT_PERSONAL_MEMORY_AGENT]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W05D25_PROJECT_PERSONAL_MEMORY_AGENT]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W05D25_PROJECT_PERSONAL_MEMORY_AGENT_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W05D25_PROJECT_PERSONAL_MEMORY_AGENT_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W05D25_PROJECT_PERSONAL_MEMORY_AGENT_TRANSFER]]"]
 ---
 
 # התרגול: פרויקט: סוכן זיכרון אישי
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/W05D25_PROJECT_PERSONAL_MEMORY_AGENT]]"
 - [[02_CURRICULUM/2.2.0/lessons/W05D25_PROJECT_PERSONAL_MEMORY_AGENT|פרויקט: סוכן זיכרון אישי]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W05D25_PROJECT_PERSONAL_MEMORY_AGENT|בדיקת הבנה: משתמש ב׳ מבקש לקרוא זיכרון השייך למשתמש א׳. מה על פעולת retrieve לבדוק?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W05D25_PROJECT_PERSONAL_MEMORY_AGENT|הוכחה מעשית · פרויקט: סוכן זיכרון אישי]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W05D25_PROJECT_PERSONAL_MEMORY_AGENT_BUILD|תבנית טקסט: פרויקט: סוכן זיכרון אישי · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W05D25_PROJECT_PERSONAL_MEMORY_AGENT_DIAGNOSE|תבנית טקסט: פרויקט: סוכן זיכרון אישי · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W05D25_PROJECT_PERSONAL_MEMORY_AGENT_TRANSFER|תבנית טקסט: פרויקט: סוכן זיכרון אישי · TRANSFER]] — ארגון העבודה

@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "W15D73_DYNAMIC_TOOLS"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "31c430a19c402da4038ac0fe43b69bc0486fe0688e7b4d02b17d26fcc68d910e"
-related: ["[[02_CURRICULUM/2.2.0/lessons/W15D73_DYNAMIC_TOOLS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W15D73_DYNAMIC_TOOLS]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W15D73_DYNAMIC_TOOLS]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/W15D73_DYNAMIC_TOOLS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W15D73_DYNAMIC_TOOLS]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W15D73_DYNAMIC_TOOLS]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W15D73_DYNAMIC_TOOLS_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W15D73_DYNAMIC_TOOLS_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W15D73_DYNAMIC_TOOLS_TRANSFER]]"]
 ---
 
 # התרגול: גילוי כלים דינמי
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/W15D73_DYNAMIC_TOOLS]]","[[02_CURRICULU
 - [[02_CURRICULUM/2.2.0/lessons/W15D73_DYNAMIC_TOOLS|גילוי כלים דינמי]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W15D73_DYNAMIC_TOOLS|בדיקת הבנה: חיפוש כלים מצא כלי בעל שם מתאים. מה עוד צריך לבדוק לפני הפעלתו?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W15D73_DYNAMIC_TOOLS|הוכחה מעשית · גילוי כלים דינמי]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W15D73_DYNAMIC_TOOLS_BUILD|תבנית טקסט: גילוי כלים דינמי · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W15D73_DYNAMIC_TOOLS_DIAGNOSE|תבנית טקסט: גילוי כלים דינמי · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W15D73_DYNAMIC_TOOLS_TRANSFER|תבנית טקסט: גילוי כלים דינמי · TRANSFER]] — ארגון העבודה

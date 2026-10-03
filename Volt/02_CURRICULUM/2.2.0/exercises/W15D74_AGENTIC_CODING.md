@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "W15D74_AGENTIC_CODING"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "41bbee9e37b7ba46dba160e63d4257703cc5822d6972491d1074807e12a33fe6"
-related: ["[[02_CURRICULUM/2.2.0/lessons/W15D74_AGENTIC_CODING]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W15D74_AGENTIC_CODING]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W15D74_AGENTIC_CODING]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/W15D74_AGENTIC_CODING]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W15D74_AGENTIC_CODING]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W15D74_AGENTIC_CODING]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W15D74_AGENTIC_CODING_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W15D74_AGENTIC_CODING_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W15D74_AGENTIC_CODING_TRANSFER]]"]
 ---
 
 # התרגול: סוכן כתיבת קוד מבוקר
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/W15D74_AGENTIC_CODING]]","[[02_CURRICUL
 - [[02_CURRICULUM/2.2.0/lessons/W15D74_AGENTIC_CODING|סוכן כתיבת קוד מבוקר]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W15D74_AGENTIC_CODING|בדיקת הבנה: תיקון קוד העביר בדיקה אחת, אבל שבר פעולה אחרת. איזה שלב נדרש בתהליך המבוקר?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W15D74_AGENTIC_CODING|הוכחה מעשית · סוכן כתיבת קוד מבוקר]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W15D74_AGENTIC_CODING_BUILD|תבנית טקסט: סוכן כתיבת קוד מבוקר · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W15D74_AGENTIC_CODING_DIAGNOSE|תבנית טקסט: סוכן כתיבת קוד מבוקר · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W15D74_AGENTIC_CODING_TRANSFER|תבנית טקסט: סוכן כתיבת קוד מבוקר · TRANSFER]] — ארגון העבודה

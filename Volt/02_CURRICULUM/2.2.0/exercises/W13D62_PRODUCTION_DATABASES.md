@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "W13D62_PRODUCTION_DATABASES"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "58f9255dd0a50cae7756304f2f7b0b129a4672d613d96b919c07b64f16c0546c"
-related: ["[[02_CURRICULUM/2.2.0/lessons/W13D62_PRODUCTION_DATABASES]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W13D62_PRODUCTION_DATABASES]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W13D62_PRODUCTION_DATABASES]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/W13D62_PRODUCTION_DATABASES]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W13D62_PRODUCTION_DATABASES]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W13D62_PRODUCTION_DATABASES]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W13D62_PRODUCTION_DATABASES_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W13D62_PRODUCTION_DATABASES_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W13D62_PRODUCTION_DATABASES_TRANSFER]]"]
 ---
 
 # התרגול: PostgreSQL ונתונים לפרודקשן
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/W13D62_PRODUCTION_DATABASES]]","[[02_CU
 - [[02_CURRICULUM/2.2.0/lessons/W13D62_PRODUCTION_DATABASES|PostgreSQL ונתונים לפרודקשן]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W13D62_PRODUCTION_DATABASES|בדיקת הבנה: היכן צריך לנסות תחילה Migration שמעביר customers ו־runs ל־PostgreSQL?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W13D62_PRODUCTION_DATABASES|הוכחה מעשית · PostgreSQL ונתונים לפרודקשן]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W13D62_PRODUCTION_DATABASES_BUILD|תבנית טקסט: PostgreSQL ונתונים לפרודקשן · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W13D62_PRODUCTION_DATABASES_DIAGNOSE|תבנית טקסט: PostgreSQL ונתונים לפרודקשן · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W13D62_PRODUCTION_DATABASES_TRANSFER|תבנית טקסט: PostgreSQL ונתונים לפרודקשן · TRANSFER]] — ארגון העבודה

@@ -11,7 +11,7 @@ source_ids: ["WCAG","REACT"]
 prerequisite_lesson_ids: ["WEB_01"]
 source_sha256: "bab092882d40cd7810ec76af37b199f7706b53b99e39865292c614772f0294d0"
 estimated_minutes: 150
-related: ["[[01_AGENTS/Agent-Code-Reviewer]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Production-Reliability]]","[[01_AGENTS/Agent-UI-UX-Inspector]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/exercises/WEB_02]]","[[02_CURRICULUM/2.2.0/lessons/WEB_01]]","[[02_CURRICULUM/2.2.0/lessons/WEB_03]]","[[02_CURRICULUM/2.2.0/modules/WEB]]","[[02_CURRICULUM/2.2.0/skills/BACKEND]]","[[02_CURRICULUM/2.2.0/skills/DEPLOYMENT]]","[[02_CURRICULUM/2.2.0/skills/UI_DESIGN]]","[[02_CURRICULUM/2.2.0/sources/REACT]]","[[02_CURRICULUM/2.2.0/sources/WCAG]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_WEB_02]]","[[02_CURRICULUM/system-quizzes/1.0.0/QUIZ_EVIDENCE_NEXT_STEP]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_WEB_02]]"]
+related: ["[[01_AGENTS/Agent-Code-Reviewer]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Production-Reliability]]","[[01_AGENTS/Agent-UI-UX-Inspector]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/exercises/WEB_02]]","[[02_CURRICULUM/2.2.0/lessons/WEB_01]]","[[02_CURRICULUM/2.2.0/lessons/WEB_03]]","[[02_CURRICULUM/2.2.0/modules/WEB]]","[[02_CURRICULUM/2.2.0/skills/BACKEND]]","[[02_CURRICULUM/2.2.0/skills/DEPLOYMENT]]","[[02_CURRICULUM/2.2.0/skills/UI_DESIGN]]","[[02_CURRICULUM/2.2.0/sources/REACT]]","[[02_CURRICULUM/2.2.0/sources/WCAG]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_WEB_02]]","[[02_CURRICULUM/system-quizzes/1.0.0/QUIZ_EVIDENCE_NEXT_STEP]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_WEB_02]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_WEB_02_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_WEB_02_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_WEB_02_TRANSFER]]"]
 ---
 
 # עיצוב, RTL ונגישות
@@ -125,3 +125,6 @@ Input → Contract check → Work / model proposal → Result check → Evidence
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_WEB_02|בדיקת הבנה: ממשק בעברית מוגדר כ־RTL. כיצד צריך להתייחס לקוד ולשימוש במקלדת?]] — בדיקת הבנה
 - [[02_CURRICULUM/system-quizzes/1.0.0/QUIZ_EVIDENCE_NEXT_STEP|לפני שמגישים · שאלה קצרה לתרגול]] — תרגול לפני הגשה
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_WEB_02|הוכחה מעשית · עיצוב, RTL ונגישות]] — הוכחה מעשית
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_WEB_02_BUILD|תבנית טקסט: עיצוב, RTL ונגישות · BUILD]] — מבנה תשובה לשיעור
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_WEB_02_DIAGNOSE|תבנית טקסט: עיצוב, RTL ונגישות · DIAGNOSE]] — מבנה תשובה לשיעור
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_WEB_02_TRANSFER|תבנית טקסט: עיצוב, RTL ונגישות · TRANSFER]] — מבנה תשובה לשיעור

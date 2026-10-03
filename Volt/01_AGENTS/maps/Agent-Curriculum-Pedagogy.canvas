@@ -141,9 +141,829 @@
       "color": "6"
     },
     {
-      "id": "group-d2bf1af5cd401db9180810a8",
+      "id": "group-996a76de96c5069c3ee6f789",
       "type": "group",
       "x": 4236,
+      "y": 250,
+      "width": 1370,
+      "height": 9540,
+      "label": "הגדרות תבניות הקשורות לתחום העזרה",
+      "color": "3"
+    },
+    {
+      "id": "file-152ec52cc4e6733e5d649d71",
+      "type": "file",
+      "file": "03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_DAT_01_BUILD.md",
+      "x": 4260,
+      "y": 330,
+      "width": 640,
+      "height": 180,
+      "color": "3"
+    },
+    {
+      "id": "file-8ec38d198a833a6712706fdf",
+      "type": "file",
+      "file": "03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_DAT_01_TRANSFER.md",
+      "x": 4940,
+      "y": 330,
+      "width": 640,
+      "height": 180,
+      "color": "3"
+    },
+    {
+      "id": "file-81ad80f7098d6e7e1681dcfd",
+      "type": "file",
+      "file": "03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_DAT_02_BUILD.md",
+      "x": 4260,
+      "y": 560,
+      "width": 640,
+      "height": 180,
+      "color": "3"
+    },
+    {
+      "id": "file-0a3797d01e419a7ba396a426",
+      "type": "file",
+      "file": "03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_DAT_02_TRANSFER.md",
+      "x": 4940,
+      "y": 560,
+      "width": 640,
+      "height": 180,
+      "color": "3"
+    },
+    {
+      "id": "file-6bc0835c98296fa28821cce2",
+      "type": "file",
+      "file": "03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_DAT_03_BUILD.md",
+      "x": 4260,
+      "y": 790,
+      "width": 640,
+      "height": 180,
+      "color": "3"
+    },
+    {
+      "id": "file-33cf86c40791fde3b1478551",
+      "type": "file",
+      "file": "03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_DAT_03_TRANSFER.md",
+      "x": 4940,
+      "y": 790,
+      "width": 640,
+      "height": 180,
+      "color": "3"
+    },
+    {
+      "id": "file-5b29e0472a621373408c50ab",
+      "type": "file",
+      "file": "03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_DAT_04_BUILD.md",
+      "x": 4260,
+      "y": 1020,
+      "width": 640,
+      "height": 180,
+      "color": "3"
+    },
+    {
+      "id": "file-d1b6c1925d52dbec8b6b8e40",
+      "type": "file",
+      "file": "03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_DAT_04_TRANSFER.md",
+      "x": 4940,
+      "y": 1020,
+      "width": 640,
+      "height": 180,
+      "color": "3"
+    },
+    {
+      "id": "file-d67cac1e3dd5f5d2c9b18b7a",
+      "type": "file",
+      "file": "03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_FIRST_AI_PROGRAM_CRITERION_DIAGNOSE.md",
+      "x": 4260,
+      "y": 1250,
+      "width": 640,
+      "height": 180,
+      "color": "3"
+    },
+    {
+      "id": "file-257e1e6cd5cfc24de70ff1a3",
+      "type": "file",
+      "file": "03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_FIRST_AI_PROGRAM_CRITERION_GIT_SECRETS.md",
+      "x": 4940,
+      "y": 1250,
+      "width": 640,
+      "height": 180,
+      "color": "3"
+    },
+    {
+      "id": "file-8fbe84af2182241e806e39b5",
+      "type": "file",
+      "file": "03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_FIRST_AI_PROGRAM_CRITERION_REBUILD.md",
+      "x": 4260,
+      "y": 1480,
+      "width": 640,
+      "height": 180,
+      "color": "3"
+    },
+    {
+      "id": "file-7960ba9992abe430720f12d2",
+      "type": "file",
+      "file": "03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_FIRST_AI_PROGRAM_CRITERION_REQUEST_PATH.md",
+      "x": 4940,
+      "y": 1480,
+      "width": 640,
+      "height": 180,
+      "color": "3"
+    },
+    {
+      "id": "file-da40683d6db46f284e07306a",
+      "type": "file",
+      "file": "03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_FND_01_BUILD.md",
+      "x": 4260,
+      "y": 1710,
+      "width": 640,
+      "height": 180,
+      "color": "3"
+    },
+    {
+      "id": "file-4908738c7aaa62489f1b240e",
+      "type": "file",
+      "file": "03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_FND_01_DIAGNOSE.md",
+      "x": 4940,
+      "y": 1710,
+      "width": 640,
+      "height": 180,
+      "color": "3"
+    },
+    {
+      "id": "file-3f57cd050627aae0ae417a4a",
+      "type": "file",
+      "file": "03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_FND_01_TRANSFER.md",
+      "x": 4260,
+      "y": 1940,
+      "width": 640,
+      "height": 180,
+      "color": "3"
+    },
+    {
+      "id": "file-a6f901cdf6374ef0069c0efc",
+      "type": "file",
+      "file": "03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_FND_02_BUILD.md",
+      "x": 4940,
+      "y": 1940,
+      "width": 640,
+      "height": 180,
+      "color": "3"
+    },
+    {
+      "id": "file-04ceec1a45e66e261ae7c82e",
+      "type": "file",
+      "file": "03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_FND_02_DIAGNOSE.md",
+      "x": 4260,
+      "y": 2170,
+      "width": 640,
+      "height": 180,
+      "color": "3"
+    },
+    {
+      "id": "file-8d2905a49dbde2cfe2b90e86",
+      "type": "file",
+      "file": "03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_FND_02_TRANSFER.md",
+      "x": 4940,
+      "y": 2170,
+      "width": 640,
+      "height": 180,
+      "color": "3"
+    },
+    {
+      "id": "file-150ca44e863daaf3253a07e2",
+      "type": "file",
+      "file": "03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_FND_03_BUILD.md",
+      "x": 4260,
+      "y": 2400,
+      "width": 640,
+      "height": 180,
+      "color": "3"
+    },
+    {
+      "id": "file-4a1ab8f59eaf764803d35019",
+      "type": "file",
+      "file": "03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_FND_03_DIAGNOSE.md",
+      "x": 4940,
+      "y": 2400,
+      "width": 640,
+      "height": 180,
+      "color": "3"
+    },
+    {
+      "id": "file-c6e97f3cbd8cf0ed6d8abd34",
+      "type": "file",
+      "file": "03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_FND_03_TRANSFER.md",
+      "x": 4260,
+      "y": 2630,
+      "width": 640,
+      "height": 180,
+      "color": "3"
+    },
+    {
+      "id": "file-88f3ba6052dc2491689ad36f",
+      "type": "file",
+      "file": "03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_FND_04_BUILD.md",
+      "x": 4940,
+      "y": 2630,
+      "width": 640,
+      "height": 180,
+      "color": "3"
+    },
+    {
+      "id": "file-98cd473f31ae6da967ade3b5",
+      "type": "file",
+      "file": "03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_FND_04_DIAGNOSE.md",
+      "x": 4260,
+      "y": 2860,
+      "width": 640,
+      "height": 180,
+      "color": "3"
+    },
+    {
+      "id": "file-cb2076550846ddcdb01b0581",
+      "type": "file",
+      "file": "03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_FND_04_TRANSFER.md",
+      "x": 4940,
+      "y": 2860,
+      "width": 640,
+      "height": 180,
+      "color": "3"
+    },
+    {
+      "id": "file-a1b55ef2a8b894414e4894ed",
+      "type": "file",
+      "file": "03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W01D02_PYTHON_FOR_AGENT_BUILDERS_I_BUILD.md",
+      "x": 4260,
+      "y": 3090,
+      "width": 640,
+      "height": 180,
+      "color": "3"
+    },
+    {
+      "id": "file-84cd29ae249da3f464633484",
+      "type": "file",
+      "file": "03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W01D02_PYTHON_FOR_AGENT_BUILDERS_I_DIAGNOSE.md",
+      "x": 4940,
+      "y": 3090,
+      "width": 640,
+      "height": 180,
+      "color": "3"
+    },
+    {
+      "id": "file-b2f1c4b57aa21dd12dce3c3d",
+      "type": "file",
+      "file": "03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W01D02_PYTHON_FOR_AGENT_BUILDERS_I_TRANSFER.md",
+      "x": 4260,
+      "y": 3320,
+      "width": 640,
+      "height": 180,
+      "color": "3"
+    },
+    {
+      "id": "file-343a116ac8c31b4d55797b28",
+      "type": "file",
+      "file": "03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W01D03_PYTHON_FOR_AGENT_BUILDERS_II_BUILD.md",
+      "x": 4940,
+      "y": 3320,
+      "width": 640,
+      "height": 180,
+      "color": "3"
+    },
+    {
+      "id": "file-607635ef0df4b98923136ffa",
+      "type": "file",
+      "file": "03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W01D03_PYTHON_FOR_AGENT_BUILDERS_II_DIAGNOSE.md",
+      "x": 4260,
+      "y": 3550,
+      "width": 640,
+      "height": 180,
+      "color": "3"
+    },
+    {
+      "id": "file-7f75664b7ad292ca328c72d4",
+      "type": "file",
+      "file": "03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W01D03_PYTHON_FOR_AGENT_BUILDERS_II_TRANSFER.md",
+      "x": 4940,
+      "y": 3550,
+      "width": 640,
+      "height": 180,
+      "color": "3"
+    },
+    {
+      "id": "file-2b18a98462f497a153cc6e0d",
+      "type": "file",
+      "file": "03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W01D04_HTTP_APIS_BUILD.md",
+      "x": 4260,
+      "y": 3780,
+      "width": 640,
+      "height": 180,
+      "color": "3"
+    },
+    {
+      "id": "file-b01de5a0b76f5696c6af69e0",
+      "type": "file",
+      "file": "03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W01D04_HTTP_APIS_DIAGNOSE.md",
+      "x": 4940,
+      "y": 3780,
+      "width": 640,
+      "height": 180,
+      "color": "3"
+    },
+    {
+      "id": "file-cdcd9ddfd20d5545a24380af",
+      "type": "file",
+      "file": "03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W01D04_HTTP_APIS_TRANSFER.md",
+      "x": 4260,
+      "y": 4010,
+      "width": 640,
+      "height": 180,
+      "color": "3"
+    },
+    {
+      "id": "file-c6fe7fad3f15b65762556a69",
+      "type": "file",
+      "file": "03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W01D05_PROJECT_AGENT_ZERO_BUILD.md",
+      "x": 4940,
+      "y": 4010,
+      "width": 640,
+      "height": 180,
+      "color": "3"
+    },
+    {
+      "id": "file-e89994ad4e803ffb99184814",
+      "type": "file",
+      "file": "03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W01D05_PROJECT_AGENT_ZERO_DIAGNOSE.md",
+      "x": 4260,
+      "y": 4240,
+      "width": 640,
+      "height": 180,
+      "color": "3"
+    },
+    {
+      "id": "file-6021e326e1a0af6b4a1e8d59",
+      "type": "file",
+      "file": "03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W01D05_PROJECT_AGENT_ZERO_TRANSFER.md",
+      "x": 4940,
+      "y": 4240,
+      "width": 640,
+      "height": 180,
+      "color": "3"
+    },
+    {
+      "id": "file-eee87e9bb88dc6b89d7aedb5",
+      "type": "file",
+      "file": "03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W02D06_HOW_LLM_APPLICATIONS_WORK_BUILD.md",
+      "x": 4260,
+      "y": 4470,
+      "width": 640,
+      "height": 180,
+      "color": "3"
+    },
+    {
+      "id": "file-8f1f8c294b3bf873ea3bc498",
+      "type": "file",
+      "file": "03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W02D06_HOW_LLM_APPLICATIONS_WORK_DIAGNOSE.md",
+      "x": 4940,
+      "y": 4470,
+      "width": 640,
+      "height": 180,
+      "color": "3"
+    },
+    {
+      "id": "file-0f5ea520fe60922990dec027",
+      "type": "file",
+      "file": "03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W02D06_HOW_LLM_APPLICATIONS_WORK_TRANSFER.md",
+      "x": 4260,
+      "y": 4700,
+      "width": 640,
+      "height": 180,
+      "color": "3"
+    },
+    {
+      "id": "file-930677a56bdbd5419fadff20",
+      "type": "file",
+      "file": "03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W02D07_CONTEXT_ENGINEERING_BUILD.md",
+      "x": 4940,
+      "y": 4700,
+      "width": 640,
+      "height": 180,
+      "color": "3"
+    },
+    {
+      "id": "file-0a2e4599152bf5fc74475628",
+      "type": "file",
+      "file": "03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W02D07_CONTEXT_ENGINEERING_DIAGNOSE.md",
+      "x": 4260,
+      "y": 4930,
+      "width": 640,
+      "height": 180,
+      "color": "3"
+    },
+    {
+      "id": "file-f27e414cd1e08294d861ee32",
+      "type": "file",
+      "file": "03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W02D07_CONTEXT_ENGINEERING_TRANSFER.md",
+      "x": 4940,
+      "y": 4930,
+      "width": 640,
+      "height": 180,
+      "color": "3"
+    },
+    {
+      "id": "file-05d81ff924504b2eb6ee432b",
+      "type": "file",
+      "file": "03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W02D08_STRUCTURED_OUTPUTS_BUILD.md",
+      "x": 4260,
+      "y": 5160,
+      "width": 640,
+      "height": 180,
+      "color": "3"
+    },
+    {
+      "id": "file-1d546e451f4a6b610bdf77b3",
+      "type": "file",
+      "file": "03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W02D08_STRUCTURED_OUTPUTS_DIAGNOSE.md",
+      "x": 4940,
+      "y": 5160,
+      "width": 640,
+      "height": 180,
+      "color": "3"
+    },
+    {
+      "id": "file-6d0f80925644feb5d8941959",
+      "type": "file",
+      "file": "03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W02D08_STRUCTURED_OUTPUTS_TRANSFER.md",
+      "x": 4260,
+      "y": 5390,
+      "width": 640,
+      "height": 180,
+      "color": "3"
+    },
+    {
+      "id": "file-8fa77b9783d070ddc5fcd2bb",
+      "type": "file",
+      "file": "03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W02D09_MODEL_RELIABILITY_BUILD.md",
+      "x": 4940,
+      "y": 5390,
+      "width": 640,
+      "height": 180,
+      "color": "3"
+    },
+    {
+      "id": "file-3f76a53fb030bf0894160d87",
+      "type": "file",
+      "file": "03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W02D09_MODEL_RELIABILITY_DIAGNOSE.md",
+      "x": 4260,
+      "y": 5620,
+      "width": 640,
+      "height": 180,
+      "color": "3"
+    },
+    {
+      "id": "file-c598ec8e0620e072e414088e",
+      "type": "file",
+      "file": "03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W02D09_MODEL_RELIABILITY_TRANSFER.md",
+      "x": 4940,
+      "y": 5620,
+      "width": 640,
+      "height": 180,
+      "color": "3"
+    },
+    {
+      "id": "file-0e545fd821ca74fe97e09418",
+      "type": "file",
+      "file": "03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W02D10_PROJECT_INTELLIGENT_INTAKE_ENGINE_BUILD.md",
+      "x": 4260,
+      "y": 5850,
+      "width": 640,
+      "height": 180,
+      "color": "3"
+    },
+    {
+      "id": "file-f1405615d453ea6b0701d2c0",
+      "type": "file",
+      "file": "03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W02D10_PROJECT_INTELLIGENT_INTAKE_ENGINE_DIAGNOSE.md",
+      "x": 4940,
+      "y": 5850,
+      "width": 640,
+      "height": 180,
+      "color": "3"
+    },
+    {
+      "id": "file-16a662f6470f336c47fa27d1",
+      "type": "file",
+      "file": "03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W02D10_PROJECT_INTELLIGENT_INTAKE_ENGINE_TRANSFER.md",
+      "x": 4260,
+      "y": 6080,
+      "width": 640,
+      "height": 180,
+      "color": "3"
+    },
+    {
+      "id": "file-3a1192c1f8596a0a4c2c8be6",
+      "type": "file",
+      "file": "03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W03D11_WHAT_MAKES_SOMETHING_AN_AGENT_BUILD.md",
+      "x": 4940,
+      "y": 6080,
+      "width": 640,
+      "height": 180,
+      "color": "3"
+    },
+    {
+      "id": "file-a462e2ac9632d4ffdfb6b4c4",
+      "type": "file",
+      "file": "03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W03D11_WHAT_MAKES_SOMETHING_AN_AGENT_DIAGNOSE.md",
+      "x": 4260,
+      "y": 6310,
+      "width": 640,
+      "height": 180,
+      "color": "3"
+    },
+    {
+      "id": "file-6b8f988414067f0decabfc92",
+      "type": "file",
+      "file": "03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W03D11_WHAT_MAKES_SOMETHING_AN_AGENT_TRANSFER.md",
+      "x": 4940,
+      "y": 6310,
+      "width": 640,
+      "height": 180,
+      "color": "3"
+    },
+    {
+      "id": "file-04b154ca4d0c2de09dd23b42",
+      "type": "file",
+      "file": "03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W03D12_TOOL_CALLING_BUILD.md",
+      "x": 4260,
+      "y": 6540,
+      "width": 640,
+      "height": 180,
+      "color": "3"
+    },
+    {
+      "id": "file-7a9e1ae49137961b3f21b296",
+      "type": "file",
+      "file": "03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W03D12_TOOL_CALLING_DIAGNOSE.md",
+      "x": 4940,
+      "y": 6540,
+      "width": 640,
+      "height": 180,
+      "color": "3"
+    },
+    {
+      "id": "file-09f29f297643faf745e76949",
+      "type": "file",
+      "file": "03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W03D12_TOOL_CALLING_TRANSFER.md",
+      "x": 4260,
+      "y": 6770,
+      "width": 640,
+      "height": 180,
+      "color": "3"
+    },
+    {
+      "id": "file-21ba47ada070bb7f2b32c9e9",
+      "type": "file",
+      "file": "03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W03D13_AGENT_LOOP_BUILD.md",
+      "x": 4940,
+      "y": 6770,
+      "width": 640,
+      "height": 180,
+      "color": "3"
+    },
+    {
+      "id": "file-c4a80bb320181b7d44dd1576",
+      "type": "file",
+      "file": "03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W03D13_AGENT_LOOP_DIAGNOSE.md",
+      "x": 4260,
+      "y": 7000,
+      "width": 640,
+      "height": 180,
+      "color": "3"
+    },
+    {
+      "id": "file-8edecd19f4c896347d71eb65",
+      "type": "file",
+      "file": "03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W03D13_AGENT_LOOP_TRANSFER.md",
+      "x": 4940,
+      "y": 7000,
+      "width": 640,
+      "height": 180,
+      "color": "3"
+    },
+    {
+      "id": "file-c67aa767c465779858a01eaa",
+      "type": "file",
+      "file": "03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W03D14_RELIABILITY_FAILURE_HANDLING_BUILD.md",
+      "x": 4260,
+      "y": 7230,
+      "width": 640,
+      "height": 180,
+      "color": "3"
+    },
+    {
+      "id": "file-8a28f1f6ef995ab83d323028",
+      "type": "file",
+      "file": "03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W03D14_RELIABILITY_FAILURE_HANDLING_DIAGNOSE.md",
+      "x": 4940,
+      "y": 7230,
+      "width": 640,
+      "height": 180,
+      "color": "3"
+    },
+    {
+      "id": "file-416aec24185936980765bd27",
+      "type": "file",
+      "file": "03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W03D14_RELIABILITY_FAILURE_HANDLING_TRANSFER.md",
+      "x": 4260,
+      "y": 7460,
+      "width": 640,
+      "height": 180,
+      "color": "3"
+    },
+    {
+      "id": "file-7ef4c10176cf70d35cefa404",
+      "type": "file",
+      "file": "03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W03D15_PROJECT_AGENT_FROM_SCRATCH_BUILD.md",
+      "x": 4940,
+      "y": 7460,
+      "width": 640,
+      "height": 180,
+      "color": "3"
+    },
+    {
+      "id": "file-81554e38e453b96a8441154c",
+      "type": "file",
+      "file": "03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W03D15_PROJECT_AGENT_FROM_SCRATCH_DIAGNOSE.md",
+      "x": 4260,
+      "y": 7690,
+      "width": 640,
+      "height": 180,
+      "color": "3"
+    },
+    {
+      "id": "file-2a52237796e03c169b0f202e",
+      "type": "file",
+      "file": "03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W03D15_PROJECT_AGENT_FROM_SCRATCH_TRANSFER.md",
+      "x": 4940,
+      "y": 7690,
+      "width": 640,
+      "height": 180,
+      "color": "3"
+    },
+    {
+      "id": "file-e82359b92b454de22748c764",
+      "type": "file",
+      "file": "03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W05D21_DATABASES_BUILD.md",
+      "x": 4260,
+      "y": 7920,
+      "width": 640,
+      "height": 180,
+      "color": "3"
+    },
+    {
+      "id": "file-7bb0417cc350194fdd4a00c1",
+      "type": "file",
+      "file": "03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W05D21_DATABASES_DIAGNOSE.md",
+      "x": 4940,
+      "y": 7920,
+      "width": 640,
+      "height": 180,
+      "color": "3"
+    },
+    {
+      "id": "file-547fa8eec69b6e3fdc71367f",
+      "type": "file",
+      "file": "03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W05D21_DATABASES_TRANSFER.md",
+      "x": 4260,
+      "y": 8150,
+      "width": 640,
+      "height": 180,
+      "color": "3"
+    },
+    {
+      "id": "file-059cda8aa56270ed12cc5d92",
+      "type": "file",
+      "file": "03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W05D22_STATE_BUILD.md",
+      "x": 4940,
+      "y": 8150,
+      "width": 640,
+      "height": 180,
+      "color": "3"
+    },
+    {
+      "id": "file-4e601c5f9664f6294ce870d0",
+      "type": "file",
+      "file": "03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W05D22_STATE_DIAGNOSE.md",
+      "x": 4260,
+      "y": 8380,
+      "width": 640,
+      "height": 180,
+      "color": "3"
+    },
+    {
+      "id": "file-619640257d8944e46f1ed399",
+      "type": "file",
+      "file": "03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W05D22_STATE_TRANSFER.md",
+      "x": 4940,
+      "y": 8380,
+      "width": 640,
+      "height": 180,
+      "color": "3"
+    },
+    {
+      "id": "file-0b606b928f8e984535c4591b",
+      "type": "file",
+      "file": "03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W07D31_PRODUCTION_APIS_BUILD.md",
+      "x": 4260,
+      "y": 8610,
+      "width": 640,
+      "height": 180,
+      "color": "3"
+    },
+    {
+      "id": "file-163dfd142d07101e8aea2327",
+      "type": "file",
+      "file": "03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W07D31_PRODUCTION_APIS_DIAGNOSE.md",
+      "x": 4940,
+      "y": 8610,
+      "width": 640,
+      "height": 180,
+      "color": "3"
+    },
+    {
+      "id": "file-e01fd6aaf7dd95bbda1556a5",
+      "type": "file",
+      "file": "03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W07D31_PRODUCTION_APIS_TRANSFER.md",
+      "x": 4260,
+      "y": 8840,
+      "width": 640,
+      "height": 180,
+      "color": "3"
+    },
+    {
+      "id": "file-a1ce160f2531fef888c15bee",
+      "type": "file",
+      "file": "03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W11D51_WHY_DEMOS_LIE_BUILD.md",
+      "x": 4940,
+      "y": 8840,
+      "width": 640,
+      "height": 180,
+      "color": "3"
+    },
+    {
+      "id": "file-21ec0f246a7ff2c8a81cd17a",
+      "type": "file",
+      "file": "03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W11D51_WHY_DEMOS_LIE_DIAGNOSE.md",
+      "x": 4260,
+      "y": 9070,
+      "width": 640,
+      "height": 180,
+      "color": "3"
+    },
+    {
+      "id": "file-a0de2a09358041123e8c9695",
+      "type": "file",
+      "file": "03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W11D51_WHY_DEMOS_LIE_TRANSFER.md",
+      "x": 4940,
+      "y": 9070,
+      "width": 640,
+      "height": 180,
+      "color": "3"
+    },
+    {
+      "id": "file-7a811899516df3376d450e54",
+      "type": "file",
+      "file": "03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W12D58_AUTHENTICATION_AUTHORIZATION_BUILD.md",
+      "x": 4260,
+      "y": 9300,
+      "width": 640,
+      "height": 180,
+      "color": "3"
+    },
+    {
+      "id": "file-90284e97250d62d43a8a0a8a",
+      "type": "file",
+      "file": "03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W12D58_AUTHENTICATION_AUTHORIZATION_DIAGNOSE.md",
+      "x": 4940,
+      "y": 9300,
+      "width": 640,
+      "height": 180,
+      "color": "3"
+    },
+    {
+      "id": "file-dc1fc75015a48803880ebdae",
+      "type": "file",
+      "file": "03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W12D58_AUTHENTICATION_AUTHORIZATION_TRANSFER.md",
+      "x": 4260,
+      "y": 9530,
+      "width": 640,
+      "height": 180,
+      "color": "3"
+    },
+    {
+      "id": "group-d2bf1af5cd401db9180810a8",
+      "type": "group",
+      "x": 5656,
       "y": 250,
       "width": 1370,
       "height": 800,
@@ -154,7 +974,7 @@
       "id": "file-d66ecadd7d89e951cad06d3f",
       "type": "file",
       "file": "00_ORCHESTRATION/Orchestrator-Prime.md",
-      "x": 4260,
+      "x": 5680,
       "y": 330,
       "width": 640,
       "height": 180,
@@ -164,7 +984,7 @@
       "id": "file-cbcd36b52d140cdaab76b905",
       "type": "file",
       "file": "00_ORCHESTRATION/Pedagogy.md",
-      "x": 4940,
+      "x": 6360,
       "y": 330,
       "width": 640,
       "height": 180,
@@ -174,7 +994,7 @@
       "id": "file-6363038c2b4ca056835e2e3f",
       "type": "file",
       "file": "00_ORCHESTRATION/System-Policies.md",
-      "x": 4260,
+      "x": 5680,
       "y": 560,
       "width": 640,
       "height": 180,
@@ -184,7 +1004,7 @@
       "id": "file-12507a9e98d7ff86f1515735",
       "type": "file",
       "file": "01_AGENTS/Index.md",
-      "x": 4940,
+      "x": 6360,
       "y": 560,
       "width": 640,
       "height": 180,
@@ -194,7 +1014,7 @@
       "id": "file-dd59730edbda4feb9e1f1512",
       "type": "file",
       "file": "04_AUTOMATIONS_AND_APIS/Knowledge-Updates.md",
-      "x": 4260,
+      "x": 5680,
       "y": 790,
       "width": 640,
       "height": 180,
@@ -471,6 +1291,1156 @@
       "fromEnd": "arrow",
       "toEnd": "arrow",
       "label": "מקור בקטלוג"
+    },
+    {
+      "id": "edge-b8d81e96a500b593fbce5b15",
+      "fromNode": "file-8fbe84af2182241e806e39b5",
+      "fromSide": "right",
+      "toNode": "file-38d019cb40977865dc52a8e2",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "מקור לשיעור"
+    },
+    {
+      "id": "edge-fce540ae712ce64c2133b7ac",
+      "fromNode": "file-8fbe84af2182241e806e39b5",
+      "fromSide": "right",
+      "toNode": "file-df95ffa2242331aca94feb09",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום עזרה בתבנית"
+    },
+    {
+      "id": "edge-3e74ff4e2f78a7b34298f2e1",
+      "fromNode": "file-7960ba9992abe430720f12d2",
+      "fromSide": "right",
+      "toNode": "file-38d019cb40977865dc52a8e2",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "מקור לשיעור"
+    },
+    {
+      "id": "edge-3ef0bde4c3ec86b4ebf685fb",
+      "fromNode": "file-7960ba9992abe430720f12d2",
+      "fromSide": "right",
+      "toNode": "file-df95ffa2242331aca94feb09",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום עזרה בתבנית"
+    },
+    {
+      "id": "edge-c378aaf18fdcbaecdb5eb1f4",
+      "fromNode": "file-d67cac1e3dd5f5d2c9b18b7a",
+      "fromSide": "right",
+      "toNode": "file-38d019cb40977865dc52a8e2",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "מקור לשיעור"
+    },
+    {
+      "id": "edge-c026f03c278ec52d8bffec68",
+      "fromNode": "file-d67cac1e3dd5f5d2c9b18b7a",
+      "fromSide": "right",
+      "toNode": "file-df95ffa2242331aca94feb09",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום עזרה בתבנית"
+    },
+    {
+      "id": "edge-d757cad7b29dbb16f6ce1ee9",
+      "fromNode": "file-257e1e6cd5cfc24de70ff1a3",
+      "fromSide": "right",
+      "toNode": "file-38d019cb40977865dc52a8e2",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "מקור לשיעור"
+    },
+    {
+      "id": "edge-616465ede368f65c077ff345",
+      "fromNode": "file-257e1e6cd5cfc24de70ff1a3",
+      "fromSide": "right",
+      "toNode": "file-df95ffa2242331aca94feb09",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום עזרה בתבנית"
+    },
+    {
+      "id": "edge-c7b4f5d3b78750167115ab9c",
+      "fromNode": "file-a1b55ef2a8b894414e4894ed",
+      "fromSide": "right",
+      "toNode": "file-df95ffa2242331aca94feb09",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום עזרה בתבנית"
+    },
+    {
+      "id": "edge-176b7d7eeed676a54e354391",
+      "fromNode": "file-84cd29ae249da3f464633484",
+      "fromSide": "right",
+      "toNode": "file-df95ffa2242331aca94feb09",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום עזרה בתבנית"
+    },
+    {
+      "id": "edge-e80e9ec581e5fe0c06a4538c",
+      "fromNode": "file-b2f1c4b57aa21dd12dce3c3d",
+      "fromSide": "right",
+      "toNode": "file-df95ffa2242331aca94feb09",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום עזרה בתבנית"
+    },
+    {
+      "id": "edge-8d3ac4b96f502b7d1aa28af1",
+      "fromNode": "file-343a116ac8c31b4d55797b28",
+      "fromSide": "right",
+      "toNode": "file-df95ffa2242331aca94feb09",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום עזרה בתבנית"
+    },
+    {
+      "id": "edge-8ae8e1cb9c2c3350e9b70dd2",
+      "fromNode": "file-607635ef0df4b98923136ffa",
+      "fromSide": "right",
+      "toNode": "file-df95ffa2242331aca94feb09",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום עזרה בתבנית"
+    },
+    {
+      "id": "edge-d5bb814a88a4e3e3d406dd61",
+      "fromNode": "file-7f75664b7ad292ca328c72d4",
+      "fromSide": "right",
+      "toNode": "file-df95ffa2242331aca94feb09",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום עזרה בתבנית"
+    },
+    {
+      "id": "edge-0e06e3586e2acb980eea185a",
+      "fromNode": "file-2b18a98462f497a153cc6e0d",
+      "fromSide": "right",
+      "toNode": "file-df95ffa2242331aca94feb09",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום עזרה בתבנית"
+    },
+    {
+      "id": "edge-b30e0d5278c3e953820446b4",
+      "fromNode": "file-b01de5a0b76f5696c6af69e0",
+      "fromSide": "right",
+      "toNode": "file-df95ffa2242331aca94feb09",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום עזרה בתבנית"
+    },
+    {
+      "id": "edge-2931df455a9bccffe15be451",
+      "fromNode": "file-cdcd9ddfd20d5545a24380af",
+      "fromSide": "right",
+      "toNode": "file-df95ffa2242331aca94feb09",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום עזרה בתבנית"
+    },
+    {
+      "id": "edge-5c74ea5469abb09ee802ad76",
+      "fromNode": "file-c6fe7fad3f15b65762556a69",
+      "fromSide": "right",
+      "toNode": "file-df95ffa2242331aca94feb09",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום עזרה בתבנית"
+    },
+    {
+      "id": "edge-18813905e4556135ee90c02d",
+      "fromNode": "file-e89994ad4e803ffb99184814",
+      "fromSide": "right",
+      "toNode": "file-df95ffa2242331aca94feb09",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום עזרה בתבנית"
+    },
+    {
+      "id": "edge-102c0f131be40228717de6f4",
+      "fromNode": "file-6021e326e1a0af6b4a1e8d59",
+      "fromSide": "right",
+      "toNode": "file-df95ffa2242331aca94feb09",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום עזרה בתבנית"
+    },
+    {
+      "id": "edge-baf5cb1ca6150e6bee245929",
+      "fromNode": "file-eee87e9bb88dc6b89d7aedb5",
+      "fromSide": "right",
+      "toNode": "file-38d019cb40977865dc52a8e2",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "מקור לשיעור"
+    },
+    {
+      "id": "edge-ffd7e2bc9ac67607c27fb4e6",
+      "fromNode": "file-eee87e9bb88dc6b89d7aedb5",
+      "fromSide": "right",
+      "toNode": "file-416363e3f49a6f73b2217d41",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "מקור לשיעור"
+    },
+    {
+      "id": "edge-30480c7abffb42002226d15f",
+      "fromNode": "file-eee87e9bb88dc6b89d7aedb5",
+      "fromSide": "right",
+      "toNode": "file-df95ffa2242331aca94feb09",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום עזרה בתבנית"
+    },
+    {
+      "id": "edge-cbc6d3b145fb6c52dfbc199c",
+      "fromNode": "file-8f1f8c294b3bf873ea3bc498",
+      "fromSide": "right",
+      "toNode": "file-38d019cb40977865dc52a8e2",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "מקור לשיעור"
+    },
+    {
+      "id": "edge-2bf764a22892fb793066d854",
+      "fromNode": "file-8f1f8c294b3bf873ea3bc498",
+      "fromSide": "right",
+      "toNode": "file-416363e3f49a6f73b2217d41",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "מקור לשיעור"
+    },
+    {
+      "id": "edge-6a63c4a17fd444753b56af6f",
+      "fromNode": "file-8f1f8c294b3bf873ea3bc498",
+      "fromSide": "right",
+      "toNode": "file-df95ffa2242331aca94feb09",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום עזרה בתבנית"
+    },
+    {
+      "id": "edge-9724c2d18da8e3c7be530da7",
+      "fromNode": "file-0f5ea520fe60922990dec027",
+      "fromSide": "right",
+      "toNode": "file-38d019cb40977865dc52a8e2",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "מקור לשיעור"
+    },
+    {
+      "id": "edge-7f6453668c27848c634c90ac",
+      "fromNode": "file-0f5ea520fe60922990dec027",
+      "fromSide": "right",
+      "toNode": "file-416363e3f49a6f73b2217d41",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "מקור לשיעור"
+    },
+    {
+      "id": "edge-3468f0be2fe06671336fc938",
+      "fromNode": "file-0f5ea520fe60922990dec027",
+      "fromSide": "right",
+      "toNode": "file-df95ffa2242331aca94feb09",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום עזרה בתבנית"
+    },
+    {
+      "id": "edge-9b88920ad343772db43a3153",
+      "fromNode": "file-930677a56bdbd5419fadff20",
+      "fromSide": "right",
+      "toNode": "file-38d019cb40977865dc52a8e2",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "מקור לשיעור"
+    },
+    {
+      "id": "edge-9361326e804cd53f4db097c7",
+      "fromNode": "file-930677a56bdbd5419fadff20",
+      "fromSide": "right",
+      "toNode": "file-df95ffa2242331aca94feb09",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום עזרה בתבנית"
+    },
+    {
+      "id": "edge-54c043981d4b25d134f19702",
+      "fromNode": "file-0a2e4599152bf5fc74475628",
+      "fromSide": "right",
+      "toNode": "file-38d019cb40977865dc52a8e2",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "מקור לשיעור"
+    },
+    {
+      "id": "edge-b02989b3971fc5d1369b7389",
+      "fromNode": "file-0a2e4599152bf5fc74475628",
+      "fromSide": "right",
+      "toNode": "file-df95ffa2242331aca94feb09",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום עזרה בתבנית"
+    },
+    {
+      "id": "edge-303d558ba079175bb5d7fd2d",
+      "fromNode": "file-f27e414cd1e08294d861ee32",
+      "fromSide": "right",
+      "toNode": "file-38d019cb40977865dc52a8e2",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "מקור לשיעור"
+    },
+    {
+      "id": "edge-498a8b47827f2171a6141dbe",
+      "fromNode": "file-f27e414cd1e08294d861ee32",
+      "fromSide": "right",
+      "toNode": "file-df95ffa2242331aca94feb09",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום עזרה בתבנית"
+    },
+    {
+      "id": "edge-8994ce8ce407967b9364b888",
+      "fromNode": "file-05d81ff924504b2eb6ee432b",
+      "fromSide": "right",
+      "toNode": "file-df95ffa2242331aca94feb09",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום עזרה בתבנית"
+    },
+    {
+      "id": "edge-ef1c19587dce6e04a7a546b7",
+      "fromNode": "file-1d546e451f4a6b610bdf77b3",
+      "fromSide": "right",
+      "toNode": "file-df95ffa2242331aca94feb09",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום עזרה בתבנית"
+    },
+    {
+      "id": "edge-e7014233425906ba02e3592a",
+      "fromNode": "file-6d0f80925644feb5d8941959",
+      "fromSide": "right",
+      "toNode": "file-df95ffa2242331aca94feb09",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום עזרה בתבנית"
+    },
+    {
+      "id": "edge-ee09314d832fdd60be7e3f61",
+      "fromNode": "file-8fa77b9783d070ddc5fcd2bb",
+      "fromSide": "right",
+      "toNode": "file-df95ffa2242331aca94feb09",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום עזרה בתבנית"
+    },
+    {
+      "id": "edge-e72a688c61b2648a868035b8",
+      "fromNode": "file-3f76a53fb030bf0894160d87",
+      "fromSide": "right",
+      "toNode": "file-df95ffa2242331aca94feb09",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום עזרה בתבנית"
+    },
+    {
+      "id": "edge-40fbda8ba0abee1498afa653",
+      "fromNode": "file-c598ec8e0620e072e414088e",
+      "fromSide": "right",
+      "toNode": "file-df95ffa2242331aca94feb09",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום עזרה בתבנית"
+    },
+    {
+      "id": "edge-80992843258702b503d38073",
+      "fromNode": "file-0e545fd821ca74fe97e09418",
+      "fromSide": "right",
+      "toNode": "file-df95ffa2242331aca94feb09",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום עזרה בתבנית"
+    },
+    {
+      "id": "edge-f49fcd1173020ff32412e55c",
+      "fromNode": "file-f1405615d453ea6b0701d2c0",
+      "fromSide": "right",
+      "toNode": "file-df95ffa2242331aca94feb09",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום עזרה בתבנית"
+    },
+    {
+      "id": "edge-2ca4ed487d1474994a344819",
+      "fromNode": "file-16a662f6470f336c47fa27d1",
+      "fromSide": "right",
+      "toNode": "file-df95ffa2242331aca94feb09",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום עזרה בתבנית"
+    },
+    {
+      "id": "edge-3b11357806beda4849710070",
+      "fromNode": "file-3a1192c1f8596a0a4c2c8be6",
+      "fromSide": "right",
+      "toNode": "file-df95ffa2242331aca94feb09",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום עזרה בתבנית"
+    },
+    {
+      "id": "edge-32bdc07aa5ff64c889333e74",
+      "fromNode": "file-a462e2ac9632d4ffdfb6b4c4",
+      "fromSide": "right",
+      "toNode": "file-df95ffa2242331aca94feb09",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום עזרה בתבנית"
+    },
+    {
+      "id": "edge-2c50c9c9609405807d1996c2",
+      "fromNode": "file-6b8f988414067f0decabfc92",
+      "fromSide": "right",
+      "toNode": "file-df95ffa2242331aca94feb09",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום עזרה בתבנית"
+    },
+    {
+      "id": "edge-e4aeffd6307b7bdeb73e4548",
+      "fromNode": "file-04b154ca4d0c2de09dd23b42",
+      "fromSide": "right",
+      "toNode": "file-df95ffa2242331aca94feb09",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום עזרה בתבנית"
+    },
+    {
+      "id": "edge-38c34d832a39124192439c28",
+      "fromNode": "file-7a9e1ae49137961b3f21b296",
+      "fromSide": "right",
+      "toNode": "file-df95ffa2242331aca94feb09",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום עזרה בתבנית"
+    },
+    {
+      "id": "edge-fece614a3505d15ed7d65474",
+      "fromNode": "file-09f29f297643faf745e76949",
+      "fromSide": "right",
+      "toNode": "file-df95ffa2242331aca94feb09",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום עזרה בתבנית"
+    },
+    {
+      "id": "edge-276aa909f43fc90dfd2f69a8",
+      "fromNode": "file-21ba47ada070bb7f2b32c9e9",
+      "fromSide": "right",
+      "toNode": "file-df95ffa2242331aca94feb09",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום עזרה בתבנית"
+    },
+    {
+      "id": "edge-1f37fc023654778c2e4f111a",
+      "fromNode": "file-c4a80bb320181b7d44dd1576",
+      "fromSide": "right",
+      "toNode": "file-df95ffa2242331aca94feb09",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום עזרה בתבנית"
+    },
+    {
+      "id": "edge-3717812e4e7d3fdc626ce68d",
+      "fromNode": "file-8edecd19f4c896347d71eb65",
+      "fromSide": "right",
+      "toNode": "file-df95ffa2242331aca94feb09",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום עזרה בתבנית"
+    },
+    {
+      "id": "edge-2fe1bf09a932ce27c8f41ecb",
+      "fromNode": "file-c67aa767c465779858a01eaa",
+      "fromSide": "right",
+      "toNode": "file-df95ffa2242331aca94feb09",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום עזרה בתבנית"
+    },
+    {
+      "id": "edge-2fffe4d7b60ef9e73f443590",
+      "fromNode": "file-8a28f1f6ef995ab83d323028",
+      "fromSide": "right",
+      "toNode": "file-df95ffa2242331aca94feb09",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום עזרה בתבנית"
+    },
+    {
+      "id": "edge-65c53256b6b62035301f7713",
+      "fromNode": "file-416aec24185936980765bd27",
+      "fromSide": "right",
+      "toNode": "file-df95ffa2242331aca94feb09",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום עזרה בתבנית"
+    },
+    {
+      "id": "edge-162a155cf3b499cfd5e6c663",
+      "fromNode": "file-7ef4c10176cf70d35cefa404",
+      "fromSide": "right",
+      "toNode": "file-df95ffa2242331aca94feb09",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום עזרה בתבנית"
+    },
+    {
+      "id": "edge-c257b5ac9cc685d2915c02bc",
+      "fromNode": "file-81554e38e453b96a8441154c",
+      "fromSide": "right",
+      "toNode": "file-df95ffa2242331aca94feb09",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום עזרה בתבנית"
+    },
+    {
+      "id": "edge-ac99e09c29584b512052a0dd",
+      "fromNode": "file-2a52237796e03c169b0f202e",
+      "fromSide": "right",
+      "toNode": "file-df95ffa2242331aca94feb09",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום עזרה בתבנית"
+    },
+    {
+      "id": "edge-e8271db76123d23a53b88d74",
+      "fromNode": "file-e82359b92b454de22748c764",
+      "fromSide": "right",
+      "toNode": "file-df95ffa2242331aca94feb09",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום עזרה בתבנית"
+    },
+    {
+      "id": "edge-d88934636beeddf943a0d03e",
+      "fromNode": "file-7bb0417cc350194fdd4a00c1",
+      "fromSide": "right",
+      "toNode": "file-df95ffa2242331aca94feb09",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום עזרה בתבנית"
+    },
+    {
+      "id": "edge-420baa29f024b513b2ec9c0b",
+      "fromNode": "file-547fa8eec69b6e3fdc71367f",
+      "fromSide": "right",
+      "toNode": "file-df95ffa2242331aca94feb09",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום עזרה בתבנית"
+    },
+    {
+      "id": "edge-67cf9b44bf0d37536c6725c4",
+      "fromNode": "file-059cda8aa56270ed12cc5d92",
+      "fromSide": "right",
+      "toNode": "file-df95ffa2242331aca94feb09",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום עזרה בתבנית"
+    },
+    {
+      "id": "edge-42eaf1c32b040ca2433ce3ba",
+      "fromNode": "file-4e601c5f9664f6294ce870d0",
+      "fromSide": "right",
+      "toNode": "file-df95ffa2242331aca94feb09",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום עזרה בתבנית"
+    },
+    {
+      "id": "edge-a0943c62af3c7e4b176147af",
+      "fromNode": "file-619640257d8944e46f1ed399",
+      "fromSide": "right",
+      "toNode": "file-df95ffa2242331aca94feb09",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום עזרה בתבנית"
+    },
+    {
+      "id": "edge-358e266760b314ed6b0cb1ea",
+      "fromNode": "file-0b606b928f8e984535c4591b",
+      "fromSide": "right",
+      "toNode": "file-df95ffa2242331aca94feb09",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום עזרה בתבנית"
+    },
+    {
+      "id": "edge-666301cd0643244696a4ea2b",
+      "fromNode": "file-163dfd142d07101e8aea2327",
+      "fromSide": "right",
+      "toNode": "file-df95ffa2242331aca94feb09",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום עזרה בתבנית"
+    },
+    {
+      "id": "edge-75df0ea715ef165384350b95",
+      "fromNode": "file-e01fd6aaf7dd95bbda1556a5",
+      "fromSide": "right",
+      "toNode": "file-df95ffa2242331aca94feb09",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום עזרה בתבנית"
+    },
+    {
+      "id": "edge-8a00619d72db515550d1bed4",
+      "fromNode": "file-a1ce160f2531fef888c15bee",
+      "fromSide": "right",
+      "toNode": "file-df95ffa2242331aca94feb09",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום עזרה בתבנית"
+    },
+    {
+      "id": "edge-3ac435a8e9a206b585343f7b",
+      "fromNode": "file-21ec0f246a7ff2c8a81cd17a",
+      "fromSide": "right",
+      "toNode": "file-df95ffa2242331aca94feb09",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום עזרה בתבנית"
+    },
+    {
+      "id": "edge-f7ea9967908ad5b5d5b24796",
+      "fromNode": "file-a0de2a09358041123e8c9695",
+      "fromSide": "right",
+      "toNode": "file-df95ffa2242331aca94feb09",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום עזרה בתבנית"
+    },
+    {
+      "id": "edge-3f5a049be3fa997c81ef3bd5",
+      "fromNode": "file-7a811899516df3376d450e54",
+      "fromSide": "right",
+      "toNode": "file-df95ffa2242331aca94feb09",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום עזרה בתבנית"
+    },
+    {
+      "id": "edge-a79e0aea3b8668865a49a6e4",
+      "fromNode": "file-90284e97250d62d43a8a0a8a",
+      "fromSide": "right",
+      "toNode": "file-df95ffa2242331aca94feb09",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום עזרה בתבנית"
+    },
+    {
+      "id": "edge-ebe486f20749c1d1769b0084",
+      "fromNode": "file-dc1fc75015a48803880ebdae",
+      "fromSide": "right",
+      "toNode": "file-df95ffa2242331aca94feb09",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום עזרה בתבנית"
+    },
+    {
+      "id": "edge-7e5fb60200360be160e8418d",
+      "fromNode": "file-da40683d6db46f284e07306a",
+      "fromSide": "right",
+      "toNode": "file-d1ee7f34b67ea14a55418301",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "מיומנות בתשובה"
+    },
+    {
+      "id": "edge-1257a2e3b208952927c0974c",
+      "fromNode": "file-da40683d6db46f284e07306a",
+      "fromSide": "right",
+      "toNode": "file-416363e3f49a6f73b2217d41",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "מקור לשיעור"
+    },
+    {
+      "id": "edge-6937c3c326ac82eaa75b94d2",
+      "fromNode": "file-da40683d6db46f284e07306a",
+      "fromSide": "right",
+      "toNode": "file-df95ffa2242331aca94feb09",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום עזרה בתבנית"
+    },
+    {
+      "id": "edge-79908925058ff97d0f5b9299",
+      "fromNode": "file-4908738c7aaa62489f1b240e",
+      "fromSide": "right",
+      "toNode": "file-416363e3f49a6f73b2217d41",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "מקור לשיעור"
+    },
+    {
+      "id": "edge-85c3ed7470de331910558339",
+      "fromNode": "file-4908738c7aaa62489f1b240e",
+      "fromSide": "right",
+      "toNode": "file-df95ffa2242331aca94feb09",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום עזרה בתבנית"
+    },
+    {
+      "id": "edge-b7059eab998b9e4c71311242",
+      "fromNode": "file-3f57cd050627aae0ae417a4a",
+      "fromSide": "right",
+      "toNode": "file-d1ee7f34b67ea14a55418301",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "מיומנות בתשובה"
+    },
+    {
+      "id": "edge-9999b824e5bb55231e20e11c",
+      "fromNode": "file-3f57cd050627aae0ae417a4a",
+      "fromSide": "right",
+      "toNode": "file-416363e3f49a6f73b2217d41",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "מקור לשיעור"
+    },
+    {
+      "id": "edge-df12fd3c7a15522f7b64803b",
+      "fromNode": "file-3f57cd050627aae0ae417a4a",
+      "fromSide": "right",
+      "toNode": "file-df95ffa2242331aca94feb09",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום עזרה בתבנית"
+    },
+    {
+      "id": "edge-c3b0c3517e559a7ff96013ec",
+      "fromNode": "file-a6f901cdf6374ef0069c0efc",
+      "fromSide": "right",
+      "toNode": "file-d1ee7f34b67ea14a55418301",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "מיומנות בתשובה"
+    },
+    {
+      "id": "edge-a997af928422e8a6e2f91dee",
+      "fromNode": "file-a6f901cdf6374ef0069c0efc",
+      "fromSide": "right",
+      "toNode": "file-df95ffa2242331aca94feb09",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום עזרה בתבנית"
+    },
+    {
+      "id": "edge-d743f27c9281a5bf79d0d925",
+      "fromNode": "file-04ceec1a45e66e261ae7c82e",
+      "fromSide": "right",
+      "toNode": "file-df95ffa2242331aca94feb09",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום עזרה בתבנית"
+    },
+    {
+      "id": "edge-27e2dd480f6aff261f91ce26",
+      "fromNode": "file-8d2905a49dbde2cfe2b90e86",
+      "fromSide": "right",
+      "toNode": "file-d1ee7f34b67ea14a55418301",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "מיומנות בתשובה"
+    },
+    {
+      "id": "edge-501dbb1c27391f491554f527",
+      "fromNode": "file-8d2905a49dbde2cfe2b90e86",
+      "fromSide": "right",
+      "toNode": "file-df95ffa2242331aca94feb09",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום עזרה בתבנית"
+    },
+    {
+      "id": "edge-38685fed91c573990cf170dd",
+      "fromNode": "file-150ca44e863daaf3253a07e2",
+      "fromSide": "right",
+      "toNode": "file-d1ee7f34b67ea14a55418301",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "מיומנות בתשובה"
+    },
+    {
+      "id": "edge-337bfe8b44f7e92e304aa5bb",
+      "fromNode": "file-150ca44e863daaf3253a07e2",
+      "fromSide": "right",
+      "toNode": "file-df95ffa2242331aca94feb09",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום עזרה בתבנית"
+    },
+    {
+      "id": "edge-32f131402810425493035849",
+      "fromNode": "file-4a1ab8f59eaf764803d35019",
+      "fromSide": "right",
+      "toNode": "file-df95ffa2242331aca94feb09",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום עזרה בתבנית"
+    },
+    {
+      "id": "edge-be1b9c4cf3da64404fc7ae70",
+      "fromNode": "file-c6e97f3cbd8cf0ed6d8abd34",
+      "fromSide": "right",
+      "toNode": "file-d1ee7f34b67ea14a55418301",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "מיומנות בתשובה"
+    },
+    {
+      "id": "edge-8a8cfaa1e6f1d8f8cc303001",
+      "fromNode": "file-c6e97f3cbd8cf0ed6d8abd34",
+      "fromSide": "right",
+      "toNode": "file-df95ffa2242331aca94feb09",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום עזרה בתבנית"
+    },
+    {
+      "id": "edge-0928bb6dcc22cfc94e096d21",
+      "fromNode": "file-88f3ba6052dc2491689ad36f",
+      "fromSide": "right",
+      "toNode": "file-d1ee7f34b67ea14a55418301",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "מיומנות בתשובה"
+    },
+    {
+      "id": "edge-b5ad37055ff81f3d03e62f44",
+      "fromNode": "file-88f3ba6052dc2491689ad36f",
+      "fromSide": "right",
+      "toNode": "file-df95ffa2242331aca94feb09",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום עזרה בתבנית"
+    },
+    {
+      "id": "edge-28c6ae7f2389d2308fc3bef3",
+      "fromNode": "file-98cd473f31ae6da967ade3b5",
+      "fromSide": "right",
+      "toNode": "file-df95ffa2242331aca94feb09",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום עזרה בתבנית"
+    },
+    {
+      "id": "edge-6a3aa0ae198b4fb54ea68add",
+      "fromNode": "file-cb2076550846ddcdb01b0581",
+      "fromSide": "right",
+      "toNode": "file-d1ee7f34b67ea14a55418301",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "מיומנות בתשובה"
+    },
+    {
+      "id": "edge-462e8ea8f4892542460a3a0b",
+      "fromNode": "file-cb2076550846ddcdb01b0581",
+      "fromSide": "right",
+      "toNode": "file-df95ffa2242331aca94feb09",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום עזרה בתבנית"
+    },
+    {
+      "id": "edge-41ca75dfd22899671744a698",
+      "fromNode": "file-152ec52cc4e6733e5d649d71",
+      "fromSide": "right",
+      "toNode": "file-d1ee7f34b67ea14a55418301",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "מיומנות בתשובה"
+    },
+    {
+      "id": "edge-e5a5db01d3318275096fbe0f",
+      "fromNode": "file-152ec52cc4e6733e5d649d71",
+      "fromSide": "right",
+      "toNode": "file-df95ffa2242331aca94feb09",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום עזרה בתבנית"
+    },
+    {
+      "id": "edge-f587181728bb52b138691a7c",
+      "fromNode": "file-8ec38d198a833a6712706fdf",
+      "fromSide": "right",
+      "toNode": "file-d1ee7f34b67ea14a55418301",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "מיומנות בתשובה"
+    },
+    {
+      "id": "edge-e46675282f74ff515a799722",
+      "fromNode": "file-8ec38d198a833a6712706fdf",
+      "fromSide": "right",
+      "toNode": "file-df95ffa2242331aca94feb09",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום עזרה בתבנית"
+    },
+    {
+      "id": "edge-f2476c813bdcc15f41bf734e",
+      "fromNode": "file-81ad80f7098d6e7e1681dcfd",
+      "fromSide": "right",
+      "toNode": "file-d1ee7f34b67ea14a55418301",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "מיומנות בתשובה"
+    },
+    {
+      "id": "edge-5d416bb32fafdd4e0b47a78e",
+      "fromNode": "file-81ad80f7098d6e7e1681dcfd",
+      "fromSide": "right",
+      "toNode": "file-416363e3f49a6f73b2217d41",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "מקור לשיעור"
+    },
+    {
+      "id": "edge-cf22b65bd90cf64b2b038f12",
+      "fromNode": "file-81ad80f7098d6e7e1681dcfd",
+      "fromSide": "right",
+      "toNode": "file-df95ffa2242331aca94feb09",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום עזרה בתבנית"
+    },
+    {
+      "id": "edge-705341d314182a2c6c33b592",
+      "fromNode": "file-0a3797d01e419a7ba396a426",
+      "fromSide": "right",
+      "toNode": "file-d1ee7f34b67ea14a55418301",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "מיומנות בתשובה"
+    },
+    {
+      "id": "edge-b9955566d78dfe4e5417e7bf",
+      "fromNode": "file-0a3797d01e419a7ba396a426",
+      "fromSide": "right",
+      "toNode": "file-416363e3f49a6f73b2217d41",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "מקור לשיעור"
+    },
+    {
+      "id": "edge-b700a60a19f43e5be157475b",
+      "fromNode": "file-0a3797d01e419a7ba396a426",
+      "fromSide": "right",
+      "toNode": "file-df95ffa2242331aca94feb09",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום עזרה בתבנית"
+    },
+    {
+      "id": "edge-0c8af38a32766e79ff97932c",
+      "fromNode": "file-6bc0835c98296fa28821cce2",
+      "fromSide": "right",
+      "toNode": "file-d1ee7f34b67ea14a55418301",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "מיומנות בתשובה"
+    },
+    {
+      "id": "edge-c2b984944205862fa1b19de9",
+      "fromNode": "file-6bc0835c98296fa28821cce2",
+      "fromSide": "right",
+      "toNode": "file-df95ffa2242331aca94feb09",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום עזרה בתבנית"
+    },
+    {
+      "id": "edge-f3cf91e29efa889d3fbc7e43",
+      "fromNode": "file-33cf86c40791fde3b1478551",
+      "fromSide": "right",
+      "toNode": "file-d1ee7f34b67ea14a55418301",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "מיומנות בתשובה"
+    },
+    {
+      "id": "edge-2c4242d082d6b198601eaff7",
+      "fromNode": "file-33cf86c40791fde3b1478551",
+      "fromSide": "right",
+      "toNode": "file-df95ffa2242331aca94feb09",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום עזרה בתבנית"
+    },
+    {
+      "id": "edge-f8b2bb527dd7677198dd310a",
+      "fromNode": "file-5b29e0472a621373408c50ab",
+      "fromSide": "right",
+      "toNode": "file-d1ee7f34b67ea14a55418301",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "מיומנות בתשובה"
+    },
+    {
+      "id": "edge-e01cc08ada056139d7bf9cd7",
+      "fromNode": "file-5b29e0472a621373408c50ab",
+      "fromSide": "right",
+      "toNode": "file-df95ffa2242331aca94feb09",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום עזרה בתבנית"
+    },
+    {
+      "id": "edge-15a0522af479de655daf5b8a",
+      "fromNode": "file-d1b6c1925d52dbec8b6b8e40",
+      "fromSide": "right",
+      "toNode": "file-d1ee7f34b67ea14a55418301",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "מיומנות בתשובה"
+    },
+    {
+      "id": "edge-24b673e7cec868e3cc109d51",
+      "fromNode": "file-d1b6c1925d52dbec8b6b8e40",
+      "fromSide": "right",
+      "toNode": "file-df95ffa2242331aca94feb09",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום עזרה בתבנית"
     }
   ]
 }

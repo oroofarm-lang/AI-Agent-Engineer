@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_BIZ_02"
 assessment_version: "2.1.0"
 lesson_id: "BIZ_02"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_BIZ_02]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_BIZ_02]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_BIZ_02_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_BIZ_02_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_BIZ_02_TRANSFER]]"]
 ---
 
 # תנאי בדיקה: הוכחה מעשית · בחירת פיילוט לפי ערך וסיכון
@@ -41,3 +41,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_BIZ_02]]"]
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_BIZ_02|הוכחה מעשית · בחירת פיילוט לפי ערך וסיכון]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_BIZ_02_BUILD|תבנית טקסט: בחירת פיילוט לפי ערך וסיכון · BUILD]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_BIZ_02_DIAGNOSE|תבנית טקסט: בחירת פיילוט לפי ערך וסיכון · DIAGNOSE]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_BIZ_02_TRANSFER|תבנית טקסט: בחירת פיילוט לפי ערך וסיכון · TRANSFER]] — תנאי בדיקה

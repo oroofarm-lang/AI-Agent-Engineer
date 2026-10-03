@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "W16D76_DISCOVERY"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "3c11130e81c0ae9a9cb96fd20a44c8923959b5a6a0dcc6c24606028244c701b6"
-related: ["[[02_CURRICULUM/2.2.0/lessons/W16D76_DISCOVERY]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W16D76_DISCOVERY]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W16D76_DISCOVERY]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/W16D76_DISCOVERY]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W16D76_DISCOVERY]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W16D76_DISCOVERY]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W16D76_DISCOVERY_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W16D76_DISCOVERY_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W16D76_DISCOVERY_TRANSFER]]"]
 ---
 
 # התרגול: פרויקט גמר: גילוי צרכים
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/W16D76_DISCOVERY]]","[[02_CURRICULUM/qu
 - [[02_CURRICULUM/2.2.0/lessons/W16D76_DISCOVERY|פרויקט גמר: גילוי צרכים]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W16D76_DISCOVERY|בדיקת הבנה: מה צריך לעשות לפני שבוחרים טכנולוגיה לפרויקט הגמר?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W16D76_DISCOVERY|הוכחה מעשית · פרויקט גמר: גילוי צרכים]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W16D76_DISCOVERY_BUILD|תבנית טקסט: פרויקט גמר: גילוי צרכים · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W16D76_DISCOVERY_DIAGNOSE|תבנית טקסט: פרויקט גמר: גילוי צרכים · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W16D76_DISCOVERY_TRANSFER|תבנית טקסט: פרויקט גמר: גילוי צרכים · TRANSFER]] — ארגון העבודה

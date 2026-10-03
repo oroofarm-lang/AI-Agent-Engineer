@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "AUT_06"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "97d4b210a8f54f555e73e25a1e39dec6c0d407a71a6294ba4363ef8a7aadfe82"
-related: ["[[02_CURRICULUM/2.2.0/lessons/AUT_06]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_AUT_06]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AUT_06]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/AUT_06]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_AUT_06]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AUT_06]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_06_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_06_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_06_TRANSFER]]"]
 ---
 
 # התרגול: העברת תהליך ל־Make
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/AUT_06]]","[[02_CURRICULUM/quiz-banks/1
 - [[02_CURRICULUM/2.2.0/lessons/AUT_06|העברת תהליך ל־Make]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_AUT_06|בדיקת הבנה: מהו בסיס הוגן לבדיקה לאחר העברת תהליך מ־n8n ל־Make?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AUT_06|הוכחה מעשית · העברת תהליך ל־Make]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_06_BUILD|תבנית טקסט: העברת תהליך ל־Make · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_06_DIAGNOSE|תבנית טקסט: העברת תהליך ל־Make · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_06_TRANSFER|תבנית טקסט: העברת תהליך ל־Make · TRANSFER]] — ארגון העבודה

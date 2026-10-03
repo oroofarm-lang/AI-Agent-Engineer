@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_W03D15_PROJECT_AGENT_FROM_SCRATCH"
 assessment_version: "2.1.0"
 lesson_id: "W03D15_PROJECT_AGENT_FROM_SCRATCH"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W03D15_PROJECT_AGENT_FROM_SCRATCH]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W03D15_PROJECT_AGENT_FROM_SCRATCH]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W03D15_PROJECT_AGENT_FROM_SCRATCH_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W03D15_PROJECT_AGENT_FROM_SCRATCH_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W03D15_PROJECT_AGENT_FROM_SCRATCH_TRANSFER]]"]
 ---
 
 # תבנית הגשה: הוכחה מעשית · פרויקט: סוכן מאפס
@@ -53,3 +53,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W03D15_PROJECT_AGENT_FROM_
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W03D15_PROJECT_AGENT_FROM_SCRATCH|הוכחה מעשית · פרויקט: סוכן מאפס]] — תבנית הגשה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W03D15_PROJECT_AGENT_FROM_SCRATCH_BUILD|תבנית טקסט: פרויקט: סוכן מאפס · BUILD]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W03D15_PROJECT_AGENT_FROM_SCRATCH_DIAGNOSE|תבנית טקסט: פרויקט: סוכן מאפס · DIAGNOSE]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W03D15_PROJECT_AGENT_FROM_SCRATCH_TRANSFER|תבנית טקסט: פרויקט: סוכן מאפס · TRANSFER]] — תבנית סעיף

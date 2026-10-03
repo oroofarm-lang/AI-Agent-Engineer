@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "W15D72_CODE_SANDBOX_AGENTS"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "cfd0f37b5a54437bc5bfebe3ce87be39c60e952ba1f27ad1b10e2301ec939aed"
-related: ["[[02_CURRICULUM/2.2.0/lessons/W15D72_CODE_SANDBOX_AGENTS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W15D72_CODE_SANDBOX_AGENTS]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W15D72_CODE_SANDBOX_AGENTS]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/W15D72_CODE_SANDBOX_AGENTS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W15D72_CODE_SANDBOX_AGENTS]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W15D72_CODE_SANDBOX_AGENTS]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W15D72_CODE_SANDBOX_AGENTS_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W15D72_CODE_SANDBOX_AGENTS_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W15D72_CODE_SANDBOX_AGENTS_TRANSFER]]"]
 ---
 
 # התרגול: Sandbox וסוכני קוד
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/W15D72_CODE_SANDBOX_AGENTS]]","[[02_CUR
 - [[02_CURRICULUM/2.2.0/lessons/W15D72_CODE_SANDBOX_AGENTS|Sandbox וסוכני קוד]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W15D72_CODE_SANDBOX_AGENTS|בדיקת הבנה: איך בודקים שה־Sandbox אוכף את הגבולות שהוגדרו?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W15D72_CODE_SANDBOX_AGENTS|הוכחה מעשית · Sandbox וסוכני קוד]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W15D72_CODE_SANDBOX_AGENTS_BUILD|תבנית טקסט: Sandbox וסוכני קוד · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W15D72_CODE_SANDBOX_AGENTS_DIAGNOSE|תבנית טקסט: Sandbox וסוכני קוד · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W15D72_CODE_SANDBOX_AGENTS_TRANSFER|תבנית טקסט: Sandbox וסוכני קוד · TRANSFER]] — ארגון העבודה

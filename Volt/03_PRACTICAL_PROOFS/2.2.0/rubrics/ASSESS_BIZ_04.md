@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_BIZ_04"
 assessment_version: "2.1.0"
 lesson_id: "BIZ_04"
-related: ["[[01_AGENTS/Agent-Business-Discovery]]","[[01_AGENTS/Agent-CRM-Sales]]","[[01_AGENTS/Agent-Curriculum-Auditor]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Marketing-Growth]]","[[01_AGENTS/Agent-Paid-Media-Measurement]]","[[01_AGENTS/Agent-Progress-Tracker]]","[[01_AGENTS/Agent-Quiz-Designer]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/exercises/BIZ_04]]","[[02_CURRICULUM/2.2.0/lessons/BIZ_04]]","[[02_CURRICULUM/2.2.0/skills/BUSINESS_DISCOVERY]]","[[02_CURRICULUM/2.2.0/skills/EVALS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_BIZ_04]]","[[02_CURRICULUM/system-quizzes/1.0.0/QUIZ_EVIDENCE_NEXT_STEP]]","[[03_PRACTICAL_PROOFS/2.2.0/evaluation-keys/ASSESS_BIZ_04]]","[[03_PRACTICAL_PROOFS/2.2.0/Index]]","[[03_PRACTICAL_PROOFS/2.2.0/templates/ASSESS_BIZ_04]]","[[04_AUTOMATIONS_AND_APIS/endpoints/AGENT_EVALUATE]]","[[04_AUTOMATIONS_AND_APIS/endpoints/ARTIFACT_DOWNLOAD]]"]
+related: ["[[01_AGENTS/Agent-Business-Discovery]]","[[01_AGENTS/Agent-CRM-Sales]]","[[01_AGENTS/Agent-Curriculum-Auditor]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Marketing-Growth]]","[[01_AGENTS/Agent-Paid-Media-Measurement]]","[[01_AGENTS/Agent-Progress-Tracker]]","[[01_AGENTS/Agent-Quiz-Designer]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/exercises/BIZ_04]]","[[02_CURRICULUM/2.2.0/lessons/BIZ_04]]","[[02_CURRICULUM/2.2.0/skills/BUSINESS_DISCOVERY]]","[[02_CURRICULUM/2.2.0/skills/EVALS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_BIZ_04]]","[[02_CURRICULUM/system-quizzes/1.0.0/QUIZ_EVIDENCE_NEXT_STEP]]","[[03_PRACTICAL_PROOFS/2.2.0/evaluation-keys/ASSESS_BIZ_04]]","[[03_PRACTICAL_PROOFS/2.2.0/Index]]","[[03_PRACTICAL_PROOFS/2.2.0/templates/ASSESS_BIZ_04]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_BIZ_04_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_BIZ_04_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_BIZ_04_TRANSFER]]","[[04_AUTOMATIONS_AND_APIS/endpoints/AGENT_EVALUATE]]","[[04_AUTOMATIONS_AND_APIS/endpoints/ARTIFACT_DOWNLOAD]]"]
 ---
 
 # הוכחה מעשית · חשבונות לקוח, מידע והרשאות
@@ -54,5 +54,8 @@ related: ["[[01_AGENTS/Agent-Business-Discovery]]","[[01_AGENTS/Agent-CRM-Sales]
 - [[03_PRACTICAL_PROOFS/2.2.0/evaluation-keys/ASSESS_BIZ_04|תנאי בדיקה: הוכחה מעשית · חשבונות לקוח, מידע והרשאות]] — תנאי בדיקה
 - [[03_PRACTICAL_PROOFS/2.2.0/Index|תרגילים, ראיות ותיק עבודות]] — מחוון
 - [[03_PRACTICAL_PROOFS/2.2.0/templates/ASSESS_BIZ_04|תבנית הגשה: הוכחה מעשית · חשבונות לקוח, מידע והרשאות]] — תבנית הגשה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_BIZ_04_BUILD|תבנית טקסט: חשבונות לקוח, מידע והרשאות · BUILD]] — סעיף במחוון
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_BIZ_04_DIAGNOSE|תבנית טקסט: חשבונות לקוח, מידע והרשאות · DIAGNOSE]] — סעיף במחוון
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_BIZ_04_TRANSFER|תבנית טקסט: חשבונות לקוח, מידע והרשאות · TRANSFER]] — סעיף במחוון
 - [[04_AUTOMATIONS_AND_APIS/endpoints/AGENT_EVALUATE|משוב מנומק על עבודה]] — ראיות והגשות
 - [[04_AUTOMATIONS_AND_APIS/endpoints/ARTIFACT_DOWNLOAD|הורדת קובץ של הגשה]] — ראיות והגשות

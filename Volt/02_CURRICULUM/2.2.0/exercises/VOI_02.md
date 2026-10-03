@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "VOI_02"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "d607ef575c962175a0dff6b5ed7701629570a1eb059722b21952e17bed2d4fe0"
-related: ["[[02_CURRICULUM/2.2.0/lessons/VOI_02]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_VOI_02]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_VOI_02]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/VOI_02]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_VOI_02]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_VOI_02]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_VOI_02_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_VOI_02_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_VOI_02_TRANSFER]]"]
 ---
 
 # התרגול: טיפול אחרי שיחה
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/VOI_02]]","[[02_CURRICULUM/quiz-banks/1
 - [[02_CURRICULUM/2.2.0/lessons/VOI_02|טיפול אחרי שיחה]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_VOI_02|בדיקת הבנה: סיכום השיחה כולל התחייבות להנחה שלא נאמרה בשיחה. מה נכון לעשות לפני הפיכת הסיכום למשימות?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_VOI_02|הוכחה מעשית · טיפול אחרי שיחה]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_VOI_02_BUILD|תבנית טקסט: טיפול אחרי שיחה · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_VOI_02_DIAGNOSE|תבנית טקסט: טיפול אחרי שיחה · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_VOI_02_TRANSFER|תבנית טקסט: טיפול אחרי שיחה · TRANSFER]] — ארגון העבודה

@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "CRM_02"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "291ae2625432e3f4d9693fdcd179cd1eb73d357a219f83fc003a4131596b5bf3"
-related: ["[[02_CURRICULUM/2.2.0/lessons/CRM_02]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_CRM_02]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_CRM_02]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/CRM_02]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_CRM_02]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_CRM_02]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_CRM_02_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_CRM_02_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_CRM_02_TRANSFER]]"]
 ---
 
 # התרגול: יבוא לקוחות ומניעת כפילות
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/CRM_02]]","[[02_CURRICULUM/quiz-banks/1
 - [[02_CURRICULUM/2.2.0/lessons/CRM_02|יבוא לקוחות ומניעת כפילות]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_CRM_02|בדיקת הבנה: בקובץ יבוא מופיעות שתי רשומות עם אותו שם, אבל פרטי הקשר שונים. האם צריך למזג אותן אוטומטית?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_CRM_02|הוכחה מעשית · יבוא לקוחות ומניעת כפילות]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_CRM_02_BUILD|תבנית טבלה: יבוא לקוחות ומניעת כפילות · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_CRM_02_DIAGNOSE|תבנית טקסט: יבוא לקוחות ומניעת כפילות · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_CRM_02_TRANSFER|תבנית טקסט: יבוא לקוחות ומניעת כפילות · TRANSFER]] — ארגון העבודה

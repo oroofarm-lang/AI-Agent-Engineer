@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "W07D32_TOOL_DESIGN"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "b69ad934f1ac935c8ffa0657f57294b82a2ebb3885b00159edeb51b90c9cdcbf"
-related: ["[[02_CURRICULUM/2.2.0/lessons/W07D32_TOOL_DESIGN]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W07D32_TOOL_DESIGN]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W07D32_TOOL_DESIGN]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/W07D32_TOOL_DESIGN]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W07D32_TOOL_DESIGN]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W07D32_TOOL_DESIGN]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W07D32_TOOL_DESIGN_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W07D32_TOOL_DESIGN_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W07D32_TOOL_DESIGN_TRANSFER]]"]
 ---
 
 # התרגול: תכנון כלים עסקיים
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/W07D32_TOOL_DESIGN]]","[[02_CURRICULUM/
 - [[02_CURRICULUM/2.2.0/lessons/W07D32_TOOL_DESIGN|תכנון כלים עסקיים]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W07D32_TOOL_DESIGN|בדיקת הבנה: מה היתרון בפיצול כלי CRM ל־lookup_customer, prepare_update ו־apply_update?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W07D32_TOOL_DESIGN|הוכחה מעשית · תכנון כלים עסקיים]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W07D32_TOOL_DESIGN_BUILD|תבנית טקסט: תכנון כלים עסקיים · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W07D32_TOOL_DESIGN_DIAGNOSE|תבנית טקסט: תכנון כלים עסקיים · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W07D32_TOOL_DESIGN_TRANSFER|תבנית טקסט: תכנון כלים עסקיים · TRANSFER]] — ארגון העבודה

@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "DAT_04"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "a8b25a881679291f6e46274a46e7e0e531a4f6863b3917163628cc39bc5b85d9"
-related: ["[[02_CURRICULUM/2.2.0/lessons/DAT_04]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_DAT_04]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_DAT_04]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/DAT_04]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_DAT_04]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_DAT_04]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_DAT_04_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_DAT_04_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_DAT_04_TRANSFER]]"]
 ---
 
 # התרגול: Prompting, ‏RAG ו־Fine-tuning
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/DAT_04]]","[[02_CURRICULUM/quiz-banks/1
 - [[02_CURRICULUM/2.2.0/lessons/DAT_04|Prompting, ‏RAG ו־Fine-tuning]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_DAT_04|בדיקת הבנה: עסק צריך לענות לפי נהלים שמתעדכנים מדי שבוע. איזו גישה השיעור מציע לבדוק תחילה?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_DAT_04|הוכחה מעשית · Prompting, ‏RAG ו־Fine-tuning]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_DAT_04_BUILD|תבנית טקסט: Prompting, ‏RAG ו־Fine-tuning · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_DAT_04_DIAGNOSE|תבנית טקסט: Prompting, ‏RAG ו־Fine-tuning · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_DAT_04_TRANSFER|תבנית טקסט: Prompting, ‏RAG ו־Fine-tuning · TRANSFER]] — ארגון העבודה

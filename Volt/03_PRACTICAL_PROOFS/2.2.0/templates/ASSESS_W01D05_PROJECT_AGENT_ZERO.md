@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_W01D05_PROJECT_AGENT_ZERO"
 assessment_version: "2.1.0"
 lesson_id: "W01D05_PROJECT_AGENT_ZERO"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W01D05_PROJECT_AGENT_ZERO]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W01D05_PROJECT_AGENT_ZERO]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W01D05_PROJECT_AGENT_ZERO_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W01D05_PROJECT_AGENT_ZERO_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W01D05_PROJECT_AGENT_ZERO_TRANSFER]]"]
 ---
 
 # תבנית הגשה: הוכחה מעשית · פרויקט: Agent Zero
@@ -53,3 +53,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W01D05_PROJECT_AGENT_ZERO]
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W01D05_PROJECT_AGENT_ZERO|הוכחה מעשית · פרויקט: Agent Zero]] — תבנית הגשה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W01D05_PROJECT_AGENT_ZERO_BUILD|תבנית טקסט: פרויקט: Agent Zero · BUILD]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W01D05_PROJECT_AGENT_ZERO_DIAGNOSE|תבנית טקסט: פרויקט: Agent Zero · DIAGNOSE]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W01D05_PROJECT_AGENT_ZERO_TRANSFER|תבנית טקסט: פרויקט: Agent Zero · TRANSFER]] — תבנית סעיף

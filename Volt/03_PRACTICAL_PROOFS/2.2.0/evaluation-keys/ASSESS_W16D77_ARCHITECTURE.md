@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_W16D77_ARCHITECTURE"
 assessment_version: "2.1.0"
 lesson_id: "W16D77_ARCHITECTURE"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W16D77_ARCHITECTURE]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W16D77_ARCHITECTURE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W16D77_ARCHITECTURE_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W16D77_ARCHITECTURE_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W16D77_ARCHITECTURE_TRANSFER]]"]
 ---
 
 # תנאי בדיקה: הוכחה מעשית · פרויקט גמר: ארכיטקטורה
@@ -41,3 +41,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W16D77_ARCHITECTURE]]"]
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W16D77_ARCHITECTURE|הוכחה מעשית · פרויקט גמר: ארכיטקטורה]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W16D77_ARCHITECTURE_BUILD|תבנית טקסט: פרויקט גמר: ארכיטקטורה · BUILD]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W16D77_ARCHITECTURE_DIAGNOSE|תבנית טקסט: פרויקט גמר: ארכיטקטורה · DIAGNOSE]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W16D77_ARCHITECTURE_TRANSFER|תבנית טקסט: פרויקט גמר: ארכיטקטורה · TRANSFER]] — תנאי בדיקה

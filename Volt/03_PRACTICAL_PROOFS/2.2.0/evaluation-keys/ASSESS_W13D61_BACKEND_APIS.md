@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_W13D61_BACKEND_APIS"
 assessment_version: "2.1.0"
 lesson_id: "W13D61_BACKEND_APIS"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W13D61_BACKEND_APIS]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W13D61_BACKEND_APIS]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W13D61_BACKEND_APIS_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W13D61_BACKEND_APIS_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W13D61_BACKEND_APIS_TRANSFER]]"]
 ---
 
 # תנאי בדיקה: הוכחה מעשית · ממשקי API בצד השרת
@@ -41,3 +41,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W13D61_BACKEND_APIS]]"]
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W13D61_BACKEND_APIS|הוכחה מעשית · ממשקי API בצד השרת]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W13D61_BACKEND_APIS_BUILD|תבנית טקסט: ממשקי API בצד השרת · BUILD]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W13D61_BACKEND_APIS_DIAGNOSE|תבנית טקסט: ממשקי API בצד השרת · DIAGNOSE]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W13D61_BACKEND_APIS_TRANSFER|תבנית טקסט: ממשקי API בצד השרת · TRANSFER]] — תנאי בדיקה

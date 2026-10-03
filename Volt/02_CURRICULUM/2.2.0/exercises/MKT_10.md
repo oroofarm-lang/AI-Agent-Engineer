@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "MKT_10"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "3cd8c1904a8833df7645d2463f492a8fa48d19f728e32a9b9a5ee2eb86730828"
-related: ["[[02_CURRICULUM/2.2.0/lessons/MKT_10]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_MKT_10]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_10]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/MKT_10]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_MKT_10]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_10]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_10_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_10_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_10_TRANSFER]]"]
 ---
 
 # התרגול: מבחן מסכם: סטודיו תוכן עסקי
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/MKT_10]]","[[02_CURRICULUM/quiz-banks/1
 - [[02_CURRICULUM/2.2.0/lessons/MKT_10|מבחן מסכם: סטודיו תוכן עסקי]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_MKT_10|בדיקת הבנה: בתיק סטודיו התוכן נכתבה תחזית שלפיה הקמפיין יביא יותר פניות. איך צריך להציג אותה כל עוד אין נתוני ביצוע?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_10|הוכחה מעשית · מבחן מסכם: סטודיו תוכן עסקי]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_10_BUILD|תבנית טקסט: מבחן מסכם: סטודיו תוכן עסקי · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_10_DIAGNOSE|תבנית טקסט: מבחן מסכם: סטודיו תוכן עסקי · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_10_TRANSFER|תבנית טקסט: מבחן מסכם: סטודיו תוכן עסקי · TRANSFER]] — ארגון העבודה

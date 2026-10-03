@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_W10D50_PROJECT_AI_COMPANY"
 assessment_version: "2.1.0"
 lesson_id: "W10D50_PROJECT_AI_COMPANY"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W10D50_PROJECT_AI_COMPANY]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W10D50_PROJECT_AI_COMPANY]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W10D50_PROJECT_AI_COMPANY_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W10D50_PROJECT_AI_COMPANY_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W10D50_PROJECT_AI_COMPANY_TRANSFER]]"]
 ---
 
 # תבנית הגשה: הוכחה מעשית · פרויקט: צוות AI עסקי
@@ -53,3 +53,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W10D50_PROJECT_AI_COMPANY]
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W10D50_PROJECT_AI_COMPANY|הוכחה מעשית · פרויקט: צוות AI עסקי]] — תבנית הגשה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W10D50_PROJECT_AI_COMPANY_BUILD|תבנית טקסט: פרויקט: צוות AI עסקי · BUILD]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W10D50_PROJECT_AI_COMPANY_DIAGNOSE|תבנית טקסט: פרויקט: צוות AI עסקי · DIAGNOSE]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W10D50_PROJECT_AI_COMPANY_TRANSFER|תבנית טקסט: פרויקט: צוות AI עסקי · TRANSFER]] — תבנית סעיף

@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_AUT_07"
 assessment_version: "2.1.0"
 lesson_id: "AUT_07"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AUT_07]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AUT_07]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_07_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_07_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_07_TRANSFER]]"]
 ---
 
 # תבנית הגשה: הוכחה מעשית · הטמעה בסביבת Microsoft 365
@@ -53,3 +53,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AUT_07]]"]
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AUT_07|הוכחה מעשית · הטמעה בסביבת Microsoft 365]] — תבנית הגשה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_07_BUILD|תבנית טקסט: הטמעה בסביבת Microsoft 365 · BUILD]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_07_DIAGNOSE|תבנית טקסט: הטמעה בסביבת Microsoft 365 · DIAGNOSE]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_07_TRANSFER|תבנית טקסט: הטמעה בסביבת Microsoft 365 · TRANSFER]] — תבנית סעיף

@@ -32,6 +32,7 @@ export function buildVaultFiles(input: {
   quizBank?: unknown;
   publishedQuizBank?: unknown;
   systemQuestion?: unknown;
+  templateCatalog?: unknown;
   knowledgeRegistry?: ReturnType<typeof loadKnowledgeRegistry>;
 }): {
   files: Map<string, string>;

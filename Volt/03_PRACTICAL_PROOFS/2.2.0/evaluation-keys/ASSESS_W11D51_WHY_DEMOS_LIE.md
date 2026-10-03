@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_W11D51_WHY_DEMOS_LIE"
 assessment_version: "2.1.0"
 lesson_id: "W11D51_WHY_DEMOS_LIE"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W11D51_WHY_DEMOS_LIE]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W11D51_WHY_DEMOS_LIE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W11D51_WHY_DEMOS_LIE_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W11D51_WHY_DEMOS_LIE_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W11D51_WHY_DEMOS_LIE_TRANSFER]]"]
 ---
 
 # תנאי בדיקה: הוכחה מעשית · למה הדגמה אינה בדיקת איכות?
@@ -41,3 +41,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W11D51_WHY_DEMOS_LIE]]"]
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W11D51_WHY_DEMOS_LIE|הוכחה מעשית · למה הדגמה אינה בדיקת איכות?]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W11D51_WHY_DEMOS_LIE_BUILD|תבנית טקסט: למה הדגמה אינה בדיקת איכות? · BUILD]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W11D51_WHY_DEMOS_LIE_DIAGNOSE|תבנית טקסט: למה הדגמה אינה בדיקת איכות? · DIAGNOSE]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W11D51_WHY_DEMOS_LIE_TRANSFER|תבנית טקסט: למה הדגמה אינה בדיקת איכות? · TRANSFER]] — תנאי בדיקה

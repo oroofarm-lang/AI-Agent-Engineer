@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_W13D62_PRODUCTION_DATABASES"
 assessment_version: "2.1.0"
 lesson_id: "W13D62_PRODUCTION_DATABASES"
-related: ["[[01_AGENTS/Agent-Database-Architect]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Production-Reliability]]","[[01_AGENTS/Agent-Security-Auditor]]","[[01_AGENTS/Agent-UI-UX-Inspector]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/exercises/W13D62_PRODUCTION_DATABASES]]","[[02_CURRICULUM/2.2.0/lessons/W13D62_PRODUCTION_DATABASES]]","[[02_CURRICULUM/2.2.0/skills/BACKEND]]","[[02_CURRICULUM/2.2.0/skills/QUEUES]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W13D62_PRODUCTION_DATABASES]]","[[02_CURRICULUM/system-quizzes/1.0.0/QUIZ_EVIDENCE_NEXT_STEP]]","[[03_PRACTICAL_PROOFS/2.2.0/evaluation-keys/ASSESS_W13D62_PRODUCTION_DATABASES]]","[[03_PRACTICAL_PROOFS/2.2.0/Index]]","[[03_PRACTICAL_PROOFS/2.2.0/templates/ASSESS_W13D62_PRODUCTION_DATABASES]]","[[04_AUTOMATIONS_AND_APIS/endpoints/AGENT_EVALUATE]]","[[04_AUTOMATIONS_AND_APIS/endpoints/ARTIFACT_DOWNLOAD]]"]
+related: ["[[01_AGENTS/Agent-Database-Architect]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Production-Reliability]]","[[01_AGENTS/Agent-Security-Auditor]]","[[01_AGENTS/Agent-UI-UX-Inspector]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/exercises/W13D62_PRODUCTION_DATABASES]]","[[02_CURRICULUM/2.2.0/lessons/W13D62_PRODUCTION_DATABASES]]","[[02_CURRICULUM/2.2.0/skills/BACKEND]]","[[02_CURRICULUM/2.2.0/skills/QUEUES]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W13D62_PRODUCTION_DATABASES]]","[[02_CURRICULUM/system-quizzes/1.0.0/QUIZ_EVIDENCE_NEXT_STEP]]","[[03_PRACTICAL_PROOFS/2.2.0/evaluation-keys/ASSESS_W13D62_PRODUCTION_DATABASES]]","[[03_PRACTICAL_PROOFS/2.2.0/Index]]","[[03_PRACTICAL_PROOFS/2.2.0/templates/ASSESS_W13D62_PRODUCTION_DATABASES]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W13D62_PRODUCTION_DATABASES_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W13D62_PRODUCTION_DATABASES_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W13D62_PRODUCTION_DATABASES_TRANSFER]]","[[04_AUTOMATIONS_AND_APIS/endpoints/AGENT_EVALUATE]]","[[04_AUTOMATIONS_AND_APIS/endpoints/ARTIFACT_DOWNLOAD]]"]
 ---
 
 # הוכחה מעשית · PostgreSQL ונתונים לפרודקשן
@@ -51,5 +51,8 @@ related: ["[[01_AGENTS/Agent-Database-Architect]]","[[01_AGENTS/Agent-Hebrew-UX]
 - [[03_PRACTICAL_PROOFS/2.2.0/evaluation-keys/ASSESS_W13D62_PRODUCTION_DATABASES|תנאי בדיקה: הוכחה מעשית · PostgreSQL ונתונים לפרודקשן]] — תנאי בדיקה
 - [[03_PRACTICAL_PROOFS/2.2.0/Index|תרגילים, ראיות ותיק עבודות]] — מחוון
 - [[03_PRACTICAL_PROOFS/2.2.0/templates/ASSESS_W13D62_PRODUCTION_DATABASES|תבנית הגשה: הוכחה מעשית · PostgreSQL ונתונים לפרודקשן]] — תבנית הגשה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W13D62_PRODUCTION_DATABASES_BUILD|תבנית טקסט: PostgreSQL ונתונים לפרודקשן · BUILD]] — סעיף במחוון
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W13D62_PRODUCTION_DATABASES_DIAGNOSE|תבנית טקסט: PostgreSQL ונתונים לפרודקשן · DIAGNOSE]] — סעיף במחוון
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W13D62_PRODUCTION_DATABASES_TRANSFER|תבנית טקסט: PostgreSQL ונתונים לפרודקשן · TRANSFER]] — סעיף במחוון
 - [[04_AUTOMATIONS_AND_APIS/endpoints/AGENT_EVALUATE|משוב מנומק על עבודה]] — ראיות והגשות
 - [[04_AUTOMATIONS_AND_APIS/endpoints/ARTIFACT_DOWNLOAD|הורדת קובץ של הגשה]] — ראיות והגשות

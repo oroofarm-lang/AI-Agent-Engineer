@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_AUT_08"
 assessment_version: "2.1.0"
 lesson_id: "AUT_08"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AUT_08]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AUT_08]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_08_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_08_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_08_TRANSFER]]"]
 ---
 
 # תבנית הגשה: הוכחה מעשית · מבחן מסכם: מערכת אוטומציה עסקית
@@ -53,3 +53,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AUT_08]]"]
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AUT_08|הוכחה מעשית · מבחן מסכם: מערכת אוטומציה עסקית]] — תבנית הגשה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_08_BUILD|תבנית טקסט: מבחן מסכם: מערכת אוטומציה עסקית · BUILD]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_08_DIAGNOSE|תבנית טקסט: מבחן מסכם: מערכת אוטומציה עסקית · DIAGNOSE]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_08_TRANSFER|תבנית טקסט: מבחן מסכם: מערכת אוטומציה עסקית · TRANSFER]] — תבנית סעיף

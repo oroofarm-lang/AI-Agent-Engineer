@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_VOI_04"
 assessment_version: "2.1.0"
 lesson_id: "VOI_04"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_VOI_04]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_VOI_04]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_VOI_04_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_VOI_04_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_VOI_04_TRANSFER]]"]
 ---
 
 # תנאי בדיקה: הוכחה מעשית · שיחה חיה וקטיעות
@@ -41,3 +41,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_VOI_04]]"]
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_VOI_04|הוכחה מעשית · שיחה חיה וקטיעות]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_VOI_04_BUILD|תבנית טקסט: שיחה חיה וקטיעות · BUILD]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_VOI_04_DIAGNOSE|תבנית טקסט: שיחה חיה וקטיעות · DIAGNOSE]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_VOI_04_TRANSFER|תבנית טקסט: שיחה חיה וקטיעות · TRANSFER]] — תנאי בדיקה

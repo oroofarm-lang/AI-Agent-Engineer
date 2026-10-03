@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "BIZ_03"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "0692e9e42a0297747a7329952d281e949bb46d359d6fcc7e368aefa1bc91c8b8"
-related: ["[[02_CURRICULUM/2.2.0/lessons/BIZ_03]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_BIZ_03]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_BIZ_03]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/BIZ_03]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_BIZ_03]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_BIZ_03]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_BIZ_03_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_BIZ_03_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_BIZ_03_TRANSFER]]"]
 ---
 
 # התרגול: הצעת עבודה וקריטריוני קבלה
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/BIZ_03]]","[[02_CURRICULUM/quiz-banks/1
 - [[02_CURRICULUM/2.2.0/lessons/BIZ_03|הצעת עבודה וקריטריוני קבלה]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_BIZ_03|בדיקת הבנה: הלקוח מוסיף דרישה באמצע הפיילוט. איך צריך להתייחס לשינוי בהיקף העבודה?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_BIZ_03|הוכחה מעשית · הצעת עבודה וקריטריוני קבלה]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_BIZ_03_BUILD|תבנית טקסט: הצעת עבודה וקריטריוני קבלה · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_BIZ_03_DIAGNOSE|תבנית טקסט: הצעת עבודה וקריטריוני קבלה · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_BIZ_03_TRANSFER|תבנית טקסט: הצעת עבודה וקריטריוני קבלה · TRANSFER]] — ארגון העבודה

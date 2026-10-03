@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "W06D26_EMBEDDINGS"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "3a9130be7040414e51213f42932407f732931068fb64e686f673143750e9f5da"
-related: ["[[02_CURRICULUM/2.2.0/lessons/W06D26_EMBEDDINGS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W06D26_EMBEDDINGS]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W06D26_EMBEDDINGS]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/W06D26_EMBEDDINGS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W06D26_EMBEDDINGS]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W06D26_EMBEDDINGS]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W06D26_EMBEDDINGS_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W06D26_EMBEDDINGS_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W06D26_EMBEDDINGS_TRANSFER]]"]
 ---
 
 # התרגול: Embeddings ודמיון סמנטי
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/W06D26_EMBEDDINGS]]","[[02_CURRICULUM/q
 - [[02_CURRICULUM/2.2.0/lessons/W06D26_EMBEDDINGS|Embeddings ודמיון סמנטי]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W06D26_EMBEDDINGS|בדיקת הבנה: לשני מוצרים תיאור דומה אבל מק״ט שונה. מדוע כדאי לבדוק גם חיפוש לפי מילים?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W06D26_EMBEDDINGS|הוכחה מעשית · Embeddings ודמיון סמנטי]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W06D26_EMBEDDINGS_BUILD|תבנית טקסט: Embeddings ודמיון סמנטי · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W06D26_EMBEDDINGS_DIAGNOSE|תבנית טקסט: Embeddings ודמיון סמנטי · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W06D26_EMBEDDINGS_TRANSFER|תבנית טקסט: Embeddings ודמיון סמנטי · TRANSFER]] — ארגון העבודה

@@ -8,7 +8,7 @@ source_id: "GIT_BOOK"
 url: "https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control"
 last_verified: null
 technology_ids: []
-related: ["[[01_AGENTS/Agent-Code-Reviewer]]","[[02_CURRICULUM/2.2.0/Index]]","[[02_CURRICULUM/2.2.0/lessons/W01D01_FIRST_AI_PROGRAM]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W01D01_FIRST_AI_PROGRAM]]","[[04_AUTOMATIONS_AND_APIS/Knowledge-Updates]]"]
+related: ["[[01_AGENTS/Agent-Code-Reviewer]]","[[02_CURRICULUM/2.2.0/Index]]","[[02_CURRICULUM/2.2.0/lessons/W01D01_FIRST_AI_PROGRAM]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W01D01_FIRST_AI_PROGRAM]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_FIRST_AI_PROGRAM_CRITERION_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_FIRST_AI_PROGRAM_CRITERION_GIT_SECRETS]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_FIRST_AI_PROGRAM_CRITERION_REBUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_FIRST_AI_PROGRAM_CRITERION_REQUEST_PATH]]","[[04_AUTOMATIONS_AND_APIS/Knowledge-Updates]]"]
 ---
 
 # Pro Git
@@ -29,4 +29,8 @@ related: ["[[01_AGENTS/Agent-Code-Reviewer]]","[[02_CURRICULUM/2.2.0/Index]]","[
 - [[02_CURRICULUM/2.2.0/Index|כל הפרקים והשיעורים]] — מקור
 - [[02_CURRICULUM/2.2.0/lessons/W01D01_FIRST_AI_PROGRAM|תוכנית ה־AI הראשונה שלך]] — מקור לשיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W01D01_FIRST_AI_PROGRAM|בדיקת הבנה: מה תפקידו של ה־SDK בתוכנית app.py שבשיעור?]] — מקור השאלה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_FIRST_AI_PROGRAM_CRITERION_DIAGNOSE|תבנית טקסט: תוכנית ה־AI הראשונה שלך · CRITERION_DIAGNOSE]] — מקור לשיעור
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_FIRST_AI_PROGRAM_CRITERION_GIT_SECRETS|תבנית טקסט: תוכנית ה־AI הראשונה שלך · CRITERION_GIT_SECRETS]] — מקור לשיעור
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_FIRST_AI_PROGRAM_CRITERION_REBUILD|תבנית טקסט: תוכנית ה־AI הראשונה שלך · CRITERION_REBUILD]] — מקור לשיעור
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_FIRST_AI_PROGRAM_CRITERION_REQUEST_PATH|תבנית טקסט: תוכנית ה־AI הראשונה שלך · CRITERION_REQUEST_PATH]] — מקור לשיעור
 - [[04_AUTOMATIONS_AND_APIS/Knowledge-Updates|רענון מקורות וביקורת תוכן]] — מקור בקטלוג

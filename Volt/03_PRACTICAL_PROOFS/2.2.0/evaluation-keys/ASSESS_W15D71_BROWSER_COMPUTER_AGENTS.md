@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_W15D71_BROWSER_COMPUTER_AGENTS"
 assessment_version: "2.1.0"
 lesson_id: "W15D71_BROWSER_COMPUTER_AGENTS"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W15D71_BROWSER_COMPUTER_AGENTS]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W15D71_BROWSER_COMPUTER_AGENTS]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W15D71_BROWSER_COMPUTER_AGENTS_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W15D71_BROWSER_COMPUTER_AGENTS_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W15D71_BROWSER_COMPUTER_AGENTS_TRANSFER]]"]
 ---
 
 # תנאי בדיקה: הוכחה מעשית · סוכני דפדפן ומחשב
@@ -41,3 +41,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W15D71_BROWSER_COMPUTER_AG
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W15D71_BROWSER_COMPUTER_AGENTS|הוכחה מעשית · סוכני דפדפן ומחשב]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W15D71_BROWSER_COMPUTER_AGENTS_BUILD|תבנית טקסט: סוכני דפדפן ומחשב · BUILD]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W15D71_BROWSER_COMPUTER_AGENTS_DIAGNOSE|תבנית טקסט: סוכני דפדפן ומחשב · DIAGNOSE]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W15D71_BROWSER_COMPUTER_AGENTS_TRANSFER|תבנית טקסט: סוכני דפדפן ומחשב · TRANSFER]] — תנאי בדיקה

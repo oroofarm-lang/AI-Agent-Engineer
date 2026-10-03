@@ -11,7 +11,7 @@ source_ids: ["FASTAPI"]
 prerequisite_lesson_ids: ["FND_04"]
 source_sha256: "7fca1136384b16f6041b0eea3de118f0e7f013e19944fe0ac7a0e40caf2062ef"
 estimated_minutes: 180
-related: ["[[01_AGENTS/Agent-Database-Architect]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Production-Reliability]]","[[01_AGENTS/Agent-Security-Auditor]]","[[01_AGENTS/Agent-UI-UX-Inspector]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/exercises/W13D61_BACKEND_APIS]]","[[02_CURRICULUM/2.2.0/lessons/FND_04]]","[[02_CURRICULUM/2.2.0/lessons/W13D62_PRODUCTION_DATABASES]]","[[02_CURRICULUM/2.2.0/modules/PRODUCT]]","[[02_CURRICULUM/2.2.0/skills/BACKEND]]","[[02_CURRICULUM/2.2.0/skills/DATABASE]]","[[02_CURRICULUM/2.2.0/skills/QUEUES]]","[[02_CURRICULUM/2.2.0/sources/FASTAPI]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W13D61_BACKEND_APIS]]","[[02_CURRICULUM/system-quizzes/1.0.0/QUIZ_EVIDENCE_NEXT_STEP]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W13D61_BACKEND_APIS]]"]
+related: ["[[01_AGENTS/Agent-Database-Architect]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Production-Reliability]]","[[01_AGENTS/Agent-Security-Auditor]]","[[01_AGENTS/Agent-UI-UX-Inspector]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/exercises/W13D61_BACKEND_APIS]]","[[02_CURRICULUM/2.2.0/lessons/FND_04]]","[[02_CURRICULUM/2.2.0/lessons/W13D62_PRODUCTION_DATABASES]]","[[02_CURRICULUM/2.2.0/modules/PRODUCT]]","[[02_CURRICULUM/2.2.0/skills/BACKEND]]","[[02_CURRICULUM/2.2.0/skills/DATABASE]]","[[02_CURRICULUM/2.2.0/skills/QUEUES]]","[[02_CURRICULUM/2.2.0/sources/FASTAPI]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W13D61_BACKEND_APIS]]","[[02_CURRICULUM/system-quizzes/1.0.0/QUIZ_EVIDENCE_NEXT_STEP]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W13D61_BACKEND_APIS]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W13D61_BACKEND_APIS_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W13D61_BACKEND_APIS_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W13D61_BACKEND_APIS_TRANSFER]]"]
 ---
 
 # ממשקי API בצד השרת
@@ -123,3 +123,6 @@ Input → Contract check → Work / model proposal → Result check → Evidence
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W13D61_BACKEND_APIS|בדיקת הבנה: מה צריך GET /runs/{id} לבדוק לפני החזרת פרטי ריצה?]] — בדיקת הבנה
 - [[02_CURRICULUM/system-quizzes/1.0.0/QUIZ_EVIDENCE_NEXT_STEP|לפני שמגישים · שאלה קצרה לתרגול]] — תרגול לפני הגשה
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W13D61_BACKEND_APIS|הוכחה מעשית · ממשקי API בצד השרת]] — הוכחה מעשית
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W13D61_BACKEND_APIS_BUILD|תבנית טקסט: ממשקי API בצד השרת · BUILD]] — מבנה תשובה לשיעור
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W13D61_BACKEND_APIS_DIAGNOSE|תבנית טקסט: ממשקי API בצד השרת · DIAGNOSE]] — מבנה תשובה לשיעור
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W13D61_BACKEND_APIS_TRANSFER|תבנית טקסט: ממשקי API בצד השרת · TRANSFER]] — מבנה תשובה לשיעור

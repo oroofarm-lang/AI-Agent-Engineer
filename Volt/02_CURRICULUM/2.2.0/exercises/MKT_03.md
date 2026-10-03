@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "MKT_03"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "fd9072308394fdf1c22f24a4f79aa0816d1a0d1a72b57af5cb88d8d06d610626"
-related: ["[[02_CURRICULUM/2.2.0/lessons/MKT_03]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_MKT_03]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_03]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/MKT_03]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_MKT_03]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_03]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_03_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_03_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_03_TRANSFER]]"]
 ---
 
 # התרגול: אסטרטגיית תוכן ולוח עבודה
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/MKT_03]]","[[02_CURRICULUM/quiz-banks/1
 - [[02_CURRICULUM/2.2.0/lessons/MKT_03|אסטרטגיית תוכן ולוח עבודה]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_MKT_03|בדיקת הבנה: בלוח התוכן יש עשרים פוסטים, אך לא הוגדר למי הם מיועדים ומה מטרתם. מה חסר?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_03|הוכחה מעשית · אסטרטגיית תוכן ולוח עבודה]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_03_BUILD|תבנית טקסט: אסטרטגיית תוכן ולוח עבודה · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_03_DIAGNOSE|תבנית טקסט: אסטרטגיית תוכן ולוח עבודה · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_MKT_03_TRANSFER|תבנית טקסט: אסטרטגיית תוכן ולוח עבודה · TRANSFER]] — ארגון העבודה

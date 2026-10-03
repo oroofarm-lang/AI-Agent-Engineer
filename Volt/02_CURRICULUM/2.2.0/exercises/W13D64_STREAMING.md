@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "W13D64_STREAMING"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "2f148e3e3e39980992f536567c57ccc123a561c88d9feb19f9f3c68d2c3c60dc"
-related: ["[[02_CURRICULUM/2.2.0/lessons/W13D64_STREAMING]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W13D64_STREAMING]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W13D64_STREAMING]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/W13D64_STREAMING]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W13D64_STREAMING]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W13D64_STREAMING]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W13D64_STREAMING_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W13D64_STREAMING_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W13D64_STREAMING_TRANSFER]]"]
 ---
 
 # התרגול: Streaming ואירועי ריצה
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/W13D64_STREAMING]]","[[02_CURRICULUM/qu
 - [[02_CURRICULUM/2.2.0/lessons/W13D64_STREAMING|Streaming ואירועי ריצה]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W13D64_STREAMING|בדיקת הבנה: הדפדפן התנתק באמצע Streaming והמשתמש התחבר מחדש. מה צריך הממשק לטעון?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W13D64_STREAMING|הוכחה מעשית · Streaming ואירועי ריצה]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W13D64_STREAMING_BUILD|תבנית טקסט: Streaming ואירועי ריצה · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W13D64_STREAMING_DIAGNOSE|תבנית טקסט: Streaming ואירועי ריצה · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W13D64_STREAMING_TRANSFER|תבנית טקסט: Streaming ואירועי ריצה · TRANSFER]] — ארגון העבודה

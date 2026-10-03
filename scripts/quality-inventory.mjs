@@ -62,6 +62,7 @@ for (const file of [
   'content/curriculum/changelog.json',
   'content/agents/registry.json',
   'content/quizzes/system/1.0.0.json',
+  'content/templates/releases/1.0.0.json',
 ]) {
   const source = fs.readFileSync(path.join(root, file), 'utf8');
   const copy = [];

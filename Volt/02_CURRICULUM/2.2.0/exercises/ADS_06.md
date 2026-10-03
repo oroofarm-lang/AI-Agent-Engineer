@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "ADS_06"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "7250a17da1162b417e3578a0f6bcabeae1dc0b2872f9b8ccdd3bee0054e996d0"
-related: ["[[02_CURRICULUM/2.2.0/lessons/ADS_06]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_ADS_06]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_ADS_06]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/ADS_06]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_ADS_06]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_ADS_06]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_06_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_06_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_06_TRANSFER]]"]
 ---
 
 # התרגול: מבחן מסכם: עוזר קמפיינים
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/ADS_06]]","[[02_CURRICULUM/quiz-banks/1
 - [[02_CURRICULUM/2.2.0/lessons/ADS_06|מבחן מסכם: עוזר קמפיינים]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_ADS_06|בדיקת הבנה: בדוח המסכם נכתב שינוי תקציב מוצע בלי שבוצע בפועל. כיצד צריך לתעד אותו?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_ADS_06|הוכחה מעשית · מבחן מסכם: עוזר קמפיינים]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_06_BUILD|תבנית טבלה: מבחן מסכם: עוזר קמפיינים · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_06_DIAGNOSE|תבנית טקסט: מבחן מסכם: עוזר קמפיינים · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_06_TRANSFER|תבנית טקסט: מבחן מסכם: עוזר קמפיינים · TRANSFER]] — ארגון העבודה

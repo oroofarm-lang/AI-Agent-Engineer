@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_W11D53_GRADERS"
 assessment_version: "2.1.0"
 lesson_id: "W11D53_GRADERS"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W11D53_GRADERS]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W11D53_GRADERS]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W11D53_GRADERS_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W11D53_GRADERS_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W11D53_GRADERS_TRANSFER]]"]
 ---
 
 # תנאי בדיקה: הוכחה מעשית · מחוונים ושופטים
@@ -41,3 +41,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W11D53_GRADERS]]"]
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W11D53_GRADERS|הוכחה מעשית · מחוונים ושופטים]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W11D53_GRADERS_BUILD|תבנית טקסט: מחוונים ושופטים · BUILD]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W11D53_GRADERS_DIAGNOSE|תבנית טקסט: מחוונים ושופטים · DIAGNOSE]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W11D53_GRADERS_TRANSFER|תבנית טקסט: מחוונים ושופטים · TRANSFER]] — תנאי בדיקה

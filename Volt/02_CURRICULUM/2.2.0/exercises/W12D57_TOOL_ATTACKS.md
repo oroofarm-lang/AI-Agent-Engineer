@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "W12D57_TOOL_ATTACKS"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "f32e4bff19840ffc71ae2bab67404dfba1ae5a96b6f9f0141ee65c26069998ae"
-related: ["[[02_CURRICULUM/2.2.0/lessons/W12D57_TOOL_ATTACKS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W12D57_TOOL_ATTACKS]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W12D57_TOOL_ATTACKS]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/W12D57_TOOL_ATTACKS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W12D57_TOOL_ATTACKS]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W12D57_TOOL_ATTACKS]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W12D57_TOOL_ATTACKS_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W12D57_TOOL_ATTACKS_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W12D57_TOOL_ATTACKS_TRANSFER]]"]
 ---
 
 # התרגול: תקיפות כלים וחשיפת מידע
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/W12D57_TOOL_ATTACKS]]","[[02_CURRICULUM
 - [[02_CURRICULUM/2.2.0/lessons/W12D57_TOOL_ATTACKS|תקיפות כלים וחשיפת מידע]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W12D57_TOOL_ATTACKS|בדיקת הבנה: בקשת כלי כוללת JSON תקין עם נתיב מחוץ לתיקיית העבודה. מה צריך לבדוק?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W12D57_TOOL_ATTACKS|הוכחה מעשית · תקיפות כלים וחשיפת מידע]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W12D57_TOOL_ATTACKS_BUILD|תבנית טקסט: תקיפות כלים וחשיפת מידע · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W12D57_TOOL_ATTACKS_DIAGNOSE|תבנית טקסט: תקיפות כלים וחשיפת מידע · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W12D57_TOOL_ATTACKS_TRANSFER|תבנית טקסט: תקיפות כלים וחשיפת מידע · TRANSFER]] — ארגון העבודה

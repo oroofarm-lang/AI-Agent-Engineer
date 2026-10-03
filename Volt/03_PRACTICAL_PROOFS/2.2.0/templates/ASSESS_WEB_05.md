@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_WEB_05"
 assessment_version: "2.1.0"
 lesson_id: "WEB_05"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_WEB_05]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_WEB_05]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_WEB_05_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_WEB_05_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_WEB_05_TRANSFER]]"]
 ---
 
 # תבנית הגשה: הוכחה מעשית · בדיקות לפני פריסה
@@ -53,3 +53,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_WEB_05]]"]
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_WEB_05|הוכחה מעשית · בדיקות לפני פריסה]] — תבנית הגשה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_WEB_05_BUILD|תבנית טקסט: בדיקות לפני פריסה · BUILD]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_WEB_05_DIAGNOSE|תבנית טקסט: בדיקות לפני פריסה · DIAGNOSE]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_WEB_05_TRANSFER|תבנית טקסט: בדיקות לפני פריסה · TRANSFER]] — תבנית סעיף

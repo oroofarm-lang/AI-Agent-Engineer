@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "W01D03_PYTHON_FOR_AGENT_BUILDERS_II"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "f9b1a391dc916bc4588a90a048bea15b1986085c3375d4e1c426c13b31891f8c"
-related: ["[[02_CURRICULUM/2.2.0/lessons/W01D03_PYTHON_FOR_AGENT_BUILDERS_II]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W01D03_PYTHON_FOR_AGENT_BUILDERS_II]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W01D03_PYTHON_FOR_AGENT_BUILDERS_II]]","[[04_AUTOMATIONS_AND_APIS/assets/PYTHON_II_LAB]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/W01D03_PYTHON_FOR_AGENT_BUILDERS_II]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W01D03_PYTHON_FOR_AGENT_BUILDERS_II]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W01D03_PYTHON_FOR_AGENT_BUILDERS_II]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W01D03_PYTHON_FOR_AGENT_BUILDERS_II_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W01D03_PYTHON_FOR_AGENT_BUILDERS_II_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W01D03_PYTHON_FOR_AGENT_BUILDERS_II_TRANSFER]]","[[04_AUTOMATIONS_AND_APIS/assets/PYTHON_II_LAB]]"]
 ---
 
 # התרגול: Python לבוני סוכנים · חלק ב׳
@@ -122,4 +122,7 @@ if __name__ == '__main__':
 - [[02_CURRICULUM/2.2.0/lessons/W01D03_PYTHON_FOR_AGENT_BUILDERS_II|Python לבוני סוכנים · חלק ב׳]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W01D03_PYTHON_FOR_AGENT_BUILDERS_II|בדיקת הבנה: קובץ השיחה קיים, אבל תוכנו הוא הטקסט broken. כיצד צריך load_messages להגיב?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W01D03_PYTHON_FOR_AGENT_BUILDERS_II|הוכחה מעשית · Python לבוני סוכנים · חלק ב׳]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W01D03_PYTHON_FOR_AGENT_BUILDERS_II_BUILD|תבנית טקסט: Python לבוני סוכנים · חלק ב׳ · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W01D03_PYTHON_FOR_AGENT_BUILDERS_II_DIAGNOSE|תבנית טקסט: Python לבוני סוכנים · חלק ב׳ · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W01D03_PYTHON_FOR_AGENT_BUILDERS_II_TRANSFER|תבנית טקסט: Python לבוני סוכנים · חלק ב׳ · TRANSFER]] — ארגון העבודה
 - [[04_AUTOMATIONS_AND_APIS/assets/PYTHON_II_LAB|תרגיל Python — חלק ב׳]] — קוד לתרגול

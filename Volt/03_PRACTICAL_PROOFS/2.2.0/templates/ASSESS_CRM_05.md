@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_CRM_05"
 assessment_version: "2.1.0"
 lesson_id: "CRM_05"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_CRM_05]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_CRM_05]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_CRM_05_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_CRM_05_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_CRM_05_TRANSFER]]"]
 ---
 
 # תבנית הגשה: הוכחה מעשית · שירות בכמה ערוצים
@@ -53,3 +53,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_CRM_05]]"]
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_CRM_05|הוכחה מעשית · שירות בכמה ערוצים]] — תבנית הגשה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_CRM_05_BUILD|תבנית טקסט: שירות בכמה ערוצים · BUILD]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_CRM_05_DIAGNOSE|תבנית טקסט: שירות בכמה ערוצים · DIAGNOSE]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_CRM_05_TRANSFER|תבנית טקסט: שירות בכמה ערוצים · TRANSFER]] — תבנית סעיף

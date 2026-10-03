@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_W11D55_PROJECT_AGENT_QUALITY_LAB"
 assessment_version: "2.1.0"
 lesson_id: "W11D55_PROJECT_AGENT_QUALITY_LAB"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W11D55_PROJECT_AGENT_QUALITY_LAB]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W11D55_PROJECT_AGENT_QUALITY_LAB]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W11D55_PROJECT_AGENT_QUALITY_LAB_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W11D55_PROJECT_AGENT_QUALITY_LAB_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W11D55_PROJECT_AGENT_QUALITY_LAB_TRANSFER]]"]
 ---
 
 # תבנית הגשה: הוכחה מעשית · פרויקט: מעבדת איכות לסוכן
@@ -53,3 +53,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W11D55_PROJECT_AGENT_QUALI
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W11D55_PROJECT_AGENT_QUALITY_LAB|הוכחה מעשית · פרויקט: מעבדת איכות לסוכן]] — תבנית הגשה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W11D55_PROJECT_AGENT_QUALITY_LAB_BUILD|תבנית טקסט: פרויקט: מעבדת איכות לסוכן · BUILD]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W11D55_PROJECT_AGENT_QUALITY_LAB_DIAGNOSE|תבנית טקסט: פרויקט: מעבדת איכות לסוכן · DIAGNOSE]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W11D55_PROJECT_AGENT_QUALITY_LAB_TRANSFER|תבנית טקסט: פרויקט: מעבדת איכות לסוכן · TRANSFER]] — תבנית סעיף

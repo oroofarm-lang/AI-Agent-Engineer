@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "W11D52_EVALUATION_DATASET_DESIGN"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "86c24492643d64c9938e4b43ffc7900f4900cf957857b807df6e740926bc4223"
-related: ["[[02_CURRICULUM/2.2.0/lessons/W11D52_EVALUATION_DATASET_DESIGN]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W11D52_EVALUATION_DATASET_DESIGN]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W11D52_EVALUATION_DATASET_DESIGN]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/W11D52_EVALUATION_DATASET_DESIGN]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W11D52_EVALUATION_DATASET_DESIGN]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W11D52_EVALUATION_DATASET_DESIGN]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W11D52_EVALUATION_DATASET_DESIGN_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W11D52_EVALUATION_DATASET_DESIGN_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W11D52_EVALUATION_DATASET_DESIGN_TRANSFER]]"]
 ---
 
 # התרגול: תכנון נתוני הערכה
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/W11D52_EVALUATION_DATASET_DESIGN]]","[[
 - [[02_CURRICULUM/2.2.0/lessons/W11D52_EVALUATION_DATASET_DESIGN|תכנון נתוני הערכה]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W11D52_EVALUATION_DATASET_DESIGN|בדיקת הבנה: מדוע שומרים חלק ממקרי הבדיקה למדידה הסופית?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W11D52_EVALUATION_DATASET_DESIGN|הוכחה מעשית · תכנון נתוני הערכה]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W11D52_EVALUATION_DATASET_DESIGN_BUILD|תבנית טקסט: תכנון נתוני הערכה · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W11D52_EVALUATION_DATASET_DESIGN_DIAGNOSE|תבנית טקסט: תכנון נתוני הערכה · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W11D52_EVALUATION_DATASET_DESIGN_TRANSFER|תבנית טקסט: תכנון נתוני הערכה · TRANSFER]] — ארגון העבודה

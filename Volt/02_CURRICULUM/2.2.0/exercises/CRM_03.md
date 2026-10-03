@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "CRM_03"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "45339afe1bbfcec08690cb577417ed21a862dc57e652f688e7964d36588a94ea"
-related: ["[[02_CURRICULUM/2.2.0/lessons/CRM_03]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_CRM_03]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_CRM_03]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/CRM_03]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_CRM_03]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_CRM_03]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_CRM_03_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_CRM_03_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_CRM_03_TRANSFER]]"]
 ---
 
 # התרגול: סיווג לידים ומעקב מכירות
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/CRM_03]]","[[02_CURRICULUM/quiz-banks/1
 - [[02_CURRICULUM/2.2.0/lessons/CRM_03|סיווג לידים ומעקב מכירות]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_CRM_03|בדיקת הבנה: נוצרה משימת מעקב לליד, אך לא נקבע מי מטפל בו ומתי. מה חסר כדי שהמעקב יהיה שימושי?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_CRM_03|הוכחה מעשית · סיווג לידים ומעקב מכירות]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_CRM_03_BUILD|תבנית טקסט: סיווג לידים ומעקב מכירות · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_CRM_03_DIAGNOSE|תבנית טקסט: סיווג לידים ומעקב מכירות · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_CRM_03_TRANSFER|תבנית טקסט: סיווג לידים ומעקב מכירות · TRANSFER]] — ארגון העבודה

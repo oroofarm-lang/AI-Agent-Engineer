@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_W14D70_PROJECT_AGENT_SAAS"
 assessment_version: "2.1.0"
 lesson_id: "W14D70_PROJECT_AGENT_SAAS"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W14D70_PROJECT_AGENT_SAAS]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W14D70_PROJECT_AGENT_SAAS]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W14D70_PROJECT_AGENT_SAAS_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W14D70_PROJECT_AGENT_SAAS_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W14D70_PROJECT_AGENT_SAAS_TRANSFER]]"]
 ---
 
 # תנאי בדיקה: הוכחה מעשית · פרויקט: מוצר AI עסקי
@@ -41,3 +41,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W14D70_PROJECT_AGENT_SAAS]
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W14D70_PROJECT_AGENT_SAAS|הוכחה מעשית · פרויקט: מוצר AI עסקי]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W14D70_PROJECT_AGENT_SAAS_BUILD|תבנית טקסט: פרויקט: מוצר AI עסקי · BUILD]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W14D70_PROJECT_AGENT_SAAS_DIAGNOSE|תבנית טקסט: פרויקט: מוצר AI עסקי · DIAGNOSE]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W14D70_PROJECT_AGENT_SAAS_TRANSFER|תבנית טקסט: פרויקט: מוצר AI עסקי · TRANSFER]] — תנאי בדיקה

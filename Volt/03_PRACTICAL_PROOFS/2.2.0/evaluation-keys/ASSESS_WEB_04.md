@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_WEB_04"
 assessment_version: "2.1.0"
 lesson_id: "WEB_04"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_WEB_04]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_WEB_04]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_WEB_04_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_WEB_04_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_WEB_04_TRANSFER]]"]
 ---
 
 # תנאי בדיקה: הוכחה מעשית · טפסים וחיבור ל־CRM
@@ -41,3 +41,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_WEB_04]]"]
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_WEB_04|הוכחה מעשית · טפסים וחיבור ל־CRM]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_WEB_04_BUILD|תבנית טקסט: טפסים וחיבור ל־CRM · BUILD]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_WEB_04_DIAGNOSE|תבנית טקסט: טפסים וחיבור ל־CRM · DIAGNOSE]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_WEB_04_TRANSFER|תבנית טקסט: טפסים וחיבור ל־CRM · TRANSFER]] — תנאי בדיקה

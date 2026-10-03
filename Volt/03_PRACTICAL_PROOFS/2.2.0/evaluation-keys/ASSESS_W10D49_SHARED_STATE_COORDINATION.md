@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_W10D49_SHARED_STATE_COORDINATION"
 assessment_version: "2.1.0"
 lesson_id: "W10D49_SHARED_STATE_COORDINATION"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W10D49_SHARED_STATE_COORDINATION]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W10D49_SHARED_STATE_COORDINATION]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W10D49_SHARED_STATE_COORDINATION_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W10D49_SHARED_STATE_COORDINATION_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W10D49_SHARED_STATE_COORDINATION_TRANSFER]]"]
 ---
 
 # תנאי בדיקה: הוכחה מעשית · מצב משותף ותיאום
@@ -41,3 +41,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W10D49_SHARED_STATE_COORDI
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W10D49_SHARED_STATE_COORDINATION|הוכחה מעשית · מצב משותף ותיאום]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W10D49_SHARED_STATE_COORDINATION_BUILD|תבנית טקסט: מצב משותף ותיאום · BUILD]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W10D49_SHARED_STATE_COORDINATION_DIAGNOSE|תבנית טקסט: מצב משותף ותיאום · DIAGNOSE]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W10D49_SHARED_STATE_COORDINATION_TRANSFER|תבנית טקסט: מצב משותף ותיאום · TRANSFER]] — תנאי בדיקה

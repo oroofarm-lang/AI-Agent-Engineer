@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_W05D25_PROJECT_PERSONAL_MEMORY_AGENT"
 assessment_version: "2.1.0"
 lesson_id: "W05D25_PROJECT_PERSONAL_MEMORY_AGENT"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W05D25_PROJECT_PERSONAL_MEMORY_AGENT]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W05D25_PROJECT_PERSONAL_MEMORY_AGENT]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W05D25_PROJECT_PERSONAL_MEMORY_AGENT_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W05D25_PROJECT_PERSONAL_MEMORY_AGENT_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W05D25_PROJECT_PERSONAL_MEMORY_AGENT_TRANSFER]]"]
 ---
 
 # תנאי בדיקה: הוכחה מעשית · פרויקט: סוכן זיכרון אישי
@@ -41,3 +41,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W05D25_PROJECT_PERSONAL_ME
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W05D25_PROJECT_PERSONAL_MEMORY_AGENT|הוכחה מעשית · פרויקט: סוכן זיכרון אישי]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W05D25_PROJECT_PERSONAL_MEMORY_AGENT_BUILD|תבנית טקסט: פרויקט: סוכן זיכרון אישי · BUILD]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W05D25_PROJECT_PERSONAL_MEMORY_AGENT_DIAGNOSE|תבנית טקסט: פרויקט: סוכן זיכרון אישי · DIAGNOSE]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W05D25_PROJECT_PERSONAL_MEMORY_AGENT_TRANSFER|תבנית טקסט: פרויקט: סוכן זיכרון אישי · TRANSFER]] — תנאי בדיקה

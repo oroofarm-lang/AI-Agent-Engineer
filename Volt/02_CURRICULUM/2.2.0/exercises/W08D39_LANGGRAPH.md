@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "W08D39_LANGGRAPH"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "faf2c780a7cf2d0a31c3cc26048ef06c9873007e725eaa43b36d584513681ab2"
-related: ["[[02_CURRICULUM/2.2.0/lessons/W08D39_LANGGRAPH]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W08D39_LANGGRAPH]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W08D39_LANGGRAPH]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/W08D39_LANGGRAPH]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W08D39_LANGGRAPH]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W08D39_LANGGRAPH]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W08D39_LANGGRAPH_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W08D39_LANGGRAPH_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W08D39_LANGGRAPH_TRANSFER]]"]
 ---
 
 # התרגול: תהליכי גרף עם LangGraph
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/W08D39_LANGGRAPH]]","[[02_CURRICULUM/qu
 - [[02_CURRICULUM/2.2.0/lessons/W08D39_LANGGRAPH|תהליכי גרף עם LangGraph]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W08D39_LANGGRAPH|בדיקת הבנה: מה מאפשר Interrupt בתהליך prepare → approve → execute?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W08D39_LANGGRAPH|הוכחה מעשית · תהליכי גרף עם LangGraph]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W08D39_LANGGRAPH_BUILD|תבנית טקסט: תהליכי גרף עם LangGraph · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W08D39_LANGGRAPH_DIAGNOSE|תבנית טקסט: תהליכי גרף עם LangGraph · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W08D39_LANGGRAPH_TRANSFER|תבנית טקסט: תהליכי גרף עם LangGraph · TRANSFER]] — ארגון העבודה

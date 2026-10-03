@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "CRM_04"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "5527150a061d06149568e8df5c27e6c6ad2654d4ab8f683b0be2f86736fc586f"
-related: ["[[02_CURRICULUM/2.2.0/lessons/CRM_04]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_CRM_04]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_CRM_04]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/CRM_04]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_CRM_04]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_CRM_04]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_CRM_04_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_CRM_04_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_CRM_04_TRANSFER]]"]
 ---
 
 # התרגול: הצעות עבודה מתוך קטלוג
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/CRM_04]]","[[02_CURRICULUM/quiz-banks/1
 - [[02_CURRICULUM/2.2.0/lessons/CRM_04|הצעות עבודה מתוך קטלוג]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_CRM_04|בדיקת הבנה: המודל מציע ללקוח הנחה שאינה מותרת בקטלוג. איך צריך להכין את הצעת העבודה?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_CRM_04|הוכחה מעשית · הצעות עבודה מתוך קטלוג]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_CRM_04_BUILD|תבנית טקסט: הצעות עבודה מתוך קטלוג · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_CRM_04_DIAGNOSE|תבנית טקסט: הצעות עבודה מתוך קטלוג · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_CRM_04_TRANSFER|תבנית טקסט: הצעות עבודה מתוך קטלוג · TRANSFER]] — ארגון העבודה

@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_VOI_06"
 assessment_version: "2.1.0"
 lesson_id: "VOI_06"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_VOI_06]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_VOI_06]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_VOI_06_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_VOI_06_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_VOI_06_TRANSFER]]"]
 ---
 
 # תנאי בדיקה: הוכחה מעשית · מבחן מסכם: עוזר קולי עסקי
@@ -41,3 +41,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_VOI_06]]"]
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_VOI_06|הוכחה מעשית · מבחן מסכם: עוזר קולי עסקי]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_VOI_06_BUILD|תבנית טקסט: מבחן מסכם: עוזר קולי עסקי · BUILD]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_VOI_06_DIAGNOSE|תבנית טקסט: מבחן מסכם: עוזר קולי עסקי · DIAGNOSE]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_VOI_06_TRANSFER|תבנית טקסט: מבחן מסכם: עוזר קולי עסקי · TRANSFER]] — תנאי בדיקה

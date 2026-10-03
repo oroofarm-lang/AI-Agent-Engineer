@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "W06D28_HYBRID_RETRIEVAL_RERANKING"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "64c424a07e6e8c81f232cbcd3fcdd432f82bbb37fe2ed2f083ddc9cf5e523354"
-related: ["[[02_CURRICULUM/2.2.0/lessons/W06D28_HYBRID_RETRIEVAL_RERANKING]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W06D28_HYBRID_RETRIEVAL_RERANKING]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W06D28_HYBRID_RETRIEVAL_RERANKING]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/W06D28_HYBRID_RETRIEVAL_RERANKING]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W06D28_HYBRID_RETRIEVAL_RERANKING]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W06D28_HYBRID_RETRIEVAL_RERANKING]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W06D28_HYBRID_RETRIEVAL_RERANKING_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W06D28_HYBRID_RETRIEVAL_RERANKING_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W06D28_HYBRID_RETRIEVAL_RERANKING_TRANSFER]]"]
 ---
 
 # התרגול: שליפה משולבת ודירוג מחדש
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/W06D28_HYBRID_RETRIEVAL_RERANKING]]","[
 - [[02_CURRICULUM/2.2.0/lessons/W06D28_HYBRID_RETRIEVAL_RERANKING|שליפה משולבת ודירוג מחדש]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W06D28_HYBRID_RETRIEVAL_RERANKING|בדיקת הבנה: קטע של לקוח אחר מתאים מאוד לשאלה. מתי צריך לסנן אותו?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W06D28_HYBRID_RETRIEVAL_RERANKING|הוכחה מעשית · שליפה משולבת ודירוג מחדש]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W06D28_HYBRID_RETRIEVAL_RERANKING_BUILD|תבנית טקסט: שליפה משולבת ודירוג מחדש · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W06D28_HYBRID_RETRIEVAL_RERANKING_DIAGNOSE|תבנית טקסט: שליפה משולבת ודירוג מחדש · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W06D28_HYBRID_RETRIEVAL_RERANKING_TRANSFER|תבנית טקסט: שליפה משולבת ודירוג מחדש · TRANSFER]] — ארגון העבודה

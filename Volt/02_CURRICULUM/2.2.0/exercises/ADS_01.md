@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "ADS_01"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "8c204c2598fcb521909b547f9d571a9f69c3b5cfd3e4af13cd83767a0e095950"
-related: ["[[02_CURRICULUM/2.2.0/lessons/ADS_01]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_ADS_01]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_ADS_01]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/ADS_01]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_ADS_01]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_ADS_01]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_01_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_01_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_01_TRANSFER]]"]
 ---
 
 # התרגול: מדדי פרסום ומשפך
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/ADS_01]]","[[02_CURRICULUM/quiz-banks/1
 - [[02_CURRICULUM/2.2.0/lessons/ADS_01|מדדי פרסום ומשפך]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_ADS_01|בדיקת הבנה: קמפיין הוציא כסף אך נרשמו בו אפס המרות. איך צריך להציג את ה־CPA לפי נוסחת עלות חלקי המרות?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_ADS_01|הוכחה מעשית · מדדי פרסום ומשפך]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_01_BUILD|תבנית טקסט: מדדי פרסום ומשפך · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_01_DIAGNOSE|תבנית טקסט: מדדי פרסום ומשפך · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_01_TRANSFER|תבנית טקסט: מדדי פרסום ומשפך · TRANSFER]] — ארגון העבודה

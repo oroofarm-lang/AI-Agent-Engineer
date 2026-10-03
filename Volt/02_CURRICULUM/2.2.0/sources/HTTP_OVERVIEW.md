@@ -8,7 +8,7 @@ source_id: "HTTP_OVERVIEW"
 url: "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Overview"
 last_verified: null
 technology_ids: []
-related: ["[[01_AGENTS/Agent-Code-Reviewer]]","[[02_CURRICULUM/2.2.0/Index]]","[[02_CURRICULUM/2.2.0/lessons/W01D04_HTTP_APIS]]","[[02_CURRICULUM/2.2.0/lessons/W07D31_PRODUCTION_APIS]]","[[02_CURRICULUM/2.2.0/lessons/W13D64_STREAMING]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W01D04_HTTP_APIS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W07D31_PRODUCTION_APIS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W13D64_STREAMING]]","[[04_AUTOMATIONS_AND_APIS/Knowledge-Updates]]"]
+related: ["[[01_AGENTS/Agent-Code-Reviewer]]","[[02_CURRICULUM/2.2.0/Index]]","[[02_CURRICULUM/2.2.0/lessons/W01D04_HTTP_APIS]]","[[02_CURRICULUM/2.2.0/lessons/W07D31_PRODUCTION_APIS]]","[[02_CURRICULUM/2.2.0/lessons/W13D64_STREAMING]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W01D04_HTTP_APIS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W07D31_PRODUCTION_APIS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W13D64_STREAMING]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W01D04_HTTP_APIS_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W01D04_HTTP_APIS_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W01D04_HTTP_APIS_TRANSFER]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W07D31_PRODUCTION_APIS_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W07D31_PRODUCTION_APIS_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W07D31_PRODUCTION_APIS_TRANSFER]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W13D64_STREAMING_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W13D64_STREAMING_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W13D64_STREAMING_TRANSFER]]","[[04_AUTOMATIONS_AND_APIS/Knowledge-Updates]]"]
 ---
 
 # HTTP overview
@@ -33,4 +33,13 @@ related: ["[[01_AGENTS/Agent-Code-Reviewer]]","[[02_CURRICULUM/2.2.0/Index]]","[
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W01D04_HTTP_APIS|בדיקת הבנה: שרת המעבדה החזיר קוד 200, אבל גוף התגובה הוא not-json. היכן עלולה הקריאה להיכשל?]] — מקור השאלה
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W07D31_PRODUCTION_APIS|בדיקת הבנה: Webhook התקבל והשרת אישר קבלה, אבל העבודה בתור טרם הסתיימה. איזה מצב נכון להציג?]] — מקור השאלה
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W13D64_STREAMING|בדיקת הבנה: הדפדפן התנתק באמצע Streaming והמשתמש התחבר מחדש. מה צריך הממשק לטעון?]] — מקור השאלה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W01D04_HTTP_APIS_BUILD|תבנית טקסט: HTTP וממשקי API · BUILD]] — מקור לשיעור
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W01D04_HTTP_APIS_DIAGNOSE|תבנית טקסט: HTTP וממשקי API · DIAGNOSE]] — מקור לשיעור
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W01D04_HTTP_APIS_TRANSFER|תבנית טקסט: HTTP וממשקי API · TRANSFER]] — מקור לשיעור
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W07D31_PRODUCTION_APIS_BUILD|תבנית טקסט: ממשקי API עסקיים · BUILD]] — מקור לשיעור
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W07D31_PRODUCTION_APIS_DIAGNOSE|תבנית טקסט: ממשקי API עסקיים · DIAGNOSE]] — מקור לשיעור
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W07D31_PRODUCTION_APIS_TRANSFER|תבנית טקסט: ממשקי API עסקיים · TRANSFER]] — מקור לשיעור
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W13D64_STREAMING_BUILD|תבנית טקסט: Streaming ואירועי ריצה · BUILD]] — מקור לשיעור
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W13D64_STREAMING_DIAGNOSE|תבנית טקסט: Streaming ואירועי ריצה · DIAGNOSE]] — מקור לשיעור
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W13D64_STREAMING_TRANSFER|תבנית טקסט: Streaming ואירועי ריצה · TRANSFER]] — מקור לשיעור
 - [[04_AUTOMATIONS_AND_APIS/Knowledge-Updates|רענון מקורות וביקורת תוכן]] — מקור בקטלוג

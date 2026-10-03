@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "BIZ_02"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "088453935d6e59aaeccb89612aeb92ecb12d7d784fe824f037cbdac7ddacb3d8"
-related: ["[[02_CURRICULUM/2.2.0/lessons/BIZ_02]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_BIZ_02]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_BIZ_02]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/BIZ_02]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_BIZ_02]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_BIZ_02]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_BIZ_02_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_BIZ_02_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_BIZ_02_TRANSFER]]"]
 ---
 
 # התרגול: בחירת פיילוט לפי ערך וסיכון
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/BIZ_02]]","[[02_CURRICULUM/quiz-banks/1
 - [[02_CURRICULUM/2.2.0/lessons/BIZ_02|בחירת פיילוט לפי ערך וסיכון]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_BIZ_02|בדיקת הבנה: פיילוט נראה בעל ערך גבוה, אבל הנתונים הנדרשים אינם זמינים. מה נכון להביא בחשבון בבחירתו?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_BIZ_02|הוכחה מעשית · בחירת פיילוט לפי ערך וסיכון]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_BIZ_02_BUILD|תבנית טקסט: בחירת פיילוט לפי ערך וסיכון · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_BIZ_02_DIAGNOSE|תבנית טקסט: בחירת פיילוט לפי ערך וסיכון · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_BIZ_02_TRANSFER|תבנית טקסט: בחירת פיילוט לפי ערך וסיכון · TRANSFER]] — ארגון העבודה

@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "W06D29_RAG_FAILURE_MODES"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "6d336e64d19b823f1cba49c551b2b04a9135f2214cb910e3ba2e1108212043f3"
-related: ["[[02_CURRICULUM/2.2.0/lessons/W06D29_RAG_FAILURE_MODES]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W06D29_RAG_FAILURE_MODES]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W06D29_RAG_FAILURE_MODES]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/W06D29_RAG_FAILURE_MODES]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W06D29_RAG_FAILURE_MODES]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W06D29_RAG_FAILURE_MODES]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W06D29_RAG_FAILURE_MODES_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W06D29_RAG_FAILURE_MODES_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W06D29_RAG_FAILURE_MODES_TRANSFER]]"]
 ---
 
 # התרגול: כשלים במערכות RAG
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/W06D29_RAG_FAILURE_MODES]]","[[02_CURRI
 - [[02_CURRICULUM/2.2.0/lessons/W06D29_RAG_FAILURE_MODES|כשלים במערכות RAG]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W06D29_RAG_FAILURE_MODES|בדיקת הבנה: השליפה החזירה את הקטע הנכון, אבל התשובה הוסיפה טענה שאינה בו. איזה כשל יש לבדוק?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W06D29_RAG_FAILURE_MODES|הוכחה מעשית · כשלים במערכות RAG]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W06D29_RAG_FAILURE_MODES_BUILD|תבנית טקסט: כשלים במערכות RAG · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W06D29_RAG_FAILURE_MODES_DIAGNOSE|תבנית טקסט: כשלים במערכות RAG · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W06D29_RAG_FAILURE_MODES_TRANSFER|תבנית טקסט: כשלים במערכות RAG · TRANSFER]] — ארגון העבודה

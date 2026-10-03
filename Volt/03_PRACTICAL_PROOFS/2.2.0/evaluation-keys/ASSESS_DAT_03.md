@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_DAT_03"
 assessment_version: "2.1.0"
 lesson_id: "DAT_03"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_DAT_03]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_DAT_03]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_DAT_03_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_DAT_03_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_DAT_03_TRANSFER]]"]
 ---
 
 # תנאי בדיקה: הוכחה מעשית · מודלים מקומיים ומשאבי חומרה
@@ -41,3 +41,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_DAT_03]]"]
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_DAT_03|הוכחה מעשית · מודלים מקומיים ומשאבי חומרה]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_DAT_03_BUILD|תבנית טקסט: מודלים מקומיים ומשאבי חומרה · BUILD]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_DAT_03_DIAGNOSE|תבנית טקסט: מודלים מקומיים ומשאבי חומרה · DIAGNOSE]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_DAT_03_TRANSFER|תבנית טקסט: מודלים מקומיים ומשאבי חומרה · TRANSFER]] — תנאי בדיקה

@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "W15D75_PROJECT_AUTONOMOUS_WORKFLOW"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "1eee45638aba7debfea80169288bb87fa966eb6d47fe2033f4d4c76b78323164"
-related: ["[[02_CURRICULUM/2.2.0/lessons/W15D75_PROJECT_AUTONOMOUS_WORKFLOW]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W15D75_PROJECT_AUTONOMOUS_WORKFLOW]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W15D75_PROJECT_AUTONOMOUS_WORKFLOW]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/W15D75_PROJECT_AUTONOMOUS_WORKFLOW]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W15D75_PROJECT_AUTONOMOUS_WORKFLOW]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W15D75_PROJECT_AUTONOMOUS_WORKFLOW]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W15D75_PROJECT_AUTONOMOUS_WORKFLOW_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W15D75_PROJECT_AUTONOMOUS_WORKFLOW_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W15D75_PROJECT_AUTONOMOUS_WORKFLOW_TRANSFER]]"]
 ---
 
 # התרגול: פרויקט: תהליך אוטונומי מבוקר
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/W15D75_PROJECT_AUTONOMOUS_WORKFLOW]]","
 - [[02_CURRICULUM/2.2.0/lessons/W15D75_PROJECT_AUTONOMOUS_WORKFLOW|פרויקט: תהליך אוטונומי מבוקר]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W15D75_PROJECT_AUTONOMOUS_WORKFLOW|בדיקת הבנה: המערכת הגיעה לפעולה שדורשת אישור אדם. האם בקשת אישור יכולה להיות סיום תקין של המשימה הנוכחית?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W15D75_PROJECT_AUTONOMOUS_WORKFLOW|הוכחה מעשית · פרויקט: תהליך אוטונומי מבוקר]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W15D75_PROJECT_AUTONOMOUS_WORKFLOW_BUILD|תבנית טקסט: פרויקט: תהליך אוטונומי מבוקר · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W15D75_PROJECT_AUTONOMOUS_WORKFLOW_DIAGNOSE|תבנית טקסט: פרויקט: תהליך אוטונומי מבוקר · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W15D75_PROJECT_AUTONOMOUS_WORKFLOW_TRANSFER|תבנית טקסט: פרויקט: תהליך אוטונומי מבוקר · TRANSFER]] — ארגון העבודה

@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_BIZ_06"
 assessment_version: "2.1.0"
 lesson_id: "BIZ_06"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_BIZ_06]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_BIZ_06]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_BIZ_06_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_BIZ_06_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_BIZ_06_TRANSFER]]"]
 ---
 
 # תבנית הגשה: הוכחה מעשית · מבחן מסכם: הצגת פתרון ללקוח
@@ -53,3 +53,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_BIZ_06]]"]
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_BIZ_06|הוכחה מעשית · מבחן מסכם: הצגת פתרון ללקוח]] — תבנית הגשה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_BIZ_06_BUILD|תבנית טקסט: מבחן מסכם: הצגת פתרון ללקוח · BUILD]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_BIZ_06_DIAGNOSE|תבנית טקסט: מבחן מסכם: הצגת פתרון ללקוח · DIAGNOSE]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_BIZ_06_TRANSFER|תבנית טקסט: מבחן מסכם: הצגת פתרון ללקוח · TRANSFER]] — תבנית סעיף

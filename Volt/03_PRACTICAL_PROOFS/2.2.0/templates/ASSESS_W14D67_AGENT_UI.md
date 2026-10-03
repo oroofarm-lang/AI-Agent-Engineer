@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_W14D67_AGENT_UI"
 assessment_version: "2.1.0"
 lesson_id: "W14D67_AGENT_UI"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W14D67_AGENT_UI]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W14D67_AGENT_UI]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W14D67_AGENT_UI_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W14D67_AGENT_UI_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W14D67_AGENT_UI_TRANSFER]]"]
 ---
 
 # תבנית הגשה: הוכחה מעשית · ממשק לסוכן ולפעולותיו
@@ -53,3 +53,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W14D67_AGENT_UI]]"]
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W14D67_AGENT_UI|הוכחה מעשית · ממשק לסוכן ולפעולותיו]] — תבנית הגשה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W14D67_AGENT_UI_BUILD|תבנית טקסט: ממשק לסוכן ולפעולותיו · BUILD]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W14D67_AGENT_UI_DIAGNOSE|תבנית טקסט: ממשק לסוכן ולפעולותיו · DIAGNOSE]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W14D67_AGENT_UI_TRANSFER|תבנית טקסט: ממשק לסוכן ולפעולותיו · TRANSFER]] — תבנית סעיף

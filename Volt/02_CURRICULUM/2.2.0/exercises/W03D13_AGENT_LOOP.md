@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "W03D13_AGENT_LOOP"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "3d978a2ce29c7839cde3fdd4643b3bd68fe534e5db4070ccf4eda393788c5468"
-related: ["[[02_CURRICULUM/2.2.0/lessons/W03D13_AGENT_LOOP]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W03D13_AGENT_LOOP]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W03D13_AGENT_LOOP]]","[[04_AUTOMATIONS_AND_APIS/assets/AGENT_LOOP_LAB]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/W03D13_AGENT_LOOP]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W03D13_AGENT_LOOP]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W03D13_AGENT_LOOP]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W03D13_AGENT_LOOP_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W03D13_AGENT_LOOP_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W03D13_AGENT_LOOP_TRANSFER]]","[[04_AUTOMATIONS_AND_APIS/assets/AGENT_LOOP_LAB]]"]
 ---
 
 # התרגול: לולאת סוכן ידנית
@@ -113,4 +113,7 @@ if __name__ == '__main__':
 - [[02_CURRICULUM/2.2.0/lessons/W03D13_AGENT_LOOP|לולאת סוכן ידנית]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W03D13_AGENT_LOOP|בדיקת הבנה: מה צריך לקרות לאחר שהקוד מפעיל כלי בלולאת הסוכן?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W03D13_AGENT_LOOP|הוכחה מעשית · לולאת סוכן ידנית]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W03D13_AGENT_LOOP_BUILD|תבנית טקסט: לולאת סוכן ידנית · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W03D13_AGENT_LOOP_DIAGNOSE|תבנית טקסט: לולאת סוכן ידנית · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W03D13_AGENT_LOOP_TRANSFER|תבנית טקסט: לולאת סוכן ידנית · TRANSFER]] — ארגון העבודה
 - [[04_AUTOMATIONS_AND_APIS/assets/AGENT_LOOP_LAB|תרגיל לולאת סוכן]] — קוד לתרגול

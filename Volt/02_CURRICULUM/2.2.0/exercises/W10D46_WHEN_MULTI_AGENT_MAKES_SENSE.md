@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "W10D46_WHEN_MULTI_AGENT_MAKES_SENSE"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "21d524f534941bf7ac4182f0b51e3d3bbfb737741170251537267f1bb9687e4e"
-related: ["[[02_CURRICULUM/2.2.0/lessons/W10D46_WHEN_MULTI_AGENT_MAKES_SENSE]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W10D46_WHEN_MULTI_AGENT_MAKES_SENSE]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W10D46_WHEN_MULTI_AGENT_MAKES_SENSE]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/W10D46_WHEN_MULTI_AGENT_MAKES_SENSE]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W10D46_WHEN_MULTI_AGENT_MAKES_SENSE]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W10D46_WHEN_MULTI_AGENT_MAKES_SENSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W10D46_WHEN_MULTI_AGENT_MAKES_SENSE_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W10D46_WHEN_MULTI_AGENT_MAKES_SENSE_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W10D46_WHEN_MULTI_AGENT_MAKES_SENSE_TRANSFER]]"]
 ---
 
 # התרגול: מתי כמה סוכנים מועילים?
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/W10D46_WHEN_MULTI_AGENT_MAKES_SENSE]]",
 - [[02_CURRICULUM/2.2.0/lessons/W10D46_WHEN_MULTI_AGENT_MAKES_SENSE|מתי כמה סוכנים מועילים?]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W10D46_WHEN_MULTI_AGENT_MAKES_SENSE|בדיקת הבנה: איך כדאי להחליט אם מנהל ושני מומחים עדיפים על סוכן יחיד?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W10D46_WHEN_MULTI_AGENT_MAKES_SENSE|הוכחה מעשית · מתי כמה סוכנים מועילים?]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W10D46_WHEN_MULTI_AGENT_MAKES_SENSE_BUILD|תבנית טקסט: מתי כמה סוכנים מועילים? · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W10D46_WHEN_MULTI_AGENT_MAKES_SENSE_DIAGNOSE|תבנית טקסט: מתי כמה סוכנים מועילים? · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W10D46_WHEN_MULTI_AGENT_MAKES_SENSE_TRANSFER|תבנית טקסט: מתי כמה סוכנים מועילים? · TRANSFER]] — ארגון העבודה

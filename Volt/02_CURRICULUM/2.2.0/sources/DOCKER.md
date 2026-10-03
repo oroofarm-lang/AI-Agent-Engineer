@@ -8,7 +8,7 @@ source_id: "DOCKER"
 url: "https://docs.docker.com/get-started/docker-overview/"
 last_verified: null
 technology_ids: []
-related: ["[[01_AGENTS/Agent-Production-Reliability]]","[[02_CURRICULUM/2.2.0/Index]]","[[02_CURRICULUM/2.2.0/lessons/W14D68_DEPLOYMENT]]","[[02_CURRICULUM/2.2.0/lessons/W15D72_CODE_SANDBOX_AGENTS]]","[[02_CURRICULUM/2.2.0/lessons/WEB_05]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W14D68_DEPLOYMENT]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W15D72_CODE_SANDBOX_AGENTS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_WEB_05]]","[[04_AUTOMATIONS_AND_APIS/Knowledge-Updates]]"]
+related: ["[[01_AGENTS/Agent-Production-Reliability]]","[[02_CURRICULUM/2.2.0/Index]]","[[02_CURRICULUM/2.2.0/lessons/W14D68_DEPLOYMENT]]","[[02_CURRICULUM/2.2.0/lessons/W15D72_CODE_SANDBOX_AGENTS]]","[[02_CURRICULUM/2.2.0/lessons/WEB_05]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W14D68_DEPLOYMENT]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W15D72_CODE_SANDBOX_AGENTS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_WEB_05]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W14D68_DEPLOYMENT_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W14D68_DEPLOYMENT_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W14D68_DEPLOYMENT_TRANSFER]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W15D72_CODE_SANDBOX_AGENTS_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W15D72_CODE_SANDBOX_AGENTS_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W15D72_CODE_SANDBOX_AGENTS_TRANSFER]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_WEB_05_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_WEB_05_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_WEB_05_TRANSFER]]","[[04_AUTOMATIONS_AND_APIS/Knowledge-Updates]]"]
 ---
 
 # Docker overview
@@ -33,4 +33,13 @@ related: ["[[01_AGENTS/Agent-Production-Reliability]]","[[02_CURRICULUM/2.2.0/In
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W14D68_DEPLOYMENT|בדיקת הבנה: השירות נארז ב־Docker. איזו מסקנה אינה מוצדקת מהאריזה לבדה?]] — מקור השאלה
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W15D72_CODE_SANDBOX_AGENTS|בדיקת הבנה: איך בודקים שה־Sandbox אוכף את הגבולות שהוגדרו?]] — מקור השאלה
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_WEB_05|בדיקת הבנה: דוח אוטומטי על האתר נראה תקין. איזו בדיקה עסקית עדיין צריך לבצע לפני פרסום?]] — מקור השאלה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W14D68_DEPLOYMENT_BUILD|תבנית טקסט: פריסה וסביבות · BUILD]] — מקור לשיעור
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W14D68_DEPLOYMENT_DIAGNOSE|תבנית טקסט: פריסה וסביבות · DIAGNOSE]] — מקור לשיעור
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W14D68_DEPLOYMENT_TRANSFER|תבנית טקסט: פריסה וסביבות · TRANSFER]] — מקור לשיעור
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W15D72_CODE_SANDBOX_AGENTS_BUILD|תבנית טקסט: Sandbox וסוכני קוד · BUILD]] — מקור לשיעור
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W15D72_CODE_SANDBOX_AGENTS_DIAGNOSE|תבנית טקסט: Sandbox וסוכני קוד · DIAGNOSE]] — מקור לשיעור
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W15D72_CODE_SANDBOX_AGENTS_TRANSFER|תבנית טקסט: Sandbox וסוכני קוד · TRANSFER]] — מקור לשיעור
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_WEB_05_BUILD|תבנית טקסט: בדיקות לפני פריסה · BUILD]] — מקור לשיעור
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_WEB_05_DIAGNOSE|תבנית טקסט: בדיקות לפני פריסה · DIAGNOSE]] — מקור לשיעור
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_WEB_05_TRANSFER|תבנית טקסט: בדיקות לפני פריסה · TRANSFER]] — מקור לשיעור
 - [[04_AUTOMATIONS_AND_APIS/Knowledge-Updates|רענון מקורות וביקורת תוכן]] — מקור בקטלוג

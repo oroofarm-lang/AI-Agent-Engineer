@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "ADS_03"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "37a815914bcfc0baed1101b12cfeb7a852452601caa5179fb049ca34ccff5447"
-related: ["[[02_CURRICULUM/2.2.0/lessons/ADS_03]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_ADS_03]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_ADS_03]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/ADS_03]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_ADS_03]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_ADS_03]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_03_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_03_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_03_TRANSFER]]"]
 ---
 
 # התרגול: קריאייטיב והשערות לניסוי
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/ADS_03]]","[[02_CURRICULUM/quiz-banks/1
 - [[02_CURRICULUM/2.2.0/lessons/ADS_03|קריאייטיב והשערות לניסוי]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_ADS_03|בדיקת הבנה: בניסוי מודעה הוחלפו יחד הקהל, המסר והתמונה. למה קשה לפרש את השינוי בתוצאה?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_ADS_03|הוכחה מעשית · קריאייטיב והשערות לניסוי]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_03_BUILD|תבנית טבלה: קריאייטיב והשערות לניסוי · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_03_DIAGNOSE|תבנית טקסט: קריאייטיב והשערות לניסוי · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_03_TRANSFER|תבנית טקסט: קריאייטיב והשערות לניסוי · TRANSFER]] — ארגון העבודה

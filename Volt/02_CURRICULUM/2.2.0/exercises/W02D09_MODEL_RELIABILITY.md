@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "W02D09_MODEL_RELIABILITY"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "8d5f27664f326f43ea91e30f1667e91f6ec638248d1859f4fd04338d418e4831"
-related: ["[[02_CURRICULUM/2.2.0/lessons/W02D09_MODEL_RELIABILITY]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W02D09_MODEL_RELIABILITY]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W02D09_MODEL_RELIABILITY]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/W02D09_MODEL_RELIABILITY]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W02D09_MODEL_RELIABILITY]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W02D09_MODEL_RELIABILITY]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W02D09_MODEL_RELIABILITY_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W02D09_MODEL_RELIABILITY_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W02D09_MODEL_RELIABILITY_TRANSFER]]"]
 ---
 
 # התרגול: אמינות, ביסוס ואי־ודאות
@@ -63,3 +63,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/W02D09_MODEL_RELIABILITY]]","[[02_CURRI
 - [[02_CURRICULUM/2.2.0/lessons/W02D09_MODEL_RELIABILITY|אמינות, ביסוס ואי־ודאות]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W02D09_MODEL_RELIABILITY|בדיקת הבנה: שתי גרסאות של נוהל סותרות זו את זו. איזה מצב מתאים לכללים שהוגדרו בתרגיל?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W02D09_MODEL_RELIABILITY|הוכחה מעשית · אמינות, ביסוס ואי־ודאות]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W02D09_MODEL_RELIABILITY_BUILD|תבנית טקסט: אמינות, ביסוס ואי־ודאות · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W02D09_MODEL_RELIABILITY_DIAGNOSE|תבנית טקסט: אמינות, ביסוס ואי־ודאות · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W02D09_MODEL_RELIABILITY_TRANSFER|תבנית טקסט: אמינות, ביסוס ואי־ודאות · TRANSFER]] — ארגון העבודה

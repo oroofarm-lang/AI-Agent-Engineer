@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "VOI_01"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "bde7087ac62ccbbb57d467080cdfb4a3adf543dad7b454bdd6e597216d7fabe1"
-related: ["[[02_CURRICULUM/2.2.0/lessons/VOI_01]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_VOI_01]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_VOI_01]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/VOI_01]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_VOI_01]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_VOI_01]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_VOI_01_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_VOI_01_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_VOI_01_TRANSFER]]"]
 ---
 
 # התרגול: תמלול שיחות ובדיקת דיוק
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/VOI_01]]","[[02_CURRICULUM/quiz-banks/1
 - [[02_CURRICULUM/2.2.0/lessons/VOI_01|תמלול שיחות ובדיקת דיוק]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_VOI_01|בדיקת הבנה: מספר הזמנה בתמלול נשמע חשוד. מה מאפשר לבדוק מה באמת נאמר?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_VOI_01|הוכחה מעשית · תמלול שיחות ובדיקת דיוק]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_VOI_01_BUILD|תבנית טקסט: תמלול שיחות ובדיקת דיוק · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_VOI_01_DIAGNOSE|תבנית טקסט: תמלול שיחות ובדיקת דיוק · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_VOI_01_TRANSFER|תבנית טקסט: תמלול שיחות ובדיקת דיוק · TRANSFER]] — ארגון העבודה

@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "WEB_01"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "205c7f68caaece0a92100a0dd7034ff0ff007557f74ddbd352e68976b96a1271"
-related: ["[[02_CURRICULUM/2.2.0/lessons/WEB_01]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_WEB_01]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_WEB_01]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/WEB_01]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_WEB_01]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_WEB_01]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_WEB_01_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_WEB_01_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_WEB_01_TRANSFER]]"]
 ---
 
 # התרגול: תכנון אתר ומסע משתמש
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/WEB_01]]","[[02_CURRICULUM/quiz-banks/1
 - [[02_CURRICULUM/2.2.0/lessons/WEB_01|תכנון אתר ומסע משתמש]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_WEB_01|בדיקת הבנה: בטופס פנייה מופיע ״הושלם״ מיד לאחר שהמשימה נכנסה לתור. מהו התיקון המתאים למסע המשתמש?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_WEB_01|הוכחה מעשית · תכנון אתר ומסע משתמש]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_WEB_01_BUILD|תבנית טקסט: תכנון אתר ומסע משתמש · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_WEB_01_DIAGNOSE|תבנית טקסט: תכנון אתר ומסע משתמש · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_WEB_01_TRANSFER|תבנית טקסט: תכנון אתר ומסע משתמש · TRANSFER]] — ארגון העבודה

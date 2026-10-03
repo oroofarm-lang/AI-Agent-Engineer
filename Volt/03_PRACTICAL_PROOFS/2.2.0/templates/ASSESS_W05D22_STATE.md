@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_W05D22_STATE"
 assessment_version: "2.1.0"
 lesson_id: "W05D22_STATE"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W05D22_STATE]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W05D22_STATE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W05D22_STATE_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W05D22_STATE_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W05D22_STATE_TRANSFER]]"]
 ---
 
 # תבנית הגשה: הוכחה מעשית · מצב שיחה ומצב תהליך
@@ -53,3 +53,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W05D22_STATE]]"]
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W05D22_STATE|הוכחה מעשית · מצב שיחה ומצב תהליך]] — תבנית הגשה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W05D22_STATE_BUILD|תבנית טקסט: מצב שיחה ומצב תהליך · BUILD]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W05D22_STATE_DIAGNOSE|תבנית טקסט: מצב שיחה ומצב תהליך · DIAGNOSE]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W05D22_STATE_TRANSFER|תבנית טקסט: מצב שיחה ומצב תהליך · TRANSFER]] — תבנית סעיף

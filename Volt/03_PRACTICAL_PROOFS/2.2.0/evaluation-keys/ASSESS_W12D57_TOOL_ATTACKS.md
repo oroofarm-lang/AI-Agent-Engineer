@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_W12D57_TOOL_ATTACKS"
 assessment_version: "2.1.0"
 lesson_id: "W12D57_TOOL_ATTACKS"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W12D57_TOOL_ATTACKS]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W12D57_TOOL_ATTACKS]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W12D57_TOOL_ATTACKS_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W12D57_TOOL_ATTACKS_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W12D57_TOOL_ATTACKS_TRANSFER]]"]
 ---
 
 # תנאי בדיקה: הוכחה מעשית · תקיפות כלים וחשיפת מידע
@@ -41,3 +41,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W12D57_TOOL_ATTACKS]]"]
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W12D57_TOOL_ATTACKS|הוכחה מעשית · תקיפות כלים וחשיפת מידע]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W12D57_TOOL_ATTACKS_BUILD|תבנית טקסט: תקיפות כלים וחשיפת מידע · BUILD]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W12D57_TOOL_ATTACKS_DIAGNOSE|תבנית טקסט: תקיפות כלים וחשיפת מידע · DIAGNOSE]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W12D57_TOOL_ATTACKS_TRANSFER|תבנית טקסט: תקיפות כלים וחשיפת מידע · TRANSFER]] — תנאי בדיקה

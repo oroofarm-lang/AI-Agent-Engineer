@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "CRM_05"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "5eb4f8b069680ab736b454c6ba4a0f08c790bf16161545e267e2a6c9d74c621f"
-related: ["[[02_CURRICULUM/2.2.0/lessons/CRM_05]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_CRM_05]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_CRM_05]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/CRM_05]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_CRM_05]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_CRM_05]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_CRM_05_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_CRM_05_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_CRM_05_TRANSFER]]"]
 ---
 
 # התרגול: שירות בכמה ערוצים
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/CRM_05]]","[[02_CURRICULUM/quiz-banks/1
 - [[02_CURRICULUM/2.2.0/lessons/CRM_05|שירות בכמה ערוצים]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_CRM_05|בדיקת הבנה: פנייה בדוא״ל ופנייה ב־WhatsApp נושאות אותו שם. מה נדרש לפני שיוך שתיהן לאותו לקוח?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_CRM_05|הוכחה מעשית · שירות בכמה ערוצים]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_CRM_05_BUILD|תבנית טקסט: שירות בכמה ערוצים · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_CRM_05_DIAGNOSE|תבנית טקסט: שירות בכמה ערוצים · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_CRM_05_TRANSFER|תבנית טקסט: שירות בכמה ערוצים · TRANSFER]] — ארגון העבודה

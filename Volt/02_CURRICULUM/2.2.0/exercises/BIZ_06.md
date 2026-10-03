@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "BIZ_06"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "74886664f0d7becd930bb405abcf38cd9124c4b18f26a45db1a052456d165792"
-related: ["[[02_CURRICULUM/2.2.0/lessons/BIZ_06]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_BIZ_06]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_BIZ_06]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/BIZ_06]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_BIZ_06]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_BIZ_06]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_BIZ_06_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_BIZ_06_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_BIZ_06_TRANSFER]]"]
 ---
 
 # התרגול: מבחן מסכם: הצגת פתרון ללקוח
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/BIZ_06]]","[[02_CURRICULUM/quiz-banks/1
 - [[02_CURRICULUM/2.2.0/lessons/BIZ_06|מבחן מסכם: הצגת פתרון ללקוח]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_BIZ_06|בדיקת הבנה: הלקוח מבקש להרחיב את האוטונומיה מעבר למה שנבדק בהדגמה. מהו הצעד המתאים?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_BIZ_06|הוכחה מעשית · מבחן מסכם: הצגת פתרון ללקוח]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_BIZ_06_BUILD|תבנית טקסט: מבחן מסכם: הצגת פתרון ללקוח · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_BIZ_06_DIAGNOSE|תבנית טקסט: מבחן מסכם: הצגת פתרון ללקוח · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_BIZ_06_TRANSFER|תבנית טקסט: מבחן מסכם: הצגת פתרון ללקוח · TRANSFER]] — ארגון העבודה

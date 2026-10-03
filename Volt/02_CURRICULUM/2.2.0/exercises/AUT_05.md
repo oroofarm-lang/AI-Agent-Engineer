@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "AUT_05"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "defec806baad0cde2573170605c5337d50eda8c69da09bccfd377809c519f741"
-related: ["[[02_CURRICULUM/2.2.0/lessons/AUT_05]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_AUT_05]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AUT_05]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/AUT_05]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_AUT_05]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AUT_05]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_05_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_05_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_05_TRANSFER]]"]
 ---
 
 # התרגול: אישור אנושי בתהליך חזותי
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/AUT_05]]","[[02_CURRICULUM/quiz-banks/1
 - [[02_CURRICULUM/2.2.0/lessons/AUT_05|אישור אנושי בתהליך חזותי]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_AUT_05|בדיקת הבנה: טיוטת תשובה שונתה אחרי אישור בתהליך החזותי. מה נדרש כדי להמשיך?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AUT_05|הוכחה מעשית · אישור אנושי בתהליך חזותי]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_05_BUILD|תבנית טקסט: אישור אנושי בתהליך חזותי · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_05_DIAGNOSE|תבנית טקסט: אישור אנושי בתהליך חזותי · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_05_TRANSFER|תבנית טקסט: אישור אנושי בתהליך חזותי · TRANSFER]] — ארגון העבודה

@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "W08D40_BOSS_LEVEL_2_BUILD_ONE_SYSTEM_TWICE"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "567c01d5051193ad92cf596ef198a981fdb631fe0fff7f1c7a1798a589845bbe"
-related: ["[[02_CURRICULUM/2.2.0/lessons/W08D40_BOSS_LEVEL_2_BUILD_ONE_SYSTEM_TWICE]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W08D40_BOSS_LEVEL_2_BUILD_ONE_SYSTEM_TWICE]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W08D40_BOSS_LEVEL_2_BUILD_ONE_SYSTEM_TWICE]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/W08D40_BOSS_LEVEL_2_BUILD_ONE_SYSTEM_TWICE]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W08D40_BOSS_LEVEL_2_BUILD_ONE_SYSTEM_TWICE]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W08D40_BOSS_LEVEL_2_BUILD_ONE_SYSTEM_TWICE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W08D40_BOSS_LEVEL_2_BUILD_ONE_SYSTEM_TWICE_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W08D40_BOSS_LEVEL_2_BUILD_ONE_SYSTEM_TWICE_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W08D40_BOSS_LEVEL_2_BUILD_ONE_SYSTEM_TWICE_TRANSFER]]"]
 ---
 
 # התרגול: מבחן מסכם: שתי ארכיטקטורות לאותה מערכת
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/W08D40_BOSS_LEVEL_2_BUILD_ONE_SYSTEM_TW
 - [[02_CURRICULUM/2.2.0/lessons/W08D40_BOSS_LEVEL_2_BUILD_ONE_SYSTEM_TWICE|מבחן מסכם: שתי ארכיטקטורות לאותה מערכת]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W08D40_BOSS_LEVEL_2_BUILD_ONE_SYSTEM_TWICE|בדיקת הבנה: מה צריך להשאיר זהה בהשוואה בין לולאה ידנית למימוש SDK או גרף?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W08D40_BOSS_LEVEL_2_BUILD_ONE_SYSTEM_TWICE|הוכחה מעשית · מבחן מסכם: שתי ארכיטקטורות לאותה מערכת]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W08D40_BOSS_LEVEL_2_BUILD_ONE_SYSTEM_TWICE_BUILD|תבנית טקסט: מבחן מסכם: שתי ארכיטקטורות לאותה מערכת · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W08D40_BOSS_LEVEL_2_BUILD_ONE_SYSTEM_TWICE_DIAGNOSE|תבנית טקסט: מבחן מסכם: שתי ארכיטקטורות לאותה מערכת · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W08D40_BOSS_LEVEL_2_BUILD_ONE_SYSTEM_TWICE_TRANSFER|תבנית טקסט: מבחן מסכם: שתי ארכיטקטורות לאותה מערכת · TRANSFER]] — ארגון העבודה

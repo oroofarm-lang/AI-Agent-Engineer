@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_DAT_02"
 assessment_version: "2.1.0"
 lesson_id: "DAT_02"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_DAT_02]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_DAT_02]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_DAT_02_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_DAT_02_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_DAT_02_TRANSFER]]"]
 ---
 
 # תנאי בדיקה: הוכחה מעשית · כללים, חיזוי קלאסי ו־LLM
@@ -41,3 +41,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_DAT_02]]"]
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_DAT_02|הוכחה מעשית · כללים, חיזוי קלאסי ו־LLM]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_DAT_02_BUILD|תבנית טקסט: כללים, חיזוי קלאסי ו־LLM · BUILD]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_DAT_02_DIAGNOSE|תבנית טקסט: כללים, חיזוי קלאסי ו־LLM · DIAGNOSE]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_DAT_02_TRANSFER|תבנית טקסט: כללים, חיזוי קלאסי ו־LLM · TRANSFER]] — תנאי בדיקה

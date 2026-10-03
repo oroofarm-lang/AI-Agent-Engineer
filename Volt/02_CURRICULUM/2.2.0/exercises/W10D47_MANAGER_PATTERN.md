@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "W10D47_MANAGER_PATTERN"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "daeed8c5016ed0a64c77ccd202600fa9206ba51836e177767e5c4f05a0e1ab4f"
-related: ["[[02_CURRICULUM/2.2.0/lessons/W10D47_MANAGER_PATTERN]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W10D47_MANAGER_PATTERN]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W10D47_MANAGER_PATTERN]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/W10D47_MANAGER_PATTERN]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W10D47_MANAGER_PATTERN]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W10D47_MANAGER_PATTERN]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W10D47_MANAGER_PATTERN_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W10D47_MANAGER_PATTERN_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W10D47_MANAGER_PATTERN_TRANSFER]]"]
 ---
 
 # התרגול: מנהל ומומחים
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/W10D47_MANAGER_PATTERN]]","[[02_CURRICU
 - [[02_CURRICULUM/2.2.0/lessons/W10D47_MANAGER_PATTERN|מנהל ומומחים]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W10D47_MANAGER_PATTERN|בדיקת הבנה: בדפוס מנהל ומומחים, מי נשאר אחראי לתוצאה הכוללת?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W10D47_MANAGER_PATTERN|הוכחה מעשית · מנהל ומומחים]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W10D47_MANAGER_PATTERN_BUILD|תבנית טקסט: מנהל ומומחים · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W10D47_MANAGER_PATTERN_DIAGNOSE|תבנית טקסט: מנהל ומומחים · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W10D47_MANAGER_PATTERN_TRANSFER|תבנית טקסט: מנהל ומומחים · TRANSFER]] — ארגון העבודה

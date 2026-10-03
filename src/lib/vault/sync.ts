@@ -4,6 +4,8 @@ import { loadAgentRegistry } from '../agents/registry';
 import { loadKnowledgeRegistry } from '../ai/knowledge-registry';
 import { fingerprint } from '../auditor/analysis';
 import { buildVaultFiles } from '../../../scripts/lib/vault-export.mjs';
+import templateCatalog from '../../../content/templates/releases/1.0.0.json';
+import { validateTemplateCatalog } from '../templates/schema';
 import publicSnapshot from '../../../content/vault/public-assets.json';
 import quizDraft from '../../../content/authoring/quiz-bank/1.0.0-draft.json';
 import { systemQuestion } from '../quizzes/catalog';
@@ -31,6 +33,8 @@ export type VaultStatus = {
   exportedHash: string | null;
   activeQuizHash: string | null;
   exportedQuizHash: string | null;
+  activeTemplateHash: string;
+  exportedTemplateHash: string | null;
   error?: string;
 };
 
@@ -47,12 +51,14 @@ export async function publicVaultStatus(): Promise<VaultStatus> {
     activeHash = fingerprint(current);
   const bank = publishedTeachingBank(current),
     activeQuizHash = bank ? fingerprint(bank) : null;
+  const activeTemplateHash = fingerprint(compatiblePublicTemplates(current));
   return {
     state: error
       ? 'UNAVAILABLE'
       : exported?.version === current.version &&
           exported.curriculumHash === activeHash &&
-          exported.quizBankHash === activeQuizHash
+          exported.quizBankHash === activeQuizHash &&
+          exported.templateCatalogHash === activeTemplateHash
         ? 'CURRENT'
         : 'PENDING',
     activeVersion: current.version,
@@ -60,6 +66,8 @@ export async function publicVaultStatus(): Promise<VaultStatus> {
     exportedVersion: exported?.version || null,
     exportedHash: exported?.curriculumHash || null,
     activeQuizHash,
+    activeTemplateHash,
+    exportedTemplateHash: exported?.templateCatalogHash || null,
     exportedQuizHash: exported?.quizBankHash || null,
     ...(error ? { error } : {}),
   };
@@ -85,11 +93,20 @@ export async function syncPublicVault() {
       bank = publishedTeachingBank(current);
     if (
       result.curriculumHash === fingerprint(current) &&
-      result.quizBankHash === (bank ? fingerprint(bank) : null)
+      result.quizBankHash === (bank ? fingerprint(bank) : null) &&
+      result.templateCatalogHash === fingerprint(compatiblePublicTemplates(current))
     )
       return { ...result, ...metadata, curriculumVersion: result.version };
   }
   throw new Error('VAULT_ACTIVE_CHANGED');
+}
+
+// Course-body releases can reuse unchanged exact-bound rubrics; changed criteria fail closed.
+function compatiblePublicTemplates(curriculum: ReturnType<typeof loadCurriculum>) {
+  return validateTemplateCatalog(templateCatalog, {
+    version: templateCatalog.sourceCurriculumVersion,
+    assessments: curriculum.assessments,
+  });
 }
 
 function preparePublicVault() {
@@ -112,6 +129,7 @@ function preparePublicVault() {
     publishedQuizBank,
     systemQuestion,
     knowledgeRegistry: loadKnowledgeRegistry(curriculum),
+    templateCatalog: compatiblePublicTemplates(curriculum),
   });
   const files = new Map([...buildLegacyFiles(curriculum, lessonBodies), ...graph.files]);
   return {
@@ -119,6 +137,7 @@ function preparePublicVault() {
     version: curriculum.version,
     curriculumHash: fingerprint(curriculum),
     quizBankHash: publishedQuizBank ? fingerprint(publishedQuizBank) : null,
+    templateCatalogHash: fingerprint(compatiblePublicTemplates(curriculum)),
     counts: graph.counts,
     registryVersion: registry.version,
   };

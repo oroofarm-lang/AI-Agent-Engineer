@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_ADS_01"
 assessment_version: "2.1.0"
 lesson_id: "ADS_01"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_ADS_01]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_ADS_01]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_01_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_01_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_01_TRANSFER]]"]
 ---
 
 # תנאי בדיקה: הוכחה מעשית · מדדי פרסום ומשפך
@@ -41,3 +41,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_ADS_01]]"]
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_ADS_01|הוכחה מעשית · מדדי פרסום ומשפך]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_01_BUILD|תבנית טקסט: מדדי פרסום ומשפך · BUILD]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_01_DIAGNOSE|תבנית טקסט: מדדי פרסום ומשפך · DIAGNOSE]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_01_TRANSFER|תבנית טקסט: מדדי פרסום ומשפך · TRANSFER]] — תנאי בדיקה

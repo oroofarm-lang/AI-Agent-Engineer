@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "W02D08_STRUCTURED_OUTPUTS"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "72256998d280234d42fadb6a803c3e836a3c7662fdba5aaf6bd3b470ec557386"
-related: ["[[02_CURRICULUM/2.2.0/lessons/W02D08_STRUCTURED_OUTPUTS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W02D08_STRUCTURED_OUTPUTS]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W02D08_STRUCTURED_OUTPUTS]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/W02D08_STRUCTURED_OUTPUTS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W02D08_STRUCTURED_OUTPUTS]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W02D08_STRUCTURED_OUTPUTS]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W02D08_STRUCTURED_OUTPUTS_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W02D08_STRUCTURED_OUTPUTS_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W02D08_STRUCTURED_OUTPUTS_TRANSFER]]"]
 ---
 
 # התרגול: פלט מובנה ואימות נתונים
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/W02D08_STRUCTURED_OUTPUTS]]","[[02_CURR
 - [[02_CURRICULUM/2.2.0/lessons/W02D08_STRUCTURED_OUTPUTS|פלט מובנה ואימות נתונים]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W02D08_STRUCTURED_OUTPUTS|בדיקת הבנה: רשומת Lead תואמת לסכמה, אך כוללת שם שלא הופיע בפנייה. איזו בדיקה עדיין נדרשת?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W02D08_STRUCTURED_OUTPUTS|הוכחה מעשית · פלט מובנה ואימות נתונים]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W02D08_STRUCTURED_OUTPUTS_BUILD|תבנית טקסט: פלט מובנה ואימות נתונים · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W02D08_STRUCTURED_OUTPUTS_DIAGNOSE|תבנית טקסט: פלט מובנה ואימות נתונים · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W02D08_STRUCTURED_OUTPUTS_TRANSFER|תבנית טקסט: פלט מובנה ואימות נתונים · TRANSFER]] — ארגון העבודה

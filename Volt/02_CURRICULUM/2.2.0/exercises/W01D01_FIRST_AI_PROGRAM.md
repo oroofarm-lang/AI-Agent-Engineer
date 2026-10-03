@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "W01D01_FIRST_AI_PROGRAM"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "ebdaedb1bbdefa3124b6f1d5eb428771c98ee41122b8f4d29486aa183ce5cb60"
-related: ["[[02_CURRICULUM/2.2.0/lessons/W01D01_FIRST_AI_PROGRAM]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W01D01_FIRST_AI_PROGRAM]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_FIRST_AI_PROGRAM]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/W01D01_FIRST_AI_PROGRAM]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W01D01_FIRST_AI_PROGRAM]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_FIRST_AI_PROGRAM]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_FIRST_AI_PROGRAM_CRITERION_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_FIRST_AI_PROGRAM_CRITERION_GIT_SECRETS]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_FIRST_AI_PROGRAM_CRITERION_REBUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_FIRST_AI_PROGRAM_CRITERION_REQUEST_PATH]]"]
 ---
 
 # התרגול: תוכנית ה־AI הראשונה שלך
@@ -115,3 +115,7 @@ git commit -m "Build first AI program"
 - [[02_CURRICULUM/2.2.0/lessons/W01D01_FIRST_AI_PROGRAM|תוכנית ה־AI הראשונה שלך]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W01D01_FIRST_AI_PROGRAM|בדיקת הבנה: מה תפקידו של ה־SDK בתוכנית app.py שבשיעור?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_FIRST_AI_PROGRAM|מתיקייה ריקה לתוכנית עובדת]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_FIRST_AI_PROGRAM_CRITERION_DIAGNOSE|תבנית טקסט: תוכנית ה־AI הראשונה שלך · CRITERION_DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_FIRST_AI_PROGRAM_CRITERION_GIT_SECRETS|תבנית טקסט: תוכנית ה־AI הראשונה שלך · CRITERION_GIT_SECRETS]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_FIRST_AI_PROGRAM_CRITERION_REBUILD|תבנית טקסט: תוכנית ה־AI הראשונה שלך · CRITERION_REBUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_FIRST_AI_PROGRAM_CRITERION_REQUEST_PATH|תבנית טקסט: תוכנית ה־AI הראשונה שלך · CRITERION_REQUEST_PATH]] — ארגון העבודה

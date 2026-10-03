@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_FND_04"
 assessment_version: "2.1.0"
 lesson_id: "FND_04"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_FND_04]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_FND_04]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_FND_04_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_FND_04_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_FND_04_TRANSFER]]"]
 ---
 
 # תנאי בדיקה: הוכחה מעשית · מיפוי צורך עסקי ופיילוט
@@ -41,3 +41,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_FND_04]]"]
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_FND_04|הוכחה מעשית · מיפוי צורך עסקי ופיילוט]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_FND_04_BUILD|תבנית טקסט: מיפוי צורך עסקי ופיילוט · BUILD]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_FND_04_DIAGNOSE|תבנית טקסט: מיפוי צורך עסקי ופיילוט · DIAGNOSE]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_FND_04_TRANSFER|תבנית טקסט: מיפוי צורך עסקי ופיילוט · TRANSFER]] — תנאי בדיקה

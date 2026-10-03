@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "FND_02"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "860380d592453c874f9f05ed7e96bf5f0c2c63dbee787f1c63cb0c759cc48e59"
-related: ["[[02_CURRICULUM/2.2.0/lessons/FND_02]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_FND_02]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_FND_02]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/FND_02]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_FND_02]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_FND_02]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_FND_02_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_FND_02_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_FND_02_TRANSFER]]"]
 ---
 
 # התרגול: בחירת מודלים לפי מדידה
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/FND_02]]","[[02_CURRICULUM/quiz-banks/1
 - [[02_CURRICULUM/2.2.0/lessons/FND_02|בחירת מודלים לפי מדידה]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_FND_02|בדיקת הבנה: מהי השוואה מתאימה לבחירת מודל למשימת חילוץ?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_FND_02|הוכחה מעשית · בחירת מודלים לפי מדידה]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_FND_02_BUILD|תבנית טבלה: בחירת מודלים לפי מדידה · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_FND_02_DIAGNOSE|תבנית טקסט: בחירת מודלים לפי מדידה · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_FND_02_TRANSFER|תבנית טקסט: בחירת מודלים לפי מדידה · TRANSFER]] — ארגון העבודה

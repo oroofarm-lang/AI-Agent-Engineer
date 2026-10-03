@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "W11D55_PROJECT_AGENT_QUALITY_LAB"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "00b378a2bdc49c1440bac0835f4931b38d34cb61656387a6e8874a77345ed11c"
-related: ["[[02_CURRICULUM/2.2.0/lessons/W11D55_PROJECT_AGENT_QUALITY_LAB]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W11D55_PROJECT_AGENT_QUALITY_LAB]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W11D55_PROJECT_AGENT_QUALITY_LAB]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/W11D55_PROJECT_AGENT_QUALITY_LAB]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W11D55_PROJECT_AGENT_QUALITY_LAB]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W11D55_PROJECT_AGENT_QUALITY_LAB]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W11D55_PROJECT_AGENT_QUALITY_LAB_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W11D55_PROJECT_AGENT_QUALITY_LAB_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W11D55_PROJECT_AGENT_QUALITY_LAB_TRANSFER]]"]
 ---
 
 # התרגול: פרויקט: מעבדת איכות לסוכן
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/W11D55_PROJECT_AGENT_QUALITY_LAB]]","[[
 - [[02_CURRICULUM/2.2.0/lessons/W11D55_PROJECT_AGENT_QUALITY_LAB|פרויקט: מעבדת איכות לסוכן]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W11D55_PROJECT_AGENT_QUALITY_LAB|בדיקת הבנה: שינוי שיפר דיוק אך הגדיל את הזמן מעבר למגבלה. איך נכון להציג את ההשוואה?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W11D55_PROJECT_AGENT_QUALITY_LAB|הוכחה מעשית · פרויקט: מעבדת איכות לסוכן]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W11D55_PROJECT_AGENT_QUALITY_LAB_BUILD|תבנית טקסט: פרויקט: מעבדת איכות לסוכן · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W11D55_PROJECT_AGENT_QUALITY_LAB_DIAGNOSE|תבנית טקסט: פרויקט: מעבדת איכות לסוכן · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W11D55_PROJECT_AGENT_QUALITY_LAB_TRANSFER|תבנית טקסט: פרויקט: מעבדת איכות לסוכן · TRANSFER]] — ארגון העבודה

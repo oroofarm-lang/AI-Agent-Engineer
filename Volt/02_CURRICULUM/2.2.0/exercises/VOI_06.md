@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "VOI_06"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "90569202fee57e6815880c2f4cb896954d08b24ae43f57ebbc8d26d31c92898b"
-related: ["[[02_CURRICULUM/2.2.0/lessons/VOI_06]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_VOI_06]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_VOI_06]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/VOI_06]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_VOI_06]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_VOI_06]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_VOI_06_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_VOI_06_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_VOI_06_TRANSFER]]"]
 ---
 
 # התרגול: מבחן מסכם: עוזר קולי עסקי
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/VOI_06]]","[[02_CURRICULUM/quiz-banks/1
 - [[02_CURRICULUM/2.2.0/lessons/VOI_06|מבחן מסכם: עוזר קולי עסקי]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_VOI_06|בדיקת הבנה: עוזר קולי עבר שיחת הדגמה אחת בלי תקלה. מה חסר כדי להעריך את איכותו העסקית?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_VOI_06|הוכחה מעשית · מבחן מסכם: עוזר קולי עסקי]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_VOI_06_BUILD|תבנית טקסט: מבחן מסכם: עוזר קולי עסקי · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_VOI_06_DIAGNOSE|תבנית טקסט: מבחן מסכם: עוזר קולי עסקי · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_VOI_06_TRANSFER|תבנית טקסט: מבחן מסכם: עוזר קולי עסקי · TRANSFER]] — ארגון העבודה

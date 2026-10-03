@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "W06D30_PROJECT_KNOWLEDGE_AGENT"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "f266a064912e0314829a5373b56219cf13b16b5d190a88c7ef6b6ea8ba5da2e6"
-related: ["[[02_CURRICULUM/2.2.0/lessons/W06D30_PROJECT_KNOWLEDGE_AGENT]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W06D30_PROJECT_KNOWLEDGE_AGENT]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W06D30_PROJECT_KNOWLEDGE_AGENT]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/W06D30_PROJECT_KNOWLEDGE_AGENT]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W06D30_PROJECT_KNOWLEDGE_AGENT]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W06D30_PROJECT_KNOWLEDGE_AGENT]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W06D30_PROJECT_KNOWLEDGE_AGENT_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W06D30_PROJECT_KNOWLEDGE_AGENT_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W06D30_PROJECT_KNOWLEDGE_AGENT_TRANSFER]]"]
 ---
 
 # התרגול: פרויקט: עוזר ידע ארגוני
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/W06D30_PROJECT_KNOWLEDGE_AGENT]]","[[02
 - [[02_CURRICULUM/2.2.0/lessons/W06D30_PROJECT_KNOWLEDGE_AGENT|פרויקט: עוזר ידע ארגוני]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W06D30_PROJECT_KNOWLEDGE_AGENT|בדיקת הבנה: איזה ציטוט מתאים לתשובת עוזר הידע הארגוני?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W06D30_PROJECT_KNOWLEDGE_AGENT|הוכחה מעשית · פרויקט: עוזר ידע ארגוני]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W06D30_PROJECT_KNOWLEDGE_AGENT_BUILD|תבנית טקסט: פרויקט: עוזר ידע ארגוני · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W06D30_PROJECT_KNOWLEDGE_AGENT_DIAGNOSE|תבנית טקסט: פרויקט: עוזר ידע ארגוני · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W06D30_PROJECT_KNOWLEDGE_AGENT_TRANSFER|תבנית טקסט: פרויקט: עוזר ידע ארגוני · TRANSFER]] — ארגון העבודה

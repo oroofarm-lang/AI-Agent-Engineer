@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "AUT_04"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "2e385ed84c6dcf39c1e8bd2218206e3d507844ec38b5adde40a6e877c98583bf"
-related: ["[[02_CURRICULUM/2.2.0/lessons/AUT_04]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_AUT_04]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AUT_04]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/AUT_04]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_AUT_04]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AUT_04]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_04_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_04_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_04_TRANSFER]]"]
 ---
 
 # התרגול: כשלים, ניסיונות חוזרים וכפילויות
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/AUT_04]]","[[02_CURRICULUM/quiz-banks/1
 - [[02_CURRICULUM/2.2.0/lessons/AUT_04|כשלים, ניסיונות חוזרים וכפילויות]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_AUT_04|בדיקת הבנה: אותו אירוע הגיע פעמיים. מה צריך לבדוק לפני יצירת משימה עסקית נוספת?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AUT_04|הוכחה מעשית · כשלים, ניסיונות חוזרים וכפילויות]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_04_BUILD|תבנית טקסט: כשלים, ניסיונות חוזרים וכפילויות · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_04_DIAGNOSE|תבנית טקסט: כשלים, ניסיונות חוזרים וכפילויות · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_04_TRANSFER|תבנית טקסט: כשלים, ניסיונות חוזרים וכפילויות · TRANSFER]] — ארגון העבודה

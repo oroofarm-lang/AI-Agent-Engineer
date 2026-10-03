@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "AUT_01"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "0c8abf610898c89e7c50dd0f171e2b554a7f90983d9cb90f93f6ff18340371e9"
-related: ["[[02_CURRICULUM/2.2.0/lessons/AUT_01]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_AUT_01]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AUT_01]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/AUT_01]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_AUT_01]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AUT_01]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_01_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_01_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_01_TRANSFER]]"]
 ---
 
 # התרגול: אוטומציה ראשונה ב־n8n
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/AUT_01]]","[[02_CURRICULUM/quiz-banks/1
 - [[02_CURRICULUM/2.2.0/lessons/AUT_01|אוטומציה ראשונה ב־n8n]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_AUT_01|בדיקת הבנה: תהליך n8n עובד עם רשומה אחת. איזו בדיקה נוספת מבקש השיעור?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AUT_01|הוכחה מעשית · אוטומציה ראשונה ב־n8n]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_01_BUILD|תבנית טקסט: אוטומציה ראשונה ב־n8n · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_01_DIAGNOSE|תבנית טקסט: אוטומציה ראשונה ב־n8n · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_01_TRANSFER|תבנית טקסט: אוטומציה ראשונה ב־n8n · TRANSFER]] — ארגון העבודה

@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "VOI_04"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "38bece2ec67fd18bb40894467abec34f4021f57feb6b4e12a5138a85c3486469"
-related: ["[[02_CURRICULUM/2.2.0/lessons/VOI_04]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_VOI_04]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_VOI_04]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/VOI_04]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_VOI_04]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_VOI_04]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_VOI_04_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_VOI_04_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_VOI_04_TRANSFER]]"]
 ---
 
 # התרגול: שיחה חיה וקטיעות
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/VOI_04]]","[[02_CURRICULUM/quiz-banks/1
 - [[02_CURRICULUM/2.2.0/lessons/VOI_04|שיחה חיה וקטיעות]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_VOI_04|בדיקת הבנה: משתמש קוטע תשובה קולית ומשנה את בקשתו בזמן שכלי עובד. מה צריך לנהל לצד הדיבור?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_VOI_04|הוכחה מעשית · שיחה חיה וקטיעות]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_VOI_04_BUILD|תבנית טקסט: שיחה חיה וקטיעות · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_VOI_04_DIAGNOSE|תבנית טקסט: שיחה חיה וקטיעות · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_VOI_04_TRANSFER|תבנית טקסט: שיחה חיה וקטיעות · TRANSFER]] — ארגון העבודה

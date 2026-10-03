@@ -1,0 +1,60 @@
+---
+generated: true
+schema_version: 1
+kind: "interactive-template"
+entity_id: "TEMPLATE_ASSESS_W07D31_PRODUCTION_APIS_BUILD"
+curriculum_version: "2.2.0"
+template_id: "TEMPLATE_ASSESS_W07D31_PRODUCTION_APIS_BUILD"
+template_version: "1.0.0"
+lesson_id: "W07D31_PRODUCTION_APIS"
+assessment_id: "ASSESS_W07D31_PRODUCTION_APIS"
+criterion_id: "BUILD"
+rubric_version: "2.1.0"
+editor_kind: "markdown"
+source_path: "content/templates/releases/1.0.0.json"
+implementation_status: "definitions-and-formats-only"
+related: ["[[01_AGENTS/Agent-Automation-Engineer]]","[[01_AGENTS/Agent-Code-Reviewer]]","[[01_AGENTS/Agent-CRM-Sales]]","[[01_AGENTS/Agent-Curriculum-Pedagogy]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Model-Data]]","[[01_AGENTS/Agent-Quiz-Designer]]","[[01_AGENTS/Agent-Voice-Audio]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/exercises/W07D31_PRODUCTION_APIS]]","[[02_CURRICULUM/2.2.0/lessons/W07D31_PRODUCTION_APIS]]","[[02_CURRICULUM/2.2.0/skills/HTTP_APIS]]","[[02_CURRICULUM/2.2.0/sources/HTTP_OVERVIEW]]","[[02_CURRICULUM/2.2.0/sources/STRIPE_WEBHOOKS]]","[[03_PRACTICAL_PROOFS/2.2.0/evaluation-keys/ASSESS_W07D31_PRODUCTION_APIS]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W07D31_PRODUCTION_APIS]]","[[03_PRACTICAL_PROOFS/2.2.0/templates/ASSESS_W07D31_PRODUCTION_APIS]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/Index]]","[[04_AUTOMATIONS_AND_APIS/assets/TEMPLATE_FORMATS]]","[[04_AUTOMATIONS_AND_APIS/assets/TEMPLATE_SCHEMA]]"]
+---
+
+# תבנית טקסט: ממשקי API עסקיים · BUILD
+
+## המשימה
+
+חבר נתיב שירות (endpoint) עסקי וקרא תוצאות מכמה עמודים. שמור event_id וטפל בכל אירוע דרך תור מקומי. התחל בנתוני בדיקה לפני שימוש במידע אמיתי. הראה תוצר והסבר כיצד בדקת אותו.
+
+## מה לצרף
+
+צרף קלט, פלט, גרסה ופקודת הרצה או מסמך אפיון עם מבחן קבלה.
+
+## מבנה העבודה
+
+כתוב את העבודה שלך כאן. אפשר לשלב כותרות, רשימות וקוד. תאר מה עשית, מה בדקת ומה התקבל; ציין גם מה עדיין לא נבדק.
+
+תבנית טקסט בפורמט Markdown. המסמך מתחיל ריק; כתיבת כותרות בלבד אינה משלימה את המשימה.
+
+[קובץ המקור הציבורי](https://github.com/oroofarm-lang/AI-Agent-Engineer/blob/main/content/templates/releases/1.0.0.json)
+
+זו הגדרת תבנית בלבד. אין כאן תשובת לומד, שמירה אוטומטית, הגשה או תוצאה של הרצת קוד.
+
+## קשרים במפת הידע
+
+- [[01_AGENTS/Agent-Automation-Engineer|אוטומציה וחיבור מערכות]] — תחום עזרה בתבנית
+- [[01_AGENTS/Agent-Code-Reviewer|קוד וניפוי שגיאות]] — תחום עזרה בתבנית
+- [[01_AGENTS/Agent-CRM-Sales|לקוחות, מכירות ושירות]] — תחום עזרה בתבנית
+- [[01_AGENTS/Agent-Curriculum-Pedagogy|הסבר והדרכה]] — תחום עזרה בתבנית
+- [[01_AGENTS/Agent-Hebrew-UX|עברית ברורה וסיכום התשובה]] — תחום עזרה בתבנית
+- [[01_AGENTS/Agent-Model-Data|מודלים, הקשר ונתונים]] — תחום עזרה בתבנית
+- [[01_AGENTS/Agent-Quiz-Designer|תרגול ובדיקות הבנה]] — תחום עזרה בתבנית
+- [[01_AGENTS/Agent-Voice-Audio|קול, תמלול ושיחה]] — תחום עזרה בתבנית
+- [[01_AGENTS/Orchestrator-Prime|תיאום צוות ההדרכה]] — תחום עזרה בתבנית
+- [[02_CURRICULUM/2.2.0/exercises/W07D31_PRODUCTION_APIS|התרגול: ממשקי API עסקיים]] — ארגון העבודה
+- [[02_CURRICULUM/2.2.0/lessons/W07D31_PRODUCTION_APIS|ממשקי API עסקיים]] — מבנה תשובה לשיעור
+- [[02_CURRICULUM/2.2.0/skills/HTTP_APIS|HTTP/APIs]] — מיומנות בתשובה
+- [[02_CURRICULUM/2.2.0/sources/HTTP_OVERVIEW|HTTP overview]] — מקור לשיעור
+- [[02_CURRICULUM/2.2.0/sources/STRIPE_WEBHOOKS|Stripe webhooks]] — מקור לשיעור
+- [[03_PRACTICAL_PROOFS/2.2.0/evaluation-keys/ASSESS_W07D31_PRODUCTION_APIS|תנאי בדיקה: הוכחה מעשית · ממשקי API עסקיים]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W07D31_PRODUCTION_APIS|הוכחה מעשית · ממשקי API עסקיים]] — סעיף במחוון
+- [[03_PRACTICAL_PROOFS/2.2.0/templates/ASSESS_W07D31_PRODUCTION_APIS|תבנית הגשה: הוכחה מעשית · ממשקי API עסקיים]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/Index|תבניות טקסט וטבלה לכל סעיפי ההערכה]] — הגדרת תבנית
+- [[04_AUTOMATIONS_AND_APIS/assets/TEMPLATE_FORMATS|ייבוא וייצוא של תבניות העבודה]] — קוד מבנה ופורמטים
+- [[04_AUTOMATIONS_AND_APIS/assets/TEMPLATE_SCHEMA|סכמות תבניות טקסט וטבלה]] — קוד מבנה ופורמטים

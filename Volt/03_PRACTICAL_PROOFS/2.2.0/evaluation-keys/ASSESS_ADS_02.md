@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_ADS_02"
 assessment_version: "2.1.0"
 lesson_id: "ADS_02"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_ADS_02]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_ADS_02]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_02_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_02_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_02_TRANSFER]]"]
 ---
 
 # תנאי בדיקה: הוכחה מעשית · יבוא נתוני קמפיינים
@@ -41,3 +41,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_ADS_02]]"]
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_ADS_02|הוכחה מעשית · יבוא נתוני קמפיינים]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_02_BUILD|תבנית טבלה: יבוא נתוני קמפיינים · BUILD]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_02_DIAGNOSE|תבנית טקסט: יבוא נתוני קמפיינים · DIAGNOSE]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_ADS_02_TRANSFER|תבנית טקסט: יבוא נתוני קמפיינים · TRANSFER]] — תנאי בדיקה

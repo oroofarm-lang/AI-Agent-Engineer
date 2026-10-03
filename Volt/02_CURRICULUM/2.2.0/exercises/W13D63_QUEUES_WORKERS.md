@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "W13D63_QUEUES_WORKERS"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "17be5496924fef76785dd51b7ceeee798872873b85ba76110ba9a5e89cbaeb06"
-related: ["[[02_CURRICULUM/2.2.0/lessons/W13D63_QUEUES_WORKERS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W13D63_QUEUES_WORKERS]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W13D63_QUEUES_WORKERS]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/W13D63_QUEUES_WORKERS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W13D63_QUEUES_WORKERS]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W13D63_QUEUES_WORKERS]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W13D63_QUEUES_WORKERS_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W13D63_QUEUES_WORKERS_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W13D63_QUEUES_WORKERS_TRANSFER]]"]
 ---
 
 # התרגול: תורים ועובדים
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/W13D63_QUEUES_WORKERS]]","[[02_CURRICUL
 - [[02_CURRICULUM/2.2.0/lessons/W13D63_QUEUES_WORKERS|תורים ועובדים]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W13D63_QUEUES_WORKERS|בדיקת הבנה: Worker נעצר אחרי שחלק מהפעולה בוצע, והתור מסר שוב אותה עבודה. למה חשוב מזהה הפעולה?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W13D63_QUEUES_WORKERS|הוכחה מעשית · תורים ועובדים]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W13D63_QUEUES_WORKERS_BUILD|תבנית טקסט: תורים ועובדים · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W13D63_QUEUES_WORKERS_DIAGNOSE|תבנית טקסט: תורים ועובדים · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W13D63_QUEUES_WORKERS_TRANSFER|תבנית טקסט: תורים ועובדים · TRANSFER]] — ארגון העבודה

@@ -8,7 +8,7 @@ source_id: "N8N_WEBHOOK"
 url: "https://docs.n8n.io/integrations/builtin/credentials/webhook"
 last_verified: null
 technology_ids: []
-related: ["[[01_AGENTS/Agent-Automation-Engineer]]","[[02_CURRICULUM/2.2.0/Index]]","[[02_CURRICULUM/2.2.0/lessons/AUT_01]]","[[02_CURRICULUM/2.2.0/lessons/AUT_02]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_AUT_01]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_AUT_02]]","[[04_AUTOMATIONS_AND_APIS/knowledge-sources/N8N]]","[[04_AUTOMATIONS_AND_APIS/Knowledge-Updates]]","[[04_AUTOMATIONS_AND_APIS/technologies/N8N]]"]
+related: ["[[01_AGENTS/Agent-Automation-Engineer]]","[[02_CURRICULUM/2.2.0/Index]]","[[02_CURRICULUM/2.2.0/lessons/AUT_01]]","[[02_CURRICULUM/2.2.0/lessons/AUT_02]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_AUT_01]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_AUT_02]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_01_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_01_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_01_TRANSFER]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_02_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_02_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_02_TRANSFER]]","[[04_AUTOMATIONS_AND_APIS/knowledge-sources/N8N]]","[[04_AUTOMATIONS_AND_APIS/Knowledge-Updates]]","[[04_AUTOMATIONS_AND_APIS/technologies/N8N]]"]
 ---
 
 # n8n webhook credentials
@@ -31,6 +31,12 @@ related: ["[[01_AGENTS/Agent-Automation-Engineer]]","[[02_CURRICULUM/2.2.0/Index
 - [[02_CURRICULUM/2.2.0/lessons/AUT_02|חיבור גיליון, דוא״ל ומערכת CRM]] — מקור לשיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_AUT_01|בדיקת הבנה: תהליך n8n עובד עם רשומה אחת. איזו בדיקה נוספת מבקש השיעור?]] — מקור השאלה
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_AUT_02|בדיקת הבנה: בגיליון יש שני לקוחות בעלי אותו שם. על מה נכון לבסס סנכרון של רשומה חוזרת?]] — מקור השאלה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_01_BUILD|תבנית טקסט: אוטומציה ראשונה ב־n8n · BUILD]] — מקור לשיעור
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_01_DIAGNOSE|תבנית טקסט: אוטומציה ראשונה ב־n8n · DIAGNOSE]] — מקור לשיעור
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_01_TRANSFER|תבנית טקסט: אוטומציה ראשונה ב־n8n · TRANSFER]] — מקור לשיעור
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_02_BUILD|תבנית טקסט: חיבור גיליון, דוא״ל ומערכת CRM · BUILD]] — מקור לשיעור
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_02_DIAGNOSE|תבנית טקסט: חיבור גיליון, דוא״ל ומערכת CRM · DIAGNOSE]] — מקור לשיעור
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_AUT_02_TRANSFER|תבנית טקסט: חיבור גיליון, דוא״ל ומערכת CRM · TRANSFER]] — מקור לשיעור
 - [[04_AUTOMATIONS_AND_APIS/knowledge-sources/N8N|n8n]] — תיעוד בקורס
 - [[04_AUTOMATIONS_AND_APIS/Knowledge-Updates|רענון מקורות וביקורת תוכן]] — מקור בקטלוג
 - [[04_AUTOMATIONS_AND_APIS/technologies/N8N|n8n]] — תיעוד בקורס

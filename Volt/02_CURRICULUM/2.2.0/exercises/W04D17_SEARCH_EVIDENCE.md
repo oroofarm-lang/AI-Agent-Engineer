@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "W04D17_SEARCH_EVIDENCE"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "3ec27505d745e91dbe968e0d9004cc9e7f4146f6666973a46504135b438a907a"
-related: ["[[02_CURRICULUM/2.2.0/lessons/W04D17_SEARCH_EVIDENCE]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W04D17_SEARCH_EVIDENCE]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W04D17_SEARCH_EVIDENCE]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/W04D17_SEARCH_EVIDENCE]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W04D17_SEARCH_EVIDENCE]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W04D17_SEARCH_EVIDENCE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W04D17_SEARCH_EVIDENCE_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W04D17_SEARCH_EVIDENCE_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W04D17_SEARCH_EVIDENCE_TRANSFER]]"]
 ---
 
 # התרגול: חיפוש ואיכות ראיות
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/W04D17_SEARCH_EVIDENCE]]","[[02_CURRICU
 - [[02_CURRICULUM/2.2.0/lessons/W04D17_SEARCH_EVIDENCE|חיפוש ואיכות ראיות]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W04D17_SEARCH_EVIDENCE|בדיקת הבנה: איזה מידע כדאי לשמור לצד טענה שנמצאה במחקר?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W04D17_SEARCH_EVIDENCE|הוכחה מעשית · חיפוש ואיכות ראיות]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W04D17_SEARCH_EVIDENCE_BUILD|תבנית טקסט: חיפוש ואיכות ראיות · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W04D17_SEARCH_EVIDENCE_DIAGNOSE|תבנית טקסט: חיפוש ואיכות ראיות · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W04D17_SEARCH_EVIDENCE_TRANSFER|תבנית טקסט: חיפוש ואיכות ראיות · TRANSFER]] — ארגון העבודה

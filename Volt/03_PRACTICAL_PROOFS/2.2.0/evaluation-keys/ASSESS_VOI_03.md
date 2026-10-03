@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_VOI_03"
 assessment_version: "2.1.0"
 lesson_id: "VOI_03"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_VOI_03]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_VOI_03]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_VOI_03_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_VOI_03_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_VOI_03_TRANSFER]]"]
 ---
 
 # תנאי בדיקה: הוכחה מעשית · ממשק קולי עם תמלול וקריינות
@@ -41,3 +41,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_VOI_03]]"]
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_VOI_03|הוכחה מעשית · ממשק קולי עם תמלול וקריינות]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_VOI_03_BUILD|תבנית טקסט: ממשק קולי עם תמלול וקריינות · BUILD]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_VOI_03_DIAGNOSE|תבנית טקסט: ממשק קולי עם תמלול וקריינות · DIAGNOSE]] — תנאי בדיקה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_VOI_03_TRANSFER|תבנית טקסט: ממשק קולי עם תמלול וקריינות · TRANSFER]] — תנאי בדיקה

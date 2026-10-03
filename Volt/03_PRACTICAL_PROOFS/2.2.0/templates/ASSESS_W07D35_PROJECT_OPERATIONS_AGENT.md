@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_W07D35_PROJECT_OPERATIONS_AGENT"
 assessment_version: "2.1.0"
 lesson_id: "W07D35_PROJECT_OPERATIONS_AGENT"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W07D35_PROJECT_OPERATIONS_AGENT]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W07D35_PROJECT_OPERATIONS_AGENT]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W07D35_PROJECT_OPERATIONS_AGENT_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W07D35_PROJECT_OPERATIONS_AGENT_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W07D35_PROJECT_OPERATIONS_AGENT_TRANSFER]]"]
 ---
 
 # תבנית הגשה: הוכחה מעשית · פרויקט: סוכן תפעול
@@ -53,3 +53,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W07D35_PROJECT_OPERATIONS_
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W07D35_PROJECT_OPERATIONS_AGENT|הוכחה מעשית · פרויקט: סוכן תפעול]] — תבנית הגשה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W07D35_PROJECT_OPERATIONS_AGENT_BUILD|תבנית טקסט: פרויקט: סוכן תפעול · BUILD]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W07D35_PROJECT_OPERATIONS_AGENT_DIAGNOSE|תבנית טקסט: פרויקט: סוכן תפעול · DIAGNOSE]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W07D35_PROJECT_OPERATIONS_AGENT_TRANSFER|תבנית טקסט: פרויקט: סוכן תפעול · TRANSFER]] — תבנית סעיף

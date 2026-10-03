@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 lesson_id: "W03D11_WHAT_MAKES_SOMETHING_AN_AGENT"
 source_sections: ["Build First","Failure Lab","Challenge","Mastery Check"]
 source_sha256: "ca80590cbd16d88f55c1be5368d6dbb3a5d19bc78495e751bb989df3b36b0821"
-related: ["[[02_CURRICULUM/2.2.0/lessons/W03D11_WHAT_MAKES_SOMETHING_AN_AGENT]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W03D11_WHAT_MAKES_SOMETHING_AN_AGENT]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W03D11_WHAT_MAKES_SOMETHING_AN_AGENT]]"]
+related: ["[[02_CURRICULUM/2.2.0/lessons/W03D11_WHAT_MAKES_SOMETHING_AN_AGENT]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W03D11_WHAT_MAKES_SOMETHING_AN_AGENT]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W03D11_WHAT_MAKES_SOMETHING_AN_AGENT]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W03D11_WHAT_MAKES_SOMETHING_AN_AGENT_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W03D11_WHAT_MAKES_SOMETHING_AN_AGENT_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W03D11_WHAT_MAKES_SOMETHING_AN_AGENT_TRANSFER]]"]
 ---
 
 # התרגול: מה הופך מערכת לסוכן?
@@ -55,3 +55,6 @@ related: ["[[02_CURRICULUM/2.2.0/lessons/W03D11_WHAT_MAKES_SOMETHING_AN_AGENT]]"
 - [[02_CURRICULUM/2.2.0/lessons/W03D11_WHAT_MAKES_SOMETHING_AN_AGENT|מה הופך מערכת לסוכן?]] — תרגול מתוך השיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W03D11_WHAT_MAKES_SOMETHING_AN_AGENT|בדיקת הבנה: באיזה מקרה המודל פועל כסוכן, לפי ההבחנות בקורס?]] — חיזוק התרגול
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W03D11_WHAT_MAKES_SOMETHING_AN_AGENT|הוכחה מעשית · מה הופך מערכת לסוכן?]] — ראיות מהתרגול
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W03D11_WHAT_MAKES_SOMETHING_AN_AGENT_BUILD|תבנית טקסט: מה הופך מערכת לסוכן? · BUILD]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W03D11_WHAT_MAKES_SOMETHING_AN_AGENT_DIAGNOSE|תבנית טקסט: מה הופך מערכת לסוכן? · DIAGNOSE]] — ארגון העבודה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W03D11_WHAT_MAKES_SOMETHING_AN_AGENT_TRANSFER|תבנית טקסט: מה הופך מערכת לסוכן? · TRANSFER]] — ארגון העבודה

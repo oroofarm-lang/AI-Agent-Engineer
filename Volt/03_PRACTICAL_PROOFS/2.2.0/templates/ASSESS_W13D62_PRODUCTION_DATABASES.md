@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_W13D62_PRODUCTION_DATABASES"
 assessment_version: "2.1.0"
 lesson_id: "W13D62_PRODUCTION_DATABASES"
-related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W13D62_PRODUCTION_DATABASES]]"]
+related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W13D62_PRODUCTION_DATABASES]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W13D62_PRODUCTION_DATABASES_BUILD]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W13D62_PRODUCTION_DATABASES_DIAGNOSE]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W13D62_PRODUCTION_DATABASES_TRANSFER]]"]
 ---
 
 # תבנית הגשה: הוכחה מעשית · PostgreSQL ונתונים לפרודקשן
@@ -53,3 +53,6 @@ related: ["[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W13D62_PRODUCTION_DATABASE
 ## קשרים במפת הידע
 
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W13D62_PRODUCTION_DATABASES|הוכחה מעשית · PostgreSQL ונתונים לפרודקשן]] — תבנית הגשה
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W13D62_PRODUCTION_DATABASES_BUILD|תבנית טקסט: PostgreSQL ונתונים לפרודקשן · BUILD]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W13D62_PRODUCTION_DATABASES_DIAGNOSE|תבנית טקסט: PostgreSQL ונתונים לפרודקשן · DIAGNOSE]] — תבנית סעיף
+- [[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/TEMPLATE_ASSESS_W13D62_PRODUCTION_DATABASES_TRANSFER|תבנית טקסט: PostgreSQL ונתונים לפרודקשן · TRANSFER]] — תבנית סעיף
