@@ -1,0 +1,74 @@
+.workspace {
+  min-width: 0;
+  max-width: 100%;
+  border: 2px solid var(--border);
+  padding: 1rem;
+  margin-block: 1rem;
+  color: var(--text);
+}
+.workspace :global(.template-toolbar) {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  align-items: center;
+  margin-block: 1rem;
+}
+.workspace :global(.template-table-scroll) {
+  overflow-x: auto;
+  max-width: 100%;
+  border: 1px solid var(--border);
+}
+.workspace table {
+  border-collapse: collapse;
+  width: max-content;
+  min-width: 100%;
+}
+.workspace th,
+.workspace td {
+  min-width: 13rem;
+  max-width: 20rem;
+  padding: 0.6rem;
+  border: 1px solid var(--border);
+  vertical-align: top;
+}
+.workspace input,
+.workspace textarea {
+  color: var(--text);
+  background: var(--bg);
+  max-width: 100%;
+}
+.workspace :global(.template-preview) {
+  overflow-wrap: anywhere;
+  max-width: 100%;
+}
+.workspace :global(.template-preview) pre {
+  overflow-x: auto;
+  padding: 1rem;
+  background: #20282a;
+  color: #fff;
+  direction: ltr;
+  text-align: left;
+}
+.workspace :global(.template-preview) pre code {
+  color: #fff;
+  background: transparent;
+}
+.workspace :global(.code-token-keyword) {
+  font-weight: 700;
+  text-decoration: underline;
+}
+.workspace :global(.code-token-string) {
+  font-style: italic;
+}
+.workspace :global(.code-token-number) {
+  font-weight: 700;
+}
+.workspace :focus-visible {
+  outline: 3px solid currentColor;
+  outline-offset: 3px;
+}
+@media (max-width: 600px) {
+  .workspace {
+    padding: 0.65rem;
+  }
+}

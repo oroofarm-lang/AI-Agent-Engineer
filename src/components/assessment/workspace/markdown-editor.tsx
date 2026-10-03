@@ -11,6 +11,16 @@ export function MarkdownPreview({ text }: { text: string }) {
         remarkPlugins={[remarkGfm]}
         skipHtml
         components={{
+          table: ({ children }) => (
+            <div
+              className="template-table-scroll"
+              role="region"
+              tabIndex={0}
+              aria-label="תצוגת הטבלה — אפשר לגלול לרוחב"
+            >
+              <table>{children}</table>
+            </div>
+          ),
           // Links remain readable text here: preview never navigates away from unsaved work.
           a: ({ children }) => <span className="text-link">{children}</span>,
           img: ({ alt }) => <span>{alt || 'תמונה'}</span>,

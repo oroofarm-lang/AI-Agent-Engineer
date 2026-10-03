@@ -1,4 +1,8 @@
 import { randomUUID } from 'node:crypto';
+import { requireUser } from '@/lib/auth/session';
+import { getConnection } from '@/lib/db/connection';
+import { templateDraftRepository } from '@/lib/db/template-drafts';
+import { templatesForAssessment } from '@/lib/templates/catalog';
 import { AssessmentForm } from '@/components/assessment-form';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
@@ -65,6 +69,16 @@ export default async function LessonPage({
         }))
     : [];
   const assessment = c.assessments.find((a) => a.lessonId === lesson.id);
+  const user = await requireUser();
+  const templateDrafts =
+    assessment && published
+      ? templatesForAssessment(assessment).map(({ definition, hash }) =>
+          templateDraftRepository(getConnection(), c, user.id).get({
+            templateId: definition.id,
+            definitionHash: hash,
+          }),
+        )
+      : [];
   const { module: requestedModule } = await searchParams;
   const { module, next, query } = lessonNavigation(c, lesson, requestedModule);
   return (
@@ -137,6 +151,7 @@ export default async function LessonPage({
             {assessment && (
               <AssessmentForm
                 assessment={assessment}
+                templateDrafts={templateDrafts}
                 submissionId={randomUUID()}
                 curriculumVersion={c.version}
                 built={Boolean(p?.buildCompletedAt)}

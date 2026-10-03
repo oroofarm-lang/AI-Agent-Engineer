@@ -8,6 +8,7 @@ import { ArtifactPicker, type SelectedArtifact } from './assessment/artifact-pic
 import { PortfolioCard } from './assessment/portfolio-card';
 import { reducedMotion } from '@/lib/domain/motion';
 import { ReinforcementQuiz } from './assessment/reinforcement-quiz';
+import { TemplateWorkspace, type InitialWorkspace } from './assessment/workspace/workspace';
 import type { PublicPracticeQuestion } from '@/lib/quizzes/catalog';
 
 export function AssessmentForm({
@@ -16,13 +17,16 @@ export function AssessmentForm({
   curriculumVersion,
   built,
   practiceQuestion,
+  templateDrafts,
 }: {
   assessment: Assessment;
   submissionId: string;
   curriculumVersion: string;
   built: boolean;
   practiceQuestion: PublicPracticeQuestion;
+  templateDrafts: InitialWorkspace[];
 }) {
+  const [openedTemplates, setOpenedTemplates] = useState<Record<string, boolean>>({});
   const [evidence, setEvidence] = useState<Record<string, string>>({});
   const [files, setFiles] = useState<SelectedArtifact[]>([]);
   const [index, setIndex] = useState(0),
@@ -159,6 +163,26 @@ export function AssessmentForm({
                   ? 'המילוי הושלם. איכות התשובה תיבדק לאחר ההגשה.'
                   : `עוד ${Math.max(0, 80 - (evidence[item.id]?.trim().length || 0))} תווים לפחות כדי לתאר את העבודה.`}
               </p>
+              <details>
+                <summary
+                  onClick={() =>
+                    setOpenedTemplates((previous) => ({ ...previous, [item.id]: true }))
+                  }
+                >
+                  לעבוד בתבנית בתוך השיעור
+                </summary>
+                {openedTemplates[item.id] &&
+                  templateDrafts.find((d) => d.definition.criterionId === item.id) && (
+                    <TemplateWorkspace
+                      initial={templateDrafts.find((d) => d.definition.criterionId === item.id)!}
+                      curriculumVersion={curriculumVersion}
+                      disabled={disabled}
+                      onUse={(text) =>
+                        setEvidence((previous) => ({ ...previous, [item.id]: text }))
+                      }
+                    />
+                  )}
+              </details>
               <ArtifactPicker
                 criterionId={item.id}
                 files={files}

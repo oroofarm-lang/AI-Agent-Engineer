@@ -13,5 +13,5 @@ validateTemplateCatalog(raw, {
   assessments: loadCurriculum().assessments,
 });
 console.log(
-  `Templates ${templates.version}: ${templates.templates.length} exact criterion workspaces, ${templates.templates.filter((definition) => definition.kind === 'table').length} table structures. Editors/autosave are not yet wired to learner UI.`,
+  `Templates ${templates.version}: ${templates.templates.length} exact criterion workspaces, ${templates.templates.filter((definition) => definition.kind === 'table').length} table structures. Lesson editors and owned autosave are connected; direct frozen template submission remains unfinished.`,
 );

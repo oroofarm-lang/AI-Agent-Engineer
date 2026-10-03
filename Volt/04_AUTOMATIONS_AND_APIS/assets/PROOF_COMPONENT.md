@@ -6,7 +6,7 @@ entity_id: "PROOF_COMPONENT"
 curriculum_version: "2.2.0"
 source_path: "src/components/assessment-form.tsx"
 asset_kind: "ui-code"
-source_sha256: "de1ceba0535063e93c942c52f04a44fe697dcdb6ba3080b65af20a6e696ff68c"
+source_sha256: "935c558d3f2a35894fcf40b565831634f1004c6aa32e6598ae18b28bed03be5a"
 related: ["[[01_AGENTS/Agent-Curriculum-Auditor]]","[[01_AGENTS/Agent-Database-Architect]]","[[01_AGENTS/Agent-Production-Reliability]]","[[01_AGENTS/Agent-Progress-Tracker]]","[[01_AGENTS/Agent-Quiz-Designer]]","[[01_AGENTS/Agent-Security-Auditor]]","[[01_AGENTS/Agent-UI-UX-Inspector]]","[[02_CURRICULUM/2.2.0/modules/PRODUCT]]","[[02_CURRICULUM/2.2.0/modules/QUALITY]]","[[04_AUTOMATIONS_AND_APIS/Index]]"]
 ---
 
@@ -31,6 +31,7 @@ import { ArtifactPicker, type SelectedArtifact } from './assessment/artifact-pic
 import { PortfolioCard } from './assessment/portfolio-card';
 import { reducedMotion } from '@/lib/domain/motion';
 import { ReinforcementQuiz } from './assessment/reinforcement-quiz';
+import { TemplateWorkspace, type InitialWorkspace } from './assessment/workspace/workspace';
 import type { PublicPracticeQuestion } from '@/lib/quizzes/catalog';
 
 export function AssessmentForm({
@@ -39,13 +40,16 @@ export function AssessmentForm({
   curriculumVersion,
   built,
   practiceQuestion,
+  templateDrafts,
 }: {
   assessment: Assessment;
   submissionId: string;
   curriculumVersion: string;
   built: boolean;
   practiceQuestion: PublicPracticeQuestion;
+  templateDrafts: InitialWorkspace[];
 }) {
+  const [openedTemplates, setOpenedTemplates] = useState<Record<string, boolean>>({});
   const [evidence, setEvidence] = useState<Record<string, string>>({});
   const [files, setFiles] = useState<SelectedArtifact[]>([]);
   const [index, setIndex] = useState(0),
@@ -182,6 +186,26 @@ export function AssessmentForm({
                   ? 'המילוי הושלם. איכות התשובה תיבדק לאחר ההגשה.'
                   : `עוד ${Math.max(0, 80 - (evidence[item.id]?.trim().length || 0))} תווים לפחות כדי לתאר את העבודה.`}
               </p>
+              <details>
+                <summary
+                  onClick={() =>
+                    setOpenedTemplates((previous) => ({ ...previous, [item.id]: true }))
+                  }
+                >
+                  לעבוד בתבנית בתוך השיעור
+                </summary>
+                {openedTemplates[item.id] &&
+                  templateDrafts.find((d) => d.definition.criterionId === item.id) && (
+                    <TemplateWorkspace
+                      initial={templateDrafts.find((d) => d.definition.criterionId === item.id)!}
+                      curriculumVersion={curriculumVersion}
+                      disabled={disabled}
+                      onUse={(text) =>
+                        setEvidence((previous) => ({ ...previous, [item.id]: text }))
+                      }
+                    />
+                  )}
+              </details>
               <ArtifactPicker
                 criterionId={item.id}
                 files={files}

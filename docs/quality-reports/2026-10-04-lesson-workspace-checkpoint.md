@@ -1,0 +1,15 @@
+# Owned lesson workspace integration — 2026-10-04
+
+Authenticated lesson pages load only the session owner's exact-bound drafts. Each assessment section offers a lazily opened table/Markdown workspace with revisioned autosave, truthful acknowledgement/error/conflict feedback, safe live preview, JSON/CSV import/export and a downloadable local repair copy for temporarily invalid work. Explicit confirmations protect import, conflict replacement and replacing an existing evidence answer. Existing evidence answers and file uploads continue to work.
+
+The actual browser journey filled the eight-row foundation table, changed its columns, paused saving during invalid editing, resumed after refresh, exported JSON, rejected malformed import, simulated a server write with a lost network acknowledgement, retried without losing newer typing, detected a second-tab revision conflict and explicitly loaded the saved version. It checked responsive widths of 390, 768 and 1440 pixels and automated accessibility rules. Visual inspection found an unwrapped wide preview table; a focusable horizontal scroll region was added, and actual keyboard scrolling passed on the final build.
+
+Final `npm run quality:audit` passed: lint, type checking, 205 tests across 31 files, 18 Python labs, production build/privacy checks and all 31 Chromium journeys. The suite also rendered all 139 published lessons and retained the existing authenticated submission/portfolio journeys. Runtime warnings about an interrupted response stream and unavailable trusted client IP detection were observed. These checks do not certify WCAG or production proxy configuration.
+
+Protected Volt synchronization updated 435 generated files. A second synchronization changed zero files and left the manifest unchanged. Verification found no integrity error across 1,807 retained public files, 37 canvases, 1,461 current file nodes, 16,211 reciprocal Root edges and 65,203 current-note wikilink occurrences. Personal Obsidian settings and learner content were excluded. Native Sidian was not verified.
+
+Independent Hebrew review read the final workspace and public template projection scripts in full, with explicitly partial review of the main exporter and assessment-form insertion. The new preview label was reviewed separately. Exact scopes/hashes are retained privately; this is not an all-course linguistic certification.
+
+The local app was found stopped, restarted on the unused port 3000 and returned the expected anonymous login redirect (307). No learner records were inspected or reset. The browser tab request was queued by the app.
+
+Remaining: direct `הגש מתוך הטמפלייט` submission with frozen JSON artifacts in the existing owned transaction, PDF export, template-aware Mentor context, pending-edit navigation protection and formatting-only completion hardening. Copying template text into evidence is not direct template artifact submission. Human teaching review, real configured-provider execution and deployment need their own acceptance evidence.

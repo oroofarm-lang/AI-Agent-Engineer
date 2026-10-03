@@ -972,7 +972,7 @@ describe('public interactive-template structure projection', () => {
       const file = `03_PRACTICAL_PROOFS/template-workspaces/1.0.0/${definition.id}.md`;
       const note = result.files.get(file)!;
       expect(note).toContain(definition.prompt);
-      expect(note).toContain('definitions-formats-owned-drafts-no-editor');
+      expect(note).toContain('editors-autosave-no-template-submission');
       expect(note).toContain('זו הגדרת תבנית בלבד');
       expect(nodes.has(file)).toBe(true);
       for (const related of [

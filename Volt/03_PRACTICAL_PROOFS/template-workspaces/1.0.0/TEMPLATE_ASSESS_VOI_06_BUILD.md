@@ -12,7 +12,7 @@ criterion_id: "BUILD"
 rubric_version: "2.1.0"
 editor_kind: "markdown"
 source_path: "content/templates/releases/1.0.0.json"
-implementation_status: "definitions-formats-owned-drafts-no-editor"
+implementation_status: "editors-autosave-no-template-submission"
 related: ["[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Voice-Audio]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/exercises/VOI_06]]","[[02_CURRICULUM/2.2.0/lessons/VOI_06]]","[[02_CURRICULUM/2.2.0/skills/VOICE_SYSTEMS]]","[[02_CURRICULUM/2.2.0/sources/GEMINI_DOCUMENTS]]","[[02_CURRICULUM/2.2.0/sources/OPENAI_AUDIO]]","[[03_PRACTICAL_PROOFS/2.2.0/evaluation-keys/ASSESS_VOI_06]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_VOI_06]]","[[03_PRACTICAL_PROOFS/2.2.0/templates/ASSESS_VOI_06]]","[[03_PRACTICAL_PROOFS/template-workspaces/1.0.0/Index]]","[[04_AUTOMATIONS_AND_APIS/assets/TEMPLATE_DRAFT_CONTRACT]]","[[04_AUTOMATIONS_AND_APIS/assets/TEMPLATE_FORMATS]]","[[04_AUTOMATIONS_AND_APIS/assets/TEMPLATE_SCHEMA]]","[[04_AUTOMATIONS_AND_APIS/endpoints/TEMPLATE_DRAFTS]]"]
 ---
 
@@ -34,7 +34,7 @@ related: ["[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Voice-Audio]]","[[0
 
 [קובץ המקור הציבורי](https://github.com/oroofarm-lang/AI-Agent-Engineer/blob/main/content/templates/releases/1.0.0.json)
 
-זו הגדרת תבנית בלבד. אין כאן תשובת לומד, הגשה או תוצאה של הרצת קוד. שירות שמירת הטיוטות הפרטיות מקושר בנפרד; עורך השיעור עדיין לא חובר אליו.
+זו הגדרת תבנית בלבד. אין כאן תשובת לומד, הגשה או תוצאה של הרצת קוד. עורך השיעור מחובר לשירות שמירת הטיוטות הפרטיות. ההגשה הישירה כקובץ תבנית מובנה עדיין לא חוברה; אין לייצא לכאן תוכן טיוטות או עבודות אישיות.
 
 ## קשרים במפת הידע
 
