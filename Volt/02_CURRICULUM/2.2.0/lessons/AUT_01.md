@@ -11,7 +11,7 @@ source_ids: ["N8N_WEBHOOK","N8N_APPROVALS"]
 prerequisite_lesson_ids: ["W07D35_PROJECT_OPERATIONS_AGENT"]
 source_sha256: "0c8abf610898c89e7c50dd0f171e2b554a7f90983d9cb90f93f6ff18340371e9"
 estimated_minutes: 150
-related: ["[[01_AGENTS/Agent-Agentic-Workflows]]","[[01_AGENTS/Agent-Automation-Engineer]]","[[01_AGENTS/Agent-Business-Discovery]]","[[01_AGENTS/Agent-Code-Reviewer]]","[[01_AGENTS/Agent-CRM-Sales]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Security-Auditor]]","[[01_AGENTS/Agent-Voice-Audio]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/exercises/AUT_01]]","[[02_CURRICULUM/2.2.0/lessons/AUT_02]]","[[02_CURRICULUM/2.2.0/lessons/W07D35_PROJECT_OPERATIONS_AGENT]]","[[02_CURRICULUM/2.2.0/modules/AUTOMATION]]","[[02_CURRICULUM/2.2.0/skills/HTTP_APIS]]","[[02_CURRICULUM/2.2.0/skills/HUMAN_APPROVAL]]","[[02_CURRICULUM/2.2.0/skills/WORKFLOWS]]","[[02_CURRICULUM/2.2.0/sources/N8N_APPROVALS]]","[[02_CURRICULUM/2.2.0/sources/N8N_WEBHOOK]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_AUT_01]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AUT_01]]"]
+related: ["[[01_AGENTS/Agent-Agentic-Workflows]]","[[01_AGENTS/Agent-Automation-Engineer]]","[[01_AGENTS/Agent-Business-Discovery]]","[[01_AGENTS/Agent-Code-Reviewer]]","[[01_AGENTS/Agent-CRM-Sales]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Security-Auditor]]","[[01_AGENTS/Agent-Voice-Audio]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/exercises/AUT_01]]","[[02_CURRICULUM/2.2.0/lessons/AUT_02]]","[[02_CURRICULUM/2.2.0/lessons/W07D35_PROJECT_OPERATIONS_AGENT]]","[[02_CURRICULUM/2.2.0/modules/AUTOMATION]]","[[02_CURRICULUM/2.2.0/skills/HTTP_APIS]]","[[02_CURRICULUM/2.2.0/skills/HUMAN_APPROVAL]]","[[02_CURRICULUM/2.2.0/skills/WORKFLOWS]]","[[02_CURRICULUM/2.2.0/sources/N8N_APPROVALS]]","[[02_CURRICULUM/2.2.0/sources/N8N_WEBHOOK]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_AUT_01]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AUT_01]]","[[04_AUTOMATIONS_AND_APIS/knowledge-sources/N8N]]","[[04_AUTOMATIONS_AND_APIS/technologies/N8N]]"]
 ---
 
 # אוטומציה ראשונה ב־n8n
@@ -128,3 +128,5 @@ Input → Contract check → Work / model proposal → Result check → Evidence
 - [[02_CURRICULUM/2.2.0/sources/N8N_WEBHOOK|n8n webhook credentials]] — מקור לשיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_AUT_01|בדיקת הבנה: תהליך n8n עובד עם רשומה אחת. איזו בדיקה נוספת מבקש השיעור?]] — בדיקת הבנה
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AUT_01|הוכחה מעשית · אוטומציה ראשונה ב־n8n]] — הוכחה מעשית
+- [[04_AUTOMATIONS_AND_APIS/knowledge-sources/N8N|n8n]] — שיעור קשור למעקב
+- [[04_AUTOMATIONS_AND_APIS/technologies/N8N|n8n]] — טכנולוגיה בשיעור

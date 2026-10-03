@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0",
+  "technologies": [
+    {
+      "id": "OPENAI_API",
+      "name": "OpenAI API and models",
+      "category": "models",
+      "officialDocs": "https://developers.openai.com/api/docs",
+      "versionStrategy": "model-catalog-and-changelog",
+      "courseSourceIds": [
+        "OPENAI_QUICKSTART",
+        "OPENAI_SCHEMA",
+        "OPENAI_TOOLS",
+        "OPENAI_DEPRECATIONS",
+        "OPENAI_AUDIO",
+        "OPENAI_IMAGE",
+        "OPENAI_VIDEO"
+      ]
+    },
+    {
+      "id": "OPENAI_AGENTS_SDK",
+      "name": "OpenAI Agents SDK",
+      "category": "framework",
+      "officialDocs": "https://openai.github.io/openai-agents-python/",
+      "versionStrategy": "github-releases",
+      "courseSourceIds": ["OPENAI_AGENTS"]
+    },
+    {
+      "id": "LANGGRAPH",
+      "name": "LangGraph",
+      "category": "framework",
+      "officialDocs": "https://docs.langchain.com/oss/python/langgraph/overview",
+      "versionStrategy": "github-releases",
+      "courseSourceIds": ["LANGGRAPH_STATE"]
+    },
+    {
+      "id": "MCP",
+      "name": "Model Context Protocol",
+      "category": "protocol",
+      "officialDocs": "https://modelcontextprotocol.io/",
+      "versionStrategy": "sdk-release-discovery",
+      "courseSourceIds": ["MCP_SPEC"]
+    },
+    {
+      "id": "N8N",
+      "name": "n8n",
+      "category": "automation",
+      "officialDocs": "https://docs.n8n.io/",
+      "versionStrategy": "github-releases",
+      "courseSourceIds": ["N8N_APPROVALS", "N8N_EVALS", "N8N_WEBHOOK"]
+    },
+    {
+      "id": "OLLAMA",
+      "name": "Ollama",
+      "category": "model-runtime",
+      "officialDocs": "https://docs.ollama.com/",
+      "versionStrategy": "github-releases",
+      "courseSourceIds": ["OLLAMA_SCHEMA"]
+    }
+  ],
+  "sources": [
+    {
+      "id": "AGENTS_SDK",
+      "name": "OpenAI Agents SDK",
+      "reader": "github-releases",
+      "kind": "framework-release",
+      "url": "https://api.github.com/repos/openai/openai-agents-python/releases?per_page=3",
+      "repo": "openai/openai-agents-python",
+      "technologyIds": ["OPENAI_AGENTS_SDK"]
+    },
+    {
+      "id": "LANGGRAPH",
+      "name": "LangGraph",
+      "reader": "github-releases",
+      "kind": "framework-release",
+      "url": "https://api.github.com/repos/langchain-ai/langgraph/releases?per_page=3",
+      "repo": "langchain-ai/langgraph",
+      "technologyIds": ["LANGGRAPH"]
+    },
+    {
+      "id": "MCP_SDK",
+      "name": "MCP TypeScript SDK",
+      "reader": "github-releases",
+      "kind": "framework-release",
+      "url": "https://api.github.com/repos/modelcontextprotocol/typescript-sdk/releases?per_page=3",
+      "repo": "modelcontextprotocol/typescript-sdk",
+      "technologyIds": ["MCP"]
+    },
+    {
+      "id": "N8N",
+      "name": "n8n",
+      "reader": "github-releases",
+      "kind": "automation-release",
+      "url": "https://api.github.com/repos/n8n-io/n8n/releases?per_page=3",
+      "repo": "n8n-io/n8n",
+      "technologyIds": ["N8N"]
+    },
+    {
+      "id": "OLLAMA",
+      "name": "Ollama",
+      "reader": "github-releases",
+      "kind": "model-runtime-release",
+      "url": "https://api.github.com/repos/ollama/ollama/releases?per_page=3",
+      "repo": "ollama/ollama",
+      "technologyIds": ["OLLAMA"]
+    },
+    {
+      "id": "OPENAI_NEWS",
+      "name": "OpenAI News",
+      "reader": "news-rss",
+      "kind": "news",
+      "url": "https://openai.com/news/rss.xml",
+      "technologyIds": ["OPENAI_API", "OPENAI_AGENTS_SDK"]
+    },
+    {
+      "id": "OPENAI_MODELS",
+      "name": "OpenAI model catalog",
+      "reader": "model-markdown",
+      "kind": "model-catalog",
+      "url": "https://developers.openai.com/api/docs/models.md",
+      "technologyIds": ["OPENAI_API"]
+    },
+    {
+      "id": "OPENAI_CHANGELOG",
+      "name": "OpenAI API changelog",
+      "reader": "changelog-markdown",
+      "kind": "api-changelog",
+      "url": "https://developers.openai.com/api/docs/changelog.md",
+      "technologyIds": ["OPENAI_API"]
+    }
+  ]
+}

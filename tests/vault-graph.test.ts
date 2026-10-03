@@ -4,6 +4,7 @@ import { existsSync, readFileSync } from 'node:fs';
 import path from 'node:path';
 import os from 'node:os';
 import { loadCurriculum, readLesson } from '../src/lib/curriculum/load';
+import { loadKnowledgeRegistry } from '../src/lib/ai/knowledge-registry';
 
 type Relation = { from: string; to: string; type: string };
 type Export = { files: Map<string, string>; relations: Relation[]; counts: Record<string, number> };
@@ -28,7 +29,8 @@ const lessonBodies = Object.fromEntries(
   curriculum.lessons.map((lesson) => [lesson.id, readLesson(lesson.id)]),
 );
 const registry = JSON.parse(readFileSync('content/agents/registry.json', 'utf8'));
-const graph = builder.buildVaultFiles({ curriculum, lessonBodies, registry });
+const knowledgeRegistry = loadKnowledgeRegistry(curriculum);
+const graph = builder.buildVaultFiles({ curriculum, lessonBodies, registry, knowledgeRegistry });
 const temporary: string[] = [];
 afterEach(async () => {
   vi.restoreAllMocks();
@@ -45,6 +47,33 @@ const write = (vaultRoot: string, files: Map<string, string>) =>
   writer.writeVaultFiles({ vaultRoot, files, version: curriculum.version });
 
 describe('complete public knowledge graph', () => {
+  it('links every tracked technology and discovery source to actual relevant lessons and preserves Canvas relation labels', () => {
+    expect(graph.counts).toMatchObject({ technologies: 6, discoverySources: 8 });
+    const linked = new Set(graph.relations.map((r) => `${r.from}\0${r.to}`));
+    for (const source of knowledgeRegistry.sources) {
+      const file = `04_AUTOMATIONS_AND_APIS/knowledge-sources/${source.id}.md`;
+      expect(graph.files.get(file)).toContain('verification: "discovery-only"');
+      for (const id of source.lessonIds) {
+        const lesson = `02_CURRICULUM/${curriculum.version}/lessons/${id}.md`;
+        expect(linked.has(`${file}\0${lesson}`)).toBe(true);
+        expect(linked.has(`${lesson}\0${file}`)).toBe(true);
+      }
+    }
+    const canvas = JSON.parse(graph.files.get('Root_Knowledge_Graph.canvas')!);
+    const pathToId = new Map<string, string>(
+      canvas.nodes
+        .filter((n: { type: string }) => n.type === 'file')
+        .map((n: { file: string; id: string }) => [n.file, n.id]),
+    );
+    for (const relation of graph.relations) {
+      const edge = canvas.edges.find(
+        (e: { fromNode: string; toNode: string }) =>
+          (e.fromNode === pathToId.get(relation.from) && e.toNode === pathToId.get(relation.to)) ||
+          (e.fromNode === pathToId.get(relation.to) && e.toNode === pathToId.get(relation.from)),
+      );
+      expect(edge.label.split(' · ')).toContain(relation.type);
+    }
+  });
   it('links the entire real question draft to source notes, lessons and rubrics without releasing it', () => {
     const quizBank = JSON.parse(
       readFileSync('content/authoring/quiz-bank/1.0.0-draft.json', 'utf8'),
@@ -182,6 +211,16 @@ describe('complete public knowledge graph', () => {
       expect(ids.has(edge.toNode)).toBe(true);
     }
     expect(new Set(canvas.edges.map((edge) => edge.id)).size).toBe(canvas.edges.length);
+    const overview = JSON.parse(graph.files.get('00_ORCHESTRATION/System_Overview.canvas')!);
+    expect(overview.nodes.length).toBe(graph.counts.overviewFileNodes);
+    expect(overview.nodes.length).toBeLessThan(25);
+    const overviewIds = new Set(overview.nodes.map((node: Node) => node.id));
+    for (const node of overview.nodes) expect(graph.files.has(node.file)).toBe(true);
+    for (const edge of overview.edges) {
+      expect(overviewIds.has(edge.fromNode)).toBe(true);
+      expect(overviewIds.has(edge.toNode)).toBe(true);
+      expect(canvas.edges.some((full) => full.id === edge.id)).toBe(true);
+    }
     for (let i = 0; i < nodes.length; i++)
       for (let j = i + 1; j < nodes.length; j++) {
         const a = nodes[i],
@@ -196,7 +235,12 @@ describe('complete public knowledge graph', () => {
   });
 
   it('is deterministic and references actual public source files, never learner data or imaginary media', () => {
-    const again = builder.buildVaultFiles({ curriculum, lessonBodies, registry });
+    const again = builder.buildVaultFiles({
+      curriculum,
+      lessonBodies,
+      registry,
+      knowledgeRegistry,
+    });
     expect([...again.files]).toEqual([...graph.files]);
     for (const asset of builder.publicAssetCatalog)
       expect(existsSync(asset.sourcePath), asset.sourcePath).toBe(true);

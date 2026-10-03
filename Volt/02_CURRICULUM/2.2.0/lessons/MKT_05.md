@@ -11,7 +11,7 @@ source_ids: ["OPENAI_SCHEMA","GOOGLE_AI_CONTENT"]
 prerequisite_lesson_ids: ["MKT_04"]
 source_sha256: "5b0b8669bfecaefea682c9366dc1dc0a0e8a48eafb36b2d57507da20c1548a86"
 estimated_minutes: 150
-related: ["[[01_AGENTS/Agent-Curriculum-Auditor]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Knowledge-RAG]]","[[01_AGENTS/Agent-Marketing-Growth]]","[[01_AGENTS/Agent-Model-Data]]","[[01_AGENTS/Agent-Paid-Media-Measurement]]","[[01_AGENTS/Agent-Visual-Media]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/exercises/MKT_05]]","[[02_CURRICULUM/2.2.0/lessons/MKT_04]]","[[02_CURRICULUM/2.2.0/lessons/MKT_06]]","[[02_CURRICULUM/2.2.0/modules/MARKETING]]","[[02_CURRICULUM/2.2.0/skills/CONTENT_PIPELINES]]","[[02_CURRICULUM/2.2.0/skills/GROUNDING]]","[[02_CURRICULUM/2.2.0/sources/GOOGLE_AI_CONTENT]]","[[02_CURRICULUM/2.2.0/sources/OPENAI_SCHEMA]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_MKT_05]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_05]]"]
+related: ["[[01_AGENTS/Agent-Curriculum-Auditor]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Knowledge-RAG]]","[[01_AGENTS/Agent-Marketing-Growth]]","[[01_AGENTS/Agent-Model-Data]]","[[01_AGENTS/Agent-Paid-Media-Measurement]]","[[01_AGENTS/Agent-Visual-Media]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/exercises/MKT_05]]","[[02_CURRICULUM/2.2.0/lessons/MKT_04]]","[[02_CURRICULUM/2.2.0/lessons/MKT_06]]","[[02_CURRICULUM/2.2.0/modules/MARKETING]]","[[02_CURRICULUM/2.2.0/skills/CONTENT_PIPELINES]]","[[02_CURRICULUM/2.2.0/skills/GROUNDING]]","[[02_CURRICULUM/2.2.0/sources/GOOGLE_AI_CONTENT]]","[[02_CURRICULUM/2.2.0/sources/OPENAI_SCHEMA]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_MKT_05]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_05]]","[[04_AUTOMATIONS_AND_APIS/knowledge-sources/OPENAI_CHANGELOG]]","[[04_AUTOMATIONS_AND_APIS/knowledge-sources/OPENAI_MODELS]]","[[04_AUTOMATIONS_AND_APIS/knowledge-sources/OPENAI_NEWS]]","[[04_AUTOMATIONS_AND_APIS/technologies/OPENAI_API]]"]
 ---
 
 # מקור אחד לכמה פורמטים
@@ -126,3 +126,7 @@ Input → Contract check → Work / model proposal → Result check → Evidence
 - [[02_CURRICULUM/2.2.0/sources/OPENAI_SCHEMA|OpenAI structured outputs]] — מקור לשיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_MKT_05|בדיקת הבנה: מאמר אומר שהשירות זמין רק ללקוחות רשומים, אך הפוסט המקוצר משמיט את התנאי. האם זו התאמה תקינה לפורמט?]] — בדיקת הבנה
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_05|הוכחה מעשית · מקור אחד לכמה פורמטים]] — הוכחה מעשית
+- [[04_AUTOMATIONS_AND_APIS/knowledge-sources/OPENAI_CHANGELOG|OpenAI API changelog]] — שיעור קשור למעקב
+- [[04_AUTOMATIONS_AND_APIS/knowledge-sources/OPENAI_MODELS|OpenAI model catalog]] — שיעור קשור למעקב
+- [[04_AUTOMATIONS_AND_APIS/knowledge-sources/OPENAI_NEWS|OpenAI News]] — שיעור קשור למעקב
+- [[04_AUTOMATIONS_AND_APIS/technologies/OPENAI_API|OpenAI API and models]] — טכנולוגיה בשיעור

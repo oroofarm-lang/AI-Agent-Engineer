@@ -8,7 +8,7 @@ source_id: "OPENAI_DEPRECATIONS"
 url: "https://developers.openai.com/api/docs/deprecations"
 last_verified: null
 technology_ids: []
-related: ["[[01_AGENTS/Agent-Curriculum-Auditor]]","[[02_CURRICULUM/2.2.0/Index]]","[[02_CURRICULUM/2.2.0/lessons/W08D38_MANAGED_DURABLE_AGENT_RUNTIME_CONCEPTS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W08D38_MANAGED_DURABLE_AGENT_RUNTIME_CONCEPTS]]","[[04_AUTOMATIONS_AND_APIS/Knowledge-Updates]]"]
+related: ["[[01_AGENTS/Agent-Curriculum-Auditor]]","[[02_CURRICULUM/2.2.0/Index]]","[[02_CURRICULUM/2.2.0/lessons/W08D38_MANAGED_DURABLE_AGENT_RUNTIME_CONCEPTS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W08D38_MANAGED_DURABLE_AGENT_RUNTIME_CONCEPTS]]","[[04_AUTOMATIONS_AND_APIS/knowledge-sources/OPENAI_CHANGELOG]]","[[04_AUTOMATIONS_AND_APIS/knowledge-sources/OPENAI_MODELS]]","[[04_AUTOMATIONS_AND_APIS/knowledge-sources/OPENAI_NEWS]]","[[04_AUTOMATIONS_AND_APIS/Knowledge-Updates]]","[[04_AUTOMATIONS_AND_APIS/technologies/OPENAI_API]]"]
 ---
 
 # OpenAI deprecations
@@ -29,4 +29,8 @@ related: ["[[01_AGENTS/Agent-Curriculum-Auditor]]","[[02_CURRICULUM/2.2.0/Index]
 - [[02_CURRICULUM/2.2.0/Index|כל הפרקים והשיעורים]] — מקור
 - [[02_CURRICULUM/2.2.0/lessons/W08D38_MANAGED_DURABLE_AGENT_RUNTIME_CONCEPTS|סביבות הרצה מנוהלות ושמירת מצב]] — מקור לשיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W08D38_MANAGED_DURABLE_AGENT_RUNTIME_CONCEPTS|בדיקת הבנה: סביבת הרצה שמרה את מצב התהליך. מה עדיין צריך לבדוק לפני שחוזרים על פעולה חיצונית?]] — מקור השאלה
+- [[04_AUTOMATIONS_AND_APIS/knowledge-sources/OPENAI_CHANGELOG|OpenAI API changelog]] — תיעוד בקורס
+- [[04_AUTOMATIONS_AND_APIS/knowledge-sources/OPENAI_MODELS|OpenAI model catalog]] — תיעוד בקורס
+- [[04_AUTOMATIONS_AND_APIS/knowledge-sources/OPENAI_NEWS|OpenAI News]] — תיעוד בקורס
 - [[04_AUTOMATIONS_AND_APIS/Knowledge-Updates|רענון מקורות וביקורת תוכן]] — מקור בקטלוג
+- [[04_AUTOMATIONS_AND_APIS/technologies/OPENAI_API|OpenAI API and models]] — תיעוד בקורס

@@ -131,6 +131,16 @@ export const publicAssetCatalog = [
 
 export const publicApiCatalog = [
   {
+    id: 'KNOWLEDGE',
+    path: '/api/knowledge',
+    methods: ['GET', 'POST'],
+    title: 'מקורות רשמיים ועדכונים',
+    scope: 'signed-in-read/operator-refresh',
+    sourcePath: 'src/app/api/knowledge/route.ts',
+    description:
+      'קריאה של תוצאות גילוי ציבוריות לחשבון מחובר. רענון מקורות קבועים מותר למפעיל מאומת בלבד, ללא קבלת כתובת או נתיב מהלקוח. הרענון מוגבל למועדי הבדיקה הקיימים ואינו משנה שיעורים.',
+  },
+  {
     id: 'AGENT_ORCHESTRATE',
     path: '/api/agents/orchestrate',
     methods: ['POST'],
@@ -323,6 +333,7 @@ export function buildVaultFiles({
   lessonBodies,
   registry,
   quizBank,
+  knowledgeRegistry,
   publicAssets = publicAssetCatalog,
   apis = publicApiCatalog,
 }) {
@@ -353,6 +364,8 @@ export function buildVaultFiles({
     tool: new Map(),
     api: new Map(),
     asset: new Map(),
+    technology: new Map(),
+    feed: new Map(),
   };
   function add(file, kind, id, title, body, metadata = {}) {
     if (vertices.has(file)) throw new Error(`Duplicate vault path: ${file}`);
@@ -386,7 +399,7 @@ export function buildVaultFiles({
     'root',
     'INDEX',
     'מפת הידע של הקורס',
-    `הכספת מקשרת בין התוכנית שפורסמה, מומחי הלמידה, תרגילים, מחוונים וחיבורי המערכת. גרסת הקורס הפעילה: **${version}**.\n\nפתח את [[Root_Knowledge_Graph.canvas|המפה החזותית המלאה]]. אפשר להזיז ולהגדיל את המפה כדי להגיע לכל פרק ושיעור.\n\nהכספת מכילה חומר ציבורי בלבד. מחברות, שיחות, חשבונות, ציונים וקובצי הגשה פרטיים נשארים מחוץ לגרף. שמירה ב־Obsidian אינה משנה התקדמות באפליקציה.\n\nייצוא קודם בתיקיית קורס נשמר. הקבצים שנוצרו מוגנים מפני דריסת עריכה ידנית; רשומה ששונתה עוצרת את הסנכרון לפני כתיבה.`,
+    `הכספת מקשרת בין התוכנית שפורסמה, מומחי הלמידה, תרגילים, מחוונים וחיבורי המערכת. גרסת הקורס הפעילה: **${version}**.\n\nהתחל ב־[[00_ORCHESTRATION/System_Overview.canvas|מפת מבט על]]: מפה קטנה שמציגה את חמשת חלקי המערכת וכמה דוגמאות לקשרים ביניהם. לכל השיעורים, המומחים והתרגילים, פתח את [[Root_Knowledge_Graph.canvas|המפה החזותית המלאה]]. אפשר להזיז ולהגדיל את המפה כדי להגיע לכל פרק ושיעור.\n\nלגרף הקשרים של Obsidian: פתח את תצוגת הגרף מהתפריט. בחר רשומה ופתח גרף מקומי כדי לראות את השכנים שלה; הגדל את עומק הקשרים כדי להרחיב את המפה. כל קשר מופיע גם כקישור לחיץ בסוף הרשומה.\n\nהכספת מכילה חומר ציבורי בלבד. מחברות, שיחות, חשבונות, ציונים וקובצי הגשה פרטיים נשארים מחוץ לגרף. שמירה ב־Obsidian אינה משנה התקדמות באפליקציה.\n\nייצוא קודם בתיקיית קורס נשמר. הקבצים שנוצרו מוגנים מפני דריסת עריכה ידנית; רשומה ששונתה עוצרת את הסנכרון לפני כתיבה.`,
   );
   const sectionIndexes = {
     orchestration: add(
@@ -685,6 +698,81 @@ export function buildVaultFiles({
   connect(sectionIndexes.integrations, knowledge, 'אוטומציה');
   connect(knowledge, prime, 'הקשר של עדכונים');
   connect(knowledge, policies, 'גבולות אימות');
+  if (paths.api.has('KNOWLEDGE'))
+    connect(knowledge, paths.api.get('KNOWLEDGE'), 'קריאת תוצאות ורענון');
+  if (knowledgeRegistry) {
+    for (const technology of knowledgeRegistry.technologies) {
+      validateId(technology.id, 'technology');
+      const file = add(
+        `04_AUTOMATIONS_AND_APIS/technologies/${technology.id}.md`,
+        'technology',
+        technology.id,
+        technology.name,
+        `הטכנולוגיה מקושרת למקורות הקורס ולשיעורים המשתמשים בהם.\n\n[תיעוד רשמי](${technology.officialDocs})\n\nדרך גילוי עדכונים: \`${technology.versionStrategy}\`. רשומה זו מתארת את החיבור למקורות; היא אינה מוכיחה שנבדקה גרסה חדשה או ששינוי הוטמע בשיעור.`,
+        {
+          technology_id: technology.id,
+          registry_version: knowledgeRegistry.version,
+          category: technology.category,
+          course_source_ids: technology.courseSourceIds,
+        },
+      );
+      paths.technology.set(technology.id, file);
+      connect(file, knowledge, 'טכנולוגיה במעקב');
+      for (const sourceId of technology.courseSourceIds) {
+        if (!paths.source.has(sourceId)) throw new Error('Unknown technology course source');
+        connect(file, paths.source.get(sourceId), 'תיעוד בקורס');
+      }
+      for (const lesson of lessons.filter((entry) =>
+        entry.sourceIds.some((id) => technology.courseSourceIds.includes(id)),
+      )) {
+        connect(file, paths.lesson.get(lesson.id), 'טכנולוגיה בשיעור');
+        for (const skillId of lesson.skillIds)
+          connect(file, paths.skill.get(skillId), 'מיומנות קשורה');
+      }
+      for (const agent of registry.agents.filter((entry) =>
+        entry.sourceIds.some((id) => technology.courseSourceIds.includes(id)),
+      ))
+        connect(file, paths.agent.get(agent.id), 'מקור למומחה');
+    }
+    for (const source of knowledgeRegistry.sources) {
+      validateId(source.id, 'knowledge source');
+      const file = add(
+        `04_AUTOMATIONS_AND_APIS/knowledge-sources/${source.id}.md`,
+        'knowledge-source',
+        source.id,
+        source.name,
+        `מקור רשמי לגילוי עדכונים.\n\n[כתובת המקור](${source.url})\n\nאופן קריאת המקור: \`${source.reader}\`. סוג העדכון: \`${source.kind}\`.\n\nהשרת שומר מידע מוגבל על פרסומים, מועד קריאת המקור ומצב הצלחה או כשל. איסוף העדכונים מהמקור מתוכנן לשלוש פעמים בשבוע. מצב האחזור בפועל נמצא באפליקציה; הכספת אינה מציגה בדיקה שלא בוצעה. כותרות ודפי קטלוג אינם אישור להתנהגות API או לזמינות מודל בחשבון.`,
+        {
+          discovery_source_id: source.id,
+          registry_version: knowledgeRegistry.version,
+          reader: source.reader,
+          source_kind: source.kind,
+          endpoint: source.url,
+          verification: 'discovery-only',
+        },
+      );
+      paths.feed.set(source.id, file);
+      connect(file, knowledge, 'מקור מתעדכן');
+      for (const id of source.technologyIds) {
+        if (!paths.technology.has(id)) throw new Error('Unknown source technology');
+        connect(file, paths.technology.get(id), 'עדכונים לטכנולוגיה');
+      }
+      for (const id of source.courseSourceIds) {
+        if (!paths.source.has(id)) throw new Error('Unknown discovery course source');
+        connect(file, paths.source.get(id), 'תיעוד בקורס');
+      }
+      for (const id of source.lessonIds) {
+        if (!paths.lesson.has(id)) throw new Error('Unknown discovery lesson');
+        connect(file, paths.lesson.get(id), 'שיעור קשור למעקב');
+      }
+      for (const id of source.moduleIds) {
+        if (!paths.module.has(id)) throw new Error('Unknown discovery module');
+        connect(file, paths.module.get(id), 'פרק קשור');
+      }
+      if (paths.tool.has('knowledge.read'))
+        connect(file, paths.tool.get('knowledge.read'), 'הקשר של המנטור');
+    }
+  }
   for (const asset of publicAssets) {
     validateId(asset.id, 'asset');
     safePublicSource(asset.sourcePath);
@@ -894,7 +982,13 @@ export function buildVaultFiles({
     ['פרקים ושיעורים', ['module', 'lesson', 'exercise'], 5000, 0, '#5'],
     ['הוכחות מעשיות', ['proof', 'submission-template', 'evaluation-key'], 10000, 0, '#3'],
     ['מיומנויות ומקורות', ['skill', 'source', 'quiz'], 15000, 0, '#2'],
-    ['ממשקים וקובצי עזר', ['tool', 'api', 'asset', 'configuration', 'automation'], 20000, 0, '#6'],
+    [
+      'ממשקים וקובצי עזר',
+      ['tool', 'api', 'asset', 'configuration', 'automation', 'technology', 'knowledge-source'],
+      20000,
+      0,
+      '#6',
+    ],
   ];
   for (const [label, kinds, x, y, color] of buckets) {
     const members = [...vertices.values()].filter((vertex) => kinds.includes(vertex.kind));
@@ -924,11 +1018,14 @@ export function buildVaultFiles({
       });
     });
   }
-  const canvasPairs = new Set();
+  const canvasPairs = new Map();
   for (const relation of relations) {
     const pair = [relation.from, relation.to].sort().join('\0');
-    if (canvasPairs.has(pair)) continue;
-    canvasPairs.add(pair);
+    if (!canvasPairs.has(pair))
+      canvasPairs.set(pair, { from: relation.from, to: relation.to, labels: new Set() });
+    canvasPairs.get(pair).labels.add(relation.type);
+  }
+  for (const [pair, relation] of canvasPairs) {
     canvasEdges.push({
       id: `edge-${digest(pair).slice(0, 24)}`,
       fromNode: ids.get(relation.from),
@@ -937,12 +1034,61 @@ export function buildVaultFiles({
       toSide: 'left',
       fromEnd: 'arrow',
       toEnd: 'arrow',
-      label: relation.type,
+      label: [...relation.labels].sort((a, b) => a.localeCompare(b, 'he')).join(' · '),
     });
   }
   files.set(
     'Root_Knowledge_Graph.canvas',
     `${JSON.stringify({ nodes: canvasNodes, edges: canvasEdges }, null, 2)}\n`,
+  );
+  // A readable entry view uses a few real examples. The full Canvas above retains every note.
+  const firstLesson = lessons[0],
+    firstModule = modules.find((module) => module.lessonIds.includes(firstLesson.id));
+  const overviewColumns = [
+    [sectionIndexes.orchestration, prime, policies],
+    [
+      sectionIndexes.agents,
+      ...[...paths.agent.values()].filter((file) => file !== prime).slice(0, 2),
+    ],
+    [
+      sectionIndexes.curriculum,
+      paths.module.get(firstModule?.id),
+      paths.lesson.get(firstLesson.id),
+      paths.exercise.get(firstLesson.id),
+    ],
+    [sectionIndexes.proofs, paths.proof.get(firstLesson.id), paths.template.get(firstLesson.id)],
+    [sectionIndexes.integrations, knowledge, ...paths.technology.values()].slice(0, 3),
+  ];
+  const overviewNodes = [
+    {
+      id: ids.get(index),
+      type: 'file',
+      file: index,
+      x: 1050,
+      y: 0,
+      width: 440,
+      height: 160,
+      color: '4',
+    },
+  ];
+  overviewColumns.forEach((members, column) =>
+    members.filter(Boolean).forEach((file, row) => {
+      overviewNodes.push({
+        id: ids.get(file),
+        type: 'file',
+        file,
+        x: column * 530,
+        y: 320 + row * 220,
+        width: 440,
+        height: 160,
+        color: String(column + 1),
+      });
+    }),
+  );
+  const overviewIds = new Set(overviewNodes.map((node) => node.id));
+  files.set(
+    '00_ORCHESTRATION/System_Overview.canvas',
+    `${JSON.stringify({ nodes: overviewNodes, edges: canvasEdges.filter((edge) => overviewIds.has(edge.fromNode) && overviewIds.has(edge.toNode)) }, null, 2)}\n`,
   );
   return {
     files,
@@ -959,9 +1105,12 @@ export function buildVaultFiles({
       apis: apis.length,
       assets: publicAssets.length,
       quizzes: paths.quiz.size,
+      technologies: paths.technology.size,
+      discoverySources: paths.feed.size,
       documents: vertices.size,
       relations: relations.length,
       canvasFileNodes: ids.size,
+      overviewFileNodes: overviewNodes.length,
     },
   };
 }

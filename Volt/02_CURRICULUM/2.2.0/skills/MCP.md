@@ -6,7 +6,7 @@ entity_id: "MCP"
 curriculum_version: "2.2.0"
 skill_id: "MCP"
 prerequisite_skill_ids: []
-related: ["[[01_AGENTS/Agent-Agentic-Workflows]]","[[02_CURRICULUM/2.2.0/Index]]","[[02_CURRICULUM/2.2.0/lessons/AGT_01]]","[[02_CURRICULUM/2.2.0/lessons/W07D31_PRODUCTION_APIS]]","[[02_CURRICULUM/2.2.0/lessons/W07D32_TOOL_DESIGN]]","[[02_CURRICULUM/2.2.0/lessons/W07D33_MCP]]","[[02_CURRICULUM/2.2.0/lessons/W07D34_SIDE_EFFECTS_PERMISSIONS]]","[[02_CURRICULUM/2.2.0/lessons/W07D35_PROJECT_OPERATIONS_AGENT]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AGT_01]]"]
+related: ["[[01_AGENTS/Agent-Agentic-Workflows]]","[[02_CURRICULUM/2.2.0/Index]]","[[02_CURRICULUM/2.2.0/lessons/AGT_01]]","[[02_CURRICULUM/2.2.0/lessons/W07D31_PRODUCTION_APIS]]","[[02_CURRICULUM/2.2.0/lessons/W07D32_TOOL_DESIGN]]","[[02_CURRICULUM/2.2.0/lessons/W07D33_MCP]]","[[02_CURRICULUM/2.2.0/lessons/W07D34_SIDE_EFFECTS_PERMISSIONS]]","[[02_CURRICULUM/2.2.0/lessons/W07D35_PROJECT_OPERATIONS_AGENT]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AGT_01]]","[[04_AUTOMATIONS_AND_APIS/technologies/MCP]]","[[04_AUTOMATIONS_AND_APIS/technologies/N8N]]"]
 ---
 
 # MCP
@@ -26,3 +26,5 @@ related: ["[[01_AGENTS/Agent-Agentic-Workflows]]","[[02_CURRICULUM/2.2.0/Index]]
 - [[02_CURRICULUM/2.2.0/lessons/W07D34_SIDE_EFFECTS_PERMISSIONS|תופעות לוואי והרשאות]] — מיומנות בשיעור
 - [[02_CURRICULUM/2.2.0/lessons/W07D35_PROJECT_OPERATIONS_AGENT|פרויקט: סוכן תפעול]] — מיומנות בשיעור
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AGT_01|הוכחה מעשית · MCP, ‏A2A ותקשורת בין סוכנים]] — מיומנות שנבדקת
+- [[04_AUTOMATIONS_AND_APIS/technologies/MCP|Model Context Protocol]] — מיומנות קשורה
+- [[04_AUTOMATIONS_AND_APIS/technologies/N8N|n8n]] — מיומנות קשורה

@@ -11,6 +11,7 @@ import {
   Flag,
   NotebookPen,
   Bug,
+  Newspaper,
 } from 'lucide-react';
 import { he } from '@/lib/i18n/he';
 const routes = [
@@ -24,6 +25,7 @@ const routes = [
   { href: '/boss', label: 'מבחנים מסכמים', icon: Flag },
   { href: '/journal', label: 'יומן הלמידה', icon: NotebookPen },
   { href: '/failures', label: 'תקלות ובדיקות', icon: Bug },
+  { href: '/updates', label: 'עדכונים ב־AI', icon: Newspaper },
   { href: '/settings', label: he.settings, icon: Settings2 },
 ];
 export function Navigation() {

@@ -88,7 +88,7 @@ The specialist engine uses 21 validated initial roles with coverage of every cou
 
 Saved submissions support optional `/api/agents/evaluate` feedback against their frozen rubric. Learners explicitly consent and select which owned files to send; code/text, images and PDFs use their actual selected content. Coverage reports partial/excluded text and bytes supplied to the provider. The model does not execute code or award mastery. Feedback, traces, export and account deletion remain scoped to the authenticated owner.
 
-Phase 4 will add a technology registry, official-source verification, evidence-backed proposals, diffs, human approval and validated version application with rollback. The Mentor can refresh a bounded list of official release references; this is separate from source verification and curriculum rewriting, which remain unimplemented. The architecture requires preserving prior progress and mastery with update supplements.
+The technology/source registry and bounded official-source discovery are implemented. Evidence verification, curriculum proposals, diffs, human approval and validated version application with rollback remain separate work. Discovery does not verify announced API behavior or authorize curriculum rewriting. The architecture preserves prior progress and mastery with update supplements.
 
 ## Next milestone
 
@@ -131,17 +131,22 @@ before submission. Code/text and images have local previews; PDFs show file meta
 Selected files upload only with the final submission. `/portfolio` is a private,
 reversible showcase of saved work, with actual review status and authorized downloads.
 
-`npm run mentor:refresh` fetches release titles, dates and links from three fixed
-official repositories (OpenAI Agents Python, LangGraph, MCP TypeScript SDK). This
-is not a full research audit or a claim that new API behavior was verified. The
-Mentor resolves active card/question IDs on the server and includes current progress.
-Missing credentials still disable generation. Weekly slots are Monday/Wednesday/Friday;
-on-demand refresh happens only on a configured Mentor request. A user-approved local Codex heartbeat refreshes Monday/Wednesday/Friday at 09:00
-Asia/Jerusalem. The computer and app must be running; scheduled execution has not
-yet been observed. The GitHub workflow supports manual refresh only. See [refinement architecture and acceptance](docs/UX_REFINEMENT.md).
+`npm run mentor:refresh` collects bounded public metadata from eight fixed official
+sources: release feeds for OpenAI Agents Python, LangGraph, MCP TypeScript SDK,
+n8n and Ollama, plus OpenAI News RSS, model catalog and API changelog. Schema 2
+records retrieval/publisher dates separately, change fingerprints and actual
+course mappings; legacy schema 1 remains readable with new feeds marked unchecked.
+This is discovery, not technical verification. `/updates` shows saved observations
+without an AI key. Signed-in users can read `/api/knowledge`; only a verified
+configured operator can refresh, without supplying a URL or path or forcing retries.
+The Mentor uses bounded lesson-relevant observations and still needs generation
+credentials. Refresh slots remain Monday/Wednesday/Friday. The approved local
+heartbeat runs at 09:00 Asia/Jerusalem and requires the computer/app to be running;
+scheduled execution has not been observed. Manual GitHub dispatch is separate.
+See [knowledge discovery and its limits](docs/KNOWLEDGE_UPDATES.md).
 
 ## Public Obsidian / Sidian graph
 
-Open `Volt` as a vault and start with `Index.md` or `Root_Knowledge_Graph.canvas`. The five public directories connect all 139 lessons, 14 modules, skills, sources, rubrics, exercise/submission templates, agents, implemented tool/API contracts and public assets with reciprocal links. Historical course exports and personal notes are retained. Run `npm run vault:sync` to update generated files; an edited generated note or symlink aborts before overwriting anything. `/api/vault/sync` offers the same operation to a verified configured operator. It accepts no filesystem path and exports no account records.
+Open `Volt` as a vault and start with `Index.md`. `00_ORCHESTRATION/System_Overview.canvas` gives a readable 17-note entry map with real examples; `Root_Knowledge_Graph.canvas` contains all 1,030 public notes. The five directories connect all 139 lessons, 14 modules, skills, sources, rubrics, exercise/submission templates, 21 agents, tool/API contracts, assets, six tracked technologies and eight discovery sources with reciprocal links. Canvas edges retain every relationship label between the same pair. Historical course exports and personal notes are retained. Run `npm run vault:sync` to update generated files; an edited generated note or symlink aborts before overwriting anything. `/api/vault/sync` offers the same operation to a verified configured operator. It accepts no filesystem path and exports no account records.
 
 The production build checks that Next.js file traces exclude local secrets, databases and personal vault folders. Deployment, live provider acceptance, a reviewed per-lesson quiz bank and the full Curriculum Auditor workflow remain separate milestones.

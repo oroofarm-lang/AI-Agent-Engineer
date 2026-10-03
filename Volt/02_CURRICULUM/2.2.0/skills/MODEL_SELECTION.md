@@ -6,7 +6,7 @@ entity_id: "MODEL_SELECTION"
 curriculum_version: "2.2.0"
 skill_id: "MODEL_SELECTION"
 prerequisite_skill_ids: []
-related: ["[[01_AGENTS/Agent-Curriculum-Auditor]]","[[01_AGENTS/Agent-Model-Data]]","[[02_CURRICULUM/2.2.0/Index]]","[[02_CURRICULUM/2.2.0/lessons/FND_01]]","[[02_CURRICULUM/2.2.0/lessons/FND_02]]","[[02_CURRICULUM/2.2.0/lessons/FND_03]]","[[02_CURRICULUM/2.2.0/lessons/FND_04]]"]
+related: ["[[01_AGENTS/Agent-Curriculum-Auditor]]","[[01_AGENTS/Agent-Model-Data]]","[[02_CURRICULUM/2.2.0/Index]]","[[02_CURRICULUM/2.2.0/lessons/FND_01]]","[[02_CURRICULUM/2.2.0/lessons/FND_02]]","[[02_CURRICULUM/2.2.0/lessons/FND_03]]","[[02_CURRICULUM/2.2.0/lessons/FND_04]]","[[04_AUTOMATIONS_AND_APIS/technologies/OPENAI_API]]"]
 ---
 
 # Model Selection
@@ -24,3 +24,4 @@ related: ["[[01_AGENTS/Agent-Curriculum-Auditor]]","[[01_AGENTS/Agent-Model-Data
 - [[02_CURRICULUM/2.2.0/lessons/FND_02|בחירת מודלים לפי מדידה]] — מיומנות בשיעור
 - [[02_CURRICULUM/2.2.0/lessons/FND_03|מסמכים, תמונות וקול כקלט]] — מיומנות בשיעור
 - [[02_CURRICULUM/2.2.0/lessons/FND_04|מיפוי צורך עסקי ופיילוט]] — מיומנות בשיעור
+- [[04_AUTOMATIONS_AND_APIS/technologies/OPENAI_API|OpenAI API and models]] — מיומנות קשורה

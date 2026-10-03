@@ -1,44 +1,33 @@
 import { expect, it, vi } from 'vitest';
 import { knowledgeSlot, refreshKnowledge, parseKnowledge } from '../src/lib/ai/knowledge';
+import { knowledgeFixtureFetch, knowledgeNow } from './fixtures/knowledge';
 it('uses exactly three weekly slots and does not invent a completed refresh', () => {
   expect(knowledgeSlot(new Date('2026-10-02T05:59:00Z'))).toBe('2026-09-30T06:00:00.000Z');
   expect(knowledgeSlot(new Date('2026-10-02T06:00:00Z'))).toBe('2026-10-02T06:00:00.000Z');
   expect(knowledgeSlot(new Date('2026-10-04T18:00:00Z'))).toBe('2026-10-02T06:00:00.000Z');
 });
 it('fetches only fixed public endpoints, filters drafts and records provenance', async () => {
-  const request = vi.fn<typeof fetch>().mockImplementation(async (url) => {
-    const repo = String(url).split('/repos/')[1].split('/releases')[0];
-    return Response.json([
-      {
-        id: 1,
-        name: 'fixture release',
-        tag_name: 'v1',
-        draft: false,
-        prerelease: false,
-        published_at: '2026-10-01T00:00:00Z',
-        html_url: `https://github.com/${repo}/releases/tag/v1`,
-      },
-      {
-        id: 2,
-        name: 'draft',
-        tag_name: 'draft',
-        draft: true,
-        prerelease: false,
-        published_at: null,
-        html_url: 'https://example.test/ignored',
-      },
-    ]);
-  });
-  const snapshot = await refreshKnowledge(request, new Date('2026-10-02T07:00:00Z'));
-  expect(request).toHaveBeenCalledTimes(3);
-  expect(snapshot.sources.every((item) => item.items.length === 1 && item.status === 'ok')).toBe(
+  const request = vi.fn<typeof fetch>().mockImplementation(knowledgeFixtureFetch);
+  const snapshot = await refreshKnowledge(request, knowledgeNow);
+  expect(request).toHaveBeenCalledTimes(8);
+  expect(snapshot.sources.every((item) => item.items.length >= 1 && item.status === 'ok')).toBe(
     true,
   );
+  expect(
+    snapshot.sources
+      .filter((item) => item.kind.endsWith('-release'))
+      .every((item) => item.items.length === 1),
+  ).toBe(true);
   expect(parseKnowledge(snapshot)).toEqual(snapshot);
   const poisoned = structuredClone(snapshot);
   poisoned.sources[0].items[0].url = 'http://127.0.0.1/private';
   expect(() => parseKnowledge(poisoned)).toThrow('PROVENANCE');
-  expect(request.mock.calls.every(([, options]) => options?.redirect === 'error')).toBe(true);
+  expect(
+    request.mock.calls.every(
+      ([, options]) =>
+        options?.redirect === 'error' && options?.cache === 'no-store' && options?.signal,
+    ),
+  ).toBe(true);
 });
 it('handles outages, oversize responses and redirect attempts as unavailable data', async () => {
   const request = vi

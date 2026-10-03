@@ -8,7 +8,7 @@ source_id: "OPENAI_QUICKSTART"
 url: "https://developers.openai.com/api/docs/quickstart"
 last_verified: null
 technology_ids: []
-related: ["[[01_AGENTS/Agent-Curriculum-Pedagogy]]","[[01_AGENTS/Agent-Knowledge-RAG]]","[[01_AGENTS/Agent-Model-Data]]","[[02_CURRICULUM/2.2.0/Index]]","[[02_CURRICULUM/2.2.0/lessons/MKT_04]]","[[02_CURRICULUM/2.2.0/lessons/W01D01_FIRST_AI_PROGRAM]]","[[02_CURRICULUM/2.2.0/lessons/W02D06_HOW_LLM_APPLICATIONS_WORK]]","[[02_CURRICULUM/2.2.0/lessons/W02D07_CONTEXT_ENGINEERING]]","[[02_CURRICULUM/2.2.0/lessons/W08D36_RESPONSES_API]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_MKT_04]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W01D01_FIRST_AI_PROGRAM]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W02D06_HOW_LLM_APPLICATIONS_WORK]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W02D07_CONTEXT_ENGINEERING]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W08D36_RESPONSES_API]]","[[04_AUTOMATIONS_AND_APIS/Knowledge-Updates]]"]
+related: ["[[01_AGENTS/Agent-Curriculum-Pedagogy]]","[[01_AGENTS/Agent-Knowledge-RAG]]","[[01_AGENTS/Agent-Model-Data]]","[[02_CURRICULUM/2.2.0/Index]]","[[02_CURRICULUM/2.2.0/lessons/MKT_04]]","[[02_CURRICULUM/2.2.0/lessons/W01D01_FIRST_AI_PROGRAM]]","[[02_CURRICULUM/2.2.0/lessons/W02D06_HOW_LLM_APPLICATIONS_WORK]]","[[02_CURRICULUM/2.2.0/lessons/W02D07_CONTEXT_ENGINEERING]]","[[02_CURRICULUM/2.2.0/lessons/W08D36_RESPONSES_API]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_MKT_04]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W01D01_FIRST_AI_PROGRAM]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W02D06_HOW_LLM_APPLICATIONS_WORK]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W02D07_CONTEXT_ENGINEERING]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W08D36_RESPONSES_API]]","[[04_AUTOMATIONS_AND_APIS/knowledge-sources/OPENAI_CHANGELOG]]","[[04_AUTOMATIONS_AND_APIS/knowledge-sources/OPENAI_MODELS]]","[[04_AUTOMATIONS_AND_APIS/knowledge-sources/OPENAI_NEWS]]","[[04_AUTOMATIONS_AND_APIS/Knowledge-Updates]]","[[04_AUTOMATIONS_AND_APIS/technologies/OPENAI_API]]"]
 ---
 
 # OpenAI quickstart
@@ -39,4 +39,8 @@ related: ["[[01_AGENTS/Agent-Curriculum-Pedagogy]]","[[01_AGENTS/Agent-Knowledge
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W02D06_HOW_LLM_APPLICATIONS_WORK|בדיקת הבנה: מה ההבדל בין טוקן לבין מילה שלמה?]] — מקור השאלה
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W02D07_CONTEXT_ENGINEERING|בדיקת הבנה: מסמך שצורף לעוזר פניות כולל הוראה לשנות את המשימה. כיצד צריך להתייחס אליה?]] — מקור השאלה
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W08D36_RESPONSES_API|בדיקת הבנה: מדוע מחזירים תוצאת כלי עם ה־call_id המתאים?]] — מקור השאלה
+- [[04_AUTOMATIONS_AND_APIS/knowledge-sources/OPENAI_CHANGELOG|OpenAI API changelog]] — תיעוד בקורס
+- [[04_AUTOMATIONS_AND_APIS/knowledge-sources/OPENAI_MODELS|OpenAI model catalog]] — תיעוד בקורס
+- [[04_AUTOMATIONS_AND_APIS/knowledge-sources/OPENAI_NEWS|OpenAI News]] — תיעוד בקורס
 - [[04_AUTOMATIONS_AND_APIS/Knowledge-Updates|רענון מקורות וביקורת תוכן]] — מקור בקטלוג
+- [[04_AUTOMATIONS_AND_APIS/technologies/OPENAI_API|OpenAI API and models]] — תיעוד בקורס

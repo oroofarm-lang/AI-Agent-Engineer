@@ -6,7 +6,7 @@ entity_id: "SANDBOX_AGENTS"
 curriculum_version: "2.2.0"
 skill_id: "SANDBOX_AGENTS"
 prerequisite_skill_ids: []
-related: ["[[01_AGENTS/Agent-Code-Reviewer]]","[[01_AGENTS/Agent-Security-Auditor]]","[[02_CURRICULUM/2.2.0/Index]]","[[02_CURRICULUM/2.2.0/lessons/W15D71_BROWSER_COMPUTER_AGENTS]]","[[02_CURRICULUM/2.2.0/lessons/W15D72_CODE_SANDBOX_AGENTS]]","[[02_CURRICULUM/2.2.0/lessons/W15D73_DYNAMIC_TOOLS]]","[[02_CURRICULUM/2.2.0/lessons/W15D74_AGENTIC_CODING]]","[[02_CURRICULUM/2.2.0/lessons/W15D75_PROJECT_AUTONOMOUS_WORKFLOW]]"]
+related: ["[[01_AGENTS/Agent-Code-Reviewer]]","[[01_AGENTS/Agent-Security-Auditor]]","[[02_CURRICULUM/2.2.0/Index]]","[[02_CURRICULUM/2.2.0/lessons/W15D71_BROWSER_COMPUTER_AGENTS]]","[[02_CURRICULUM/2.2.0/lessons/W15D72_CODE_SANDBOX_AGENTS]]","[[02_CURRICULUM/2.2.0/lessons/W15D73_DYNAMIC_TOOLS]]","[[02_CURRICULUM/2.2.0/lessons/W15D74_AGENTIC_CODING]]","[[02_CURRICULUM/2.2.0/lessons/W15D75_PROJECT_AUTONOMOUS_WORKFLOW]]","[[04_AUTOMATIONS_AND_APIS/technologies/MCP]]","[[04_AUTOMATIONS_AND_APIS/technologies/OPENAI_API]]"]
 ---
 
 # Sandbox Agents
@@ -25,3 +25,5 @@ related: ["[[01_AGENTS/Agent-Code-Reviewer]]","[[01_AGENTS/Agent-Security-Audito
 - [[02_CURRICULUM/2.2.0/lessons/W15D73_DYNAMIC_TOOLS|גילוי כלים דינמי]] — מיומנות בשיעור
 - [[02_CURRICULUM/2.2.0/lessons/W15D74_AGENTIC_CODING|סוכן כתיבת קוד מבוקר]] — מיומנות בשיעור
 - [[02_CURRICULUM/2.2.0/lessons/W15D75_PROJECT_AUTONOMOUS_WORKFLOW|פרויקט: תהליך אוטונומי מבוקר]] — מיומנות בשיעור
+- [[04_AUTOMATIONS_AND_APIS/technologies/MCP|Model Context Protocol]] — מיומנות קשורה
+- [[04_AUTOMATIONS_AND_APIS/technologies/OPENAI_API|OpenAI API and models]] — מיומנות קשורה

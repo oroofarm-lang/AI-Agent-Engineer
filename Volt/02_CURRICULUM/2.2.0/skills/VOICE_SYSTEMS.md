@@ -6,7 +6,7 @@ entity_id: "VOICE_SYSTEMS"
 curriculum_version: "2.2.0"
 skill_id: "VOICE_SYSTEMS"
 prerequisite_skill_ids: []
-related: ["[[01_AGENTS/Agent-Voice-Audio]]","[[02_CURRICULUM/2.2.0/Index]]","[[02_CURRICULUM/2.2.0/lessons/VOI_01]]","[[02_CURRICULUM/2.2.0/lessons/VOI_02]]","[[02_CURRICULUM/2.2.0/lessons/VOI_03]]","[[02_CURRICULUM/2.2.0/lessons/VOI_04]]","[[02_CURRICULUM/2.2.0/lessons/VOI_05]]","[[02_CURRICULUM/2.2.0/lessons/VOI_06]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_VOI_01]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_VOI_02]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_VOI_03]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_VOI_04]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_VOI_05]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_VOI_06]]"]
+related: ["[[01_AGENTS/Agent-Voice-Audio]]","[[02_CURRICULUM/2.2.0/Index]]","[[02_CURRICULUM/2.2.0/lessons/VOI_01]]","[[02_CURRICULUM/2.2.0/lessons/VOI_02]]","[[02_CURRICULUM/2.2.0/lessons/VOI_03]]","[[02_CURRICULUM/2.2.0/lessons/VOI_04]]","[[02_CURRICULUM/2.2.0/lessons/VOI_05]]","[[02_CURRICULUM/2.2.0/lessons/VOI_06]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_VOI_01]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_VOI_02]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_VOI_03]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_VOI_04]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_VOI_05]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_VOI_06]]","[[04_AUTOMATIONS_AND_APIS/technologies/OPENAI_API]]"]
 ---
 
 # קול ומסמכים
@@ -31,3 +31,4 @@ related: ["[[01_AGENTS/Agent-Voice-Audio]]","[[02_CURRICULUM/2.2.0/Index]]","[[0
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_VOI_04|הוכחה מעשית · שיחה חיה וקטיעות]] — מיומנות שנבדקת
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_VOI_05|הוכחה מעשית · העברה לאדם ותיאום פגישות]] — מיומנות שנבדקת
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_VOI_06|הוכחה מעשית · מבחן מסכם: עוזר קולי עסקי]] — מיומנות שנבדקת
+- [[04_AUTOMATIONS_AND_APIS/technologies/OPENAI_API|OpenAI API and models]] — מיומנות קשורה

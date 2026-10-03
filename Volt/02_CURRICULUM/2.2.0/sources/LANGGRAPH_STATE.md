@@ -8,7 +8,7 @@ source_id: "LANGGRAPH_STATE"
 url: "https://docs.langchain.com/oss/python/langgraph/persistence"
 last_verified: null
 technology_ids: []
-related: ["[[01_AGENTS/Agent-Agentic-Workflows]]","[[01_AGENTS/Agent-Curriculum-Auditor]]","[[01_AGENTS/Agent-Database-Architect]]","[[01_AGENTS/Agent-Knowledge-RAG]]","[[02_CURRICULUM/2.2.0/Index]]","[[02_CURRICULUM/2.2.0/lessons/W05D22_STATE]]","[[02_CURRICULUM/2.2.0/lessons/W08D39_LANGGRAPH]]","[[02_CURRICULUM/2.2.0/lessons/W09D44_LONG_RUNNING_WORKFLOWS]]","[[02_CURRICULUM/2.2.0/lessons/W09D45_PROJECT_DURABLE_WORKFLOW_AGENT]]","[[02_CURRICULUM/2.2.0/lessons/W12D59_HUMAN_IN_THE_LOOP]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W05D22_STATE]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W08D39_LANGGRAPH]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W09D44_LONG_RUNNING_WORKFLOWS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W09D45_PROJECT_DURABLE_WORKFLOW_AGENT]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W12D59_HUMAN_IN_THE_LOOP]]","[[04_AUTOMATIONS_AND_APIS/Knowledge-Updates]]"]
+related: ["[[01_AGENTS/Agent-Agentic-Workflows]]","[[01_AGENTS/Agent-Curriculum-Auditor]]","[[01_AGENTS/Agent-Database-Architect]]","[[01_AGENTS/Agent-Knowledge-RAG]]","[[02_CURRICULUM/2.2.0/Index]]","[[02_CURRICULUM/2.2.0/lessons/W05D22_STATE]]","[[02_CURRICULUM/2.2.0/lessons/W08D39_LANGGRAPH]]","[[02_CURRICULUM/2.2.0/lessons/W09D44_LONG_RUNNING_WORKFLOWS]]","[[02_CURRICULUM/2.2.0/lessons/W09D45_PROJECT_DURABLE_WORKFLOW_AGENT]]","[[02_CURRICULUM/2.2.0/lessons/W12D59_HUMAN_IN_THE_LOOP]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W05D22_STATE]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W08D39_LANGGRAPH]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W09D44_LONG_RUNNING_WORKFLOWS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W09D45_PROJECT_DURABLE_WORKFLOW_AGENT]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W12D59_HUMAN_IN_THE_LOOP]]","[[04_AUTOMATIONS_AND_APIS/knowledge-sources/LANGGRAPH]]","[[04_AUTOMATIONS_AND_APIS/Knowledge-Updates]]","[[04_AUTOMATIONS_AND_APIS/technologies/LANGGRAPH]]"]
 ---
 
 # LangGraph persistence
@@ -40,4 +40,6 @@ related: ["[[01_AGENTS/Agent-Agentic-Workflows]]","[[01_AGENTS/Agent-Curriculum-
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W09D44_LONG_RUNNING_WORKFLOWS|בדיקת הבנה: השירות החיצוני ביצע שינוי, אך התוכנית קרסה לפני רישום הצלחה. למה נדרש שלב reconcile?]] — מקור השאלה
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W09D45_PROJECT_DURABLE_WORKFLOW_AGENT|בדיקת הבנה: איזה ניסוי בודק התאוששות לאחר הפעלה מחדש של תהליך העבודה?]] — מקור השאלה
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W12D59_HUMAN_IN_THE_LOOP|בדיקת הבנה: טיוטת הפעולה נערכה אחרי אישור אנושי. מה צריך לבדוק לפני הביצוע?]] — מקור השאלה
+- [[04_AUTOMATIONS_AND_APIS/knowledge-sources/LANGGRAPH|LangGraph]] — תיעוד בקורס
 - [[04_AUTOMATIONS_AND_APIS/Knowledge-Updates|רענון מקורות וביקורת תוכן]] — מקור בקטלוג
+- [[04_AUTOMATIONS_AND_APIS/technologies/LANGGRAPH|LangGraph]] — תיעוד בקורס

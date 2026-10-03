@@ -8,7 +8,7 @@ import { canStudyLesson } from '../domain/learning-path';
 import { mentorInstructions, type MentorInput } from './policy';
 import type { MentorProvider } from './provider';
 import { markdownCards } from '../curriculum/cards';
-import type { KnowledgeSnapshot } from './knowledge';
+import { knowledgeContext, type KnowledgeSnapshot } from './knowledge';
 
 export async function sendMentorMessage(
   connection: Connection,
@@ -88,7 +88,7 @@ export async function sendMentorMessage(
     const context = JSON.stringify({
       curriculumVersion: curriculum.version,
       activeTask: task,
-      knowledge: knowledge || null,
+      knowledge: knowledge ? knowledgeContext(knowledge, lesson?.id) : null,
       skillMastery: connection.sqlite
         .prepare(
           'SELECT skill_id,level,curriculum_version FROM skill_mastery WHERE user_id=? LIMIT 80',

@@ -11,7 +11,7 @@ source_ids: ["MAKE_AGENTS","N8N_EVALS"]
 prerequisite_lesson_ids: ["AUT_05"]
 source_sha256: "97d4b210a8f54f555e73e25a1e39dec6c0d407a71a6294ba4363ef8a7aadfe82"
 estimated_minutes: 150
-related: ["[[01_AGENTS/Agent-Agentic-Workflows]]","[[01_AGENTS/Agent-Automation-Engineer]]","[[01_AGENTS/Agent-Business-Discovery]]","[[01_AGENTS/Agent-Code-Reviewer]]","[[01_AGENTS/Agent-CRM-Sales]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Security-Auditor]]","[[01_AGENTS/Agent-Voice-Audio]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/exercises/AUT_06]]","[[02_CURRICULUM/2.2.0/lessons/AUT_05]]","[[02_CURRICULUM/2.2.0/lessons/AUT_07]]","[[02_CURRICULUM/2.2.0/modules/AUTOMATION]]","[[02_CURRICULUM/2.2.0/skills/HTTP_APIS]]","[[02_CURRICULUM/2.2.0/skills/HUMAN_APPROVAL]]","[[02_CURRICULUM/2.2.0/skills/WORKFLOWS]]","[[02_CURRICULUM/2.2.0/sources/MAKE_AGENTS]]","[[02_CURRICULUM/2.2.0/sources/N8N_EVALS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_AUT_06]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AUT_06]]"]
+related: ["[[01_AGENTS/Agent-Agentic-Workflows]]","[[01_AGENTS/Agent-Automation-Engineer]]","[[01_AGENTS/Agent-Business-Discovery]]","[[01_AGENTS/Agent-Code-Reviewer]]","[[01_AGENTS/Agent-CRM-Sales]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Security-Auditor]]","[[01_AGENTS/Agent-Voice-Audio]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/exercises/AUT_06]]","[[02_CURRICULUM/2.2.0/lessons/AUT_05]]","[[02_CURRICULUM/2.2.0/lessons/AUT_07]]","[[02_CURRICULUM/2.2.0/modules/AUTOMATION]]","[[02_CURRICULUM/2.2.0/skills/HTTP_APIS]]","[[02_CURRICULUM/2.2.0/skills/HUMAN_APPROVAL]]","[[02_CURRICULUM/2.2.0/skills/WORKFLOWS]]","[[02_CURRICULUM/2.2.0/sources/MAKE_AGENTS]]","[[02_CURRICULUM/2.2.0/sources/N8N_EVALS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_AUT_06]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AUT_06]]","[[04_AUTOMATIONS_AND_APIS/knowledge-sources/N8N]]","[[04_AUTOMATIONS_AND_APIS/technologies/N8N]]"]
 ---
 
 # העברת תהליך ל־Make
@@ -128,3 +128,5 @@ Input → Contract check → Work / model proposal → Result check → Evidence
 - [[02_CURRICULUM/2.2.0/sources/N8N_EVALS|n8n quality metrics]] — מקור לשיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_AUT_06|בדיקת הבנה: מהו בסיס הוגן לבדיקה לאחר העברת תהליך מ־n8n ל־Make?]] — בדיקת הבנה
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AUT_06|הוכחה מעשית · העברת תהליך ל־Make]] — הוכחה מעשית
+- [[04_AUTOMATIONS_AND_APIS/knowledge-sources/N8N|n8n]] — שיעור קשור למעקב
+- [[04_AUTOMATIONS_AND_APIS/technologies/N8N|n8n]] — טכנולוגיה בשיעור

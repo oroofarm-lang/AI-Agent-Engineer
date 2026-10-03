@@ -11,7 +11,7 @@ source_ids: ["N8N_APPROVALS"]
 prerequisite_lesson_ids: ["AUT_04"]
 source_sha256: "defec806baad0cde2573170605c5337d50eda8c69da09bccfd377809c519f741"
 estimated_minutes: 150
-related: ["[[01_AGENTS/Agent-Agentic-Workflows]]","[[01_AGENTS/Agent-Automation-Engineer]]","[[01_AGENTS/Agent-Business-Discovery]]","[[01_AGENTS/Agent-Code-Reviewer]]","[[01_AGENTS/Agent-CRM-Sales]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Security-Auditor]]","[[01_AGENTS/Agent-Voice-Audio]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/exercises/AUT_05]]","[[02_CURRICULUM/2.2.0/lessons/AUT_04]]","[[02_CURRICULUM/2.2.0/lessons/AUT_06]]","[[02_CURRICULUM/2.2.0/modules/AUTOMATION]]","[[02_CURRICULUM/2.2.0/skills/HTTP_APIS]]","[[02_CURRICULUM/2.2.0/skills/HUMAN_APPROVAL]]","[[02_CURRICULUM/2.2.0/skills/WORKFLOWS]]","[[02_CURRICULUM/2.2.0/sources/N8N_APPROVALS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_AUT_05]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AUT_05]]"]
+related: ["[[01_AGENTS/Agent-Agentic-Workflows]]","[[01_AGENTS/Agent-Automation-Engineer]]","[[01_AGENTS/Agent-Business-Discovery]]","[[01_AGENTS/Agent-Code-Reviewer]]","[[01_AGENTS/Agent-CRM-Sales]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Security-Auditor]]","[[01_AGENTS/Agent-Voice-Audio]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/exercises/AUT_05]]","[[02_CURRICULUM/2.2.0/lessons/AUT_04]]","[[02_CURRICULUM/2.2.0/lessons/AUT_06]]","[[02_CURRICULUM/2.2.0/modules/AUTOMATION]]","[[02_CURRICULUM/2.2.0/skills/HTTP_APIS]]","[[02_CURRICULUM/2.2.0/skills/HUMAN_APPROVAL]]","[[02_CURRICULUM/2.2.0/skills/WORKFLOWS]]","[[02_CURRICULUM/2.2.0/sources/N8N_APPROVALS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_AUT_05]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AUT_05]]","[[04_AUTOMATIONS_AND_APIS/knowledge-sources/N8N]]","[[04_AUTOMATIONS_AND_APIS/technologies/N8N]]"]
 ---
 
 # אישור אנושי בתהליך חזותי
@@ -126,3 +126,5 @@ Input → Contract check → Work / model proposal → Result check → Evidence
 - [[02_CURRICULUM/2.2.0/sources/N8N_APPROVALS|n8n human-in-the-loop]] — מקור לשיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_AUT_05|בדיקת הבנה: טיוטת תשובה שונתה אחרי אישור בתהליך החזותי. מה נדרש כדי להמשיך?]] — בדיקת הבנה
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AUT_05|הוכחה מעשית · אישור אנושי בתהליך חזותי]] — הוכחה מעשית
+- [[04_AUTOMATIONS_AND_APIS/knowledge-sources/N8N|n8n]] — שיעור קשור למעקב
+- [[04_AUTOMATIONS_AND_APIS/technologies/N8N|n8n]] — טכנולוגיה בשיעור

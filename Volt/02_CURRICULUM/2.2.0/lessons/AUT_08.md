@@ -11,7 +11,7 @@ source_ids: ["N8N_APPROVALS","STRIPE_WEBHOOKS"]
 prerequisite_lesson_ids: ["AUT_07"]
 source_sha256: "e31f54312c510e18d07308fabe141b243c34595962a7da285775eb169ab90c1e"
 estimated_minutes: 150
-related: ["[[01_AGENTS/Agent-Agentic-Workflows]]","[[01_AGENTS/Agent-Automation-Engineer]]","[[01_AGENTS/Agent-Business-Discovery]]","[[01_AGENTS/Agent-Code-Reviewer]]","[[01_AGENTS/Agent-CRM-Sales]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Security-Auditor]]","[[01_AGENTS/Agent-Voice-Audio]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/exercises/AUT_08]]","[[02_CURRICULUM/2.2.0/lessons/AUT_07]]","[[02_CURRICULUM/2.2.0/lessons/CRM_01]]","[[02_CURRICULUM/2.2.0/lessons/MKT_01]]","[[02_CURRICULUM/2.2.0/lessons/VOI_01]]","[[02_CURRICULUM/2.2.0/lessons/W16D76_DISCOVERY]]","[[02_CURRICULUM/2.2.0/modules/AUTOMATION]]","[[02_CURRICULUM/2.2.0/skills/HTTP_APIS]]","[[02_CURRICULUM/2.2.0/skills/HUMAN_APPROVAL]]","[[02_CURRICULUM/2.2.0/skills/WORKFLOWS]]","[[02_CURRICULUM/2.2.0/sources/N8N_APPROVALS]]","[[02_CURRICULUM/2.2.0/sources/STRIPE_WEBHOOKS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_AUT_08]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AUT_08]]"]
+related: ["[[01_AGENTS/Agent-Agentic-Workflows]]","[[01_AGENTS/Agent-Automation-Engineer]]","[[01_AGENTS/Agent-Business-Discovery]]","[[01_AGENTS/Agent-Code-Reviewer]]","[[01_AGENTS/Agent-CRM-Sales]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Security-Auditor]]","[[01_AGENTS/Agent-Voice-Audio]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/exercises/AUT_08]]","[[02_CURRICULUM/2.2.0/lessons/AUT_07]]","[[02_CURRICULUM/2.2.0/lessons/CRM_01]]","[[02_CURRICULUM/2.2.0/lessons/MKT_01]]","[[02_CURRICULUM/2.2.0/lessons/VOI_01]]","[[02_CURRICULUM/2.2.0/lessons/W16D76_DISCOVERY]]","[[02_CURRICULUM/2.2.0/modules/AUTOMATION]]","[[02_CURRICULUM/2.2.0/skills/HTTP_APIS]]","[[02_CURRICULUM/2.2.0/skills/HUMAN_APPROVAL]]","[[02_CURRICULUM/2.2.0/skills/WORKFLOWS]]","[[02_CURRICULUM/2.2.0/sources/N8N_APPROVALS]]","[[02_CURRICULUM/2.2.0/sources/STRIPE_WEBHOOKS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_AUT_08]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AUT_08]]","[[04_AUTOMATIONS_AND_APIS/knowledge-sources/N8N]]","[[04_AUTOMATIONS_AND_APIS/technologies/N8N]]"]
 ---
 
 # מבחן מסכם: מערכת אוטומציה עסקית
@@ -130,3 +130,5 @@ Input → Contract check → Work / model proposal → Result check → Evidence
 - [[02_CURRICULUM/2.2.0/sources/STRIPE_WEBHOOKS|Stripe webhooks]] — מקור לשיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_AUT_08|בדיקת הבנה: שלב יצירת משימה הצליח, אבל הפנייה אינה ב־CRM הנכון. איך צריך להעריך את התהליך?]] — בדיקת הבנה
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AUT_08|הוכחה מעשית · מבחן מסכם: מערכת אוטומציה עסקית]] — הוכחה מעשית
+- [[04_AUTOMATIONS_AND_APIS/knowledge-sources/N8N|n8n]] — שיעור קשור למעקב
+- [[04_AUTOMATIONS_AND_APIS/technologies/N8N|n8n]] — טכנולוגיה בשיעור

@@ -11,7 +11,7 @@ source_ids: ["N8N_APPROVALS","STRIPE_WEBHOOKS"]
 prerequisite_lesson_ids: ["W07D33_MCP"]
 source_sha256: "fbd405e9f7446d06169a3a1b56c60576b8576eb2ad08bd0602fb15cde69feea1"
 estimated_minutes: 180
-related: ["[[01_AGENTS/Agent-Agentic-Workflows]]","[[01_AGENTS/Agent-Automation-Engineer]]","[[01_AGENTS/Agent-Business-Discovery]]","[[01_AGENTS/Agent-Code-Reviewer]]","[[01_AGENTS/Agent-CRM-Sales]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Security-Auditor]]","[[01_AGENTS/Agent-Voice-Audio]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/exercises/W07D34_SIDE_EFFECTS_PERMISSIONS]]","[[02_CURRICULUM/2.2.0/lessons/W07D33_MCP]]","[[02_CURRICULUM/2.2.0/lessons/W07D35_PROJECT_OPERATIONS_AGENT]]","[[02_CURRICULUM/2.2.0/modules/AUTOMATION]]","[[02_CURRICULUM/2.2.0/skills/HTTP_APIS]]","[[02_CURRICULUM/2.2.0/skills/HUMAN_APPROVAL]]","[[02_CURRICULUM/2.2.0/skills/MCP]]","[[02_CURRICULUM/2.2.0/sources/N8N_APPROVALS]]","[[02_CURRICULUM/2.2.0/sources/STRIPE_WEBHOOKS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W07D34_SIDE_EFFECTS_PERMISSIONS]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W07D34_SIDE_EFFECTS_PERMISSIONS]]"]
+related: ["[[01_AGENTS/Agent-Agentic-Workflows]]","[[01_AGENTS/Agent-Automation-Engineer]]","[[01_AGENTS/Agent-Business-Discovery]]","[[01_AGENTS/Agent-Code-Reviewer]]","[[01_AGENTS/Agent-CRM-Sales]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Security-Auditor]]","[[01_AGENTS/Agent-Voice-Audio]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/exercises/W07D34_SIDE_EFFECTS_PERMISSIONS]]","[[02_CURRICULUM/2.2.0/lessons/W07D33_MCP]]","[[02_CURRICULUM/2.2.0/lessons/W07D35_PROJECT_OPERATIONS_AGENT]]","[[02_CURRICULUM/2.2.0/modules/AUTOMATION]]","[[02_CURRICULUM/2.2.0/skills/HTTP_APIS]]","[[02_CURRICULUM/2.2.0/skills/HUMAN_APPROVAL]]","[[02_CURRICULUM/2.2.0/skills/MCP]]","[[02_CURRICULUM/2.2.0/sources/N8N_APPROVALS]]","[[02_CURRICULUM/2.2.0/sources/STRIPE_WEBHOOKS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W07D34_SIDE_EFFECTS_PERMISSIONS]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W07D34_SIDE_EFFECTS_PERMISSIONS]]","[[04_AUTOMATIONS_AND_APIS/knowledge-sources/N8N]]","[[04_AUTOMATIONS_AND_APIS/technologies/N8N]]"]
 ---
 
 # תופעות לוואי והרשאות
@@ -128,3 +128,5 @@ Input → Contract check → Work / model proposal → Result check → Evidence
 - [[02_CURRICULUM/2.2.0/sources/STRIPE_WEBHOOKS|Stripe webhooks]] — מקור לשיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W07D34_SIDE_EFFECTS_PERMISSIONS|בדיקת הבנה: מה צריך להגדיר אישור אנושי לפעולה בעלת השפעה משמעותית?]] — בדיקת הבנה
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W07D34_SIDE_EFFECTS_PERMISSIONS|הוכחה מעשית · תופעות לוואי והרשאות]] — הוכחה מעשית
+- [[04_AUTOMATIONS_AND_APIS/knowledge-sources/N8N|n8n]] — שיעור קשור למעקב
+- [[04_AUTOMATIONS_AND_APIS/technologies/N8N|n8n]] — טכנולוגיה בשיעור

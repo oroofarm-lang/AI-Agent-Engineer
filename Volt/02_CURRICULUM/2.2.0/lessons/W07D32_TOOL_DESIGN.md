@@ -11,7 +11,7 @@ source_ids: ["N8N_APPROVALS","STRIPE_WEBHOOKS"]
 prerequisite_lesson_ids: ["FND_04"]
 source_sha256: "b69ad934f1ac935c8ffa0657f57294b82a2ebb3885b00159edeb51b90c9cdcbf"
 estimated_minutes: 180
-related: ["[[01_AGENTS/Agent-Agentic-Workflows]]","[[01_AGENTS/Agent-Automation-Engineer]]","[[01_AGENTS/Agent-Business-Discovery]]","[[01_AGENTS/Agent-Code-Reviewer]]","[[01_AGENTS/Agent-CRM-Sales]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Security-Auditor]]","[[01_AGENTS/Agent-Voice-Audio]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/exercises/W07D32_TOOL_DESIGN]]","[[02_CURRICULUM/2.2.0/lessons/FND_04]]","[[02_CURRICULUM/2.2.0/lessons/W07D33_MCP]]","[[02_CURRICULUM/2.2.0/modules/AUTOMATION]]","[[02_CURRICULUM/2.2.0/skills/HTTP_APIS]]","[[02_CURRICULUM/2.2.0/skills/HUMAN_APPROVAL]]","[[02_CURRICULUM/2.2.0/skills/MCP]]","[[02_CURRICULUM/2.2.0/sources/N8N_APPROVALS]]","[[02_CURRICULUM/2.2.0/sources/STRIPE_WEBHOOKS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W07D32_TOOL_DESIGN]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W07D32_TOOL_DESIGN]]"]
+related: ["[[01_AGENTS/Agent-Agentic-Workflows]]","[[01_AGENTS/Agent-Automation-Engineer]]","[[01_AGENTS/Agent-Business-Discovery]]","[[01_AGENTS/Agent-Code-Reviewer]]","[[01_AGENTS/Agent-CRM-Sales]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Security-Auditor]]","[[01_AGENTS/Agent-Voice-Audio]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/exercises/W07D32_TOOL_DESIGN]]","[[02_CURRICULUM/2.2.0/lessons/FND_04]]","[[02_CURRICULUM/2.2.0/lessons/W07D33_MCP]]","[[02_CURRICULUM/2.2.0/modules/AUTOMATION]]","[[02_CURRICULUM/2.2.0/skills/HTTP_APIS]]","[[02_CURRICULUM/2.2.0/skills/HUMAN_APPROVAL]]","[[02_CURRICULUM/2.2.0/skills/MCP]]","[[02_CURRICULUM/2.2.0/sources/N8N_APPROVALS]]","[[02_CURRICULUM/2.2.0/sources/STRIPE_WEBHOOKS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W07D32_TOOL_DESIGN]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W07D32_TOOL_DESIGN]]","[[04_AUTOMATIONS_AND_APIS/knowledge-sources/N8N]]","[[04_AUTOMATIONS_AND_APIS/technologies/N8N]]"]
 ---
 
 # תכנון כלים עסקיים
@@ -127,3 +127,5 @@ Input → Contract check → Work / model proposal → Result check → Evidence
 - [[02_CURRICULUM/2.2.0/sources/STRIPE_WEBHOOKS|Stripe webhooks]] — מקור לשיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W07D32_TOOL_DESIGN|בדיקת הבנה: מה היתרון בפיצול כלי CRM ל־lookup_customer, prepare_update ו־apply_update?]] — בדיקת הבנה
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W07D32_TOOL_DESIGN|הוכחה מעשית · תכנון כלים עסקיים]] — הוכחה מעשית
+- [[04_AUTOMATIONS_AND_APIS/knowledge-sources/N8N|n8n]] — שיעור קשור למעקב
+- [[04_AUTOMATIONS_AND_APIS/technologies/N8N|n8n]] — טכנולוגיה בשיעור

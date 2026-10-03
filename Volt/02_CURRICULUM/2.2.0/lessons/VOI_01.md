@@ -11,7 +11,7 @@ source_ids: ["OPENAI_AUDIO"]
 prerequisite_lesson_ids: ["FND_04","AUT_08"]
 source_sha256: "bde7087ac62ccbbb57d467080cdfb4a3adf543dad7b454bdd6e597216d7fabe1"
 estimated_minutes: 150
-related: ["[[01_AGENTS/Agent-Curriculum-Auditor]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Paid-Media-Measurement]]","[[01_AGENTS/Agent-Progress-Tracker]]","[[01_AGENTS/Agent-Quiz-Designer]]","[[01_AGENTS/Agent-Voice-Audio]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/exercises/VOI_01]]","[[02_CURRICULUM/2.2.0/lessons/AUT_08]]","[[02_CURRICULUM/2.2.0/lessons/FND_04]]","[[02_CURRICULUM/2.2.0/lessons/VOI_02]]","[[02_CURRICULUM/2.2.0/modules/VOICE]]","[[02_CURRICULUM/2.2.0/skills/EVALS]]","[[02_CURRICULUM/2.2.0/skills/VOICE_SYSTEMS]]","[[02_CURRICULUM/2.2.0/sources/OPENAI_AUDIO]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_VOI_01]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_VOI_01]]"]
+related: ["[[01_AGENTS/Agent-Curriculum-Auditor]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Paid-Media-Measurement]]","[[01_AGENTS/Agent-Progress-Tracker]]","[[01_AGENTS/Agent-Quiz-Designer]]","[[01_AGENTS/Agent-Voice-Audio]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/exercises/VOI_01]]","[[02_CURRICULUM/2.2.0/lessons/AUT_08]]","[[02_CURRICULUM/2.2.0/lessons/FND_04]]","[[02_CURRICULUM/2.2.0/lessons/VOI_02]]","[[02_CURRICULUM/2.2.0/modules/VOICE]]","[[02_CURRICULUM/2.2.0/skills/EVALS]]","[[02_CURRICULUM/2.2.0/skills/VOICE_SYSTEMS]]","[[02_CURRICULUM/2.2.0/sources/OPENAI_AUDIO]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_VOI_01]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_VOI_01]]","[[04_AUTOMATIONS_AND_APIS/knowledge-sources/OPENAI_CHANGELOG]]","[[04_AUTOMATIONS_AND_APIS/knowledge-sources/OPENAI_MODELS]]","[[04_AUTOMATIONS_AND_APIS/knowledge-sources/OPENAI_NEWS]]","[[04_AUTOMATIONS_AND_APIS/technologies/OPENAI_API]]"]
 ---
 
 # תמלול שיחות ובדיקת דיוק
@@ -123,3 +123,7 @@ Input → Contract check → Work / model proposal → Result check → Evidence
 - [[02_CURRICULUM/2.2.0/sources/OPENAI_AUDIO|OpenAI audio guide]] — מקור לשיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_VOI_01|בדיקת הבנה: מספר הזמנה בתמלול נשמע חשוד. מה מאפשר לבדוק מה באמת נאמר?]] — בדיקת הבנה
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_VOI_01|הוכחה מעשית · תמלול שיחות ובדיקת דיוק]] — הוכחה מעשית
+- [[04_AUTOMATIONS_AND_APIS/knowledge-sources/OPENAI_CHANGELOG|OpenAI API changelog]] — שיעור קשור למעקב
+- [[04_AUTOMATIONS_AND_APIS/knowledge-sources/OPENAI_MODELS|OpenAI model catalog]] — שיעור קשור למעקב
+- [[04_AUTOMATIONS_AND_APIS/knowledge-sources/OPENAI_NEWS|OpenAI News]] — שיעור קשור למעקב
+- [[04_AUTOMATIONS_AND_APIS/technologies/OPENAI_API|OpenAI API and models]] — טכנולוגיה בשיעור

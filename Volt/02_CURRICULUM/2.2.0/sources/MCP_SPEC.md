@@ -8,7 +8,7 @@ source_id: "MCP_SPEC"
 url: "https://modelcontextprotocol.io/specification/2026-07-28"
 last_verified: null
 technology_ids: []
-related: ["[[01_AGENTS/Agent-Agentic-Workflows]]","[[01_AGENTS/Agent-Curriculum-Auditor]]","[[02_CURRICULUM/2.2.0/Index]]","[[02_CURRICULUM/2.2.0/lessons/AGT_01]]","[[02_CURRICULUM/2.2.0/lessons/W07D33_MCP]]","[[02_CURRICULUM/2.2.0/lessons/W15D73_DYNAMIC_TOOLS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_AGT_01]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W07D33_MCP]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W15D73_DYNAMIC_TOOLS]]","[[04_AUTOMATIONS_AND_APIS/Knowledge-Updates]]"]
+related: ["[[01_AGENTS/Agent-Agentic-Workflows]]","[[01_AGENTS/Agent-Curriculum-Auditor]]","[[02_CURRICULUM/2.2.0/Index]]","[[02_CURRICULUM/2.2.0/lessons/AGT_01]]","[[02_CURRICULUM/2.2.0/lessons/W07D33_MCP]]","[[02_CURRICULUM/2.2.0/lessons/W15D73_DYNAMIC_TOOLS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_AGT_01]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W07D33_MCP]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W15D73_DYNAMIC_TOOLS]]","[[04_AUTOMATIONS_AND_APIS/knowledge-sources/MCP_SDK]]","[[04_AUTOMATIONS_AND_APIS/Knowledge-Updates]]","[[04_AUTOMATIONS_AND_APIS/technologies/MCP]]"]
 ---
 
 # MCP specification
@@ -34,4 +34,6 @@ related: ["[[01_AGENTS/Agent-Agentic-Workflows]]","[[01_AGENTS/Agent-Curriculum-
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_AGT_01|בדיקת הבנה: מה מתאר Agent Card בתרגיל התקשורת בין שירותים?]] — מקור השאלה
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W07D33_MCP|בדיקת הבנה: מה ההבדל בין Tool ל־Resource בתיאור MCP שבשיעור?]] — מקור השאלה
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W15D73_DYNAMIC_TOOLS|בדיקת הבנה: חיפוש כלים מצא כלי בעל שם מתאים. מה עוד צריך לבדוק לפני הפעלתו?]] — מקור השאלה
+- [[04_AUTOMATIONS_AND_APIS/knowledge-sources/MCP_SDK|MCP TypeScript SDK]] — תיעוד בקורס
 - [[04_AUTOMATIONS_AND_APIS/Knowledge-Updates|רענון מקורות וביקורת תוכן]] — מקור בקטלוג
+- [[04_AUTOMATIONS_AND_APIS/technologies/MCP|Model Context Protocol]] — תיעוד בקורס

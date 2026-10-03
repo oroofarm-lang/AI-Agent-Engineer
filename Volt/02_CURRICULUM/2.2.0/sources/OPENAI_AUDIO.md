@@ -8,7 +8,7 @@ source_id: "OPENAI_AUDIO"
 url: "https://developers.openai.com/api/docs/guides/audio"
 last_verified: null
 technology_ids: []
-related: ["[[01_AGENTS/Agent-Voice-Audio]]","[[02_CURRICULUM/2.2.0/Index]]","[[02_CURRICULUM/2.2.0/lessons/FND_03]]","[[02_CURRICULUM/2.2.0/lessons/MKT_08]]","[[02_CURRICULUM/2.2.0/lessons/VOI_01]]","[[02_CURRICULUM/2.2.0/lessons/VOI_02]]","[[02_CURRICULUM/2.2.0/lessons/VOI_03]]","[[02_CURRICULUM/2.2.0/lessons/VOI_04]]","[[02_CURRICULUM/2.2.0/lessons/VOI_05]]","[[02_CURRICULUM/2.2.0/lessons/VOI_06]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_FND_03]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_MKT_08]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_VOI_01]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_VOI_02]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_VOI_03]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_VOI_04]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_VOI_05]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_VOI_06]]","[[04_AUTOMATIONS_AND_APIS/Knowledge-Updates]]"]
+related: ["[[01_AGENTS/Agent-Voice-Audio]]","[[02_CURRICULUM/2.2.0/Index]]","[[02_CURRICULUM/2.2.0/lessons/FND_03]]","[[02_CURRICULUM/2.2.0/lessons/MKT_08]]","[[02_CURRICULUM/2.2.0/lessons/VOI_01]]","[[02_CURRICULUM/2.2.0/lessons/VOI_02]]","[[02_CURRICULUM/2.2.0/lessons/VOI_03]]","[[02_CURRICULUM/2.2.0/lessons/VOI_04]]","[[02_CURRICULUM/2.2.0/lessons/VOI_05]]","[[02_CURRICULUM/2.2.0/lessons/VOI_06]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_FND_03]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_MKT_08]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_VOI_01]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_VOI_02]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_VOI_03]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_VOI_04]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_VOI_05]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_VOI_06]]","[[04_AUTOMATIONS_AND_APIS/knowledge-sources/OPENAI_CHANGELOG]]","[[04_AUTOMATIONS_AND_APIS/knowledge-sources/OPENAI_MODELS]]","[[04_AUTOMATIONS_AND_APIS/knowledge-sources/OPENAI_NEWS]]","[[04_AUTOMATIONS_AND_APIS/Knowledge-Updates]]","[[04_AUTOMATIONS_AND_APIS/technologies/OPENAI_API]]"]
 ---
 
 # OpenAI audio guide
@@ -43,4 +43,8 @@ related: ["[[01_AGENTS/Agent-Voice-Audio]]","[[02_CURRICULUM/2.2.0/Index]]","[[0
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_VOI_04|בדיקת הבנה: משתמש קוטע תשובה קולית ומשנה את בקשתו בזמן שכלי עובד. מה צריך לנהל לצד הדיבור?]] — מקור השאלה
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_VOI_05|בדיקת הבנה: העוזר הציע שעה לפגישה, אבל היומן עדיין לא אישר שהפגישה נשמרה. איך נכון להציג את המצב?]] — מקור השאלה
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_VOI_06|בדיקת הבנה: עוזר קולי עבר שיחת הדגמה אחת בלי תקלה. מה חסר כדי להעריך את איכותו העסקית?]] — מקור השאלה
+- [[04_AUTOMATIONS_AND_APIS/knowledge-sources/OPENAI_CHANGELOG|OpenAI API changelog]] — תיעוד בקורס
+- [[04_AUTOMATIONS_AND_APIS/knowledge-sources/OPENAI_MODELS|OpenAI model catalog]] — תיעוד בקורס
+- [[04_AUTOMATIONS_AND_APIS/knowledge-sources/OPENAI_NEWS|OpenAI News]] — תיעוד בקורס
 - [[04_AUTOMATIONS_AND_APIS/Knowledge-Updates|רענון מקורות וביקורת תוכן]] — מקור בקטלוג
+- [[04_AUTOMATIONS_AND_APIS/technologies/OPENAI_API|OpenAI API and models]] — תיעוד בקורס

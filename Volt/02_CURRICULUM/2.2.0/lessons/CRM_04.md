@@ -11,7 +11,7 @@ source_ids: ["POSTGRES_TRANSACTIONS","OPENAI_SCHEMA"]
 prerequisite_lesson_ids: ["CRM_03"]
 source_sha256: "5527150a061d06149568e8df5c27e6c6ad2654d4ab8f683b0be2f86736fc586f"
 estimated_minutes: 150
-related: ["[[01_AGENTS/Agent-Automation-Engineer]]","[[01_AGENTS/Agent-Code-Reviewer]]","[[01_AGENTS/Agent-CRM-Sales]]","[[01_AGENTS/Agent-Database-Architect]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Voice-Audio]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/exercises/CRM_04]]","[[02_CURRICULUM/2.2.0/lessons/CRM_03]]","[[02_CURRICULUM/2.2.0/lessons/CRM_05]]","[[02_CURRICULUM/2.2.0/modules/CRM]]","[[02_CURRICULUM/2.2.0/skills/CRM_OPERATIONS]]","[[02_CURRICULUM/2.2.0/skills/DATABASE]]","[[02_CURRICULUM/2.2.0/skills/HTTP_APIS]]","[[02_CURRICULUM/2.2.0/sources/OPENAI_SCHEMA]]","[[02_CURRICULUM/2.2.0/sources/POSTGRES_TRANSACTIONS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_CRM_04]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_CRM_04]]"]
+related: ["[[01_AGENTS/Agent-Automation-Engineer]]","[[01_AGENTS/Agent-Code-Reviewer]]","[[01_AGENTS/Agent-CRM-Sales]]","[[01_AGENTS/Agent-Database-Architect]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Voice-Audio]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/exercises/CRM_04]]","[[02_CURRICULUM/2.2.0/lessons/CRM_03]]","[[02_CURRICULUM/2.2.0/lessons/CRM_05]]","[[02_CURRICULUM/2.2.0/modules/CRM]]","[[02_CURRICULUM/2.2.0/skills/CRM_OPERATIONS]]","[[02_CURRICULUM/2.2.0/skills/DATABASE]]","[[02_CURRICULUM/2.2.0/skills/HTTP_APIS]]","[[02_CURRICULUM/2.2.0/sources/OPENAI_SCHEMA]]","[[02_CURRICULUM/2.2.0/sources/POSTGRES_TRANSACTIONS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_CRM_04]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_CRM_04]]","[[04_AUTOMATIONS_AND_APIS/knowledge-sources/OPENAI_CHANGELOG]]","[[04_AUTOMATIONS_AND_APIS/knowledge-sources/OPENAI_MODELS]]","[[04_AUTOMATIONS_AND_APIS/knowledge-sources/OPENAI_NEWS]]","[[04_AUTOMATIONS_AND_APIS/technologies/OPENAI_API]]"]
 ---
 
 # הצעות עבודה מתוך קטלוג
@@ -126,3 +126,7 @@ Input → Contract check → Work / model proposal → Result check → Evidence
 - [[02_CURRICULUM/2.2.0/sources/POSTGRES_TRANSACTIONS|PostgreSQL transactions]] — מקור לשיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_CRM_04|בדיקת הבנה: המודל מציע ללקוח הנחה שאינה מותרת בקטלוג. איך צריך להכין את הצעת העבודה?]] — בדיקת הבנה
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_CRM_04|הוכחה מעשית · הצעות עבודה מתוך קטלוג]] — הוכחה מעשית
+- [[04_AUTOMATIONS_AND_APIS/knowledge-sources/OPENAI_CHANGELOG|OpenAI API changelog]] — שיעור קשור למעקב
+- [[04_AUTOMATIONS_AND_APIS/knowledge-sources/OPENAI_MODELS|OpenAI model catalog]] — שיעור קשור למעקב
+- [[04_AUTOMATIONS_AND_APIS/knowledge-sources/OPENAI_NEWS|OpenAI News]] — שיעור קשור למעקב
+- [[04_AUTOMATIONS_AND_APIS/technologies/OPENAI_API|OpenAI API and models]] — טכנולוגיה בשיעור

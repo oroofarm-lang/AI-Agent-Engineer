@@ -6,7 +6,7 @@ entity_id: "ROUTERS"
 curriculum_version: "2.2.0"
 skill_id: "ROUTERS"
 prerequisite_skill_ids: []
-related: ["[[01_AGENTS/Agent-Agentic-Workflows]]","[[01_AGENTS/Agent-Automation-Engineer]]","[[02_CURRICULUM/2.2.0/Index]]","[[02_CURRICULUM/2.2.0/lessons/W09D41_DETERMINISTIC_VS_AGENTIC_WORKFLOW]]","[[02_CURRICULUM/2.2.0/lessons/W09D42_ROUTERS]]","[[02_CURRICULUM/2.2.0/lessons/W09D43_PARALLEL_WORK]]","[[02_CURRICULUM/2.2.0/lessons/W09D44_LONG_RUNNING_WORKFLOWS]]","[[02_CURRICULUM/2.2.0/lessons/W09D45_PROJECT_DURABLE_WORKFLOW_AGENT]]"]
+related: ["[[01_AGENTS/Agent-Agentic-Workflows]]","[[01_AGENTS/Agent-Automation-Engineer]]","[[02_CURRICULUM/2.2.0/Index]]","[[02_CURRICULUM/2.2.0/lessons/W09D41_DETERMINISTIC_VS_AGENTIC_WORKFLOW]]","[[02_CURRICULUM/2.2.0/lessons/W09D42_ROUTERS]]","[[02_CURRICULUM/2.2.0/lessons/W09D43_PARALLEL_WORK]]","[[02_CURRICULUM/2.2.0/lessons/W09D44_LONG_RUNNING_WORKFLOWS]]","[[02_CURRICULUM/2.2.0/lessons/W09D45_PROJECT_DURABLE_WORKFLOW_AGENT]]","[[04_AUTOMATIONS_AND_APIS/technologies/LANGGRAPH]]","[[04_AUTOMATIONS_AND_APIS/technologies/OPENAI_API]]"]
 ---
 
 # Routers
@@ -25,3 +25,5 @@ related: ["[[01_AGENTS/Agent-Agentic-Workflows]]","[[01_AGENTS/Agent-Automation-
 - [[02_CURRICULUM/2.2.0/lessons/W09D43_PARALLEL_WORK|עבודה במקביל]] — מיומנות בשיעור
 - [[02_CURRICULUM/2.2.0/lessons/W09D44_LONG_RUNNING_WORKFLOWS|תהליכים ארוכים והתאוששות]] — מיומנות בשיעור
 - [[02_CURRICULUM/2.2.0/lessons/W09D45_PROJECT_DURABLE_WORKFLOW_AGENT|פרויקט: תהליך עבודה שנמשך לאחר תקלה]] — מיומנות בשיעור
+- [[04_AUTOMATIONS_AND_APIS/technologies/LANGGRAPH|LangGraph]] — מיומנות קשורה
+- [[04_AUTOMATIONS_AND_APIS/technologies/OPENAI_API|OpenAI API and models]] — מיומנות קשורה

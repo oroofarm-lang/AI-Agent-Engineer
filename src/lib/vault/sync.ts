@@ -1,6 +1,7 @@
 import path from 'node:path';
 import { loadCurriculum, readLesson } from '../curriculum/load';
 import { loadAgentRegistry } from '../agents/registry';
+import { loadKnowledgeRegistry } from '../ai/knowledge-registry';
 import { buildVaultFiles } from '../../../scripts/lib/vault-export.mjs';
 import publicSnapshot from '../../../content/vault/public-assets.json';
 import quizDraft from '../../../content/authoring/quiz-bank/1.0.0-draft.json';
@@ -24,6 +25,7 @@ export async function syncPublicVault() {
     publicAssets,
     apis,
     quizBank: quizDraft,
+    knowledgeRegistry: loadKnowledgeRegistry(curriculum),
   });
   const files = new Map([...buildLegacyFiles(curriculum, lessonBodies), ...graph.files]);
   const result = await writeVaultFiles({

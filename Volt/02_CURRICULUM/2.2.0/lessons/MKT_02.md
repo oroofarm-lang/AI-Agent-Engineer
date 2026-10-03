@@ -11,7 +11,7 @@ source_ids: ["GOOGLE_AI_CONTENT","OPENAI_SCHEMA"]
 prerequisite_lesson_ids: ["MKT_01"]
 source_sha256: "5218bdcf5cffb0d5de78f14d51971dd38a69cfa34b97589a551200243c64e6b6"
 estimated_minutes: 150
-related: ["[[01_AGENTS/Agent-Curriculum-Auditor]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Knowledge-RAG]]","[[01_AGENTS/Agent-Marketing-Growth]]","[[01_AGENTS/Agent-Model-Data]]","[[01_AGENTS/Agent-Paid-Media-Measurement]]","[[01_AGENTS/Agent-Visual-Media]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/exercises/MKT_02]]","[[02_CURRICULUM/2.2.0/lessons/MKT_01]]","[[02_CURRICULUM/2.2.0/lessons/MKT_03]]","[[02_CURRICULUM/2.2.0/modules/MARKETING]]","[[02_CURRICULUM/2.2.0/skills/CONTENT_PIPELINES]]","[[02_CURRICULUM/2.2.0/skills/GROUNDING]]","[[02_CURRICULUM/2.2.0/sources/GOOGLE_AI_CONTENT]]","[[02_CURRICULUM/2.2.0/sources/OPENAI_SCHEMA]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_MKT_02]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_02]]"]
+related: ["[[01_AGENTS/Agent-Curriculum-Auditor]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Knowledge-RAG]]","[[01_AGENTS/Agent-Marketing-Growth]]","[[01_AGENTS/Agent-Model-Data]]","[[01_AGENTS/Agent-Paid-Media-Measurement]]","[[01_AGENTS/Agent-Visual-Media]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/exercises/MKT_02]]","[[02_CURRICULUM/2.2.0/lessons/MKT_01]]","[[02_CURRICULUM/2.2.0/lessons/MKT_03]]","[[02_CURRICULUM/2.2.0/modules/MARKETING]]","[[02_CURRICULUM/2.2.0/skills/CONTENT_PIPELINES]]","[[02_CURRICULUM/2.2.0/skills/GROUNDING]]","[[02_CURRICULUM/2.2.0/sources/GOOGLE_AI_CONTENT]]","[[02_CURRICULUM/2.2.0/sources/OPENAI_SCHEMA]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_MKT_02]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_02]]","[[04_AUTOMATIONS_AND_APIS/knowledge-sources/OPENAI_CHANGELOG]]","[[04_AUTOMATIONS_AND_APIS/knowledge-sources/OPENAI_MODELS]]","[[04_AUTOMATIONS_AND_APIS/knowledge-sources/OPENAI_NEWS]]","[[04_AUTOMATIONS_AND_APIS/technologies/OPENAI_API]]"]
 ---
 
 # מחקר קהל ומתחרים
@@ -126,3 +126,7 @@ Input → Contract check → Work / model proposal → Result check → Evidence
 - [[02_CURRICULUM/2.2.0/sources/OPENAI_SCHEMA|OpenAI structured outputs]] — מקור לשיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_MKT_02|בדיקת הבנה: מתחרה פרסם הרבה סרטונים על נושא מסוים. מה אפשר להסיק מכך במחקר קהל?]] — בדיקת הבנה
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_02|הוכחה מעשית · מחקר קהל ומתחרים]] — הוכחה מעשית
+- [[04_AUTOMATIONS_AND_APIS/knowledge-sources/OPENAI_CHANGELOG|OpenAI API changelog]] — שיעור קשור למעקב
+- [[04_AUTOMATIONS_AND_APIS/knowledge-sources/OPENAI_MODELS|OpenAI model catalog]] — שיעור קשור למעקב
+- [[04_AUTOMATIONS_AND_APIS/knowledge-sources/OPENAI_NEWS|OpenAI News]] — שיעור קשור למעקב
+- [[04_AUTOMATIONS_AND_APIS/technologies/OPENAI_API|OpenAI API and models]] — טכנולוגיה בשיעור

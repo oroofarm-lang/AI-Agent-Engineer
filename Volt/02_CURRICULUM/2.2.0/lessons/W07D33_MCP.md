@@ -11,7 +11,7 @@ source_ids: ["MCP_SPEC"]
 prerequisite_lesson_ids: ["W07D32_TOOL_DESIGN"]
 source_sha256: "ead2027bf5af880be3d5ff97b7585e7962b3d0e76480b2385b95bfa812a1f4b5"
 estimated_minutes: 180
-related: ["[[01_AGENTS/Agent-Agentic-Workflows]]","[[01_AGENTS/Agent-Automation-Engineer]]","[[01_AGENTS/Agent-Business-Discovery]]","[[01_AGENTS/Agent-Code-Reviewer]]","[[01_AGENTS/Agent-CRM-Sales]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Security-Auditor]]","[[01_AGENTS/Agent-Voice-Audio]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/exercises/W07D33_MCP]]","[[02_CURRICULUM/2.2.0/lessons/W07D32_TOOL_DESIGN]]","[[02_CURRICULUM/2.2.0/lessons/W07D34_SIDE_EFFECTS_PERMISSIONS]]","[[02_CURRICULUM/2.2.0/modules/AUTOMATION]]","[[02_CURRICULUM/2.2.0/skills/HTTP_APIS]]","[[02_CURRICULUM/2.2.0/skills/HUMAN_APPROVAL]]","[[02_CURRICULUM/2.2.0/skills/MCP]]","[[02_CURRICULUM/2.2.0/sources/MCP_SPEC]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W07D33_MCP]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W07D33_MCP]]"]
+related: ["[[01_AGENTS/Agent-Agentic-Workflows]]","[[01_AGENTS/Agent-Automation-Engineer]]","[[01_AGENTS/Agent-Business-Discovery]]","[[01_AGENTS/Agent-Code-Reviewer]]","[[01_AGENTS/Agent-CRM-Sales]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Security-Auditor]]","[[01_AGENTS/Agent-Voice-Audio]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/exercises/W07D33_MCP]]","[[02_CURRICULUM/2.2.0/lessons/W07D32_TOOL_DESIGN]]","[[02_CURRICULUM/2.2.0/lessons/W07D34_SIDE_EFFECTS_PERMISSIONS]]","[[02_CURRICULUM/2.2.0/modules/AUTOMATION]]","[[02_CURRICULUM/2.2.0/skills/HTTP_APIS]]","[[02_CURRICULUM/2.2.0/skills/HUMAN_APPROVAL]]","[[02_CURRICULUM/2.2.0/skills/MCP]]","[[02_CURRICULUM/2.2.0/sources/MCP_SPEC]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W07D33_MCP]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W07D33_MCP]]","[[04_AUTOMATIONS_AND_APIS/knowledge-sources/MCP_SDK]]","[[04_AUTOMATIONS_AND_APIS/technologies/MCP]]"]
 ---
 
 # MCP: חיבור כלים והקשר
@@ -134,3 +134,5 @@ Input → Contract check → Work / model proposal → Result check → Evidence
 - [[02_CURRICULUM/2.2.0/sources/MCP_SPEC|MCP specification]] — מקור לשיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W07D33_MCP|בדיקת הבנה: מה ההבדל בין Tool ל־Resource בתיאור MCP שבשיעור?]] — בדיקת הבנה
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W07D33_MCP|הוכחה מעשית · MCP: חיבור כלים והקשר]] — הוכחה מעשית
+- [[04_AUTOMATIONS_AND_APIS/knowledge-sources/MCP_SDK|MCP TypeScript SDK]] — שיעור קשור למעקב
+- [[04_AUTOMATIONS_AND_APIS/technologies/MCP|Model Context Protocol]] — טכנולוגיה בשיעור

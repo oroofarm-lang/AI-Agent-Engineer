@@ -6,7 +6,7 @@ entity_id: "CRM_OPERATIONS"
 curriculum_version: "2.2.0"
 skill_id: "CRM_OPERATIONS"
 prerequisite_skill_ids: []
-related: ["[[01_AGENTS/Agent-CRM-Sales]]","[[02_CURRICULUM/2.2.0/Index]]","[[02_CURRICULUM/2.2.0/lessons/CRM_01]]","[[02_CURRICULUM/2.2.0/lessons/CRM_02]]","[[02_CURRICULUM/2.2.0/lessons/CRM_03]]","[[02_CURRICULUM/2.2.0/lessons/CRM_04]]","[[02_CURRICULUM/2.2.0/lessons/CRM_05]]","[[02_CURRICULUM/2.2.0/lessons/CRM_06]]","[[02_CURRICULUM/2.2.0/lessons/CRM_07]]","[[02_CURRICULUM/2.2.0/lessons/CRM_08]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_CRM_01]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_CRM_02]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_CRM_03]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_CRM_04]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_CRM_05]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_CRM_06]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_CRM_07]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_CRM_08]]"]
+related: ["[[01_AGENTS/Agent-CRM-Sales]]","[[02_CURRICULUM/2.2.0/Index]]","[[02_CURRICULUM/2.2.0/lessons/CRM_01]]","[[02_CURRICULUM/2.2.0/lessons/CRM_02]]","[[02_CURRICULUM/2.2.0/lessons/CRM_03]]","[[02_CURRICULUM/2.2.0/lessons/CRM_04]]","[[02_CURRICULUM/2.2.0/lessons/CRM_05]]","[[02_CURRICULUM/2.2.0/lessons/CRM_06]]","[[02_CURRICULUM/2.2.0/lessons/CRM_07]]","[[02_CURRICULUM/2.2.0/lessons/CRM_08]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_CRM_01]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_CRM_02]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_CRM_03]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_CRM_04]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_CRM_05]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_CRM_06]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_CRM_07]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_CRM_08]]","[[04_AUTOMATIONS_AND_APIS/technologies/OPENAI_API]]"]
 ---
 
 # CRM ותפעול לקוחות
@@ -35,3 +35,4 @@ related: ["[[01_AGENTS/Agent-CRM-Sales]]","[[02_CURRICULUM/2.2.0/Index]]","[[02_
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_CRM_06|הוכחה מעשית · סביבת עבודה לעובדים]] — מיומנות שנבדקת
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_CRM_07|הוכחה מעשית · מלאי, מוצרים והזמנות]] — מיומנות שנבדקת
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_CRM_08|הוכחה מעשית · מבחן מסכם: מערכת עבודה לעסק]] — מיומנות שנבדקת
+- [[04_AUTOMATIONS_AND_APIS/technologies/OPENAI_API|OpenAI API and models]] — מיומנות קשורה

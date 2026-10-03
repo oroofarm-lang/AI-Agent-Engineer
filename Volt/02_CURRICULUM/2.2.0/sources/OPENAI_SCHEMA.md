@@ -8,7 +8,7 @@ source_id: "OPENAI_SCHEMA"
 url: "https://developers.openai.com/api/docs/guides/structured-outputs"
 last_verified: null
 technology_ids: []
-related: ["[[01_AGENTS/Agent-Model-Data]]","[[02_CURRICULUM/2.2.0/Index]]","[[02_CURRICULUM/2.2.0/lessons/AUT_03]]","[[02_CURRICULUM/2.2.0/lessons/CRM_04]]","[[02_CURRICULUM/2.2.0/lessons/MKT_01]]","[[02_CURRICULUM/2.2.0/lessons/MKT_02]]","[[02_CURRICULUM/2.2.0/lessons/MKT_03]]","[[02_CURRICULUM/2.2.0/lessons/MKT_05]]","[[02_CURRICULUM/2.2.0/lessons/MKT_10]]","[[02_CURRICULUM/2.2.0/lessons/W02D08_STRUCTURED_OUTPUTS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_AUT_03]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_CRM_04]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_MKT_01]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_MKT_02]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_MKT_03]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_MKT_05]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_MKT_10]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W02D08_STRUCTURED_OUTPUTS]]","[[04_AUTOMATIONS_AND_APIS/Knowledge-Updates]]"]
+related: ["[[01_AGENTS/Agent-Model-Data]]","[[02_CURRICULUM/2.2.0/Index]]","[[02_CURRICULUM/2.2.0/lessons/AUT_03]]","[[02_CURRICULUM/2.2.0/lessons/CRM_04]]","[[02_CURRICULUM/2.2.0/lessons/MKT_01]]","[[02_CURRICULUM/2.2.0/lessons/MKT_02]]","[[02_CURRICULUM/2.2.0/lessons/MKT_03]]","[[02_CURRICULUM/2.2.0/lessons/MKT_05]]","[[02_CURRICULUM/2.2.0/lessons/MKT_10]]","[[02_CURRICULUM/2.2.0/lessons/W02D08_STRUCTURED_OUTPUTS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_AUT_03]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_CRM_04]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_MKT_01]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_MKT_02]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_MKT_03]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_MKT_05]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_MKT_10]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W02D08_STRUCTURED_OUTPUTS]]","[[04_AUTOMATIONS_AND_APIS/knowledge-sources/OPENAI_CHANGELOG]]","[[04_AUTOMATIONS_AND_APIS/knowledge-sources/OPENAI_MODELS]]","[[04_AUTOMATIONS_AND_APIS/knowledge-sources/OPENAI_NEWS]]","[[04_AUTOMATIONS_AND_APIS/Knowledge-Updates]]","[[04_AUTOMATIONS_AND_APIS/technologies/OPENAI_API]]"]
 ---
 
 # OpenAI structured outputs
@@ -43,4 +43,8 @@ related: ["[[01_AGENTS/Agent-Model-Data]]","[[02_CURRICULUM/2.2.0/Index]]","[[02
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_MKT_05|בדיקת הבנה: מאמר אומר שהשירות זמין רק ללקוחות רשומים, אך הפוסט המקוצר משמיט את התנאי. האם זו התאמה תקינה לפורמט?]] — מקור השאלה
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_MKT_10|בדיקת הבנה: בתיק סטודיו התוכן נכתבה תחזית שלפיה הקמפיין יביא יותר פניות. איך צריך להציג אותה כל עוד אין נתוני ביצוע?]] — מקור השאלה
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W02D08_STRUCTURED_OUTPUTS|בדיקת הבנה: רשומת Lead תואמת לסכמה, אך כוללת שם שלא הופיע בפנייה. איזו בדיקה עדיין נדרשת?]] — מקור השאלה
+- [[04_AUTOMATIONS_AND_APIS/knowledge-sources/OPENAI_CHANGELOG|OpenAI API changelog]] — תיעוד בקורס
+- [[04_AUTOMATIONS_AND_APIS/knowledge-sources/OPENAI_MODELS|OpenAI model catalog]] — תיעוד בקורס
+- [[04_AUTOMATIONS_AND_APIS/knowledge-sources/OPENAI_NEWS|OpenAI News]] — תיעוד בקורס
 - [[04_AUTOMATIONS_AND_APIS/Knowledge-Updates|רענון מקורות וביקורת תוכן]] — מקור בקטלוג
+- [[04_AUTOMATIONS_AND_APIS/technologies/OPENAI_API|OpenAI API and models]] — תיעוד בקורס

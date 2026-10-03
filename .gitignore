@@ -15,6 +15,9 @@ __pycache__/
 
 Volt/.obsidian/workspace*.json
 Volt/.obsidian/cache/
+Volt/.obsidian/appearance.json
+Volt/.obsidian/core-plugins.json
+Volt/.obsidian/graph.json
 
 # Personal Obsidian notes and local UI state are not part of the source backup.
 Volt/מחברת/

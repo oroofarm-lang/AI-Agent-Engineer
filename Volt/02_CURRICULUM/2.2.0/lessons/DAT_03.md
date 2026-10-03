@@ -11,7 +11,7 @@ source_ids: ["OLLAMA_SCHEMA","OPENAI_DATA"]
 prerequisite_lesson_ids: ["DAT_02"]
 source_sha256: "6b24e48f8a3788d0fa1a8b6f57662a468cf6275c392c2362ebf2f21943ce150a"
 estimated_minutes: 150
-related: ["[[01_AGENTS/Agent-Curriculum-Auditor]]","[[01_AGENTS/Agent-Curriculum-Pedagogy]]","[[01_AGENTS/Agent-Database-Architect]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Model-Data]]","[[01_AGENTS/Agent-Paid-Media-Measurement]]","[[01_AGENTS/Agent-Progress-Tracker]]","[[01_AGENTS/Agent-Quiz-Designer]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/exercises/DAT_03]]","[[02_CURRICULUM/2.2.0/lessons/DAT_02]]","[[02_CURRICULUM/2.2.0/lessons/DAT_04]]","[[02_CURRICULUM/2.2.0/modules/DATA]]","[[02_CURRICULUM/2.2.0/skills/AI_FUNDAMENTALS]]","[[02_CURRICULUM/2.2.0/skills/DATABASE]]","[[02_CURRICULUM/2.2.0/skills/EVALS]]","[[02_CURRICULUM/2.2.0/sources/OLLAMA_SCHEMA]]","[[02_CURRICULUM/2.2.0/sources/OPENAI_DATA]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_DAT_03]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_DAT_03]]"]
+related: ["[[01_AGENTS/Agent-Curriculum-Auditor]]","[[01_AGENTS/Agent-Curriculum-Pedagogy]]","[[01_AGENTS/Agent-Database-Architect]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Model-Data]]","[[01_AGENTS/Agent-Paid-Media-Measurement]]","[[01_AGENTS/Agent-Progress-Tracker]]","[[01_AGENTS/Agent-Quiz-Designer]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/exercises/DAT_03]]","[[02_CURRICULUM/2.2.0/lessons/DAT_02]]","[[02_CURRICULUM/2.2.0/lessons/DAT_04]]","[[02_CURRICULUM/2.2.0/modules/DATA]]","[[02_CURRICULUM/2.2.0/skills/AI_FUNDAMENTALS]]","[[02_CURRICULUM/2.2.0/skills/DATABASE]]","[[02_CURRICULUM/2.2.0/skills/EVALS]]","[[02_CURRICULUM/2.2.0/sources/OLLAMA_SCHEMA]]","[[02_CURRICULUM/2.2.0/sources/OPENAI_DATA]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_DAT_03]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_DAT_03]]","[[04_AUTOMATIONS_AND_APIS/knowledge-sources/OLLAMA]]","[[04_AUTOMATIONS_AND_APIS/technologies/OLLAMA]]"]
 ---
 
 # מודלים מקומיים ומשאבי חומרה
@@ -128,3 +128,5 @@ Input → Contract check → Work / model proposal → Result check → Evidence
 - [[02_CURRICULUM/2.2.0/sources/OPENAI_DATA|OpenAI data controls]] — מקור לשיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_DAT_03|בדיקת הבנה: מודל מופעל במחשב המקומי. איזו מסקנה מותר להסיק מכך בלבד?]] — בדיקת הבנה
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_DAT_03|הוכחה מעשית · מודלים מקומיים ומשאבי חומרה]] — הוכחה מעשית
+- [[04_AUTOMATIONS_AND_APIS/knowledge-sources/OLLAMA|Ollama]] — שיעור קשור למעקב
+- [[04_AUTOMATIONS_AND_APIS/technologies/OLLAMA|Ollama]] — טכנולוגיה בשיעור

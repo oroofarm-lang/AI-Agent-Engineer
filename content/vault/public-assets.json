@@ -206,6 +206,19 @@
   ],
   "apis": [
     {
+      "id": "KNOWLEDGE",
+      "path": "/api/knowledge",
+      "methods": [
+        "GET",
+        "POST"
+      ],
+      "title": "מקורות רשמיים ועדכונים",
+      "scope": "signed-in-read/operator-refresh",
+      "sourcePath": "src/app/api/knowledge/route.ts",
+      "description": "קריאה של תוצאות גילוי ציבוריות לחשבון מחובר. רענון מקורות קבועים מותר למפעיל מאומת בלבד, ללא קבלת כתובת או נתיב מהלקוח. הרענון מוגבל למועדי הבדיקה הקיימים ואינו משנה שיעורים.",
+      "status": "implemented"
+    },
+    {
       "id": "AGENT_ORCHESTRATE",
       "path": "/api/agents/orchestrate",
       "methods": [

@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 tool_id: "knowledge.read"
 scope: "public"
 implementation: "src/lib/agents/tools.ts#executeAgentTool"
-related: ["[[00_ORCHESTRATION/System-Policies]]","[[01_AGENTS/Agent-Agentic-Workflows]]","[[01_AGENTS/Agent-Automation-Engineer]]","[[01_AGENTS/Agent-Business-Discovery]]","[[01_AGENTS/Agent-Code-Reviewer]]","[[01_AGENTS/Agent-CRM-Sales]]","[[01_AGENTS/Agent-Curriculum-Auditor]]","[[01_AGENTS/Agent-Curriculum-Pedagogy]]","[[01_AGENTS/Agent-Database-Architect]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Knowledge-RAG]]","[[01_AGENTS/Agent-Marketing-Growth]]","[[01_AGENTS/Agent-Model-Data]]","[[01_AGENTS/Agent-Paid-Media-Measurement]]","[[01_AGENTS/Agent-Production-Reliability]]","[[01_AGENTS/Agent-Progress-Tracker]]","[[01_AGENTS/Agent-Quiz-Designer]]","[[01_AGENTS/Agent-Security-Auditor]]","[[01_AGENTS/Agent-UI-UX-Inspector]]","[[01_AGENTS/Agent-Visual-Media]]","[[01_AGENTS/Agent-Voice-Audio]]","[[01_AGENTS/Orchestrator-Prime]]","[[04_AUTOMATIONS_AND_APIS/Index]]"]
+related: ["[[00_ORCHESTRATION/System-Policies]]","[[01_AGENTS/Agent-Agentic-Workflows]]","[[01_AGENTS/Agent-Automation-Engineer]]","[[01_AGENTS/Agent-Business-Discovery]]","[[01_AGENTS/Agent-Code-Reviewer]]","[[01_AGENTS/Agent-CRM-Sales]]","[[01_AGENTS/Agent-Curriculum-Auditor]]","[[01_AGENTS/Agent-Curriculum-Pedagogy]]","[[01_AGENTS/Agent-Database-Architect]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Knowledge-RAG]]","[[01_AGENTS/Agent-Marketing-Growth]]","[[01_AGENTS/Agent-Model-Data]]","[[01_AGENTS/Agent-Paid-Media-Measurement]]","[[01_AGENTS/Agent-Production-Reliability]]","[[01_AGENTS/Agent-Progress-Tracker]]","[[01_AGENTS/Agent-Quiz-Designer]]","[[01_AGENTS/Agent-Security-Auditor]]","[[01_AGENTS/Agent-UI-UX-Inspector]]","[[01_AGENTS/Agent-Visual-Media]]","[[01_AGENTS/Agent-Voice-Audio]]","[[01_AGENTS/Orchestrator-Prime]]","[[04_AUTOMATIONS_AND_APIS/Index]]","[[04_AUTOMATIONS_AND_APIS/knowledge-sources/AGENTS_SDK]]","[[04_AUTOMATIONS_AND_APIS/knowledge-sources/LANGGRAPH]]","[[04_AUTOMATIONS_AND_APIS/knowledge-sources/MCP_SDK]]","[[04_AUTOMATIONS_AND_APIS/knowledge-sources/N8N]]","[[04_AUTOMATIONS_AND_APIS/knowledge-sources/OLLAMA]]","[[04_AUTOMATIONS_AND_APIS/knowledge-sources/OPENAI_CHANGELOG]]","[[04_AUTOMATIONS_AND_APIS/knowledge-sources/OPENAI_MODELS]]","[[04_AUTOMATIONS_AND_APIS/knowledge-sources/OPENAI_NEWS]]"]
 ---
 
 # קריאת עדכונים שנאספו
@@ -45,3 +45,11 @@ Reads the validated public knowledge snapshot with actual retrieval times and di
 - [[01_AGENTS/Agent-Voice-Audio|קול, תמלול ושיחה]] — כלי מותר
 - [[01_AGENTS/Orchestrator-Prime|תיאום צוות ההדרכה]] — כלי מותר
 - [[04_AUTOMATIONS_AND_APIS/Index|חיבורים, ממשקים וקובצי עזר]] — כלי
+- [[04_AUTOMATIONS_AND_APIS/knowledge-sources/AGENTS_SDK|OpenAI Agents SDK]] — הקשר של המנטור
+- [[04_AUTOMATIONS_AND_APIS/knowledge-sources/LANGGRAPH|LangGraph]] — הקשר של המנטור
+- [[04_AUTOMATIONS_AND_APIS/knowledge-sources/MCP_SDK|MCP TypeScript SDK]] — הקשר של המנטור
+- [[04_AUTOMATIONS_AND_APIS/knowledge-sources/N8N|n8n]] — הקשר של המנטור
+- [[04_AUTOMATIONS_AND_APIS/knowledge-sources/OLLAMA|Ollama]] — הקשר של המנטור
+- [[04_AUTOMATIONS_AND_APIS/knowledge-sources/OPENAI_CHANGELOG|OpenAI API changelog]] — הקשר של המנטור
+- [[04_AUTOMATIONS_AND_APIS/knowledge-sources/OPENAI_MODELS|OpenAI model catalog]] — הקשר של המנטור
+- [[04_AUTOMATIONS_AND_APIS/knowledge-sources/OPENAI_NEWS|OpenAI News]] — הקשר של המנטור

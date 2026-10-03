@@ -1,0 +1,46 @@
+.knowledge-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.3rem;
+  margin-block: 1.5rem;
+}
+.knowledge-source {
+  padding: 1.5rem;
+  min-width: 0;
+}
+.knowledge-source h2 {
+  margin-block: 0.5rem;
+}
+.knowledge-source a,
+.knowledge-excerpt {
+  overflow-wrap: anywhere;
+}
+.knowledge-source p,
+.knowledge-source li {
+  line-height: 1.7;
+}
+.knowledge-source details {
+  margin-block: 1rem;
+}
+.knowledge-source summary {
+  cursor: pointer;
+  padding-block: 0.4rem;
+}
+.knowledge-items {
+  padding-inline-start: 1.3rem;
+}
+.knowledge-items > li {
+  margin-block: 1rem;
+}
+.knowledge-refresh {
+  max-width: 27rem;
+}
+.knowledge-refresh p {
+  line-height: 1.7;
+  margin-block: 0.5rem;
+}
+@media (max-width: 900px) {
+  .knowledge-grid {
+    grid-template-columns: 1fr;
+  }
+}

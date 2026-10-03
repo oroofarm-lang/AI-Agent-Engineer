@@ -1,5 +1,6 @@
 import type { ReturnTypeOfCurriculum } from '../../src/lib/ai/types';
 import type { AgentRegistry } from '../../src/lib/agents/registry';
+import type { loadKnowledgeRegistry } from '../../src/lib/ai/knowledge-registry';
 export type PublicAsset = {
   id: string;
   title: string;
@@ -29,6 +30,7 @@ export function buildVaultFiles(input: {
   publicAssets?: PublicAsset[];
   apis?: PublicApi[];
   quizBank?: unknown;
+  knowledgeRegistry?: ReturnType<typeof loadKnowledgeRegistry>;
 }): {
   files: Map<string, string>;
   relations: { from: string; to: string; type: string }[];

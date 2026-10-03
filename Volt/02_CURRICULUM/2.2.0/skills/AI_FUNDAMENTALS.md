@@ -6,7 +6,7 @@ entity_id: "AI_FUNDAMENTALS"
 curriculum_version: "2.2.0"
 skill_id: "AI_FUNDAMENTALS"
 prerequisite_skill_ids: []
-related: ["[[01_AGENTS/Agent-Curriculum-Pedagogy]]","[[01_AGENTS/Agent-Model-Data]]","[[01_AGENTS/Agent-Quiz-Designer]]","[[02_CURRICULUM/2.2.0/Index]]","[[02_CURRICULUM/2.2.0/lessons/DAT_01]]","[[02_CURRICULUM/2.2.0/lessons/DAT_02]]","[[02_CURRICULUM/2.2.0/lessons/DAT_03]]","[[02_CURRICULUM/2.2.0/lessons/DAT_04]]","[[02_CURRICULUM/2.2.0/lessons/FND_01]]","[[02_CURRICULUM/2.2.0/lessons/FND_02]]","[[02_CURRICULUM/2.2.0/lessons/FND_03]]","[[02_CURRICULUM/2.2.0/lessons/FND_04]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_DAT_01]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_DAT_02]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_DAT_03]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_DAT_04]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_FND_01]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_FND_02]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_FND_03]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_FND_04]]"]
+related: ["[[01_AGENTS/Agent-Curriculum-Pedagogy]]","[[01_AGENTS/Agent-Model-Data]]","[[01_AGENTS/Agent-Quiz-Designer]]","[[02_CURRICULUM/2.2.0/Index]]","[[02_CURRICULUM/2.2.0/lessons/DAT_01]]","[[02_CURRICULUM/2.2.0/lessons/DAT_02]]","[[02_CURRICULUM/2.2.0/lessons/DAT_03]]","[[02_CURRICULUM/2.2.0/lessons/DAT_04]]","[[02_CURRICULUM/2.2.0/lessons/FND_01]]","[[02_CURRICULUM/2.2.0/lessons/FND_02]]","[[02_CURRICULUM/2.2.0/lessons/FND_03]]","[[02_CURRICULUM/2.2.0/lessons/FND_04]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_DAT_01]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_DAT_02]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_DAT_03]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_DAT_04]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_FND_01]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_FND_02]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_FND_03]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_FND_04]]","[[04_AUTOMATIONS_AND_APIS/technologies/OLLAMA]]","[[04_AUTOMATIONS_AND_APIS/technologies/OPENAI_API]]"]
 ---
 
 # יסודות AI
@@ -37,3 +37,5 @@ related: ["[[01_AGENTS/Agent-Curriculum-Pedagogy]]","[[01_AGENTS/Agent-Model-Dat
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_FND_02|הוכחה מעשית · בחירת מודלים לפי מדידה]] — מיומנות שנבדקת
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_FND_03|הוכחה מעשית · מסמכים, תמונות וקול כקלט]] — מיומנות שנבדקת
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_FND_04|הוכחה מעשית · מיפוי צורך עסקי ופיילוט]] — מיומנות שנבדקת
+- [[04_AUTOMATIONS_AND_APIS/technologies/OLLAMA|Ollama]] — מיומנות קשורה
+- [[04_AUTOMATIONS_AND_APIS/technologies/OPENAI_API|OpenAI API and models]] — מיומנות קשורה
