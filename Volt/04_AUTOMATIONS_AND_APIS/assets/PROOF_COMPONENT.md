@@ -6,7 +6,7 @@ entity_id: "PROOF_COMPONENT"
 curriculum_version: "2.2.0"
 source_path: "src/components/assessment-form.tsx"
 asset_kind: "ui-code"
-source_sha256: "b00e4592806c1047b30aa966fce91ab5b669243c2cd8e99d33c75dcd9d5d106c"
+source_sha256: "de1ceba0535063e93c942c52f04a44fe697dcdb6ba3080b65af20a6e696ff68c"
 related: ["[[01_AGENTS/Agent-Curriculum-Auditor]]","[[01_AGENTS/Agent-Database-Architect]]","[[01_AGENTS/Agent-Production-Reliability]]","[[01_AGENTS/Agent-Progress-Tracker]]","[[01_AGENTS/Agent-Quiz-Designer]]","[[01_AGENTS/Agent-Security-Auditor]]","[[01_AGENTS/Agent-UI-UX-Inspector]]","[[02_CURRICULUM/2.2.0/modules/PRODUCT]]","[[02_CURRICULUM/2.2.0/modules/QUALITY]]","[[04_AUTOMATIONS_AND_APIS/Index]]"]
 ---
 
@@ -31,19 +31,20 @@ import { ArtifactPicker, type SelectedArtifact } from './assessment/artifact-pic
 import { PortfolioCard } from './assessment/portfolio-card';
 import { reducedMotion } from '@/lib/domain/motion';
 import { ReinforcementQuiz } from './assessment/reinforcement-quiz';
+import type { PublicPracticeQuestion } from '@/lib/quizzes/catalog';
 
 export function AssessmentForm({
   assessment,
   submissionId,
   curriculumVersion,
   built,
-  questionHash,
+  practiceQuestion,
 }: {
   assessment: Assessment;
   submissionId: string;
   curriculumVersion: string;
   built: boolean;
-  questionHash: string;
+  practiceQuestion: PublicPracticeQuestion;
 }) {
   const [evidence, setEvidence] = useState<Record<string, string>>({});
   const [files, setFiles] = useState<SelectedArtifact[]>([]);
@@ -94,10 +95,10 @@ export function AssessmentForm({
         </p>
       )}
       <ReinforcementQuiz
-        key={`${assessment.lessonId}:${questionHash}`}
+        key={`${assessment.lessonId}:${practiceQuestion.hash}`}
         lessonId={assessment.lessonId}
         curriculumVersion={curriculumVersion}
-        questionHash={questionHash}
+        question={practiceQuestion}
       />
       <div className="assessment-progress">
         <span>

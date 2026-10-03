@@ -100,12 +100,18 @@ describe('isolated reinforcement-question draft', () => {
     }
   });
 
-  it('keeps the draft outside learner UI; only the public Vault exporter may expose it for review', () => {
+  it('keeps the draft outside learner selection; only the public exporter and verified operator entry point can read it', () => {
     expect(bank).toMatchObject({ status: 'draft', reviewStatus: 'requires-human-review' });
     for (const file of readdirSync('src', { recursive: true })) {
       if (typeof file !== 'string' || !/\.(?:ts|tsx|js|jsx|json)$/.test(file)) continue;
-      if (file.replaceAll(path.sep, '/') === 'lib/vault/sync.ts') continue;
+      const name = file.replaceAll(path.sep, '/');
+      if (name === 'lib/vault/sync.ts') continue;
       const body = readFileSync(path.join('src', file), 'utf8');
+      if (name === 'lib/quizzes/draft.ts') {
+        expect(body).toContain("import 'server-only'");
+        expect(body).toContain('if (!isOperator(actor))');
+        continue;
+      }
       expect(body, `runtime references unreleased quiz bank: ${file}`).not.toContain(
         '1.0.0-draft.json',
       );

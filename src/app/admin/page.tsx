@@ -32,7 +32,12 @@ export default async function Admin({
       <Link className="button secondary" href="/admin/reviews">
         לבדיקת ראיות הלומדים
       </Link>
-      <Link className="button secondary" href="/admin/curriculum">לבדיקת עדכונים לקורס</Link>
+      <Link className="button secondary" href="/admin/curriculum">
+        לבדיקת עדכונים לקורס
+      </Link>
+      <Link className="button secondary" href="/admin/quizzes">
+        לבדיקת שאלות לתרגול
+      </Link>
       <a className="button secondary" href="/api/admin/contacts" download>
         ייצוא כתובות של משתמשים שאימתו את המייל ובחרו לקבל עדכונים
       </a>

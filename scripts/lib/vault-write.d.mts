@@ -3,10 +3,12 @@ type Projection = {
   files: Map<string, string>;
   version: string;
   curriculumHash?: string;
+  quizBankHash?: string | null;
 };
 export function readVaultManifest(vaultRoot: string): Promise<{
   version: string;
   curriculumHash: string | null;
+  quizBankHash: string | null;
 } | null>;
 export function writeVaultFiles(
   input: {
@@ -20,4 +22,5 @@ export function writeVaultFiles(
   files: number;
   version: string;
   curriculumHash: string | null;
+  quizBankHash: string | null;
 }>;

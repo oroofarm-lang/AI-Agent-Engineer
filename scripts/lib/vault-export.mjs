@@ -131,6 +131,13 @@ export const publicAssetCatalog = [
     moduleIds: ['PRODUCT', 'QUALITY'],
   },
   {
+    id: 'QUIZ_REVIEW_COMPONENT',
+    title: 'בדיקת שאלות ואישור מאגר לפרסום',
+    sourcePath: 'src/components/quiz-bank-review.tsx',
+    kind: 'ui-code',
+    moduleIds: ['PRODUCT', 'QUALITY'],
+  },
+  {
     id: 'UPLOAD_COMPONENT',
     title: 'בחירת קבצים ותצוגה מקדימה',
     sourcePath: 'src/components/assessment/artifact-picker.tsx',
@@ -154,6 +161,16 @@ export const publicAssetCatalog = [
 ];
 
 export const publicApiCatalog = [
+  {
+    id: 'QUIZ_REVIEW',
+    path: '/api/quizzes/review',
+    methods: ['GET', 'POST'],
+    title: 'בדיקת שאלות, פרסום וחזרה לגרסה קודמת',
+    scope: 'verified-operator',
+    sourcePath: 'src/app/api/quizzes/review/route.ts',
+    description:
+      'מפעיל מאומת בודק כל שאלה מול השיעור והמקורות שלה. הפרסום דורש אישור מפורש של כל השאלות בנוסח המדויק. ההחלטות והזהות של הבודק נשמרות ביומן פרטי. רק מאגר שאושר ופורסם מוצג ללומדים; תשובות קודמות נשמרות גם לאחר החלפת גרסה. פרסום וחזרה לגרסה קודמת מפעילים עדכון של המפה הציבורית. כשל בייצוא מדווח בנפרד ואינו מבטל את הפעולה במאגר השאלות. תשובות לומדים והחלטות פרטיות אינן מיוצאות.',
+  },
   {
     id: 'CURRICULUM_AUDITOR',
     path: '/api/auditor',
@@ -377,6 +394,7 @@ export function buildVaultFiles({
   lessonBodies,
   registry,
   quizBank,
+  publishedQuizBank,
   systemQuestion,
   knowledgeRegistry,
   publicAssets = publicAssetCatalog,
@@ -941,7 +959,8 @@ export function buildVaultFiles({
       for (const file of paths.proof.values()) connect(paths.api.get(id), file, 'ראיות והגשות');
   if (paths.api.has('VAULT_SYNC')) connect(paths.api.get('VAULT_SYNC'), index, 'ייצוא ציבורי');
   for (const source of sources) connect(knowledge, paths.source.get(source.id), 'מקור בקטלוג');
-  if (quizBank) {
+  for (const selectedBank of [quizBank, publishedQuizBank].filter(Boolean)) {
+    const quizBank = selectedBank;
     const quizzes = Array.isArray(quizBank) ? quizBank : quizBank.quizzes;
     if (!Array.isArray(quizzes)) throw new Error('Invalid public quiz bank');
     const quizVersion = quizBank.version || '0.0.0';
@@ -973,6 +992,14 @@ export function buildVaultFiles({
       },
     );
     connect(sectionIndexes.curriculum, quizIndex, draft ? 'טיוטה לביקורת' : 'חיזוק ההבנה');
+    if (paths.api.has('QUIZ_REVIEW'))
+      connect(
+        quizIndex,
+        paths.api.get('QUIZ_REVIEW'),
+        draft ? 'בדיקה לפני פרסום' : 'מאגר שאושר ופורסם',
+      );
+    if (paths.asset.has('QUIZ_REVIEW_COMPONENT'))
+      connect(quizIndex, paths.asset.get('QUIZ_REVIEW_COMPONENT'), 'ממשק בדיקת שאלות');
     for (const quiz of quizzes) {
       validateId(quiz.id, 'quiz');
       if (
@@ -1003,10 +1030,14 @@ export function buildVaultFiles({
           needs_version_review: needsVersionReview,
         },
       );
-      paths.quiz.set(quiz.id, file);
+      paths.quiz.set(`${quizVersion}:${draft ? 'draft' : 'published'}:${quiz.id}`, file);
       connect(quizIndex, file, draft ? 'שאלה לביקורת' : 'בדיקת הבנה');
       connect(paths.lesson.get(quiz.lessonId), file, 'בדיקת הבנה');
       connect(paths.exercise.get(quiz.lessonId), file, 'חיזוק התרגול');
+      if (!draft && paths.api.has('QUIZZES'))
+        connect(file, paths.api.get('QUIZZES'), 'שמירת תשובה');
+      if (!draft && paths.asset.has('REINFORCEMENT_COMPONENT'))
+        connect(file, paths.asset.get('REINFORCEMENT_COMPONENT'), 'שאלה פעילה בממשק');
       if (paths.proof.has(quiz.lessonId))
         connect(paths.proof.get(quiz.lessonId), file, 'תרגול לפני הגשה');
       for (const sourceId of quiz.sourceIds || []) {

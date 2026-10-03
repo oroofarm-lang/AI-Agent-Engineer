@@ -386,7 +386,7 @@
       "x": 5656,
       "y": 250,
       "width": 1370,
-      "height": 4250,
+      "height": 4480,
       "label": "קשרים נוספים לפרק ולשיעורים",
       "color": "6"
     },
@@ -691,10 +691,20 @@
       "color": "6"
     },
     {
+      "id": "file-c0ca35f9ba74923cd8714ce9",
+      "type": "file",
+      "file": "04_AUTOMATIONS_AND_APIS/assets/QUIZ_REVIEW_COMPONENT.md",
+      "x": 5680,
+      "y": 3780,
+      "width": 640,
+      "height": 180,
+      "color": "6"
+    },
+    {
       "id": "file-9e3e97de93af0eadf98932f0",
       "type": "file",
       "file": "04_AUTOMATIONS_AND_APIS/assets/REINFORCEMENT_COMPONENT.md",
-      "x": 5680,
+      "x": 6360,
       "y": 3780,
       "width": 640,
       "height": 180,
@@ -704,8 +714,8 @@
       "id": "file-1fd9614b391361dbbf271ada",
       "type": "file",
       "file": "04_AUTOMATIONS_AND_APIS/assets/VAULT_SYNC_COMPONENT.md",
-      "x": 6360,
-      "y": 3780,
+      "x": 5680,
+      "y": 4010,
       "width": 640,
       "height": 180,
       "color": "6"
@@ -714,7 +724,7 @@
       "id": "file-da38c5069e356aed89f2a7e6",
       "type": "file",
       "file": "04_AUTOMATIONS_AND_APIS/knowledge-sources/LANGGRAPH.md",
-      "x": 5680,
+      "x": 6360,
       "y": 4010,
       "width": 640,
       "height": 180,
@@ -724,8 +734,8 @@
       "id": "file-8054ccbe9a59e8e9a8011252",
       "type": "file",
       "file": "04_AUTOMATIONS_AND_APIS/knowledge-sources/N8N.md",
-      "x": 6360,
-      "y": 4010,
+      "x": 5680,
+      "y": 4240,
       "width": 640,
       "height": 180,
       "color": "6"
@@ -734,7 +744,7 @@
       "id": "file-110ce1b846b736e5f857ae5b",
       "type": "file",
       "file": "04_AUTOMATIONS_AND_APIS/technologies/LANGGRAPH.md",
-      "x": 5680,
+      "x": 6360,
       "y": 4240,
       "width": 640,
       "height": 180,
@@ -744,8 +754,8 @@
       "id": "file-fdab6efb1437fd6b660f5e82",
       "type": "file",
       "file": "04_AUTOMATIONS_AND_APIS/technologies/N8N.md",
-      "x": 6360,
-      "y": 4240,
+      "x": 5680,
+      "y": 4470,
       "width": 640,
       "height": 180,
       "color": "6"
@@ -4795,6 +4805,66 @@
     {
       "id": "edge-fb25f38fa42ff06d8fdc8b9c",
       "fromNode": "file-6da7c6d6dd97f316ce77112a",
+      "fromSide": "right",
+      "toNode": "file-2365f0a01a9b198c38e3ca05",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קובץ עזר למומחה"
+    },
+    {
+      "id": "edge-67fe4aa4b15e933110e6fa51",
+      "fromNode": "file-c0ca35f9ba74923cd8714ce9",
+      "fromSide": "right",
+      "toNode": "file-61e6e2118dba2a11aa442a3f",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קובץ עזר למומחה"
+    },
+    {
+      "id": "edge-bb41d6734ffd78168ed1071d",
+      "fromNode": "file-c0ca35f9ba74923cd8714ce9",
+      "fromSide": "right",
+      "toNode": "file-be11d40265cd2df767d8f455",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קובץ עזר למומחה"
+    },
+    {
+      "id": "edge-b38a1803002c8ff28a26a7a5",
+      "fromNode": "file-c0ca35f9ba74923cd8714ce9",
+      "fromSide": "right",
+      "toNode": "file-0b799de71d380da126de9268",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קובץ עזר לפרק"
+    },
+    {
+      "id": "edge-fc63f9a017efdde7a443331c",
+      "fromNode": "file-c0ca35f9ba74923cd8714ce9",
+      "fromSide": "right",
+      "toNode": "file-6d1e195fbb57cc5b91e69c4c",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קובץ עזר למומחה"
+    },
+    {
+      "id": "edge-1a9f56d795cdee91c0e3cbc1",
+      "fromNode": "file-c0ca35f9ba74923cd8714ce9",
+      "fromSide": "right",
+      "toNode": "file-456cb68b048665cc5ebc34d1",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קובץ עזר למומחה"
+    },
+    {
+      "id": "edge-8be4335d09ecf17e4dbb4382",
+      "fromNode": "file-c0ca35f9ba74923cd8714ce9",
       "fromSide": "right",
       "toNode": "file-2365f0a01a9b198c38e3ca05",
       "toSide": "left",

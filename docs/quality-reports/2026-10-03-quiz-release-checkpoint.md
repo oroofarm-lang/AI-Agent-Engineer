@@ -1,0 +1,24 @@
+# Reviewed subject-question pipeline and public Volt checkpoint — 2026-10-03
+
+The subject-question draft now has a real verified-operator review, publication and rollback workflow. Immutable proposals bind all 139 questions to the actual curriculum, lesson sections and canonical sources. Each approval requires separate answer, source and Hebrew acknowledgements plus explanatory notes. Publishing requires all approvals and the exact current curriculum. No actual teaching draft was approved or published during this checkpoint.
+
+Only a compatible published bank can reach learner screens. Unpublished questions remain isolated. Frozen owned attempts survive replacement and rollback, including replay of an already saved UUID. New answers must match the current question; correct practice answers do not award XP, progress or mastery. Public Volt exports eligible published questions alongside the distinctly labeled draft, with reciprocal lesson, proof, specialist, source and real API/component links. Private review records and learner answers are excluded.
+
+## Executed checks and repairs
+
+- `npm run quality:audit` reached lint, type checking, 168 unit/integration cases in 27 files, 18 Python labs, the production build and 39 private-file trace checks successfully after retrying outside the sandbox's local-socket restriction. Its 28 existing browser journeys passed, including all 139 lesson screens. The added 29th workflow failed initially on a select's accessible name; the overall command did **not** pass.
+- After explicit select names and safe version suggestions were repaired, `npm run check` passed lint, type checking and all 168 cases. The focused curriculum-auditor and generic-practice browser journeys passed. The new browser workflow then detected a keyboard-inaccessible scrollable source excerpt.
+- The excerpt gained keyboard focus. Targeted lint, the final production build/39 trace checks and `npm run test:e2e -- tests/e2e/quiz-releases.spec.ts` passed. This browser journey exercises actual freeze/review/resume/publish/learner answer/reload/rollback, unchanged XP/mastery, account isolation, version reservations, responsive widths, 200% text, axe rules and keyboard scrolling. All 29 distinct browser journeys passed across these runs; a single complete quality command was not rerun after the final repair.
+- Synthetic fixture approvals exist only in fresh isolated test storage and are explicitly marked as test data. No real account data, SMTP delivery, paid provider generation or hosting acceptance was used as proof.
+
+## Language review scope
+
+The independent Hebrew reviewer read the complete review component, complete new operator page, complete published-question feedback module and complete Volt-status component, plus only the new navigation link in the existing admin page. Ambiguous publication wording was clarified, source links announce opening another window, and projection status includes the bank as well as the course. Read hashes and exact coverage are recorded privately in `.data/quality/quiz-copy-2026-10-03.json`. The first recorded final read preceded an accessibility-only `tabIndex` addition. A subsequent complete reading confirmed the current component (511 lines, SHA-256 `9b1d5066277a8e490559aa3d0d00426e128b65f114fcf8095a614eadd16f7407`) and the public Index, review endpoint and component notes. The endpoint wording was corrected to describe a sync attempt and a separate export-failure result. It was not a new full-course review. Released lesson bodies and the 139 draft answers were not technically approved by this UI-copy review.
+
+## Public graph evidence
+
+Actual `npm run vault:sync` updated 20 of 1,229 generated targets, then a repeated export changed zero files and no manifest. The active public graph contains 1,038 file notes and 8,209 root edges: 139 lessons, 14 modules, 53 skills, 47 sources, 139 rubrics, 21 specialists, six tools, 14 API contracts and 21 public source assets, with distinctly labeled draft questions and retained historical exports. It provides 37 Canvas files: full graph, overview, 14 chapter maps and 21 specialist maps.
+
+All 1,384 retained public byte hashes and Canvas paths/endpoints were checked; 33,195 wikilink occurrences in the current graph's file notes resolve. Three older guide links outside this projection were explicitly left unread/unvalidated, including the personal notebook. The actual public overview and full graph were reopened in Obsidian 1.13.7. The overview shows five labeled groups and their relationships. Native Sidian acceptance remains unverified.
+
+The broader goal remains active. Human review of subject teaching, interactive in-app table/text submission workspaces, real configured-provider acceptance and deployment still require their own actual evidence.

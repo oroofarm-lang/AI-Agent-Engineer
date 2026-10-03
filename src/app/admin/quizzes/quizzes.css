@@ -1,0 +1,30 @@
+.quiz-review-progress {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.quiz-review-progress progress {
+  flex: 1;
+  min-width: 8rem;
+}
+.quiz-review-answer {
+  padding: 0.8rem;
+  border: 2px solid var(--border);
+  margin-block: 0.5rem;
+}
+.quiz-review-answer[data-correct='true'] {
+  border-color: var(--green);
+  background: var(--bg);
+}
+.quiz-review-question {
+  scroll-margin-block-start: 6rem;
+}
+.quiz-review-question h3,
+.quiz-review-answer,
+.quiz-review-question p {
+  overflow-wrap: anywhere;
+}
+.quiz-review-question select {
+  max-width: 100%;
+}

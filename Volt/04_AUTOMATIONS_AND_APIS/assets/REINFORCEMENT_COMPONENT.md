@@ -6,7 +6,7 @@ entity_id: "REINFORCEMENT_COMPONENT"
 curriculum_version: "2.2.0"
 source_path: "src/components/assessment/reinforcement-quiz.tsx"
 asset_kind: "ui-code"
-source_sha256: "a3fee4c528168abedcf5e8f3cd92109c0695c4373b0e7de81f9080f6bdfa54c1"
+source_sha256: "2cc7f4e26a5453f0300dc6b35911626c626959714a59bf4498b780e23b6c9fa6"
 related: ["[[01_AGENTS/Agent-Curriculum-Auditor]]","[[01_AGENTS/Agent-Database-Architect]]","[[01_AGENTS/Agent-Production-Reliability]]","[[01_AGENTS/Agent-Progress-Tracker]]","[[01_AGENTS/Agent-Quiz-Designer]]","[[01_AGENTS/Agent-Security-Auditor]]","[[01_AGENTS/Agent-UI-UX-Inspector]]","[[02_CURRICULUM/2.2.0/modules/PRODUCT]]","[[02_CURRICULUM/2.2.0/modules/QUALITY]]","[[02_CURRICULUM/system-quizzes/1.0.0/QUIZ_EVIDENCE_NEXT_STEP]]","[[04_AUTOMATIONS_AND_APIS/Index]]"]
 ---
 
@@ -24,7 +24,7 @@ related: ["[[01_AGENTS/Agent-Curriculum-Auditor]]","[[01_AGENTS/Agent-Database-A
 'use client';
 
 import { useEffect, useRef, useState } from 'react';
-import question from '../../../content/quizzes/system/1.0.0.json';
+import type { PublicPracticeQuestion } from '@/lib/quizzes/catalog';
 
 type Attempt = {
   id: string;
@@ -40,12 +40,15 @@ type PendingAnswer = { requestId: string; optionId: string };
 export function ReinforcementQuiz({
   lessonId,
   curriculumVersion,
-  questionHash,
+  question,
 }: {
   lessonId: string;
   curriculumVersion: string;
-  questionHash: string;
+  question: PublicPracticeQuestion;
 }) {
+  const questionHash = question.hash;
+  const questionId = question.id;
+  const options = question.options;
   const [answer, setAnswer] = useState(''),
     [saved, setSaved] = useState<Attempt | null>(null);
   const [loading, setLoading] = useState(true),
@@ -59,17 +62,20 @@ export function ReinforcementQuiz({
 
   useEffect(() => {
     const controller = new AbortController();
-    fetch(`/api/quizzes?lessonId=${encodeURIComponent(lessonId)}`, {
-      cache: 'no-store',
-      signal: AbortSignal.any([controller.signal, AbortSignal.timeout(10000)]),
-    })
+    fetch(
+      `/api/quizzes?lessonId=${encodeURIComponent(lessonId)}&questionId=${encodeURIComponent(questionId)}`,
+      {
+        cache: 'no-store',
+        signal: AbortSignal.any([controller.signal, AbortSignal.timeout(10000)]),
+      },
+    )
       .then(async (response) => {
         if (!response.ok) throw new Error('LOAD_FAILED');
         const data = (await response.json()) as { latest: Attempt | null };
         if (controller.signal.aborted) return;
         if (
           data.latest?.questionHash === questionHash &&
-          question.options.some((option) => option.id === data.latest!.optionId)
+          options.some((option) => option.id === data.latest!.optionId)
         ) {
           setAnswer(data.latest.optionId);
           setSaved(data.latest);
@@ -85,7 +91,7 @@ export function ReinforcementQuiz({
       controller.abort();
       write.current?.abort();
     };
-  }, [lessonId, questionHash, reload]);
+  }, [lessonId, questionHash, questionId, options, reload]);
 
   async function save(value: PendingAnswer) {
     if (write.current) return;

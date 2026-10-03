@@ -48,6 +48,34 @@ const write = (vaultRoot: string, files: Map<string, string>) =>
   writer.writeVaultFiles({ vaultRoot, files, version: curriculum.version });
 
 describe('complete public knowledge graph', () => {
+  it('keeps teaching drafts distinct while linking a published bank to its lessons and actual save API', () => {
+    const draft = JSON.parse(readFileSync('content/authoring/quiz-bank/1.0.0-draft.json', 'utf8'));
+    // Synthetic graph fixture: no real approval or publication is performed.
+    const result = builder.buildVaultFiles({
+      curriculum,
+      lessonBodies,
+      registry,
+      quizBank: draft,
+      publishedQuizBank: { ...draft, status: 'published', reviewStatus: 'approved' },
+    });
+    expect(result.counts.quizzes).toBe(278);
+    for (const question of draft.quizzes) {
+      const pending = `02_CURRICULUM/quiz-banks/1.0.0-draft/${question.id}.md`;
+      const active = `02_CURRICULUM/quiz-banks/1.0.0/${question.id}.md`;
+      expect(result.files.get(pending)).toContain('requires-human-review');
+      expect(result.files.get(active)).toContain('review_status: "approved"');
+      expect(result.files.get(active)).toContain('[[04_AUTOMATIONS_AND_APIS/endpoints/QUIZZES');
+      expect(
+        result.relations.some(
+          (edge) => edge.from === active && edge.to.endsWith(`/lessons/${question.lessonId}.md`),
+        ),
+      ).toBe(true);
+    }
+    expect(result.files.get('04_AUTOMATIONS_AND_APIS/endpoints/QUIZ_REVIEW.md')).toContain(
+      'verified-operator',
+    );
+    expect(result.files.get('02_CURRICULUM/quiz-banks/1.0.0/Index.md')).not.toContain('reviewerId');
+  });
   it('keeps an older teaching draft explicitly unreviewed after publication and rejects a mismatched published bank', () => {
     const quizBank = JSON.parse(
       readFileSync('content/authoring/quiz-bank/1.0.0-draft.json', 'utf8'),
@@ -693,6 +721,7 @@ describe('protected public vault writer', () => {
     expect(await readVaultManifest(folder)).toEqual({
       version: '2.2.1',
       curriculumHash: 'b'.repeat(64),
+      quizBankHash: null,
     });
     expect(await fs.readFile(path.join(folder, 'Index.md'), 'utf8')).toBe('# second');
   });
@@ -705,22 +734,53 @@ describe('protected public vault writer', () => {
     expect(await readVaultManifest(folder)).toEqual({
       version: curriculum.version,
       curriculumHash: null,
+      quizBankHash: null,
     });
     await writeVaultFiles({
       vaultRoot: folder,
       files: new Map([['Index.md', '# old metadata']]),
       version: curriculum.version,
       curriculumHash: 'c'.repeat(64),
+      quizBankHash: null,
     });
     const open = vi.spyOn(fs, 'open');
     expect(await readVaultManifest(folder)).toEqual({
       version: curriculum.version,
       curriculumHash: 'c'.repeat(64),
+      quizBankHash: null,
     });
     expect(open.mock.calls).toHaveLength(1);
     expect(String(open.mock.calls[0][0])).toBe(
       path.join(await fs.realpath(folder), '.course-export.json'),
     );
+  });
+
+  it('records question-bank changes independently of course version and rejects a malformed bank fingerprint', async () => {
+    const folder = await newVault();
+    const { writeVaultFiles, readVaultManifest } = await import(writerPath);
+    const projection = {
+      vaultRoot: folder,
+      files: new Map([['Index.md', '# fixed public graph']]),
+      version: curriculum.version,
+      curriculumHash: 'd'.repeat(64),
+    };
+    await writeVaultFiles({ ...projection, quizBankHash: null });
+    await writeVaultFiles({ ...projection, quizBankHash: 'e'.repeat(64) });
+    expect(await readVaultManifest(folder)).toEqual({
+      version: curriculum.version,
+      curriculumHash: 'd'.repeat(64),
+      quizBankHash: 'e'.repeat(64),
+    });
+    const file = path.join(folder, '.course-export.json');
+    const previous = await fs.readFile(file, 'utf8');
+    await expect(writeVaultFiles({ ...projection, quizBankHash: 'not-a-digest' })).rejects.toThrow(
+      'INVALID_VAULT_EXPORT',
+    );
+    expect(await fs.readFile(file, 'utf8')).toBe(previous);
+    const malformed = JSON.parse(previous);
+    malformed.quizBankHash = 'not-a-digest';
+    await fs.writeFile(file, JSON.stringify(malformed));
+    await expect(readVaultManifest(folder)).rejects.toThrow('INVALID_VAULT_MANIFEST');
   });
 
   it('releases a failed preparation lock without changing a saved export and rejects malformed identity', async () => {

@@ -4,8 +4,9 @@ const testDatabase = `.data/e2e-${randomUUID()}.sqlite`;
 const testKnowledge = `.data/e2e-${randomUUID()}-knowledge.json`;
 const testAuditor = `.data/e2e-${randomUUID()}-auditor`;
 const testVault = `.data/e2e-${randomUUID()}-vault`;
+const testQuizzes = `.data/e2e-${randomUUID()}-quizzes`;
 export default defineConfig({
-  metadata: { testVault },
+  metadata: { testVault, testQuizzes },
   testDir: './tests/e2e',
   fullyParallel: false,
   workers: 1,
@@ -33,6 +34,7 @@ export default defineConfig({
       MENTOR_KNOWLEDGE_PATH: testKnowledge,
       CURRICULUM_AUDITOR_DIR: testAuditor,
       VAULT_EXPORT_DIR: testVault,
+      QUIZ_REVIEW_DIR: testQuizzes,
     },
   },
 });

@@ -14,7 +14,7 @@ import { markdownCards } from '@/lib/curriculum/cards';
 import { LessonPre } from '@/components/learning/lesson-pre';
 import { ProgressControls, LessonNotes } from '@/components/lesson-controls';
 import { canStudyLesson } from '@/lib/domain/learning-path';
-import { questionHash } from '@/lib/quizzes/catalog';
+import { currentPracticeQuestion, publicPracticeQuestion } from '@/lib/quizzes/release-runtime';
 export const dynamic = 'force-dynamic';
 export async function generateMetadata({ params }: { params: Promise<{ lessonId: string }> }) {
   const { lessonId } = await params;
@@ -140,7 +140,7 @@ export default async function LessonPage({
                 submissionId={randomUUID()}
                 curriculumVersion={c.version}
                 built={Boolean(p?.buildCompletedAt)}
-                questionHash={questionHash}
+                practiceQuestion={publicPracticeQuestion(currentPracticeQuestion(c, lesson.id))}
               />
             )}
             <section className="card note-card">

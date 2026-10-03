@@ -7,6 +7,7 @@ import { buildVaultFiles } from '../../../scripts/lib/vault-export.mjs';
 import publicSnapshot from '../../../content/vault/public-assets.json';
 import quizDraft from '../../../content/authoring/quiz-bank/1.0.0-draft.json';
 import { systemQuestion } from '../quizzes/catalog';
+import { publishedTeachingBank } from '../quizzes/review-store';
 import { buildLegacyFiles } from '../../../scripts/lib/vault-legacy.mjs';
 import { readVaultManifest, writeVaultFiles } from '../../../scripts/lib/vault-write.mjs';
 
@@ -28,6 +29,8 @@ export type VaultStatus = {
   activeHash: string;
   exportedVersion: string | null;
   exportedHash: string | null;
+  activeQuizHash: string | null;
+  exportedQuizHash: string | null;
   error?: string;
 };
 
@@ -42,16 +45,22 @@ export async function publicVaultStatus(): Promise<VaultStatus> {
   }
   const current = loadCurriculum(),
     activeHash = fingerprint(current);
+  const bank = publishedTeachingBank(current),
+    activeQuizHash = bank ? fingerprint(bank) : null;
   return {
     state: error
       ? 'UNAVAILABLE'
-      : exported?.version === current.version && exported.curriculumHash === activeHash
+      : exported?.version === current.version &&
+          exported.curriculumHash === activeHash &&
+          exported.quizBankHash === activeQuizHash
         ? 'CURRENT'
         : 'PENDING',
     activeVersion: current.version,
     activeHash,
     exportedVersion: exported?.version || null,
     exportedHash: exported?.curriculumHash || null,
+    activeQuizHash,
+    exportedQuizHash: exported?.quizBankHash || null,
     ...(error ? { error } : {}),
   };
 }
@@ -72,7 +81,12 @@ export async function syncPublicVault() {
         return projection;
       },
     });
-    if (result.curriculumHash === fingerprint(loadCurriculum()))
+    const current = loadCurriculum(),
+      bank = publishedTeachingBank(current);
+    if (
+      result.curriculumHash === fingerprint(current) &&
+      result.quizBankHash === (bank ? fingerprint(bank) : null)
+    )
       return { ...result, ...metadata, curriculumVersion: result.version };
   }
   throw new Error('VAULT_ACTIVE_CHANGED');
@@ -81,6 +95,7 @@ export async function syncPublicVault() {
 function preparePublicVault() {
   const curriculum = loadCurriculum(),
     registry = loadAgentRegistry(curriculum);
+  const publishedQuizBank = publishedTeachingBank(curriculum);
   const lessonBodies = Object.fromEntries(
     curriculum.lessons
       .filter((lesson) => lesson.publicationStatus === 'published')
@@ -94,6 +109,7 @@ function preparePublicVault() {
     publicAssets,
     apis,
     quizBank: quizDraft,
+    publishedQuizBank,
     systemQuestion,
     knowledgeRegistry: loadKnowledgeRegistry(curriculum),
   });
@@ -102,6 +118,7 @@ function preparePublicVault() {
     files,
     version: curriculum.version,
     curriculumHash: fingerprint(curriculum),
+    quizBankHash: publishedQuizBank ? fingerprint(publishedQuizBank) : null,
     counts: graph.counts,
     registryVersion: registry.version,
   };

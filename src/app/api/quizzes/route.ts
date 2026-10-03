@@ -4,7 +4,8 @@ import { getConnection } from '@/lib/db/connection';
 import { quizRepository, quizFeedback } from '@/lib/db/quizzes';
 import { boundedJSON } from '@/lib/http/body';
 import { quizInput } from '@/lib/quizzes/catalog';
-import { ZodError } from 'zod';
+import { z, ZodError } from 'zod';
+import { stableId } from '@/lib/curriculum/schema';
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
 const headers = { 'Cache-Control': 'no-store' };
@@ -57,12 +58,16 @@ export async function GET(request: Request) {
   const session = await getSession();
   if (!session) return Response.json({ error: 'UNAUTHORIZED' }, { status: 401, headers });
   try {
-    const lessonId = new URL(request.url).searchParams.get('lessonId');
-    if (!lessonId) throw new Error('QUIZ_UNKNOWN_LESSON');
+    const { lessonId, questionId } = z
+      .strictObject({ lessonId: stableId, questionId: stableId.optional() })
+      .parse(Object.fromEntries(new URL(request.url).searchParams));
     return Response.json(
       {
         latest: publicAttempt(
-          quizRepository(getConnection(), getCurriculum(), session.user.id).latest(lessonId),
+          quizRepository(getConnection(), getCurriculum(), session.user.id).latest(
+            lessonId,
+            questionId,
+          ),
         ),
       },
       { headers },

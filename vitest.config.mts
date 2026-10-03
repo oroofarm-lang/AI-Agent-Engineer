@@ -8,6 +8,7 @@ export default defineConfig({
     env: {
       // Unit tests use the source baseline, never the host's private active-release ledger.
       CURRICULUM_AUDITOR_DIR: `.data/unit-${randomUUID()}-auditor`,
+      QUIZ_REVIEW_DIR: `.data/unit-${randomUUID()}-quizzes`,
     },
   },
 });

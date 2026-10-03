@@ -163,6 +163,12 @@ function parseManifest(saved) {
   }
   if (previous.curriculumHash !== undefined && !/^[a-f0-9]{64}$/.test(previous.curriculumHash))
     throw new Error('INVALID_VAULT_MANIFEST');
+  if (
+    previous.quizBankHash !== undefined &&
+    previous.quizBankHash !== null &&
+    !/^[a-f0-9]{64}$/.test(previous.quizBankHash)
+  )
+    throw new Error('INVALID_VAULT_MANIFEST');
   return previous;
 }
 
@@ -178,7 +184,11 @@ export async function readVaultManifest(vaultRoot) {
   const manifest = parseManifest(saved);
   if (manifest.schemaVersion !== 2 || !/^\d+\.\d+\.\d+$/.test(manifest.version))
     throw new Error('INVALID_VAULT_MANIFEST');
-  return { version: manifest.version, curriculumHash: manifest.curriculumHash || null };
+  return {
+    version: manifest.version,
+    curriculumHash: manifest.curriculumHash || null,
+    quizBankHash: manifest.quizBankHash || null,
+  };
 }
 
 async function performWrite(options) {
@@ -206,12 +216,15 @@ async function performWrite(options) {
   try {
     await lock.writeFile(JSON.stringify({ pid: process.pid, startedAt: new Date().toISOString() }));
     // A waiting writer must construct its catalog snapshot only after acquiring the actual lock.
-    const { files, version, curriculumHash } = options.prepare ? await options.prepare() : options;
+    const { files, version, curriculumHash, quizBankHash } = options.prepare
+      ? await options.prepare()
+      : options;
     if (
       !(files instanceof Map) ||
       !files.size ||
       !/^\d+\.\d+\.\d+$/.test(version) ||
-      (curriculumHash !== undefined && !/^[a-f0-9]{64}$/.test(curriculumHash))
+      (curriculumHash !== undefined && !/^[a-f0-9]{64}$/.test(curriculumHash)) ||
+      (quizBankHash !== undefined && quizBankHash !== null && !/^[a-f0-9]{64}$/.test(quizBankHash))
     )
       throw new Error('INVALID_VAULT_EXPORT');
     const desiredCanvases = new Map();
@@ -255,7 +268,7 @@ async function performWrite(options) {
     }
     const ordered = (values) =>
       Object.fromEntries(Object.entries(values).sort(([a], [b]) => a.localeCompare(b, 'en')));
-    const manifest = `${JSON.stringify({ schemaVersion: 2, version, ...(curriculumHash ? { curriculumHash } : {}), files: ordered(hashes), ...(Object.keys(canvasFiles).length ? { canvasFiles: ordered(canvasFiles) } : {}) }, null, 2)}\n`;
+    const manifest = `${JSON.stringify({ schemaVersion: 2, version, ...(curriculumHash ? { curriculumHash } : {}), ...(quizBankHash !== undefined ? { quizBankHash } : {}), files: ordered(hashes), ...(Object.keys(canvasFiles).length ? { canvasFiles: ordered(canvasFiles) } : {}) }, null, 2)}\n`;
     const manifestChanged = !savedManifest || savedManifest.body.toString('utf8') !== manifest;
     const published = [];
     try {
@@ -291,6 +304,7 @@ async function performWrite(options) {
       files: files.size,
       version,
       curriculumHash: curriculumHash || null,
+      quizBankHash: quizBankHash || null,
     };
   } finally {
     await lock.close();

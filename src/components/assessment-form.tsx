@@ -8,19 +8,20 @@ import { ArtifactPicker, type SelectedArtifact } from './assessment/artifact-pic
 import { PortfolioCard } from './assessment/portfolio-card';
 import { reducedMotion } from '@/lib/domain/motion';
 import { ReinforcementQuiz } from './assessment/reinforcement-quiz';
+import type { PublicPracticeQuestion } from '@/lib/quizzes/catalog';
 
 export function AssessmentForm({
   assessment,
   submissionId,
   curriculumVersion,
   built,
-  questionHash,
+  practiceQuestion,
 }: {
   assessment: Assessment;
   submissionId: string;
   curriculumVersion: string;
   built: boolean;
-  questionHash: string;
+  practiceQuestion: PublicPracticeQuestion;
 }) {
   const [evidence, setEvidence] = useState<Record<string, string>>({});
   const [files, setFiles] = useState<SelectedArtifact[]>([]);
@@ -71,10 +72,10 @@ export function AssessmentForm({
         </p>
       )}
       <ReinforcementQuiz
-        key={`${assessment.lessonId}:${questionHash}`}
+        key={`${assessment.lessonId}:${practiceQuestion.hash}`}
         lessonId={assessment.lessonId}
         curriculumVersion={curriculumVersion}
-        questionHash={questionHash}
+        question={practiceQuestion}
       />
       <div className="assessment-progress">
         <span>

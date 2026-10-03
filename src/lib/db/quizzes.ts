@@ -3,6 +3,9 @@ import type { Connection } from './connection';
 import type { ReturnTypeOfCurriculum } from '../ai/types';
 import { repository } from './repository';
 import { canStudyLesson } from '../domain/learning-path';
+import { fingerprint as hashQuestion } from '../auditor/analysis';
+import { currentPracticeQuestion } from '../quizzes/release-runtime';
+import { publishedTeachingBank } from '../quizzes/review-store';
 import {
   quizInput,
   systemQuestion,
@@ -28,6 +31,7 @@ export function quizRepository(
   connection: Connection,
   curriculum: ReturnTypeOfCurriculum,
   userId: string,
+  teachingBank = () => publishedTeachingBank(curriculum),
 ) {
   const { sqlite } = connection;
   function access(lessonId: string) {
@@ -39,13 +43,16 @@ export function quizRepository(
       throw new Error('FOUNDATION_REQUIRED');
   }
   return {
-    latest(lessonId: string) {
+    latest(
+      lessonId: string,
+      questionId = currentPracticeQuestion(curriculum, lessonId, teachingBank()).id,
+    ) {
       access(lessonId);
       return sqlite
         .prepare(
           'SELECT * FROM quiz_attempts WHERE user_id=? AND lesson_id=? AND question_id=? ORDER BY rowid DESC LIMIT 1',
         )
-        .get(userId, lessonId, systemQuestion.id) as QuizAttempt | undefined;
+        .get(userId, lessonId, questionId) as QuizAttempt | undefined;
     },
     summary(lessonId?: string) {
       if (lessonId) access(lessonId);
@@ -71,10 +78,6 @@ export function quizRepository(
     save(raw: QuizInput, now = new Date()) {
       const input = quizInput.parse(raw);
       access(input.lessonId);
-      if (input.curriculumVersion !== curriculum.version || input.questionHash !== questionHash)
-        throw new Error('QUIZ_VERSION_CONFLICT');
-      if (!systemQuestion.options.some((option) => option.id === input.optionId))
-        throw new Error('QUIZ_INVALID_OPTION');
       const fingerprint = createHash('sha256')
         .update(
           JSON.stringify({
@@ -93,8 +96,19 @@ export function quizRepository(
           if (existing) {
             if (existing.payload_fingerprint !== fingerprint)
               throw new Error('QUIZ_REQUEST_CONFLICT');
+            frozenQuestion(existing);
             return existing;
           }
+          if (input.curriculumVersion !== curriculum.version)
+            throw new Error('QUIZ_VERSION_CONFLICT');
+          const question =
+            input.questionHash === questionHash
+              ? systemQuestion
+              : currentPracticeQuestion(curriculum, input.lessonId, teachingBank());
+          if (input.questionHash !== hashQuestion(question))
+            throw new Error('QUIZ_VERSION_CONFLICT');
+          if (!question.options.some((option) => option.id === input.optionId))
+            throw new Error('QUIZ_INVALID_OPTION');
           const daily = sqlite
             .prepare('SELECT COUNT(*) AS n FROM quiz_attempts WHERE user_id=? AND created_at>=?')
             .get(userId, `${now.toISOString().slice(0, 10)}T00:00:00.000Z`) as { n: number };
@@ -108,12 +122,12 @@ export function quizRepository(
               userId,
               input.lessonId,
               curriculum.version,
-              systemQuestion.id,
-              systemQuestion.version,
-              questionHash,
-              JSON.stringify(systemQuestion),
+              question.id,
+              question.version,
+              hashQuestion(question),
+              JSON.stringify(question),
               input.optionId,
-              Number(input.optionId === systemQuestion.correctOptionId),
+              Number(input.optionId === question.correctOptionId),
               fingerprint,
               now.toISOString(),
             );
@@ -135,6 +149,7 @@ function frozenQuestion(attempt: QuizAttempt) {
     createHash('sha256').update(JSON.stringify(frozen)).digest('hex') !== attempt.question_hash ||
     frozen.id !== attempt.question_id ||
     frozen.version !== attempt.question_version ||
+    (frozen.teachingContext && frozen.teachingContext.lessonId !== attempt.lesson_id) ||
     !frozen.options.some((option) => option.id === attempt.option_id) ||
     Number(attempt.option_id === frozen.correctOptionId) !== attempt.correct
   )

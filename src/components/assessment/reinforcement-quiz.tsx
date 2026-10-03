@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useRef, useState } from 'react';
-import question from '../../../content/quizzes/system/1.0.0.json';
+import type { PublicPracticeQuestion } from '@/lib/quizzes/catalog';
 
 type Attempt = {
   id: string;
@@ -17,12 +17,15 @@ type PendingAnswer = { requestId: string; optionId: string };
 export function ReinforcementQuiz({
   lessonId,
   curriculumVersion,
-  questionHash,
+  question,
 }: {
   lessonId: string;
   curriculumVersion: string;
-  questionHash: string;
+  question: PublicPracticeQuestion;
 }) {
+  const questionHash = question.hash;
+  const questionId = question.id;
+  const options = question.options;
   const [answer, setAnswer] = useState(''),
     [saved, setSaved] = useState<Attempt | null>(null);
   const [loading, setLoading] = useState(true),
@@ -36,17 +39,20 @@ export function ReinforcementQuiz({
 
   useEffect(() => {
     const controller = new AbortController();
-    fetch(`/api/quizzes?lessonId=${encodeURIComponent(lessonId)}`, {
-      cache: 'no-store',
-      signal: AbortSignal.any([controller.signal, AbortSignal.timeout(10000)]),
-    })
+    fetch(
+      `/api/quizzes?lessonId=${encodeURIComponent(lessonId)}&questionId=${encodeURIComponent(questionId)}`,
+      {
+        cache: 'no-store',
+        signal: AbortSignal.any([controller.signal, AbortSignal.timeout(10000)]),
+      },
+    )
       .then(async (response) => {
         if (!response.ok) throw new Error('LOAD_FAILED');
         const data = (await response.json()) as { latest: Attempt | null };
         if (controller.signal.aborted) return;
         if (
           data.latest?.questionHash === questionHash &&
-          question.options.some((option) => option.id === data.latest!.optionId)
+          options.some((option) => option.id === data.latest!.optionId)
         ) {
           setAnswer(data.latest.optionId);
           setSaved(data.latest);
@@ -62,7 +68,7 @@ export function ReinforcementQuiz({
       controller.abort();
       write.current?.abort();
     };
-  }, [lessonId, questionHash, reload]);
+  }, [lessonId, questionHash, questionId, options, reload]);
 
   async function save(value: PendingAnswer) {
     if (write.current) return;

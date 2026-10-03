@@ -31,6 +31,14 @@ No database migration or learner schema change is needed. Public projection fail
 
 This connection publishes only an already human-approved curriculum. It does not approve teaching, publish the question draft, provision hosting, supply model credentials or establish native Sidian acceptance.
 
+## Question-bank projection — 2026-10-03
+
+The same protected exporter now projects a published, curriculum-compatible question bank alongside the distinctly labeled authoring draft. Public question notes link reciprocally to actual lesson, exercise, rubric, specialist, canonical sources, practice-save API and the verified-operator review API. Reviewers, private decisions and learner answers are never supplied to the exporter. The existing public bank paths and historical hashes remain retained after rollback.
+
+The optional nullable `quizBankHash` in the version-2 manifest identifies the currently eligible public bank independently of curriculum version. A null value represents no compatible published bank. Status compares both course and bank identity; older manifests normalize an absent bank fingerprint to null. The export loop reconciles both fingerprints after writing, at most three times. A saved manifest still does not certify subsequent manual file edits.
+
+Question publication and rollback return their committed review-store operation plus a separate `vaultSync` result. A failed public write cannot revoke an acknowledged publication. `/admin/quizzes` provides the same protected status/retry controls; browser tests use a fresh private `QUIZ_REVIEW_DIR` as well as the isolated database and Vault.
+
 ## Native Canvas formatting — 2026-10-03
 
 Opening and fitting the actual public overview in Obsidian 1.13.7 caused the application to serialize the same Canvas with different indentation and property order. The existing byte-only edit guard then rejected the otherwise unchanged export. Treat Canvas JSON formatting separately from changes to its data.

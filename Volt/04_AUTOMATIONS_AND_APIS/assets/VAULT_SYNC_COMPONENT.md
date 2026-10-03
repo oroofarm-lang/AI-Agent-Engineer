@@ -6,7 +6,7 @@ entity_id: "VAULT_SYNC_COMPONENT"
 curriculum_version: "2.2.0"
 source_path: "src/components/vault-sync-status.tsx"
 asset_kind: "ui-code"
-source_sha256: "7f3e351a0f3a4233f6d7c611d80953d21a215db269500eb4fb2445268c4f1c3c"
+source_sha256: "8a5e6ed67300eee1001365100f3c18b8f763d4eb1bd16062963f75bbcfa2888b"
 related: ["[[01_AGENTS/Agent-Curriculum-Auditor]]","[[01_AGENTS/Agent-Database-Architect]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Knowledge-RAG]]","[[01_AGENTS/Agent-Production-Reliability]]","[[01_AGENTS/Agent-Progress-Tracker]]","[[01_AGENTS/Agent-Quiz-Designer]]","[[01_AGENTS/Agent-Security-Auditor]]","[[02_CURRICULUM/2.2.0/modules/KNOWLEDGE]]","[[02_CURRICULUM/2.2.0/modules/QUALITY]]","[[04_AUTOMATIONS_AND_APIS/Index]]"]
 ---
 
@@ -98,7 +98,7 @@ export function VaultSyncStatus() {
   return (
     <section className="card" aria-labelledby="vault-sync-title">
       <h2 id="vault-sync-title">מפת הידע ב־Volt</h2>
-      <p>פרסום גרסת קורס או חזרה לגרסה קודמת מפעילים גם עדכון של המפות והקשרים.</p>
+      <p>פרסום גרסת קורס או מאגר שאלות, וגם חזרה לגרסה קודמת, מפעילים עדכון של המפות והקשרים.</p>
       {status && (
         <div>
           <p>
@@ -109,17 +109,17 @@ export function VaultSyncStatus() {
           </p>
           <p role="status">
             {status.state === 'CURRENT'
-              ? 'גרסת הייצוא השמור תואמת לגרסת הקורס הפעילה.'
+              ? 'גרסת הייצוא השמור תואמת לגרסת הקורס ולמצב מאגר השאלות באפליקציה.'
               : status.state === 'PENDING'
-                ? 'מפת הידע טרם עודכנה לגרסת הקורס הפעילה.'
+                ? 'מפת הידע טרם עודכנה לגרסת הקורס ולמצב מאגר השאלות באפליקציה.'
                 : 'לא ניתן היה לבדוק את הייצוא השמור.'}
           </p>
         </div>
       )}
       {!status && !error && <p role="status">בודק את גרסת הייצוא…</p>}
       <p>
-        הבדיקה משווה את גרסת הקורס ואת מזהה התוכן שלה לייצוא השמור. היא אינה בודקת עריכות שנעשו
-        בקבצים לאחר הייצוא.
+        הבדיקה משווה את גרסת הקורס, את מזהה התוכן שלה ואת מאגר השאלות הפעיל לייצוא השמור. היא אינה
+        בודקת עריכות שנעשו בקבצים לאחר הייצוא.
       </p>
       {message && <p role="status">{message}</p>}
       {error && (
