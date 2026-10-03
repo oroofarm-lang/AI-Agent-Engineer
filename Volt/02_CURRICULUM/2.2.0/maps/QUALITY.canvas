@@ -701,11 +701,21 @@
       "color": "6"
     },
     {
+      "id": "file-1fd9614b391361dbbf271ada",
+      "type": "file",
+      "file": "04_AUTOMATIONS_AND_APIS/assets/VAULT_SYNC_COMPONENT.md",
+      "x": 6360,
+      "y": 3780,
+      "width": 640,
+      "height": 180,
+      "color": "6"
+    },
+    {
       "id": "file-da38c5069e356aed89f2a7e6",
       "type": "file",
       "file": "04_AUTOMATIONS_AND_APIS/knowledge-sources/LANGGRAPH.md",
-      "x": 6360,
-      "y": 3780,
+      "x": 5680,
+      "y": 4010,
       "width": 640,
       "height": 180,
       "color": "6"
@@ -714,7 +724,7 @@
       "id": "file-8054ccbe9a59e8e9a8011252",
       "type": "file",
       "file": "04_AUTOMATIONS_AND_APIS/knowledge-sources/N8N.md",
-      "x": 5680,
+      "x": 6360,
       "y": 4010,
       "width": 640,
       "height": 180,
@@ -724,8 +734,8 @@
       "id": "file-110ce1b846b736e5f857ae5b",
       "type": "file",
       "file": "04_AUTOMATIONS_AND_APIS/technologies/LANGGRAPH.md",
-      "x": 6360,
-      "y": 4010,
+      "x": 5680,
+      "y": 4240,
       "width": 640,
       "height": 180,
       "color": "6"
@@ -734,7 +744,7 @@
       "id": "file-fdab6efb1437fd6b660f5e82",
       "type": "file",
       "file": "04_AUTOMATIONS_AND_APIS/technologies/N8N.md",
-      "x": 5680,
+      "x": 6360,
       "y": 4240,
       "width": 640,
       "height": 180,
@@ -4531,6 +4541,76 @@
       "fromEnd": "arrow",
       "toEnd": "arrow",
       "label": "מקור למומחה"
+    },
+    {
+      "id": "edge-31a03d500ebf9c4d0c5eb238",
+      "fromNode": "file-1fd9614b391361dbbf271ada",
+      "fromSide": "right",
+      "toNode": "file-0b799de71d380da126de9268",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קובץ עזר לפרק"
+    },
+    {
+      "id": "edge-b8c46a25753bc646684903f3",
+      "fromNode": "file-1fd9614b391361dbbf271ada",
+      "fromSide": "right",
+      "toNode": "file-6d1e195fbb57cc5b91e69c4c",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קובץ עזר למומחה"
+    },
+    {
+      "id": "edge-9474f5028047e2239aea5d2a",
+      "fromNode": "file-1fd9614b391361dbbf271ada",
+      "fromSide": "right",
+      "toNode": "file-61e6e2118dba2a11aa442a3f",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קובץ עזר למומחה"
+    },
+    {
+      "id": "edge-c3649f9e6b6c2e5607f3586e",
+      "fromNode": "file-1fd9614b391361dbbf271ada",
+      "fromSide": "right",
+      "toNode": "file-be11d40265cd2df767d8f455",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קובץ עזר למומחה"
+    },
+    {
+      "id": "edge-02a1bf81f8818ad78b164af2",
+      "fromNode": "file-1fd9614b391361dbbf271ada",
+      "fromSide": "right",
+      "toNode": "file-456cb68b048665cc5ebc34d1",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קובץ עזר למומחה"
+    },
+    {
+      "id": "edge-b50ba810c77413c5e66b4c83",
+      "fromNode": "file-1fd9614b391361dbbf271ada",
+      "fromSide": "right",
+      "toNode": "file-2365f0a01a9b198c38e3ca05",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קובץ עזר למומחה"
+    },
+    {
+      "id": "edge-ed2fed3058d482f6bb0a8f3f",
+      "fromNode": "file-1fd9614b391361dbbf271ada",
+      "fromSide": "right",
+      "toNode": "file-5e5d06c1515c3bcc85ac90df",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קובץ עזר למומחה"
     },
     {
       "id": "edge-bccb48dbd866379c45003126",

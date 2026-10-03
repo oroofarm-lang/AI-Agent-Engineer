@@ -462,6 +462,104 @@ describe('complete public knowledge graph', () => {
 });
 
 describe('protected public vault writer', () => {
+  it('prepares a waiting projection only after acquiring the real lock and the preceding writer finishes', async () => {
+    const folder = await newVault();
+    const { writeVaultFiles, readVaultManifest } = await import(writerPath);
+    let releaseFirst!: () => void, started!: () => void;
+    const firstReady = new Promise<void>((resolve) => {
+      started = resolve;
+    });
+    const holdFirst = new Promise<void>((resolve) => {
+      releaseFirst = resolve;
+    });
+    const first = writeVaultFiles({
+      vaultRoot: folder,
+      prepare: async () => {
+        expect(existsSync(path.join(folder, '.vault-sync.lock'))).toBe(true);
+        started();
+        await holdFirst;
+        return {
+          files: new Map([['Index.md', '# first']]),
+          version: '2.2.0',
+          curriculumHash: 'a'.repeat(64),
+        };
+      },
+    });
+    await firstReady;
+    const secondPrepare = vi.fn(async () => {
+      expect(await fs.readFile(path.join(folder, 'Index.md'), 'utf8')).toBe('# first');
+      expect(existsSync(path.join(folder, '.vault-sync.lock'))).toBe(true);
+      return {
+        files: new Map([['Index.md', '# second']]),
+        version: '2.2.1',
+        curriculumHash: 'b'.repeat(64),
+      };
+    });
+    const second = writeVaultFiles({ vaultRoot: folder, prepare: secondPrepare });
+    expect(secondPrepare).not.toHaveBeenCalled();
+    releaseFirst();
+    await Promise.all([first, second]);
+    expect(await readVaultManifest(folder)).toEqual({
+      version: '2.2.1',
+      curriculumHash: 'b'.repeat(64),
+    });
+    expect(await fs.readFile(path.join(folder, 'Index.md'), 'utf8')).toBe('# second');
+  });
+
+  it('reads only the public manifest and requires a fresh fingerprint for an older export', async () => {
+    const folder = await newVault();
+    const { writeVaultFiles, readVaultManifest } = await import(writerPath);
+    expect(await readVaultManifest(folder)).toBeNull();
+    await write(folder, new Map([['Index.md', '# old metadata']]));
+    expect(await readVaultManifest(folder)).toEqual({
+      version: curriculum.version,
+      curriculumHash: null,
+    });
+    await writeVaultFiles({
+      vaultRoot: folder,
+      files: new Map([['Index.md', '# old metadata']]),
+      version: curriculum.version,
+      curriculumHash: 'c'.repeat(64),
+    });
+    const open = vi.spyOn(fs, 'open');
+    expect(await readVaultManifest(folder)).toEqual({
+      version: curriculum.version,
+      curriculumHash: 'c'.repeat(64),
+    });
+    expect(open.mock.calls).toHaveLength(1);
+    expect(String(open.mock.calls[0][0])).toBe(
+      path.join(await fs.realpath(folder), '.course-export.json'),
+    );
+  });
+
+  it('releases a failed preparation lock without changing a saved export and rejects malformed identity', async () => {
+    const folder = await newVault();
+    const { writeVaultFiles, readVaultManifest } = await import(writerPath);
+    await write(folder, new Map([['Index.md', '# saved']]));
+    const before = await fs.readFile(path.join(folder, '.course-export.json'), 'utf8');
+    await expect(
+      writeVaultFiles({
+        vaultRoot: folder,
+        prepare: () => {
+          throw new Error('source unavailable');
+        },
+      }),
+    ).rejects.toThrow('source unavailable');
+    expect(existsSync(path.join(folder, '.vault-sync.lock'))).toBe(false);
+    expect(await fs.readFile(path.join(folder, '.course-export.json'), 'utf8')).toBe(before);
+    await expect(
+      writeVaultFiles({
+        vaultRoot: folder,
+        files: new Map([['Index.md', '# invalid']]),
+        version: curriculum.version,
+        curriculumHash: 'not-a-digest',
+      }),
+    ).rejects.toThrow('INVALID_VAULT_EXPORT');
+    expect(await fs.readFile(path.join(folder, 'Index.md'), 'utf8')).toBe('# saved');
+    await fs.rm(path.join(folder, '.course-export.json'));
+    await fs.symlink(path.join(folder, 'Index.md'), path.join(folder, '.course-export.json'));
+    await expect(readVaultManifest(folder)).rejects.toThrow('VAULT_SYMLINK_REJECTED');
+  });
   it('writes byte-identical exports once and never reads or replaces notebook and historical files', async () => {
     const folder = await newVault();
     await fs.mkdir(path.join(folder, 'מחברת'));

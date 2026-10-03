@@ -12,6 +12,8 @@ SQLite remains appropriate for one persistent Node host with multiple users. It 
 
 The Curriculum Auditor also requires a private persistent local directory: `CURRICULUM_AUDITOR_DIR`, default `.data/curriculum-auditor`. Preserve its active pointer, immutable release snapshots, proposals, decisions and journal across deploys. Keep it outside public assets and production traces; it must be an actual directory, without symlink path components. Back up this ledger alongside the database and recover the matching active release before serving traffic. See [release operations](CURRICULUM_AUDITOR.md). Section publication adds only a curriculum-version registration; it does not migrate or rewrite learner tables.
 
+The public Vault requires a writable persistent `VAULT_EXPORT_DIR` (default `Volt`). Preserve `.course-export.json` and historical exports when redeploying so edited generated notes remain protected. Reviewed publication/rollback updates this projection; failures keep the course operation committed and expose an operator retry. Status compares the last saved curriculum version/hash, without crawling personal notes or verifying later manual edits. Do not deploy the Vault on read-only or ephemeral storage and claim synchronization works. See [public projection design](VAULT_SYNC.md). The isolated browser suite assigns its own fresh Vault in addition to its database and Auditor directory.
+
 ## Local setup
 
 1. `npm ci`

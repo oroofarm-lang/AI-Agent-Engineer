@@ -8,6 +8,7 @@ import { mutationSchema } from '@/lib/auditor/schema';
 import { sectionRange, fingerprint } from '@/lib/auditor/analysis';
 import { requiredSections, stableId } from '@/lib/curriculum/schema';
 import { revalidatePath } from 'next/cache';
+import { syncReviewedRelease } from '@/lib/vault/sync';
 
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
@@ -92,6 +93,8 @@ export async function POST(request: Request) {
             ? store.apply(input.id, input.proposalHash)
             : store.rollback(input.id, input.proposalHash);
     revalidatePath('/', 'layout');
+    if (input.operation === 'apply' || input.operation === 'rollback')
+      return Response.json({ ...result, vaultSync: await syncReviewedRelease() }, { headers });
     return Response.json(result, { headers });
   } catch (error) {
     return failure(error);

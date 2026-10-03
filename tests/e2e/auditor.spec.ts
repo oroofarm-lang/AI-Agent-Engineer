@@ -1,5 +1,7 @@
 import AxeBuilder from '@axe-core/playwright';
 import { randomInt } from 'node:crypto';
+import fs from 'node:fs/promises';
+import path from 'node:path';
 import { test, expect } from './fixtures';
 
 const origin = 'http://127.0.0.1:3100';
@@ -22,13 +24,26 @@ function ownedRecords(value: Record<string, unknown>) {
 test('verified reviewer compares, approves, publishes and rolls back without changing learner records', async ({
   page,
   browser,
-}) => {
+}, testInfo) => {
   test.setTimeout(120000);
+  const vault = testInfo.config.metadata.testVault;
+  // Only the fresh server fixture path supplied by this run's configuration may be inspected.
+  expect(typeof vault === 'string' && /^\.data\/e2e-[a-f0-9-]{36}-vault$/.test(vault)).toBe(true);
+  const vaultRoot = path.resolve(vault as string);
+  await fs.mkdir(path.join(vaultRoot, 'מחברת'), { recursive: true });
+  const personalFixture = path.join(vaultRoot, 'מחברת', 'qa-only-note.md');
+  await fs.writeFile(personalFixture, 'Synthetic private note, never part of the public graph.');
   expect((await page.request.get('/api/auditor')).status()).toBe(404);
   expect(
     (await page.request.post('/api/auditor', { headers: { Origin: origin }, data: {} })).status(),
   ).toBe(404);
   expect((await page.goto('/admin/curriculum'))?.status()).toBe(404);
+  expect((await page.request.get('/api/vault/sync')).status()).toBe(404);
+  expect(
+    (
+      await page.request.post('/api/vault/sync', { headers: { Origin: origin }, data: {} })
+    ).status(),
+  ).toBe(404);
   await page.goto(`/learn/${lessonId}`);
   await page.getByRole('button', { name: 'התחלת השיעור', exact: true }).click();
   await page.getByRole('button', { name: 'סימון הבנייה כהושלמה', exact: true }).click();
@@ -52,6 +67,7 @@ test('verified reviewer compares, approves, publishes and rolls back without cha
   let applied = false;
   try {
     expect((await manager.request.get('/api/auditor')).status()).toBe(401);
+    expect((await manager.request.get('/api/vault/sync')).status()).toBe(401);
     const login = await manager.request.post('/api/auth/sign-in/email', {
       headers: { Origin: origin },
       data: {
@@ -60,6 +76,47 @@ test('verified reviewer compares, approves, publishes and rolls back without cha
       },
     });
     expect(login.ok()).toBe(true);
+    expect((await manager.request.get('/api/vault/sync?path=not-accepted')).status()).toBe(400);
+    expect(
+      (
+        await manager.request.post('/api/vault/sync', {
+          headers: { Origin: origin, 'Content-Type': 'application/json' },
+          data: '{',
+        })
+      ).status(),
+    ).toBe(400);
+    expect(
+      (
+        await manager.request.post('/api/vault/sync', {
+          headers: { Origin: origin, 'Content-Type': 'text/plain' },
+          data: 'not JSON',
+        })
+      ).status(),
+    ).toBe(400);
+    expect(
+      (
+        await manager.request.post('/api/vault/sync', {
+          headers: { Origin: origin, 'Content-Type': 'application/json' },
+          data: ' '.repeat(1001),
+        })
+      ).status(),
+    ).toBe(413);
+    expect(
+      (
+        await manager.request.post('/api/vault/sync', {
+          headers: { Origin: 'https://hostile.example' },
+          data: {},
+        })
+      ).status(),
+    ).toBe(403);
+    expect(
+      (
+        await manager.request.post('/api/vault/sync', {
+          headers: { Origin: origin },
+          data: { path: 'not-accepted' },
+        })
+      ).status(),
+    ).toBe(400);
     expect(
       (
         await manager.request.post('/api/auditor', {
@@ -102,7 +159,9 @@ test('verified reviewer compares, approves, publishes and rolls back without cha
       .getByLabel('הנוסח המלא המוצע לקטע', { exact: true })
       .fill(`${section.beforeText}\n\n${marker}`);
     await review.getByRole('button', { name: 'לשמור הצעה לבדיקה', exact: true }).click();
-    await expect(review.getByRole('status')).toContainText('ההצעה נשמרה לבדיקה');
+    await expect(
+      review.getByRole('status').filter({ hasText: 'ההצעה נשמרה לבדיקה' }),
+    ).toBeVisible();
     await expect(review.locator('.auditor-detail')).toBeVisible();
     await expect(review.getByLabel('הנוסח הקיים להשוואה')).not.toContainText(marker);
     await expect(review.getByLabel('הנוסח המוצע להשוואה')).toContainText(marker);
@@ -177,8 +236,20 @@ test('verified reviewer compares, approves, publishes and rolls back without cha
     await expect(
       review.getByRole('button', { name: 'לפרסם את העדכון המאושר', exact: true }),
     ).toBeVisible();
+    const publicationResponse = review.waitForResponse(
+      (response) =>
+        response.url().endsWith('/api/auditor') &&
+        response.request().method() === 'POST' &&
+        response.request().postDataJSON()?.operation === 'apply',
+    );
     await review.getByRole('button', { name: 'לפרסם את העדכון המאושר', exact: true }).click();
-    await expect(review.getByRole('status')).toContainText('הגרסה החדשה פורסמה');
+    expect((await (await publicationResponse).json()).vaultSync.status).toBe('SYNCED');
+    await expect(
+      review.getByRole('status').filter({ hasText: 'הגרסה החדשה פורסמה' }),
+    ).toBeVisible();
+    await expect(
+      review.getByRole('status').filter({ hasText: 'גרסת הייצוא השמור תואמת' }),
+    ).toBeVisible();
     applied = true;
     await expect(
       review.getByRole('button', { name: 'לחזור לגרסה הקודמת', exact: true }),
@@ -189,8 +260,36 @@ test('verified reviewer compares, approves, publishes and rolls back without cha
     const published = await (await page.request.get('/api/export')).json();
     expect(published.curriculumVersion).not.toBe(before.curriculumVersion);
     expect(ownedRecords(published)).toEqual(ownedRecords(before));
+    const exportedLesson = path.join(
+      vaultRoot,
+      '02_CURRICULUM',
+      published.curriculumVersion,
+      'lessons',
+      `${lessonId}.md`,
+    );
+    expect(await fs.readFile(exportedLesson, 'utf8')).toContain(marker);
+    const indexFile = path.join(vaultRoot, 'Index.md'),
+      savedIndex = await fs.readFile(indexFile, 'utf8');
+    const manualEdit = `${savedIndex}\nManual synthetic edit which export must preserve.\n`;
+    await fs.writeFile(indexFile, manualEdit);
+    const rollbackResponse = review.waitForResponse(
+      (response) =>
+        response.url().endsWith('/api/auditor') &&
+        response.request().method() === 'POST' &&
+        response.request().postDataJSON()?.operation === 'rollback',
+    );
     await review.getByRole('button', { name: 'לחזור לגרסה הקודמת', exact: true }).click();
-    await expect(review.getByRole('status')).toContainText('הקורס חזר לגרסה הקודמת');
+    const rollbackResult = await (await rollbackResponse).json();
+    expect(rollbackResult).toMatchObject({
+      state: 'ROLLED_BACK',
+      vaultSync: { status: 'FAILED', error: 'VAULT_EDITED_NOTE' },
+    });
+    await expect(
+      review.getByRole('status').filter({ hasText: 'הקורס חזר לגרסה הקודמת' }),
+    ).toBeVisible();
+    await expect(
+      review.getByRole('status').filter({ hasText: 'מפת הידע טרם עודכנה' }),
+    ).toBeVisible();
     applied = false;
     await page.reload();
     await page.getByRole('button', { name: 'קריאה רציפה', exact: true }).click();
@@ -198,6 +297,42 @@ test('verified reviewer compares, approves, publishes and rolls back without cha
     const rolledBack = await (await page.request.get('/api/export')).json();
     expect(rolledBack.curriculumVersion).toBe(before.curriculumVersion);
     expect(ownedRecords(rolledBack)).toEqual(ownedRecords(before));
+    expect(await fs.readFile(indexFile, 'utf8')).toBe(manualEdit);
+    expect(await (await manager.request.get('/api/vault/sync')).json()).toMatchObject({
+      state: 'PENDING',
+      activeVersion: before.curriculumVersion,
+      exportedVersion: published.curriculumVersion,
+    });
+    await review.getByRole('button', { name: 'לעדכן את מפות Volt', exact: true }).click();
+    await expect(
+      review.getByRole('alert').filter({ hasText: 'העדכון נעצר כדי לא למחוק עריכה ידנית' }),
+    ).toBeVisible();
+    expect(await fs.readFile(indexFile, 'utf8')).toBe(manualEdit);
+    // Restore only the known synthetic fixture, never a real edited note.
+    await fs.writeFile(indexFile, savedIndex);
+    const retryResponse = review.waitForResponse(
+      (response) =>
+        response.url().endsWith('/api/vault/sync') && response.request().method() === 'POST',
+      { timeout: 60000 },
+    );
+    await review.getByRole('button', { name: 'לעדכן את מפות Volt', exact: true }).click();
+    expect((await retryResponse).ok()).toBe(true);
+    await expect(
+      review.getByRole('status').filter({ hasText: 'גרסת הייצוא השמור תואמת' }),
+    ).toBeVisible();
+    const manifest = JSON.parse(
+      await fs.readFile(path.join(vaultRoot, '.course-export.json'), 'utf8'),
+    );
+    expect(manifest.version).toBe(before.curriculumVersion);
+    expect(manifest.curriculumHash).toMatch(/^[a-f0-9]{64}$/);
+    expect(Object.keys(manifest.files).some((name) => name.startsWith('מחברת/'))).toBe(false);
+    expect(await fs.readFile(personalFixture, 'utf8')).toBe(
+      'Synthetic private note, never part of the public graph.',
+    );
+    expect(await fs.readFile(exportedLesson, 'utf8')).toContain(marker);
+    expect(ownedRecords(await (await page.request.get('/api/export')).json())).toEqual(
+      ownedRecords(before),
+    );
   } finally {
     if (applied && proposal) {
       const rollback = await manager.request.post('/api/auditor', {

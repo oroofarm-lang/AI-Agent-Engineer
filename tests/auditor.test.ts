@@ -22,6 +22,12 @@ import { assessmentRepository } from '../src/lib/db/assessments';
 import { quizRepository } from '../src/lib/db/quizzes';
 import { questionHash } from '../src/lib/quizzes/catalog';
 import { checkedPath, withAuditorLock } from '../src/lib/auditor/files';
+import {
+  publicVaultStatus,
+  syncPublicVault,
+  syncReviewedRelease,
+  safeVaultError,
+} from '../src/lib/vault/sync';
 
 const c = loadCurriculum();
 const bodies = Object.fromEntries(
@@ -94,6 +100,83 @@ function approved(store: ReturnType<typeof auditorStore>, input = proposalFixtur
   return proposed;
 }
 describe('immutable reviewed publication and rollback', () => {
+  it('reconciles a real activation between a saved Vault manifest and the final active-version check', async () => {
+    const { store, directory } = workspace(),
+      vault = path.join(directory, 'publication-race-vault');
+    vi.stubEnv('CURRICULUM_AUDITOR_DIR', directory);
+    vi.stubEnv('VAULT_EXPORT_DIR', vault);
+    const p = approved(store),
+      rename = fs.promises.rename.bind(fs.promises);
+    let activated = false;
+    const intercepted = vi.spyOn(fs.promises, 'rename').mockImplementation(async (from, to) => {
+      await rename(from, to);
+      if (String(to) === path.join(vault, '.course-export.json') && !activated) {
+        activated = true;
+        store.apply(p.id, p.hash);
+      }
+    });
+    try {
+      const result = await syncPublicVault();
+      expect(activated).toBe(true);
+      expect(result.curriculumVersion).toBe('2.2.1');
+      expect(result.curriculumHash).toBe(fingerprint(loadCurriculum()));
+      expect((await publicVaultStatus()).state).toBe('CURRENT');
+      expect(
+        fs.readFileSync(path.join(vault, '02_CURRICULUM/2.2.1/lessons', `${lesson.id}.md`), 'utf8'),
+      ).toContain('נוסח נוסף לבדיקת מערכת פרסום מבודדת בלבד');
+      expect(
+        fs.existsSync(path.join(vault, '02_CURRICULUM/2.2.0/lessons', `${lesson.id}.md`)),
+      ).toBe(true);
+    } finally {
+      intercepted.mockRestore();
+    }
+  }, 60000);
+
+  it('exports the actual active release, preserves a manual edit on failed rollback export, and retries without undoing the course', async () => {
+    const { store, directory } = workspace(),
+      vault = path.join(directory, 'isolated-public-vault');
+    vi.stubEnv('CURRICULUM_AUDITOR_DIR', directory);
+    vi.stubEnv('VAULT_EXPORT_DIR', vault);
+    expect((await publicVaultStatus()).state).toBe('PENDING');
+    expect(fs.existsSync(vault)).toBe(false);
+    await syncPublicVault();
+    expect((await publicVaultStatus()).state).toBe('CURRENT');
+    const p = approved(store);
+    store.apply(p.id, p.hash);
+    expect((await publicVaultStatus()).state).toBe('PENDING');
+    expect(await syncReviewedRelease()).toMatchObject({
+      status: 'SYNCED',
+      curriculumVersion: '2.2.1',
+    });
+    const lessonFile = path.join(vault, '02_CURRICULUM/2.2.1/lessons', `${lesson.id}.md`);
+    expect(fs.readFileSync(lessonFile, 'utf8')).toContain(
+      'נוסח נוסף לבדיקת מערכת פרסום מבודדת בלבד',
+    );
+    const indexFile = path.join(vault, 'Index.md'),
+      index = fs.readFileSync(indexFile, 'utf8');
+    fs.writeFileSync(indexFile, `${index}\nManual synthetic edit that must survive.\n`);
+    store.rollback(p.id, p.hash);
+    expect(await syncReviewedRelease()).toEqual({ status: 'FAILED', error: 'VAULT_EDITED_NOTE' });
+    expect(loadCurriculum().version).toBe(c.version);
+    expect(await publicVaultStatus()).toMatchObject({
+      state: 'PENDING',
+      activeVersion: c.version,
+      exportedVersion: '2.2.1',
+    });
+    expect(fs.readFileSync(indexFile, 'utf8')).toContain(
+      'Manual synthetic edit that must survive.',
+    );
+    fs.writeFileSync(indexFile, index);
+    expect(await syncReviewedRelease()).toMatchObject({
+      status: 'SYNCED',
+      curriculumVersion: c.version,
+    });
+    expect((await publicVaultStatus()).state).toBe('CURRENT');
+    expect(fs.readFileSync(lessonFile, 'utf8')).toContain(
+      'נוסח נוסף לבדיקת מערכת פרסום מבודדת בלבד',
+    );
+    expect(safeVaultError(new Error('private fixture path or secret'))).toBe('VAULT_SYNC_FAILED');
+  }, 30000);
   it('requires a verified operator and explicit exact-hash review before activation', () => {
     const { store, connection, directory } = workspace();
     expect(() =>

@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { requiredSections } from '@/lib/curriculum/schema';
 import type { auditorStore } from '@/lib/auditor/store';
 import type { ProposalInput } from '@/lib/auditor/schema';
+import { VaultSyncStatus } from './vault-sync-status';
 
 type Store = ReturnType<typeof auditorStore>;
 type Context = ReturnType<Store['context']>;
@@ -90,6 +91,7 @@ export function CurriculumReview({
     [pending, setPending] = useState(false),
     [message, setMessage] = useState(''),
     [error, setError] = useState('');
+  const [vaultRevision, setVaultRevision] = useState(0);
   const mutationRunning = useRef(false),
     savedRequest = useRef<unknown>(null),
     [canRetry, setCanRetry] = useState(false);
@@ -147,13 +149,19 @@ export function CurriculumReview({
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload),
-        signal: AbortSignal.timeout(20000),
+        signal: AbortSignal.timeout(60000),
       });
       const result = await response.json();
       if (!response.ok) throw new Error(result.error || 'REQUEST_FAILED');
       // Acknowledged writes are facts even if the subsequent screen refresh fails.
       savedRequest.current = null;
-      setMessage(success);
+      const projectionMessage = result.vaultSync
+        ? result.vaultSync.status === 'SYNCED'
+          ? ` מפות Volt עודכנו לגרסה ${result.vaultSync.curriculumVersion}.`
+          : ' גרסת הקורס נשמרה, אך מפות Volt לא עודכנו. בדוק את מצב המפה ונסה לעדכן אותה בנפרד.'
+        : '';
+      setMessage(success + projectionMessage);
+      if (result.vaultSync) setVaultRevision((value) => value + 1);
       const refreshed = await readAPI<{ context: Context; proposals: Summary[] }>('/api/auditor');
       setContext(refreshed.context);
       setProposals(refreshed.proposals);
@@ -250,6 +258,7 @@ export function CurriculumReview({
           לנסות שוב את אותה בקשה
         </button>
       )}
+      <VaultSyncStatus key={vaultRevision} />
       <section className="card auditor-proposals" aria-labelledby="proposal-list-title">
         <h2 id="proposal-list-title">הצעות שנשמרו</h2>
         <p>מוצגות עד 50 ההצעות האחרונות. החלטות ונוסחים נשמרים; שינוי נוסף דורש הצעה חדשה.</p>

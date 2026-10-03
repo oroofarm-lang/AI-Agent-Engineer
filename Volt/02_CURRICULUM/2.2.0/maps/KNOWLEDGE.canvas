@@ -559,6 +559,16 @@
       "width": 640,
       "height": 180,
       "color": "6"
+    },
+    {
+      "id": "file-1fd9614b391361dbbf271ada",
+      "type": "file",
+      "file": "04_AUTOMATIONS_AND_APIS/assets/VAULT_SYNC_COMPONENT.md",
+      "x": 6360,
+      "y": 2170,
+      "width": 640,
+      "height": 180,
+      "color": "6"
     }
   ],
   "edges": [
@@ -2731,6 +2741,56 @@
       "fromEnd": "arrow",
       "toEnd": "arrow",
       "label": "תחום הפרק"
+    },
+    {
+      "id": "edge-b50ba810c77413c5e66b4c83",
+      "fromNode": "file-1fd9614b391361dbbf271ada",
+      "fromSide": "right",
+      "toNode": "file-2365f0a01a9b198c38e3ca05",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קובץ עזר למומחה"
+    },
+    {
+      "id": "edge-7b75c249ec3f41679d6667ee",
+      "fromNode": "file-1fd9614b391361dbbf271ada",
+      "fromSide": "right",
+      "toNode": "file-83cb4dfcbb0c572286356c47",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קובץ עזר לפרק"
+    },
+    {
+      "id": "edge-bb9becb706497d9d1a91b21a",
+      "fromNode": "file-1fd9614b391361dbbf271ada",
+      "fromSide": "right",
+      "toNode": "file-c1de88bc3689e476f87416fa",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קובץ עזר למומחה"
+    },
+    {
+      "id": "edge-34a5330e78e929fbaa1f6ef0",
+      "fromNode": "file-1fd9614b391361dbbf271ada",
+      "fromSide": "right",
+      "toNode": "file-38f2fd0c23b80ae8a5143910",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קובץ עזר למומחה"
+    },
+    {
+      "id": "edge-ed2fed3058d482f6bb0a8f3f",
+      "fromNode": "file-1fd9614b391361dbbf271ada",
+      "fromSide": "right",
+      "toNode": "file-5e5d06c1515c3bcc85ac90df",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קובץ עזר למומחה"
     },
     {
       "id": "edge-48e5f431795fce2cacc04854",

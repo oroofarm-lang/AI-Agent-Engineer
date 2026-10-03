@@ -10,6 +10,14 @@ const wikilink = (file, title) => `[[${file.replace(/\.md$/, '')}|${safeTitle(ti
 /** Public source descriptors point to real files; they are not uploaded learner artifacts. */
 export const publicAssetCatalog = [
   {
+    id: 'VAULT_SYNC_COMPONENT',
+    title: 'גרסת מפת הידע ועדכון הייצוא',
+    sourcePath: 'src/components/vault-sync-status.tsx',
+    kind: 'ui-code',
+    moduleIds: ['QUALITY', 'KNOWLEDGE'],
+    agentIds: ['Agent-Curriculum-Auditor', 'Agent-Hebrew-UX'],
+  },
+  {
     id: 'CURRICULUM_REVIEW_COMPONENT',
     title: 'בדיקת הצעות לעדכון הקורס',
     sourcePath: 'src/components/curriculum-review.tsx',
@@ -154,7 +162,7 @@ export const publicApiCatalog = [
     scope: 'verified-operator',
     sourcePath: 'src/app/api/auditor/route.ts',
     description:
-      'מפעיל מאומת ומורשה משווה נוסחים ומקורות, שומר הצעה והחלטה על הנוסח המדויק, ומפרסם גרסה רק לאחר אישור אנושי נפרד. הפרסום שומר את הגרסה הקודמת ומאפשר חזרה אליה ללא שינוי ברשומות הלומדים. גילוי עדכונים ומשוב סוכן אינם אישור לפרסום. יומן ההצעות, זהות הבודק והמסד הפרטי אינם מיוצאים לכספת.',
+      'מפעיל מאומת ומורשה משווה נוסחים ומקורות, שומר הצעה והחלטה על הנוסח המדויק, ומפרסם גרסה רק לאחר אישור אנושי נפרד. הפרסום שומר את הגרסה הקודמת ומאפשר חזרה אליה ללא שינוי ברשומות הלומדים. פרסום או חזרה לגרסה קודמת מפעילים עדכון של מפות Volt; כשל בייצוא מדווח בנפרד ואינו מבטל את הפעולה בקורס. גילוי עדכונים ומשוב סוכן אינם אישור לפרסום. יומן ההצעות, זהות הבודק והמסד הפרטי אינם מיוצאים לכספת.',
   },
   {
     id: 'QUIZZES',
@@ -199,12 +207,12 @@ export const publicApiCatalog = [
   {
     id: 'VAULT_SYNC',
     path: '/api/vault/sync',
-    methods: ['POST'],
+    methods: ['GET', 'POST'],
     title: 'סנכרון גרף הידע הציבורי',
-    scope: 'operator',
+    scope: 'verified-operator',
     sourcePath: 'src/app/api/vault/sync/route.ts',
     description:
-      'סנכרון למפעיל מאומת המופיע ברשימת המנהלים. אינו מקבל נתיב מהמזמין. מייצא את הקטלוג הציבורי בלבד, שומר גרסאות ישנות ומסרב לדרוס רשומה שנערכה ידנית.',
+      'בדיקת גרסת הייצוא ועדכון המפות למפעיל מאומת המופיע ברשימת המנהלים. בדיקת המצב משווה את גרסת הקורס ואת מזהה התוכן לייצוא האחרון; היא אינה סורקת עריכות מאוחרות בקבצים. לא ניתן לבחור בבקשת העדכון היכן יישמרו הקבצים. העדכון מייצא את הקטלוג הציבורי בלבד, שומר גרסאות ישנות ומסרב לדרוס רשומה שנערכה ידנית.',
   },
   {
     id: 'MENTOR_HISTORY',

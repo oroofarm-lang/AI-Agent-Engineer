@@ -6,8 +6,8 @@ entity_id: "VAULT_SYNC"
 curriculum_version: "2.2.0"
 api_id: "VAULT_SYNC"
 route: "/api/vault/sync"
-methods: ["POST"]
-permission_scope: "operator"
+methods: ["GET","POST"]
+permission_scope: "verified-operator"
 source_path: "src/app/api/vault/sync/route.ts"
 implementation_status: "implemented"
 related: ["[[00_ORCHESTRATION/System-Policies]]","[[04_AUTOMATIONS_AND_APIS/Index]]","[[Index]]"]
@@ -17,13 +17,13 @@ related: ["[[00_ORCHESTRATION/System-Policies]]","[[04_AUTOMATIONS_AND_APIS/Inde
 
 כתובת: `/api/vault/sync`
 
-פעולות HTTP: `POST`.
+פעולות HTTP: `GET`, `POST`.
 
-היקף הרשאה: `operator`.
+היקף הרשאה: `verified-operator`.
 
 **מצב המימוש: קוד המסלול קיים; יש לבדוק את החיבור וההרשאות בסביבת ההרצה.**
 
-סנכרון למפעיל מאומת המופיע ברשימת המנהלים. אינו מקבל נתיב מהמזמין. מייצא את הקטלוג הציבורי בלבד, שומר גרסאות ישנות ומסרב לדרוס רשומה שנערכה ידנית.
+בדיקת גרסת הייצוא ועדכון המפות למפעיל מאומת המופיע ברשימת המנהלים. בדיקת המצב משווה את גרסת הקורס ואת מזהה התוכן לייצוא האחרון; היא אינה סורקת עריכות מאוחרות בקבצים. לא ניתן לבחור בבקשת העדכון היכן יישמרו הקבצים. העדכון מייצא את הקטלוג הציבורי בלבד, שומר גרסאות ישנות ומסרב לדרוס רשומה שנערכה ידנית.
 
 [קובץ המקור הציבורי](https://github.com/oroofarm-lang/AI-Agent-Engineer/blob/main/src/app/api/vault/sync/route.ts)
 

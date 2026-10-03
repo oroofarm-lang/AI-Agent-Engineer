@@ -3,7 +3,9 @@ import { randomUUID } from 'node:crypto';
 const testDatabase = `.data/e2e-${randomUUID()}.sqlite`;
 const testKnowledge = `.data/e2e-${randomUUID()}-knowledge.json`;
 const testAuditor = `.data/e2e-${randomUUID()}-auditor`;
+const testVault = `.data/e2e-${randomUUID()}-vault`;
 export default defineConfig({
+  metadata: { testVault },
   testDir: './tests/e2e',
   fullyParallel: false,
   workers: 1,
@@ -30,6 +32,7 @@ export default defineConfig({
       ADMIN_EMAILS: 'qa-manager@example.test',
       MENTOR_KNOWLEDGE_PATH: testKnowledge,
       CURRICULUM_AUDITOR_DIR: testAuditor,
+      VAULT_EXPORT_DIR: testVault,
     },
   },
 });

@@ -6,7 +6,7 @@ entity_id: "CURRICULUM_REVIEW_COMPONENT"
 curriculum_version: "2.2.0"
 source_path: "src/components/curriculum-review.tsx"
 asset_kind: "ui-code"
-source_sha256: "504e59203e0c253f91c85ea30055c9d9cdb9e31ab709acb3fd874a41b15550c2"
+source_sha256: "3a19ba2d73b867ea4e837e7ecb40076d2f7e78a1cde04d4e657e419e908fedb1"
 related: ["[[01_AGENTS/Agent-Curriculum-Auditor]]","[[01_AGENTS/Agent-Database-Architect]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Knowledge-RAG]]","[[01_AGENTS/Agent-Production-Reliability]]","[[01_AGENTS/Agent-Progress-Tracker]]","[[01_AGENTS/Agent-Quiz-Designer]]","[[01_AGENTS/Agent-Security-Auditor]]","[[02_CURRICULUM/2.2.0/modules/KNOWLEDGE]]","[[02_CURRICULUM/2.2.0/modules/QUALITY]]","[[04_AUTOMATIONS_AND_APIS/Index]]"]
 ---
 
@@ -28,6 +28,7 @@ import Link from 'next/link';
 import { requiredSections } from '@/lib/curriculum/schema';
 import type { auditorStore } from '@/lib/auditor/store';
 import type { ProposalInput } from '@/lib/auditor/schema';
+import { VaultSyncStatus } from './vault-sync-status';
 
 type Store = ReturnType<typeof auditorStore>;
 type Context = ReturnType<Store['context']>;
@@ -113,6 +114,7 @@ export function CurriculumReview({
     [pending, setPending] = useState(false),
     [message, setMessage] = useState(''),
     [error, setError] = useState('');
+  const [vaultRevision, setVaultRevision] = useState(0);
   const mutationRunning = useRef(false),
     savedRequest = useRef<unknown>(null),
     [canRetry, setCanRetry] = useState(false);
@@ -170,13 +172,19 @@ export function CurriculumReview({
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload),
-        signal: AbortSignal.timeout(20000),
+        signal: AbortSignal.timeout(60000),
       });
       const result = await response.json();
       if (!response.ok) throw new Error(result.error || 'REQUEST_FAILED');
       // Acknowledged writes are facts even if the subsequent screen refresh fails.
       savedRequest.current = null;
-      setMessage(success);
+      const projectionMessage = result.vaultSync
+        ? result.vaultSync.status === 'SYNCED'
+          ? ` מפות Volt עודכנו לגרסה ${result.vaultSync.curriculumVersion}.`
+          : ' גרסת הקורס נשמרה, אך מפות Volt לא עודכנו. בדוק את מצב המפה ונסה לעדכן אותה בנפרד.'
+        : '';
+      setMessage(success + projectionMessage);
+      if (result.vaultSync) setVaultRevision((value) => value + 1);
       const refreshed = await readAPI<{ context: Context; proposals: Summary[] }>('/api/auditor');
       setContext(refreshed.context);
       setProposals(refreshed.proposals);
@@ -273,6 +281,7 @@ export function CurriculumReview({
           לנסות שוב את אותה בקשה
         </button>
       )}
+      <VaultSyncStatus key={vaultRevision} />
       <section className="card auditor-proposals" aria-labelledby="proposal-list-title">
         <h2 id="proposal-list-title">הצעות שנשמרו</h2>
         <p>מוצגות עד 50 ההצעות האחרונות. החלטות ונוסחים נשמרים; שינוי נוסף דורש הצעה חדשה.</p>

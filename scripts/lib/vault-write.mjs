@@ -108,9 +108,41 @@ async function atomicWrite(root, relative, body, mode = 0o644) {
   }
 }
 
-async function performWrite({ vaultRoot, files, version, manifestName = '.course-export.json' }) {
-  if (!(files instanceof Map) || !files.size || !/^\d+\.\d+\.\d+$/.test(version))
-    throw new Error('INVALID_VAULT_EXPORT');
+function parseManifest(saved) {
+  const previous = saved ? JSON.parse(saved.body.toString('utf8')) : { files: {} };
+  if (
+    !previous ||
+    !previous.files ||
+    typeof previous.files !== 'object' ||
+    Array.isArray(previous.files)
+  )
+    throw new Error('INVALID_VAULT_MANIFEST');
+  for (const [relative, value] of Object.entries(previous.files)) {
+    validateGeneratedPath(relative);
+    if (!/^[a-f0-9]{64}$/.test(value)) throw new Error('INVALID_VAULT_MANIFEST');
+  }
+  if (previous.curriculumHash !== undefined && !/^[a-f0-9]{64}$/.test(previous.curriculumHash))
+    throw new Error('INVALID_VAULT_MANIFEST');
+  return previous;
+}
+
+/** Read only the known public manifest, without crawling notes or writing a directory. */
+export async function readVaultManifest(vaultRoot) {
+  const requestedRoot = path.resolve(vaultRoot),
+    existing = await statOrNull(requestedRoot);
+  if (!existing) return null;
+  if (existing.isSymbolicLink() || !existing.isDirectory()) throw new Error('VAULT_ROOT_REJECTED');
+  const root = await fs.realpath(requestedRoot),
+    saved = await readRegular(root, '.course-export.json', 2_000_000);
+  if (!saved) return null;
+  const manifest = parseManifest(saved);
+  if (manifest.schemaVersion !== 2 || !/^\d+\.\d+\.\d+$/.test(manifest.version))
+    throw new Error('INVALID_VAULT_MANIFEST');
+  return { version: manifest.version, curriculumHash: manifest.curriculumHash || null };
+}
+
+async function performWrite(options) {
+  const { vaultRoot, manifestName = '.course-export.json' } = options;
   if (manifestName !== '.course-export.json') throw new Error('INVALID_VAULT_MANIFEST');
   const requestedRoot = path.resolve(vaultRoot);
   const existing = await statOrNull(requestedRoot);
@@ -118,11 +150,6 @@ async function performWrite({ vaultRoot, files, version, manifestName = '.course
     throw new Error('VAULT_ROOT_REJECTED');
   if (!existing) await fs.mkdir(requestedRoot, { recursive: true });
   const root = await fs.realpath(requestedRoot);
-  for (const [relative, body] of files) {
-    validateGeneratedPath(relative);
-    if (typeof body !== 'string' || Buffer.byteLength(body) > 8_000_000)
-      throw new Error('INVALID_VAULT_DOCUMENT');
-  }
   const lockPath = path.join(root, '.vault-sync.lock');
   if ((await statOrNull(lockPath))?.isSymbolicLink()) throw new Error('VAULT_SYMLINK_REJECTED');
   let lock;
@@ -138,23 +165,23 @@ async function performWrite({ vaultRoot, files, version, manifestName = '.course
   }
   try {
     await lock.writeFile(JSON.stringify({ pid: process.pid, startedAt: new Date().toISOString() }));
-    const savedManifest = await readRegular(root, manifestName, 2_000_000);
-    const previous = savedManifest
-      ? JSON.parse(savedManifest.body.toString('utf8'))
-      : { files: {} };
+    // A waiting writer must construct its catalog snapshot only after acquiring the actual lock.
+    const { files, version, curriculumHash } = options.prepare ? await options.prepare() : options;
     if (
-      !previous ||
-      !previous.files ||
-      typeof previous.files !== 'object' ||
-      Array.isArray(previous.files)
+      !(files instanceof Map) ||
+      !files.size ||
+      !/^\d+\.\d+\.\d+$/.test(version) ||
+      (curriculumHash !== undefined && !/^[a-f0-9]{64}$/.test(curriculumHash))
     )
-      throw new Error('INVALID_VAULT_MANIFEST');
-    const hashes = {};
-    for (const [relative, value] of Object.entries(previous.files)) {
+      throw new Error('INVALID_VAULT_EXPORT');
+    for (const [relative, body] of files) {
       validateGeneratedPath(relative);
-      if (!/^[a-f0-9]{64}$/.test(value)) throw new Error('INVALID_VAULT_MANIFEST');
-      hashes[relative] = value;
+      if (typeof body !== 'string' || Buffer.byteLength(body) > 8_000_000)
+        throw new Error('INVALID_VAULT_DOCUMENT');
     }
+    const savedManifest = await readRegular(root, manifestName, 2_000_000);
+    const previous = parseManifest(savedManifest),
+      hashes = { ...previous.files };
     const updates = [];
     // Preflight every target before publishing any document. Do not traverse unrelated notes.
     for (const [relative, body] of files) {
@@ -165,7 +192,7 @@ async function performWrite({ vaultRoot, files, version, manifestName = '.course
       if (!old || !old.body.equals(bytes)) updates.push({ relative, bytes, old });
       hashes[relative] = hash(bytes);
     }
-    const manifest = `${JSON.stringify({ schemaVersion: 2, version, files: Object.fromEntries(Object.entries(hashes).sort(([a], [b]) => a.localeCompare(b, 'en'))) }, null, 2)}\n`;
+    const manifest = `${JSON.stringify({ schemaVersion: 2, version, ...(curriculumHash ? { curriculumHash } : {}), files: Object.fromEntries(Object.entries(hashes).sort(([a], [b]) => a.localeCompare(b, 'en'))) }, null, 2)}\n`;
     const manifestChanged = !savedManifest || savedManifest.body.toString('utf8') !== manifest;
     const published = [];
     try {
@@ -196,6 +223,7 @@ async function performWrite({ vaultRoot, files, version, manifestName = '.course
       manifestChanged,
       files: files.size,
       version,
+      curriculumHash: curriculumHash || null,
     };
   } finally {
     await lock.close();
