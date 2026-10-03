@@ -1,0 +1,916 @@
+{
+  "nodes": [
+    {
+      "id": "file-940cffbeca2b500e56117503",
+      "type": "file",
+      "file": "01_AGENTS/Orchestrator-Prime.md",
+      "x": 1000,
+      "y": 0,
+      "width": 560,
+      "height": 180,
+      "color": "4"
+    },
+    {
+      "id": "group-8f690f342655fb0f3012656c",
+      "type": "group",
+      "x": -24,
+      "y": 250,
+      "width": 1370,
+      "height": 1720,
+      "label": "פרקים הקשורים לתחום העזרה",
+      "color": "5"
+    },
+    {
+      "id": "file-22b74700b12188a8bf2d912d",
+      "type": "file",
+      "file": "02_CURRICULUM/2.2.0/modules/ADS.md",
+      "x": 0,
+      "y": 330,
+      "width": 640,
+      "height": 180,
+      "color": "5"
+    },
+    {
+      "id": "file-7aca0e7fd231016556337819",
+      "type": "file",
+      "file": "02_CURRICULUM/2.2.0/modules/AGENTS.md",
+      "x": 680,
+      "y": 330,
+      "width": 640,
+      "height": 180,
+      "color": "5"
+    },
+    {
+      "id": "file-5a6f260befdd13e241fbeb42",
+      "type": "file",
+      "file": "02_CURRICULUM/2.2.0/modules/AUTOMATION.md",
+      "x": 0,
+      "y": 560,
+      "width": 640,
+      "height": 180,
+      "color": "5"
+    },
+    {
+      "id": "file-f153ef609cccbaa11cf964cd",
+      "type": "file",
+      "file": "02_CURRICULUM/2.2.0/modules/BUSINESS.md",
+      "x": 680,
+      "y": 560,
+      "width": 640,
+      "height": 180,
+      "color": "5"
+    },
+    {
+      "id": "file-5bb40e289d26ca5b75238a9d",
+      "type": "file",
+      "file": "02_CURRICULUM/2.2.0/modules/CAPSTONE.md",
+      "x": 0,
+      "y": 790,
+      "width": 640,
+      "height": 180,
+      "color": "5"
+    },
+    {
+      "id": "file-e524d6cd1c71643b9b26c73d",
+      "type": "file",
+      "file": "02_CURRICULUM/2.2.0/modules/CORE.md",
+      "x": 680,
+      "y": 790,
+      "width": 640,
+      "height": 180,
+      "color": "5"
+    },
+    {
+      "id": "file-bf5a8f960e055342962ecaf4",
+      "type": "file",
+      "file": "02_CURRICULUM/2.2.0/modules/CRM.md",
+      "x": 0,
+      "y": 1020,
+      "width": 640,
+      "height": 180,
+      "color": "5"
+    },
+    {
+      "id": "file-ecb517fedf6156e95a2cf50a",
+      "type": "file",
+      "file": "02_CURRICULUM/2.2.0/modules/DATA.md",
+      "x": 680,
+      "y": 1020,
+      "width": 640,
+      "height": 180,
+      "color": "5"
+    },
+    {
+      "id": "file-83cb4dfcbb0c572286356c47",
+      "type": "file",
+      "file": "02_CURRICULUM/2.2.0/modules/KNOWLEDGE.md",
+      "x": 0,
+      "y": 1250,
+      "width": 640,
+      "height": 180,
+      "color": "5"
+    },
+    {
+      "id": "file-94958df03cf48d1fae507e41",
+      "type": "file",
+      "file": "02_CURRICULUM/2.2.0/modules/MARKETING.md",
+      "x": 680,
+      "y": 1250,
+      "width": 640,
+      "height": 180,
+      "color": "5"
+    },
+    {
+      "id": "file-970f1c3b737ba49e4fa49178",
+      "type": "file",
+      "file": "02_CURRICULUM/2.2.0/modules/PRODUCT.md",
+      "x": 0,
+      "y": 1480,
+      "width": 640,
+      "height": 180,
+      "color": "5"
+    },
+    {
+      "id": "file-0b799de71d380da126de9268",
+      "type": "file",
+      "file": "02_CURRICULUM/2.2.0/modules/QUALITY.md",
+      "x": 680,
+      "y": 1480,
+      "width": 640,
+      "height": 180,
+      "color": "5"
+    },
+    {
+      "id": "file-24128e5aa8c2bde8b01b424c",
+      "type": "file",
+      "file": "02_CURRICULUM/2.2.0/modules/VOICE.md",
+      "x": 0,
+      "y": 1710,
+      "width": 640,
+      "height": 180,
+      "color": "5"
+    },
+    {
+      "id": "file-649090b1c55a7a3e598fdfd5",
+      "type": "file",
+      "file": "02_CURRICULUM/2.2.0/modules/WEB.md",
+      "x": 680,
+      "y": 1710,
+      "width": 640,
+      "height": 180,
+      "color": "5"
+    },
+    {
+      "id": "group-d8b9e4b375f203dd5d02790d",
+      "type": "group",
+      "x": 1396,
+      "y": 250,
+      "width": 1370,
+      "height": 570,
+      "label": "מיומנויות ומקורות",
+      "color": "2"
+    },
+    {
+      "id": "file-cbaac02edabca908d04672b8",
+      "type": "file",
+      "file": "02_CURRICULUM/2.2.0/sources/A2A_SPEC.md",
+      "x": 1420,
+      "y": 330,
+      "width": 640,
+      "height": 180,
+      "color": "2"
+    },
+    {
+      "id": "file-2615642f349027d95eb5e45b",
+      "type": "file",
+      "file": "02_CURRICULUM/2.2.0/sources/ANTHROPIC_AGENTS.md",
+      "x": 2100,
+      "y": 330,
+      "width": 640,
+      "height": 180,
+      "color": "2"
+    },
+    {
+      "id": "file-8683e4104bfebba5cb040ea4",
+      "type": "file",
+      "file": "02_CURRICULUM/2.2.0/sources/OPENAI_AGENTS.md",
+      "x": 1420,
+      "y": 560,
+      "width": 640,
+      "height": 180,
+      "color": "2"
+    },
+    {
+      "id": "group-6b570039e39d75160efd3086",
+      "type": "group",
+      "x": 2816,
+      "y": 250,
+      "width": 1370,
+      "height": 800,
+      "label": "כלים וממשקי הפעלה",
+      "color": "6"
+    },
+    {
+      "id": "file-5d3c954b8033ec6a918bdf48",
+      "type": "file",
+      "file": "04_AUTOMATIONS_AND_APIS/endpoints/AGENT_ORCHESTRATE.md",
+      "x": 2840,
+      "y": 330,
+      "width": 640,
+      "height": 180,
+      "color": "6"
+    },
+    {
+      "id": "file-2d7e24b38f198bb60b5fdc2d",
+      "type": "file",
+      "file": "04_AUTOMATIONS_AND_APIS/tools/course.read.md",
+      "x": 3520,
+      "y": 330,
+      "width": 640,
+      "height": 180,
+      "color": "6"
+    },
+    {
+      "id": "file-0914020642e16e3c80c1a5d2",
+      "type": "file",
+      "file": "04_AUTOMATIONS_AND_APIS/tools/knowledge.read.md",
+      "x": 2840,
+      "y": 560,
+      "width": 640,
+      "height": 180,
+      "color": "6"
+    },
+    {
+      "id": "file-d5540778b1acf8178c14bc4e",
+      "type": "file",
+      "file": "04_AUTOMATIONS_AND_APIS/tools/progress.read.md",
+      "x": 3520,
+      "y": 560,
+      "width": 640,
+      "height": 180,
+      "color": "6"
+    },
+    {
+      "id": "file-1fc04e1a582099d875b2da2b",
+      "type": "file",
+      "file": "04_AUTOMATIONS_AND_APIS/tools/sources.read.md",
+      "x": 2840,
+      "y": 790,
+      "width": 640,
+      "height": 180,
+      "color": "6"
+    },
+    {
+      "id": "group-4820dd917f9832641551b05a",
+      "type": "group",
+      "x": 4236,
+      "y": 250,
+      "width": 1370,
+      "height": 800,
+      "label": "תיאום הצוות וכללי הפעולה",
+      "color": "4"
+    },
+    {
+      "id": "file-d66ecadd7d89e951cad06d3f",
+      "type": "file",
+      "file": "00_ORCHESTRATION/Orchestrator-Prime.md",
+      "x": 4260,
+      "y": 330,
+      "width": 640,
+      "height": 180,
+      "color": "4"
+    },
+    {
+      "id": "file-cbcd36b52d140cdaab76b905",
+      "type": "file",
+      "file": "00_ORCHESTRATION/Pedagogy.md",
+      "x": 4940,
+      "y": 330,
+      "width": 640,
+      "height": 180,
+      "color": "4"
+    },
+    {
+      "id": "file-6363038c2b4ca056835e2e3f",
+      "type": "file",
+      "file": "00_ORCHESTRATION/System-Policies.md",
+      "x": 4260,
+      "y": 560,
+      "width": 640,
+      "height": 180,
+      "color": "4"
+    },
+    {
+      "id": "file-12507a9e98d7ff86f1515735",
+      "type": "file",
+      "file": "01_AGENTS/Index.md",
+      "x": 4940,
+      "y": 560,
+      "width": 640,
+      "height": 180,
+      "color": "4"
+    },
+    {
+      "id": "file-dd59730edbda4feb9e1f1512",
+      "type": "file",
+      "file": "04_AUTOMATIONS_AND_APIS/Knowledge-Updates.md",
+      "x": 4260,
+      "y": 790,
+      "width": 640,
+      "height": 180,
+      "color": "4"
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-591bde19b3b6824c1f1e66ed",
+      "fromNode": "file-d66ecadd7d89e951cad06d3f",
+      "fromSide": "right",
+      "toNode": "file-6363038c2b4ca056835e2e3f",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "גבולות הרשאה"
+    },
+    {
+      "id": "edge-6265bfc1da1b01dca2e4e79c",
+      "fromNode": "file-d66ecadd7d89e951cad06d3f",
+      "fromSide": "right",
+      "toNode": "file-cbcd36b52d140cdaab76b905",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "מדיניות הוראה"
+    },
+    {
+      "id": "edge-dfb54a8cc2df7d0aa8657c9b",
+      "fromNode": "file-2d7e24b38f198bb60b5fdc2d",
+      "fromSide": "right",
+      "toNode": "file-6363038c2b4ca056835e2e3f",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "גבולות הרשאה"
+    },
+    {
+      "id": "edge-617e7140e49b2529be22ec49",
+      "fromNode": "file-1fc04e1a582099d875b2da2b",
+      "fromSide": "right",
+      "toNode": "file-6363038c2b4ca056835e2e3f",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "גבולות הרשאה"
+    },
+    {
+      "id": "edge-e0f9d392eac0957c2708f1e6",
+      "fromNode": "file-d5540778b1acf8178c14bc4e",
+      "fromSide": "right",
+      "toNode": "file-6363038c2b4ca056835e2e3f",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "גבולות הרשאה"
+    },
+    {
+      "id": "edge-206e78bef3c35c4efc9bfe34",
+      "fromNode": "file-0914020642e16e3c80c1a5d2",
+      "fromSide": "right",
+      "toNode": "file-6363038c2b4ca056835e2e3f",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "גבולות הרשאה"
+    },
+    {
+      "id": "edge-cecb5b3846ce97cf668c962b",
+      "fromNode": "file-12507a9e98d7ff86f1515735",
+      "fromSide": "right",
+      "toNode": "file-940cffbeca2b500e56117503",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "מומחה"
+    },
+    {
+      "id": "edge-2d80b63e27c202ce7104726e",
+      "fromNode": "file-d66ecadd7d89e951cad06d3f",
+      "fromSide": "right",
+      "toNode": "file-940cffbeca2b500e56117503",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "מומחה מתוזמר"
+    },
+    {
+      "id": "edge-92bf60b8f05ca6f59582e5ea",
+      "fromNode": "file-940cffbeca2b500e56117503",
+      "fromSide": "right",
+      "toNode": "file-6363038c2b4ca056835e2e3f",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "כללי מערכת"
+    },
+    {
+      "id": "edge-8c8386a2d954dacad2f8192b",
+      "fromNode": "file-940cffbeca2b500e56117503",
+      "fromSide": "right",
+      "toNode": "file-cbcd36b52d140cdaab76b905",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "אופן ההסבר"
+    },
+    {
+      "id": "edge-98e76efcdac4d5dafdb865b7",
+      "fromNode": "file-5d3c954b8033ec6a918bdf48",
+      "fromSide": "right",
+      "toNode": "file-6363038c2b4ca056835e2e3f",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "כללי הרשאה"
+    },
+    {
+      "id": "edge-18c063ea0ec7f13e8c3e99a5",
+      "fromNode": "file-dd59730edbda4feb9e1f1512",
+      "fromSide": "right",
+      "toNode": "file-d66ecadd7d89e951cad06d3f",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "הקשר של עדכונים"
+    },
+    {
+      "id": "edge-35c216d6853e44557fe6cd73",
+      "fromNode": "file-dd59730edbda4feb9e1f1512",
+      "fromSide": "right",
+      "toNode": "file-6363038c2b4ca056835e2e3f",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "גבולות אימות"
+    },
+    {
+      "id": "edge-78e82c312c87601a4bbd586f",
+      "fromNode": "file-7aca0e7fd231016556337819",
+      "fromSide": "right",
+      "toNode": "file-e524d6cd1c71643b9b26c73d",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תלות בין פרקים"
+    },
+    {
+      "id": "edge-19816f225d2804eae21f8f22",
+      "fromNode": "file-83cb4dfcbb0c572286356c47",
+      "fromSide": "right",
+      "toNode": "file-e524d6cd1c71643b9b26c73d",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תלות בין פרקים"
+    },
+    {
+      "id": "edge-c5aa1f22e3e37dbe0b41672f",
+      "fromNode": "file-5a6f260befdd13e241fbeb42",
+      "fromSide": "right",
+      "toNode": "file-e524d6cd1c71643b9b26c73d",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תלות בין פרקים"
+    },
+    {
+      "id": "edge-fdd4bc5112d88cfd8ee3e3dd",
+      "fromNode": "file-0b799de71d380da126de9268",
+      "fromSide": "right",
+      "toNode": "file-e524d6cd1c71643b9b26c73d",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תלות בין פרקים"
+    },
+    {
+      "id": "edge-dbe15986708fea48b9e338d2",
+      "fromNode": "file-970f1c3b737ba49e4fa49178",
+      "fromSide": "right",
+      "toNode": "file-e524d6cd1c71643b9b26c73d",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תלות בין פרקים"
+    },
+    {
+      "id": "edge-850080edc7c0d6f7f8f4d04d",
+      "fromNode": "file-94958df03cf48d1fae507e41",
+      "fromSide": "right",
+      "toNode": "file-e524d6cd1c71643b9b26c73d",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תלות בין פרקים"
+    },
+    {
+      "id": "edge-71d95ce0ac74fa951592d908",
+      "fromNode": "file-94958df03cf48d1fae507e41",
+      "fromSide": "right",
+      "toNode": "file-5a6f260befdd13e241fbeb42",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תלות בין פרקים"
+    },
+    {
+      "id": "edge-a395f455a8125b774d58c7b7",
+      "fromNode": "file-22b74700b12188a8bf2d912d",
+      "fromSide": "right",
+      "toNode": "file-94958df03cf48d1fae507e41",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תלות בין פרקים"
+    },
+    {
+      "id": "edge-1bab7d6134dbd0a8d616aa9f",
+      "fromNode": "file-bf5a8f960e055342962ecaf4",
+      "fromSide": "right",
+      "toNode": "file-e524d6cd1c71643b9b26c73d",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תלות בין פרקים"
+    },
+    {
+      "id": "edge-40f5b79fa7bc6ee57da3d1d5",
+      "fromNode": "file-bf5a8f960e055342962ecaf4",
+      "fromSide": "right",
+      "toNode": "file-5a6f260befdd13e241fbeb42",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תלות בין פרקים"
+    },
+    {
+      "id": "edge-c2a501f5306b75d4ea2362c5",
+      "fromNode": "file-649090b1c55a7a3e598fdfd5",
+      "fromSide": "right",
+      "toNode": "file-970f1c3b737ba49e4fa49178",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תלות בין פרקים"
+    },
+    {
+      "id": "edge-51ab7141fb73247703e1e811",
+      "fromNode": "file-24128e5aa8c2bde8b01b424c",
+      "fromSide": "right",
+      "toNode": "file-e524d6cd1c71643b9b26c73d",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תלות בין פרקים"
+    },
+    {
+      "id": "edge-59835df29ea1729ebcd35135",
+      "fromNode": "file-24128e5aa8c2bde8b01b424c",
+      "fromSide": "right",
+      "toNode": "file-5a6f260befdd13e241fbeb42",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תלות בין פרקים"
+    },
+    {
+      "id": "edge-44393f0eee5f8d449000fc1b",
+      "fromNode": "file-ecb517fedf6156e95a2cf50a",
+      "fromSide": "right",
+      "toNode": "file-e524d6cd1c71643b9b26c73d",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תלות בין פרקים"
+    },
+    {
+      "id": "edge-da446d9ce5fbc6882523e552",
+      "fromNode": "file-ecb517fedf6156e95a2cf50a",
+      "fromSide": "right",
+      "toNode": "file-0b799de71d380da126de9268",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תלות בין פרקים"
+    },
+    {
+      "id": "edge-32c6f0b6731d05d09853f685",
+      "fromNode": "file-f153ef609cccbaa11cf964cd",
+      "fromSide": "right",
+      "toNode": "file-e524d6cd1c71643b9b26c73d",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תלות בין פרקים"
+    },
+    {
+      "id": "edge-819c25fc9f2c9dc721677191",
+      "fromNode": "file-5bb40e289d26ca5b75238a9d",
+      "fromSide": "right",
+      "toNode": "file-f153ef609cccbaa11cf964cd",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תלות בין פרקים"
+    },
+    {
+      "id": "edge-7baa46724535781deb019d52",
+      "fromNode": "file-5bb40e289d26ca5b75238a9d",
+      "fromSide": "right",
+      "toNode": "file-0b799de71d380da126de9268",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תלות בין פרקים"
+    },
+    {
+      "id": "edge-7637c9de30989dfae509ccd1",
+      "fromNode": "file-5bb40e289d26ca5b75238a9d",
+      "fromSide": "right",
+      "toNode": "file-970f1c3b737ba49e4fa49178",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תלות בין פרקים"
+    },
+    {
+      "id": "edge-816a6c63e45b90aff58cf088",
+      "fromNode": "file-5bb40e289d26ca5b75238a9d",
+      "fromSide": "right",
+      "toNode": "file-5a6f260befdd13e241fbeb42",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תלות בין פרקים"
+    },
+    {
+      "id": "edge-453491c8f9075652459ce92e",
+      "fromNode": "file-940cffbeca2b500e56117503",
+      "fromSide": "right",
+      "toNode": "file-e524d6cd1c71643b9b26c73d",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום הפרק"
+    },
+    {
+      "id": "edge-d1b7741f18f81cadd35c7219",
+      "fromNode": "file-940cffbeca2b500e56117503",
+      "fromSide": "right",
+      "toNode": "file-7aca0e7fd231016556337819",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום הפרק"
+    },
+    {
+      "id": "edge-43c220bff1603b44f21a0589",
+      "fromNode": "file-940cffbeca2b500e56117503",
+      "fromSide": "right",
+      "toNode": "file-83cb4dfcbb0c572286356c47",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום הפרק"
+    },
+    {
+      "id": "edge-8a11de607afe41ea88a318f1",
+      "fromNode": "file-940cffbeca2b500e56117503",
+      "fromSide": "right",
+      "toNode": "file-5a6f260befdd13e241fbeb42",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום הפרק"
+    },
+    {
+      "id": "edge-37fa7842897151a48878416a",
+      "fromNode": "file-940cffbeca2b500e56117503",
+      "fromSide": "right",
+      "toNode": "file-0b799de71d380da126de9268",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום הפרק"
+    },
+    {
+      "id": "edge-aa013f62149ff44b6258f826",
+      "fromNode": "file-940cffbeca2b500e56117503",
+      "fromSide": "right",
+      "toNode": "file-970f1c3b737ba49e4fa49178",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום הפרק"
+    },
+    {
+      "id": "edge-0fdc8150a206d6e1c9b94066",
+      "fromNode": "file-940cffbeca2b500e56117503",
+      "fromSide": "right",
+      "toNode": "file-94958df03cf48d1fae507e41",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום הפרק"
+    },
+    {
+      "id": "edge-8ffb9b6b225132f86b1fea3e",
+      "fromNode": "file-940cffbeca2b500e56117503",
+      "fromSide": "right",
+      "toNode": "file-22b74700b12188a8bf2d912d",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום הפרק"
+    },
+    {
+      "id": "edge-8ffc25c23a26cf5f75a43219",
+      "fromNode": "file-940cffbeca2b500e56117503",
+      "fromSide": "right",
+      "toNode": "file-bf5a8f960e055342962ecaf4",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום הפרק"
+    },
+    {
+      "id": "edge-a1dcfd0c65ae51bb308ebeea",
+      "fromNode": "file-940cffbeca2b500e56117503",
+      "fromSide": "right",
+      "toNode": "file-649090b1c55a7a3e598fdfd5",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום הפרק"
+    },
+    {
+      "id": "edge-7d6142c90d28e08cb53b9d46",
+      "fromNode": "file-940cffbeca2b500e56117503",
+      "fromSide": "right",
+      "toNode": "file-24128e5aa8c2bde8b01b424c",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום הפרק"
+    },
+    {
+      "id": "edge-44198a53e5298cfebc2c58cc",
+      "fromNode": "file-940cffbeca2b500e56117503",
+      "fromSide": "right",
+      "toNode": "file-ecb517fedf6156e95a2cf50a",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום הפרק"
+    },
+    {
+      "id": "edge-07535020a21f8fac1913c3bd",
+      "fromNode": "file-940cffbeca2b500e56117503",
+      "fromSide": "right",
+      "toNode": "file-f153ef609cccbaa11cf964cd",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום הפרק"
+    },
+    {
+      "id": "edge-666a649e09c75d9d0c08714a",
+      "fromNode": "file-940cffbeca2b500e56117503",
+      "fromSide": "right",
+      "toNode": "file-5bb40e289d26ca5b75238a9d",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תחום הפרק"
+    },
+    {
+      "id": "edge-4ae12e665dd3015c843968d2",
+      "fromNode": "file-940cffbeca2b500e56117503",
+      "fromSide": "right",
+      "toNode": "file-2615642f349027d95eb5e45b",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "מקור למומחה"
+    },
+    {
+      "id": "edge-84522204ec4ea26b3de3ab6e",
+      "fromNode": "file-940cffbeca2b500e56117503",
+      "fromSide": "right",
+      "toNode": "file-8683e4104bfebba5cb040ea4",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "מקור למומחה"
+    },
+    {
+      "id": "edge-5d983d8b3d1d222cadce824c",
+      "fromNode": "file-940cffbeca2b500e56117503",
+      "fromSide": "right",
+      "toNode": "file-cbaac02edabca908d04672b8",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "מקור למומחה"
+    },
+    {
+      "id": "edge-6000f2aabccdc64620c7166a",
+      "fromNode": "file-940cffbeca2b500e56117503",
+      "fromSide": "right",
+      "toNode": "file-2d7e24b38f198bb60b5fdc2d",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "כלי מותר"
+    },
+    {
+      "id": "edge-b2cef8997c666853b6ff6705",
+      "fromNode": "file-940cffbeca2b500e56117503",
+      "fromSide": "right",
+      "toNode": "file-1fc04e1a582099d875b2da2b",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "כלי מותר"
+    },
+    {
+      "id": "edge-f758f7f0ddcb716ddc050bea",
+      "fromNode": "file-940cffbeca2b500e56117503",
+      "fromSide": "right",
+      "toNode": "file-d5540778b1acf8178c14bc4e",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "כלי מותר"
+    },
+    {
+      "id": "edge-661d28e3075901061b446437",
+      "fromNode": "file-940cffbeca2b500e56117503",
+      "fromSide": "right",
+      "toNode": "file-0914020642e16e3c80c1a5d2",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "כלי מותר"
+    },
+    {
+      "id": "edge-f0bfb17c6319f3d88e064145",
+      "fromNode": "file-940cffbeca2b500e56117503",
+      "fromSide": "right",
+      "toNode": "file-5d3c954b8033ec6a918bdf48",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "ממשק הפעלה"
+    },
+    {
+      "id": "edge-b29427cdfce5ac7ab74b5db1",
+      "fromNode": "file-940cffbeca2b500e56117503",
+      "fromSide": "right",
+      "toNode": "file-dd59730edbda4feb9e1f1512",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "מקורות מתעדכנים"
+    },
+    {
+      "id": "edge-fe8431ed67f7f3f5680e304e",
+      "fromNode": "file-dd59730edbda4feb9e1f1512",
+      "fromSide": "right",
+      "toNode": "file-8683e4104bfebba5cb040ea4",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "מקור בקטלוג"
+    },
+    {
+      "id": "edge-a9cbc4c8229290362c30c3ec",
+      "fromNode": "file-dd59730edbda4feb9e1f1512",
+      "fromSide": "right",
+      "toNode": "file-2615642f349027d95eb5e45b",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "מקור בקטלוג"
+    },
+    {
+      "id": "edge-4cf1398da7a9557937eb717b",
+      "fromNode": "file-dd59730edbda4feb9e1f1512",
+      "fromSide": "right",
+      "toNode": "file-cbaac02edabca908d04672b8",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "מקור בקטלוג"
+    }
+  ]
+}

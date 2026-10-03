@@ -11,7 +11,7 @@ source_ids: ["GOOGLE_ADS_TESTS","ANTHROPIC_EVALS"]
 prerequisite_lesson_ids: ["ADS_01"]
 source_sha256: "e8a0cb24a93599d0f9dd4b622f02bdc3afe06415bb652730dfb454bf558dd945"
 estimated_minutes: 150
-related: ["[[01_AGENTS/Agent-Automation-Engineer]]","[[01_AGENTS/Agent-Business-Discovery]]","[[01_AGENTS/Agent-CRM-Sales]]","[[01_AGENTS/Agent-Curriculum-Auditor]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Paid-Media-Measurement]]","[[01_AGENTS/Agent-Progress-Tracker]]","[[01_AGENTS/Agent-Quiz-Designer]]","[[01_AGENTS/Agent-Security-Auditor]]","[[01_AGENTS/Agent-Visual-Media]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/exercises/ADS_02]]","[[02_CURRICULUM/2.2.0/lessons/ADS_01]]","[[02_CURRICULUM/2.2.0/lessons/ADS_03]]","[[02_CURRICULUM/2.2.0/modules/ADS]]","[[02_CURRICULUM/2.2.0/skills/EVALS]]","[[02_CURRICULUM/2.2.0/skills/HUMAN_APPROVAL]]","[[02_CURRICULUM/2.2.0/skills/PAID_MEDIA]]","[[02_CURRICULUM/2.2.0/sources/ANTHROPIC_EVALS]]","[[02_CURRICULUM/2.2.0/sources/GOOGLE_ADS_TESTS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_ADS_02]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_ADS_02]]"]
+related: ["[[01_AGENTS/Agent-Automation-Engineer]]","[[01_AGENTS/Agent-Business-Discovery]]","[[01_AGENTS/Agent-CRM-Sales]]","[[01_AGENTS/Agent-Curriculum-Auditor]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Paid-Media-Measurement]]","[[01_AGENTS/Agent-Progress-Tracker]]","[[01_AGENTS/Agent-Quiz-Designer]]","[[01_AGENTS/Agent-Security-Auditor]]","[[01_AGENTS/Agent-Visual-Media]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/exercises/ADS_02]]","[[02_CURRICULUM/2.2.0/lessons/ADS_01]]","[[02_CURRICULUM/2.2.0/lessons/ADS_03]]","[[02_CURRICULUM/2.2.0/modules/ADS]]","[[02_CURRICULUM/2.2.0/skills/EVALS]]","[[02_CURRICULUM/2.2.0/skills/HUMAN_APPROVAL]]","[[02_CURRICULUM/2.2.0/skills/PAID_MEDIA]]","[[02_CURRICULUM/2.2.0/sources/ANTHROPIC_EVALS]]","[[02_CURRICULUM/2.2.0/sources/GOOGLE_ADS_TESTS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_ADS_02]]","[[02_CURRICULUM/system-quizzes/1.0.0/QUIZ_EVIDENCE_NEXT_STEP]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_ADS_02]]"]
 ---
 
 # יבוא נתוני קמפיינים
@@ -129,4 +129,5 @@ Input → Contract check → Work / model proposal → Result check → Evidence
 - [[02_CURRICULUM/2.2.0/sources/ANTHROPIC_EVALS|Demystifying evals for AI agents]] — מקור לשיעור
 - [[02_CURRICULUM/2.2.0/sources/GOOGLE_ADS_TESTS|Google Ads API testing]] — מקור לשיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_ADS_02|בדיקת הבנה: אותו קובץ נתוני קמפיינים מיובא שוב. מה צריך להבטיח כדי לא לנפח את ההוצאות בדוח?]] — בדיקת הבנה
+- [[02_CURRICULUM/system-quizzes/1.0.0/QUIZ_EVIDENCE_NEXT_STEP|לפני שמגישים · שאלה קצרה לתרגול]] — תרגול לפני הגשה
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_ADS_02|הוכחה מעשית · יבוא נתוני קמפיינים]] — הוכחה מעשית

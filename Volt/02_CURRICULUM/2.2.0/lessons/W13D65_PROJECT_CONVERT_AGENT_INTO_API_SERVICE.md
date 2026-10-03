@@ -11,7 +11,7 @@ source_ids: ["FASTAPI","OTEL"]
 prerequisite_lesson_ids: ["W13D64_STREAMING"]
 source_sha256: "291cf49c0db6a919a9b202990c1cf5f3b0c8e0a2421870a4df8b3178bb0815e5"
 estimated_minutes: 240
-related: ["[[01_AGENTS/Agent-Database-Architect]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Production-Reliability]]","[[01_AGENTS/Agent-Security-Auditor]]","[[01_AGENTS/Agent-UI-UX-Inspector]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/exercises/W13D65_PROJECT_CONVERT_AGENT_INTO_API_SERVICE]]","[[02_CURRICULUM/2.2.0/lessons/W13D64_STREAMING]]","[[02_CURRICULUM/2.2.0/lessons/W14D66_FRONTEND_FUNDAMENTALS]]","[[02_CURRICULUM/2.2.0/modules/PRODUCT]]","[[02_CURRICULUM/2.2.0/skills/BACKEND]]","[[02_CURRICULUM/2.2.0/skills/DATABASE]]","[[02_CURRICULUM/2.2.0/skills/QUEUES]]","[[02_CURRICULUM/2.2.0/sources/FASTAPI]]","[[02_CURRICULUM/2.2.0/sources/OTEL]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W13D65_PROJECT_CONVERT_AGENT_INTO_API_SERVICE]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W13D65_PROJECT_CONVERT_AGENT_INTO_API_SERVICE]]"]
+related: ["[[01_AGENTS/Agent-Database-Architect]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Production-Reliability]]","[[01_AGENTS/Agent-Security-Auditor]]","[[01_AGENTS/Agent-UI-UX-Inspector]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/exercises/W13D65_PROJECT_CONVERT_AGENT_INTO_API_SERVICE]]","[[02_CURRICULUM/2.2.0/lessons/W13D64_STREAMING]]","[[02_CURRICULUM/2.2.0/lessons/W14D66_FRONTEND_FUNDAMENTALS]]","[[02_CURRICULUM/2.2.0/modules/PRODUCT]]","[[02_CURRICULUM/2.2.0/skills/BACKEND]]","[[02_CURRICULUM/2.2.0/skills/DATABASE]]","[[02_CURRICULUM/2.2.0/skills/QUEUES]]","[[02_CURRICULUM/2.2.0/sources/FASTAPI]]","[[02_CURRICULUM/2.2.0/sources/OTEL]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W13D65_PROJECT_CONVERT_AGENT_INTO_API_SERVICE]]","[[02_CURRICULUM/system-quizzes/1.0.0/QUIZ_EVIDENCE_NEXT_STEP]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W13D65_PROJECT_CONVERT_AGENT_INTO_API_SERVICE]]"]
 ---
 
 # פרויקט: שירות Agent API
@@ -124,4 +124,5 @@ Input → Contract check → Work / model proposal → Result check → Evidence
 - [[02_CURRICULUM/2.2.0/sources/FASTAPI|FastAPI tutorial]] — מקור לשיעור
 - [[02_CURRICULUM/2.2.0/sources/OTEL|OpenTelemetry signals]] — מקור לשיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W13D65_PROJECT_CONVERT_AGENT_INTO_API_SERVICE|בדיקת הבנה: איזו בדיקה מתאימה לדרישת End-to-End של שירות Agent API?]] — בדיקת הבנה
+- [[02_CURRICULUM/system-quizzes/1.0.0/QUIZ_EVIDENCE_NEXT_STEP|לפני שמגישים · שאלה קצרה לתרגול]] — תרגול לפני הגשה
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W13D65_PROJECT_CONVERT_AGENT_INTO_API_SERVICE|הוכחה מעשית · פרויקט: שירות Agent API]] — הוכחה מעשית

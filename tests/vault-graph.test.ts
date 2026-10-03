@@ -47,6 +47,91 @@ const write = (vaultRoot: string, files: Map<string, string>) =>
   writer.writeVaultFiles({ vaultRoot, files, version: curriculum.version });
 
 describe('complete public knowledge graph', () => {
+  it('links the existing application question separately from the unpublished teaching draft and never exports learner answers', () => {
+    const systemQuestion = JSON.parse(readFileSync('content/quizzes/system/1.0.0.json', 'utf8'));
+    const result = builder.buildVaultFiles({ curriculum, lessonBodies, registry, systemQuestion });
+    expect(result.counts).toMatchObject({ quizzes: 0, systemQuizzes: 1 });
+    const file = `02_CURRICULUM/system-quizzes/${systemQuestion.version}/${systemQuestion.id}.md`;
+    expect(result.files.get(file)).toContain('purpose: "app-workflow-practice"');
+    expect(result.files.get(file)).toContain(systemQuestion.feedback.correct);
+    for (const lesson of curriculum.lessons)
+      expect(
+        result.relations.some(
+          (edge) =>
+            edge.from === file &&
+            edge.to === `02_CURRICULUM/${curriculum.version}/lessons/${lesson.id}.md`,
+        ),
+      ).toBe(true);
+    const canvas = JSON.parse(result.files.get('Root_Knowledge_Graph.canvas')!);
+    expect(canvas.nodes.some((node: { file: string }) => node.file === file)).toBe(true);
+    expect(result.files.get('04_AUTOMATIONS_AND_APIS/endpoints/QUIZZES.md')).toContain(
+      '/api/quizzes',
+    );
+  });
+  it('provides complete chapter and specialist views with only real graph edges and no overlapping cards', () => {
+    expect(graph.counts).toMatchObject({
+      chapterCanvases: 14,
+      agentCanvases: registry.agents.length,
+    });
+    const full = JSON.parse(graph.files.get('Root_Knowledge_Graph.canvas')!);
+    const fullEdges = new Set(full.edges.map((edge: { id: string }) => edge.id));
+    const covered = new Set<string>();
+    const assertView = (file: string, root: string) => {
+      const canvas = JSON.parse(graph.files.get(file)!);
+      const nodes = canvas.nodes.filter((node: { type: string }) => node.type === 'file') as {
+        id: string;
+        file: string;
+        x: number;
+        y: number;
+        width: number;
+        height: number;
+      }[];
+      const nodeIds = new Set(nodes.map((node) => node.id));
+      expect(new Set(canvas.nodes.map((node: { id: string }) => node.id)).size).toBe(
+        canvas.nodes.length,
+      );
+      expect(nodes.some((node) => node.file === root)).toBe(true);
+      expect(graph.files.get(root)).toContain(`[[${file}|`);
+      expect(graph.files.get('Index.md')).toContain(`[[${file}|`);
+      for (const node of nodes) {
+        expect(graph.files.has(node.file)).toBe(true);
+        for (const other of nodes.filter((n) => n.id !== node.id))
+          expect(
+            node.x < other.x + other.width &&
+              node.x + node.width > other.x &&
+              node.y < other.y + other.height &&
+              node.y + node.height > other.y,
+            `${file}: ${node.file} overlaps ${other.file}`,
+          ).toBe(false);
+      }
+      for (const edge of canvas.edges) {
+        expect(fullEdges.has(edge.id)).toBe(true);
+        expect(nodeIds.has(edge.fromNode) && nodeIds.has(edge.toNode)).toBe(true);
+      }
+      return new Set(nodes.map((node) => node.file));
+    };
+    for (const chapter of curriculum.modules!) {
+      const nodes = assertView(
+        `02_CURRICULUM/${curriculum.version}/maps/${chapter.id}.canvas`,
+        `02_CURRICULUM/${curriculum.version}/modules/${chapter.id}.md`,
+      );
+      for (const lesson of chapter.lessonIds) {
+        expect(nodes.has(`02_CURRICULUM/${curriculum.version}/lessons/${lesson}.md`)).toBe(true);
+        expect(nodes.has(`02_CURRICULUM/${curriculum.version}/exercises/${lesson}.md`)).toBe(true);
+        const rubric = curriculum.assessments.find((a) => a.lessonId === lesson)!;
+        expect(nodes.has(`03_PRACTICAL_PROOFS/${curriculum.version}/rubrics/${rubric.id}.md`)).toBe(
+          true,
+        );
+        covered.add(lesson);
+      }
+    }
+    expect(covered.size).toBe(139);
+    for (const agent of registry.agents) {
+      const nodes = assertView(`01_AGENTS/maps/${agent.id}.canvas`, `01_AGENTS/${agent.id}.md`);
+      for (const tool of agent.allowedTools)
+        expect(nodes.has(`04_AUTOMATIONS_AND_APIS/tools/${tool}.md`)).toBe(true);
+    }
+  });
   it('links every tracked technology and discovery source to actual relevant lessons and preserves Canvas relation labels', () => {
     expect(graph.counts).toMatchObject({ technologies: 6, discoverySources: 8 });
     const linked = new Set(graph.relations.map((r) => `${r.from}\0${r.to}`));
@@ -212,15 +297,34 @@ describe('complete public knowledge graph', () => {
     }
     expect(new Set(canvas.edges.map((edge) => edge.id)).size).toBe(canvas.edges.length);
     const overview = JSON.parse(graph.files.get('00_ORCHESTRATION/System_Overview.canvas')!);
-    expect(overview.nodes.length).toBe(graph.counts.overviewFileNodes);
+    expect(overview.nodes.filter((node: Node) => node.type === 'file').length).toBe(
+      graph.counts.overviewFileNodes,
+    );
+    expect(overview.nodes.filter((node: Node) => node.type === 'group')).toHaveLength(5);
     expect(overview.nodes.length).toBeLessThan(25);
     const overviewIds = new Set(overview.nodes.map((node: Node) => node.id));
-    for (const node of overview.nodes) expect(graph.files.has(node.file)).toBe(true);
+    for (const node of overview.nodes.filter((node: Node) => node.type === 'file'))
+      expect(graph.files.has(node.file)).toBe(true);
     for (const edge of overview.edges) {
       expect(overviewIds.has(edge.fromNode)).toBe(true);
       expect(overviewIds.has(edge.toNode)).toBe(true);
       expect(canvas.edges.some((full) => full.id === edge.id)).toBe(true);
     }
+    const overviewFiles = overview.nodes.filter((node: Node) => node.type === 'file');
+    expect(overview.edges.length).toBe(overviewFiles.length - 1);
+    const overviewReached = new Set<string>([
+      overviewFiles.find((node: Node) => node.file === 'Index.md').id,
+    ]);
+    while (true) {
+      const before = overviewReached.size;
+      for (const edge of overview.edges)
+        if (overviewReached.has(edge.fromNode) || overviewReached.has(edge.toNode)) {
+          overviewReached.add(edge.fromNode);
+          overviewReached.add(edge.toNode);
+        }
+      if (overviewReached.size === before) break;
+    }
+    expect(overviewReached.size).toBe(overviewFiles.length);
     for (let i = 0; i < nodes.length; i++)
       for (let j = i + 1; j < nodes.length; j++) {
         const a = nodes[i],

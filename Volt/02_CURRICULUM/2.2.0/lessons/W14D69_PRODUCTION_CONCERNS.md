@@ -11,7 +11,7 @@ source_ids: ["OTEL","OPENAI_DATA"]
 prerequisite_lesson_ids: ["W14D68_DEPLOYMENT"]
 source_sha256: "3908d747d1b4eb4387837f3adbe867caacff8c9d36823f18c7d46e25edb7ec6a"
 estimated_minutes: 180
-related: ["[[01_AGENTS/Agent-Database-Architect]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Production-Reliability]]","[[01_AGENTS/Agent-Security-Auditor]]","[[01_AGENTS/Agent-UI-UX-Inspector]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/exercises/W14D69_PRODUCTION_CONCERNS]]","[[02_CURRICULUM/2.2.0/lessons/W14D68_DEPLOYMENT]]","[[02_CURRICULUM/2.2.0/lessons/W14D70_PROJECT_AGENT_SAAS]]","[[02_CURRICULUM/2.2.0/modules/PRODUCT]]","[[02_CURRICULUM/2.2.0/skills/DEPLOYMENT]]","[[02_CURRICULUM/2.2.0/skills/MONITORING]]","[[02_CURRICULUM/2.2.0/sources/OPENAI_DATA]]","[[02_CURRICULUM/2.2.0/sources/OTEL]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W14D69_PRODUCTION_CONCERNS]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W14D69_PRODUCTION_CONCERNS]]"]
+related: ["[[01_AGENTS/Agent-Database-Architect]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Production-Reliability]]","[[01_AGENTS/Agent-Security-Auditor]]","[[01_AGENTS/Agent-UI-UX-Inspector]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/exercises/W14D69_PRODUCTION_CONCERNS]]","[[02_CURRICULUM/2.2.0/lessons/W14D68_DEPLOYMENT]]","[[02_CURRICULUM/2.2.0/lessons/W14D70_PROJECT_AGENT_SAAS]]","[[02_CURRICULUM/2.2.0/modules/PRODUCT]]","[[02_CURRICULUM/2.2.0/skills/DEPLOYMENT]]","[[02_CURRICULUM/2.2.0/skills/MONITORING]]","[[02_CURRICULUM/2.2.0/sources/OPENAI_DATA]]","[[02_CURRICULUM/2.2.0/sources/OTEL]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W14D69_PRODUCTION_CONCERNS]]","[[02_CURRICULUM/system-quizzes/1.0.0/QUIZ_EVIDENCE_NEXT_STEP]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W14D69_PRODUCTION_CONCERNS]]"]
 ---
 
 # עלות, ביצועים וניטור
@@ -123,4 +123,5 @@ Input → Contract check → Work / model proposal → Result check → Evidence
 - [[02_CURRICULUM/2.2.0/sources/OPENAI_DATA|OpenAI data controls]] — מקור לשיעור
 - [[02_CURRICULUM/2.2.0/sources/OTEL|OpenTelemetry signals]] — מקור לשיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W14D69_PRODUCTION_CONCERNS|בדיקת הבנה: מה צריך מפתח המטמון להביא בחשבון כדי שלא להחזיר מידע ישן או של לקוח אחר?]] — בדיקת הבנה
+- [[02_CURRICULUM/system-quizzes/1.0.0/QUIZ_EVIDENCE_NEXT_STEP|לפני שמגישים · שאלה קצרה לתרגול]] — תרגול לפני הגשה
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W14D69_PRODUCTION_CONCERNS|הוכחה מעשית · עלות, ביצועים וניטור]] — הוכחה מעשית

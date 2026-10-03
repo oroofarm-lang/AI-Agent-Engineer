@@ -11,7 +11,7 @@ source_ids: ["OPENAI_AUDIO"]
 prerequisite_lesson_ids: ["VOI_01"]
 source_sha256: "d607ef575c962175a0dff6b5ed7701629570a1eb059722b21952e17bed2d4fe0"
 estimated_minutes: 150
-related: ["[[01_AGENTS/Agent-Curriculum-Auditor]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Paid-Media-Measurement]]","[[01_AGENTS/Agent-Progress-Tracker]]","[[01_AGENTS/Agent-Quiz-Designer]]","[[01_AGENTS/Agent-Voice-Audio]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/exercises/VOI_02]]","[[02_CURRICULUM/2.2.0/lessons/VOI_01]]","[[02_CURRICULUM/2.2.0/lessons/VOI_03]]","[[02_CURRICULUM/2.2.0/modules/VOICE]]","[[02_CURRICULUM/2.2.0/skills/EVALS]]","[[02_CURRICULUM/2.2.0/skills/VOICE_SYSTEMS]]","[[02_CURRICULUM/2.2.0/sources/OPENAI_AUDIO]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_VOI_02]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_VOI_02]]","[[04_AUTOMATIONS_AND_APIS/knowledge-sources/OPENAI_CHANGELOG]]","[[04_AUTOMATIONS_AND_APIS/knowledge-sources/OPENAI_MODELS]]","[[04_AUTOMATIONS_AND_APIS/knowledge-sources/OPENAI_NEWS]]","[[04_AUTOMATIONS_AND_APIS/technologies/OPENAI_API]]"]
+related: ["[[01_AGENTS/Agent-Curriculum-Auditor]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Paid-Media-Measurement]]","[[01_AGENTS/Agent-Progress-Tracker]]","[[01_AGENTS/Agent-Quiz-Designer]]","[[01_AGENTS/Agent-Voice-Audio]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/exercises/VOI_02]]","[[02_CURRICULUM/2.2.0/lessons/VOI_01]]","[[02_CURRICULUM/2.2.0/lessons/VOI_03]]","[[02_CURRICULUM/2.2.0/modules/VOICE]]","[[02_CURRICULUM/2.2.0/skills/EVALS]]","[[02_CURRICULUM/2.2.0/skills/VOICE_SYSTEMS]]","[[02_CURRICULUM/2.2.0/sources/OPENAI_AUDIO]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_VOI_02]]","[[02_CURRICULUM/system-quizzes/1.0.0/QUIZ_EVIDENCE_NEXT_STEP]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_VOI_02]]","[[04_AUTOMATIONS_AND_APIS/knowledge-sources/OPENAI_CHANGELOG]]","[[04_AUTOMATIONS_AND_APIS/knowledge-sources/OPENAI_MODELS]]","[[04_AUTOMATIONS_AND_APIS/knowledge-sources/OPENAI_NEWS]]","[[04_AUTOMATIONS_AND_APIS/technologies/OPENAI_API]]"]
 ---
 
 # טיפול אחרי שיחה
@@ -122,6 +122,7 @@ Input → Contract check → Work / model proposal → Result check → Evidence
 - [[02_CURRICULUM/2.2.0/skills/VOICE_SYSTEMS|קול ומסמכים]] — מיומנות בשיעור
 - [[02_CURRICULUM/2.2.0/sources/OPENAI_AUDIO|OpenAI audio guide]] — מקור לשיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_VOI_02|בדיקת הבנה: סיכום השיחה כולל התחייבות להנחה שלא נאמרה בשיחה. מה נכון לעשות לפני הפיכת הסיכום למשימות?]] — בדיקת הבנה
+- [[02_CURRICULUM/system-quizzes/1.0.0/QUIZ_EVIDENCE_NEXT_STEP|לפני שמגישים · שאלה קצרה לתרגול]] — תרגול לפני הגשה
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_VOI_02|הוכחה מעשית · טיפול אחרי שיחה]] — הוכחה מעשית
 - [[04_AUTOMATIONS_AND_APIS/knowledge-sources/OPENAI_CHANGELOG|OpenAI API changelog]] — שיעור קשור למעקב
 - [[04_AUTOMATIONS_AND_APIS/knowledge-sources/OPENAI_MODELS|OpenAI model catalog]] — שיעור קשור למעקב

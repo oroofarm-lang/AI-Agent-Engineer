@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_WEB_05"
 assessment_version: "2.1.0"
 lesson_id: "WEB_05"
-related: ["[[01_AGENTS/Agent-Code-Reviewer]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Production-Reliability]]","[[01_AGENTS/Agent-UI-UX-Inspector]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/exercises/WEB_05]]","[[02_CURRICULUM/2.2.0/lessons/WEB_05]]","[[02_CURRICULUM/2.2.0/skills/DEPLOYMENT]]","[[02_CURRICULUM/2.2.0/skills/UI_DESIGN]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_WEB_05]]","[[03_PRACTICAL_PROOFS/2.2.0/evaluation-keys/ASSESS_WEB_05]]","[[03_PRACTICAL_PROOFS/2.2.0/Index]]","[[03_PRACTICAL_PROOFS/2.2.0/templates/ASSESS_WEB_05]]","[[04_AUTOMATIONS_AND_APIS/endpoints/AGENT_EVALUATE]]","[[04_AUTOMATIONS_AND_APIS/endpoints/ARTIFACT_DOWNLOAD]]"]
+related: ["[[01_AGENTS/Agent-Code-Reviewer]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Production-Reliability]]","[[01_AGENTS/Agent-UI-UX-Inspector]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/exercises/WEB_05]]","[[02_CURRICULUM/2.2.0/lessons/WEB_05]]","[[02_CURRICULUM/2.2.0/skills/DEPLOYMENT]]","[[02_CURRICULUM/2.2.0/skills/UI_DESIGN]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_WEB_05]]","[[02_CURRICULUM/system-quizzes/1.0.0/QUIZ_EVIDENCE_NEXT_STEP]]","[[03_PRACTICAL_PROOFS/2.2.0/evaluation-keys/ASSESS_WEB_05]]","[[03_PRACTICAL_PROOFS/2.2.0/Index]]","[[03_PRACTICAL_PROOFS/2.2.0/templates/ASSESS_WEB_05]]","[[04_AUTOMATIONS_AND_APIS/endpoints/AGENT_EVALUATE]]","[[04_AUTOMATIONS_AND_APIS/endpoints/ARTIFACT_DOWNLOAD]]"]
 ---
 
 # הוכחה מעשית · בדיקות לפני פריסה
@@ -46,6 +46,7 @@ related: ["[[01_AGENTS/Agent-Code-Reviewer]]","[[01_AGENTS/Agent-Hebrew-UX]]","[
 - [[02_CURRICULUM/2.2.0/skills/DEPLOYMENT|Deployment]] — מיומנות שנבדקת
 - [[02_CURRICULUM/2.2.0/skills/UI_DESIGN|ממשק ונגישות]] — מיומנות שנבדקת
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_WEB_05|בדיקת הבנה: דוח אוטומטי על האתר נראה תקין. איזו בדיקה עסקית עדיין צריך לבצע לפני פרסום?]] — תרגול לפני הגשה
+- [[02_CURRICULUM/system-quizzes/1.0.0/QUIZ_EVIDENCE_NEXT_STEP|לפני שמגישים · שאלה קצרה לתרגול]] — הבחנה בין הגשה לשליטה
 - [[03_PRACTICAL_PROOFS/2.2.0/evaluation-keys/ASSESS_WEB_05|תנאי בדיקה: הוכחה מעשית · בדיקות לפני פריסה]] — תנאי בדיקה
 - [[03_PRACTICAL_PROOFS/2.2.0/Index|תרגילים, ראיות ותיק עבודות]] — מחוון
 - [[03_PRACTICAL_PROOFS/2.2.0/templates/ASSESS_WEB_05|תבנית הגשה: הוכחה מעשית · בדיקות לפני פריסה]] — תבנית הגשה

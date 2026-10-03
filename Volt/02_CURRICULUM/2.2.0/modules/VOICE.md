@@ -27,6 +27,10 @@ related: ["[[01_AGENTS/Agent-Curriculum-Auditor]]","[[01_AGENTS/Agent-Hebrew-UX]
 5. VOI_05
 6. VOI_06
 
+## מפת הקשרים של הפרק
+
+[[02_CURRICULUM/2.2.0/maps/VOICE.canvas|פתיחת מפת הפרק]] — השיעורים, התרגולים, המחוונים והמקורות הקשורים לפרק זה. הקשרים הנוספים מופיעים גם ברשומות עצמן.
+
 ## קשרים במפת הידע
 
 - [[01_AGENTS/Agent-Curriculum-Auditor|מקורות ועדכוני תוכן]] — תחום הפרק

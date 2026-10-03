@@ -11,7 +11,7 @@ source_ids: ["SEARCH_SECURITY","ANTHROPIC_EVALS"]
 prerequisite_lesson_ids: ["W05D24_MEMORY_QUALITY"]
 source_sha256: "2020d2e620d49b921287d3155828b272ec49274425ffe4cb5974eae36c99e600"
 estimated_minutes: 240
-related: ["[[01_AGENTS/Agent-Agentic-Workflows]]","[[01_AGENTS/Agent-Curriculum-Auditor]]","[[01_AGENTS/Agent-Database-Architect]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Knowledge-RAG]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/exercises/W05D25_PROJECT_PERSONAL_MEMORY_AGENT]]","[[02_CURRICULUM/2.2.0/lessons/W05D24_MEMORY_QUALITY]]","[[02_CURRICULUM/2.2.0/lessons/W06D26_EMBEDDINGS]]","[[02_CURRICULUM/2.2.0/modules/KNOWLEDGE]]","[[02_CURRICULUM/2.2.0/skills/DATABASE]]","[[02_CURRICULUM/2.2.0/skills/MEMORY]]","[[02_CURRICULUM/2.2.0/skills/STATE]]","[[02_CURRICULUM/2.2.0/sources/ANTHROPIC_EVALS]]","[[02_CURRICULUM/2.2.0/sources/SEARCH_SECURITY]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W05D25_PROJECT_PERSONAL_MEMORY_AGENT]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W05D25_PROJECT_PERSONAL_MEMORY_AGENT]]"]
+related: ["[[01_AGENTS/Agent-Agentic-Workflows]]","[[01_AGENTS/Agent-Curriculum-Auditor]]","[[01_AGENTS/Agent-Database-Architect]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Knowledge-RAG]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/exercises/W05D25_PROJECT_PERSONAL_MEMORY_AGENT]]","[[02_CURRICULUM/2.2.0/lessons/W05D24_MEMORY_QUALITY]]","[[02_CURRICULUM/2.2.0/lessons/W06D26_EMBEDDINGS]]","[[02_CURRICULUM/2.2.0/modules/KNOWLEDGE]]","[[02_CURRICULUM/2.2.0/skills/DATABASE]]","[[02_CURRICULUM/2.2.0/skills/MEMORY]]","[[02_CURRICULUM/2.2.0/skills/STATE]]","[[02_CURRICULUM/2.2.0/sources/ANTHROPIC_EVALS]]","[[02_CURRICULUM/2.2.0/sources/SEARCH_SECURITY]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W05D25_PROJECT_PERSONAL_MEMORY_AGENT]]","[[02_CURRICULUM/system-quizzes/1.0.0/QUIZ_EVIDENCE_NEXT_STEP]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W05D25_PROJECT_PERSONAL_MEMORY_AGENT]]"]
 ---
 
 # פרויקט: סוכן זיכרון אישי
@@ -124,4 +124,5 @@ Input → Contract check → Work / model proposal → Result check → Evidence
 - [[02_CURRICULUM/2.2.0/sources/ANTHROPIC_EVALS|Demystifying evals for AI agents]] — מקור לשיעור
 - [[02_CURRICULUM/2.2.0/sources/SEARCH_SECURITY|Azure search security trimming]] — מקור לשיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W05D25_PROJECT_PERSONAL_MEMORY_AGENT|בדיקת הבנה: משתמש ב׳ מבקש לקרוא זיכרון השייך למשתמש א׳. מה על פעולת retrieve לבדוק?]] — בדיקת הבנה
+- [[02_CURRICULUM/system-quizzes/1.0.0/QUIZ_EVIDENCE_NEXT_STEP|לפני שמגישים · שאלה קצרה לתרגול]] — תרגול לפני הגשה
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W05D25_PROJECT_PERSONAL_MEMORY_AGENT|הוכחה מעשית · פרויקט: סוכן זיכרון אישי]] — הוכחה מעשית

@@ -47,6 +47,10 @@ related: ["[[01_AGENTS/Agent-Agentic-Workflows]]","[[01_AGENTS/Agent-Automation-
 23. W12D58_AUTHENTICATION_AUTHORIZATION
 24. FND_04
 
+## מפת הקשרים של הפרק
+
+[[02_CURRICULUM/2.2.0/maps/CORE.canvas|פתיחת מפת הפרק]] — השיעורים, התרגולים, המחוונים והמקורות הקשורים לפרק זה. הקשרים הנוספים מופיעים גם ברשומות עצמן.
+
 ## קשרים במפת הידע
 
 - [[01_AGENTS/Agent-Agentic-Workflows|סוכנים ותהליכי עבודה]] — תחום הפרק

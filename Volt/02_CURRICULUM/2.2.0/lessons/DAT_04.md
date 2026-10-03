@@ -11,7 +11,7 @@ source_ids: ["PEFT_LORA","ANTHROPIC_EVALS"]
 prerequisite_lesson_ids: ["DAT_03"]
 source_sha256: "a8b25a881679291f6e46274a46e7e0e531a4f6863b3917163628cc39bc5b85d9"
 estimated_minutes: 150
-related: ["[[01_AGENTS/Agent-Curriculum-Auditor]]","[[01_AGENTS/Agent-Curriculum-Pedagogy]]","[[01_AGENTS/Agent-Database-Architect]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Model-Data]]","[[01_AGENTS/Agent-Paid-Media-Measurement]]","[[01_AGENTS/Agent-Progress-Tracker]]","[[01_AGENTS/Agent-Quiz-Designer]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/exercises/DAT_04]]","[[02_CURRICULUM/2.2.0/lessons/DAT_03]]","[[02_CURRICULUM/2.2.0/modules/DATA]]","[[02_CURRICULUM/2.2.0/skills/AI_FUNDAMENTALS]]","[[02_CURRICULUM/2.2.0/skills/DATABASE]]","[[02_CURRICULUM/2.2.0/skills/EVALS]]","[[02_CURRICULUM/2.2.0/sources/ANTHROPIC_EVALS]]","[[02_CURRICULUM/2.2.0/sources/PEFT_LORA]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_DAT_04]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_DAT_04]]"]
+related: ["[[01_AGENTS/Agent-Curriculum-Auditor]]","[[01_AGENTS/Agent-Curriculum-Pedagogy]]","[[01_AGENTS/Agent-Database-Architect]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Model-Data]]","[[01_AGENTS/Agent-Paid-Media-Measurement]]","[[01_AGENTS/Agent-Progress-Tracker]]","[[01_AGENTS/Agent-Quiz-Designer]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/exercises/DAT_04]]","[[02_CURRICULUM/2.2.0/lessons/DAT_03]]","[[02_CURRICULUM/2.2.0/modules/DATA]]","[[02_CURRICULUM/2.2.0/skills/AI_FUNDAMENTALS]]","[[02_CURRICULUM/2.2.0/skills/DATABASE]]","[[02_CURRICULUM/2.2.0/skills/EVALS]]","[[02_CURRICULUM/2.2.0/sources/ANTHROPIC_EVALS]]","[[02_CURRICULUM/2.2.0/sources/PEFT_LORA]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_DAT_04]]","[[02_CURRICULUM/system-quizzes/1.0.0/QUIZ_EVIDENCE_NEXT_STEP]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_DAT_04]]"]
 ---
 
 # Prompting, ‏RAG ו־Fine-tuning
@@ -133,4 +133,5 @@ Input → Contract check → Work / model proposal → Result check → Evidence
 - [[02_CURRICULUM/2.2.0/sources/ANTHROPIC_EVALS|Demystifying evals for AI agents]] — מקור לשיעור
 - [[02_CURRICULUM/2.2.0/sources/PEFT_LORA|PEFT LoRA]] — מקור לשיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_DAT_04|בדיקת הבנה: עסק צריך לענות לפי נהלים שמתעדכנים מדי שבוע. איזו גישה השיעור מציע לבדוק תחילה?]] — בדיקת הבנה
+- [[02_CURRICULUM/system-quizzes/1.0.0/QUIZ_EVIDENCE_NEXT_STEP|לפני שמגישים · שאלה קצרה לתרגול]] — תרגול לפני הגשה
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_DAT_04|הוכחה מעשית · Prompting, ‏RAG ו־Fine-tuning]] — הוכחה מעשית

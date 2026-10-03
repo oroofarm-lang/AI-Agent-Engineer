@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_VOI_05"
 assessment_version: "2.1.0"
 lesson_id: "VOI_05"
-related: ["[[01_AGENTS/Agent-Curriculum-Auditor]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Paid-Media-Measurement]]","[[01_AGENTS/Agent-Progress-Tracker]]","[[01_AGENTS/Agent-Quiz-Designer]]","[[01_AGENTS/Agent-Voice-Audio]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/exercises/VOI_05]]","[[02_CURRICULUM/2.2.0/lessons/VOI_05]]","[[02_CURRICULUM/2.2.0/skills/EVALS]]","[[02_CURRICULUM/2.2.0/skills/VOICE_SYSTEMS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_VOI_05]]","[[03_PRACTICAL_PROOFS/2.2.0/evaluation-keys/ASSESS_VOI_05]]","[[03_PRACTICAL_PROOFS/2.2.0/Index]]","[[03_PRACTICAL_PROOFS/2.2.0/templates/ASSESS_VOI_05]]","[[04_AUTOMATIONS_AND_APIS/endpoints/AGENT_EVALUATE]]","[[04_AUTOMATIONS_AND_APIS/endpoints/ARTIFACT_DOWNLOAD]]"]
+related: ["[[01_AGENTS/Agent-Curriculum-Auditor]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Paid-Media-Measurement]]","[[01_AGENTS/Agent-Progress-Tracker]]","[[01_AGENTS/Agent-Quiz-Designer]]","[[01_AGENTS/Agent-Voice-Audio]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/exercises/VOI_05]]","[[02_CURRICULUM/2.2.0/lessons/VOI_05]]","[[02_CURRICULUM/2.2.0/skills/EVALS]]","[[02_CURRICULUM/2.2.0/skills/VOICE_SYSTEMS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_VOI_05]]","[[02_CURRICULUM/system-quizzes/1.0.0/QUIZ_EVIDENCE_NEXT_STEP]]","[[03_PRACTICAL_PROOFS/2.2.0/evaluation-keys/ASSESS_VOI_05]]","[[03_PRACTICAL_PROOFS/2.2.0/Index]]","[[03_PRACTICAL_PROOFS/2.2.0/templates/ASSESS_VOI_05]]","[[04_AUTOMATIONS_AND_APIS/endpoints/AGENT_EVALUATE]]","[[04_AUTOMATIONS_AND_APIS/endpoints/ARTIFACT_DOWNLOAD]]"]
 ---
 
 # הוכחה מעשית · העברה לאדם ותיאום פגישות
@@ -48,6 +48,7 @@ related: ["[[01_AGENTS/Agent-Curriculum-Auditor]]","[[01_AGENTS/Agent-Hebrew-UX]
 - [[02_CURRICULUM/2.2.0/skills/EVALS|Evals]] — מיומנות שנבדקת
 - [[02_CURRICULUM/2.2.0/skills/VOICE_SYSTEMS|קול ומסמכים]] — מיומנות שנבדקת
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_VOI_05|בדיקת הבנה: העוזר הציע שעה לפגישה, אבל היומן עדיין לא אישר שהפגישה נשמרה. איך נכון להציג את המצב?]] — תרגול לפני הגשה
+- [[02_CURRICULUM/system-quizzes/1.0.0/QUIZ_EVIDENCE_NEXT_STEP|לפני שמגישים · שאלה קצרה לתרגול]] — הבחנה בין הגשה לשליטה
 - [[03_PRACTICAL_PROOFS/2.2.0/evaluation-keys/ASSESS_VOI_05|תנאי בדיקה: הוכחה מעשית · העברה לאדם ותיאום פגישות]] — תנאי בדיקה
 - [[03_PRACTICAL_PROOFS/2.2.0/Index|תרגילים, ראיות ותיק עבודות]] — מחוון
 - [[03_PRACTICAL_PROOFS/2.2.0/templates/ASSESS_VOI_05|תבנית הגשה: הוכחה מעשית · העברה לאדם ותיאום פגישות]] — תבנית הגשה

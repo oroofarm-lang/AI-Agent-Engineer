@@ -11,7 +11,7 @@ source_ids: ["SEARCH_SECURITY","ANTHROPIC_EVALS"]
 prerequisite_lesson_ids: ["W06D27_CHUNKING_VECTOR_RETRIEVAL"]
 source_sha256: "64c424a07e6e8c81f232cbcd3fcdd432f82bbb37fe2ed2f083ddc9cf5e523354"
 estimated_minutes: 180
-related: ["[[01_AGENTS/Agent-Agentic-Workflows]]","[[01_AGENTS/Agent-Curriculum-Auditor]]","[[01_AGENTS/Agent-Database-Architect]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Knowledge-RAG]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/exercises/W06D28_HYBRID_RETRIEVAL_RERANKING]]","[[02_CURRICULUM/2.2.0/lessons/W06D27_CHUNKING_VECTOR_RETRIEVAL]]","[[02_CURRICULUM/2.2.0/lessons/W06D29_RAG_FAILURE_MODES]]","[[02_CURRICULUM/2.2.0/modules/KNOWLEDGE]]","[[02_CURRICULUM/2.2.0/skills/EMBEDDINGS]]","[[02_CURRICULUM/2.2.0/skills/RAG]]","[[02_CURRICULUM/2.2.0/skills/RETRIEVAL]]","[[02_CURRICULUM/2.2.0/sources/ANTHROPIC_EVALS]]","[[02_CURRICULUM/2.2.0/sources/SEARCH_SECURITY]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W06D28_HYBRID_RETRIEVAL_RERANKING]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W06D28_HYBRID_RETRIEVAL_RERANKING]]"]
+related: ["[[01_AGENTS/Agent-Agentic-Workflows]]","[[01_AGENTS/Agent-Curriculum-Auditor]]","[[01_AGENTS/Agent-Database-Architect]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Knowledge-RAG]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/exercises/W06D28_HYBRID_RETRIEVAL_RERANKING]]","[[02_CURRICULUM/2.2.0/lessons/W06D27_CHUNKING_VECTOR_RETRIEVAL]]","[[02_CURRICULUM/2.2.0/lessons/W06D29_RAG_FAILURE_MODES]]","[[02_CURRICULUM/2.2.0/modules/KNOWLEDGE]]","[[02_CURRICULUM/2.2.0/skills/EMBEDDINGS]]","[[02_CURRICULUM/2.2.0/skills/RAG]]","[[02_CURRICULUM/2.2.0/skills/RETRIEVAL]]","[[02_CURRICULUM/2.2.0/sources/ANTHROPIC_EVALS]]","[[02_CURRICULUM/2.2.0/sources/SEARCH_SECURITY]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W06D28_HYBRID_RETRIEVAL_RERANKING]]","[[02_CURRICULUM/system-quizzes/1.0.0/QUIZ_EVIDENCE_NEXT_STEP]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W06D28_HYBRID_RETRIEVAL_RERANKING]]"]
 ---
 
 # שליפה משולבת ודירוג מחדש
@@ -124,4 +124,5 @@ Input → Contract check → Work / model proposal → Result check → Evidence
 - [[02_CURRICULUM/2.2.0/sources/ANTHROPIC_EVALS|Demystifying evals for AI agents]] — מקור לשיעור
 - [[02_CURRICULUM/2.2.0/sources/SEARCH_SECURITY|Azure search security trimming]] — מקור לשיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W06D28_HYBRID_RETRIEVAL_RERANKING|בדיקת הבנה: קטע של לקוח אחר מתאים מאוד לשאלה. מתי צריך לסנן אותו?]] — בדיקת הבנה
+- [[02_CURRICULUM/system-quizzes/1.0.0/QUIZ_EVIDENCE_NEXT_STEP|לפני שמגישים · שאלה קצרה לתרגול]] — תרגול לפני הגשה
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W06D28_HYBRID_RETRIEVAL_RERANKING|הוכחה מעשית · שליפה משולבת ודירוג מחדש]] — הוכחה מעשית

@@ -11,7 +11,7 @@ source_ids: ["GOOGLE_ML","OLLAMA_SCHEMA"]
 prerequisite_lesson_ids: ["DAT_01"]
 source_sha256: "0289124e6ed72dbddde28b3157392dc33dc0d98d38d9606fbc7d11a02add68ec"
 estimated_minutes: 150
-related: ["[[01_AGENTS/Agent-Curriculum-Auditor]]","[[01_AGENTS/Agent-Curriculum-Pedagogy]]","[[01_AGENTS/Agent-Database-Architect]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Model-Data]]","[[01_AGENTS/Agent-Paid-Media-Measurement]]","[[01_AGENTS/Agent-Progress-Tracker]]","[[01_AGENTS/Agent-Quiz-Designer]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/exercises/DAT_02]]","[[02_CURRICULUM/2.2.0/lessons/DAT_01]]","[[02_CURRICULUM/2.2.0/lessons/DAT_03]]","[[02_CURRICULUM/2.2.0/modules/DATA]]","[[02_CURRICULUM/2.2.0/skills/AI_FUNDAMENTALS]]","[[02_CURRICULUM/2.2.0/skills/DATABASE]]","[[02_CURRICULUM/2.2.0/skills/EVALS]]","[[02_CURRICULUM/2.2.0/sources/GOOGLE_ML]]","[[02_CURRICULUM/2.2.0/sources/OLLAMA_SCHEMA]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_DAT_02]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_DAT_02]]","[[04_AUTOMATIONS_AND_APIS/knowledge-sources/OLLAMA]]","[[04_AUTOMATIONS_AND_APIS/technologies/OLLAMA]]"]
+related: ["[[01_AGENTS/Agent-Curriculum-Auditor]]","[[01_AGENTS/Agent-Curriculum-Pedagogy]]","[[01_AGENTS/Agent-Database-Architect]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Model-Data]]","[[01_AGENTS/Agent-Paid-Media-Measurement]]","[[01_AGENTS/Agent-Progress-Tracker]]","[[01_AGENTS/Agent-Quiz-Designer]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/exercises/DAT_02]]","[[02_CURRICULUM/2.2.0/lessons/DAT_01]]","[[02_CURRICULUM/2.2.0/lessons/DAT_03]]","[[02_CURRICULUM/2.2.0/modules/DATA]]","[[02_CURRICULUM/2.2.0/skills/AI_FUNDAMENTALS]]","[[02_CURRICULUM/2.2.0/skills/DATABASE]]","[[02_CURRICULUM/2.2.0/skills/EVALS]]","[[02_CURRICULUM/2.2.0/sources/GOOGLE_ML]]","[[02_CURRICULUM/2.2.0/sources/OLLAMA_SCHEMA]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_DAT_02]]","[[02_CURRICULUM/system-quizzes/1.0.0/QUIZ_EVIDENCE_NEXT_STEP]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_DAT_02]]","[[04_AUTOMATIONS_AND_APIS/knowledge-sources/OLLAMA]]","[[04_AUTOMATIONS_AND_APIS/technologies/OLLAMA]]"]
 ---
 
 # כללים, חיזוי קלאסי ו־LLM
@@ -127,6 +127,7 @@ Input → Contract check → Work / model proposal → Result check → Evidence
 - [[02_CURRICULUM/2.2.0/sources/GOOGLE_ML|Machine Learning Crash Course]] — מקור לשיעור
 - [[02_CURRICULUM/2.2.0/sources/OLLAMA_SCHEMA|Ollama structured outputs]] — מקור לשיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_DAT_02|בדיקת הבנה: במשימת חיזוי נוסף לקלט שדה שמגלה את התשובה ואינו זמין בזמן ההחלטה. מה הבעיה?]] — בדיקת הבנה
+- [[02_CURRICULUM/system-quizzes/1.0.0/QUIZ_EVIDENCE_NEXT_STEP|לפני שמגישים · שאלה קצרה לתרגול]] — תרגול לפני הגשה
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_DAT_02|הוכחה מעשית · כללים, חיזוי קלאסי ו־LLM]] — הוכחה מעשית
 - [[04_AUTOMATIONS_AND_APIS/knowledge-sources/OLLAMA|Ollama]] — שיעור קשור למעקב
 - [[04_AUTOMATIONS_AND_APIS/technologies/OLLAMA|Ollama]] — טכנולוגיה בשיעור

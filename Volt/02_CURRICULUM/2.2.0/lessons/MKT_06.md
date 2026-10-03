@@ -11,7 +11,7 @@ source_ids: ["OPENAI_IMAGE"]
 prerequisite_lesson_ids: ["MKT_05"]
 source_sha256: "5e1c7b2984f0bbb4bcdcfc70cc78ce195a71920d2f956eb1f765169c5402ad8f"
 estimated_minutes: 150
-related: ["[[01_AGENTS/Agent-Curriculum-Auditor]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Knowledge-RAG]]","[[01_AGENTS/Agent-Marketing-Growth]]","[[01_AGENTS/Agent-Model-Data]]","[[01_AGENTS/Agent-Paid-Media-Measurement]]","[[01_AGENTS/Agent-Visual-Media]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/exercises/MKT_06]]","[[02_CURRICULUM/2.2.0/lessons/MKT_05]]","[[02_CURRICULUM/2.2.0/lessons/MKT_07]]","[[02_CURRICULUM/2.2.0/modules/MARKETING]]","[[02_CURRICULUM/2.2.0/skills/CONTENT_PIPELINES]]","[[02_CURRICULUM/2.2.0/skills/GROUNDING]]","[[02_CURRICULUM/2.2.0/sources/OPENAI_IMAGE]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_MKT_06]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_06]]","[[04_AUTOMATIONS_AND_APIS/knowledge-sources/OPENAI_CHANGELOG]]","[[04_AUTOMATIONS_AND_APIS/knowledge-sources/OPENAI_MODELS]]","[[04_AUTOMATIONS_AND_APIS/knowledge-sources/OPENAI_NEWS]]","[[04_AUTOMATIONS_AND_APIS/technologies/OPENAI_API]]"]
+related: ["[[01_AGENTS/Agent-Curriculum-Auditor]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Knowledge-RAG]]","[[01_AGENTS/Agent-Marketing-Growth]]","[[01_AGENTS/Agent-Model-Data]]","[[01_AGENTS/Agent-Paid-Media-Measurement]]","[[01_AGENTS/Agent-Visual-Media]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/exercises/MKT_06]]","[[02_CURRICULUM/2.2.0/lessons/MKT_05]]","[[02_CURRICULUM/2.2.0/lessons/MKT_07]]","[[02_CURRICULUM/2.2.0/modules/MARKETING]]","[[02_CURRICULUM/2.2.0/skills/CONTENT_PIPELINES]]","[[02_CURRICULUM/2.2.0/skills/GROUNDING]]","[[02_CURRICULUM/2.2.0/sources/OPENAI_IMAGE]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_MKT_06]]","[[02_CURRICULUM/system-quizzes/1.0.0/QUIZ_EVIDENCE_NEXT_STEP]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_06]]","[[04_AUTOMATIONS_AND_APIS/knowledge-sources/OPENAI_CHANGELOG]]","[[04_AUTOMATIONS_AND_APIS/knowledge-sources/OPENAI_MODELS]]","[[04_AUTOMATIONS_AND_APIS/knowledge-sources/OPENAI_NEWS]]","[[04_AUTOMATIONS_AND_APIS/technologies/OPENAI_API]]"]
 ---
 
 # יצירת תמונות ועריכה לפי בריף
@@ -123,6 +123,7 @@ Input → Contract check → Work / model proposal → Result check → Evidence
 - [[02_CURRICULUM/2.2.0/skills/GROUNDING|Grounding]] — מיומנות בשיעור
 - [[02_CURRICULUM/2.2.0/sources/OPENAI_IMAGE|OpenAI image generation]] — מקור לשיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_MKT_06|בדיקת הבנה: תמונת קמפיין נראית מרשימה, אבל שם המוצר בתוכה שגוי. איך נכון להתייחס לגרסה?]] — בדיקת הבנה
+- [[02_CURRICULUM/system-quizzes/1.0.0/QUIZ_EVIDENCE_NEXT_STEP|לפני שמגישים · שאלה קצרה לתרגול]] — תרגול לפני הגשה
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_06|הוכחה מעשית · יצירת תמונות ועריכה לפי בריף]] — הוכחה מעשית
 - [[04_AUTOMATIONS_AND_APIS/knowledge-sources/OPENAI_CHANGELOG|OpenAI API changelog]] — שיעור קשור למעקב
 - [[04_AUTOMATIONS_AND_APIS/knowledge-sources/OPENAI_MODELS|OpenAI model catalog]] — שיעור קשור למעקב

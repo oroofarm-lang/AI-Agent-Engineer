@@ -1,4 +1,5 @@
 import { createHash } from 'node:crypto';
+import { focusedCanvas } from './vault-canvas.mjs';
 
 const stableId = /^[A-Za-z][A-Za-z0-9_.-]*$/;
 const digest = (value) => createHash('sha256').update(value).digest('hex');
@@ -8,6 +9,13 @@ const wikilink = (file, title) => `[[${file.replace(/\.md$/, '')}|${safeTitle(ti
 
 /** Public source descriptors point to real files; they are not uploaded learner artifacts. */
 export const publicAssetCatalog = [
+  {
+    id: 'REINFORCEMENT_COMPONENT',
+    title: 'שאלת תרגול ושמירת תשובה',
+    sourcePath: 'src/components/assessment/reinforcement-quiz.tsx',
+    kind: 'ui-code',
+    moduleIds: ['PRODUCT', 'QUALITY'],
+  },
   {
     id: 'BUSINESS_DATA',
     title: 'נתוני עסק לתרגול',
@@ -130,6 +138,16 @@ export const publicAssetCatalog = [
 ];
 
 export const publicApiCatalog = [
+  {
+    id: 'QUIZZES',
+    path: '/api/quizzes',
+    methods: ['GET', 'POST'],
+    title: 'שמירת תשובות לתרגול',
+    scope: 'own',
+    sourcePath: 'src/app/api/quizzes/route.ts',
+    description:
+      'טעינת התשובה האחרונה ושמירת תשובה לשאלה קיימת בממשק, בחשבון המאומת ובהקשר השיעור בלבד. השאלה נשמרת עם גרסתה, בחירת הלומד והמשוב. שליחה חוזרת עם אותו מזהה ותוכן אינה יוצרת ניסיון נוסף. תשובה נכונה בתרגול אינה מעניקה XP או שליטה.',
+  },
   {
     id: 'KNOWLEDGE',
     path: '/api/knowledge',
@@ -333,6 +351,7 @@ export function buildVaultFiles({
   lessonBodies,
   registry,
   quizBank,
+  systemQuestion,
   knowledgeRegistry,
   publicAssets = publicAssetCatalog,
   apis = publicApiCatalog,
@@ -952,6 +971,119 @@ export function buildVaultFiles({
         connect(paths.agent.get(agent.id), file, 'הסבר לשאלה');
     }
   }
+  let systemQuizzes = 0;
+  if (systemQuestion) {
+    validateId(systemQuestion.id, 'system question');
+    if (
+      !/^\d+\.\d+\.\d+$/.test(systemQuestion.version) ||
+      typeof systemQuestion.question !== 'string' ||
+      !Array.isArray(systemQuestion.options) ||
+      !systemQuestion.options.some((option) => option.id === systemQuestion.correctOptionId) ||
+      typeof systemQuestion.feedback?.correct !== 'string' ||
+      typeof systemQuestion.feedback?.incorrect !== 'string'
+    )
+      throw new Error('Invalid public system question');
+    const file = add(
+      `02_CURRICULUM/system-quizzes/${systemQuestion.version}/${systemQuestion.id}.md`,
+      'quiz',
+      systemQuestion.id,
+      systemQuestion.title,
+      `זוהי השאלה על תהליך ההגשה שכבר קיימת בממשק. היא נפרדת מטיוטת שאלות הקורס. תשובה לתרגול אינה אישור שליטה.\n\n${systemQuestion.question}\n\n${systemQuestion.options.map((option) => `- ${option.id}: ${option.text}`).join('\n')}\n\n## המשוב המוגדר בשאלה\n\nתשובה מתאימה: ${systemQuestion.correctOptionId}.\n\n${systemQuestion.feedback.correct}\n\nלתשובה אחרת: ${systemQuestion.feedback.incorrect}\n\nבחירת הלומד נשמרת בחשבונו בלבד, והכספת אינה כוללת תשובות של משתמשים.`,
+      {
+        question_id: systemQuestion.id,
+        question_version: systemQuestion.version,
+        definition_sha256: digest(JSON.stringify(systemQuestion)),
+        purpose: 'app-workflow-practice',
+      },
+    );
+    connect(file, sectionIndexes.curriculum, 'שאלה קיימת בממשק');
+    connect(file, prime, 'תרגול בהקשר הלמידה');
+    if (paths.api.has('QUIZZES')) connect(file, paths.api.get('QUIZZES'), 'שמירת תשובה');
+    if (paths.asset.has('REINFORCEMENT_COMPONENT'))
+      connect(file, paths.asset.get('REINFORCEMENT_COMPONENT'), 'רכיב התרגול');
+    for (const lesson of lessons) {
+      connect(file, paths.lesson.get(lesson.id), 'תרגול לפני הגשה');
+      if (paths.proof.has(lesson.id))
+        connect(file, paths.proof.get(lesson.id), 'הבחנה בין הגשה לשליטה');
+    }
+    systemQuizzes = 1;
+  }
+  // Keep each chapter and specialist navigable without zooming through the full graph.
+  // These are projections of existing relationships, never fabricated connections.
+  const focusedMaps = [];
+  const neighbors = (files, kinds) => {
+    const selected = new Set();
+    for (const file of files)
+      for (const link of vertices.get(file).links)
+        if (kinds.includes(vertices.get(link.to).kind)) selected.add(link.to);
+    return [...selected].sort((a, b) => a.localeCompare(b, 'en'));
+  };
+  const chapterLinks = [],
+    agentLinks = [];
+  for (const chapter of modules) {
+    const root = paths.module.get(chapter.id);
+    const lessonFiles = chapter.lessonIds.map((id) => paths.lesson.get(id));
+    const file = `02_CURRICULUM/${version}/maps/${chapter.id}.canvas`;
+    focusedMaps.push({
+      file,
+      root,
+      groups: [
+        { label: 'שיעורים · לפי סדר הלמידה', files: lessonFiles, color: '5' },
+        {
+          label: 'תרגולים מתוך השיעורים',
+          files: chapter.lessonIds.map((id) => paths.exercise.get(id)),
+          color: '3',
+        },
+        {
+          label: 'מחוונים ודרישות להגשה',
+          files: chapter.lessonIds.map((id) => paths.proof.get(id)).filter(Boolean),
+          color: '4',
+        },
+        {
+          label: 'שאלות לחיזוק ההבנה · טיוטות מסומנות ברשומות',
+          files: neighbors(lessonFiles, ['quiz']),
+          color: '2',
+        },
+        {
+          label: 'קשרים נוספים לפרק ולשיעורים',
+          files: neighbors(
+            [root, ...lessonFiles],
+            ['skill', 'source', 'agent', 'module', 'asset', 'technology', 'knowledge-source'],
+          ),
+          color: '6',
+        },
+      ],
+    });
+    vertices.get(root).body +=
+      `\n\n## מפת הקשרים של הפרק\n\n${wikilink(file, 'פתיחת מפת הפרק')} — השיעורים, התרגולים, המחוונים והמקורות הקשורים לפרק זה. הקשרים הנוספים מופיעים גם ברשומות עצמן.`;
+    chapterLinks.push(`- ${wikilink(file, chapter.title)}`);
+  }
+  for (const agent of registry.agents) {
+    const root = paths.agent.get(agent.id);
+    const file = `01_AGENTS/maps/${agent.id}.canvas`;
+    focusedMaps.push({
+      file,
+      root,
+      groups: [
+        { label: 'פרקים הקשורים לתחום העזרה', files: neighbors([root], ['module']), color: '5' },
+        { label: 'מיומנויות ומקורות', files: neighbors([root], ['skill', 'source']), color: '2' },
+        { label: 'כלים וממשקי הפעלה', files: neighbors([root], ['tool', 'api']), color: '6' },
+        {
+          label: 'תיאום הצוות וכללי הפעולה',
+          files: neighbors([root], ['orchestration', 'automation', 'index']),
+          color: '4',
+        },
+      ],
+    });
+    vertices.get(root).body +=
+      `\n\n## מפת הקשרים של המומחה\n\n${wikilink(file, 'פתיחת מפת המומחה')} — הפרקים הקשורים, המקורות והכלים המותרים. הקשרים מתארים תחומי עזרה אפשריים; השתתפות בפועל בתשובה מתועדת באפליקציה. מכל פרק אפשר לפתוח את מפת השיעורים שלו.`;
+    agentLinks.push(`- ${wikilink(file, agent.titleHebrew || agent.title)}`);
+  }
+  vertices.get(index).body +=
+    `\n\n## מפות לפי פרק\n\nבחר פרק כדי לראות את המסלול והקשרים שלו במפה נפרדת.\n\n${chapterLinks.join('\n')}\n\n## מפות לפי מומחה\n\n${agentLinks.join('\n')}`;
+  vertices.get(sectionIndexes.curriculum).body +=
+    `\n\n## מפות הפרקים\n\n${chapterLinks.join('\n')}`;
+  vertices.get(sectionIndexes.agents).body += `\n\n## מפות המומחים\n\n${agentLinks.join('\n')}`;
   const files = new Map();
   for (const vertex of vertices.values()) {
     vertex.links.sort(
@@ -1059,7 +1191,18 @@ export function buildVaultFiles({
     [sectionIndexes.proofs, paths.proof.get(firstLesson.id), paths.template.get(firstLesson.id)],
     [sectionIndexes.integrations, knowledge, ...paths.technology.values()].slice(0, 3),
   ];
+  const overviewGroups = overviewColumns.map((members, column) => ({
+    id: `overview-group-${column}`,
+    type: 'group',
+    x: column * 530 - 20,
+    y: 260,
+    width: 480,
+    height: members.filter(Boolean).length * 220 + 50,
+    label: vertices.get(members[0]).title,
+    color: String(column + 1),
+  }));
   const overviewNodes = [
+    ...overviewGroups,
     {
       id: ids.get(index),
       type: 'file',
@@ -1085,11 +1228,42 @@ export function buildVaultFiles({
       });
     }),
   );
-  const overviewIds = new Set(overviewNodes.map((node) => node.id));
+  // Keep the entry map readable: a real relationship tree rather than every cross-link.
+  // All cross-links and their labels remain in the full graph and in the linked notes.
+  const overviewEdges = [];
+  overviewColumns.forEach((members, column) => {
+    const files = members.filter(Boolean);
+    files.forEach((file, row) => {
+      const parent = row === 0 ? index : column === 1 ? files[0] : files[row - 1];
+      const fromNode = ids.get(parent),
+        toNode = ids.get(file);
+      const edge = canvasEdges.find(
+        (candidate) =>
+          (candidate.fromNode === fromNode && candidate.toNode === toNode) ||
+          (candidate.fromNode === toNode && candidate.toNode === fromNode),
+      );
+      if (!edge) throw new Error('Missing real relationship in overview Canvas');
+      const branch = column === 1 && row > 1;
+      overviewEdges.push({
+        ...edge,
+        fromNode,
+        toNode,
+        fromSide: branch ? 'right' : 'bottom',
+        toSide: branch ? 'right' : 'top',
+        // The five section labels already explain root links without overlapping captions.
+        label: row === 0 ? undefined : edge.label,
+      });
+    });
+  });
   files.set(
     '00_ORCHESTRATION/System_Overview.canvas',
-    `${JSON.stringify({ nodes: overviewNodes, edges: canvasEdges.filter((edge) => overviewIds.has(edge.fromNode) && overviewIds.has(edge.toNode)) }, null, 2)}\n`,
+    `${JSON.stringify({ nodes: overviewNodes, edges: overviewEdges }, null, 2)}\n`,
   );
+  for (const view of focusedMaps)
+    files.set(
+      view.file,
+      `${JSON.stringify(focusedCanvas({ ...view, vertices, edges: canvasEdges, ids }), null, 2)}\n`,
+    );
   return {
     files,
     relations,
@@ -1105,12 +1279,15 @@ export function buildVaultFiles({
       apis: apis.length,
       assets: publicAssets.length,
       quizzes: paths.quiz.size,
+      systemQuizzes,
       technologies: paths.technology.size,
       discoverySources: paths.feed.size,
       documents: vertices.size,
       relations: relations.length,
       canvasFileNodes: ids.size,
-      overviewFileNodes: overviewNodes.length,
+      overviewFileNodes: overviewNodes.filter((node) => node.type === 'file').length,
+      chapterCanvases: modules.length,
+      agentCanvases: registry.agents.length,
     },
   };
 }

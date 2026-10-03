@@ -7,17 +7,20 @@ import { submitEvidence } from '@/app/assessments/actions';
 import { ArtifactPicker, type SelectedArtifact } from './assessment/artifact-picker';
 import { PortfolioCard } from './assessment/portfolio-card';
 import { reducedMotion } from '@/lib/domain/motion';
+import { ReinforcementQuiz } from './assessment/reinforcement-quiz';
 
 export function AssessmentForm({
   assessment,
   submissionId,
   curriculumVersion,
   built,
+  questionHash,
 }: {
   assessment: Assessment;
   submissionId: string;
   curriculumVersion: string;
   built: boolean;
+  questionHash: string;
 }) {
   const [evidence, setEvidence] = useState<Record<string, string>>({});
   const [files, setFiles] = useState<SelectedArtifact[]>([]);
@@ -25,8 +28,7 @@ export function AssessmentForm({
     [included, setIncluded] = useState(false),
     [title, setTitle] = useState(assessment.title),
     [summary, setSummary] = useState(''),
-    [feedback, setFeedback] = useState(''),
-    [answer, setAnswer] = useState('');
+    [feedback, setFeedback] = useState('');
   const heading = useRef<HTMLHeadingElement>(null),
     moved = useRef(false);
   const [result, action, pending] = useActionState(
@@ -68,35 +70,12 @@ export function AssessmentForm({
           השאלות זמינות לקריאה. כדי לענות ולהגיש, השלם קודם את תרגיל הבנייה וסמן אותו כהושלם בשיעור.
         </p>
       )}
-      <details className="reinforcement-quiz">
-        <summary>לפני שמגישים · שאלה קצרה לתרגול</summary>
-        <fieldset>
-          <legend>סיימת את התרגיל המעשי. מה הצעד הבא כדי להראות מה למדת?</legend>
-          {[
-            ['complete', 'לסמן שהגעתי לשליטה בנושא, בלי לצרף ראיות'],
-            ['evidence', 'לצרף תוצאה והסבר ולהגיש אותם לבדיקה'],
-            ['skip', 'לעבור הלאה בלי לבדוק מקרה בעייתי בתרגיל'],
-          ].map(([value, label]) => (
-            <label key={value} className="toggle-row">
-              <input
-                type="radio"
-                name={`reinforcement-${assessment.id}`}
-                value={value}
-                checked={answer === value}
-                onChange={() => setAnswer(value)}
-              />
-              {label}
-            </label>
-          ))}
-        </fieldset>
-        <p role="status">
-          {answer === 'evidence'
-            ? 'נכון. תוצאה והסבר מאפשרים לבודק להעריך את העבודה. ההגשה עצמה עדיין אינה אישור שליטה.'
-            : answer
-              ? 'נסה שוב. השלמת התרגיל היא התחלה; צריך גם להראות מה בדקת ומה הבנת.'
-              : ''}
-        </p>
-      </details>
+      <ReinforcementQuiz
+        key={`${assessment.lessonId}:${questionHash}`}
+        lessonId={assessment.lessonId}
+        curriculumVersion={curriculumVersion}
+        questionHash={questionHash}
+      />
       <div className="assessment-progress">
         <span>
           שאלה {index + 1} מתוך {assessment.criteria.length}

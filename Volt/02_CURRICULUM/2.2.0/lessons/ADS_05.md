@@ -11,7 +11,7 @@ source_ids: ["GOOGLE_ADS_TESTS","ANTHROPIC_EVALS"]
 prerequisite_lesson_ids: ["ADS_04"]
 source_sha256: "17b861bc96947a09da5271d7e49d519a78a293dc414bc1f32334891ea0f658c2"
 estimated_minutes: 150
-related: ["[[01_AGENTS/Agent-Automation-Engineer]]","[[01_AGENTS/Agent-Business-Discovery]]","[[01_AGENTS/Agent-CRM-Sales]]","[[01_AGENTS/Agent-Curriculum-Auditor]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Paid-Media-Measurement]]","[[01_AGENTS/Agent-Progress-Tracker]]","[[01_AGENTS/Agent-Quiz-Designer]]","[[01_AGENTS/Agent-Security-Auditor]]","[[01_AGENTS/Agent-Visual-Media]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/exercises/ADS_05]]","[[02_CURRICULUM/2.2.0/lessons/ADS_04]]","[[02_CURRICULUM/2.2.0/lessons/ADS_06]]","[[02_CURRICULUM/2.2.0/modules/ADS]]","[[02_CURRICULUM/2.2.0/skills/EVALS]]","[[02_CURRICULUM/2.2.0/skills/HUMAN_APPROVAL]]","[[02_CURRICULUM/2.2.0/skills/PAID_MEDIA]]","[[02_CURRICULUM/2.2.0/sources/ANTHROPIC_EVALS]]","[[02_CURRICULUM/2.2.0/sources/GOOGLE_ADS_TESTS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_ADS_05]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_ADS_05]]"]
+related: ["[[01_AGENTS/Agent-Automation-Engineer]]","[[01_AGENTS/Agent-Business-Discovery]]","[[01_AGENTS/Agent-CRM-Sales]]","[[01_AGENTS/Agent-Curriculum-Auditor]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Paid-Media-Measurement]]","[[01_AGENTS/Agent-Progress-Tracker]]","[[01_AGENTS/Agent-Quiz-Designer]]","[[01_AGENTS/Agent-Security-Auditor]]","[[01_AGENTS/Agent-Visual-Media]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/exercises/ADS_05]]","[[02_CURRICULUM/2.2.0/lessons/ADS_04]]","[[02_CURRICULUM/2.2.0/lessons/ADS_06]]","[[02_CURRICULUM/2.2.0/modules/ADS]]","[[02_CURRICULUM/2.2.0/skills/EVALS]]","[[02_CURRICULUM/2.2.0/skills/HUMAN_APPROVAL]]","[[02_CURRICULUM/2.2.0/skills/PAID_MEDIA]]","[[02_CURRICULUM/2.2.0/sources/ANTHROPIC_EVALS]]","[[02_CURRICULUM/2.2.0/sources/GOOGLE_ADS_TESTS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_ADS_05]]","[[02_CURRICULUM/system-quizzes/1.0.0/QUIZ_EVIDENCE_NEXT_STEP]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_ADS_05]]"]
 ---
 
 # המלצות תקציב וטיוטות שינוי
@@ -129,4 +129,5 @@ Input → Contract check → Work / model proposal → Result check → Evidence
 - [[02_CURRICULUM/2.2.0/sources/ANTHROPIC_EVALS|Demystifying evals for AI agents]] — מקור לשיעור
 - [[02_CURRICULUM/2.2.0/sources/GOOGLE_ADS_TESTS|Google Ads API testing]] — מקור לשיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_ADS_05|בדיקת הבנה: העוזר ממליץ להעלות תקציב, אך אין אישור לשינוי. מהו המצב הנכון של ההמלצה?]] — בדיקת הבנה
+- [[02_CURRICULUM/system-quizzes/1.0.0/QUIZ_EVIDENCE_NEXT_STEP|לפני שמגישים · שאלה קצרה לתרגול]] — תרגול לפני הגשה
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_ADS_05|הוכחה מעשית · המלצות תקציב וטיוטות שינוי]] — הוכחה מעשית

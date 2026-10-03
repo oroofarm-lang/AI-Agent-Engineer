@@ -11,7 +11,7 @@ source_ids: ["GOOGLE_AI_CONTENT","N8N_APPROVALS"]
 prerequisite_lesson_ids: ["MKT_08"]
 source_sha256: "c1d01ae2668ff4b3f5c0f2ea3ebe2aa2fd10b0f91a5e476a19947fab778e8935"
 estimated_minutes: 150
-related: ["[[01_AGENTS/Agent-Curriculum-Auditor]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Knowledge-RAG]]","[[01_AGENTS/Agent-Marketing-Growth]]","[[01_AGENTS/Agent-Model-Data]]","[[01_AGENTS/Agent-Paid-Media-Measurement]]","[[01_AGENTS/Agent-Visual-Media]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/exercises/MKT_09]]","[[02_CURRICULUM/2.2.0/lessons/MKT_08]]","[[02_CURRICULUM/2.2.0/lessons/MKT_10]]","[[02_CURRICULUM/2.2.0/modules/MARKETING]]","[[02_CURRICULUM/2.2.0/skills/CONTENT_PIPELINES]]","[[02_CURRICULUM/2.2.0/skills/GROUNDING]]","[[02_CURRICULUM/2.2.0/sources/GOOGLE_AI_CONTENT]]","[[02_CURRICULUM/2.2.0/sources/N8N_APPROVALS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_MKT_09]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_09]]","[[04_AUTOMATIONS_AND_APIS/knowledge-sources/N8N]]","[[04_AUTOMATIONS_AND_APIS/technologies/N8N]]"]
+related: ["[[01_AGENTS/Agent-Curriculum-Auditor]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Knowledge-RAG]]","[[01_AGENTS/Agent-Marketing-Growth]]","[[01_AGENTS/Agent-Model-Data]]","[[01_AGENTS/Agent-Paid-Media-Measurement]]","[[01_AGENTS/Agent-Visual-Media]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/exercises/MKT_09]]","[[02_CURRICULUM/2.2.0/lessons/MKT_08]]","[[02_CURRICULUM/2.2.0/lessons/MKT_10]]","[[02_CURRICULUM/2.2.0/modules/MARKETING]]","[[02_CURRICULUM/2.2.0/skills/CONTENT_PIPELINES]]","[[02_CURRICULUM/2.2.0/skills/GROUNDING]]","[[02_CURRICULUM/2.2.0/sources/GOOGLE_AI_CONTENT]]","[[02_CURRICULUM/2.2.0/sources/N8N_APPROVALS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_MKT_09]]","[[02_CURRICULUM/system-quizzes/1.0.0/QUIZ_EVIDENCE_NEXT_STEP]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_09]]","[[04_AUTOMATIONS_AND_APIS/knowledge-sources/N8N]]","[[04_AUTOMATIONS_AND_APIS/technologies/N8N]]"]
 ---
 
 # SEO ואישור פרסום
@@ -125,6 +125,7 @@ Input → Contract check → Work / model proposal → Result check → Evidence
 - [[02_CURRICULUM/2.2.0/sources/GOOGLE_AI_CONTENT|Google guidance on AI content]] — מקור לשיעור
 - [[02_CURRICULUM/2.2.0/sources/N8N_APPROVALS|n8n human-in-the-loop]] — מקור לשיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_MKT_09|בדיקת הבנה: מאמר כולל כותרת ותיאור לחיפוש, אך אינו מוסיף מידע מועיל לקורא. האם אפשר לאשר אותו רק בזכות הגדרות ה־SEO?]] — בדיקת הבנה
+- [[02_CURRICULUM/system-quizzes/1.0.0/QUIZ_EVIDENCE_NEXT_STEP|לפני שמגישים · שאלה קצרה לתרגול]] — תרגול לפני הגשה
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_09|הוכחה מעשית · SEO ואישור פרסום]] — הוכחה מעשית
 - [[04_AUTOMATIONS_AND_APIS/knowledge-sources/N8N|n8n]] — שיעור קשור למעקב
 - [[04_AUTOMATIONS_AND_APIS/technologies/N8N|n8n]] — טכנולוגיה בשיעור

@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 assessment_id: "ASSESS_AUT_07"
 assessment_version: "2.1.0"
 lesson_id: "AUT_07"
-related: ["[[01_AGENTS/Agent-Agentic-Workflows]]","[[01_AGENTS/Agent-Automation-Engineer]]","[[01_AGENTS/Agent-Business-Discovery]]","[[01_AGENTS/Agent-Code-Reviewer]]","[[01_AGENTS/Agent-CRM-Sales]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Security-Auditor]]","[[01_AGENTS/Agent-Voice-Audio]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/exercises/AUT_07]]","[[02_CURRICULUM/2.2.0/lessons/AUT_07]]","[[02_CURRICULUM/2.2.0/skills/HUMAN_APPROVAL]]","[[02_CURRICULUM/2.2.0/skills/WORKFLOWS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_AUT_07]]","[[03_PRACTICAL_PROOFS/2.2.0/evaluation-keys/ASSESS_AUT_07]]","[[03_PRACTICAL_PROOFS/2.2.0/Index]]","[[03_PRACTICAL_PROOFS/2.2.0/templates/ASSESS_AUT_07]]","[[04_AUTOMATIONS_AND_APIS/endpoints/AGENT_EVALUATE]]","[[04_AUTOMATIONS_AND_APIS/endpoints/ARTIFACT_DOWNLOAD]]"]
+related: ["[[01_AGENTS/Agent-Agentic-Workflows]]","[[01_AGENTS/Agent-Automation-Engineer]]","[[01_AGENTS/Agent-Business-Discovery]]","[[01_AGENTS/Agent-Code-Reviewer]]","[[01_AGENTS/Agent-CRM-Sales]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Security-Auditor]]","[[01_AGENTS/Agent-Voice-Audio]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/exercises/AUT_07]]","[[02_CURRICULUM/2.2.0/lessons/AUT_07]]","[[02_CURRICULUM/2.2.0/skills/HUMAN_APPROVAL]]","[[02_CURRICULUM/2.2.0/skills/WORKFLOWS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_AUT_07]]","[[02_CURRICULUM/system-quizzes/1.0.0/QUIZ_EVIDENCE_NEXT_STEP]]","[[03_PRACTICAL_PROOFS/2.2.0/evaluation-keys/ASSESS_AUT_07]]","[[03_PRACTICAL_PROOFS/2.2.0/Index]]","[[03_PRACTICAL_PROOFS/2.2.0/templates/ASSESS_AUT_07]]","[[04_AUTOMATIONS_AND_APIS/endpoints/AGENT_EVALUATE]]","[[04_AUTOMATIONS_AND_APIS/endpoints/ARTIFACT_DOWNLOAD]]"]
 ---
 
 # הוכחה מעשית · הטמעה בסביבת Microsoft 365
@@ -50,6 +50,7 @@ related: ["[[01_AGENTS/Agent-Agentic-Workflows]]","[[01_AGENTS/Agent-Automation-
 - [[02_CURRICULUM/2.2.0/skills/HUMAN_APPROVAL|Human Approval]] — מיומנות שנבדקת
 - [[02_CURRICULUM/2.2.0/skills/WORKFLOWS|Workflows]] — מיומנות שנבדקת
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_AUT_07|בדיקת הבנה: Copilot Studio מציע Connector שהארגון לא אישר. האם עצם הופעתו במוצר מאפשרת להשתמש בו?]] — תרגול לפני הגשה
+- [[02_CURRICULUM/system-quizzes/1.0.0/QUIZ_EVIDENCE_NEXT_STEP|לפני שמגישים · שאלה קצרה לתרגול]] — הבחנה בין הגשה לשליטה
 - [[03_PRACTICAL_PROOFS/2.2.0/evaluation-keys/ASSESS_AUT_07|תנאי בדיקה: הוכחה מעשית · הטמעה בסביבת Microsoft 365]] — תנאי בדיקה
 - [[03_PRACTICAL_PROOFS/2.2.0/Index|תרגילים, ראיות ותיק עבודות]] — מחוון
 - [[03_PRACTICAL_PROOFS/2.2.0/templates/ASSESS_AUT_07|תבנית הגשה: הוכחה מעשית · הטמעה בסביבת Microsoft 365]] — תבנית הגשה

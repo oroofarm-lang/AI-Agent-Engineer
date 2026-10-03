@@ -11,7 +11,7 @@ source_ids: ["OWASP_GENAI","ANTHROPIC_EVALS"]
 prerequisite_lesson_ids: ["W16D77_ARCHITECTURE"]
 source_sha256: "1e9ab3b22d6fff8baff40221a5f20eca90904f6bafe2be7216fd2ba880586169"
 estimated_minutes: 180
-related: ["[[01_AGENTS/Agent-Agentic-Workflows]]","[[01_AGENTS/Agent-Business-Discovery]]","[[01_AGENTS/Agent-Curriculum-Auditor]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Paid-Media-Measurement]]","[[01_AGENTS/Agent-Production-Reliability]]","[[01_AGENTS/Agent-Progress-Tracker]]","[[01_AGENTS/Agent-Quiz-Designer]]","[[01_AGENTS/Agent-Security-Auditor]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/exercises/W16D78_BUILD]]","[[02_CURRICULUM/2.2.0/lessons/W16D77_ARCHITECTURE]]","[[02_CURRICULUM/2.2.0/lessons/W16D79_HARDEN]]","[[02_CURRICULUM/2.2.0/modules/CAPSTONE]]","[[02_CURRICULUM/2.2.0/skills/AGENT_LOOP]]","[[02_CURRICULUM/2.2.0/skills/AUTHORIZATION]]","[[02_CURRICULUM/2.2.0/skills/DEPLOYMENT]]","[[02_CURRICULUM/2.2.0/skills/EVALS]]","[[02_CURRICULUM/2.2.0/sources/ANTHROPIC_EVALS]]","[[02_CURRICULUM/2.2.0/sources/OWASP_GENAI]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W16D78_BUILD]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W16D78_BUILD]]"]
+related: ["[[01_AGENTS/Agent-Agentic-Workflows]]","[[01_AGENTS/Agent-Business-Discovery]]","[[01_AGENTS/Agent-Curriculum-Auditor]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Paid-Media-Measurement]]","[[01_AGENTS/Agent-Production-Reliability]]","[[01_AGENTS/Agent-Progress-Tracker]]","[[01_AGENTS/Agent-Quiz-Designer]]","[[01_AGENTS/Agent-Security-Auditor]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/exercises/W16D78_BUILD]]","[[02_CURRICULUM/2.2.0/lessons/W16D77_ARCHITECTURE]]","[[02_CURRICULUM/2.2.0/lessons/W16D79_HARDEN]]","[[02_CURRICULUM/2.2.0/modules/CAPSTONE]]","[[02_CURRICULUM/2.2.0/skills/AGENT_LOOP]]","[[02_CURRICULUM/2.2.0/skills/AUTHORIZATION]]","[[02_CURRICULUM/2.2.0/skills/DEPLOYMENT]]","[[02_CURRICULUM/2.2.0/skills/EVALS]]","[[02_CURRICULUM/2.2.0/sources/ANTHROPIC_EVALS]]","[[02_CURRICULUM/2.2.0/sources/OWASP_GENAI]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W16D78_BUILD]]","[[02_CURRICULUM/system-quizzes/1.0.0/QUIZ_EVIDENCE_NEXT_STEP]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W16D78_BUILD]]"]
 ---
 
 # פרויקט גמר: בנייה
@@ -129,4 +129,5 @@ Input → Contract check → Work / model proposal → Result check → Evidence
 - [[02_CURRICULUM/2.2.0/sources/ANTHROPIC_EVALS|Demystifying evals for AI agents]] — מקור לשיעור
 - [[02_CURRICULUM/2.2.0/sources/OWASP_GENAI|OWASP LLM risks]] — מקור לשיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W16D78_BUILD|בדיקת הבנה: מהי המטרה של Vertical Slice בפרויקט הגמר?]] — בדיקת הבנה
+- [[02_CURRICULUM/system-quizzes/1.0.0/QUIZ_EVIDENCE_NEXT_STEP|לפני שמגישים · שאלה קצרה לתרגול]] — תרגול לפני הגשה
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W16D78_BUILD|הוכחה מעשית · פרויקט גמר: בנייה]] — הוכחה מעשית

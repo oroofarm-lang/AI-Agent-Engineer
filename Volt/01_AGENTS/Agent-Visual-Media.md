@@ -44,6 +44,10 @@ Help turn a business brief into a bounded visual production plan: audience, mess
 
 הגדרה זו אינה טענה שהמודל רץ או שפעולה בוצעה. השרת מתעד ריצות אמיתיות, תוצאות וכשלים.
 
+## מפת הקשרים של המומחה
+
+[[01_AGENTS/maps/Agent-Visual-Media.canvas|פתיחת מפת המומחה]] — הפרקים הקשורים, המקורות והכלים המותרים. הקשרים מתארים תחומי עזרה אפשריים; השתתפות בפועל בתשובה מתועדת באפליקציה. מכל פרק אפשר לפתוח את מפת השיעורים שלו.
+
 ## קשרים במפת הידע
 
 - [[00_ORCHESTRATION/Orchestrator-Prime|Orchestrator-Prime — תזמור הלמידה]] — מומחה מתוזמר

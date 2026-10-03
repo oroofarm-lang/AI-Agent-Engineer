@@ -11,7 +11,7 @@ source_ids: ["HTTP_OVERVIEW","FASTAPI"]
 prerequisite_lesson_ids: ["W13D63_QUEUES_WORKERS"]
 source_sha256: "2f148e3e3e39980992f536567c57ccc123a561c88d9feb19f9f3c68d2c3c60dc"
 estimated_minutes: 180
-related: ["[[01_AGENTS/Agent-Database-Architect]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Production-Reliability]]","[[01_AGENTS/Agent-Security-Auditor]]","[[01_AGENTS/Agent-UI-UX-Inspector]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/exercises/W13D64_STREAMING]]","[[02_CURRICULUM/2.2.0/lessons/W13D63_QUEUES_WORKERS]]","[[02_CURRICULUM/2.2.0/lessons/W13D65_PROJECT_CONVERT_AGENT_INTO_API_SERVICE]]","[[02_CURRICULUM/2.2.0/modules/PRODUCT]]","[[02_CURRICULUM/2.2.0/skills/BACKEND]]","[[02_CURRICULUM/2.2.0/skills/DATABASE]]","[[02_CURRICULUM/2.2.0/skills/QUEUES]]","[[02_CURRICULUM/2.2.0/sources/FASTAPI]]","[[02_CURRICULUM/2.2.0/sources/HTTP_OVERVIEW]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W13D64_STREAMING]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W13D64_STREAMING]]"]
+related: ["[[01_AGENTS/Agent-Database-Architect]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Production-Reliability]]","[[01_AGENTS/Agent-Security-Auditor]]","[[01_AGENTS/Agent-UI-UX-Inspector]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/exercises/W13D64_STREAMING]]","[[02_CURRICULUM/2.2.0/lessons/W13D63_QUEUES_WORKERS]]","[[02_CURRICULUM/2.2.0/lessons/W13D65_PROJECT_CONVERT_AGENT_INTO_API_SERVICE]]","[[02_CURRICULUM/2.2.0/modules/PRODUCT]]","[[02_CURRICULUM/2.2.0/skills/BACKEND]]","[[02_CURRICULUM/2.2.0/skills/DATABASE]]","[[02_CURRICULUM/2.2.0/skills/QUEUES]]","[[02_CURRICULUM/2.2.0/sources/FASTAPI]]","[[02_CURRICULUM/2.2.0/sources/HTTP_OVERVIEW]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W13D64_STREAMING]]","[[02_CURRICULUM/system-quizzes/1.0.0/QUIZ_EVIDENCE_NEXT_STEP]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W13D64_STREAMING]]"]
 ---
 
 # Streaming ואירועי ריצה
@@ -124,4 +124,5 @@ Input → Contract check → Work / model proposal → Result check → Evidence
 - [[02_CURRICULUM/2.2.0/sources/FASTAPI|FastAPI tutorial]] — מקור לשיעור
 - [[02_CURRICULUM/2.2.0/sources/HTTP_OVERVIEW|HTTP overview]] — מקור לשיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_W13D64_STREAMING|בדיקת הבנה: הדפדפן התנתק באמצע Streaming והמשתמש התחבר מחדש. מה צריך הממשק לטעון?]] — בדיקת הבנה
+- [[02_CURRICULUM/system-quizzes/1.0.0/QUIZ_EVIDENCE_NEXT_STEP|לפני שמגישים · שאלה קצרה לתרגול]] — תרגול לפני הגשה
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W13D64_STREAMING|הוכחה מעשית · Streaming ואירועי ריצה]] — הוכחה מעשית

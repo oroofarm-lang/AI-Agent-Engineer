@@ -126,3 +126,26 @@ export const lessonPositions = sqliteTable(
   },
   (table) => [primaryKey({ columns: [table.userId, table.lessonId] })],
 );
+
+export const quizAttempts = sqliteTable(
+  'quiz_attempts',
+  {
+    id: text('id').notNull(),
+    userId: text('user_id')
+      .notNull()
+      .references(() => users.id, { onDelete: 'cascade' }),
+    lessonId: text('lesson_id').notNull(),
+    curriculumVersion: text('curriculum_version')
+      .notNull()
+      .references(() => curriculumVersions.version),
+    questionId: text('question_id').notNull(),
+    questionVersion: text('question_version').notNull(),
+    questionHash: text('question_hash').notNull(),
+    questionSnapshot: text('question_snapshot').notNull(),
+    optionId: text('option_id').notNull(),
+    correct: integer('correct', { mode: 'boolean' }).notNull(),
+    payloadFingerprint: text('payload_fingerprint').notNull(),
+    createdAt: text('created_at').notNull(),
+  },
+  (table) => [primaryKey({ columns: [table.id, table.userId] })],
+);

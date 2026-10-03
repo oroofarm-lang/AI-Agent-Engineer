@@ -11,6 +11,30 @@ related: ["[[01_AGENTS/Agent-Agentic-Workflows]]","[[01_AGENTS/Agent-Automation-
 
 הגדרות פומביות של המומחים ממרשם גרסה 1.0.0. כל רשומה מציגה את ההוראות והכלים המותרים שלה. הגדרה אינה מעידה על ריצה; השתתפות בפועל מתועדת במסלול הריצה באפליקציה.
 
+## מפות המומחים
+
+- [[01_AGENTS/maps/Orchestrator-Prime.canvas|תיאום צוות ההדרכה]]
+- [[01_AGENTS/maps/Agent-Hebrew-UX.canvas|עברית ברורה וסיכום התשובה]]
+- [[01_AGENTS/maps/Agent-Curriculum-Pedagogy.canvas|הסבר והדרכה]]
+- [[01_AGENTS/maps/Agent-UI-UX-Inspector.canvas|ממשק, ניווט ונגישות]]
+- [[01_AGENTS/maps/Agent-Agentic-Workflows.canvas|סוכנים ותהליכי עבודה]]
+- [[01_AGENTS/maps/Agent-Automation-Engineer.canvas|אוטומציה וחיבור מערכות]]
+- [[01_AGENTS/maps/Agent-Visual-Media.canvas|תוכן חזותי ותהליכי מדיה]]
+- [[01_AGENTS/maps/Agent-Marketing-Growth.canvas|תוכן ושיווק]]
+- [[01_AGENTS/maps/Agent-Progress-Tracker.canvas|משוב על העבודה והתקדמות]]
+- [[01_AGENTS/maps/Agent-Code-Reviewer.canvas|קוד וניפוי שגיאות]]
+- [[01_AGENTS/maps/Agent-Database-Architect.canvas|מסדי נתונים ומצב]]
+- [[01_AGENTS/maps/Agent-Security-Auditor.canvas|אבטחה והרשאות]]
+- [[01_AGENTS/maps/Agent-Voice-Audio.canvas|קול, תמלול ושיחה]]
+- [[01_AGENTS/maps/Agent-Knowledge-RAG.canvas|ידע, זיכרון ושליפת מקורות]]
+- [[01_AGENTS/maps/Agent-Production-Reliability.canvas|פריסה, ניטור ואמינות]]
+- [[01_AGENTS/maps/Agent-CRM-Sales.canvas|לקוחות, מכירות ושירות]]
+- [[01_AGENTS/maps/Agent-Paid-Media-Measurement.canvas|פרסום ומדידה]]
+- [[01_AGENTS/maps/Agent-Business-Discovery.canvas|אפיון שירות ופרויקט עסקי]]
+- [[01_AGENTS/maps/Agent-Model-Data.canvas|מודלים, הקשר ונתונים]]
+- [[01_AGENTS/maps/Agent-Quiz-Designer.canvas|תרגול ובדיקות הבנה]]
+- [[01_AGENTS/maps/Agent-Curriculum-Auditor.canvas|מקורות ועדכוני תוכן]]
+
 ## קשרים במפת הידע
 
 - [[01_AGENTS/Agent-Agentic-Workflows|סוכנים ותהליכי עבודה]] — מומחה

@@ -1,0 +1,317 @@
+---
+generated: true
+schema_version: 1
+kind: "quiz"
+entity_id: "QUIZ_EVIDENCE_NEXT_STEP"
+curriculum_version: "2.2.0"
+question_id: "QUIZ_EVIDENCE_NEXT_STEP"
+question_version: "1.0.0"
+definition_sha256: "87e94be93ee546d0cad1baf0630f422e40268d0c9823fd4de4dd06e31e2357e3"
+purpose: "app-workflow-practice"
+related: ["[[00_ORCHESTRATION/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/Index]]","[[02_CURRICULUM/2.2.0/lessons/ADS_01]]","[[02_CURRICULUM/2.2.0/lessons/ADS_02]]","[[02_CURRICULUM/2.2.0/lessons/ADS_03]]","[[02_CURRICULUM/2.2.0/lessons/ADS_04]]","[[02_CURRICULUM/2.2.0/lessons/ADS_05]]","[[02_CURRICULUM/2.2.0/lessons/ADS_06]]","[[02_CURRICULUM/2.2.0/lessons/AGT_01]]","[[02_CURRICULUM/2.2.0/lessons/AUT_01]]","[[02_CURRICULUM/2.2.0/lessons/AUT_02]]","[[02_CURRICULUM/2.2.0/lessons/AUT_03]]","[[02_CURRICULUM/2.2.0/lessons/AUT_04]]","[[02_CURRICULUM/2.2.0/lessons/AUT_05]]","[[02_CURRICULUM/2.2.0/lessons/AUT_06]]","[[02_CURRICULUM/2.2.0/lessons/AUT_07]]","[[02_CURRICULUM/2.2.0/lessons/AUT_08]]","[[02_CURRICULUM/2.2.0/lessons/BIZ_01]]","[[02_CURRICULUM/2.2.0/lessons/BIZ_02]]","[[02_CURRICULUM/2.2.0/lessons/BIZ_03]]","[[02_CURRICULUM/2.2.0/lessons/BIZ_04]]","[[02_CURRICULUM/2.2.0/lessons/BIZ_05]]","[[02_CURRICULUM/2.2.0/lessons/BIZ_06]]","[[02_CURRICULUM/2.2.0/lessons/CRM_01]]","[[02_CURRICULUM/2.2.0/lessons/CRM_02]]","[[02_CURRICULUM/2.2.0/lessons/CRM_03]]","[[02_CURRICULUM/2.2.0/lessons/CRM_04]]","[[02_CURRICULUM/2.2.0/lessons/CRM_05]]","[[02_CURRICULUM/2.2.0/lessons/CRM_06]]","[[02_CURRICULUM/2.2.0/lessons/CRM_07]]","[[02_CURRICULUM/2.2.0/lessons/CRM_08]]","[[02_CURRICULUM/2.2.0/lessons/DAT_01]]","[[02_CURRICULUM/2.2.0/lessons/DAT_02]]","[[02_CURRICULUM/2.2.0/lessons/DAT_03]]","[[02_CURRICULUM/2.2.0/lessons/DAT_04]]","[[02_CURRICULUM/2.2.0/lessons/FND_01]]","[[02_CURRICULUM/2.2.0/lessons/FND_02]]","[[02_CURRICULUM/2.2.0/lessons/FND_03]]","[[02_CURRICULUM/2.2.0/lessons/FND_04]]","[[02_CURRICULUM/2.2.0/lessons/MKT_01]]","[[02_CURRICULUM/2.2.0/lessons/MKT_02]]","[[02_CURRICULUM/2.2.0/lessons/MKT_03]]","[[02_CURRICULUM/2.2.0/lessons/MKT_04]]","[[02_CURRICULUM/2.2.0/lessons/MKT_05]]","[[02_CURRICULUM/2.2.0/lessons/MKT_06]]","[[02_CURRICULUM/2.2.0/lessons/MKT_07]]","[[02_CURRICULUM/2.2.0/lessons/MKT_08]]","[[02_CURRICULUM/2.2.0/lessons/MKT_09]]","[[02_CURRICULUM/2.2.0/lessons/MKT_10]]","[[02_CURRICULUM/2.2.0/lessons/VOI_01]]","[[02_CURRICULUM/2.2.0/lessons/VOI_02]]","[[02_CURRICULUM/2.2.0/lessons/VOI_03]]","[[02_CURRICULUM/2.2.0/lessons/VOI_04]]","[[02_CURRICULUM/2.2.0/lessons/VOI_05]]","[[02_CURRICULUM/2.2.0/lessons/VOI_06]]","[[02_CURRICULUM/2.2.0/lessons/W01D01_FIRST_AI_PROGRAM]]","[[02_CURRICULUM/2.2.0/lessons/W01D02_PYTHON_FOR_AGENT_BUILDERS_I]]","[[02_CURRICULUM/2.2.0/lessons/W01D03_PYTHON_FOR_AGENT_BUILDERS_II]]","[[02_CURRICULUM/2.2.0/lessons/W01D04_HTTP_APIS]]","[[02_CURRICULUM/2.2.0/lessons/W01D05_PROJECT_AGENT_ZERO]]","[[02_CURRICULUM/2.2.0/lessons/W02D06_HOW_LLM_APPLICATIONS_WORK]]","[[02_CURRICULUM/2.2.0/lessons/W02D07_CONTEXT_ENGINEERING]]","[[02_CURRICULUM/2.2.0/lessons/W02D08_STRUCTURED_OUTPUTS]]","[[02_CURRICULUM/2.2.0/lessons/W02D09_MODEL_RELIABILITY]]","[[02_CURRICULUM/2.2.0/lessons/W02D10_PROJECT_INTELLIGENT_INTAKE_ENGINE]]","[[02_CURRICULUM/2.2.0/lessons/W03D11_WHAT_MAKES_SOMETHING_AN_AGENT]]","[[02_CURRICULUM/2.2.0/lessons/W03D12_TOOL_CALLING]]","[[02_CURRICULUM/2.2.0/lessons/W03D13_AGENT_LOOP]]","[[02_CURRICULUM/2.2.0/lessons/W03D14_RELIABILITY_FAILURE_HANDLING]]","[[02_CURRICULUM/2.2.0/lessons/W03D15_PROJECT_AGENT_FROM_SCRATCH]]","[[02_CURRICULUM/2.2.0/lessons/W04D16_TASK_DECOMPOSITION]]","[[02_CURRICULUM/2.2.0/lessons/W04D17_SEARCH_EVIDENCE]]","[[02_CURRICULUM/2.2.0/lessons/W04D18_ITERATIVE_RESEARCH]]","[[02_CURRICULUM/2.2.0/lessons/W04D19_RESEARCH_QUALITY]]","[[02_CURRICULUM/2.2.0/lessons/W04D20_BOSS_LEVEL_1_RESEARCH_AGENT]]","[[02_CURRICULUM/2.2.0/lessons/W05D21_DATABASES]]","[[02_CURRICULUM/2.2.0/lessons/W05D22_STATE]]","[[02_CURRICULUM/2.2.0/lessons/W05D23_AGENT_MEMORY]]","[[02_CURRICULUM/2.2.0/lessons/W05D24_MEMORY_QUALITY]]","[[02_CURRICULUM/2.2.0/lessons/W05D25_PROJECT_PERSONAL_MEMORY_AGENT]]","[[02_CURRICULUM/2.2.0/lessons/W06D26_EMBEDDINGS]]","[[02_CURRICULUM/2.2.0/lessons/W06D27_CHUNKING_VECTOR_RETRIEVAL]]","[[02_CURRICULUM/2.2.0/lessons/W06D28_HYBRID_RETRIEVAL_RERANKING]]","[[02_CURRICULUM/2.2.0/lessons/W06D29_RAG_FAILURE_MODES]]","[[02_CURRICULUM/2.2.0/lessons/W06D30_PROJECT_KNOWLEDGE_AGENT]]","[[02_CURRICULUM/2.2.0/lessons/W07D31_PRODUCTION_APIS]]","[[02_CURRICULUM/2.2.0/lessons/W07D32_TOOL_DESIGN]]","[[02_CURRICULUM/2.2.0/lessons/W07D33_MCP]]","[[02_CURRICULUM/2.2.0/lessons/W07D34_SIDE_EFFECTS_PERMISSIONS]]","[[02_CURRICULUM/2.2.0/lessons/W07D35_PROJECT_OPERATIONS_AGENT]]","[[02_CURRICULUM/2.2.0/lessons/W08D36_RESPONSES_API]]","[[02_CURRICULUM/2.2.0/lessons/W08D37_AGENTS_SDK]]","[[02_CURRICULUM/2.2.0/lessons/W08D38_MANAGED_DURABLE_AGENT_RUNTIME_CONCEPTS]]","[[02_CURRICULUM/2.2.0/lessons/W08D39_LANGGRAPH]]","[[02_CURRICULUM/2.2.0/lessons/W08D40_BOSS_LEVEL_2_BUILD_ONE_SYSTEM_TWICE]]","[[02_CURRICULUM/2.2.0/lessons/W09D41_DETERMINISTIC_VS_AGENTIC_WORKFLOW]]","[[02_CURRICULUM/2.2.0/lessons/W09D42_ROUTERS]]","[[02_CURRICULUM/2.2.0/lessons/W09D43_PARALLEL_WORK]]","[[02_CURRICULUM/2.2.0/lessons/W09D44_LONG_RUNNING_WORKFLOWS]]","[[02_CURRICULUM/2.2.0/lessons/W09D45_PROJECT_DURABLE_WORKFLOW_AGENT]]","[[02_CURRICULUM/2.2.0/lessons/W10D46_WHEN_MULTI_AGENT_MAKES_SENSE]]","[[02_CURRICULUM/2.2.0/lessons/W10D47_MANAGER_PATTERN]]","[[02_CURRICULUM/2.2.0/lessons/W10D48_HANDOFFS]]","[[02_CURRICULUM/2.2.0/lessons/W10D49_SHARED_STATE_COORDINATION]]","[[02_CURRICULUM/2.2.0/lessons/W10D50_PROJECT_AI_COMPANY]]","[[02_CURRICULUM/2.2.0/lessons/W11D51_WHY_DEMOS_LIE]]","[[02_CURRICULUM/2.2.0/lessons/W11D52_EVALUATION_DATASET_DESIGN]]","[[02_CURRICULUM/2.2.0/lessons/W11D53_GRADERS]]","[[02_CURRICULUM/2.2.0/lessons/W11D54_TRACING]]","[[02_CURRICULUM/2.2.0/lessons/W11D55_PROJECT_AGENT_QUALITY_LAB]]","[[02_CURRICULUM/2.2.0/lessons/W12D56_PROMPT_INJECTION]]","[[02_CURRICULUM/2.2.0/lessons/W12D57_TOOL_ATTACKS]]","[[02_CURRICULUM/2.2.0/lessons/W12D58_AUTHENTICATION_AUTHORIZATION]]","[[02_CURRICULUM/2.2.0/lessons/W12D59_HUMAN_IN_THE_LOOP]]","[[02_CURRICULUM/2.2.0/lessons/W12D60_BOSS_LEVEL_3_RED_TEAM]]","[[02_CURRICULUM/2.2.0/lessons/W13D61_BACKEND_APIS]]","[[02_CURRICULUM/2.2.0/lessons/W13D62_PRODUCTION_DATABASES]]","[[02_CURRICULUM/2.2.0/lessons/W13D63_QUEUES_WORKERS]]","[[02_CURRICULUM/2.2.0/lessons/W13D64_STREAMING]]","[[02_CURRICULUM/2.2.0/lessons/W13D65_PROJECT_CONVERT_AGENT_INTO_API_SERVICE]]","[[02_CURRICULUM/2.2.0/lessons/W14D66_FRONTEND_FUNDAMENTALS]]","[[02_CURRICULUM/2.2.0/lessons/W14D67_AGENT_UI]]","[[02_CURRICULUM/2.2.0/lessons/W14D68_DEPLOYMENT]]","[[02_CURRICULUM/2.2.0/lessons/W14D69_PRODUCTION_CONCERNS]]","[[02_CURRICULUM/2.2.0/lessons/W14D70_PROJECT_AGENT_SAAS]]","[[02_CURRICULUM/2.2.0/lessons/W15D71_BROWSER_COMPUTER_AGENTS]]","[[02_CURRICULUM/2.2.0/lessons/W15D72_CODE_SANDBOX_AGENTS]]","[[02_CURRICULUM/2.2.0/lessons/W15D73_DYNAMIC_TOOLS]]","[[02_CURRICULUM/2.2.0/lessons/W15D74_AGENTIC_CODING]]","[[02_CURRICULUM/2.2.0/lessons/W15D75_PROJECT_AUTONOMOUS_WORKFLOW]]","[[02_CURRICULUM/2.2.0/lessons/W16D76_DISCOVERY]]","[[02_CURRICULUM/2.2.0/lessons/W16D77_ARCHITECTURE]]","[[02_CURRICULUM/2.2.0/lessons/W16D78_BUILD]]","[[02_CURRICULUM/2.2.0/lessons/W16D79_HARDEN]]","[[02_CURRICULUM/2.2.0/lessons/W16D80_FINAL_BOSS_DEMONSTRATE_FULL_SOLUTION]]","[[02_CURRICULUM/2.2.0/lessons/WEB_01]]","[[02_CURRICULUM/2.2.0/lessons/WEB_02]]","[[02_CURRICULUM/2.2.0/lessons/WEB_03]]","[[02_CURRICULUM/2.2.0/lessons/WEB_04]]","[[02_CURRICULUM/2.2.0/lessons/WEB_05]]","[[02_CURRICULUM/2.2.0/lessons/WEB_06]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_ADS_01]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_ADS_02]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_ADS_03]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_ADS_04]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_ADS_05]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_ADS_06]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AGT_01]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AUT_01]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AUT_02]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AUT_03]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AUT_04]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AUT_05]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AUT_06]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AUT_07]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AUT_08]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_BIZ_01]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_BIZ_02]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_BIZ_03]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_BIZ_04]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_BIZ_05]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_BIZ_06]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_CRM_01]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_CRM_02]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_CRM_03]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_CRM_04]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_CRM_05]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_CRM_06]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_CRM_07]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_CRM_08]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_DAT_01]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_DAT_02]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_DAT_03]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_DAT_04]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_FIRST_AI_PROGRAM]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_FND_01]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_FND_02]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_FND_03]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_FND_04]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_01]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_02]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_03]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_04]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_05]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_06]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_07]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_08]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_09]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_10]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_VOI_01]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_VOI_02]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_VOI_03]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_VOI_04]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_VOI_05]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_VOI_06]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W01D02_PYTHON_FOR_AGENT_BUILDERS_I]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W01D03_PYTHON_FOR_AGENT_BUILDERS_II]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W01D04_HTTP_APIS]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W01D05_PROJECT_AGENT_ZERO]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W02D06_HOW_LLM_APPLICATIONS_WORK]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W02D07_CONTEXT_ENGINEERING]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W02D08_STRUCTURED_OUTPUTS]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W02D09_MODEL_RELIABILITY]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W02D10_PROJECT_INTELLIGENT_INTAKE_ENGINE]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W03D11_WHAT_MAKES_SOMETHING_AN_AGENT]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W03D12_TOOL_CALLING]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W03D13_AGENT_LOOP]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W03D14_RELIABILITY_FAILURE_HANDLING]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W03D15_PROJECT_AGENT_FROM_SCRATCH]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W04D16_TASK_DECOMPOSITION]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W04D17_SEARCH_EVIDENCE]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W04D18_ITERATIVE_RESEARCH]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W04D19_RESEARCH_QUALITY]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W04D20_BOSS_LEVEL_1_RESEARCH_AGENT]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W05D21_DATABASES]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W05D22_STATE]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W05D23_AGENT_MEMORY]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W05D24_MEMORY_QUALITY]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W05D25_PROJECT_PERSONAL_MEMORY_AGENT]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W06D26_EMBEDDINGS]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W06D27_CHUNKING_VECTOR_RETRIEVAL]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W06D28_HYBRID_RETRIEVAL_RERANKING]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W06D29_RAG_FAILURE_MODES]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W06D30_PROJECT_KNOWLEDGE_AGENT]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W07D31_PRODUCTION_APIS]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W07D32_TOOL_DESIGN]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W07D33_MCP]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W07D34_SIDE_EFFECTS_PERMISSIONS]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W07D35_PROJECT_OPERATIONS_AGENT]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W08D36_RESPONSES_API]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W08D37_AGENTS_SDK]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W08D38_MANAGED_DURABLE_AGENT_RUNTIME_CONCEPTS]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W08D39_LANGGRAPH]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W08D40_BOSS_LEVEL_2_BUILD_ONE_SYSTEM_TWICE]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W09D41_DETERMINISTIC_VS_AGENTIC_WORKFLOW]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W09D42_ROUTERS]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W09D43_PARALLEL_WORK]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W09D44_LONG_RUNNING_WORKFLOWS]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W09D45_PROJECT_DURABLE_WORKFLOW_AGENT]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W10D46_WHEN_MULTI_AGENT_MAKES_SENSE]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W10D47_MANAGER_PATTERN]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W10D48_HANDOFFS]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W10D49_SHARED_STATE_COORDINATION]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W10D50_PROJECT_AI_COMPANY]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W11D51_WHY_DEMOS_LIE]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W11D52_EVALUATION_DATASET_DESIGN]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W11D53_GRADERS]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W11D54_TRACING]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W11D55_PROJECT_AGENT_QUALITY_LAB]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W12D56_PROMPT_INJECTION]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W12D57_TOOL_ATTACKS]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W12D58_AUTHENTICATION_AUTHORIZATION]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W12D59_HUMAN_IN_THE_LOOP]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W12D60_BOSS_LEVEL_3_RED_TEAM]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W13D61_BACKEND_APIS]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W13D62_PRODUCTION_DATABASES]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W13D63_QUEUES_WORKERS]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W13D64_STREAMING]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W13D65_PROJECT_CONVERT_AGENT_INTO_API_SERVICE]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W14D66_FRONTEND_FUNDAMENTALS]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W14D67_AGENT_UI]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W14D68_DEPLOYMENT]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W14D69_PRODUCTION_CONCERNS]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W14D70_PROJECT_AGENT_SAAS]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W15D71_BROWSER_COMPUTER_AGENTS]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W15D72_CODE_SANDBOX_AGENTS]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W15D73_DYNAMIC_TOOLS]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W15D74_AGENTIC_CODING]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W15D75_PROJECT_AUTONOMOUS_WORKFLOW]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W16D76_DISCOVERY]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W16D77_ARCHITECTURE]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W16D78_BUILD]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W16D79_HARDEN]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W16D80_FINAL_BOSS_DEMONSTRATE_FULL_SOLUTION]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_WEB_01]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_WEB_02]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_WEB_03]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_WEB_04]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_WEB_05]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_WEB_06]]","[[04_AUTOMATIONS_AND_APIS/assets/REINFORCEMENT_COMPONENT]]","[[04_AUTOMATIONS_AND_APIS/endpoints/QUIZZES]]"]
+---
+
+# לפני שמגישים · שאלה קצרה לתרגול
+
+זוהי השאלה על תהליך ההגשה שכבר קיימת בממשק. היא נפרדת מטיוטת שאלות הקורס. תשובה לתרגול אינה אישור שליטה.
+
+סיימת את התרגיל המעשי. מה הצעד הבא כדי להראות מה למדת?
+
+- complete: לסמן שהגעתי לשליטה בנושא, בלי לצרף ראיות
+- evidence: לצרף תוצאה והסבר ולהגיש אותם לבדיקה
+- skip: לעבור הלאה בלי לבדוק מקרה בעייתי בתרגיל
+
+## המשוב המוגדר בשאלה
+
+תשובה מתאימה: evidence.
+
+נכון. תוצאה והסבר מאפשרים לבודק להעריך את העבודה. ההגשה עצמה עדיין אינה אישור שליטה.
+
+לתשובה אחרת: נסה שוב. השלמת התרגיל היא התחלה; צריך גם להראות מה בדקת ומה הבנת.
+
+בחירת הלומד נשמרת בחשבונו בלבד, והכספת אינה כוללת תשובות של משתמשים.
+
+## קשרים במפת הידע
+
+- [[00_ORCHESTRATION/Orchestrator-Prime|Orchestrator-Prime — תזמור הלמידה]] — תרגול בהקשר הלמידה
+- [[02_CURRICULUM/2.2.0/Index|כל הפרקים והשיעורים]] — שאלה קיימת בממשק
+- [[02_CURRICULUM/2.2.0/lessons/ADS_01|מדדי פרסום ומשפך]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/ADS_02|יבוא נתוני קמפיינים]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/ADS_03|קריאייטיב והשערות לניסוי]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/ADS_04|דף נחיתה ומדידה]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/ADS_05|המלצות תקציב וטיוטות שינוי]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/ADS_06|מבחן מסכם: עוזר קמפיינים]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/AGT_01|MCP, ‏A2A ותקשורת בין סוכנים]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/AUT_01|אוטומציה ראשונה ב־n8n]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/AUT_02|חיבור גיליון, דוא״ל ומערכת CRM]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/AUT_03|שלב AI בתוך תהליך קבוע]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/AUT_04|כשלים, ניסיונות חוזרים וכפילויות]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/AUT_05|אישור אנושי בתהליך חזותי]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/AUT_06|העברת תהליך ל־Make]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/AUT_07|הטמעה בסביבת Microsoft 365]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/AUT_08|מבחן מסכם: מערכת אוטומציה עסקית]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/BIZ_01|בירור צרכים ופגישת אפיון]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/BIZ_02|בחירת פיילוט לפי ערך וסיכון]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/BIZ_03|הצעת עבודה וקריטריוני קבלה]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/BIZ_04|חשבונות לקוח, מידע והרשאות]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/BIZ_05|פיילוט, הדרכת עובדים ומסירה]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/BIZ_06|מבחן מסכם: הצגת פתרון ללקוח]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/CRM_01|מודל נתונים ללקוחות ולעסקאות]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/CRM_02|יבוא לקוחות ומניעת כפילות]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/CRM_03|סיווג לידים ומעקב מכירות]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/CRM_04|הצעות עבודה מתוך קטלוג]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/CRM_05|שירות בכמה ערוצים]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/CRM_06|סביבת עבודה לעובדים]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/CRM_07|מלאי, מוצרים והזמנות]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/CRM_08|מבחן מסכם: מערכת עבודה לעסק]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/DAT_01|עוזר נתונים עסקיים]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/DAT_02|כללים, חיזוי קלאסי ו־LLM]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/DAT_03|מודלים מקומיים ומשאבי חומרה]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/DAT_04|Prompting, ‏RAG ו־Fine-tuning]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/FND_01|מפת עולם ה־AI]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/FND_02|בחירת מודלים לפי מדידה]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/FND_03|מסמכים, תמונות וקול כקלט]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/FND_04|מיפוי צורך עסקי ופיילוט]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/MKT_01|בריף מותג וקהל]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/MKT_02|מחקר קהל ומתחרים]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/MKT_03|אסטרטגיית תוכן ולוח עבודה]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/MKT_04|כתיבה ועריכה בעברית]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/MKT_05|מקור אחד לכמה פורמטים]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/MKT_06|יצירת תמונות ועריכה לפי בריף]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/MKT_07|וידאו: מתסריט לתוצר]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/MKT_08|קריינות, תמלול ותרגום]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/MKT_09|SEO ואישור פרסום]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/MKT_10|מבחן מסכם: סטודיו תוכן עסקי]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/VOI_01|תמלול שיחות ובדיקת דיוק]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/VOI_02|טיפול אחרי שיחה]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/VOI_03|ממשק קולי עם תמלול וקריינות]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/VOI_04|שיחה חיה וקטיעות]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/VOI_05|העברה לאדם ותיאום פגישות]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/VOI_06|מבחן מסכם: עוזר קולי עסקי]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/W01D01_FIRST_AI_PROGRAM|תוכנית ה־AI הראשונה שלך]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/W01D02_PYTHON_FOR_AGENT_BUILDERS_I|Python לבוני סוכנים · חלק א׳]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/W01D03_PYTHON_FOR_AGENT_BUILDERS_II|Python לבוני סוכנים · חלק ב׳]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/W01D04_HTTP_APIS|HTTP וממשקי API]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/W01D05_PROJECT_AGENT_ZERO|פרויקט: Agent Zero]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/W02D06_HOW_LLM_APPLICATIONS_WORK|איך אפליקציות LLM פועלות]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/W02D07_CONTEXT_ENGINEERING|הנדסת הקשר]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/W02D08_STRUCTURED_OUTPUTS|פלט מובנה ואימות נתונים]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/W02D09_MODEL_RELIABILITY|אמינות, ביסוס ואי־ודאות]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/W02D10_PROJECT_INTELLIGENT_INTAKE_ENGINE|פרויקט: מנוע קליטת פניות]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/W03D11_WHAT_MAKES_SOMETHING_AN_AGENT|מה הופך מערכת לסוכן?]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/W03D12_TOOL_CALLING|קריאות לכלים]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/W03D13_AGENT_LOOP|לולאת סוכן ידנית]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/W03D14_RELIABILITY_FAILURE_HANDLING|טיפול בכשלים וגבולות סוכן]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/W03D15_PROJECT_AGENT_FROM_SCRATCH|פרויקט: סוכן מאפס]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/W04D16_TASK_DECOMPOSITION|פירוק משימות מחקר]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/W04D17_SEARCH_EVIDENCE|חיפוש ואיכות ראיות]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/W04D18_ITERATIVE_RESEARCH|מחקר איטרטיבי ותנאי עצירה]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/W04D19_RESEARCH_QUALITY|אימות דוח מחקר]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/W04D20_BOSS_LEVEL_1_RESEARCH_AGENT|מבחן מסכם: סוכן מחקר]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/W05D21_DATABASES|מסדי נתונים ו־SQL]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/W05D22_STATE|מצב שיחה ומצב תהליך]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/W05D23_AGENT_MEMORY|סוגי זיכרון לסוכנים]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/W05D24_MEMORY_QUALITY|איכות ועדכון זיכרון]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/W05D25_PROJECT_PERSONAL_MEMORY_AGENT|פרויקט: סוכן זיכרון אישי]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/W06D26_EMBEDDINGS|Embeddings ודמיון סמנטי]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/W06D27_CHUNKING_VECTOR_RETRIEVAL|קליטת מסמכים וחלוקה לקטעים]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/W06D28_HYBRID_RETRIEVAL_RERANKING|שליפה משולבת ודירוג מחדש]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/W06D29_RAG_FAILURE_MODES|כשלים במערכות RAG]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/W06D30_PROJECT_KNOWLEDGE_AGENT|פרויקט: עוזר ידע ארגוני]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/W07D31_PRODUCTION_APIS|ממשקי API עסקיים]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/W07D32_TOOL_DESIGN|תכנון כלים עסקיים]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/W07D33_MCP|MCP: חיבור כלים והקשר]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/W07D34_SIDE_EFFECTS_PERMISSIONS|תופעות לוואי והרשאות]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/W07D35_PROJECT_OPERATIONS_AGENT|פרויקט: סוכן תפעול]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/W08D36_RESPONSES_API|אינטגרציה ישירה עם Responses API]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/W08D37_AGENTS_SDK|SDK לסוכנים]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/W08D38_MANAGED_DURABLE_AGENT_RUNTIME_CONCEPTS|סביבות הרצה מנוהלות ושמירת מצב]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/W08D39_LANGGRAPH|תהליכי גרף עם LangGraph]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/W08D40_BOSS_LEVEL_2_BUILD_ONE_SYSTEM_TWICE|מבחן מסכם: שתי ארכיטקטורות לאותה מערכת]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/W09D41_DETERMINISTIC_VS_AGENTIC_WORKFLOW|תהליכים דטרמיניסטיים עם AI]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/W09D42_ROUTERS|ניתוב פניות]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/W09D43_PARALLEL_WORK|עבודה במקביל]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/W09D44_LONG_RUNNING_WORKFLOWS|תהליכים ארוכים והתאוששות]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/W09D45_PROJECT_DURABLE_WORKFLOW_AGENT|פרויקט: תהליך עבודה שנמשך לאחר תקלה]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/W10D46_WHEN_MULTI_AGENT_MAKES_SENSE|מתי כמה סוכנים מועילים?]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/W10D47_MANAGER_PATTERN|מנהל ומומחים]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/W10D48_HANDOFFS|העברת אחריות בין סוכנים]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/W10D49_SHARED_STATE_COORDINATION|מצב משותף ותיאום]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/W10D50_PROJECT_AI_COMPANY|פרויקט: צוות AI עסקי]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/W11D51_WHY_DEMOS_LIE|למה הדגמה אינה בדיקת איכות?]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/W11D52_EVALUATION_DATASET_DESIGN|תכנון נתוני הערכה]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/W11D53_GRADERS|מחוונים ושופטים]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/W11D54_TRACING|תיעוד ריצות וניטור]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/W11D55_PROJECT_AGENT_QUALITY_LAB|פרויקט: מעבדת איכות לסוכן]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/W12D56_PROMPT_INJECTION|הזרקת הוראות זדוניות]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/W12D57_TOOL_ATTACKS|תקיפות כלים וחשיפת מידע]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/W12D58_AUTHENTICATION_AUTHORIZATION|זהות, הרשאה ובידוד לקוחות]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/W12D59_HUMAN_IN_THE_LOOP|אישור אנושי וחידוש תהליך]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/W12D60_BOSS_LEVEL_3_RED_TEAM|מבחן מסכם: בדיקת תקיפה ותיקון]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/W13D61_BACKEND_APIS|ממשקי API בצד השרת]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/W13D62_PRODUCTION_DATABASES|PostgreSQL ונתונים לפרודקשן]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/W13D63_QUEUES_WORKERS|תורים ועובדים]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/W13D64_STREAMING|Streaming ואירועי ריצה]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/W13D65_PROJECT_CONVERT_AGENT_INTO_API_SERVICE|פרויקט: שירות Agent API]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/W14D66_FRONTEND_FUNDAMENTALS|React ו־Next.js למערכות AI]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/W14D67_AGENT_UI|ממשק לסוכן ולפעולותיו]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/W14D68_DEPLOYMENT|פריסה וסביבות]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/W14D69_PRODUCTION_CONCERNS|עלות, ביצועים וניטור]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/W14D70_PROJECT_AGENT_SAAS|פרויקט: מוצר AI עסקי]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/W15D71_BROWSER_COMPUTER_AGENTS|סוכני דפדפן ומחשב]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/W15D72_CODE_SANDBOX_AGENTS|Sandbox וסוכני קוד]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/W15D73_DYNAMIC_TOOLS|גילוי כלים דינמי]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/W15D74_AGENTIC_CODING|סוכן כתיבת קוד מבוקר]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/W15D75_PROJECT_AUTONOMOUS_WORKFLOW|פרויקט: תהליך אוטונומי מבוקר]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/W16D76_DISCOVERY|פרויקט גמר: גילוי צרכים]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/W16D77_ARCHITECTURE|פרויקט גמר: ארכיטקטורה]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/W16D78_BUILD|פרויקט גמר: בנייה]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/W16D79_HARDEN|פרויקט גמר: הקשחה]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/W16D80_FINAL_BOSS_DEMONSTRATE_FULL_SOLUTION|מבחן גמר: פתרון עסקי מלא]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/WEB_01|תכנון אתר ומסע משתמש]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/WEB_02|עיצוב, RTL ונגישות]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/WEB_03|בניית אתר בעזרת AI ובדיקת הקוד]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/WEB_04|טפסים וחיבור ל־CRM]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/WEB_05|בדיקות לפני פריסה]] — תרגול לפני הגשה
+- [[02_CURRICULUM/2.2.0/lessons/WEB_06|מבחן מסכם: אתר המחובר למערכת AI]] — תרגול לפני הגשה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_ADS_01|הוכחה מעשית · מדדי פרסום ומשפך]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_ADS_02|הוכחה מעשית · יבוא נתוני קמפיינים]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_ADS_03|הוכחה מעשית · קריאייטיב והשערות לניסוי]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_ADS_04|הוכחה מעשית · דף נחיתה ומדידה]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_ADS_05|הוכחה מעשית · המלצות תקציב וטיוטות שינוי]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_ADS_06|הוכחה מעשית · מבחן מסכם: עוזר קמפיינים]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AGT_01|הוכחה מעשית · MCP, ‏A2A ותקשורת בין סוכנים]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AUT_01|הוכחה מעשית · אוטומציה ראשונה ב־n8n]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AUT_02|הוכחה מעשית · חיבור גיליון, דוא״ל ומערכת CRM]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AUT_03|הוכחה מעשית · שלב AI בתוך תהליך קבוע]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AUT_04|הוכחה מעשית · כשלים, ניסיונות חוזרים וכפילויות]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AUT_05|הוכחה מעשית · אישור אנושי בתהליך חזותי]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AUT_06|הוכחה מעשית · העברת תהליך ל־Make]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AUT_07|הוכחה מעשית · הטמעה בסביבת Microsoft 365]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AUT_08|הוכחה מעשית · מבחן מסכם: מערכת אוטומציה עסקית]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_BIZ_01|הוכחה מעשית · בירור צרכים ופגישת אפיון]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_BIZ_02|הוכחה מעשית · בחירת פיילוט לפי ערך וסיכון]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_BIZ_03|הוכחה מעשית · הצעת עבודה וקריטריוני קבלה]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_BIZ_04|הוכחה מעשית · חשבונות לקוח, מידע והרשאות]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_BIZ_05|הוכחה מעשית · פיילוט, הדרכת עובדים ומסירה]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_BIZ_06|הוכחה מעשית · מבחן מסכם: הצגת פתרון ללקוח]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_CRM_01|הוכחה מעשית · מודל נתונים ללקוחות ולעסקאות]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_CRM_02|הוכחה מעשית · יבוא לקוחות ומניעת כפילות]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_CRM_03|הוכחה מעשית · סיווג לידים ומעקב מכירות]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_CRM_04|הוכחה מעשית · הצעות עבודה מתוך קטלוג]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_CRM_05|הוכחה מעשית · שירות בכמה ערוצים]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_CRM_06|הוכחה מעשית · סביבת עבודה לעובדים]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_CRM_07|הוכחה מעשית · מלאי, מוצרים והזמנות]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_CRM_08|הוכחה מעשית · מבחן מסכם: מערכת עבודה לעסק]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_DAT_01|הוכחה מעשית · עוזר נתונים עסקיים]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_DAT_02|הוכחה מעשית · כללים, חיזוי קלאסי ו־LLM]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_DAT_03|הוכחה מעשית · מודלים מקומיים ומשאבי חומרה]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_DAT_04|הוכחה מעשית · Prompting, ‏RAG ו־Fine-tuning]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_FIRST_AI_PROGRAM|מתיקייה ריקה לתוכנית עובדת]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_FND_01|הוכחה מעשית · מפת עולם ה־AI]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_FND_02|הוכחה מעשית · בחירת מודלים לפי מדידה]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_FND_03|הוכחה מעשית · מסמכים, תמונות וקול כקלט]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_FND_04|הוכחה מעשית · מיפוי צורך עסקי ופיילוט]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_01|הוכחה מעשית · בריף מותג וקהל]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_02|הוכחה מעשית · מחקר קהל ומתחרים]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_03|הוכחה מעשית · אסטרטגיית תוכן ולוח עבודה]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_04|הוכחה מעשית · כתיבה ועריכה בעברית]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_05|הוכחה מעשית · מקור אחד לכמה פורמטים]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_06|הוכחה מעשית · יצירת תמונות ועריכה לפי בריף]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_07|הוכחה מעשית · וידאו: מתסריט לתוצר]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_08|הוכחה מעשית · קריינות, תמלול ותרגום]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_09|הוכחה מעשית · SEO ואישור פרסום]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_10|הוכחה מעשית · מבחן מסכם: סטודיו תוכן עסקי]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_VOI_01|הוכחה מעשית · תמלול שיחות ובדיקת דיוק]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_VOI_02|הוכחה מעשית · טיפול אחרי שיחה]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_VOI_03|הוכחה מעשית · ממשק קולי עם תמלול וקריינות]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_VOI_04|הוכחה מעשית · שיחה חיה וקטיעות]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_VOI_05|הוכחה מעשית · העברה לאדם ותיאום פגישות]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_VOI_06|הוכחה מעשית · מבחן מסכם: עוזר קולי עסקי]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W01D02_PYTHON_FOR_AGENT_BUILDERS_I|הוכחה מעשית · Python לבוני סוכנים · חלק א׳]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W01D03_PYTHON_FOR_AGENT_BUILDERS_II|הוכחה מעשית · Python לבוני סוכנים · חלק ב׳]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W01D04_HTTP_APIS|הוכחה מעשית · HTTP וממשקי API]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W01D05_PROJECT_AGENT_ZERO|הוכחה מעשית · פרויקט: Agent Zero]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W02D06_HOW_LLM_APPLICATIONS_WORK|הוכחה מעשית · איך אפליקציות LLM פועלות]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W02D07_CONTEXT_ENGINEERING|הוכחה מעשית · הנדסת הקשר]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W02D08_STRUCTURED_OUTPUTS|הוכחה מעשית · פלט מובנה ואימות נתונים]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W02D09_MODEL_RELIABILITY|הוכחה מעשית · אמינות, ביסוס ואי־ודאות]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W02D10_PROJECT_INTELLIGENT_INTAKE_ENGINE|הוכחה מעשית · פרויקט: מנוע קליטת פניות]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W03D11_WHAT_MAKES_SOMETHING_AN_AGENT|הוכחה מעשית · מה הופך מערכת לסוכן?]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W03D12_TOOL_CALLING|הוכחה מעשית · קריאות לכלים]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W03D13_AGENT_LOOP|הוכחה מעשית · לולאת סוכן ידנית]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W03D14_RELIABILITY_FAILURE_HANDLING|הוכחה מעשית · טיפול בכשלים וגבולות סוכן]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W03D15_PROJECT_AGENT_FROM_SCRATCH|הוכחה מעשית · פרויקט: סוכן מאפס]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W04D16_TASK_DECOMPOSITION|הוכחה מעשית · פירוק משימות מחקר]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W04D17_SEARCH_EVIDENCE|הוכחה מעשית · חיפוש ואיכות ראיות]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W04D18_ITERATIVE_RESEARCH|הוכחה מעשית · מחקר איטרטיבי ותנאי עצירה]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W04D19_RESEARCH_QUALITY|הוכחה מעשית · אימות דוח מחקר]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W04D20_BOSS_LEVEL_1_RESEARCH_AGENT|הוכחה מעשית · מבחן מסכם: סוכן מחקר]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W05D21_DATABASES|הוכחה מעשית · מסדי נתונים ו־SQL]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W05D22_STATE|הוכחה מעשית · מצב שיחה ומצב תהליך]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W05D23_AGENT_MEMORY|הוכחה מעשית · סוגי זיכרון לסוכנים]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W05D24_MEMORY_QUALITY|הוכחה מעשית · איכות ועדכון זיכרון]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W05D25_PROJECT_PERSONAL_MEMORY_AGENT|הוכחה מעשית · פרויקט: סוכן זיכרון אישי]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W06D26_EMBEDDINGS|הוכחה מעשית · Embeddings ודמיון סמנטי]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W06D27_CHUNKING_VECTOR_RETRIEVAL|הוכחה מעשית · קליטת מסמכים וחלוקה לקטעים]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W06D28_HYBRID_RETRIEVAL_RERANKING|הוכחה מעשית · שליפה משולבת ודירוג מחדש]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W06D29_RAG_FAILURE_MODES|הוכחה מעשית · כשלים במערכות RAG]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W06D30_PROJECT_KNOWLEDGE_AGENT|הוכחה מעשית · פרויקט: עוזר ידע ארגוני]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W07D31_PRODUCTION_APIS|הוכחה מעשית · ממשקי API עסקיים]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W07D32_TOOL_DESIGN|הוכחה מעשית · תכנון כלים עסקיים]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W07D33_MCP|הוכחה מעשית · MCP: חיבור כלים והקשר]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W07D34_SIDE_EFFECTS_PERMISSIONS|הוכחה מעשית · תופעות לוואי והרשאות]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W07D35_PROJECT_OPERATIONS_AGENT|הוכחה מעשית · פרויקט: סוכן תפעול]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W08D36_RESPONSES_API|הוכחה מעשית · אינטגרציה ישירה עם Responses API]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W08D37_AGENTS_SDK|הוכחה מעשית · SDK לסוכנים]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W08D38_MANAGED_DURABLE_AGENT_RUNTIME_CONCEPTS|הוכחה מעשית · סביבות הרצה מנוהלות ושמירת מצב]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W08D39_LANGGRAPH|הוכחה מעשית · תהליכי גרף עם LangGraph]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W08D40_BOSS_LEVEL_2_BUILD_ONE_SYSTEM_TWICE|הוכחה מעשית · מבחן מסכם: שתי ארכיטקטורות לאותה מערכת]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W09D41_DETERMINISTIC_VS_AGENTIC_WORKFLOW|הוכחה מעשית · תהליכים דטרמיניסטיים עם AI]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W09D42_ROUTERS|הוכחה מעשית · ניתוב פניות]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W09D43_PARALLEL_WORK|הוכחה מעשית · עבודה במקביל]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W09D44_LONG_RUNNING_WORKFLOWS|הוכחה מעשית · תהליכים ארוכים והתאוששות]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W09D45_PROJECT_DURABLE_WORKFLOW_AGENT|הוכחה מעשית · פרויקט: תהליך עבודה שנמשך לאחר תקלה]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W10D46_WHEN_MULTI_AGENT_MAKES_SENSE|הוכחה מעשית · מתי כמה סוכנים מועילים?]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W10D47_MANAGER_PATTERN|הוכחה מעשית · מנהל ומומחים]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W10D48_HANDOFFS|הוכחה מעשית · העברת אחריות בין סוכנים]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W10D49_SHARED_STATE_COORDINATION|הוכחה מעשית · מצב משותף ותיאום]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W10D50_PROJECT_AI_COMPANY|הוכחה מעשית · פרויקט: צוות AI עסקי]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W11D51_WHY_DEMOS_LIE|הוכחה מעשית · למה הדגמה אינה בדיקת איכות?]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W11D52_EVALUATION_DATASET_DESIGN|הוכחה מעשית · תכנון נתוני הערכה]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W11D53_GRADERS|הוכחה מעשית · מחוונים ושופטים]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W11D54_TRACING|הוכחה מעשית · תיעוד ריצות וניטור]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W11D55_PROJECT_AGENT_QUALITY_LAB|הוכחה מעשית · פרויקט: מעבדת איכות לסוכן]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W12D56_PROMPT_INJECTION|הוכחה מעשית · הזרקת הוראות זדוניות]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W12D57_TOOL_ATTACKS|הוכחה מעשית · תקיפות כלים וחשיפת מידע]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W12D58_AUTHENTICATION_AUTHORIZATION|הוכחה מעשית · זהות, הרשאה ובידוד לקוחות]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W12D59_HUMAN_IN_THE_LOOP|הוכחה מעשית · אישור אנושי וחידוש תהליך]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W12D60_BOSS_LEVEL_3_RED_TEAM|הוכחה מעשית · מבחן מסכם: בדיקת תקיפה ותיקון]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W13D61_BACKEND_APIS|הוכחה מעשית · ממשקי API בצד השרת]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W13D62_PRODUCTION_DATABASES|הוכחה מעשית · PostgreSQL ונתונים לפרודקשן]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W13D63_QUEUES_WORKERS|הוכחה מעשית · תורים ועובדים]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W13D64_STREAMING|הוכחה מעשית · Streaming ואירועי ריצה]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W13D65_PROJECT_CONVERT_AGENT_INTO_API_SERVICE|הוכחה מעשית · פרויקט: שירות Agent API]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W14D66_FRONTEND_FUNDAMENTALS|הוכחה מעשית · React ו־Next.js למערכות AI]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W14D67_AGENT_UI|הוכחה מעשית · ממשק לסוכן ולפעולותיו]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W14D68_DEPLOYMENT|הוכחה מעשית · פריסה וסביבות]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W14D69_PRODUCTION_CONCERNS|הוכחה מעשית · עלות, ביצועים וניטור]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W14D70_PROJECT_AGENT_SAAS|הוכחה מעשית · פרויקט: מוצר AI עסקי]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W15D71_BROWSER_COMPUTER_AGENTS|הוכחה מעשית · סוכני דפדפן ומחשב]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W15D72_CODE_SANDBOX_AGENTS|הוכחה מעשית · Sandbox וסוכני קוד]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W15D73_DYNAMIC_TOOLS|הוכחה מעשית · גילוי כלים דינמי]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W15D74_AGENTIC_CODING|הוכחה מעשית · סוכן כתיבת קוד מבוקר]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W15D75_PROJECT_AUTONOMOUS_WORKFLOW|הוכחה מעשית · פרויקט: תהליך אוטונומי מבוקר]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W16D76_DISCOVERY|הוכחה מעשית · פרויקט גמר: גילוי צרכים]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W16D77_ARCHITECTURE|הוכחה מעשית · פרויקט גמר: ארכיטקטורה]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W16D78_BUILD|הוכחה מעשית · פרויקט גמר: בנייה]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W16D79_HARDEN|הוכחה מעשית · פרויקט גמר: הקשחה]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W16D80_FINAL_BOSS_DEMONSTRATE_FULL_SOLUTION|הוכחה מעשית · מבחן גמר: פתרון עסקי מלא]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_WEB_01|הוכחה מעשית · תכנון אתר ומסע משתמש]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_WEB_02|הוכחה מעשית · עיצוב, RTL ונגישות]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_WEB_03|הוכחה מעשית · בניית אתר בעזרת AI ובדיקת הקוד]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_WEB_04|הוכחה מעשית · טפסים וחיבור ל־CRM]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_WEB_05|הוכחה מעשית · בדיקות לפני פריסה]] — הבחנה בין הגשה לשליטה
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_WEB_06|הוכחה מעשית · מבחן מסכם: אתר המחובר למערכת AI]] — הבחנה בין הגשה לשליטה
+- [[04_AUTOMATIONS_AND_APIS/assets/REINFORCEMENT_COMPONENT|שאלת תרגול ושמירת תשובה]] — רכיב התרגול
+- [[04_AUTOMATIONS_AND_APIS/endpoints/QUIZZES|שמירת תשובות לתרגול]] — שמירת תשובה

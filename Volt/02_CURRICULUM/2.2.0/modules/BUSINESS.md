@@ -27,6 +27,10 @@ related: ["[[01_AGENTS/Agent-Business-Discovery]]","[[01_AGENTS/Agent-CRM-Sales]
 5. BIZ_05
 6. BIZ_06
 
+## מפת הקשרים של הפרק
+
+[[02_CURRICULUM/2.2.0/maps/BUSINESS.canvas|פתיחת מפת הפרק]] — השיעורים, התרגולים, המחוונים והמקורות הקשורים לפרק זה. הקשרים הנוספים מופיעים גם ברשומות עצמן.
+
 ## קשרים במפת הידע
 
 - [[01_AGENTS/Agent-Business-Discovery|אפיון שירות ופרויקט עסקי]] — תחום הפרק

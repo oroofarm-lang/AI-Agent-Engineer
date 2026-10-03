@@ -33,6 +33,10 @@ related: ["[[01_AGENTS/Agent-Agentic-Workflows]]","[[01_AGENTS/Agent-Automation-
 11. AUT_07
 12. AUT_08
 
+## מפת הקשרים של הפרק
+
+[[02_CURRICULUM/2.2.0/maps/AUTOMATION.canvas|פתיחת מפת הפרק]] — השיעורים, התרגולים, המחוונים והמקורות הקשורים לפרק זה. הקשרים הנוספים מופיעים גם ברשומות עצמן.
+
 ## קשרים במפת הידע
 
 - [[01_AGENTS/Agent-Agentic-Workflows|סוכנים ותהליכי עבודה]] — תחום הפרק

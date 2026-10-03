@@ -4,7 +4,7 @@
 
 `npm run quality:inventory` extracts every published lesson and chapter, plus
 Hebrew JSX text, source strings, and template fragments with file/line locations.
-Schema 2 also collects Hebrew strings and JSON paths from the five public curriculum manifests and public agent registry, including assessment prompts, skill descriptions and specialist instructions. The inventory is `.data/quality/public-copy.json`. It contains source-authored
+Schema 2 also collects Hebrew strings and JSON paths from the five public curriculum manifests, public agent registry and shipped system-question catalog, including assessment prompts, skill descriptions, specialist instructions and practice feedback. The inventory is `.data/quality/public-copy.json`. It contains source-authored
 copy only: never read `.env.local`, account data, private notes, or conversations
 for a linguistic review.
 

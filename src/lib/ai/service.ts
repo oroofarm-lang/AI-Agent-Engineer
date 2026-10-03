@@ -9,6 +9,7 @@ import { mentorInstructions, type MentorInput } from './policy';
 import type { MentorProvider } from './provider';
 import { markdownCards } from '../curriculum/cards';
 import { knowledgeContext, type KnowledgeSnapshot } from './knowledge';
+import { quizRepository } from '../db/quizzes';
 
 export async function sendMentorMessage(
   connection: Connection,
@@ -103,6 +104,7 @@ export async function sendMentorMessage(
           }
         : null,
       progress: progress.slice(0, 160).map(({ lessonId, state }) => ({ lessonId, state })),
+      quizResults: quizRepository(connection, curriculum, userId).summary(lesson?.id),
       mastery: 'No automated mastery certification. Only persisted assessment states are facts.',
       sources: lesson?.sourceIds
         .map((id) => curriculum.sources.find((source) => source.id === id))

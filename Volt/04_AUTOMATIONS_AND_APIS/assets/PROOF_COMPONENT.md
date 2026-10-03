@@ -6,7 +6,7 @@ entity_id: "PROOF_COMPONENT"
 curriculum_version: "2.2.0"
 source_path: "src/components/assessment-form.tsx"
 asset_kind: "ui-code"
-source_sha256: "34181931a0e690be406853be7d4c1f6d7dc0fe19508c66aaa8d764271a23b1e4"
+source_sha256: "b00e4592806c1047b30aa966fce91ab5b669243c2cd8e99d33c75dcd9d5d106c"
 related: ["[[01_AGENTS/Agent-Curriculum-Auditor]]","[[01_AGENTS/Agent-Database-Architect]]","[[01_AGENTS/Agent-Production-Reliability]]","[[01_AGENTS/Agent-Progress-Tracker]]","[[01_AGENTS/Agent-Quiz-Designer]]","[[01_AGENTS/Agent-Security-Auditor]]","[[01_AGENTS/Agent-UI-UX-Inspector]]","[[02_CURRICULUM/2.2.0/modules/PRODUCT]]","[[02_CURRICULUM/2.2.0/modules/QUALITY]]","[[04_AUTOMATIONS_AND_APIS/Index]]"]
 ---
 
@@ -30,17 +30,20 @@ import { submitEvidence } from '@/app/assessments/actions';
 import { ArtifactPicker, type SelectedArtifact } from './assessment/artifact-picker';
 import { PortfolioCard } from './assessment/portfolio-card';
 import { reducedMotion } from '@/lib/domain/motion';
+import { ReinforcementQuiz } from './assessment/reinforcement-quiz';
 
 export function AssessmentForm({
   assessment,
   submissionId,
   curriculumVersion,
   built,
+  questionHash,
 }: {
   assessment: Assessment;
   submissionId: string;
   curriculumVersion: string;
   built: boolean;
+  questionHash: string;
 }) {
   const [evidence, setEvidence] = useState<Record<string, string>>({});
   const [files, setFiles] = useState<SelectedArtifact[]>([]);
@@ -48,8 +51,7 @@ export function AssessmentForm({
     [included, setIncluded] = useState(false),
     [title, setTitle] = useState(assessment.title),
     [summary, setSummary] = useState(''),
-    [feedback, setFeedback] = useState(''),
-    [answer, setAnswer] = useState('');
+    [feedback, setFeedback] = useState('');
   const heading = useRef<HTMLHeadingElement>(null),
     moved = useRef(false);
   const [result, action, pending] = useActionState(
@@ -91,35 +93,12 @@ export function AssessmentForm({
           השאלות זמינות לקריאה. כדי לענות ולהגיש, השלם קודם את תרגיל הבנייה וסמן אותו כהושלם בשיעור.
         </p>
       )}
-      <details className="reinforcement-quiz">
-        <summary>לפני שמגישים · שאלה קצרה לתרגול</summary>
-        <fieldset>
-          <legend>סיימת את התרגיל המעשי. מה הצעד הבא כדי להראות מה למדת?</legend>
-          {[
-            ['complete', 'לסמן שהגעתי לשליטה בנושא, בלי לצרף ראיות'],
-            ['evidence', 'לצרף תוצאה והסבר ולהגיש אותם לבדיקה'],
-            ['skip', 'לעבור הלאה בלי לבדוק מקרה בעייתי בתרגיל'],
-          ].map(([value, label]) => (
-            <label key={value} className="toggle-row">
-              <input
-                type="radio"
-                name={`reinforcement-${assessment.id}`}
-                value={value}
-                checked={answer === value}
-                onChange={() => setAnswer(value)}
-              />
-              {label}
-            </label>
-          ))}
-        </fieldset>
-        <p role="status">
-          {answer === 'evidence'
-            ? 'נכון. תוצאה והסבר מאפשרים לבודק להעריך את העבודה. ההגשה עצמה עדיין אינה אישור שליטה.'
-            : answer
-              ? 'נסה שוב. השלמת התרגיל היא התחלה; צריך גם להראות מה בדקת ומה הבנת.'
-              : ''}
-        </p>
-      </details>
+      <ReinforcementQuiz
+        key={`${assessment.lessonId}:${questionHash}`}
+        lessonId={assessment.lessonId}
+        curriculumVersion={curriculumVersion}
+        questionHash={questionHash}
+      />
       <div className="assessment-progress">
         <span>
           שאלה {index + 1} מתוך {assessment.criteria.length}

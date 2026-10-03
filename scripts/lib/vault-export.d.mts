@@ -30,6 +30,7 @@ export function buildVaultFiles(input: {
   publicAssets?: PublicAsset[];
   apis?: PublicApi[];
   quizBank?: unknown;
+  systemQuestion?: unknown;
   knowledgeRegistry?: ReturnType<typeof loadKnowledgeRegistry>;
 }): {
   files: Map<string, string>;

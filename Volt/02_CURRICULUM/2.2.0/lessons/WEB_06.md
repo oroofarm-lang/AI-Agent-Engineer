@@ -11,7 +11,7 @@ source_ids: ["REACT","NEXTJS"]
 prerequisite_lesson_ids: ["WEB_05"]
 source_sha256: "49be7e581b803ed546fa43986f64565589820d717b0b9030cecaba9bd8d7af1b"
 estimated_minutes: 150
-related: ["[[01_AGENTS/Agent-Code-Reviewer]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Production-Reliability]]","[[01_AGENTS/Agent-UI-UX-Inspector]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/exercises/WEB_06]]","[[02_CURRICULUM/2.2.0/lessons/WEB_05]]","[[02_CURRICULUM/2.2.0/modules/WEB]]","[[02_CURRICULUM/2.2.0/skills/BACKEND]]","[[02_CURRICULUM/2.2.0/skills/DEPLOYMENT]]","[[02_CURRICULUM/2.2.0/skills/UI_DESIGN]]","[[02_CURRICULUM/2.2.0/sources/NEXTJS]]","[[02_CURRICULUM/2.2.0/sources/REACT]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_WEB_06]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_WEB_06]]"]
+related: ["[[01_AGENTS/Agent-Code-Reviewer]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Production-Reliability]]","[[01_AGENTS/Agent-UI-UX-Inspector]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/exercises/WEB_06]]","[[02_CURRICULUM/2.2.0/lessons/WEB_05]]","[[02_CURRICULUM/2.2.0/modules/WEB]]","[[02_CURRICULUM/2.2.0/skills/BACKEND]]","[[02_CURRICULUM/2.2.0/skills/DEPLOYMENT]]","[[02_CURRICULUM/2.2.0/skills/UI_DESIGN]]","[[02_CURRICULUM/2.2.0/sources/NEXTJS]]","[[02_CURRICULUM/2.2.0/sources/REACT]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_WEB_06]]","[[02_CURRICULUM/system-quizzes/1.0.0/QUIZ_EVIDENCE_NEXT_STEP]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_WEB_06]]"]
 ---
 
 # מבחן מסכם: אתר המחובר למערכת AI
@@ -121,4 +121,5 @@ Input → Contract check → Work / model proposal → Result check → Evidence
 - [[02_CURRICULUM/2.2.0/sources/NEXTJS|Next.js App Router]] — מקור לשיעור
 - [[02_CURRICULUM/2.2.0/sources/REACT|React learn]] — מקור לשיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_WEB_06|בדיקת הבנה: העוזר באתר מציג תשובות קבועות לצורכי הדגמה. כיצד נכון לתאר אותו למשתמש?]] — בדיקת הבנה
+- [[02_CURRICULUM/system-quizzes/1.0.0/QUIZ_EVIDENCE_NEXT_STEP|לפני שמגישים · שאלה קצרה לתרגול]] — תרגול לפני הגשה
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_WEB_06|הוכחה מעשית · מבחן מסכם: אתר המחובר למערכת AI]] — הוכחה מעשית

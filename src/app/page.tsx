@@ -11,6 +11,7 @@ import {
 } from 'lucide-react';
 import { getCurriculum, getRepository } from '@/lib/data';
 import { readLesson } from '@/lib/curriculum/load';
+import { missionSummary } from '@/lib/curriculum/mission';
 import { calculateProgress } from '@/lib/domain/progress';
 import { learningPath, canStudyLesson } from '@/lib/domain/learning-path';
 import { AiMascot } from '@/components/learning/ai-mascot';
@@ -23,9 +24,7 @@ export default async function Dashboard() {
   const lesson = path.next,
     metrics = calculateProgress(c.lessons, records),
     current = records.find((p) => p.lessonId === lesson.id);
-  const mission =
-    readLesson(lesson.id).split('## Mission')[1].split('## Build First')[0].trim().split('.')[0] +
-    '.';
+  const mission = missionSummary(readLesson(lesson.id));
   return (
     <div className="page dashboard neon-dashboard">
       <div className="page-heading">

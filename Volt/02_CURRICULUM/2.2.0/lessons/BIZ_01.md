@@ -11,7 +11,7 @@ source_ids: ["ANTHROPIC_AGENTS","ANTHROPIC_EVALS"]
 prerequisite_lesson_ids: ["FND_04"]
 source_sha256: "21fcd5848227c1305ce984bdc9f11693662f8836dd621155479478da16f43650"
 estimated_minutes: 150
-related: ["[[01_AGENTS/Agent-Business-Discovery]]","[[01_AGENTS/Agent-CRM-Sales]]","[[01_AGENTS/Agent-Curriculum-Auditor]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Marketing-Growth]]","[[01_AGENTS/Agent-Paid-Media-Measurement]]","[[01_AGENTS/Agent-Progress-Tracker]]","[[01_AGENTS/Agent-Quiz-Designer]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/exercises/BIZ_01]]","[[02_CURRICULUM/2.2.0/lessons/BIZ_02]]","[[02_CURRICULUM/2.2.0/lessons/FND_04]]","[[02_CURRICULUM/2.2.0/modules/BUSINESS]]","[[02_CURRICULUM/2.2.0/skills/BUSINESS_DISCOVERY]]","[[02_CURRICULUM/2.2.0/skills/EVALS]]","[[02_CURRICULUM/2.2.0/sources/ANTHROPIC_AGENTS]]","[[02_CURRICULUM/2.2.0/sources/ANTHROPIC_EVALS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_BIZ_01]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_BIZ_01]]"]
+related: ["[[01_AGENTS/Agent-Business-Discovery]]","[[01_AGENTS/Agent-CRM-Sales]]","[[01_AGENTS/Agent-Curriculum-Auditor]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Marketing-Growth]]","[[01_AGENTS/Agent-Paid-Media-Measurement]]","[[01_AGENTS/Agent-Progress-Tracker]]","[[01_AGENTS/Agent-Quiz-Designer]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/exercises/BIZ_01]]","[[02_CURRICULUM/2.2.0/lessons/BIZ_02]]","[[02_CURRICULUM/2.2.0/lessons/FND_04]]","[[02_CURRICULUM/2.2.0/modules/BUSINESS]]","[[02_CURRICULUM/2.2.0/skills/BUSINESS_DISCOVERY]]","[[02_CURRICULUM/2.2.0/skills/EVALS]]","[[02_CURRICULUM/2.2.0/sources/ANTHROPIC_AGENTS]]","[[02_CURRICULUM/2.2.0/sources/ANTHROPIC_EVALS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_BIZ_01]]","[[02_CURRICULUM/system-quizzes/1.0.0/QUIZ_EVIDENCE_NEXT_STEP]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_BIZ_01]]"]
 ---
 
 # בירור צרכים ופגישת אפיון
@@ -125,4 +125,5 @@ Input → Contract check → Work / model proposal → Result check → Evidence
 - [[02_CURRICULUM/2.2.0/sources/ANTHROPIC_AGENTS|Building effective agents]] — מקור לשיעור
 - [[02_CURRICULUM/2.2.0/sources/ANTHROPIC_EVALS|Demystifying evals for AI agents]] — מקור לשיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_BIZ_01|בדיקת הבנה: לקוח אומר רק ״אנחנו רוצים AI״. מה צריך לברר בפגישת האפיון לפני בחירת מוצר?]] — בדיקת הבנה
+- [[02_CURRICULUM/system-quizzes/1.0.0/QUIZ_EVIDENCE_NEXT_STEP|לפני שמגישים · שאלה קצרה לתרגול]] — תרגול לפני הגשה
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_BIZ_01|הוכחה מעשית · בירור צרכים ופגישת אפיון]] — הוכחה מעשית

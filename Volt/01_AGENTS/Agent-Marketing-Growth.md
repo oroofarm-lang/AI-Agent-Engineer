@@ -44,6 +44,10 @@ Translate the business need into an audience hypothesis, content brief, channel 
 
 הגדרה זו אינה טענה שהמודל רץ או שפעולה בוצעה. השרת מתעד ריצות אמיתיות, תוצאות וכשלים.
 
+## מפת הקשרים של המומחה
+
+[[01_AGENTS/maps/Agent-Marketing-Growth.canvas|פתיחת מפת המומחה]] — הפרקים הקשורים, המקורות והכלים המותרים. הקשרים מתארים תחומי עזרה אפשריים; השתתפות בפועל בתשובה מתועדת באפליקציה. מכל פרק אפשר לפתוח את מפת השיעורים שלו.
+
 ## קשרים במפת הידע
 
 - [[00_ORCHESTRATION/Orchestrator-Prime|Orchestrator-Prime — תזמור הלמידה]] — מומחה מתוזמר

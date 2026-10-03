@@ -11,7 +11,7 @@ source_ids: ["REACT","NEXTJS"]
 prerequisite_lesson_ids: ["WEB_02"]
 source_sha256: "9b8c903c26e2c4e27a16415da3cc22a495e8cfe7f2747c0da3a3d38b43a6eb6e"
 estimated_minutes: 150
-related: ["[[01_AGENTS/Agent-Code-Reviewer]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Production-Reliability]]","[[01_AGENTS/Agent-UI-UX-Inspector]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/exercises/WEB_03]]","[[02_CURRICULUM/2.2.0/lessons/WEB_02]]","[[02_CURRICULUM/2.2.0/lessons/WEB_04]]","[[02_CURRICULUM/2.2.0/modules/WEB]]","[[02_CURRICULUM/2.2.0/skills/BACKEND]]","[[02_CURRICULUM/2.2.0/skills/DEPLOYMENT]]","[[02_CURRICULUM/2.2.0/skills/UI_DESIGN]]","[[02_CURRICULUM/2.2.0/sources/NEXTJS]]","[[02_CURRICULUM/2.2.0/sources/REACT]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_WEB_03]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_WEB_03]]"]
+related: ["[[01_AGENTS/Agent-Code-Reviewer]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Production-Reliability]]","[[01_AGENTS/Agent-UI-UX-Inspector]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/exercises/WEB_03]]","[[02_CURRICULUM/2.2.0/lessons/WEB_02]]","[[02_CURRICULUM/2.2.0/lessons/WEB_04]]","[[02_CURRICULUM/2.2.0/modules/WEB]]","[[02_CURRICULUM/2.2.0/skills/BACKEND]]","[[02_CURRICULUM/2.2.0/skills/DEPLOYMENT]]","[[02_CURRICULUM/2.2.0/skills/UI_DESIGN]]","[[02_CURRICULUM/2.2.0/sources/NEXTJS]]","[[02_CURRICULUM/2.2.0/sources/REACT]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_WEB_03]]","[[02_CURRICULUM/system-quizzes/1.0.0/QUIZ_EVIDENCE_NEXT_STEP]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_WEB_03]]"]
 ---
 
 # בניית אתר בעזרת AI ובדיקת הקוד
@@ -123,4 +123,5 @@ Input → Contract check → Work / model proposal → Result check → Evidence
 - [[02_CURRICULUM/2.2.0/sources/NEXTJS|Next.js App Router]] — מקור לשיעור
 - [[02_CURRICULUM/2.2.0/sources/REACT|React learn]] — מקור לשיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_WEB_03|בדיקת הבנה: כרטיס בדף שנוצר בעזרת AI נראה טוב במחשב אך חורג מרוחב הטלפון. מה נדרש כדי להשלים את הבנייה?]] — בדיקת הבנה
+- [[02_CURRICULUM/system-quizzes/1.0.0/QUIZ_EVIDENCE_NEXT_STEP|לפני שמגישים · שאלה קצרה לתרגול]] — תרגול לפני הגשה
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_WEB_03|הוכחה מעשית · בניית אתר בעזרת AI ובדיקת הקוד]] — הוכחה מעשית

@@ -29,6 +29,10 @@ related: ["[[01_AGENTS/Agent-Automation-Engineer]]","[[01_AGENTS/Agent-Code-Revi
 7. CRM_07
 8. CRM_08
 
+## מפת הקשרים של הפרק
+
+[[02_CURRICULUM/2.2.0/maps/CRM.canvas|פתיחת מפת הפרק]] — השיעורים, התרגולים, המחוונים והמקורות הקשורים לפרק זה. הקשרים הנוספים מופיעים גם ברשומות עצמן.
+
 ## קשרים במפת הידע
 
 - [[01_AGENTS/Agent-Automation-Engineer|אוטומציה וחיבור מערכות]] — תחום הפרק

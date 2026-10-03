@@ -29,6 +29,10 @@ related: ["[[01_AGENTS/Agent-Agentic-Workflows]]","[[01_AGENTS/Agent-Curriculum-
 7. W06D29_RAG_FAILURE_MODES
 8. W06D30_PROJECT_KNOWLEDGE_AGENT
 
+## מפת הקשרים של הפרק
+
+[[02_CURRICULUM/2.2.0/maps/KNOWLEDGE.canvas|פתיחת מפת הפרק]] — השיעורים, התרגולים, המחוונים והמקורות הקשורים לפרק זה. הקשרים הנוספים מופיעים גם ברשומות עצמן.
+
 ## קשרים במפת הידע
 
 - [[01_AGENTS/Agent-Agentic-Workflows|סוכנים ותהליכי עבודה]] — תחום הפרק

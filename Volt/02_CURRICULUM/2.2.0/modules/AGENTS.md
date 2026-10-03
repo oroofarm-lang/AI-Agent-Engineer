@@ -47,6 +47,10 @@ related: ["[[01_AGENTS/Agent-Agentic-Workflows]]","[[01_AGENTS/Agent-Automation-
 25. W15D74_AGENTIC_CODING
 26. W15D75_PROJECT_AUTONOMOUS_WORKFLOW
 
+## מפת הקשרים של הפרק
+
+[[02_CURRICULUM/2.2.0/maps/AGENTS.canvas|פתיחת מפת הפרק]] — השיעורים, התרגולים, המחוונים והמקורות הקשורים לפרק זה. הקשרים הנוספים מופיעים גם ברשומות עצמן.
+
 ## קשרים במפת הידע
 
 - [[01_AGENTS/Agent-Agentic-Workflows|סוכנים ותהליכי עבודה]] — תחום הפרק

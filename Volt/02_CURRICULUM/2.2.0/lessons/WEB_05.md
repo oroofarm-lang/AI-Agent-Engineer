@@ -11,7 +11,7 @@ source_ids: ["WCAG","DOCKER"]
 prerequisite_lesson_ids: ["WEB_04"]
 source_sha256: "15b8ebbe1948bd139f6c50706d64ccc1ab5638ade51b611cd27efbef99fab3c3"
 estimated_minutes: 150
-related: ["[[01_AGENTS/Agent-Code-Reviewer]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Production-Reliability]]","[[01_AGENTS/Agent-UI-UX-Inspector]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/exercises/WEB_05]]","[[02_CURRICULUM/2.2.0/lessons/WEB_04]]","[[02_CURRICULUM/2.2.0/lessons/WEB_06]]","[[02_CURRICULUM/2.2.0/modules/WEB]]","[[02_CURRICULUM/2.2.0/skills/BACKEND]]","[[02_CURRICULUM/2.2.0/skills/DEPLOYMENT]]","[[02_CURRICULUM/2.2.0/skills/UI_DESIGN]]","[[02_CURRICULUM/2.2.0/sources/DOCKER]]","[[02_CURRICULUM/2.2.0/sources/WCAG]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_WEB_05]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_WEB_05]]"]
+related: ["[[01_AGENTS/Agent-Code-Reviewer]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Production-Reliability]]","[[01_AGENTS/Agent-UI-UX-Inspector]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/exercises/WEB_05]]","[[02_CURRICULUM/2.2.0/lessons/WEB_04]]","[[02_CURRICULUM/2.2.0/lessons/WEB_06]]","[[02_CURRICULUM/2.2.0/modules/WEB]]","[[02_CURRICULUM/2.2.0/skills/BACKEND]]","[[02_CURRICULUM/2.2.0/skills/DEPLOYMENT]]","[[02_CURRICULUM/2.2.0/skills/UI_DESIGN]]","[[02_CURRICULUM/2.2.0/sources/DOCKER]]","[[02_CURRICULUM/2.2.0/sources/WCAG]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_WEB_05]]","[[02_CURRICULUM/system-quizzes/1.0.0/QUIZ_EVIDENCE_NEXT_STEP]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_WEB_05]]"]
 ---
 
 # בדיקות לפני פריסה
@@ -123,4 +123,5 @@ Input → Contract check → Work / model proposal → Result check → Evidence
 - [[02_CURRICULUM/2.2.0/sources/DOCKER|Docker overview]] — מקור לשיעור
 - [[02_CURRICULUM/2.2.0/sources/WCAG|WCAG 2.2]] — מקור לשיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_WEB_05|בדיקת הבנה: דוח אוטומטי על האתר נראה תקין. איזו בדיקה עסקית עדיין צריך לבצע לפני פרסום?]] — בדיקת הבנה
+- [[02_CURRICULUM/system-quizzes/1.0.0/QUIZ_EVIDENCE_NEXT_STEP|לפני שמגישים · שאלה קצרה לתרגול]] — תרגול לפני הגשה
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_WEB_05|הוכחה מעשית · בדיקות לפני פריסה]] — הוכחה מעשית

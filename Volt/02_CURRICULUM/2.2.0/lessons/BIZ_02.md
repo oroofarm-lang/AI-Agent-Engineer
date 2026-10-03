@@ -11,7 +11,7 @@ source_ids: ["ANTHROPIC_AGENTS","ANTHROPIC_EVALS"]
 prerequisite_lesson_ids: ["BIZ_01"]
 source_sha256: "088453935d6e59aaeccb89612aeb92ecb12d7d784fe824f037cbdac7ddacb3d8"
 estimated_minutes: 150
-related: ["[[01_AGENTS/Agent-Business-Discovery]]","[[01_AGENTS/Agent-CRM-Sales]]","[[01_AGENTS/Agent-Curriculum-Auditor]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Marketing-Growth]]","[[01_AGENTS/Agent-Paid-Media-Measurement]]","[[01_AGENTS/Agent-Progress-Tracker]]","[[01_AGENTS/Agent-Quiz-Designer]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/exercises/BIZ_02]]","[[02_CURRICULUM/2.2.0/lessons/BIZ_01]]","[[02_CURRICULUM/2.2.0/lessons/BIZ_03]]","[[02_CURRICULUM/2.2.0/modules/BUSINESS]]","[[02_CURRICULUM/2.2.0/skills/BUSINESS_DISCOVERY]]","[[02_CURRICULUM/2.2.0/skills/EVALS]]","[[02_CURRICULUM/2.2.0/sources/ANTHROPIC_AGENTS]]","[[02_CURRICULUM/2.2.0/sources/ANTHROPIC_EVALS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_BIZ_02]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_BIZ_02]]"]
+related: ["[[01_AGENTS/Agent-Business-Discovery]]","[[01_AGENTS/Agent-CRM-Sales]]","[[01_AGENTS/Agent-Curriculum-Auditor]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Marketing-Growth]]","[[01_AGENTS/Agent-Paid-Media-Measurement]]","[[01_AGENTS/Agent-Progress-Tracker]]","[[01_AGENTS/Agent-Quiz-Designer]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/exercises/BIZ_02]]","[[02_CURRICULUM/2.2.0/lessons/BIZ_01]]","[[02_CURRICULUM/2.2.0/lessons/BIZ_03]]","[[02_CURRICULUM/2.2.0/modules/BUSINESS]]","[[02_CURRICULUM/2.2.0/skills/BUSINESS_DISCOVERY]]","[[02_CURRICULUM/2.2.0/skills/EVALS]]","[[02_CURRICULUM/2.2.0/sources/ANTHROPIC_AGENTS]]","[[02_CURRICULUM/2.2.0/sources/ANTHROPIC_EVALS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_BIZ_02]]","[[02_CURRICULUM/system-quizzes/1.0.0/QUIZ_EVIDENCE_NEXT_STEP]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_BIZ_02]]"]
 ---
 
 # בחירת פיילוט לפי ערך וסיכון
@@ -126,4 +126,5 @@ Input → Contract check → Work / model proposal → Result check → Evidence
 - [[02_CURRICULUM/2.2.0/sources/ANTHROPIC_AGENTS|Building effective agents]] — מקור לשיעור
 - [[02_CURRICULUM/2.2.0/sources/ANTHROPIC_EVALS|Demystifying evals for AI agents]] — מקור לשיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_BIZ_02|בדיקת הבנה: פיילוט נראה בעל ערך גבוה, אבל הנתונים הנדרשים אינם זמינים. מה נכון להביא בחשבון בבחירתו?]] — בדיקת הבנה
+- [[02_CURRICULUM/system-quizzes/1.0.0/QUIZ_EVIDENCE_NEXT_STEP|לפני שמגישים · שאלה קצרה לתרגול]] — תרגול לפני הגשה
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_BIZ_02|הוכחה מעשית · בחירת פיילוט לפי ערך וסיכון]] — הוכחה מעשית

@@ -11,7 +11,7 @@ source_ids: ["COPILOT","POWER_DLP"]
 prerequisite_lesson_ids: ["AUT_06"]
 source_sha256: "8b2371e1a51e81992c7928db0d94c7b1fd2b3b0b8e5b34697ed55fc0cb3d9862"
 estimated_minutes: 150
-related: ["[[01_AGENTS/Agent-Agentic-Workflows]]","[[01_AGENTS/Agent-Automation-Engineer]]","[[01_AGENTS/Agent-Business-Discovery]]","[[01_AGENTS/Agent-Code-Reviewer]]","[[01_AGENTS/Agent-CRM-Sales]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Security-Auditor]]","[[01_AGENTS/Agent-Voice-Audio]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/exercises/AUT_07]]","[[02_CURRICULUM/2.2.0/lessons/AUT_06]]","[[02_CURRICULUM/2.2.0/lessons/AUT_08]]","[[02_CURRICULUM/2.2.0/modules/AUTOMATION]]","[[02_CURRICULUM/2.2.0/skills/HTTP_APIS]]","[[02_CURRICULUM/2.2.0/skills/HUMAN_APPROVAL]]","[[02_CURRICULUM/2.2.0/skills/WORKFLOWS]]","[[02_CURRICULUM/2.2.0/sources/COPILOT]]","[[02_CURRICULUM/2.2.0/sources/POWER_DLP]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_AUT_07]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AUT_07]]"]
+related: ["[[01_AGENTS/Agent-Agentic-Workflows]]","[[01_AGENTS/Agent-Automation-Engineer]]","[[01_AGENTS/Agent-Business-Discovery]]","[[01_AGENTS/Agent-Code-Reviewer]]","[[01_AGENTS/Agent-CRM-Sales]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Security-Auditor]]","[[01_AGENTS/Agent-Voice-Audio]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/exercises/AUT_07]]","[[02_CURRICULUM/2.2.0/lessons/AUT_06]]","[[02_CURRICULUM/2.2.0/lessons/AUT_08]]","[[02_CURRICULUM/2.2.0/modules/AUTOMATION]]","[[02_CURRICULUM/2.2.0/skills/HTTP_APIS]]","[[02_CURRICULUM/2.2.0/skills/HUMAN_APPROVAL]]","[[02_CURRICULUM/2.2.0/skills/WORKFLOWS]]","[[02_CURRICULUM/2.2.0/sources/COPILOT]]","[[02_CURRICULUM/2.2.0/sources/POWER_DLP]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_AUT_07]]","[[02_CURRICULUM/system-quizzes/1.0.0/QUIZ_EVIDENCE_NEXT_STEP]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AUT_07]]"]
 ---
 
 # הטמעה בסביבת Microsoft 365
@@ -127,4 +127,5 @@ Input → Contract check → Work / model proposal → Result check → Evidence
 - [[02_CURRICULUM/2.2.0/sources/COPILOT|Copilot Studio generative actions]] — מקור לשיעור
 - [[02_CURRICULUM/2.2.0/sources/POWER_DLP|Power Platform data policies]] — מקור לשיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_AUT_07|בדיקת הבנה: Copilot Studio מציע Connector שהארגון לא אישר. האם עצם הופעתו במוצר מאפשרת להשתמש בו?]] — בדיקת הבנה
+- [[02_CURRICULUM/system-quizzes/1.0.0/QUIZ_EVIDENCE_NEXT_STEP|לפני שמגישים · שאלה קצרה לתרגול]] — תרגול לפני הגשה
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AUT_07|הוכחה מעשית · הטמעה בסביבת Microsoft 365]] — הוכחה מעשית

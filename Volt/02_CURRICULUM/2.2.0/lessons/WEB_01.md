@@ -11,7 +11,7 @@ source_ids: ["REACT","NEXTJS"]
 prerequisite_lesson_ids: ["FND_04","W14D70_PROJECT_AGENT_SAAS"]
 source_sha256: "205c7f68caaece0a92100a0dd7034ff0ff007557f74ddbd352e68976b96a1271"
 estimated_minutes: 150
-related: ["[[01_AGENTS/Agent-Code-Reviewer]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Production-Reliability]]","[[01_AGENTS/Agent-UI-UX-Inspector]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/exercises/WEB_01]]","[[02_CURRICULUM/2.2.0/lessons/FND_04]]","[[02_CURRICULUM/2.2.0/lessons/W14D70_PROJECT_AGENT_SAAS]]","[[02_CURRICULUM/2.2.0/lessons/WEB_02]]","[[02_CURRICULUM/2.2.0/modules/WEB]]","[[02_CURRICULUM/2.2.0/skills/BACKEND]]","[[02_CURRICULUM/2.2.0/skills/DEPLOYMENT]]","[[02_CURRICULUM/2.2.0/skills/UI_DESIGN]]","[[02_CURRICULUM/2.2.0/sources/NEXTJS]]","[[02_CURRICULUM/2.2.0/sources/REACT]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_WEB_01]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_WEB_01]]"]
+related: ["[[01_AGENTS/Agent-Code-Reviewer]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Production-Reliability]]","[[01_AGENTS/Agent-UI-UX-Inspector]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/exercises/WEB_01]]","[[02_CURRICULUM/2.2.0/lessons/FND_04]]","[[02_CURRICULUM/2.2.0/lessons/W14D70_PROJECT_AGENT_SAAS]]","[[02_CURRICULUM/2.2.0/lessons/WEB_02]]","[[02_CURRICULUM/2.2.0/modules/WEB]]","[[02_CURRICULUM/2.2.0/skills/BACKEND]]","[[02_CURRICULUM/2.2.0/skills/DEPLOYMENT]]","[[02_CURRICULUM/2.2.0/skills/UI_DESIGN]]","[[02_CURRICULUM/2.2.0/sources/NEXTJS]]","[[02_CURRICULUM/2.2.0/sources/REACT]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_WEB_01]]","[[02_CURRICULUM/system-quizzes/1.0.0/QUIZ_EVIDENCE_NEXT_STEP]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_WEB_01]]"]
 ---
 
 # תכנון אתר ומסע משתמש
@@ -123,4 +123,5 @@ Input → Contract check → Work / model proposal → Result check → Evidence
 - [[02_CURRICULUM/2.2.0/sources/NEXTJS|Next.js App Router]] — מקור לשיעור
 - [[02_CURRICULUM/2.2.0/sources/REACT|React learn]] — מקור לשיעור
 - [[02_CURRICULUM/quiz-banks/1.0.0-draft/QUIZ_WEB_01|בדיקת הבנה: בטופס פנייה מופיע ״הושלם״ מיד לאחר שהמשימה נכנסה לתור. מהו התיקון המתאים למסע המשתמש?]] — בדיקת הבנה
+- [[02_CURRICULUM/system-quizzes/1.0.0/QUIZ_EVIDENCE_NEXT_STEP|לפני שמגישים · שאלה קצרה לתרגול]] — תרגול לפני הגשה
 - [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_WEB_01|הוכחה מעשית · תכנון אתר ומסע משתמש]] — הוכחה מעשית

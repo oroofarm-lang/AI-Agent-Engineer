@@ -94,9 +94,16 @@ export function repository(connection: Connection, curriculum: Curriculum, userI
     },
     exportData() {
       return sqlite.transaction(() => ({
-        schemaVersion: 9,
-        agentEvaluations: sqlite.prepare('SELECT * FROM agent_evaluations WHERE user_id=? ORDER BY rowid').all(userId),
-        agentSteps: sqlite.prepare('SELECT * FROM agent_steps WHERE user_id=? ORDER BY run_id,sequence').all(userId),
+        schemaVersion: 10,
+        quizAttempts: sqlite
+          .prepare('SELECT * FROM quiz_attempts WHERE user_id=? ORDER BY rowid')
+          .all(userId),
+        agentEvaluations: sqlite
+          .prepare('SELECT * FROM agent_evaluations WHERE user_id=? ORDER BY rowid')
+          .all(userId),
+        agentSteps: sqlite
+          .prepare('SELECT * FROM agent_steps WHERE user_id=? ORDER BY run_id,sequence')
+          .all(userId),
         assessmentArtifacts: (
           sqlite
             .prepare('SELECT * FROM assessment_artifacts WHERE user_id=? ORDER BY rowid')

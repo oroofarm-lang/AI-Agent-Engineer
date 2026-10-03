@@ -26,6 +26,10 @@ related: ["[[01_AGENTS/Agent-Agentic-Workflows]]","[[01_AGENTS/Agent-Business-Di
 4. W16D79_HARDEN
 5. W16D80_FINAL_BOSS_DEMONSTRATE_FULL_SOLUTION
 
+## מפת הקשרים של הפרק
+
+[[02_CURRICULUM/2.2.0/maps/CAPSTONE.canvas|פתיחת מפת הפרק]] — השיעורים, התרגולים, המחוונים והמקורות הקשורים לפרק זה. הקשרים הנוספים מופיעים גם ברשומות עצמן.
+
 ## קשרים במפת הידע
 
 - [[01_AGENTS/Agent-Agentic-Workflows|סוכנים ותהליכי עבודה]] — תחום הפרק
