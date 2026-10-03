@@ -77,6 +77,74 @@ it('missing configuration cannot produce a simulated learner answer', async () =
   ).rejects.toThrow('AI_NOT_CONFIGURED');
   expect(request).not.toHaveBeenCalled();
 });
+it('uses strict structured outputs and real selected image/PDF inputs, with bounded bytes', async () => {
+  vi.stubEnv('OPENAI_API_KEY', 'unit-test-key');
+  vi.stubEnv('AI_MODEL', 'unit-test-model');
+  const request = vi
+    .fn<typeof fetch>()
+    .mockResolvedValue(
+      Response.json({
+        status: 'completed',
+        output: [
+          { type: 'message', content: [{ type: 'output_text', text: 'Test fixture only' }] },
+        ],
+      }),
+    );
+  const provider = openAIProvider(request);
+  await provider.reply({
+    instructions: 'fixture',
+    context: 'fixture',
+    messages: [{ role: 'user', content: 'Inspect fixtures' }],
+    format: {
+      name: 'fixture_schema',
+      schema: { type: 'object', properties: {}, additionalProperties: false },
+    },
+    assets: [
+      {
+        filename: 'fixture.png',
+        mimeType: 'image/png',
+        dataBase64: Buffer.from('PNG fixture bytes').toString('base64'),
+      },
+      {
+        filename: 'fixture.pdf',
+        mimeType: 'application/pdf',
+        dataBase64: Buffer.from('%PDF-fixture').toString('base64'),
+      },
+    ],
+  });
+  const body = JSON.parse(String(request.mock.calls[0][1]?.body));
+  expect(body.text.format).toMatchObject({
+    type: 'json_schema',
+    strict: true,
+    name: 'fixture_schema',
+  });
+  expect(body.input.at(-1).content).toEqual(
+    expect.arrayContaining([
+      expect.objectContaining({
+        type: 'input_image',
+        image_url: expect.stringMatching(/^data:image\/png;base64,/),
+      }),
+      expect.objectContaining({
+        type: 'input_file',
+        filename: 'fixture.pdf',
+        file_data: expect.stringMatching(/^data:application\/pdf;base64,/),
+      }),
+    ]),
+  );
+  await expect(
+    provider.reply({
+      instructions: '',
+      context: '',
+      messages: [],
+      assets: Array.from({ length: 7 }, () => ({
+        filename: 'fixture.png',
+        mimeType: 'image/png' as const,
+        dataBase64: 'YQ==',
+      })),
+    }),
+  ).rejects.toThrow();
+  expect(request).toHaveBeenCalledTimes(1);
+});
 it('persists replies, deduplicates a request, isolates threads and sends selected notes only', async () => {
   const { c, connection } = fixture(),
     value = input();

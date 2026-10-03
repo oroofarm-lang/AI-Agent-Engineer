@@ -87,6 +87,23 @@ test('assessment wizard saves real files, previews private portfolio and isolate
   expect(download.ok()).toBe(true);
   expect(await download.text()).toBe('print("saved evidence")\n');
   expect(download.headers()['content-disposition']).toContain('attachment');
+  await page.goto('/assessments');
+  await page.locator('.attempt > summary').click();
+  const automatic = page.getByRole('region', { name: 'משוב אוטומטי על ההגשה' });
+  await expect(automatic.getByText('המשוב באמצעות AI עדיין אינו זמין.')).toBeVisible();
+  await automatic.getByRole('checkbox', { name: /answer\.py/ }).check();
+  await automatic.getByRole('checkbox', { name: /אני מסכים לשליחת/ }).check();
+  await expect(automatic.getByRole('button', { name: 'בקשת משוב אוטומטי' })).toBeDisabled();
+  const savedSubmission = saved.assessmentResults[0].id;
+  const feedback = await page.request.get(`/api/agents/evaluate?submissionId=${savedSubmission}`);
+  expect(feedback.ok()).toBe(true);
+  expect((await feedback.json()).evaluations).toEqual([]);
+  await page.setViewportSize({ width: 390, height: 844 });
+  await automatic.screenshot({ path: 'test-results/ai-feedback-unconfigured.png' });
+  expect(
+    (await new AxeBuilder({ page }).withTags(['wcag2a', 'wcag2aa', 'wcag21aa']).analyze())
+      .violations,
+  ).toEqual([]);
   const other = await browser.newContext();
   try {
     const signup = await other.request.post('http://127.0.0.1:3100/api/auth/sign-up/email', {
@@ -100,6 +117,13 @@ test('assessment wizard saves real files, previews private portfolio and isolate
     expect(signup.ok()).toBe(true);
     expect(
       (await other.request.get(`http://127.0.0.1:3100/api/artifacts/${file.id}`)).status(),
+    ).toBe(404);
+    expect(
+      (
+        await other.request.get(
+          `http://127.0.0.1:3100/api/agents/evaluate?submissionId=${savedSubmission}`,
+        )
+      ).status(),
     ).toBe(404);
     expect(
       (await (await other.request.get('http://127.0.0.1:3100/api/export')).json()).portfolioEntries,

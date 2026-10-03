@@ -1,0 +1,63 @@
+---
+generated: true
+schema_version: 1
+kind: "skill"
+entity_id: "GROUNDING"
+curriculum_version: "2.2.0"
+skill_id: "GROUNDING"
+prerequisite_skill_ids: []
+related: ["[[01_AGENTS/Agent-Curriculum-Auditor]]","[[01_AGENTS/Agent-Knowledge-RAG]]","[[01_AGENTS/Agent-Model-Data]]","[[02_CURRICULUM/2.2.0/Index]]","[[02_CURRICULUM/2.2.0/lessons/MKT_01]]","[[02_CURRICULUM/2.2.0/lessons/MKT_02]]","[[02_CURRICULUM/2.2.0/lessons/MKT_03]]","[[02_CURRICULUM/2.2.0/lessons/MKT_04]]","[[02_CURRICULUM/2.2.0/lessons/MKT_05]]","[[02_CURRICULUM/2.2.0/lessons/MKT_06]]","[[02_CURRICULUM/2.2.0/lessons/MKT_07]]","[[02_CURRICULUM/2.2.0/lessons/MKT_08]]","[[02_CURRICULUM/2.2.0/lessons/MKT_09]]","[[02_CURRICULUM/2.2.0/lessons/MKT_10]]","[[02_CURRICULUM/2.2.0/lessons/W02D06_HOW_LLM_APPLICATIONS_WORK]]","[[02_CURRICULUM/2.2.0/lessons/W02D07_CONTEXT_ENGINEERING]]","[[02_CURRICULUM/2.2.0/lessons/W02D08_STRUCTURED_OUTPUTS]]","[[02_CURRICULUM/2.2.0/lessons/W02D09_MODEL_RELIABILITY]]","[[02_CURRICULUM/2.2.0/lessons/W02D10_PROJECT_INTELLIGENT_INTAKE_ENGINE]]","[[02_CURRICULUM/2.2.0/lessons/W04D16_TASK_DECOMPOSITION]]","[[02_CURRICULUM/2.2.0/lessons/W04D17_SEARCH_EVIDENCE]]","[[02_CURRICULUM/2.2.0/lessons/W04D18_ITERATIVE_RESEARCH]]","[[02_CURRICULUM/2.2.0/lessons/W04D19_RESEARCH_QUALITY]]","[[02_CURRICULUM/2.2.0/lessons/W04D20_BOSS_LEVEL_1_RESEARCH_AGENT]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_01]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_02]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_03]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_04]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_05]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_06]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_07]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_08]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_09]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_10]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W02D06_HOW_LLM_APPLICATIONS_WORK]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W02D07_CONTEXT_ENGINEERING]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W02D08_STRUCTURED_OUTPUTS]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W02D09_MODEL_RELIABILITY]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W02D10_PROJECT_INTELLIGENT_INTAKE_ENGINE]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W04D16_TASK_DECOMPOSITION]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W04D17_SEARCH_EVIDENCE]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W04D18_ITERATIVE_RESEARCH]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W04D19_RESEARCH_QUALITY]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W04D20_BOSS_LEVEL_1_RESEARCH_AGENT]]"]
+---
+
+# Grounding
+
+תחום: LLM Engineering
+
+יכולת הנדסית: Grounding. הבנה, מימוש, ולבסוף תכנון וניפוי שגיאות באופן עצמאי.
+
+## קשרים במפת הידע
+
+- [[01_AGENTS/Agent-Curriculum-Auditor|מקורות ועדכוני תוכן]] — מומחיות במיומנות
+- [[01_AGENTS/Agent-Knowledge-RAG|ידע, זיכרון ושליפת מקורות]] — מומחיות במיומנות
+- [[01_AGENTS/Agent-Model-Data|מודלים, הקשר ונתונים]] — מומחיות במיומנות
+- [[02_CURRICULUM/2.2.0/Index|כל הפרקים והשיעורים]] — מיומנות
+- [[02_CURRICULUM/2.2.0/lessons/MKT_01|בריף מותג וקהל]] — מיומנות בשיעור
+- [[02_CURRICULUM/2.2.0/lessons/MKT_02|מחקר קהל ומתחרים]] — מיומנות בשיעור
+- [[02_CURRICULUM/2.2.0/lessons/MKT_03|אסטרטגיית תוכן ולוח עבודה]] — מיומנות בשיעור
+- [[02_CURRICULUM/2.2.0/lessons/MKT_04|כתיבה ועריכה בעברית]] — מיומנות בשיעור
+- [[02_CURRICULUM/2.2.0/lessons/MKT_05|מקור אחד לכמה פורמטים]] — מיומנות בשיעור
+- [[02_CURRICULUM/2.2.0/lessons/MKT_06|יצירת תמונות ועריכה לפי בריף]] — מיומנות בשיעור
+- [[02_CURRICULUM/2.2.0/lessons/MKT_07|וידאו: מתסריט לתוצר]] — מיומנות בשיעור
+- [[02_CURRICULUM/2.2.0/lessons/MKT_08|קריינות, תמלול ותרגום]] — מיומנות בשיעור
+- [[02_CURRICULUM/2.2.0/lessons/MKT_09|SEO ואישור פרסום]] — מיומנות בשיעור
+- [[02_CURRICULUM/2.2.0/lessons/MKT_10|מבחן מסכם: סטודיו תוכן עסקי]] — מיומנות בשיעור
+- [[02_CURRICULUM/2.2.0/lessons/W02D06_HOW_LLM_APPLICATIONS_WORK|איך אפליקציות LLM פועלות]] — מיומנות בשיעור
+- [[02_CURRICULUM/2.2.0/lessons/W02D07_CONTEXT_ENGINEERING|הנדסת הקשר]] — מיומנות בשיעור
+- [[02_CURRICULUM/2.2.0/lessons/W02D08_STRUCTURED_OUTPUTS|פלט מובנה ואימות נתונים]] — מיומנות בשיעור
+- [[02_CURRICULUM/2.2.0/lessons/W02D09_MODEL_RELIABILITY|אמינות, ביסוס ואי־ודאות]] — מיומנות בשיעור
+- [[02_CURRICULUM/2.2.0/lessons/W02D10_PROJECT_INTELLIGENT_INTAKE_ENGINE|פרויקט: מנוע קליטת פניות]] — מיומנות בשיעור
+- [[02_CURRICULUM/2.2.0/lessons/W04D16_TASK_DECOMPOSITION|פירוק משימות מחקר]] — מיומנות בשיעור
+- [[02_CURRICULUM/2.2.0/lessons/W04D17_SEARCH_EVIDENCE|חיפוש ואיכות ראיות]] — מיומנות בשיעור
+- [[02_CURRICULUM/2.2.0/lessons/W04D18_ITERATIVE_RESEARCH|מחקר איטרטיבי ותנאי עצירה]] — מיומנות בשיעור
+- [[02_CURRICULUM/2.2.0/lessons/W04D19_RESEARCH_QUALITY|אימות דוח מחקר]] — מיומנות בשיעור
+- [[02_CURRICULUM/2.2.0/lessons/W04D20_BOSS_LEVEL_1_RESEARCH_AGENT|מבחן מסכם: סוכן מחקר]] — מיומנות בשיעור
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_01|הוכחה מעשית · בריף מותג וקהל]] — מיומנות שנבדקת
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_02|הוכחה מעשית · מחקר קהל ומתחרים]] — מיומנות שנבדקת
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_03|הוכחה מעשית · אסטרטגיית תוכן ולוח עבודה]] — מיומנות שנבדקת
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_04|הוכחה מעשית · כתיבה ועריכה בעברית]] — מיומנות שנבדקת
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_05|הוכחה מעשית · מקור אחד לכמה פורמטים]] — מיומנות שנבדקת
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_06|הוכחה מעשית · יצירת תמונות ועריכה לפי בריף]] — מיומנות שנבדקת
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_07|הוכחה מעשית · וידאו: מתסריט לתוצר]] — מיומנות שנבדקת
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_08|הוכחה מעשית · קריינות, תמלול ותרגום]] — מיומנות שנבדקת
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_09|הוכחה מעשית · SEO ואישור פרסום]] — מיומנות שנבדקת
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_10|הוכחה מעשית · מבחן מסכם: סטודיו תוכן עסקי]] — מיומנות שנבדקת
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W02D06_HOW_LLM_APPLICATIONS_WORK|הוכחה מעשית · איך אפליקציות LLM פועלות]] — מיומנות שנבדקת
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W02D07_CONTEXT_ENGINEERING|הוכחה מעשית · הנדסת הקשר]] — מיומנות שנבדקת
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W02D08_STRUCTURED_OUTPUTS|הוכחה מעשית · פלט מובנה ואימות נתונים]] — מיומנות שנבדקת
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W02D09_MODEL_RELIABILITY|הוכחה מעשית · אמינות, ביסוס ואי־ודאות]] — מיומנות שנבדקת
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W02D10_PROJECT_INTELLIGENT_INTAKE_ENGINE|הוכחה מעשית · פרויקט: מנוע קליטת פניות]] — מיומנות שנבדקת
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W04D16_TASK_DECOMPOSITION|הוכחה מעשית · פירוק משימות מחקר]] — מיומנות שנבדקת
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W04D17_SEARCH_EVIDENCE|הוכחה מעשית · חיפוש ואיכות ראיות]] — מיומנות שנבדקת
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W04D18_ITERATIVE_RESEARCH|הוכחה מעשית · מחקר איטרטיבי ותנאי עצירה]] — מיומנות שנבדקת
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W04D19_RESEARCH_QUALITY|הוכחה מעשית · אימות דוח מחקר]] — מיומנות שנבדקת
+- [[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W04D20_BOSS_LEVEL_1_RESEARCH_AGENT|הוכחה מעשית · מבחן מסכם: סוכן מחקר]] — מיומנות שנבדקת

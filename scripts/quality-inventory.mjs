@@ -52,16 +52,16 @@ const lessons = catalog.lessons
     return { file, id: lesson.id, title: lesson.title, sha256: hash(body), body };
   });
 // Learner-visible rubrics and catalog labels are data, not JSX literals.
-// Restrict this collection to the public curriculum manifests.
+// Restrict this collection to public curriculum and agent definitions.
 const structuredCopy = [];
-for (const name of [
-  'curriculum.json',
-  'assessments.json',
-  'skills.json',
-  'sources.json',
-  'changelog.json',
+for (const file of [
+  'content/curriculum/curriculum.json',
+  'content/curriculum/assessments.json',
+  'content/curriculum/skills.json',
+  'content/curriculum/sources.json',
+  'content/curriculum/changelog.json',
+  'content/agents/registry.json',
 ]) {
-  const file = `content/curriculum/${name}`;
   const source = fs.readFileSync(path.join(root, file), 'utf8');
   const copy = [];
   function visit(value, jsonPath) {

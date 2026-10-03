@@ -8,13 +8,17 @@ import { CodeBlock } from './code-block';
 import { helpLabels } from '@/lib/ai/policy';
 import { useMentorContext } from './learning/mentor-context';
 type Message = { id: string; role: 'user' | 'assistant'; body: string };
+type Participation = { agentId: string; title: string; role: string; state: string };
 const errors: Record<string, string> = {
-  AI_NOT_CONFIGURED: 'חיבור ה־AI עדיין לא הוגדר. בעל המערכת צריך להגדיר מפתח ומודל בצד השרת.',
+  AI_NOT_CONFIGURED: 'העזרה באמצעות AI עדיין אינה זמינה. מפעיל הקורס צריך להפעיל את החיבור.',
   MENTOR_BUSY: 'בקשה קודמת עדיין מתבצעת. המתן רגע לפני שליחת בקשה נוספת.',
+  MENTOR_PREVIOUS_FAILED: 'הבקשה הזו לא הושלמה. לא בוצע ניסיון חוזר אוטומטי ולא נשמרה תשובת AI.',
   MENTOR_DAILY_LIMIT: 'הגעת למגבלה של 20 בקשות ביום. אפשר להמשיך ללמוד ללא המנטור.',
   AI_RATE_LIMIT: 'ספק ה־AI הגביל את הבקשה. לא בוצע ניסיון חוזר אוטומטי.',
   AI_CONNECTION_FAILED: 'לא התקבלה תשובה בזמן. ייתכן שהבקשה נקלטה אצל הספק; לא שלחנו אותה שוב.',
   FOUNDATION_REQUIRED: 'צריך להשלים את תרגילי פרק היסודות לפני עבודה ביחידה הזו.',
+  AGENT_ROUTING_INVALID: 'לא הצלחנו לבחור את תחומי העזרה לשאלה הזו. לא נשמרה תשובת AI.',
+  AGENT_CONTEXT_LIMIT: 'צורף יותר מדי מידע לבקשה. נסה שאלה ממוקדת יותר עם פחות מידע מצורף.',
 };
 export function MentorInfo() {
   const dialog = useRef<HTMLDialogElement>(null);
@@ -35,6 +39,8 @@ export function MentorInfo() {
   const [includeNotes, setIncludeNotes] = useState(false);
   const [includeReflections, setIncludeReflections] = useState(false);
   const [knowledgeStatus, setKnowledgeStatus] = useState('');
+  const [explanationLevel, setExplanationLevel] = useState('practical');
+  const [participation, setParticipation] = useState<Participation[]>([]);
   async function load() {
     const response = await fetch(
       `/api/mentor${lessonId ? `?lessonId=${encodeURIComponent(lessonId)}` : ''}`,
@@ -45,6 +51,7 @@ export function MentorInfo() {
     setLoaded(true);
     setMessages(data.messages);
     setThreadId(data.threadId);
+    setParticipation(data.steps || []);
     setKnowledgeStatus(
       data.knowledge
         ? `מקורות עדכון: ${data.knowledge.sources.filter((source: { status: string }) => source.status === 'ok').length} מתוך ${data.knowledge.sources.length} זמינים. ניסיון העדכון האחרון: ${new Intl.DateTimeFormat('he-IL', { dateStyle: 'short', timeZone: 'Asia/Jerusalem' }).format(new Date(data.knowledge.attemptedAt))}.`
@@ -62,6 +69,7 @@ export function MentorInfo() {
     setMessage('');
     setIncludeNotes(false);
     setIncludeReflections(false);
+    setParticipation([]);
     try {
       await load();
       setStatus('');
@@ -72,9 +80,9 @@ export function MentorInfo() {
   async function send(event: React.FormEvent) {
     event.preventDefault();
     setBusy(true);
-    setStatus('המנטור מכין תשובה…');
+    setStatus('מכין תשובה…');
     try {
-      const response = await fetch('/api/mentor', {
+      const response = await fetch('/api/agents/orchestrate', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -88,6 +96,7 @@ export function MentorInfo() {
           helpLevel,
           includeNotes,
           includeReflections,
+          explanationLevel,
           activeTask: activeTask ? { kind: activeTask.kind, id: activeTask.id } : null,
         }),
       });
@@ -102,6 +111,7 @@ export function MentorInfo() {
       }
       setMessages(data.messages);
       setThreadId(data.threadId);
+      setParticipation(data.steps || []);
       setMessage('');
       setCode('');
       setStatus('התשובה נשמרה. זו תשובת AI; בדוק אותה לפני שימוש.');
@@ -183,8 +193,29 @@ export function MentorInfo() {
             </article>
           ))}
         </div>
+        {participation.some((item) => item.role === 'specialist' && item.state === 'COMPLETE') && (
+          <p className="muted tiny">
+            תחומי העזרה שהשתתפו בתשובה האחרונה:{' '}
+            {participation
+              .filter((item) => item.role === 'specialist' && item.state === 'COMPLETE')
+              .map((item) => item.title)
+              .join(' · ')}
+          </p>
+        )}
         <form onSubmit={send}>
           <div className="practice-fields">
+            <label className="field-label">
+              דרך ההסבר
+              <select
+                value={explanationLevel}
+                onChange={(e) => setExplanationLevel(e.target.value)}
+                disabled={busy}
+              >
+                <option value="eli5">הסבר פשוט</option>
+                <option value="practical">צעד אחר צעד</option>
+                <option value="advanced">לעומק</option>
+              </select>
+            </label>
             <label className="field-label">
               סוג העזרה
               <select value={mode} onChange={(e) => setMode(e.target.value)} disabled={busy}>
@@ -232,8 +263,8 @@ export function MentorInfo() {
             </label>
           </div>
           <p className="muted tiny">
-            באתגרי סיום ובבחינה עצמית, העזרה מוגבלת לשאלה מנחה או לכיוון לפתרון. זו הנחיה למודל,
-            ואינה מבטיחה שיציית בכל תשובה.
+            באתגרי סיום ובבחינה עצמית, המנטור מתבקש לתת רק שאלה מנחה או כיוון לפתרון.
+            תשובותיו עשויות לחרוג מכך.
           </p>
           <label className="field-label">
             מה ניסית, ובמה נתקעת?
@@ -250,7 +281,7 @@ export function MentorInfo() {
           <details>
             <summary>לצרף קוד או מידע אישי מהקורס · לבחירתך</summary>
             <label className="field-label">
-              קוד לבדיקה — בלי סיסמאות או מפתחות
+              קוד לסקירה — בלי סיסמאות או מפתחות
               <textarea
                 dir="ltr"
                 value={code}

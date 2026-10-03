@@ -1,0 +1,3205 @@
+{
+  "version": "1.0.0",
+  "status": "draft",
+  "curriculumVersion": "2.2.0",
+  "reviewStatus": "requires-human-review",
+  "quizzes": [
+    {
+      "id": "QUIZ_W01D01_FIRST_AI_PROGRAM",
+      "lessonId": "W01D01_FIRST_AI_PROGRAM",
+      "question": "מה תפקידו של ה־SDK בתוכנית app.py שבשיעור?",
+      "options": [
+        {
+          "id": "A",
+          "text": "לספק קוד שמקל על שליחת בקשה לממשק של השירות"
+        },
+        {
+          "id": "B",
+          "text": "לאמן מחדש את המודל במחשב של הלומד"
+        },
+        {
+          "id": "C",
+          "text": "להחליף את Python ולהריץ את הקובץ בלי מפרש"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "ה־SDK הוא ערכת פיתוח שמקלה על שימוש בממשק השירות. קוד Python רץ מקומית, ואילו המודל מייצר את הפלט אצל הספק.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["PYTHON_TUTORIAL", "OPENAI_QUICKSTART", "GIT_BOOK"]
+    },
+    {
+      "id": "QUIZ_W01D02_PYTHON_FOR_AGENT_BUILDERS_I",
+      "lessonId": "W01D02_PYTHON_FOR_AGENT_BUILDERS_I",
+      "question": "הנתב החזיר status מסוג not_searched עבור הפעולה research. מה אפשר להסיק?",
+      "options": [
+        {
+          "id": "A",
+          "text": "החיפוש הצליח ולא נמצאו מקורות"
+        },
+        {
+          "id": "B",
+          "text": "בוצעה הדגמה מקומית, אך לא חיפוש אמיתי"
+        },
+        {
+          "id": "C",
+          "text": "הנתב פנה למודל וביקש ממנו לחפש שוב"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "בתרגיל research מחזירה מילון לתרגול עם המצב not_searched. שם הפעולה אינו ראיה שחיפוש בוצע; הפונקציה אינה מחוברת לשירות חיפוש.",
+      "sourceSection": "Build First",
+      "sourceIds": ["PYTHON_TUTORIAL"]
+    },
+    {
+      "id": "QUIZ_W01D03_PYTHON_FOR_AGENT_BUILDERS_II",
+      "lessonId": "W01D03_PYTHON_FOR_AGENT_BUILDERS_II",
+      "question": "קובץ השיחה קיים, אבל תוכנו הוא הטקסט broken. כיצד צריך load_messages להגיב?",
+      "options": [
+        {
+          "id": "A",
+          "text": "להחזיר שיחה ריקה ולדרוס את הקובץ"
+        },
+        {
+          "id": "B",
+          "text": "לצרף את broken כהודעת assistant ולהמשיך"
+        },
+        {
+          "id": "C",
+          "text": "להציג כשל בפענוח ולשמור את הקובץ המקורי"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "התרגיל מחזיר שיחה ריקה רק כשהקובץ אינו קיים. קובץ פגום הוא מצב אחר: יש להציג את השגיאה ולא למחוק את המידע המקורי.",
+      "sourceSection": "Build First",
+      "sourceIds": ["PYTHON_JSON", "PYTHON_TUTORIAL"]
+    },
+    {
+      "id": "QUIZ_W01D04_HTTP_APIS",
+      "lessonId": "W01D04_HTTP_APIS",
+      "question": "שרת המעבדה החזיר קוד 200, אבל גוף התגובה הוא not-json. היכן עלולה הקריאה להיכשל?",
+      "options": [
+        {
+          "id": "A",
+          "text": "בפענוח גוף התגובה כ־JSON"
+        },
+        {
+          "id": "B",
+          "text": "בבדיקת קוד 404 שהשרת החזיר"
+        },
+        {
+          "id": "C",
+          "text": "רק בשלב אימון המודל על התגובה"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "קוד 200 מציין הצלחה ברמת HTTP, אך אינו מבטיח שהגוף תקין. פענוח JSON ובדיקת המבנה הם שלבים נוספים.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["HTTP_OVERVIEW", "PYTHON_JSON"]
+    },
+    {
+      "id": "QUIZ_W01D05_PROJECT_AGENT_ZERO",
+      "lessonId": "W01D05_PROJECT_AGENT_ZERO",
+      "question": "הכלי lookup_product נכשל ולא סיפק נתוני מלאי. איזו תשובה מתאימה לדרישת הפרויקט?",
+      "options": [
+        {
+          "id": "A",
+          "text": "להשתמש בכמות ממוצעת בלי לציין זאת"
+        },
+        {
+          "id": "B",
+          "text": "לציין שחסר מידע ולא להמציא מלאי"
+        },
+        {
+          "id": "C",
+          "text": "להכריז שהמוצר זמין כי המודל ביקש לבדוק אותו"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "מעבדת הכשל דורשת שהסוכן יציג את המידע החסר ולא ימציא נתוני מלאי. בקשה לכלי אינה תוצאה של הכלי.",
+      "sourceSection": "Failure Lab",
+      "sourceIds": ["OPENAI_TOOLS", "PYTHON_TUTORIAL"]
+    },
+    {
+      "id": "QUIZ_W02D06_HOW_LLM_APPLICATIONS_WORK",
+      "lessonId": "W02D06_HOW_LLM_APPLICATIONS_WORK",
+      "question": "מה ההבדל בין טוקן לבין מילה שלמה?",
+      "options": [
+        {
+          "id": "A",
+          "text": "כל טוקן הוא תמיד משפט שלם"
+        },
+        {
+          "id": "B",
+          "text": "מספר הטוקנים זהה למספר התווים בכל שפה"
+        },
+        {
+          "id": "C",
+          "text": "טוקן הוא יחידת ייצוג שהמודל מעבד, ואינו בהכרח מילה שלמה"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "השיעור מגדיר טוקנים כיחידות ייצוג. חלוקת אותו משפט לטוקנים עשויה להשתנות בין שפות, ולכן אין להחליף מדידת שימוש בספירת מילים או תווים.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["OPENAI_QUICKSTART", "GOOGLE_ML"]
+    },
+    {
+      "id": "QUIZ_W02D07_CONTEXT_ENGINEERING",
+      "lessonId": "W02D07_CONTEXT_ENGINEERING",
+      "question": "מסמך שצורף לעוזר פניות כולל הוראה לשנות את המשימה. כיצד צריך להתייחס אליה?",
+      "options": [
+        {
+          "id": "A",
+          "text": "כמידע בתוך המסמך, שאינו הוראה מחייבת למערכת"
+        },
+        {
+          "id": "B",
+          "text": "כהוראה חדשה בעלת עדיפות על משימת המערכת"
+        },
+        {
+          "id": "C",
+          "text": "כאישור אוטומטי לשינוי כללי העסק"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "מקורות מספקים מידע לביצוע המשימה. מסמך חיצוני אינו הופך להוראה מחייבת רק מפני שצורף להקשר; זאת בדיוק התקלה שהמעבדה מבקשת לבדוק.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["OPENAI_QUICKSTART", "ANTHROPIC_AGENTS"]
+    },
+    {
+      "id": "QUIZ_W02D08_STRUCTURED_OUTPUTS",
+      "lessonId": "W02D08_STRUCTURED_OUTPUTS",
+      "question": "רשומת Lead תואמת לסכמה, אך כוללת שם שלא הופיע בפנייה. איזו בדיקה עדיין נדרשת?",
+      "options": [
+        {
+          "id": "A",
+          "text": "להסתפק בכך שהשדה name הוא מחרוזת"
+        },
+        {
+          "id": "B",
+          "text": "לבדוק את מקור השם ואת נכונות המידע, מעבר למבנה"
+        },
+        {
+          "id": "C",
+          "text": "להמיר את השם למספר כדי לחזק את הסכמה"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "סכמה בודקת שדות וסוגים. השיעור מבדיל בינה לבין בדיקת משמעות ומקור; מבנה תקין אינו מוכיח שהמודל חילץ מידע נכון.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["OPENAI_SCHEMA", "PYTHON_JSON"]
+    },
+    {
+      "id": "QUIZ_W02D09_MODEL_RELIABILITY",
+      "lessonId": "W02D09_MODEL_RELIABILITY",
+      "question": "שתי גרסאות של נוהל סותרות זו את זו. איזה מצב מתאים לכללים שהוגדרו בתרגיל?",
+      "options": [
+        {
+          "id": "A",
+          "text": "KNOWN, מפני שנמצאו שני מקורות"
+        },
+        {
+          "id": "B",
+          "text": "UNKNOWN, תוך מחיקת שני המקורות מן התיעוד"
+        },
+        {
+          "id": "C",
+          "text": "NEEDS_VERIFICATION, עם הצגת הסתירה"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "בתרגיל KNOWN דורש ראיה מספקת, UNKNOWN מציין מידע חסר, ו־NEEDS_VERIFICATION מציין סתירה או ראיה חלקית. אלו כללים שהקוד מגדיר, לא מדידת אמת מובנית של המודל.",
+      "sourceSection": "Build First",
+      "sourceIds": ["PYTHON_TUTORIAL", "ANTHROPIC_AGENTS"]
+    },
+    {
+      "id": "QUIZ_W02D10_PROJECT_INTELLIGENT_INTAKE_ENGINE",
+      "lessonId": "W02D10_PROJECT_INTELLIGENT_INTAKE_ENGINE",
+      "question": "מדוע מנוע הקליטה שומר פנייה מטקסט, מטופס ומקובץ במבנה משותף?",
+      "options": [
+        {
+          "id": "A",
+          "text": "כדי לבדוק ולשמור את הפרטים באופן אחיד, תוך תיעוד ערוץ המקור"
+        },
+        {
+          "id": "B",
+          "text": "כדי להסתיר מאיזה ערוץ הגיעה הפנייה"
+        },
+        {
+          "id": "C",
+          "text": "כדי לפטור פניות מקבצים מבדיקת כללי העסק"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "המבנה המשותף כולל בין היתר channel, extracted_fields ו־missing_fields. האחידות אינה מוחקת את המקור ואינה מחליפה אימות מבנה וכללים עסקיים.",
+      "sourceSection": "Build First",
+      "sourceIds": ["PYTHON_TUTORIAL", "ANTHROPIC_AGENTS"]
+    },
+    {
+      "id": "QUIZ_W03D11_WHAT_MAKES_SOMETHING_AN_AGENT",
+      "lessonId": "W03D11_WHAT_MAKES_SOMETHING_AN_AGENT",
+      "question": "באיזה מקרה המודל פועל כסוכן, לפי ההבחנות בקורס?",
+      "options": [
+        {
+          "id": "A",
+          "text": "הקוד מבצע תמיד אותם שלושה שלבים קבועים"
+        },
+        {
+          "id": "B",
+          "text": "המודל בוחר במהלך הריצה פעולה או צעד המשך בתוך גבולות המערכת"
+        },
+        {
+          "id": "C",
+          "text": "התוכנית מציגה תשובת מודל אחת בלי בחירת צעדים"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "בתהליך קבוע הקוד קובע את סדר השלבים. בסוכן המודל בוחר חלק מהצעדים בזמן הריצה, והקוד עדיין בודק הרשאות וגבולות.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["PYTHON_TUTORIAL", "ANTHROPIC_AGENTS"]
+    },
+    {
+      "id": "QUIZ_W03D12_TOOL_CALLING",
+      "lessonId": "W03D12_TOOL_CALLING",
+      "question": "המודל ביקש להפעיל כלי שאינו ברשימת הכלים המורשים. מה תפקיד הקוד?",
+      "options": [
+        {
+          "id": "A",
+          "text": "להפעיל אותו אם שם הכלי נשמע סביר"
+        },
+        {
+          "id": "B",
+          "text": "להוסיף אותו לרשימה על סמך בקשת המודל"
+        },
+        {
+          "id": "C",
+          "text": "לדחות את הבקשה ולא להפעיל את הכלי"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "בקשת מודל אינה הרשאה. הקוד בודק את שם הכלי ואת הארגומנטים מול רשימה וסכמה; הנחיה בטקסט אינה מחליפה את הבדיקות האלה.",
+      "sourceSection": "Build First",
+      "sourceIds": ["OPENAI_TOOLS"]
+    },
+    {
+      "id": "QUIZ_W03D13_AGENT_LOOP",
+      "lessonId": "W03D13_AGENT_LOOP",
+      "question": "מה צריך לקרות לאחר שהקוד מפעיל כלי בלולאת הסוכן?",
+      "options": [
+        {
+          "id": "A",
+          "text": "להוסיף את תוצאת הפעולה להקשר של הקריאה הבאה למודל"
+        },
+        {
+          "id": "B",
+          "text": "לשלוח למודל רק את המטרה המקורית ולמחוק את התוצאה"
+        },
+        {
+          "id": "C",
+          "text": "לסמן את כל המשימה כהצלחה בלי לבדוק אם הושלמה"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "הלולאה מחזירה למודל את מה שבוצע בפועל. כך הוא יכול לבחור צעד נוסף או לסיים על בסיס תוצאות קודמות, בתוך מגבלת הצעדים.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["OPENAI_TOOLS", "ANTHROPIC_AGENTS"]
+    },
+    {
+      "id": "QUIZ_W03D14_RELIABILITY_FAILURE_HANDLING",
+      "lessonId": "W03D14_RELIABILITY_FAILURE_HANDLING",
+      "question": "פעולת כתיבה הסתיימה בהמתנה ארוכה, ולא ברור אם כבר שינתה נתונים. מה נכון לעשות לפני ניסיון חוזר?",
+      "options": [
+        {
+          "id": "A",
+          "text": "לנסות מיד שוב ללא מגבלה"
+        },
+        {
+          "id": "B",
+          "text": "לברר מה בוצע לפני שליחת הכתיבה שוב"
+        },
+        {
+          "id": "C",
+          "text": "לשנות את נוסח ההנחיה ולסמן את הכתיבה כהצלחה"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "התרגיל מבדיל בין ניסיון חוזר של קריאה לבין כתיבה שמצבה אינו ידוע. ניסיון חוזר עלול לבצע את השינוי שוב, ולכן קודם בודקים מה כבר קרה.",
+      "sourceSection": "Build First",
+      "sourceIds": ["PYTHON_TUTORIAL", "ANTHROPIC_AGENTS"]
+    },
+    {
+      "id": "QUIZ_W03D15_PROJECT_AGENT_FROM_SCRATCH",
+      "lessonId": "W03D15_PROJECT_AGENT_FROM_SCRATCH",
+      "question": "מה בודקת הדמיה שמחזירה רצף החלטות קבוע במקום מודל אמיתי?",
+      "options": [
+        {
+          "id": "A",
+          "text": "את איכות התשובות של המודל האמיתי"
+        },
+        {
+          "id": "B",
+          "text": "את זמינות השירות המרוחק בחשבון של הלקוח"
+        },
+        {
+          "id": "C",
+          "text": "את תגובת תוכנת הסוכן להחלטות ולכשלים מבוקרים"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "הפרדת החיבור למודל מהכלים ומהבקר מאפשרת לבדוק את התוכנה בלי קריאות בתשלום. השיעור מציין שבדיקה זו אינה מודדת את איכות המודל האמיתי.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["PYTHON_TUTORIAL", "ANTHROPIC_AGENTS"]
+    },
+    {
+      "id": "QUIZ_W04D16_TASK_DECOMPOSITION",
+      "lessonId": "W04D16_TASK_DECOMPOSITION",
+      "question": "איזו שאלת משנה כדאי להשאיר בתוכנית להשוואת ספקים?",
+      "options": [
+        {
+          "id": "A",
+          "text": "שאלה שהתשובה עליה יכולה להשפיע על בחירת הספק"
+        },
+        {
+          "id": "B",
+          "text": "כל שאלה שאפשר למצוא עליה הרבה תוצאות"
+        },
+        {
+          "id": "C",
+          "text": "שאלה שמוסיפה אורך לדוח גם בלי קשר להחלטה"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "מחקר מתחיל בהחלטה ומפרק אותה לשאלות שמספקות מידע נחוץ. רשימת חיפושים ארוכה אינה מגדירה הצלחה, ושאלות שאינן משפיעות על הבחירה מיותרות לתוכנית הזאת.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["ANTHROPIC_AGENTS", "OPENAI_TOOLS"]
+    },
+    {
+      "id": "QUIZ_W04D17_SEARCH_EVIDENCE",
+      "lessonId": "W04D17_SEARCH_EVIDENCE",
+      "question": "איזה מידע כדאי לשמור לצד טענה שנמצאה במחקר?",
+      "options": [
+        {
+          "id": "A",
+          "text": "רק הכותרת של תוצאת החיפוש"
+        },
+        {
+          "id": "B",
+          "text": "כתובת המקור, תאריך וקטע שמבסס את הטענה"
+        },
+        {
+          "id": "C",
+          "text": "רק מספר האתרים שבהם הופיע אותו ניסוח"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "התרגיל דורש URL, תאריך, קטע תומך וסוג מקור. הנתונים מאפשרים לבדוק אם המקור אכן תומך בטענה ולא רק מזכיר את הנושא.",
+      "sourceSection": "Build First",
+      "sourceIds": ["ANTHROPIC_AGENTS", "OPENAI_TOOLS"]
+    },
+    {
+      "id": "QUIZ_W04D18_ITERATIVE_RESEARCH",
+      "lessonId": "W04D18_ITERATIVE_RESEARCH",
+      "question": "בסבב מחקר נוסף נמצאו שוב אותם קישורים בלי מידע שמקדם את ההחלטה. מה מתאים לתנאי העצירה?",
+      "options": [
+        {
+          "id": "A",
+          "text": "להמשיך עד שיצטבר מספר גדול יותר של קישורים"
+        },
+        {
+          "id": "B",
+          "text": "לסמן את המידע החסר כידוע בגלל החיפוש החוזר"
+        },
+        {
+          "id": "C",
+          "text": "לעצור לפי הכללים ולהציג מה עדיין חסר"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "מחקר איטרטיבי מוסיף חיפוש כשמידע חסר מפריע להחלטה. אפשר לסיים במסקנה מוגבלת ולהציג שאלות שלא נענו, במקום לצבור קישורים בלי התקדמות.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["ANTHROPIC_AGENTS", "OPENAI_TOOLS"]
+    },
+    {
+      "id": "QUIZ_W04D19_RESEARCH_QUALITY",
+      "lessonId": "W04D19_RESEARCH_QUALITY",
+      "question": "קישור בדוח נפתח בהצלחה, אבל הקטע אינו תומך בטענה שלידו. מה הבעיה?",
+      "options": [
+        {
+          "id": "A",
+          "text": "הטענה אינה מבוססת על הראיה שצורפה"
+        },
+        {
+          "id": "B",
+          "text": "הטענה מאומתת מפני שהקישור תקין"
+        },
+        {
+          "id": "C",
+          "text": "מספר הכותרות בדוח קטן מדי"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "תקינות טכנית של קישור אינה ביסוס. בודקים את הקשר בין הטענה לתוכן המקור, ומתקנים טענה או מקור שאינם תואמים.",
+      "sourceSection": "Failure Lab",
+      "sourceIds": ["ANTHROPIC_AGENTS", "OPENAI_TOOLS"]
+    },
+    {
+      "id": "QUIZ_W04D20_BOSS_LEVEL_1_RESEARCH_AGENT",
+      "lessonId": "W04D20_BOSS_LEVEL_1_RESEARCH_AGENT",
+      "question": "באיזה מדד לא מספיק להשתמש לבדו כדי להעריך את סוכן המחקר?",
+      "options": [
+        {
+          "id": "A",
+          "text": "יכולת לבדוק את המסקנה מול מקורות"
+        },
+        {
+          "id": "B",
+          "text": "מספר החיפושים שביצע"
+        },
+        {
+          "id": "C",
+          "text": "הצגת מידע חסר או סותר"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "השיעור מציין שמספר חיפושים אינו מדד מספיק לאיכות. צריך מסקנה שניתן לבדוק, תנאי עצירה, עמידה בתקציב והצגת מגבלות.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["ANTHROPIC_AGENTS", "OPENAI_TOOLS"]
+    },
+    {
+      "id": "QUIZ_W05D21_DATABASES",
+      "lessonId": "W05D21_DATABASES",
+      "question": "הוספת לקוח הצליחה, אך הוספת הפנייה באותה עסקה נכשלה. מה מטרת ROLLBACK בתרגיל?",
+      "options": [
+        {
+          "id": "A",
+          "text": "להשאיר את הלקוח החדש בלי קשר לפנייה"
+        },
+        {
+          "id": "B",
+          "text": "להחזיר גם דוא״ל שכבר נשלח משירות חיצוני"
+        },
+        {
+          "id": "C",
+          "text": "לבטל את השינויים שטרם אושרו באותה עסקה"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "עסקה מקבצת שינויים כדי שיצליחו יחד או יבוטלו יחד. ROLLBACK חל על השינויים שטרם אושרו במסד; הוא אינו מבטל פעולה שכבר התבצעה בשירות חיצוני.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["PYTHON_SQLITE", "POSTGRES_TRANSACTIONS"]
+    },
+    {
+      "id": "QUIZ_W05D22_STATE",
+      "lessonId": "W05D22_STATE",
+      "question": "מה צריך לשמור כדי להמשיך תהליך אחרי סגירת התוכנית?",
+      "options": [
+        {
+          "id": "A",
+          "text": "מזהה ריצה, מצב ושלב שהושלם באחסון שנשמר גם לאחר סגירת התוכנית"
+        },
+        {
+          "id": "B",
+          "text": "רק את הטקסט שהופיע לאחרונה במסך"
+        },
+        {
+          "id": "C",
+          "text": "רק משתנה מקומי שנמצא בזיכרון התהליך"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "מצב ששמור רק בזיכרון נעלם בסגירה. התרגיל דורש run_id, status ו־last_completed_step כדי לטעון את העבודה ולהמשיך מהשלב המתאים.",
+      "sourceSection": "Build First",
+      "sourceIds": ["PYTHON_SQLITE", "LANGGRAPH_STATE"]
+    },
+    {
+      "id": "QUIZ_W05D23_AGENT_MEMORY",
+      "lessonId": "W05D23_AGENT_MEMORY",
+      "question": "משתמש אומר: ״היום אני מעדיף שיחה קצרה״. מה צריך לברר לפני שמירתה כהעדפה ארוכת טווח?",
+      "options": [
+        {
+          "id": "A",
+          "text": "האם אפשר להוסיף אותה לכל החשבונות"
+        },
+        {
+          "id": "B",
+          "text": "האם האמירה זמנית, מה מקורה ומתי היא תקפה"
+        },
+        {
+          "id": "C",
+          "text": "האם היא ארוכה מספיק כדי למלא את חלון ההקשר"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "השיעור מבחין בין אמירה זמנית להעדפה קבועה. לזיכרון ארוך טווח קובעים מה שומרים ומתעדים מקור ותוקף, במקום להפוך כל משפט להעדפה מתמשכת.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["SEARCH_SECURITY", "ANTHROPIC_EVALS"]
+    },
+    {
+      "id": "QUIZ_W05D24_MEMORY_QUALITY",
+      "lessonId": "W05D24_MEMORY_QUALITY",
+      "question": "רשומה חדשה סותרת זיכרון קיים. האם תאריך חדש יותר מספיק כדי לקבל אותה?",
+      "options": [
+        {
+          "id": "A",
+          "text": "כן; הרשומה האחרונה תמיד אמינה יותר"
+        },
+        {
+          "id": "B",
+          "text": "כן; מספיק שהמודל ניסח את הרשומה בביטחון"
+        },
+        {
+          "id": "C",
+          "text": "לא; צריך לבדוק את המקור ולטפל בסתירה לפי המדיניות"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "השיעור דורש טיפול במידע כפול, סותר ומיושן. גם מידע חדש יותר דורש בדיקת מקור; תאריך לבדו אינו מוכיח אמינות.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["SEARCH_SECURITY", "ANTHROPIC_EVALS"]
+    },
+    {
+      "id": "QUIZ_W05D25_PROJECT_PERSONAL_MEMORY_AGENT",
+      "lessonId": "W05D25_PROJECT_PERSONAL_MEMORY_AGENT",
+      "question": "משתמש ב׳ מבקש לקרוא זיכרון השייך למשתמש א׳. מה על פעולת retrieve לבדוק?",
+      "options": [
+        {
+          "id": "A",
+          "text": "הרשאה לקרוא את הזיכרון בהקשר המשתמש המאומת"
+        },
+        {
+          "id": "B",
+          "text": "רק אם הזיכרון מכיל מילים שמתאימות לשאלה"
+        },
+        {
+          "id": "C",
+          "text": "רק אם המשתמש יודע לנחש את מזהה הרשומה"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "כל פעולת זיכרון עוברת דרך פונקציה שבודקת הרשאות. שמירת מידע של משתמש אחד אינה מעניקה למשתמש אחר גישה אליו.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["SEARCH_SECURITY", "ANTHROPIC_EVALS"]
+    },
+    {
+      "id": "QUIZ_W06D26_EMBEDDINGS",
+      "lessonId": "W06D26_EMBEDDINGS",
+      "question": "לשני מוצרים תיאור דומה אבל מק״ט שונה. מדוע כדאי לבדוק גם חיפוש לפי מילים?",
+      "options": [
+        {
+          "id": "A",
+          "text": "כי דמיון וקטורי מוכיח שמדובר באותו מוצר"
+        },
+        {
+          "id": "B",
+          "text": "כי מזהה מדויק עשוי להבחין ביניהם גם כשהמשמעות דומה"
+        },
+        {
+          "id": "C",
+          "text": "כי חיפוש לפי משמעות מחליף בדיקת מזהי מוצרים"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "ייצוג וקטורי עוזר למצוא משמעות קרובה, אך אינו מוכיח זהות או אמת. השיעור מציין שחיפוש מילולי עשוי להתאים יותר לשמות ולמזהים מדויקים.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["SEARCH_SECURITY", "ANTHROPIC_EVALS"]
+    },
+    {
+      "id": "QUIZ_W06D27_CHUNKING_VECTOR_RETRIEVAL",
+      "lessonId": "W06D27_CHUNKING_VECTOR_RETRIEVAL",
+      "question": "מדוע שומרים לכל קטע document_id, version, page ו־chunk_id?",
+      "options": [
+        {
+          "id": "A",
+          "text": "כדי להימנע מבדיקה שחילוץ הטקסט תקין"
+        },
+        {
+          "id": "B",
+          "text": "כדי להוכיח מראש שכל תשובה המבוססת על הקטע נכונה"
+        },
+        {
+          "id": "C",
+          "text": "כדי לחזור למסמך ולמיקום שמהם הגיע הקטע ולנהל עדכונים"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "חלוקה לקטעים צריכה לשמור קשר למקור ולמיקום. השדות מסייעים לציטוט ולעדכון, אבל אינם פוטרים מבדיקת החילוץ או התשובה.",
+      "sourceSection": "Build First",
+      "sourceIds": ["SEARCH_SECURITY", "ANTHROPIC_EVALS"]
+    },
+    {
+      "id": "QUIZ_W06D28_HYBRID_RETRIEVAL_RERANKING",
+      "lessonId": "W06D28_HYBRID_RETRIEVAL_RERANKING",
+      "question": "קטע של לקוח אחר מתאים מאוד לשאלה. מתי צריך לסנן אותו?",
+      "options": [
+        {
+          "id": "A",
+          "text": "לפני שמעבירים את הקטעים למודל, לפי הרשאות המשתמש והלקוח"
+        },
+        {
+          "id": "B",
+          "text": "רק אחרי שהמודל השתמש בו בניסוח התשובה"
+        },
+        {
+          "id": "C",
+          "text": "רק אם הוא אינו מגיע למקום הראשון בדירוג"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "דירוג מחדש בוחן התאמה לשאלה, ואינו בדיקת הרשאות. השיעור דורש לסנן מידע לפי בעלות והרשאה לפני שליחתו למודל.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["SEARCH_SECURITY", "ANTHROPIC_EVALS"]
+    },
+    {
+      "id": "QUIZ_W06D29_RAG_FAILURE_MODES",
+      "lessonId": "W06D29_RAG_FAILURE_MODES",
+      "question": "השליפה החזירה את הקטע הנכון, אבל התשובה הוסיפה טענה שאינה בו. איזה כשל יש לבדוק?",
+      "options": [
+        {
+          "id": "A",
+          "text": "כשל שליפה בלבד, אף שהקטע הנכון נמצא"
+        },
+        {
+          "id": "B",
+          "text": "כשל במענה על בסיס הקטע, בנפרד מכשל שליפה"
+        },
+        {
+          "id": "C",
+          "text": "הצלחת המערכת, מפני שאחד הקטעים היה נכון"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "השיעור מפריד בין בחירת הקטעים לבין השימוש בהם בתשובה. שליפה נכונה אינה מבטיחה שהמודל לא הוסיף מידע ללא בסיס.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["SEARCH_SECURITY", "ANTHROPIC_EVALS"]
+    },
+    {
+      "id": "QUIZ_W06D30_PROJECT_KNOWLEDGE_AGENT",
+      "lessonId": "W06D30_PROJECT_KNOWLEDGE_AGENT",
+      "question": "איזה ציטוט מתאים לתשובת עוזר הידע הארגוני?",
+      "options": [
+        {
+          "id": "A",
+          "text": "קישור כללי למסמך בנושא דומה בלי קטע תומך"
+        },
+        {
+          "id": "B",
+          "text": "קטע מתאים של לקוח אחר, אם הוא מסביר טוב יותר"
+        },
+        {
+          "id": "C",
+          "text": "קטע ממקור מותר שתומך בטענה הספציפית בתשובה"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "עוזר ידע מציג רק מידע שהמשתמש רשאי לראות, והקטע המצוטט חייב לתמוך בטענה עצמה. קישור לבדו אינו מספיק.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["SEARCH_SECURITY", "ANTHROPIC_EVALS"]
+    },
+    {
+      "id": "QUIZ_W07D31_PRODUCTION_APIS",
+      "lessonId": "W07D31_PRODUCTION_APIS",
+      "question": "Webhook התקבל והשרת אישר קבלה, אבל העבודה בתור טרם הסתיימה. איזה מצב נכון להציג?",
+      "options": [
+        {
+          "id": "A",
+          "text": "שהאירוע התקבל, בלי להציגו כמשימה שהושלמה"
+        },
+        {
+          "id": "B",
+          "text": "שהמשימה הושלמה מפני שהוחזרה תגובת קבלה"
+        },
+        {
+          "id": "C",
+          "text": "שהאירוע נכשל מפני שלא בוצע כולו מיד"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "התרגיל מפריד בין received, processing ו־completed. אישור קבלת אירוע אינו בהכרח אישור שהעבודה העסקית הסתיימה.",
+      "sourceSection": "Build First",
+      "sourceIds": ["HTTP_OVERVIEW", "STRIPE_WEBHOOKS"]
+    },
+    {
+      "id": "QUIZ_W07D32_TOOL_DESIGN",
+      "lessonId": "W07D32_TOOL_DESIGN",
+      "question": "מה היתרון בפיצול כלי CRM ל־lookup_customer, prepare_update ו־apply_update?",
+      "options": [
+        {
+          "id": "A",
+          "text": "מתן אותה הרשאת כתיבה לכל פעולה כדי לפשט את הבדיקה"
+        },
+        {
+          "id": "B",
+          "text": "הפרדה ברורה בין קריאה, הכנת שינוי וביצועו, עם הרשאות לכל פעולה"
+        },
+        {
+          "id": "C",
+          "text": "הסרת בדיקות קלט מפני שהפעולות קצרות יותר"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "כלים ממוקדים מאפשרים להגדיר קלט, פלט והרשאות ברורים. הכנת טיוטה אינה ביצוע שינוי, והפעולות עשויות לדרוש הרשאות שונות.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["N8N_APPROVALS", "STRIPE_WEBHOOKS"]
+    },
+    {
+      "id": "QUIZ_W07D33_MCP",
+      "lessonId": "W07D33_MCP",
+      "question": "מה ההבדל בין Tool ל־Resource בתיאור MCP שבשיעור?",
+      "options": [
+        {
+          "id": "A",
+          "text": "כלי מציע תוכן, ואילו מקור מידע מעניק הרשאות אוטומטיות"
+        },
+        {
+          "id": "B",
+          "text": "שניהם הם אישור לבצע כל פעולה שהמודל מבקש"
+        },
+        {
+          "id": "C",
+          "text": "כלי מציע פעולה, ואילו מקור מידע מציע תוכן"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "הקורס מבדיל בין כלי, מקור מידע ותבנית הנחיה. עצם הפרוטוקול אינו קובע לבדו הרשאות; המערכת עדיין אחראית לבידוד ולאישורים.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["MCP_SPEC"]
+    },
+    {
+      "id": "QUIZ_W07D34_SIDE_EFFECTS_PERMISSIONS",
+      "lessonId": "W07D34_SIDE_EFFECTS_PERMISSIONS",
+      "question": "מה צריך להגדיר אישור אנושי לפעולה בעלת השפעה משמעותית?",
+      "options": [
+        {
+          "id": "A",
+          "text": "איזו פעולה מאשרים ועל אילו נתונים היא חלה"
+        },
+        {
+          "id": "B",
+          "text": "רק שהמודל מבקש לפעול בשם המשתמש"
+        },
+        {
+          "id": "C",
+          "text": "רק מילה כללית כמו ״מאשר״ בלי הקשר הפעולה"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "אישור צריך להיות קשור לפעולה ולנתונים המסוימים. ניסוח של מודל אינו מעניק הרשאה, ומדיניות המערכת ממשיכה לאכוף את הגבולות.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["N8N_APPROVALS", "STRIPE_WEBHOOKS"]
+    },
+    {
+      "id": "QUIZ_W07D35_PROJECT_OPERATIONS_AGENT",
+      "lessonId": "W07D35_PROJECT_OPERATIONS_AGENT",
+      "question": "הסוכן הכין טיוטת עדכון CRM אך טרם קיבל אישור. מה מותר להציג?",
+      "options": [
+        {
+          "id": "A",
+          "text": "שהעדכון בוצע במערכת ה־CRM"
+        },
+        {
+          "id": "B",
+          "text": "שהעדכון מוכן כטיוטה וממתין לאישור"
+        },
+        {
+          "id": "C",
+          "text": "שהאישור נחשב מיותר מפני שהטיוטה תקינה"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "הפרויקט מפריד בין הכנת פעולה, אישורה וביצועה. אין להציג עדכון כמבוצע כאשר המערכת רק הכינה אותו.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["N8N_APPROVALS", "STRIPE_WEBHOOKS"]
+    },
+    {
+      "id": "QUIZ_W08D36_RESPONSES_API",
+      "lessonId": "W08D36_RESPONSES_API",
+      "question": "מדוע מחזירים תוצאת כלי עם ה־call_id המתאים?",
+      "options": [
+        {
+          "id": "A",
+          "text": "כדי להפוך כל שגיאת כלי לתשובה סופית"
+        },
+        {
+          "id": "B",
+          "text": "כדי להימנע משמירת פריטי הפלט שנדרשים להמשך"
+        },
+        {
+          "id": "C",
+          "text": "כדי לשייך אותה לבקשת הכלי המסוימת ולא לערבב בין קריאות"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "המודל יכול להחזיר כמה בקשות לכלים. שיוך לפי מזהי הקריאות שומר על התאמה בין כל בקשה לתוצאתה; שם הכלי לבדו אינו מספיק.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["OPENAI_TOOLS", "OPENAI_QUICKSTART"]
+    },
+    {
+      "id": "QUIZ_W08D37_AGENTS_SDK",
+      "lessonId": "W08D37_AGENTS_SDK",
+      "question": "אחרי מעבר לסוכן מבוסס SDK, מי עדיין אחראי להרשאות הכלים והמידע?",
+      "options": [
+        {
+          "id": "A",
+          "text": "המפתח והקוד שמגדיר את הכלים והבדיקות"
+        },
+        {
+          "id": "B",
+          "text": "רכיב Runner לבדו, ללא צורך בבדיקות של המערכת"
+        },
+        {
+          "id": "C",
+          "text": "המשתמש שכתב את ההנחיה האחרונה בצ׳אט"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "ה־SDK מרכז חלק מהפעלת הסוכן והמעקב אחריו. השיעור מדגיש ש־Runner אינו מסיר אחריות לכלים, למידע ולהרשאות.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["OPENAI_AGENTS"]
+    },
+    {
+      "id": "QUIZ_W08D38_MANAGED_DURABLE_AGENT_RUNTIME_CONCEPTS",
+      "lessonId": "W08D38_MANAGED_DURABLE_AGENT_RUNTIME_CONCEPTS",
+      "question": "סביבת הרצה שמרה את מצב התהליך. מה עדיין צריך לבדוק לפני שחוזרים על פעולה חיצונית?",
+      "options": [
+        {
+          "id": "A",
+          "text": "רק אם אפשר להציג את רשומת המצב במסך"
+        },
+        {
+          "id": "B",
+          "text": "אם הפעולה כבר בוצעה והאם בטוח לבצע אותה שוב"
+        },
+        {
+          "id": "C",
+          "text": "רק אם הספק מכנה את הסביבה ״מנוהלת״"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "שמירת מצב אינה מבטיחה שחזרה על פעולה בשירות אחר בטוחה. טבלת האחריות והבדיקות נדרשות גם בסביבה מנוהלת.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["OPENAI_RUNTIME", "OPENAI_DEPRECATIONS"]
+    },
+    {
+      "id": "QUIZ_W08D39_LANGGRAPH",
+      "lessonId": "W08D39_LANGGRAPH",
+      "question": "מה מאפשר Interrupt בתהליך prepare → approve → execute?",
+      "options": [
+        {
+          "id": "A",
+          "text": "להבטיח שכל פעולה חיצונית מתבטלת אוטומטית"
+        },
+        {
+          "id": "B",
+          "text": "לדלג על שמירת הנתונים שהאדם אישר"
+        },
+        {
+          "id": "C",
+          "text": "להמתין לקלט, למשל אישור, לפני המשך התהליך"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "השיעור מתאר Interrupt כעצירה לקבלת קלט, ו־Checkpoint כשמירת מצב. גם לאחר חידוש התהליך צריך למנוע ביצוע כפול ולשמור את הנתונים שאושרו.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["LANGGRAPH_STATE"]
+    },
+    {
+      "id": "QUIZ_W08D40_BOSS_LEVEL_2_BUILD_ONE_SYSTEM_TWICE",
+      "lessonId": "W08D40_BOSS_LEVEL_2_BUILD_ONE_SYSTEM_TWICE",
+      "question": "מה צריך להשאיר זהה בהשוואה בין לולאה ידנית למימוש SDK או גרף?",
+      "options": [
+        {
+          "id": "A",
+          "text": "את הדרישות ואת מקרי הבדיקה"
+        },
+        {
+          "id": "B",
+          "text": "רק את מספר שורות הקוד"
+        },
+        {
+          "id": "C",
+          "text": "רק את שם המערכת במסך הפתיחה"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "השוואה מועילה משתמשת באותן דרישות ובאותם מקרי בדיקה. בוחנים גם הפעלה, תחזוקה והתאוששות; פחות שורות אינן בהכרח מערכת פשוטה יותר לתפעול.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["ANTHROPIC_AGENTS", "OPENAI_TOOLS"]
+    },
+    {
+      "id": "QUIZ_W09D41_DETERMINISTIC_VS_AGENTIC_WORKFLOW",
+      "lessonId": "W09D41_DETERMINISTIC_VS_AGENTIC_WORKFLOW",
+      "question": "מודל הציע חריגה מכלל הזכאות העסקי. מי צריך לקבוע אם מותר לבצע אותה?",
+      "options": [
+        {
+          "id": "A",
+          "text": "המודל, לפי הביטחון שבו ניסח את ההצעה"
+        },
+        {
+          "id": "B",
+          "text": "הקוד שאוכף את הכללים וההרשאות"
+        },
+        {
+          "id": "C",
+          "text": "הלקוח, על ידי כתיבת tenant_id בהודעה"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "בתהליך השיעור המודל מסייע להבין את הפנייה, אך בדיקת זכאות והרשאות נשענת על כללים ונתונים. הצעת מודל אינה משנה את הכלל העסקי.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["ANTHROPIC_AGENTS", "OPENAI_TOOLS"]
+    },
+    {
+      "id": "QUIZ_W09D42_ROUTERS",
+      "lessonId": "W09D42_ROUTERS",
+      "question": "פנייה עוסקת גם במכירה וגם בתמיכה, ואין די מידע לבחור יעד. מה יכול הנתב להחזיר?",
+      "options": [
+        {
+          "id": "A",
+          "text": "sales בכל מקרה, כי זה היעד הראשון ברשימה"
+        },
+        {
+          "id": "B",
+          "text": "completed, כאילו הטיפול בפנייה הסתיים"
+        },
+        {
+          "id": "C",
+          "text": "clarify, כדי לבקש הבהרה"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "הנתב מגדיר מראש יעדים ותוצאה למקרה לא ברור. לפנייה עשויות להיות כמה כוונות, ובקשת הבהרה היא תוצאה תקינה כשאין בסיס לבחירה.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["ANTHROPIC_AGENTS", "OPENAI_TOOLS"]
+    },
+    {
+      "id": "QUIZ_W09D43_PARALLEL_WORK",
+      "lessonId": "W09D43_PARALLEL_WORK",
+      "question": "בשלוש קריאות מחקר בו־זמניות, קריאה אחת נכשלת. מה צריך שלב איסוף התוצאות לעשות?",
+      "options": [
+        {
+          "id": "A",
+          "text": "להציג את התוצאות שהצליחו ואת הכשל בנפרד"
+        },
+        {
+          "id": "B",
+          "text": "לסמן את כל שלוש הקריאות כהצלחה"
+        },
+        {
+          "id": "C",
+          "text": "להסתיר את הכשל כדי שהדוח ייראה שלם"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "התרגיל דורש איסוף נפרד של הצלחות ושגיאות. Fan-in מחבר תוצאות, אך צריך מדיניות ברורה לתשובה חסרה או שגיאה.",
+      "sourceSection": "Build First",
+      "sourceIds": ["PYTHON_ASYNC"]
+    },
+    {
+      "id": "QUIZ_W09D44_LONG_RUNNING_WORKFLOWS",
+      "lessonId": "W09D44_LONG_RUNNING_WORKFLOWS",
+      "question": "השירות החיצוני ביצע שינוי, אך התוכנית קרסה לפני רישום הצלחה. למה נדרש שלב reconcile?",
+      "options": [
+        {
+          "id": "A",
+          "text": "כדי למחוק את operation_id ולנסות כפעולה חדשה"
+        },
+        {
+          "id": "B",
+          "text": "כדי לברר מה כבר בוצע לפני חידוש הפעולה"
+        },
+        {
+          "id": "C",
+          "text": "כדי להניח שנקודת השמירה ביטלה את השינוי בשירות"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "נקודת שמירה מתעדת מצב פנימי, ולא מבטלת שינוי חיצוני. התרגיל שומר run_id ו־operation_id ומברר את מצב הפעולה כדי להימנע מתוצאה עסקית כפולה.",
+      "sourceSection": "Build First",
+      "sourceIds": ["LANGGRAPH_STATE", "STRIPE_WEBHOOKS"]
+    },
+    {
+      "id": "QUIZ_W09D45_PROJECT_DURABLE_WORKFLOW_AGENT",
+      "lessonId": "W09D45_PROJECT_DURABLE_WORKFLOW_AGENT",
+      "question": "איזה ניסוי בודק התאוששות לאחר הפעלה מחדש של תהליך העבודה?",
+      "options": [
+        {
+          "id": "A",
+          "text": "לתפוס חריגה בלי להפסיק את התהליך"
+        },
+        {
+          "id": "B",
+          "text": "להציג טקסט ״המערכת התאוששה״ בלי לטעון מצב שמור"
+        },
+        {
+          "id": "C",
+          "text": "לסגור את התוכנית בפועל, להפעילה מחדש ולבדוק מאיזה מצב היא ממשיכה"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "השיעור מבחין בין טיפול בחריגה לבין סגירה והפעלה מחדש. כדי לבדוק התאוששות צריך לטעון את המצב השמור ולבחון את המשך העבודה.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["LANGGRAPH_STATE", "STRIPE_WEBHOOKS"]
+    },
+    {
+      "id": "QUIZ_W10D46_WHEN_MULTI_AGENT_MAKES_SENSE",
+      "lessonId": "W10D46_WHEN_MULTI_AGENT_MAKES_SENSE",
+      "question": "איך כדאי להחליט אם מנהל ושני מומחים עדיפים על סוכן יחיד?",
+      "options": [
+        {
+          "id": "A",
+          "text": "להשוות איכות, זמן ועלות על אותה משימה ואותם נתונים"
+        },
+        {
+          "id": "B",
+          "text": "לבחור בצוות כי מספר סוכנים גדול יותר מעיד על איכות"
+        },
+        {
+          "id": "C",
+          "text": "להשוות את אורך שמות התפקידים בלבד"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "כמה סוכנים עשויים להוסיף התמחות, אך גם תיאום, עלות ונקודות כשל. התרגיל דורש השוואה מדודה מול סוכן יחיד על אותם תנאים.",
+      "sourceSection": "Build First",
+      "sourceIds": ["ANTHROPIC_AGENTS", "OPENAI_TOOLS"]
+    },
+    {
+      "id": "QUIZ_W10D47_MANAGER_PATTERN",
+      "lessonId": "W10D47_MANAGER_PATTERN",
+      "question": "בדפוס מנהל ומומחים, מי נשאר אחראי לתוצאה הכוללת?",
+      "options": [
+        {
+          "id": "A",
+          "text": "המומחה האחרון שהחזיר טקסט"
+        },
+        {
+          "id": "B",
+          "text": "המנהל, שמקבל תוצאות של משימות מוגדרות מהמומחים"
+        },
+        {
+          "id": "C",
+          "text": "אף רכיב, כי האחריות מתחלקת אוטומטית"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "השיעור מגדיר מנהל שנשאר אחראי לתוצאה. המומחים מקבלים משימות וחוזי פלט מוגדרים, ואינם חייבים לקבל את כל ההרשאות והמידע.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["ANTHROPIC_AGENTS", "OPENAI_TOOLS"]
+    },
+    {
+      "id": "QUIZ_W10D48_HANDOFFS",
+      "lessonId": "W10D48_HANDOFFS",
+      "question": "מה מבדיל Handoff מבקשה למומחה לבצע חישוב?",
+      "options": [
+        {
+          "id": "A",
+          "text": "הגדלת מספר השורות בתשובת המומחה"
+        },
+        {
+          "id": "B",
+          "text": "שליחת כל סודות המערכת כדי להקל על החישוב"
+        },
+        {
+          "id": "C",
+          "text": "העברת האחריות להמשך הטיפול לסוכן אחר"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Handoff מעביר אחריות להמשך המשימה. צריך להגדיר מי מטפל כעת, איזה מידע נחוץ לו ואיך מונעים העברות הלוך ושוב בלי סוף.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["ANTHROPIC_AGENTS", "OPENAI_TOOLS"]
+    },
+    {
+      "id": "QUIZ_W10D49_SHARED_STATE_COORDINATION",
+      "lessonId": "W10D49_SHARED_STATE_COORDINATION",
+      "question": "שני מומחים מציעים ערכים שונים לאותו שדה במצב המשותף. מה נדרש?",
+      "options": [
+        {
+          "id": "A",
+          "text": "כלל הרשאה ופתרון סתירה, לצד שמירת גרסת המצב והראיות"
+        },
+        {
+          "id": "B",
+          "text": "לבחור תמיד את ההצעה שהגיעה אחרונה בלי לבדוק"
+        },
+        {
+          "id": "C",
+          "text": "לתת לכל מומחה לשנות כל שדה כדי למנוע המתנה"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "עדכונים משותפים מחייבים לקבוע מי רשאי לשנות כל שדה ואיך מזהים ופותרים סתירות. רכיב הביקורת בודק לפי תנאים מוגדרים ולא רק מסכים עם ההצעה.",
+      "sourceSection": "Build First",
+      "sourceIds": ["ANTHROPIC_AGENTS", "OPENAI_TOOLS"]
+    },
+    {
+      "id": "QUIZ_W10D50_PROJECT_AI_COMPANY",
+      "lessonId": "W10D50_PROJECT_AI_COMPANY",
+      "question": "מומחה אחד נכשל ולתוצאה אחרת חסר מקור. מה צריך צוות ה־AI לתעד?",
+      "options": [
+        {
+          "id": "A",
+          "text": "דוח סופי מלא בלי להזכיר את הכשלים"
+        },
+        {
+          "id": "B",
+          "text": "מי עשה מה, אילו חלקים הצליחו ומה עדיין חסר"
+        },
+        {
+          "id": "C",
+          "text": "רק את שם המנהל, כדי לפשט את התיעוד"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "צוות סוכנים דורש תיעוד אחריות, תוצאות וכשלים. תפקיד אינו הרשאה, ותוצאה חלקית אינה צריכה להיראות כתוצאה מלאה.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["ANTHROPIC_AGENTS", "OPENAI_TOOLS"]
+    },
+    {
+      "id": "QUIZ_W11D51_WHY_DEMOS_LIE",
+      "lessonId": "W11D51_WHY_DEMOS_LIE",
+      "question": "מערכת הצליחה בדוגמה ששימשה לשיפור ההוראות. האם זו בדיקת איכות עצמאית?",
+      "options": [
+        {
+          "id": "A",
+          "text": "כן; הצלחה באותה דוגמה מספיקה לכל עסק"
+        },
+        {
+          "id": "B",
+          "text": "כן; אם התשובה מנוסחת היטב אין צורך במקרים נוספים"
+        },
+        {
+          "id": "C",
+          "text": "לא; צריך גם מקרים שלא שימשו לשיפור המערכת"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "דוגמאות פיתוח כבר השפיעו על המערכת. בדיקת איכות בוחנת מגוון מקרים לפי הגדרת הצלחה, כולל מקרים שלא שימשו לשיפור ההוראות.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["PYTHON_TUTORIAL", "ANTHROPIC_AGENTS"]
+    },
+    {
+      "id": "QUIZ_W11D52_EVALUATION_DATASET_DESIGN",
+      "lessonId": "W11D52_EVALUATION_DATASET_DESIGN",
+      "question": "מדוע שומרים חלק ממקרי הבדיקה למדידה הסופית?",
+      "options": [
+        {
+          "id": "A",
+          "text": "כדי לא למדוד רק דוגמאות שכבר התאימו אליהן את המערכת"
+        },
+        {
+          "id": "B",
+          "text": "כדי לאפשר שינוי התוצאה הצפויה לאחר כל הרצה"
+        },
+        {
+          "id": "C",
+          "text": "כדי למנוע בדיקה של מקרי קצה ותקיפות"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "הפרדה בין נתוני פיתוח לנתוני מדידה מפחיתה הסתמכות על דוגמאות שכבר שימשו לשיפור. מערך הבדיקה עדיין צריך לכלול מקרים רגילים, קצה, תקלות ותקיפות.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["ANTHROPIC_EVALS", "PROMPTFOO_TESTS"]
+    },
+    {
+      "id": "QUIZ_W11D53_GRADERS",
+      "lessonId": "W11D53_GRADERS",
+      "question": "מודל בודק נתן ציון גבוה לתשובה יפה אך שגויה. מה צריך לעשות לפני הסתמכות על ציוניו?",
+      "options": [
+        {
+          "id": "A",
+          "text": "לקבל את הציון כי הניסוח נשמע מקצועי"
+        },
+        {
+          "id": "B",
+          "text": "להשוות את הציונים לבדיקה אנושית לפי מחוון"
+        },
+        {
+          "id": "C",
+          "text": "להחליף את בדיקת המקורות במספר הציון"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "השיעור מציין שגם מודל בודק עלול לטעות. משווים אותו לבדיקה אנושית, ומפרידים תנאים כגון דיוק, ביסוס ושימושיות במקום להסתיר בעיה בציון כולל.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["ANTHROPIC_EVALS", "PROMPTFOO_TESTS"]
+    },
+    {
+      "id": "QUIZ_W11D54_TRACING",
+      "lessonId": "W11D54_TRACING",
+      "question": "ריצה איטית לא החזירה חריגה. איזה תיעוד מסייע לאתר את העיכוב?",
+      "options": [
+        {
+          "id": "A",
+          "text": "רק הודעת הסיום הכללית"
+        },
+        {
+          "id": "B",
+          "text": "רק מספר המשתמשים הרשומים במערכת"
+        },
+        {
+          "id": "C",
+          "text": "משך ומצב של כל שלב וכלי בתיעוד הריצה"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "התרגיל דורש duration, tool, status ומזהה ריצה. מדידת שלבים מאפשרת לאתר עיכוב גם כשלא נזרקה שגיאה.",
+      "sourceSection": "Build First",
+      "sourceIds": ["OTEL"]
+    },
+    {
+      "id": "QUIZ_W11D55_PROJECT_AGENT_QUALITY_LAB",
+      "lessonId": "W11D55_PROJECT_AGENT_QUALITY_LAB",
+      "question": "שינוי שיפר דיוק אך הגדיל את הזמן מעבר למגבלה. איך נכון להציג את ההשוואה?",
+      "options": [
+        {
+          "id": "A",
+          "text": "להציג את השיפור ואת ההרעה ולנמק התאמה למגבלות"
+        },
+        {
+          "id": "B",
+          "text": "להציג רק את מדד הדיוק שהשתפר"
+        },
+        {
+          "id": "C",
+          "text": "להחליף את מדידת הבסיס בדוגמה המוצלחת ביותר"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "כדי להראות שיפור אמיתי שומרים Baseline, משנים רכיב ומריצים שוב בדיקות. השיעור דורש להציג גם מדדים שהורעו, ובפרט זמן ועלות.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["ANTHROPIC_EVALS", "OWASP_GENAI"]
+    },
+    {
+      "id": "QUIZ_W12D56_PROMPT_INJECTION",
+      "lessonId": "W12D56_PROMPT_INJECTION",
+      "question": "מסמך חיצוני מבקש לשלוח מידע ליעד שאינו מורשה. איזו הגנה נדרשת מעבר להנחיית בטיחות למודל?",
+      "options": [
+        {
+          "id": "A",
+          "text": "הוספת עוד משפט מנומס בהנחיה בלבד"
+        },
+        {
+          "id": "B",
+          "text": "בדיקת הרשאה ופעולה בקוד לפני ביצוע"
+        },
+        {
+          "id": "C",
+          "text": "אמון בבקשה מפני שהיא מופיעה במסמך מצורף"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "הפרדה בין הוראות למידע מסייעת אך אינה הגנה מלאה. השיעור דורש אכיפת הרשאות ופעולות בקוד גם כשהמודל קיבל הוראות בטיחות.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["ANTHROPIC_EVALS", "OWASP_GENAI"]
+    },
+    {
+      "id": "QUIZ_W12D57_TOOL_ATTACKS",
+      "lessonId": "W12D57_TOOL_ATTACKS",
+      "question": "בקשת כלי כוללת JSON תקין עם נתיב מחוץ לתיקיית העבודה. מה צריך לבדוק?",
+      "options": [
+        {
+          "id": "A",
+          "text": "רק שה־JSON ניתן לפענוח"
+        },
+        {
+          "id": "B",
+          "text": "רק ששם הכלי מוכר למודל"
+        },
+        {
+          "id": "C",
+          "text": "את ערכי הקלט, יעד הגישה והרשאת המשתמש"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "מבנה JSON תקין אינו הופך ארגומנט לבטוח. השיעור דורש בדיקת ערכים, יעדים והרשאות, וחסימת גישה שאינה ברשימה המורשית.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["ANTHROPIC_EVALS", "OWASP_GENAI"]
+    },
+    {
+      "id": "QUIZ_W12D58_AUTHENTICATION_AUTHORIZATION",
+      "lessonId": "W12D58_AUTHENTICATION_AUTHORIZATION",
+      "question": "משתמש נכנס לחשבון ושינה tenant_id בבקשה. מדוע אין בכך הרשאה לקרוא לקוח אחר?",
+      "options": [
+        {
+          "id": "A",
+          "text": "כי השרת קובע את השיוך ובודק בעלות בכל קריאה וכתיבה"
+        },
+        {
+          "id": "B",
+          "text": "כי כל משתמש מחובר יכול לקרוא את כל המסד"
+        },
+        {
+          "id": "C",
+          "text": "כי מזהה שהגיע מהדפדפן אמין יותר מנתוני ההתחברות"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "אימות זהות אומר מי המשתמש; הרשאה קובעת מה מותר לו. השיעור דורש tenant_id מתוך שיוך שנבדק בשרת, ולא אמון במזהה שהדפדפן או המודל בחרו.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["SEARCH_SECURITY", "OWASP_GENAI"]
+    },
+    {
+      "id": "QUIZ_W12D59_HUMAN_IN_THE_LOOP",
+      "lessonId": "W12D59_HUMAN_IN_THE_LOOP",
+      "question": "טיוטת הפעולה נערכה אחרי אישור אנושי. מה צריך לבדוק לפני הביצוע?",
+      "options": [
+        {
+          "id": "A",
+          "text": "רק אם שם המשתמש המאשר נשאר זהה"
+        },
+        {
+          "id": "B",
+          "text": "אם האישור חל על הגרסה החדשה, ולדרוש אישור חדש כשהקודם אינו תקף"
+        },
+        {
+          "id": "C",
+          "text": "אם המודל כתב ״מאושר״ אחרי העריכה"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "אישור קשור לפעולה ולגרסה שהוצגו לאדם. שינוי הפעולה עשוי לבטל את תוקפו, ולכן שומרים גרסה וזהות מאשר ובודקים אותן לפני ביצוע.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["N8N_APPROVALS", "LANGGRAPH_STATE"]
+    },
+    {
+      "id": "QUIZ_W12D60_BOSS_LEVEL_3_RED_TEAM",
+      "lessonId": "W12D60_BOSS_LEVEL_3_RED_TEAM",
+      "question": "תוקנה תקיפה אחת במערכת. איזו בדיקה נוספת דורש המבחן המסכם?",
+      "options": [
+        {
+          "id": "A",
+          "text": "רק הדגמה שההודעה הזדונית כבר אינה מופיעה"
+        },
+        {
+          "id": "B",
+          "text": "הכרזה שהמערכת חסינה מפני כל תקיפה עתידית"
+        },
+        {
+          "id": "C",
+          "text": "בדיקת רגרסיה לתקיפה ובדיקה שהשימוש הרגיל עדיין פועל"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "לכל תקלה מתוקנת מוסיפים בדיקת רגרסיה. מעבדת הכשל דורשת גם לבדוק שהתיקון לא פגע בשימוש רגיל; בדיקות נקודתיות אינן הבטחת חסינות.",
+      "sourceSection": "Failure Lab",
+      "sourceIds": ["ANTHROPIC_EVALS", "OWASP_GENAI"]
+    },
+    {
+      "id": "QUIZ_W13D61_BACKEND_APIS",
+      "lessonId": "W13D61_BACKEND_APIS",
+      "question": "מה צריך GET /runs/{id} לבדוק לפני החזרת פרטי ריצה?",
+      "options": [
+        {
+          "id": "A",
+          "text": "שהמשתמש המאומת מורשה לראות את הריצה המבוקשת"
+        },
+        {
+          "id": "B",
+          "text": "רק שהמזהה מופיע בכתובת תקינה"
+        },
+        {
+          "id": "C",
+          "text": "רק שהתוכנית יודעת לקרוא JSON"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "התרגיל דורש אימות קלט, זהות והרשאה לריצה המסוימת. מזהה תקין מבחינת מבנה אינו מעניק בעלות על ריצה של אדם אחר.",
+      "sourceSection": "Build First",
+      "sourceIds": ["FASTAPI"]
+    },
+    {
+      "id": "QUIZ_W13D62_PRODUCTION_DATABASES",
+      "lessonId": "W13D62_PRODUCTION_DATABASES",
+      "question": "היכן צריך לנסות תחילה Migration שמעביר customers ו־runs ל־PostgreSQL?",
+      "options": [
+        {
+          "id": "A",
+          "text": "על הנתונים היחידים הקיימים, בלי גיבוי"
+        },
+        {
+          "id": "B",
+          "text": "על עותק של הנתונים, לפני שינוי סביבת העבודה"
+        },
+        {
+          "id": "C",
+          "text": "בתשובת המודל בלבד, בלי להפעיל שינוי סכמה"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "השיעור דורש שינוי סכמה מתועד שנבדק תחילה על עותק. כך אפשר לבדוק כשל ושחזור בלי לאבד את נתוני המקור.",
+      "sourceSection": "Build First",
+      "sourceIds": ["POSTGRES_TRANSACTIONS"]
+    },
+    {
+      "id": "QUIZ_W13D63_QUEUES_WORKERS",
+      "lessonId": "W13D63_QUEUES_WORKERS",
+      "question": "Worker נעצר אחרי שחלק מהפעולה בוצע, והתור מסר שוב אותה עבודה. למה חשוב מזהה הפעולה?",
+      "options": [
+        {
+          "id": "A",
+          "text": "כדי לתת בכל ניסיון מזהה חדש ולהתעלם מהקודם"
+        },
+        {
+          "id": "B",
+          "text": "כדי להציג את העבודה ככישלון גם אם חלקה הצליח"
+        },
+        {
+          "id": "C",
+          "text": "כדי לזהות מה כבר בוצע ולהימנע מתוצאה עסקית נוספת"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "תור עשוי למסור עבודה שוב. השיעור דורש מזהה פעולה ותכנון המשך לאחר ביצוע חלקי, כדי שחידוש לא ייצור אותה תוצאה עסקית פעמיים.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["STRIPE_WEBHOOKS", "OTEL"]
+    },
+    {
+      "id": "QUIZ_W13D64_STREAMING",
+      "lessonId": "W13D64_STREAMING",
+      "question": "הדפדפן התנתק באמצע Streaming והמשתמש התחבר מחדש. מה צריך הממשק לטעון?",
+      "options": [
+        {
+          "id": "A",
+          "text": "את הריצה הקיימת ואת מצבה השמור, בלי להתחיל אותה מחדש"
+        },
+        {
+          "id": "B",
+          "text": "ריצה חדשה בכל התחברות"
+        },
+        {
+          "id": "C",
+          "text": "רק את הטקסט המקומי שהיה בדפדפן לפני הניתוק"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "תצוגת ההתקדמות אינה קובעת את מצב העבודה, והמשימה עשויה להמשיך אחרי ניתוק. מזהי אירועים ומצב שמור מאפשרים להציג את אותה ריצה לאחר חיבור מחדש.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["HTTP_OVERVIEW", "FASTAPI"]
+    },
+    {
+      "id": "QUIZ_W13D65_PROJECT_CONVERT_AGENT_INTO_API_SERVICE",
+      "lessonId": "W13D65_PROJECT_CONVERT_AGENT_INTO_API_SERVICE",
+      "question": "איזו בדיקה מתאימה לדרישת End-to-End של שירות Agent API?",
+      "options": [
+        {
+          "id": "A",
+          "text": "קריאה של מסמך התכנון בלי הפעלת השירות"
+        },
+        {
+          "id": "B",
+          "text": "בקשה מאומתת שעוברת דרך הסוכן ונבדקת מול התוצאה שנשמרה"
+        },
+        {
+          "id": "C",
+          "text": "בדיקת כפתור בלבד בלי לבדוק את הנתונים בשרת"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "הפרויקט דורש מסלול מהבקשה עד לתוצאה שנשמרה, כולל אימות ומעקב ריצות. תשובת API לבדה אינה מוכיחה שכל העבודה הושלמה ונשמרה.",
+      "sourceSection": "Build First",
+      "sourceIds": ["FASTAPI", "OTEL"]
+    },
+    {
+      "id": "QUIZ_W14D66_FRONTEND_FUNDAMENTALS",
+      "lessonId": "W14D66_FRONTEND_FUNDAMENTALS",
+      "question": "תשובה לבקשה ישנה הגיעה אחרי תשובה לבקשה החדשה. מה צריך הממשק למנוע?",
+      "options": [
+        {
+          "id": "A",
+          "text": "הצגת מצב טעינה עבור כל בקשה"
+        },
+        {
+          "id": "B",
+          "text": "שמירת מצב מקומי ברכיב React"
+        },
+        {
+          "id": "C",
+          "text": "הצגת התוצאה הישנה כאילו היא שייכת לבקשה הנוכחית"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "בקשות עשויות להסתיים בסדר שונה מזה שבו נשלחו. מעבדת הכשל בודקת מצב זה, והאתגר דורש שלא להציג תוצאה שאינה שייכת לבקשה הנוכחית.",
+      "sourceSection": "Challenge",
+      "sourceIds": ["REACT", "NEXTJS"]
+    },
+    {
+      "id": "QUIZ_W14D67_AGENT_UI",
+      "lessonId": "W14D67_AGENT_UI",
+      "question": "איזה מידע צריך להציג לפני לחיצה על אישור פעולה?",
+      "options": [
+        {
+          "id": "A",
+          "text": "את הפעולה, היעד והשינוי הצפוי"
+        },
+        {
+          "id": "B",
+          "text": "רק כפתור גדול עם המילה ״אישור״"
+        },
+        {
+          "id": "C",
+          "text": "את כל תיעוד המפתחים, גם אם אינו מסביר את השינוי"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "הממשק נועד לאפשר החלטה מודעת. השיעור דורש להראות מה עומד להשתנות ולמי, ולהפריד בין מידע שימושי למשתמש לבין תיעוד פנימי מלא.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["REACT", "N8N_APPROVALS"]
+    },
+    {
+      "id": "QUIZ_W14D68_DEPLOYMENT",
+      "lessonId": "W14D68_DEPLOYMENT",
+      "question": "השירות נארז ב־Docker. איזו מסקנה אינה מוצדקת מהאריזה לבדה?",
+      "options": [
+        {
+          "id": "A",
+          "text": "שנארזו התוכנה וסביבת הריצה שלה"
+        },
+        {
+          "id": "B",
+          "text": "שכבר קיימים גיבוי, ניטור והגנות מלאים"
+        },
+        {
+          "id": "C",
+          "text": "שעדיין צריך לבדוק הגדרות וסודות בכל סביבה"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "השיעור מגדיר את Docker כאריזת תוכנה וסביבת ריצה. האריזה אינה מספקת לבדה גיבוי, ניטור או הגנות, ויש לבדוק ולתעד אותם בנפרד.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["DOCKER", "NEXTJS"]
+    },
+    {
+      "id": "QUIZ_W14D69_PRODUCTION_CONCERNS",
+      "lessonId": "W14D69_PRODUCTION_CONCERNS",
+      "question": "מה צריך מפתח המטמון להביא בחשבון כדי שלא להחזיר מידע ישן או של לקוח אחר?",
+      "options": [
+        {
+          "id": "A",
+          "text": "רק את המילה הראשונה של השאלה"
+        },
+        {
+          "id": "B",
+          "text": "רק את שם המודל, בלי קשר למשתמש ולמקור"
+        },
+        {
+          "id": "C",
+          "text": "את המשתמש, גרסת המידע ומשך התוקף"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "מטמון מחזיר תוצאה לשימוש חוזר. השיעור דורש התחשבות בזהות, בגרסה ובתוקף, ובודק כשל של מידע מיושן או מידע של לקוח אחר.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["OTEL", "OPENAI_DATA"]
+    },
+    {
+      "id": "QUIZ_W14D70_PROJECT_AGENT_SAAS",
+      "lessonId": "W14D70_PROJECT_AGENT_SAAS",
+      "question": "ממשק המוצר נראה תקין. איזו בדיקה עדיין נדרשת לפני מסירה?",
+      "options": [
+        {
+          "id": "A",
+          "text": "מסלול מלא כולל נתונים, הרשאות וכשל שירות חיצוני"
+        },
+        {
+          "id": "B",
+          "text": "בחירת צבעים מחדש בלבד"
+        },
+        {
+          "id": "C",
+          "text": "הכרזה על מוכנות לפי צילום המסך"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "מראה הממשק אינו מוכיח יכולת להתמודד עם תקלה. הפרויקט דורש בדיקת המערכת השלמה והצגת תוצאות ומגבלות ברשימת השחרור.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["FASTAPI", "OTEL"]
+    },
+    {
+      "id": "QUIZ_W15D71_BROWSER_COMPUTER_AGENTS",
+      "lessonId": "W15D71_BROWSER_COMPUTER_AGENTS",
+      "question": "כפתור עבר מקום ונפתח חלון נוסף. מה צריך סוכן הדפדפן לבדוק לפני פעולה שמשנה נתונים?",
+      "options": [
+        {
+          "id": "A",
+          "text": "שכתובת ה־API לא השתנתה, בלי לבדוק את המסך"
+        },
+        {
+          "id": "B",
+          "text": "שהיעד עדיין מזוהה נכון לפי מצב המסך העדכני"
+        },
+        {
+          "id": "C",
+          "text": "שהלחיצה מצליחה בקואורדינטות הישנות"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "לולאת תצפית ופעולה בודקת מסך, פעולה ותוצאה. ממשק יכול להשתנות, ולכן יש לזהות מחדש את היעד ולעצור אם הוא אינו ודאי.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["ANTHROPIC_AGENTS", "OWASP_GENAI"]
+    },
+    {
+      "id": "QUIZ_W15D72_CODE_SANDBOX_AGENTS",
+      "lessonId": "W15D72_CODE_SANDBOX_AGENTS",
+      "question": "איך בודקים שה־Sandbox אוכף את הגבולות שהוגדרו?",
+      "options": [
+        {
+          "id": "A",
+          "text": "מסתפקים בשם ״Sandbox״ בלי ניסוי"
+        },
+        {
+          "id": "B",
+          "text": "מריצים את הקוד על מידע אמיתי של לקוח כדי להגדיל אמינות"
+        },
+        {
+          "id": "C",
+          "text": "מנסים בסביבת בדיקה קריאה מחוץ לתיקייה והרצה שאינה עוצרת, ובודקים חסימה"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "המעבדה דורשת לבדוק גישה מחוץ לסביבה והרצה ללא עצירה. Sandbox הוא חלק מההגנות, ולא הבטחת בטיחות מעצם שמו.",
+      "sourceSection": "Failure Lab",
+      "sourceIds": ["DOCKER", "OWASP_GENAI"]
+    },
+    {
+      "id": "QUIZ_W15D73_DYNAMIC_TOOLS",
+      "lessonId": "W15D73_DYNAMIC_TOOLS",
+      "question": "חיפוש כלים מצא כלי בעל שם מתאים. מה עוד צריך לבדוק לפני הפעלתו?",
+      "options": [
+        {
+          "id": "A",
+          "text": "הרשאה וסכמות קלט ופלט שמתאימות למשימה"
+        },
+        {
+          "id": "B",
+          "text": "רק אם תיאור הכלי מכיל את מילת החיפוש"
+        },
+        {
+          "id": "C",
+          "text": "רק אם המודל המליץ עליו פעמיים"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "גילוי דינמי בוחר מועמדים לפי יכולת, אך אינו מעניק הרשאה או התאמה. השיעור דורש לבדוק את חוזה הנתונים ואת ההרשאות לאחר הבחירה.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["MCP_SPEC", "OPENAI_TOOLS"]
+    },
+    {
+      "id": "QUIZ_W15D74_AGENTIC_CODING",
+      "lessonId": "W15D74_AGENTIC_CODING",
+      "question": "תיקון קוד העביר בדיקה אחת, אבל שבר פעולה אחרת. איזה שלב נדרש בתהליך המבוקר?",
+      "options": [
+        {
+          "id": "A",
+          "text": "הפסקת העבודה מיד אחרי הבדיקה הראשונה"
+        },
+        {
+          "id": "B",
+          "text": "בדיקות רגרסיה וסקירת diff לפני קבלת התיקון"
+        },
+        {
+          "id": "C",
+          "text": "מחיקת הבדיקה של הפעולה שנשברה"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "השיעור דורש תכנון, עריכה, בדיקה, סקירה ותיקון. בדיקה אחת אינה מוכיחה נכונות; סקירת השינוי ובדיקות רגרסיה בוחנות גם את ההשפעות על פעולות קיימות.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["ANTHROPIC_AGENTS", "OPENAI_TOOLS"]
+    },
+    {
+      "id": "QUIZ_W15D75_PROJECT_AUTONOMOUS_WORKFLOW",
+      "lessonId": "W15D75_PROJECT_AUTONOMOUS_WORKFLOW",
+      "question": "המערכת הגיעה לפעולה שדורשת אישור אדם. האם בקשת אישור יכולה להיות סיום תקין של המשימה הנוכחית?",
+      "options": [
+        {
+          "id": "A",
+          "text": "לא, אוטונומיה מחייבת לפעול בלי אדם בכל מצב"
+        },
+        {
+          "id": "B",
+          "text": "לא, יש לסמן שהפעולה כבר בוצעה כדי לסיים"
+        },
+        {
+          "id": "C",
+          "text": "כן, כשהפעולה נמצאת מחוץ לגבולות ההרשאה האוטונומית"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "אוטונומיה פירושה עבודה בתוך גבולות. השיעור מציין שבקשה לאישור יכולה להיות סיום תקין, ושאין חובה להסיר אדם מן התהליך.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["ANTHROPIC_AGENTS", "OPENAI_TOOLS"]
+    },
+    {
+      "id": "QUIZ_W16D76_DISCOVERY",
+      "lessonId": "W16D76_DISCOVERY",
+      "question": "מה צריך לעשות לפני שבוחרים טכנולוגיה לפרויקט הגמר?",
+      "options": [
+        {
+          "id": "A",
+          "text": "להבין את העבודה והנתונים, להגדיר תוצאה ולמדוד את המצב הנוכחי"
+        },
+        {
+          "id": "B",
+          "text": "לבחור framework ואז להתאים אליו צורך עסקי"
+        },
+        {
+          "id": "C",
+          "text": "להתייחס לכל הנחת לקוח כעובדה שנבדקה"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "גילוי צרכים מתחיל בהבנת מי עובד, מה קיים ומה צריך להשתנות. השיעור דורש להציג הנחות שלא נבדקו ולא לתת לטכנולוגיה להחליף אפיון.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["OWASP_GENAI", "ANTHROPIC_EVALS"]
+    },
+    {
+      "id": "QUIZ_W16D77_ARCHITECTURE",
+      "lessonId": "W16D77_ARCHITECTURE",
+      "question": "איזה מידע צריך תרשים הארכיטקטורה להבהיר מעבר לשמות הרכיבים?",
+      "options": [
+        {
+          "id": "A",
+          "text": "רק את שמו של ה־framework שנבחר"
+        },
+        {
+          "id": "B",
+          "text": "זרימת נתונים, הרשאות, שמירת מצב והמשך אחרי כשל"
+        },
+        {
+          "id": "C",
+          "text": "רק את מספר הסוכנים בתכנון"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "הארכיטקטורה מתארת רכיבים, חלופות והחלטות. התרגיל דורש API, מידע, כלים ושלבי אישור, והשיעור מדגיש מקורות אמון, מצב והתאוששות.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["OWASP_GENAI", "ANTHROPIC_EVALS"]
+    },
+    {
+      "id": "QUIZ_W16D78_BUILD",
+      "lessonId": "W16D78_BUILD",
+      "question": "מהי המטרה של Vertical Slice בפרויקט הגמר?",
+      "options": [
+        {
+          "id": "A",
+          "text": "לבנות רכיב מבודד ולסמן את כל המוצר כמוכן"
+        },
+        {
+          "id": "B",
+          "text": "לכתוב רשימת תכונות בלי לחבר אותן למסלול עובד"
+        },
+        {
+          "id": "C",
+          "text": "להעביר קלט עד תוצאה דרך כל הרכיבים הדרושים ולגלות בעיות חיבור מוקדם"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "מסלול מקצה לקצה בודק את החיבור בין הרכיבים. רכיב שקיים בקוד אך לא חובר אינו יכול להיחשב יכולת פעילה.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["OWASP_GENAI", "ANTHROPIC_EVALS"]
+    },
+    {
+      "id": "QUIZ_W16D79_HARDEN",
+      "lessonId": "W16D79_HARDEN",
+      "question": "בדיקת הפעלה מחדש חשפה פעולה עסקית כפולה. מהו הצעד הנדרש לאחר אבחון הכשל?",
+      "options": [
+        {
+          "id": "A",
+          "text": "לתקן את הכשל, להוסיף בדיקת רגרסיה ולהציג הרצה חדשה"
+        },
+        {
+          "id": "B",
+          "text": "להסתיר את הפעולה השנייה מהיומן"
+        },
+        {
+          "id": "C",
+          "text": "לשנות את הגדרת ההצלחה כך שפעולה כפולה תיחשב תקינה"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "האתגר דורש בדיקת רגרסיה, תיקון ותוצאת הרצה לאחריו. הקשחה בוחנת איכות, הרשאות והתאוששות של המערכת השלמה ומציגה גם מגבלות שלא נפתרו.",
+      "sourceSection": "Challenge",
+      "sourceIds": ["OWASP_GENAI", "ANTHROPIC_EVALS"]
+    },
+    {
+      "id": "QUIZ_W16D80_FINAL_BOSS_DEMONSTRATE_FULL_SOLUTION",
+      "lessonId": "W16D80_FINAL_BOSS_DEMONSTRATE_FULL_SOLUTION",
+      "question": "איזו ראיה מתאימה לשליטה מקצועית במבחן הגמר?",
+      "options": [
+        {
+          "id": "A",
+          "text": "סימוני השלמה באפליקציה בלבד"
+        },
+        {
+          "id": "B",
+          "text": "הסבר ושינוי עצמאי של המערכת, הנתמכים בקוד ובתוצאות בדיקה"
+        },
+        {
+          "id": "C",
+          "text": "בחירת ארכיטקטורה בעלת השם החדש ביותר"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "השיעור מגדיר שליטה כיכולת להסביר ולשנות מערכת באופן עצמאי. קוד, תוצאות ותיעוד ריצות תומכים בכך; השלמת שיעורים לבדה אינה הוכחה ליכולת ביצוע.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["OWASP_GENAI", "ANTHROPIC_EVALS"]
+    },
+    {
+      "id": "QUIZ_FND_01",
+      "lessonId": "FND_01",
+      "question": "לקוח כתב ״אני צריך התקנה ביום ראשון״. מדוע עדיין אי אפשר להציע לו את מחיר P1 שבדוגמה?",
+      "options": [
+        {
+          "id": "A",
+          "text": "מפני שמחיר בקטלוג תמיד פחות אמין מהצעת מודל"
+        },
+        {
+          "id": "B",
+          "text": "מפני שמספיק לבחור מוצר כלשהו כדי למלא את הטבלה"
+        },
+        {
+          "id": "C",
+          "text": "מפני שלא ידוע איזה מוצר הוא רוצה, וחסרים פרטים לתמחור הפנייה"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "בדוגמה חסרים מוצר, כתובת ותאריך מדויק. מחיר של מוצר P1 אינו בסיס להצעת מחיר לפני שיודעים שזה המוצר המבוקש; מבקשים השלמה במקום להבטיח מחיר או מועד.",
+      "sourceSection": "Build First",
+      "sourceIds": ["GOOGLE_ML", "ANTHROPIC_AGENTS"]
+    },
+    {
+      "id": "QUIZ_FND_02",
+      "lessonId": "FND_02",
+      "question": "מהי השוואה מתאימה לבחירת מודל למשימת חילוץ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "אותה משימה ואותם נתונים, עם מדידת איכות, זמן, עלות ומגבלות"
+        },
+        {
+          "id": "B",
+          "text": "משימות שונות לכל מודל, לפי הדוגמה שבה הוא מצליח"
+        },
+        {
+          "id": "C",
+          "text": "בחירה אוטומטית במודל היקר ביותר"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "בחירת מודל תלויה במשימה. השיעור דורש תנאי השוואה משותפים ומדדים נפרדים, ומזהיר שאין מודל אחד שמתאים בהכרח לכל משימה.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["ANTHROPIC_EVALS", "OPENAI_DATA"]
+    },
+    {
+      "id": "QUIZ_FND_03",
+      "lessonId": "FND_03",
+      "question": "שם בהקלטה תומלל בצורה לא ברורה. איך צריך לשמור אותו בתהליך החילוץ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "להשלים שם סביר כדי שלא יישאר שדה חסר"
+        },
+        {
+          "id": "B",
+          "text": "לסמן שהוא דורש בדיקה, ולשמור קישור למיקום במקור"
+        },
+        {
+          "id": "C",
+          "text": "למחוק את ההקלטה ולהציג את התמלול כאמת"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "המרה מטקסט, מסמך או קול עלולה לאבד פרטים. השיעור דורש תיעוד מקור ומיקום וסימון פרטים שלא נקראו היטב לבדיקה, במקום להסתיר אי־ודאות.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["GEMINI_DOCUMENTS", "OPENAI_AUDIO"]
+    },
+    {
+      "id": "QUIZ_FND_04",
+      "lessonId": "FND_04",
+      "question": "איזו אמירה מבחינה נכון בין הערכה לבין תוצאת פיילוט?",
+      "options": [
+        {
+          "id": "A",
+          "text": "״חישבנו הערכה, ולכן החיסכון כבר הושג״"
+        },
+        {
+          "id": "B",
+          "text": "״אין צורך להגדיר הצלחה אם התהליך משתמש ב־AI״"
+        },
+        {
+          "id": "C",
+          "text": "״אנחנו מעריכים שייחסך זמן; עדיין צריך למדוד זאת מול המצב הנוכחי״"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "פיילוט הוא ניסוי מוגבל עם מטרה, היקף ומדידה. השיעור מדגיש שהערכת זמן שייחסך אינה חיסכון שכבר נמדד.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["PYTHON_TUTORIAL", "ANTHROPIC_AGENTS"]
+    },
+    {
+      "id": "QUIZ_AGT_01",
+      "lessonId": "AGT_01",
+      "question": "מה מתאר Agent Card בתרגיל התקשורת בין שירותים?",
+      "options": [
+        {
+          "id": "A",
+          "text": "את יכולות שירות הבדיקה, לפי גרסת המפרט שנבחרה"
+        },
+        {
+          "id": "B",
+          "text": "הרשאה אוטומטית לבצע כל משימה מכל משתמש"
+        },
+        {
+          "id": "C",
+          "text": "את תוצאות כל המחקרים העתידיים של השירות"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "התרגיל דורש לקרוא את כרטיס הסוכן ולבדוק אילו יכולות השירות מצהיר עליהן. תקן תקשורת וכרטיס יכולות אינם מחליפים בדיקת הרשאות או אחריות לתוצאה.",
+      "sourceSection": "Build First",
+      "sourceIds": ["MCP_SPEC", "A2A_SPEC"]
+    },
+    {
+      "id": "QUIZ_AUT_01",
+      "lessonId": "AUT_01",
+      "question": "תהליך n8n עובד עם רשומה אחת. איזו בדיקה נוספת מבקש השיעור?",
+      "options": [
+        {
+          "id": "A",
+          "text": "לבדוק רק שמופיעים חצים בין הכרטיסים"
+        },
+        {
+          "id": "B",
+          "text": "לבדוק גם כמה פריטים ואת מבנה הנתונים שעובר בין השלבים"
+        },
+        {
+          "id": "C",
+          "text": "להניח שרשימה ורשומה יחידה מטופלות באותה דרך"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Node מקבל נתונים ומבצע פעולה. השיעור דורש לבדוק את החוזה בין השלבים גם ברשומה יחידה וגם בכמה Items, ולא להסתפק במראה התהליך.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["N8N_WEBHOOK", "N8N_APPROVALS"]
+    },
+    {
+      "id": "QUIZ_AUT_02",
+      "lessonId": "AUT_02",
+      "question": "בגיליון יש שני לקוחות בעלי אותו שם. על מה נכון לבסס סנכרון של רשומה חוזרת?",
+      "options": [
+        {
+          "id": "A",
+          "text": "על שם התצוגה בלבד"
+        },
+        {
+          "id": "B",
+          "text": "על המיקום הנוכחי של השורה, גם כשהגיליון משתנה"
+        },
+        {
+          "id": "C",
+          "text": "על מזהה קבוע של המקור והרשומה, עם מיפוי שדות ברור"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "השיעור מבדיל בין מזהה רשומה לשם תצוגה ודורש מזהה קבוע לפנייה. כך אפשר לזהות אותה בסנכרון נוסף במקום ליצור רשומה חדשה לפי שם משותף.",
+      "sourceSection": "Build First",
+      "sourceIds": ["N8N_WEBHOOK", "HUBSPOT_WEBHOOKS"]
+    },
+    {
+      "id": "QUIZ_AUT_03",
+      "lessonId": "AUT_03",
+      "question": "שלב ה־AI החזיר טקסט חופשי במקום המבנה שהוגדר. מה צריך לקרות לפני כתיבה ל־CRM?",
+      "options": [
+        {
+          "id": "A",
+          "text": "לעצור את הכתיבה ולהעביר את הקלט והסיבה לבדיקה"
+        },
+        {
+          "id": "B",
+          "text": "לשמור את הטקסט בלי אימות כדי לא לעכב את התהליך"
+        },
+        {
+          "id": "C",
+          "text": "להציג הצלחה ולהשלים שדות בניחוש"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "התוצאה נבדקת לפני בחירת מסלול וכתיבה למערכת אחרת. נתונים שאינם מתאימים מופנים לבדיקה או לכשל, ולא ממשיכים כאילו הכול הצליח.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["OPENAI_SCHEMA", "N8N_APPROVALS"]
+    },
+    {
+      "id": "QUIZ_AUT_04",
+      "lessonId": "AUT_04",
+      "question": "אותו אירוע הגיע פעמיים. מה צריך לבדוק לפני יצירת משימה עסקית נוספת?",
+      "options": [
+        {
+          "id": "A",
+          "text": "אם הודעת הרשת האחרונה קיבלה זמן חדש"
+        },
+        {
+          "id": "B",
+          "text": "אם הפעולה העסקית בעלת אותו מזהה כבר בוצעה"
+        },
+        {
+          "id": "C",
+          "text": "אם המודל יכול לנסח שם אחר לאותה משימה"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "אירוע עשוי להגיע שוב, וניסיון חוזר עלול לחזור על פעולה שכבר הצליחה. השיעור דורש מזהה פעולה ובדיקת מה שכבר בוצע כדי למנוע עבודה כפולה.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["STRIPE_WEBHOOKS", "POSTGRES_TRANSACTIONS"]
+    },
+    {
+      "id": "QUIZ_AUT_05",
+      "lessonId": "AUT_05",
+      "question": "טיוטת תשובה שונתה אחרי אישור בתהליך החזותי. מה נדרש כדי להמשיך?",
+      "options": [
+        {
+          "id": "A",
+          "text": "להשאיר את האישור הקודם מפני שהכרטיס נשאר ירוק"
+        },
+        {
+          "id": "B",
+          "text": "למחוק את מספר הגרסה כדי שההשוואה תצליח"
+        },
+        {
+          "id": "C",
+          "text": "לבטל את האישור הישן ולאשר את הגרסה החדשה"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "האדם אישר פעולה וגרסה מסוימות. האתגר דורש לבטל אישור ישן ולאפשר המשך רק לאחר אישור לגרסה החדשה.",
+      "sourceSection": "Challenge",
+      "sourceIds": ["N8N_APPROVALS"]
+    },
+    {
+      "id": "QUIZ_AUT_06",
+      "lessonId": "AUT_06",
+      "question": "מהו בסיס הוגן לבדיקה לאחר העברת תהליך מ־n8n ל־Make?",
+      "options": [
+        {
+          "id": "A",
+          "text": "אותם נתוני בדיקה ואותו מבנה קלט ופלט"
+        },
+        {
+          "id": "B",
+          "text": "אותו צבע של שלבי התהליך"
+        },
+        {
+          "id": "C",
+          "text": "רק בדיקה ששני הכלים מציעים Connector בעל שם דומה"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "התרגיל דורש הרצה על אותם נתונים וחוזים. ממשקים דומים אינם מבטיחים התנהגות זהה, ויש לבדוק גם תכונות ומגבלות של החשבון.",
+      "sourceSection": "Build First",
+      "sourceIds": ["MAKE_AGENTS", "N8N_EVALS"]
+    },
+    {
+      "id": "QUIZ_AUT_07",
+      "lessonId": "AUT_07",
+      "question": "Copilot Studio מציע Connector שהארגון לא אישר. האם עצם הופעתו במוצר מאפשרת להשתמש בו?",
+      "options": [
+        {
+          "id": "A",
+          "text": "כן; כל Connector שמופיע ברשימה מאושר לכל לקוח"
+        },
+        {
+          "id": "B",
+          "text": "לא; צריך לבדוק הרשאות ומדיניות בסביבת הארגון"
+        },
+        {
+          "id": "C",
+          "text": "כן; אפשר להסתיר את שלב החיבור מהמנהל"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "השיעור דורש לבדוק זהות, חיבורים והגבלות מידע לפני הטמעה. יכולת שמוצעת במוצר אינה בהכרח מאושרת בסביבת הלקוח.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["COPILOT", "POWER_DLP"]
+    },
+    {
+      "id": "QUIZ_AUT_08",
+      "lessonId": "AUT_08",
+      "question": "שלב יצירת משימה הצליח, אבל הפנייה אינה ב־CRM הנכון. איך צריך להעריך את התהליך?",
+      "options": [
+        {
+          "id": "A",
+          "text": "כהצלחה מלאה מפני ששלב אחד הצליח"
+        },
+        {
+          "id": "B",
+          "text": "כבעיה חזותית בלבד שאינה קשורה לאוטומציה"
+        },
+        {
+          "id": "C",
+          "text": "כמסלול שעדיין אינו עומד בתוצאה העסקית מתחילתו ועד סופו"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "המבחן דורש בדיקה מתחילת האירוע עד התוצאה בעסק. הצלחה של שלב אחד אינה מוכיחה שהמידע הגיע למערכת הנכונה או שעובד יכול להמשיך לטפל בו.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["N8N_APPROVALS", "STRIPE_WEBHOOKS"]
+    },
+    {
+      "id": "QUIZ_MKT_01",
+      "lessonId": "MKT_01",
+      "question": "בריף מותג כולל המלצת לקוח שאין לה מקור. מה נכון לעשות לפני יצירת התוכן?",
+      "options": [
+        {
+          "id": "A",
+          "text": "להסיר את הטענה או לברר אותה עם הלקוח ולבסס אותה"
+        },
+        {
+          "id": "B",
+          "text": "להציג אותה כעובדה כי היא תורמת לשכנוע"
+        },
+        {
+          "id": "C",
+          "text": "לשנות מעט את הניסוח כדי שלא יהיה צורך במקור"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "בריף מפריד עובדות מהנחות ומציין מה אסור לטעון. השיעור אוסר להמציא המלצות ויתרונות מוצר, ודורש מקור לכל טענה עובדתית.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["GOOGLE_AI_CONTENT", "OPENAI_SCHEMA"]
+    },
+    {
+      "id": "QUIZ_MKT_02",
+      "lessonId": "MKT_02",
+      "question": "מתחרה פרסם הרבה סרטונים על נושא מסוים. מה אפשר להסיק מכך במחקר קהל?",
+      "options": [
+        {
+          "id": "A",
+          "text": "שהקהל בהכרח מעדיף סרטונים על הנושא הזה"
+        },
+        {
+          "id": "B",
+          "text": "שהמתחרה עוסק בנושא; העדפת הקהל עדיין דורשת ראיות"
+        },
+        {
+          "id": "C",
+          "text": "שהנושא יצליח גם אצלנו בלי לבדוק מי הקהל"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "השיעור מפריד בין תצפית לפרשנות: פרסום של מתחרה הוא מידע על הפעילות שלו, ואינו מוכיח מה הקהל מעדיף. יש לבדוק מקורות, תאריכים וראיות לפני בחירת כיוון תוכן.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["GOOGLE_AI_CONTENT", "OPENAI_SCHEMA"]
+    },
+    {
+      "id": "QUIZ_MKT_03",
+      "lessonId": "MKT_03",
+      "question": "בלוח התוכן יש עשרים פוסטים, אך לא הוגדר למי הם מיועדים ומה מטרתם. מה חסר?",
+      "options": [
+        {
+          "id": "A",
+          "text": "מספר גדול יותר של פוסטים ללא שינוי בתכנון"
+        },
+        {
+          "id": "B",
+          "text": "החלפת כל הפוסטים בסרטונים כדי להבטיח תוצאה"
+        },
+        {
+          "id": "C",
+          "text": "חיבור של כל פריט לקהל ולמטרה שאפשר להעריך"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "לוח תוכן מחבר כל פריט לקהל, למטרה ולתוצאה שרוצים לבדוק בזמן מוגדר. מספר הפרסומים לבדו אינו מעיד על ערך או על התקדמות לעבר המטרה העסקית.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["GOOGLE_AI_CONTENT", "OPENAI_SCHEMA"]
+    },
+    {
+      "id": "QUIZ_MKT_04",
+      "lessonId": "MKT_04",
+      "question": "בטיוטה בעברית מופיעה הבטחה על מוצר שאינה קיימת במידע שסופק. מה צריך לעשות בעריכה?",
+      "options": [
+        {
+          "id": "A",
+          "text": "להסיר את ההבטחה או להעביר אותה לבירור לפני אישור"
+        },
+        {
+          "id": "B",
+          "text": "להשאיר אותה אם המשפט נשמע טבעי ומשכנע"
+        },
+        {
+          "id": "C",
+          "text": "לבקש ניסוח שיווקי יותר לאותה הבטחה"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "טיוטה של מודל מחייבת בדיקת עובדות, מבנה וטון. טענה שאינה נתמכת במידע על המוצר דורשת הסרה או בירור; ניסוח יפה אינו הוכחה לנכונותה.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["OPENAI_QUICKSTART", "GOOGLE_AI_CONTENT"]
+    },
+    {
+      "id": "QUIZ_MKT_05",
+      "lessonId": "MKT_05",
+      "question": "מאמר אומר שהשירות זמין רק ללקוחות רשומים, אך הפוסט המקוצר משמיט את התנאי. האם זו התאמה תקינה לפורמט?",
+      "options": [
+        {
+          "id": "A",
+          "text": "כן; מותר להסיר כל תנאי כדי לעמוד במגבלת אורך"
+        },
+        {
+          "id": "B",
+          "text": "לא; צריך לשמור גם בפוסט את התנאי שמשנה את משמעות הטענה"
+        },
+        {
+          "id": "C",
+          "text": "כן; העובדות חשובות רק במאמר המקורי"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "המרת מקור לכמה פורמטים משנה את האורך ואת דרך ההצגה, אך אינה אמורה לשנות עובדות. תנאים והסתייגויות שמשפיעים על המשמעות צריכים להישמר בכל גרסה.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["OPENAI_SCHEMA", "GOOGLE_AI_CONTENT"]
+    },
+    {
+      "id": "QUIZ_MKT_06",
+      "lessonId": "MKT_06",
+      "question": "תמונת קמפיין נראית מרשימה, אבל שם המוצר בתוכה שגוי. איך נכון להתייחס לגרסה?",
+      "options": [
+        {
+          "id": "A",
+          "text": "כגרסה מוכנה מפני שהעיצוב מרשים"
+        },
+        {
+          "id": "B",
+          "text": "כגרסה מאושרת אם המודל יצר אותה ללא שגיאה טכנית"
+        },
+        {
+          "id": "C",
+          "text": "כגרסה שדורשת תיקון ובדיקה מול הבריף לפני פרסום"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "יצירת תמונה אינה אישור לפרסום. השיעור דורש לבדוק התאמה לבריף, פרטי מוצר ועקביות; גם אותיות ופרטים בתמונה שנוצרה עלולים להיות שגויים.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["OPENAI_IMAGE"]
+    },
+    {
+      "id": "QUIZ_MKT_07",
+      "lessonId": "MKT_07",
+      "question": "הפרומפט לסרטון מתאר דמות אחידה, אך עדיין לא צפית בתוצר. איזו בדיקה נדרשת לפני אישורו?",
+      "options": [
+        {
+          "id": "A",
+          "text": "לצפות ולהאזין לסרטון ולבדוק דמות, מוצר, דיבור וכתוביות"
+        },
+        {
+          "id": "B",
+          "text": "לקרוא שוב את הפרומפט ולהסתפק בו"
+        },
+        {
+          "id": "C",
+          "text": "לבדוק רק שהקובץ נוצר ושאורכו מתאים"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "תכנון ופרומפט אינם מוכיחים שהסרטון עומד בדרישות. השיעור דורש צפייה והאזנה לתוצר, משום שדמות, פרטי מוצר וכתוביות עשויים להשתנות או לא להתאים לדיבור.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["OPENAI_VIDEO"]
+    },
+    {
+      "id": "QUIZ_MKT_08",
+      "lessonId": "MKT_08",
+      "question": "בתרגום של תמלול השתנה מספר שמופיע בהקלטה המקורית. מהי הבדיקה המתאימה?",
+      "options": [
+        {
+          "id": "A",
+          "text": "להעדיף את המספר בתרגום כי הוא עבר עיבוד נוסף"
+        },
+        {
+          "id": "B",
+          "text": "להשוות את המספר ואת משמעות המשפט למקור ולתקן את התוצר"
+        },
+        {
+          "id": "C",
+          "text": "למחוק את כל המספרים כדי שלא יהיה צורך להשוות"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "תמלול, תרגום וקריינות עשויים לשבש שמות, מספרים ומשמעות. השיעור דורש השוואה בין המקור לתוצר, לצד בדיקת הגייה וקצב בקריינות.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["OPENAI_AUDIO"]
+    },
+    {
+      "id": "QUIZ_MKT_09",
+      "lessonId": "MKT_09",
+      "question": "מאמר כולל כותרת ותיאור לחיפוש, אך אינו מוסיף מידע מועיל לקורא. האם אפשר לאשר אותו רק בזכות הגדרות ה־SEO?",
+      "options": [
+        {
+          "id": "A",
+          "text": "כן; כותרת ותיאור מחליפים את הצורך במידע מועיל"
+        },
+        {
+          "id": "B",
+          "text": "כן; הכנת המאמר היא כבר אישור לפרסום"
+        },
+        {
+          "id": "C",
+          "text": "לא; צריך לבדוק ערך לקורא ועובדות לפני אישור פרסום"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "השיעור מבהיר ש־SEO אינו תחליף לתוכן מדויק ושימושי. הכנה, אישור ופרסום הם שלבים נפרדים, ולכן הגדרות חיפוש לבדן אינן סיבה לאשר תוכן חסר ערך.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["GOOGLE_AI_CONTENT", "N8N_APPROVALS"]
+    },
+    {
+      "id": "QUIZ_MKT_10",
+      "lessonId": "MKT_10",
+      "question": "בתיק סטודיו התוכן נכתבה תחזית שלפיה הקמפיין יביא יותר פניות. איך צריך להציג אותה כל עוד אין נתוני ביצוע?",
+      "options": [
+        {
+          "id": "A",
+          "text": "כהשערה שצריך למדוד, לצד הפרדה מנתונים שכבר נמדדו"
+        },
+        {
+          "id": "B",
+          "text": "כתוצאה מוכחת משום שהתוכן אושר"
+        },
+        {
+          "id": "C",
+          "text": "כתוצאה שנמדדה אם המודל ניסח תחזית מפורטת"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "במבחן המסכם מפרידים בין תכנון, יצירה, עריכה ואישור. תוצאה שיווקית צפויה היא השערה עד שיש נתונים, ויש להבחין בין תחזית לבין מדידה שבוצעה בפועל.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["GOOGLE_AI_CONTENT", "OPENAI_SCHEMA"]
+    },
+    {
+      "id": "QUIZ_ADS_01",
+      "lessonId": "ADS_01",
+      "question": "קמפיין הוציא כסף אך נרשמו בו אפס המרות. איך צריך להציג את ה־CPA לפי נוסחת עלות חלקי המרות?",
+      "options": [
+        {
+          "id": "A",
+          "text": "כ־0, כי לא הייתה עלות לכל המרה בפועל"
+        },
+        {
+          "id": "B",
+          "text": "כמדד שאינו מוגדר במקרה הזה, עם הסבר על אפס ההמרות"
+        },
+        {
+          "id": "C",
+          "text": "כסכום ההוצאות, בלי לציין שאין המרות"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "CPA מחלק את העלות במספר ההמרות. כאשר המכנה הוא אפס אין ערך מוגדר לפי הנוסחה; השיעור דורש לזהות מצב כזה ולא להציג מספר מטעה.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["GOOGLE_ADS_TESTS", "ANTHROPIC_EVALS"]
+    },
+    {
+      "id": "QUIZ_ADS_02",
+      "lessonId": "ADS_02",
+      "question": "אותו קובץ נתוני קמפיינים מיובא שוב. מה צריך להבטיח כדי לא לנפח את ההוצאות בדוח?",
+      "options": [
+        {
+          "id": "A",
+          "text": "הוספת כל השורות שוב כדי לתעד כל ניסיון יבוא"
+        },
+        {
+          "id": "B",
+          "text": "המרת כל הסכומים למספרים גדולים יותר לפני היבוא"
+        },
+        {
+          "id": "C",
+          "text": "זיהוי מקור ורשומות שכבר יובאו ומניעת כפילות"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "השיעור דורש לשמור מזהים, מקור, מטבע ואזור זמן ולבדוק כפילויות. יבוא חוזר של אותו מידע אינו הוצאה חדשה, ולכן אסור שיכפיל את הנתונים בדוח.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["GOOGLE_ADS_TESTS", "ANTHROPIC_EVALS"]
+    },
+    {
+      "id": "QUIZ_ADS_03",
+      "lessonId": "ADS_03",
+      "question": "בניסוי מודעה הוחלפו יחד הקהל, המסר והתמונה. למה קשה לפרש את השינוי בתוצאה?",
+      "options": [
+        {
+          "id": "A",
+          "text": "מפני שאי אפשר לייחס אותו בבירור למשתנה אחד שהשתנה"
+        },
+        {
+          "id": "B",
+          "text": "מפני שצריך תמיד להחליף את כל המשתנים בכל ניסוי"
+        },
+        {
+          "id": "C",
+          "text": "מפני שרעיון של מודל כבר מוכיח איזה משתנה השפיע"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "השיעור מציע ניסוי עם השערה ומשתנה אחד שמשנים. כאשר קהל, מסר ותמונה משתנים יחד, קשה לדעת איזה שינוי מסביר את ההבדל בתוצאה.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["GOOGLE_ADS_TESTS", "ANTHROPIC_EVALS"]
+    },
+    {
+      "id": "QUIZ_ADS_04",
+      "lessonId": "ADS_04",
+      "question": "פניות מגיעות מטופס דף הנחיתה, אבל אירוע ההמרה לא נרשם. מה צריך לבדוק לפני מסקנה שהקמפיין נכשל?",
+      "options": [
+        {
+          "id": "A",
+          "text": "רק את מספר ההקלקות על המודעה"
+        },
+        {
+          "id": "B",
+          "text": "את המסלול מהטופס ועד רישום אירוע ההמרה"
+        },
+        {
+          "id": "C",
+          "text": "להפסיק את הקמפיין מיד משום שאין אירועים בדוח"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "השיעור מחבר בין הקלקה, דף נחיתה, טופס ואירוע מדידה. אירוע חסר עלול ליצור רושם שאין פניות גם כשהן הגיעו, ולכן צריך לבדוק את המסלול כולו לפני פירוש הביצועים.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["GOOGLE_ADS_TESTS", "ANTHROPIC_EVALS"]
+    },
+    {
+      "id": "QUIZ_ADS_05",
+      "lessonId": "ADS_05",
+      "question": "העוזר ממליץ להעלות תקציב, אך אין אישור לשינוי. מהו המצב הנכון של ההמלצה?",
+      "options": [
+        {
+          "id": "A",
+          "text": "שינוי מאושר מפני שהעוזר נימק אותו"
+        },
+        {
+          "id": "B",
+          "text": "שינוי שבוצע ברגע שההמלצה הוצגה"
+        },
+        {
+          "id": "C",
+          "text": "טיוטה שמחכה לבדיקת נתונים, מגבלות ואישור"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "המלצה אינה הרשאה להוציא כסף. השיעור דורש נתונים, מגבלות ואישור לשינוי, ומבחין בין טיוטת תקציב לבין פעולה שאפשר לבצע.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["GOOGLE_ADS_TESTS", "ANTHROPIC_EVALS"]
+    },
+    {
+      "id": "QUIZ_ADS_06",
+      "lessonId": "ADS_06",
+      "question": "בדוח המסכם נכתב שינוי תקציב מוצע בלי שבוצע בפועל. כיצד צריך לתעד אותו?",
+      "options": [
+        {
+          "id": "A",
+          "text": "כהמלצה או טיוטה, בנפרד משינויים שבוצעו ואושרו"
+        },
+        {
+          "id": "B",
+          "text": "כשינוי שבוצע כדי שהדוח יהיה שלם"
+        },
+        {
+          "id": "C",
+          "text": "כתוצאה של קמפיין חי, אף שהתרגיל השתמש בנתוני הדגמה"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "המבחן מפריד בין נתונים, פרשנות והמלצות. טיוטה אינה פעולה שבוצעה, ונתוני הדגמה אינם ביצועי קמפיין חי; ביצוע שינוי דורש הרשאה, אישור ותיעוד.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["GOOGLE_ADS_TESTS", "ANTHROPIC_EVALS"]
+    },
+    {
+      "id": "QUIZ_CRM_01",
+      "lessonId": "CRM_01",
+      "question": "לאותו לקוח יש שתי עסקאות. איך נכון לייצג זאת במודל הנתונים של ה־CRM?",
+      "options": [
+        {
+          "id": "A",
+          "text": "ליצור לקוח חדש ולשכפל את כל פרטיו לכל עסקה"
+        },
+        {
+          "id": "B",
+          "text": "לקשר שתי רשומות עסקה לרשומת הלקוח המתאימה"
+        },
+        {
+          "id": "C",
+          "text": "לשמור את שתי העסקאות בשדה שם הלקוח"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "השיעור מפריד בין אנשי קשר, חברות, עסקאות ופעילויות, ומגדיר קשרים באמצעות מזהים. כך אפשר לקשר כמה עסקאות לאותו לקוח בלי לשכפל את פרטיו בכל פעם.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["HUBSPOT_WEBHOOKS", "STRIPE_WEBHOOKS"]
+    },
+    {
+      "id": "QUIZ_CRM_02",
+      "lessonId": "CRM_02",
+      "question": "בקובץ יבוא מופיעות שתי רשומות עם אותו שם, אבל פרטי הקשר שונים. האם צריך למזג אותן אוטומטית?",
+      "options": [
+        {
+          "id": "A",
+          "text": "כן; שם זהה מוכיח שזה אותו אדם"
+        },
+        {
+          "id": "B",
+          "text": "כן; כדאי לשמור רק את הרשומה האחרונה בלי לבדוק"
+        },
+        {
+          "id": "C",
+          "text": "לא; צריך ראיות וכללי התאמה, ובמקרה לא ברור בדיקה"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "שם דומה אינו הוכחת זהות, ומיזוג משנה מידע עסקי. השיעור דורש מקור, כללי התאמה ותיעוד של אי־ודאות, ולהעביר מקרים לא ברורים לבדיקה במקום למזג לפי שם בלבד.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["HUBSPOT_WEBHOOKS", "STRIPE_WEBHOOKS"]
+    },
+    {
+      "id": "QUIZ_CRM_03",
+      "lessonId": "CRM_03",
+      "question": "נוצרה משימת מעקב לליד, אך לא נקבע מי מטפל בו ומתי. מה חסר כדי שהמעקב יהיה שימושי?",
+      "options": [
+        {
+          "id": "A",
+          "text": "אחראי לטיפול ומועד להמשך פעולה"
+        },
+        {
+          "id": "B",
+          "text": "ציון שהמודל המציא בלי מידע נוסף"
+        },
+        {
+          "id": "C",
+          "text": "נוסח ארוך יותר של שם המשימה בלבד"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "סיווג ומעקב נשענים על כללים עסקיים ועל המידע שנמסר. השיעור דורש להגדיר מי ממשיך לטפל ומתי; מידע חסר מחייב בירור, ולא המצאת ציון או פרטים.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["HUBSPOT_WEBHOOKS", "STRIPE_WEBHOOKS"]
+    },
+    {
+      "id": "QUIZ_CRM_04",
+      "lessonId": "CRM_04",
+      "question": "המודל מציע ללקוח הנחה שאינה מותרת בקטלוג. איך צריך להכין את הצעת העבודה?",
+      "options": [
+        {
+          "id": "A",
+          "text": "להשתמש בהנחת המודל כי היא נשמעת מתאימה"
+        },
+        {
+          "id": "B",
+          "text": "לחשב לפי נתוני הקטלוג והכללים ולבדוק את הטיוטה לפני אישור"
+        },
+        {
+          "id": "C",
+          "text": "לשלוח את הטיוטה מיד כדי להפוך אותה להתחייבות"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "המודל יכול לנסח הצעה, אך מחיר, כמות והנחה נשענים על נתונים וכללים ונבדקים בקוד. השיעור מבחין בין טיוטה לבין התחייבות שניתנה לאחר אישור.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["POSTGRES_TRANSACTIONS", "OPENAI_SCHEMA"]
+    },
+    {
+      "id": "QUIZ_CRM_05",
+      "lessonId": "CRM_05",
+      "question": "פנייה בדוא״ל ופנייה ב־WhatsApp נושאות אותו שם. מה נדרש לפני שיוך שתיהן לאותו לקוח?",
+      "options": [
+        {
+          "id": "A",
+          "text": "שיוך אוטומטי לפי השם בלבד"
+        },
+        {
+          "id": "B",
+          "text": "מחיקת פרטי הערוץ כדי לאחד את כל הפניות"
+        },
+        {
+          "id": "C",
+          "text": "ראיות להתאמה ושמירת הערוץ והמקור של כל פנייה"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "התאמה בין ערוצים דורשת ראיות; שם זהה אינו מוכיח שמדובר באותו אדם. השיעור דורש לשמור ערוץ ומקור, ולהבחין גם בין הודעה שהוכנה לבין הודעה שנשלחה.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["TWILIO_SANDBOX", "HUBSPOT_WEBHOOKS"]
+    },
+    {
+      "id": "QUIZ_CRM_06",
+      "lessonId": "CRM_06",
+      "question": "עובד משנה את כתובת העמוד כדי לפתוח פנייה שלא הוקצתה לו. מה צריכה מערכת ההרשאות לבדוק?",
+      "options": [
+        {
+          "id": "A",
+          "text": "גם אילו רשומות מותר לו לראות וגם אילו פעולות מותר לו לבצע"
+        },
+        {
+          "id": "B",
+          "text": "רק אם כפתור הפנייה מוסתר במסך שלו"
+        },
+        {
+          "id": "C",
+          "text": "רק אם סיכום ה־AI קצר מספיק לקריאה"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "הרשאות מגבילות גישה לרשומות וגם פעולות עליהן. סיכום AI עוזר לקרוא את הפנייה אך אינו מחליף את המקור או את בדיקת הגישה; שינוי כתובת אינו מקנה הרשאה.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["SEARCH_SECURITY", "OWASP_GENAI"]
+    },
+    {
+      "id": "QUIZ_CRM_07",
+      "lessonId": "CRM_07",
+      "question": "שתי הזמנות מנסות לרכוש את הפריט האחרון במלאי. איזה עיקרון צריך להנחות את עדכון היתרה?",
+      "options": [
+        {
+          "id": "A",
+          "text": "עדכון לפי הטקסט האחרון שהמודל כתב על המלאי"
+        },
+        {
+          "id": "B",
+          "text": "עדכון עקבי באמצעות עסקה או מנגנון מתאים להזמנות במקביל"
+        },
+        {
+          "id": "C",
+          "text": "הפחתת פריט לכל בקשה בלי להתחשב בהזמנה האחרת"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "מלאי משתנה בעקבות תנועות עסקיות, ואינו מתעדכן על סמך טקסט של מודל. כשהזמנות מתבצעות במקביל, השיעור דורש עסקה או מנגנון מתאים לשמירה על עקביות הנתונים.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["POSTGRES_TRANSACTIONS", "STRIPE_WEBHOOKS"]
+    },
+    {
+      "id": "QUIZ_CRM_08",
+      "lessonId": "CRM_08",
+      "question": "מערכת הפניות מחוברת ל־CRM. האם החיבור מאפשר לדלג על בדיקת ההרשאות ב־CRM?",
+      "options": [
+        {
+          "id": "A",
+          "text": "כן; הרשאה באחת המערכות מאפשרת כל שינוי באחרת"
+        },
+        {
+          "id": "B",
+          "text": "כן; די בתיעוד השינוי לאחר שבוצע"
+        },
+        {
+          "id": "C",
+          "text": "לא; צריך לשמור על חלוקת סמכויות ולבדוק הרשאות בכל מערכת"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "מערכת עסקית מחברת לקוחות, עסקאות, משימות ושירות, אך החיבור אינו מבטל בדיקת הרשאות בכל חלק. תיעוד שינויים מאפשר להבין מה קרה, ואינו תחליף להרשאה לבצע אותם.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["HUBSPOT_WEBHOOKS", "STRIPE_WEBHOOKS"]
+    },
+    {
+      "id": "QUIZ_WEB_01",
+      "lessonId": "WEB_01",
+      "question": "בטופס פנייה מופיע ״הושלם״ מיד לאחר שהמשימה נכנסה לתור. מהו התיקון המתאים למסע המשתמש?",
+      "options": [
+        {
+          "id": "A",
+          "text": "להציג שהמשימה התקבלה או ממתינה, ולהבדיל זאת מהשלמתה"
+        },
+        {
+          "id": "B",
+          "text": "להשאיר ״הושלם״ כל עוד אין שגיאת דפדפן"
+        },
+        {
+          "id": "C",
+          "text": "להציג ״הושלם״ ברגע שהמשתמש לחץ על הכפתור"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "השיעור דורש להגדיר מצבי טעינה, אין נתונים, הצלחה ושגיאה לפי מה שבאמת קרה. קליטה או כניסה לתור אינן השלמת המשימה; הודעת שליחה מופיעה רק אחרי אישור קליטה מהשרת.",
+      "sourceSection": "Deep Dive",
+      "sourceIds": ["REACT", "NEXTJS"]
+    },
+    {
+      "id": "QUIZ_WEB_02",
+      "lessonId": "WEB_02",
+      "question": "ממשק בעברית מוגדר כ־RTL. כיצד צריך להתייחס לקוד ולשימוש במקלדת?",
+      "options": [
+        {
+          "id": "A",
+          "text": "להניח ש־RTL מסדר אוטומטית גם קוד וגם מעבר במקש Tab"
+        },
+        {
+          "id": "B",
+          "text": "לבדוק בנפרד כיוון קוד וסדר מיקוד, עם תוויות ושמות נגישים"
+        },
+        {
+          "id": "C",
+          "text": "להסיר סימוני מיקוד כדי לשמור על עיצוב אחיד"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "השיעור מבהיר ש־RTL אינו הופך אוטומטית קוד ומספרים. כותרות, תוויות, שמות נגישים ושימוש במקלדת הם חלק מתכנון הממשק וצריכים להיבדק, ולא להסתמך על כיוון העמוד בלבד.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["WCAG", "REACT"]
+    },
+    {
+      "id": "QUIZ_WEB_03",
+      "lessonId": "WEB_03",
+      "question": "כרטיס בדף שנוצר בעזרת AI נראה טוב במחשב אך חורג מרוחב הטלפון. מה נדרש כדי להשלים את הבנייה?",
+      "options": [
+        {
+          "id": "A",
+          "text": "להסתפק בצילום מהמחשב שבו נבנה הדף"
+        },
+        {
+          "id": "B",
+          "text": "לבקש עוד גרסה מהמודל בלי לקרוא את הקוד או לבדוק אותה"
+        },
+        {
+          "id": "C",
+          "text": "לזהות את גורם החריגה, לתקן ולבדוק בכמה גדלי מסך"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "קוד שנוצר בעזרת AI מחייב קריאה ובדיקה. ממשק מותאם צריך לעבוד גם במסך קטן, והתרגיל דורש לזהות חריגה ולבדוק את התיקון בטלפון, בטאבלט ובמחשב.",
+      "sourceSection": "Mastery Check",
+      "sourceIds": ["REACT", "NEXTJS"]
+    },
+    {
+      "id": "QUIZ_WEB_04",
+      "lessonId": "WEB_04",
+      "question": "הטופס נשלח, הרשת נותקה, והמשתמש מנסה שוב. מה עוזר למנוע יצירת שתי פניות?",
+      "options": [
+        {
+          "id": "A",
+          "text": "מזהה פעולה שמאפשר לזהות שהשליחה חוזרת"
+        },
+        {
+          "id": "B",
+          "text": "בדיקת קלט בדפדפן בלבד"
+        },
+        {
+          "id": "C",
+          "text": "החלפת נוסח כפתור השליחה בלי לבדוק מה נשמר"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "המשתמש עשוי לא לדעת אם השרת קיבל את הפנייה לפני הניתוק. השיעור מציע מזהה פעולה לזיהוי שליחה חוזרת, לצד בדיקת קלט בדפדפן ובשרת, כדי למנוע פנייה כפולה.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["FASTAPI", "HUBSPOT_WEBHOOKS"]
+    },
+    {
+      "id": "QUIZ_WEB_05",
+      "lessonId": "WEB_05",
+      "question": "דוח אוטומטי על האתר נראה תקין. איזו בדיקה עסקית עדיין צריך לבצע לפני פרסום?",
+      "options": [
+        {
+          "id": "A",
+          "text": "לבדוק שוב רק את תיאור העמוד לחיפוש"
+        },
+        {
+          "id": "B",
+          "text": "לשלוח פנייה ולבדוק לאן היא מגיעה במערכת"
+        },
+        {
+          "id": "C",
+          "text": "להניח שכל הטפסים פועלים מפני שאין אזהרות בדוח"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "בדיקות חיפוש, ביצועים ומדידה הן בדיקות שונות. השיעור דורש לבדוק גם את המסלול העסקי: דוח אוטומטי אינו מחליף שליחת פנייה ובדיקה שהיא מגיעה ליעד המתאים.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["WCAG", "DOCKER"]
+    },
+    {
+      "id": "QUIZ_WEB_06",
+      "lessonId": "WEB_06",
+      "question": "העוזר באתר מציג תשובות קבועות לצורכי הדגמה. כיצד נכון לתאר אותו למשתמש?",
+      "options": [
+        {
+          "id": "A",
+          "text": "כמודל פעיל שמפיק תשובה חדשה בכל פעם"
+        },
+        {
+          "id": "B",
+          "text": "כשירות AI מחובר משום שיש לו תיבת שיחה"
+        },
+        {
+          "id": "C",
+          "text": "כעוזר הדגמה עם תשובות קבועות"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "המבחן דורש להציג את מצב העבודה האמיתי ולבדוק שהפנייה נשמרה וניתנת לטיפול. אם התשובות קבועות לצורכי הדגמה, צריך לציין זאת ולא להציג את העוזר כמודל פעיל.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["REACT", "NEXTJS"]
+    },
+    {
+      "id": "QUIZ_VOI_01",
+      "lessonId": "VOI_01",
+      "question": "מספר הזמנה בתמלול נשמע חשוד. מה מאפשר לבדוק מה באמת נאמר?",
+      "options": [
+        {
+          "id": "A",
+          "text": "לחזור לחותמת הזמן המתאימה בהקלטה ולהשוות לתמלול"
+        },
+        {
+          "id": "B",
+          "text": "להסתמך על התמליל מפני שהוא קריא"
+        },
+        {
+          "id": "C",
+          "text": "לבחור מספר שנראה סביר לפי הקשר השיחה"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "תמלול עלול לשבש שמות, מספרים ושיוך לדובר. חותמת זמן מאפשרת להגיע לקטע המתאים בהקלטה ולבדוק אותו; תמליל קריא אינו הוכחה שכל פרט נקלט נכון.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["OPENAI_AUDIO"]
+    },
+    {
+      "id": "QUIZ_VOI_02",
+      "lessonId": "VOI_02",
+      "question": "סיכום השיחה כולל התחייבות להנחה שלא נאמרה בשיחה. מה נכון לעשות לפני הפיכת הסיכום למשימות?",
+      "options": [
+        {
+          "id": "A",
+          "text": "לשמור את ההתחייבות כי היא מופיעה בסיכום"
+        },
+        {
+          "id": "B",
+          "text": "להסיר את ההתחייבות ולבסס כל משימה על קטע בשיחה"
+        },
+        {
+          "id": "C",
+          "text": "לעדכן מיד את ה־CRM כדי שההתחייבות תיחשב אמיתית"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "סיכום, משימת המשך ועדכון לקוח הם תוצאות שונות. כל התחייבות ומשימה צריכות בסיס בשיחה, ולכן השיעור דורש להסיר התחייבות מומצאת ולהציג קטע תומך לכל משימה.",
+      "sourceSection": "Challenge",
+      "sourceIds": ["OPENAI_AUDIO"]
+    },
+    {
+      "id": "QUIZ_VOI_03",
+      "lessonId": "VOI_03",
+      "question": "שם מוצר נשמע שגוי בהקראה של העוזר. איך מאתרים את מקור התקלה בתהליך הקולי המדורג?",
+      "options": [
+        {
+          "id": "A",
+          "text": "מניחים שכל טעות נשמעת נוצרה בשלב הקריינות"
+        },
+        {
+          "id": "B",
+          "text": "מחליפים את כל התהליך בלי להשוות את פלטי השלבים"
+        },
+        {
+          "id": "C",
+          "text": "בודקים בנפרד את התמלול, את התשובה בטקסט ואת הקריינות"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "התהליך מפריד בין תמלול, יצירת תשובה בטקסט והקראה, ולכן אפשר לבדוק כל שלב בנפרד. כך אפשר לזהות אם שם המוצר השתבש לפני הקריינות או דווקא בזמן ההגייה.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["OPENAI_AUDIO"]
+    },
+    {
+      "id": "QUIZ_VOI_04",
+      "lessonId": "VOI_04",
+      "question": "משתמש קוטע תשובה קולית ומשנה את בקשתו בזמן שכלי עובד. מה צריך לנהל לצד הדיבור?",
+      "options": [
+        {
+          "id": "A",
+          "text": "את מצב השיחה והעבודה, כולל בדיקה אילו פעולות ממשיכות"
+        },
+        {
+          "id": "B",
+          "text": "רק את עוצמת הקול של התשובה הקודמת"
+        },
+        {
+          "id": "C",
+          "text": "את הצבע של כפתור ההקלטה בלי לעדכן את הבקשה"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "שיחה חיה דורשת ניהול דוברים, קטיעות וכלים. כשהבקשה משתנה בזמן ביצוע פעולה, השיעור דורש לעדכן את מצב השיחה והעבודה ולבדוק אילו פעולות עדיין נמשכות.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["OPENAI_WEBRTC", "OPENAI_AUDIO"]
+    },
+    {
+      "id": "QUIZ_VOI_05",
+      "lessonId": "VOI_05",
+      "question": "העוזר הציע שעה לפגישה, אבל היומן עדיין לא אישר שהפגישה נשמרה. איך נכון להציג את המצב?",
+      "options": [
+        {
+          "id": "A",
+          "text": "כפגישה מאושרת מפני שהשעה נאמרה בקול"
+        },
+        {
+          "id": "B",
+          "text": "כהצעת מועד שעדיין אינה פגישה שנקבעה"
+        },
+        {
+          "id": "C",
+          "text": "כפגישה שנקבעה אם השעה פנויה בבדיקה הראשונה"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "תיאום דורש בדיקת זמינות וגם אישור שהפגישה נשמרה. הצעת מועד אינה קביעה, ובמקרה שלא נשמרה פגישה יש להציע חלופה או להעביר טיפול בלי להציג אישור שגוי.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["OPENAI_AUDIO", "HUBSPOT_WEBHOOKS"]
+    },
+    {
+      "id": "QUIZ_VOI_06",
+      "lessonId": "VOI_06",
+      "question": "עוזר קולי עבר שיחת הדגמה אחת בלי תקלה. מה חסר כדי להעריך את איכותו העסקית?",
+      "options": [
+        {
+          "id": "A",
+          "text": "שיחת הדגמה זהה נוספת עם אותו נוסח בדיוק"
+        },
+        {
+          "id": "B",
+          "text": "תיאור מרשים של העוזר בלי בדיקות נוספות"
+        },
+        {
+          "id": "C",
+          "text": "מגוון שיחות הכוללות רעש, שמות, שינוי בקשה והעברה לאדם"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "השיעור דורש לבדוק מגוון שיחות ולפי התוצאה העסקית, לרבות מצבים שקשה לטפל בהם. שיחת הדגמה מוצלחת אחת אינה מדד מספיק לאיכות המערכת.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["OPENAI_AUDIO", "GEMINI_DOCUMENTS"]
+    },
+    {
+      "id": "QUIZ_DAT_01",
+      "lessonId": "DAT_01",
+      "question": "שאילתת מכירות רצה בלי שגיאה, אך JOIN הכפיל שורות והגדיל את סכום ההכנסות. מה צריך לבדוק?",
+      "options": [
+        {
+          "id": "A",
+          "text": "את משמעות החיבור ולהשוות את הסכום לחישוב נפרד"
+        },
+        {
+          "id": "B",
+          "text": "רק אם השרת החזיר קוד הצלחה"
+        },
+        {
+          "id": "C",
+          "text": "אם המספר גדול מספיק כדי להיחשב תוצאה טובה"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "השיעור מתאר חיבור טבלאות שמכפיל שורות: השאילתה יכולה להצליח טכנית ועדיין להחזיר הכנסות שגויות. בדיקה מול חישוב נפרד מאפשרת לזהות את הפער ולהסביר את הכפילות.",
+      "sourceSection": "Deep Dive",
+      "sourceIds": ["PYTHON_SQLITE", "POSTGRES_TRANSACTIONS"]
+    },
+    {
+      "id": "QUIZ_DAT_02",
+      "lessonId": "DAT_02",
+      "question": "במשימת חיזוי נוסף לקלט שדה שמגלה את התשובה ואינו זמין בזמן ההחלטה. מה הבעיה?",
+      "options": [
+        {
+          "id": "A",
+          "text": "שיפור תקין שאפשר להשאיר בלי לבדוק את זמינות השדה"
+        },
+        {
+          "id": "B",
+          "text": "דליפת מידע שעלולה להציג ציון טוב מדי בבדיקה"
+        },
+        {
+          "id": "C",
+          "text": "הוכחה שמודל שפה עדיף תמיד על כלל קבוע"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "דליפת מידע נוצרת כשהקלט כולל את התשובה או מידע שלא היה זמין בזמן החיזוי. השיעור דורש להסיר מידע כזה ולמדוד מחדש, לצד השוואה לפתרון בסיס פשוט.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["GOOGLE_ML", "OLLAMA_SCHEMA"]
+    },
+    {
+      "id": "QUIZ_DAT_03",
+      "lessonId": "DAT_03",
+      "question": "מודל מופעל במחשב המקומי. איזו מסקנה מותר להסיק מכך בלבד?",
+      "options": [
+        {
+          "id": "A",
+          "text": "שהתוצאה בהכרח איכותית יותר משל שירות חיצוני"
+        },
+        {
+          "id": "B",
+          "text": "שפרטיות מלאה מובטחת בלי לבדוק שום רכיב נוסף"
+        },
+        {
+          "id": "C",
+          "text": "שהוא משתמש במשאבי המחשב שנבחר; איכות ופרטיות עדיין דורשות בדיקה"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "הרצה מקומית מתארת היכן המודל פועל, ואינה מבטיחה איכות או פרטיות. השיעור דורש למדוד חומרה, גרסה וזמן תגובה, ולבחון גם את השפעת הייצוג המספרי על התוצאה והמשאבים.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["OLLAMA_SCHEMA", "OPENAI_DATA"]
+    },
+    {
+      "id": "QUIZ_DAT_04",
+      "lessonId": "DAT_04",
+      "question": "עסק צריך לענות לפי נהלים שמתעדכנים מדי שבוע. איזו גישה השיעור מציע לבדוק תחילה?",
+      "options": [
+        {
+          "id": "A",
+          "text": "שליפה ממקור שמתעדכן, לפני החלטה על אימון נוסף"
+        },
+        {
+          "id": "B",
+          "text": "אימון מחדש בלי לבדוק את מקור המידע"
+        },
+        {
+          "id": "C",
+          "text": "שימוש בנתוני הבדיקה לאימון כדי להשיג ציון גבוה"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "השיעור מבחין בין שינוי הקלט, שליפת מידע ואימון פרמטרים. כשהידע מתעדכן לעיתים קרובות, הוא מציע לבדוק תחילה שליפה ממקור מתעדכן; אימון אינו פתרון אוטומטי לכך.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["PEFT_LORA", "ANTHROPIC_EVALS"]
+    },
+    {
+      "id": "QUIZ_BIZ_01",
+      "lessonId": "BIZ_01",
+      "question": "לקוח אומר רק ״אנחנו רוצים AI״. מה צריך לברר בפגישת האפיון לפני בחירת מוצר?",
+      "options": [
+        {
+          "id": "A",
+          "text": "איזה כלי להפעיל בלי לברר את התהליך הקיים"
+        },
+        {
+          "id": "B",
+          "text": "איך העבודה נעשית היום, מי מעורב, היכן הקושי ומה ניתן למדוד"
+        },
+        {
+          "id": "C",
+          "text": "כמה סוכנים להוסיף כדי שהפתרון ייראה מתקדם"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "פגישת אפיון מבררת תהליך, אנשים וקשיים. בקשה להשתמש במוצר אינה בהכרח הגדרת בעיה, ויש להפריד בין מה שהלקוח אמר לבין המסקנות שלנו לפני בחירת פתרון.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["ANTHROPIC_AGENTS", "ANTHROPIC_EVALS"]
+    },
+    {
+      "id": "QUIZ_BIZ_02",
+      "lessonId": "BIZ_02",
+      "question": "פיילוט נראה בעל ערך גבוה, אבל הנתונים הנדרשים אינם זמינים. מה נכון להביא בחשבון בבחירתו?",
+      "options": [
+        {
+          "id": "A",
+          "text": "רק את החיסכון שהוערך מראש"
+        },
+        {
+          "id": "B",
+          "text": "להבטיח את החיסכון לפני שיש מדידה או נתונים"
+        },
+        {
+          "id": "C",
+          "text": "ערך, זמינות מידע וסיכון בנפרד, ולשקול ניסוי קטן חלופי"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "בחירת פיילוט מפרידה בין ערך עסקי, זמינות מידע וסיכון. ניסוי קטן יכול לבדוק הנחה חשובה, והערכת חיסכון נשארת תחזית עד שמשווים אותה למדידת המצב הקיים.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["ANTHROPIC_AGENTS", "ANTHROPIC_EVALS"]
+    },
+    {
+      "id": "QUIZ_BIZ_03",
+      "lessonId": "BIZ_03",
+      "question": "הלקוח מוסיף דרישה באמצע הפיילוט. איך צריך להתייחס לשינוי בהיקף העבודה?",
+      "options": [
+        {
+          "id": "A",
+          "text": "לבדוק את השפעתו על זמן, סיכון ומבחני קבלה ולעדכן את ההסכמה"
+        },
+        {
+          "id": "B",
+          "text": "להוסיף אותו בלי לבחון את השפעתו על מה שסוכם"
+        },
+        {
+          "id": "C",
+          "text": "להניח שהעלות הכוללת קבועה כי עלות השימוש ועלות הפיתוח זהות"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "היקף העבודה מגדיר מה מספקים, מה אינו נכלל ומי אחראי. השיעור דורש לבחון שינוי לפי השפעתו על הזמן, הסיכון ומבחני הקבלה, ומפריד בין עלות פיתוח לבין עלות שימוש.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["ANTHROPIC_AGENTS", "ANTHROPIC_EVALS"]
+    },
+    {
+      "id": "QUIZ_BIZ_04",
+      "lessonId": "BIZ_04",
+      "question": "מערכת הלקוח עדיין תלויה במפתח גישה של ספק השירות. מה צריך להבהיר ולתכנן במסירה?",
+      "options": [
+        {
+          "id": "A",
+          "text": "להשאיר את הבעלות לא ברורה כדי לחסוך תיעוד"
+        },
+        {
+          "id": "B",
+          "text": "בעלות על החשבונות והמפתחות, הרשאות והעברת גישה מסודרת"
+        },
+        {
+          "id": "C",
+          "text": "לתת לכל עובד גישה בלתי מוגבלת כדי לפשט תחזוקה"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "לפני מסירה צריך לדעת למי שייכים החשבונות, מי מחזיק מפתחות ומי רשאי לגשת למידע. בעלות ברורה והרשאות מוגבלות מקלות על תחזוקה ועל העברת האחריות ללקוח.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["OPENAI_DATA", "OWASP_GENAI"]
+    },
+    {
+      "id": "QUIZ_BIZ_05",
+      "lessonId": "BIZ_05",
+      "question": "הפיילוט פועל ב־Shadow Mode. מה המערכת עושה במצב הזה?",
+      "options": [
+        {
+          "id": "A",
+          "text": "מבצעת כל פעולה בלי להציג אותה לעובד"
+        },
+        {
+          "id": "B",
+          "text": "מבטלת את הצורך במדריך תפעול ובהדרכה"
+        },
+        {
+          "id": "C",
+          "text": "מציעה פעולה בלי לבצע אותה"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "השיעור מגדיר Shadow Mode כמצב בדיקה ללא ביצוע: המערכת מציעה פעולה אך אינה מבצעת אותה. עדיין נדרשים ממשק, הדרכה ומדריך תפעול כדי שעובדים יוכלו להשתמש בה ולטפל בתקלות.",
+      "sourceSection": "Concepts",
+      "sourceIds": ["ANTHROPIC_AGENTS", "ANTHROPIC_EVALS"]
+    },
+    {
+      "id": "QUIZ_BIZ_06",
+      "lessonId": "BIZ_06",
+      "question": "הלקוח מבקש להרחיב את האוטונומיה מעבר למה שנבדק בהדגמה. מהו הצעד המתאים?",
+      "options": [
+        {
+          "id": "A",
+          "text": "להציע שלב המשך עם מגבלות ומבחני קבלה להרחבה"
+        },
+        {
+          "id": "B",
+          "text": "להפעיל מיד כי הדגמה אחת היא אישור לשימוש אצל הלקוח"
+        },
+        {
+          "id": "C",
+          "text": "להסתיר את החיבורים שעדיין אינם פעילים כדי לזרז מסירה"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "הצגת פתרון כוללת תוצאות, בדיקות ומגבלות, והדגמה אינה אישור להפעלה אצל לקוח. במקרה של הרחבת אוטונומיה השיעור דורש להסביר סיכונים ולהציע שלב המשך שאפשר לבדוק.",
+      "sourceSection": "Mastery Check",
+      "sourceIds": ["ANTHROPIC_AGENTS", "ANTHROPIC_EVALS"]
+    }
+  ]
+}

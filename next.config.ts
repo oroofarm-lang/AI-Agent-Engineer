@@ -2,6 +2,17 @@ import type { NextConfig } from 'next';
 const config: NextConfig = {
   serverExternalPackages: ['better-sqlite3'],
   poweredByHeader: false,
+  outputFileTracingExcludes: {
+    '/*': [
+      '.data/**/*',
+      '.env',
+      '.env.*',
+      '.git/**/*',
+      'Volt/מחברת/**/*',
+      'Volt/קבצים/**/*',
+      'Volt/AI-Agent-Engineer/**/*',
+    ],
+  },
   experimental: { serverActions: { bodySizeLimit: '12mb' } },
   async headers() {
     return [

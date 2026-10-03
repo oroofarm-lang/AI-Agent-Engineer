@@ -2,7 +2,7 @@
 
 A local-first, Hebrew RTL learning environment for AI agent engineering. The teaching loop is **Build → Understand → Break → Debug → Rebuild → Prove**.
 
-**Current checkpoint: curriculum 2.2.0, mandatory foundation, account-scoped learning and contact consent.**
+**Current checkpoint: curriculum 2.2.0, mandatory foundation, account-scoped learning, specialist Mentor and a complete public knowledge graph.**
 
 Implemented: cream retro-arcade responsive workspace, authentication and per-account progress, 14 topic modules containing 139 units, skill dependencies, numbered lesson cards with saved resume positions, notes, evidence submissions and JSON export. Original 80 stable lesson IDs remain intact. Day 1, FND_01 and Python I have guided instruction; the other 136 units are practical workbooks. Interactive diagrams illustrate the two newly guided units. This is not a claim that all external integrations or 139 full tutorials have been verified. See [content depth and verification](docs/CONTENT_QA.md).
 
@@ -37,8 +37,8 @@ Stop the development server first if it is using port 3000. A schema migration m
 | Variable         | Default / purpose                                                                   |
 | ---------------- | ----------------------------------------------------------------------------------- |
 | `DATABASE_URL`   | `.data/learning.sqlite`; a SQLite filesystem path, not a network URL or `file:` URI |
-| `OPENAI_API_KEY` | Empty; server-only key for the optional OpenAI Mentor                       |
-| `AI_MODEL`       | Empty; explicit Responses-compatible model available to your project                             |
+| `OPENAI_API_KEY` | Empty; server-only key for the optional OpenAI Mentor                               |
+| `AI_MODEL`       | Empty; explicit Responses-compatible model available to your project                |
 
 Never commit `.env` or include credentials in notes. Configuring both AI settings enables real, potentially billable Mentor calls from the server. Without them, the app refuses generation and shows setup instructions. Day 1 teaches a separate Python program, which requires the learner's own API configuration and may incur API usage charges; it does not execute within the site.
 
@@ -78,9 +78,15 @@ Migrations in `src/lib/db/migrations` run transactionally and are checksum-track
 
 Use **Settings → Export my data** for JSON including learner profile, progress, notes, assessment submissions with rubric snapshots, journal/failure records and test-case snapshots, Mentor history/usage, and registered versions. Export excludes credentials. For a complete physical backup, stop the server, then copy the `.data` directory (including any SQLite sidecar files) to a safe location. There is no destructive reset or UI restore feature. Do not treat the JSON export as an automatic recovery/import workflow.
 
+For an existing installation, `npm run db:migrate:backup` first makes a consistent private SQLite online backup, then applies additive migrations. Migrations 0010/0011 add owned specialist traces and advisory AI feedback. Backups stay under ignored `.data`; they must never be published.
+
 ## Mentor and Curriculum Auditor
 
 The Mentor implements server-only Responses calls, persistent user-owned threads, explicit context selection, learning modes and help levels, timeouts, idempotency and usage limits. No paid call has been performed for acceptance. SMTP code handles verification/reset; the admin account directory requires a configured allowlist plus verified ownership. Follow [the Hebrew setup guide](docs/CONNECTION_SETUP_HE.md); enter secrets locally, never in chat.
+
+The specialist engine uses 21 validated initial roles with coverage of every course module and skill, plus trusted templates for additional domain definitions. A question triggers one routing call, one to three distinct specialist calls and a Hebrew synthesis, at most five model calls. Choose a simple analogy, practical steps or an advanced explanation. `/api/agents/orchestrate` and the compatible `/api/mentor` share the same owned reservation, history and daily limits. The interface lists actual completed participants only. See [engine architecture and remaining phases](docs/MULTI_AGENT_ARCHITECTURE.md).
+
+Saved submissions support optional `/api/agents/evaluate` feedback against their frozen rubric. Learners explicitly consent and select which owned files to send; code/text, images and PDFs use their actual selected content. Coverage reports partial/excluded text and bytes supplied to the provider. The model does not execute code or award mastery. Feedback, traces, export and account deletion remain scoped to the authenticated owner.
 
 Phase 4 will add a technology registry, official-source verification, evidence-backed proposals, diffs, human approval and validated version application with rollback. The Mentor can refresh a bounded list of official release references; this is separate from source verification and curriculum rewriting, which remain unimplemented. The architecture requires preserving prior progress and mastery with update supplements.
 
@@ -133,3 +139,9 @@ Missing credentials still disable generation. Weekly slots are Monday/Wednesday/
 on-demand refresh happens only on a configured Mentor request. A user-approved local Codex heartbeat refreshes Monday/Wednesday/Friday at 09:00
 Asia/Jerusalem. The computer and app must be running; scheduled execution has not
 yet been observed. The GitHub workflow supports manual refresh only. See [refinement architecture and acceptance](docs/UX_REFINEMENT.md).
+
+## Public Obsidian / Sidian graph
+
+Open `Volt` as a vault and start with `Index.md` or `Root_Knowledge_Graph.canvas`. The five public directories connect all 139 lessons, 14 modules, skills, sources, rubrics, exercise/submission templates, agents, implemented tool/API contracts and public assets with reciprocal links. Historical course exports and personal notes are retained. Run `npm run vault:sync` to update generated files; an edited generated note or symlink aborts before overwriting anything. `/api/vault/sync` offers the same operation to a verified configured operator. It accepts no filesystem path and exports no account records.
+
+The production build checks that Next.js file traces exclude local secrets, databases and personal vault folders. Deployment, live provider acceptance, a reviewed per-lesson quiz bank and the full Curriculum Auditor workflow remain separate milestones.

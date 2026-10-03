@@ -4,7 +4,7 @@
 
 `npm run quality:inventory` extracts every published lesson and chapter, plus
 Hebrew JSX text, source strings, and template fragments with file/line locations.
-Schema 2 also collects Hebrew strings and JSON paths from the five public curriculum manifests, including assessment prompts and skill descriptions. The inventory is `.data/quality/public-copy.json`. It contains source-authored
+Schema 2 also collects Hebrew strings and JSON paths from the five public curriculum manifests and public agent registry, including assessment prompts, skill descriptions and specialist instructions. The inventory is `.data/quality/public-copy.json`. It contains source-authored
 copy only: never read `.env.local`, account data, private notes, or conversations
 for a linguistic review.
 
@@ -19,7 +19,7 @@ verification gate on pushes, pull requests, or manual dispatch.
 
 ## AI reviewer
 
-The ACTIVE Codex heartbeat `ux` ("בדיקת UX ועברית של הקורס"), created on 2026-10-01, is scheduled daily at 10:00 in the local scheduler. Its first scheduled review started on 2026-10-02. It reviews source-authored copy against
+The ACTIVE Codex heartbeat `ux` ("בדיקת UX ועברית של הקורס"), created on 2026-10-01, is currently scheduled weekly on Sunday at 09:00 in the local scheduler (configuration checked on 2026-10-03). Its first scheduled review started on 2026-10-02. It reviews source-authored copy against
 `content/authoring/HEBREW_STYLE_GUIDE.md`. The reviewer reads changed copy in
 full, reviews UI instructions/buttons and their actual behavior, identifies
 unexplained jargon, unnatural Hebrew, unclear referents, misleading claims, and

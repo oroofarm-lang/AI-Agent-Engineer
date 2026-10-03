@@ -8,6 +8,9 @@ import { artifactRepository } from '@/lib/db/artifacts';
 import { portfolioRepository } from '@/lib/db/portfolio';
 import { PortfolioToggle } from '@/components/assessment/portfolio-toggle';
 import { ArtifactLinks } from '@/components/assessment/artifact-links';
+import { EvaluationPanel } from '@/components/assessment/evaluation-panel';
+import { evaluationRepository } from '@/lib/agents/evaluate';
+import { mentorConfiguration } from '@/lib/ai/provider';
 export const dynamic = 'force-dynamic';
 export const metadata = { title: 'העבודות והמשוב שלי' };
 export default async function Assessments() {
@@ -18,6 +21,7 @@ export default async function Assessments() {
   const c = getCurriculum(),
     attempts = (await getAssessmentRepository()).attempts(),
     reviews = (await getLearningSystem()).reviews();
+  const evaluations = evaluationRepository(connection, user.id).list();
   return (
     <div className="page narrow">
       <div className="page-heading">
@@ -28,8 +32,8 @@ export default async function Assessments() {
         </div>
       </div>
       <div className="notice">
-        בודק מורשה יכול להעריך את הראיות לפי המחוון. הגשה לבדה אינה מוכיחה שליטה בנושא, ואין בדיקה
-        אוטומטית של הקוד.
+        בודק מורשה יכול להעריך את הראיות לפי המחוון. הגשה לבדה אינה מוכיחה שליטה בנושא, והקוד אינו
+        מורץ כאן.
       </div>
       {attempts.length === 0 ? (
         <section className="card settings-card">
@@ -63,7 +67,7 @@ export default async function Assessments() {
                       ? 'העבודה עמדה בדרישות המחוון'
                       : review?.outcome === 'REVISE'
                         ? 'נדרש שיפור'
-                        : 'ממתין להערכה'}
+                        : 'ממתינה להערכה'}
                   </span>
                   <time dateTime={attempt.submittedAt}>
                     {new Intl.DateTimeFormat('he-IL', {
@@ -106,6 +110,13 @@ export default async function Assessments() {
                     included={Boolean(
                       portfolio.find((item) => item.submission_id === attempt.id)?.included,
                     )}
+                  />
+                  <EvaluationPanel
+                    submissionId={attempt.id}
+                    files={files.filter((file) => file.submission_id === attempt.id)}
+                    criteria={rubric.criteria}
+                    ready={mentorConfiguration().ready}
+                    initial={evaluations.find((item) => item.submission_id === attempt.id)}
                   />
                 </div>
               </details>

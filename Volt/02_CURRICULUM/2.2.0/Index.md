@@ -1,0 +1,131 @@
+---
+generated: true
+schema_version: 1
+kind: "index"
+entity_id: "CURRICULUM_INDEX"
+curriculum_version: "2.2.0"
+related: ["[[02_CURRICULUM/2.2.0/modules/ADS]]","[[02_CURRICULUM/2.2.0/modules/AGENTS]]","[[02_CURRICULUM/2.2.0/modules/AUTOMATION]]","[[02_CURRICULUM/2.2.0/modules/BUSINESS]]","[[02_CURRICULUM/2.2.0/modules/CAPSTONE]]","[[02_CURRICULUM/2.2.0/modules/CORE]]","[[02_CURRICULUM/2.2.0/modules/CRM]]","[[02_CURRICULUM/2.2.0/modules/DATA]]","[[02_CURRICULUM/2.2.0/modules/KNOWLEDGE]]","[[02_CURRICULUM/2.2.0/modules/MARKETING]]","[[02_CURRICULUM/2.2.0/modules/PRODUCT]]","[[02_CURRICULUM/2.2.0/modules/QUALITY]]","[[02_CURRICULUM/2.2.0/modules/VOICE]]","[[02_CURRICULUM/2.2.0/modules/WEB]]","[[02_CURRICULUM/2.2.0/skills/AGENT_LOOP]]","[[02_CURRICULUM/2.2.0/skills/AI_FUNDAMENTALS]]","[[02_CURRICULUM/2.2.0/skills/ASYNC_CONCURRENCY]]","[[02_CURRICULUM/2.2.0/skills/AUTHORIZATION]]","[[02_CURRICULUM/2.2.0/skills/BACKEND]]","[[02_CURRICULUM/2.2.0/skills/BUSINESS_DISCOVERY]]","[[02_CURRICULUM/2.2.0/skills/CODING_AGENTS]]","[[02_CURRICULUM/2.2.0/skills/COMPUTER_USE]]","[[02_CURRICULUM/2.2.0/skills/CONTENT_PIPELINES]]","[[02_CURRICULUM/2.2.0/skills/CONTEXT_ENGINEERING]]","[[02_CURRICULUM/2.2.0/skills/COORDINATION]]","[[02_CURRICULUM/2.2.0/skills/COST_LATENCY]]","[[02_CURRICULUM/2.2.0/skills/CRM_OPERATIONS]]","[[02_CURRICULUM/2.2.0/skills/DATABASE]]","[[02_CURRICULUM/2.2.0/skills/DEPLOYMENT]]","[[02_CURRICULUM/2.2.0/skills/DURABLE_EXECUTION]]","[[02_CURRICULUM/2.2.0/skills/DYNAMIC_TOOLS]]","[[02_CURRICULUM/2.2.0/skills/EMBEDDINGS]]","[[02_CURRICULUM/2.2.0/skills/EVALS]]","[[02_CURRICULUM/2.2.0/skills/GIT]]","[[02_CURRICULUM/2.2.0/skills/GROUNDING]]","[[02_CURRICULUM/2.2.0/skills/GUARDRAILS]]","[[02_CURRICULUM/2.2.0/skills/HANDOFFS]]","[[02_CURRICULUM/2.2.0/skills/HTTP_APIS]]","[[02_CURRICULUM/2.2.0/skills/HUMAN_APPROVAL]]","[[02_CURRICULUM/2.2.0/skills/JSON_SCHEMAS]]","[[02_CURRICULUM/2.2.0/skills/MANAGER]]","[[02_CURRICULUM/2.2.0/skills/MCP]]","[[02_CURRICULUM/2.2.0/skills/MEMORY]]","[[02_CURRICULUM/2.2.0/skills/MODEL_SELECTION]]","[[02_CURRICULUM/2.2.0/skills/MONITORING]]","[[02_CURRICULUM/2.2.0/skills/OBSERVABILITY]]","[[02_CURRICULUM/2.2.0/skills/PAID_MEDIA]]","[[02_CURRICULUM/2.2.0/skills/PARALLELIZATION]]","[[02_CURRICULUM/2.2.0/skills/PLANNING]]","[[02_CURRICULUM/2.2.0/skills/PROMPT_INJECTION]]","[[02_CURRICULUM/2.2.0/skills/PYTHON]]","[[02_CURRICULUM/2.2.0/skills/QUEUES]]","[[02_CURRICULUM/2.2.0/skills/RAG]]","[[02_CURRICULUM/2.2.0/skills/RERANKING]]","[[02_CURRICULUM/2.2.0/skills/RETRIEVAL]]","[[02_CURRICULUM/2.2.0/skills/ROUTERS]]","[[02_CURRICULUM/2.2.0/skills/SANDBOX_AGENTS]]","[[02_CURRICULUM/2.2.0/skills/SPECIALIZATION]]","[[02_CURRICULUM/2.2.0/skills/STATE]]","[[02_CURRICULUM/2.2.0/skills/STOPPING_CONDITIONS]]","[[02_CURRICULUM/2.2.0/skills/STRUCTURED_OUTPUTS]]","[[02_CURRICULUM/2.2.0/skills/TESTING]]","[[02_CURRICULUM/2.2.0/skills/TOOL_CALLING]]","[[02_CURRICULUM/2.2.0/skills/TRACING]]","[[02_CURRICULUM/2.2.0/skills/UI_DESIGN]]","[[02_CURRICULUM/2.2.0/skills/VOICE_SYSTEMS]]","[[02_CURRICULUM/2.2.0/skills/WORKFLOWS]]","[[02_CURRICULUM/2.2.0/sources/A2A_SPEC]]","[[02_CURRICULUM/2.2.0/sources/ANTHROPIC_AGENTS]]","[[02_CURRICULUM/2.2.0/sources/ANTHROPIC_EVALS]]","[[02_CURRICULUM/2.2.0/sources/COPILOT]]","[[02_CURRICULUM/2.2.0/sources/DOCKER]]","[[02_CURRICULUM/2.2.0/sources/FASTAPI]]","[[02_CURRICULUM/2.2.0/sources/GEMINI_DOCUMENTS]]","[[02_CURRICULUM/2.2.0/sources/GIT_BOOK]]","[[02_CURRICULUM/2.2.0/sources/GOOGLE_ADS_TESTS]]","[[02_CURRICULUM/2.2.0/sources/GOOGLE_AI_CONTENT]]","[[02_CURRICULUM/2.2.0/sources/GOOGLE_ML]]","[[02_CURRICULUM/2.2.0/sources/HTTP_OVERVIEW]]","[[02_CURRICULUM/2.2.0/sources/HUBSPOT_WEBHOOKS]]","[[02_CURRICULUM/2.2.0/sources/LANGGRAPH_STATE]]","[[02_CURRICULUM/2.2.0/sources/MAKE_AGENTS]]","[[02_CURRICULUM/2.2.0/sources/MCP_SPEC]]","[[02_CURRICULUM/2.2.0/sources/N8N_APPROVALS]]","[[02_CURRICULUM/2.2.0/sources/N8N_EVALS]]","[[02_CURRICULUM/2.2.0/sources/N8N_WEBHOOK]]","[[02_CURRICULUM/2.2.0/sources/NEXTJS]]","[[02_CURRICULUM/2.2.0/sources/OLLAMA_SCHEMA]]","[[02_CURRICULUM/2.2.0/sources/OPENAI_AGENTS]]","[[02_CURRICULUM/2.2.0/sources/OPENAI_AUDIO]]","[[02_CURRICULUM/2.2.0/sources/OPENAI_DATA]]","[[02_CURRICULUM/2.2.0/sources/OPENAI_DEPRECATIONS]]","[[02_CURRICULUM/2.2.0/sources/OPENAI_IMAGE]]","[[02_CURRICULUM/2.2.0/sources/OPENAI_QUICKSTART]]","[[02_CURRICULUM/2.2.0/sources/OPENAI_RUNTIME]]","[[02_CURRICULUM/2.2.0/sources/OPENAI_SCHEMA]]","[[02_CURRICULUM/2.2.0/sources/OPENAI_TOOLS]]","[[02_CURRICULUM/2.2.0/sources/OPENAI_VIDEO]]","[[02_CURRICULUM/2.2.0/sources/OPENAI_WEBRTC]]","[[02_CURRICULUM/2.2.0/sources/OTEL]]","[[02_CURRICULUM/2.2.0/sources/OWASP_GENAI]]","[[02_CURRICULUM/2.2.0/sources/PEFT_LORA]]","[[02_CURRICULUM/2.2.0/sources/POSTGRES_TRANSACTIONS]]","[[02_CURRICULUM/2.2.0/sources/POWER_DLP]]","[[02_CURRICULUM/2.2.0/sources/PROMPTFOO_TESTS]]","[[02_CURRICULUM/2.2.0/sources/PYTHON_ASYNC]]","[[02_CURRICULUM/2.2.0/sources/PYTHON_JSON]]","[[02_CURRICULUM/2.2.0/sources/PYTHON_SQLITE]]","[[02_CURRICULUM/2.2.0/sources/PYTHON_TUTORIAL]]","[[02_CURRICULUM/2.2.0/sources/REACT]]","[[02_CURRICULUM/2.2.0/sources/SEARCH_SECURITY]]","[[02_CURRICULUM/2.2.0/sources/STRIPE_WEBHOOKS]]","[[02_CURRICULUM/2.2.0/sources/TWILIO_SANDBOX]]","[[02_CURRICULUM/2.2.0/sources/WCAG]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/Index]]","[[Index]]"]
+---
+
+# כל הפרקים והשיעורים
+
+מתחילים בפרק היסודות החובה. תרגול, הגשת ראיות והערכת שליטה הם שלבים נפרדים. השיעורים כאן הם עותק של הגרסה שפורסמה.
+
+## קשרים במפת הידע
+
+- [[02_CURRICULUM/2.2.0/modules/ADS|פרסום ומדידה]] — פרק
+- [[02_CURRICULUM/2.2.0/modules/AGENTS|סוכנים ותזמור]] — פרק
+- [[02_CURRICULUM/2.2.0/modules/AUTOMATION|אוטומציה והטמעת מערכות]] — פרק
+- [[02_CURRICULUM/2.2.0/modules/BUSINESS|הפיכת הידע לשירות]] — פרק
+- [[02_CURRICULUM/2.2.0/modules/CAPSTONE|פרויקט גמר לעסק]] — פרק
+- [[02_CURRICULUM/2.2.0/modules/CORE|פרק 1: יסודות · פרק חובה]] — פרק
+- [[02_CURRICULUM/2.2.0/modules/CRM|מכירות ושירות לקוחות]] — פרק
+- [[02_CURRICULUM/2.2.0/modules/DATA|נתונים ומודלים מקומיים]] — פרק
+- [[02_CURRICULUM/2.2.0/modules/KNOWLEDGE|זיכרון ומערכות ידע]] — פרק
+- [[02_CURRICULUM/2.2.0/modules/MARKETING|תוכן ושיווק עם AI]] — פרק
+- [[02_CURRICULUM/2.2.0/modules/PRODUCT|מוצר, שירות ופריסה]] — פרק
+- [[02_CURRICULUM/2.2.0/modules/QUALITY|איכות, אבטחה ובקרה]] — פרק
+- [[02_CURRICULUM/2.2.0/modules/VOICE|קול ושירות לקוחות]] — פרק
+- [[02_CURRICULUM/2.2.0/modules/WEB|אתרים וכלים פנימיים]] — פרק
+- [[02_CURRICULUM/2.2.0/skills/AGENT_LOOP|Agent Loop]] — מיומנות
+- [[02_CURRICULUM/2.2.0/skills/AI_FUNDAMENTALS|יסודות AI]] — מיומנות
+- [[02_CURRICULUM/2.2.0/skills/ASYNC_CONCURRENCY|Async/Concurrency]] — מיומנות
+- [[02_CURRICULUM/2.2.0/skills/AUTHORIZATION|Authorization]] — מיומנות
+- [[02_CURRICULUM/2.2.0/skills/BACKEND|Backend]] — מיומנות
+- [[02_CURRICULUM/2.2.0/skills/BUSINESS_DISCOVERY|אפיון ומסירת שירות]] — מיומנות
+- [[02_CURRICULUM/2.2.0/skills/CODING_AGENTS|Coding Agents]] — מיומנות
+- [[02_CURRICULUM/2.2.0/skills/COMPUTER_USE|Computer Use]] — מיומנות
+- [[02_CURRICULUM/2.2.0/skills/CONTENT_PIPELINES|מערכות תוכן]] — מיומנות
+- [[02_CURRICULUM/2.2.0/skills/CONTEXT_ENGINEERING|Context Engineering]] — מיומנות
+- [[02_CURRICULUM/2.2.0/skills/COORDINATION|Coordination]] — מיומנות
+- [[02_CURRICULUM/2.2.0/skills/COST_LATENCY|Cost & Latency]] — מיומנות
+- [[02_CURRICULUM/2.2.0/skills/CRM_OPERATIONS|CRM ותפעול לקוחות]] — מיומנות
+- [[02_CURRICULUM/2.2.0/skills/DATABASE|Database]] — מיומנות
+- [[02_CURRICULUM/2.2.0/skills/DEPLOYMENT|Deployment]] — מיומנות
+- [[02_CURRICULUM/2.2.0/skills/DURABLE_EXECUTION|Durable Execution]] — מיומנות
+- [[02_CURRICULUM/2.2.0/skills/DYNAMIC_TOOLS|Dynamic Tools]] — מיומנות
+- [[02_CURRICULUM/2.2.0/skills/EMBEDDINGS|Embeddings]] — מיומנות
+- [[02_CURRICULUM/2.2.0/skills/EVALS|Evals]] — מיומנות
+- [[02_CURRICULUM/2.2.0/skills/GIT|Git]] — מיומנות
+- [[02_CURRICULUM/2.2.0/skills/GROUNDING|Grounding]] — מיומנות
+- [[02_CURRICULUM/2.2.0/skills/GUARDRAILS|Guardrails]] — מיומנות
+- [[02_CURRICULUM/2.2.0/skills/HANDOFFS|Handoffs]] — מיומנות
+- [[02_CURRICULUM/2.2.0/skills/HTTP_APIS|HTTP/APIs]] — מיומנות
+- [[02_CURRICULUM/2.2.0/skills/HUMAN_APPROVAL|Human Approval]] — מיומנות
+- [[02_CURRICULUM/2.2.0/skills/JSON_SCHEMAS|JSON/Schemas]] — מיומנות
+- [[02_CURRICULUM/2.2.0/skills/MANAGER|Manager]] — מיומנות
+- [[02_CURRICULUM/2.2.0/skills/MCP|MCP]] — מיומנות
+- [[02_CURRICULUM/2.2.0/skills/MEMORY|Memory]] — מיומנות
+- [[02_CURRICULUM/2.2.0/skills/MODEL_SELECTION|Model Selection]] — מיומנות
+- [[02_CURRICULUM/2.2.0/skills/MONITORING|Monitoring]] — מיומנות
+- [[02_CURRICULUM/2.2.0/skills/OBSERVABILITY|Observability]] — מיומנות
+- [[02_CURRICULUM/2.2.0/skills/PAID_MEDIA|פרסום ומדידה]] — מיומנות
+- [[02_CURRICULUM/2.2.0/skills/PARALLELIZATION|Parallelization]] — מיומנות
+- [[02_CURRICULUM/2.2.0/skills/PLANNING|Planning]] — מיומנות
+- [[02_CURRICULUM/2.2.0/skills/PROMPT_INJECTION|Prompt Injection]] — מיומנות
+- [[02_CURRICULUM/2.2.0/skills/PYTHON|Python]] — מיומנות
+- [[02_CURRICULUM/2.2.0/skills/QUEUES|Queues]] — מיומנות
+- [[02_CURRICULUM/2.2.0/skills/RAG|RAG]] — מיומנות
+- [[02_CURRICULUM/2.2.0/skills/RERANKING|Reranking]] — מיומנות
+- [[02_CURRICULUM/2.2.0/skills/RETRIEVAL|Retrieval]] — מיומנות
+- [[02_CURRICULUM/2.2.0/skills/ROUTERS|Routers]] — מיומנות
+- [[02_CURRICULUM/2.2.0/skills/SANDBOX_AGENTS|Sandbox Agents]] — מיומנות
+- [[02_CURRICULUM/2.2.0/skills/SPECIALIZATION|Specialization]] — מיומנות
+- [[02_CURRICULUM/2.2.0/skills/STATE|State]] — מיומנות
+- [[02_CURRICULUM/2.2.0/skills/STOPPING_CONDITIONS|Stopping Conditions]] — מיומנות
+- [[02_CURRICULUM/2.2.0/skills/STRUCTURED_OUTPUTS|Structured Outputs]] — מיומנות
+- [[02_CURRICULUM/2.2.0/skills/TESTING|Testing]] — מיומנות
+- [[02_CURRICULUM/2.2.0/skills/TOOL_CALLING|Tool Calling]] — מיומנות
+- [[02_CURRICULUM/2.2.0/skills/TRACING|Tracing]] — מיומנות
+- [[02_CURRICULUM/2.2.0/skills/UI_DESIGN|ממשק ונגישות]] — מיומנות
+- [[02_CURRICULUM/2.2.0/skills/VOICE_SYSTEMS|קול ומסמכים]] — מיומנות
+- [[02_CURRICULUM/2.2.0/skills/WORKFLOWS|Workflows]] — מיומנות
+- [[02_CURRICULUM/2.2.0/sources/A2A_SPEC|A2A specification]] — מקור
+- [[02_CURRICULUM/2.2.0/sources/ANTHROPIC_AGENTS|Building effective agents]] — מקור
+- [[02_CURRICULUM/2.2.0/sources/ANTHROPIC_EVALS|Demystifying evals for AI agents]] — מקור
+- [[02_CURRICULUM/2.2.0/sources/COPILOT|Copilot Studio generative actions]] — מקור
+- [[02_CURRICULUM/2.2.0/sources/DOCKER|Docker overview]] — מקור
+- [[02_CURRICULUM/2.2.0/sources/FASTAPI|FastAPI tutorial]] — מקור
+- [[02_CURRICULUM/2.2.0/sources/GEMINI_DOCUMENTS|Gemini document processing]] — מקור
+- [[02_CURRICULUM/2.2.0/sources/GIT_BOOK|Pro Git]] — מקור
+- [[02_CURRICULUM/2.2.0/sources/GOOGLE_ADS_TESTS|Google Ads API testing]] — מקור
+- [[02_CURRICULUM/2.2.0/sources/GOOGLE_AI_CONTENT|Google guidance on AI content]] — מקור
+- [[02_CURRICULUM/2.2.0/sources/GOOGLE_ML|Machine Learning Crash Course]] — מקור
+- [[02_CURRICULUM/2.2.0/sources/HTTP_OVERVIEW|HTTP overview]] — מקור
+- [[02_CURRICULUM/2.2.0/sources/HUBSPOT_WEBHOOKS|HubSpot webhooks]] — מקור
+- [[02_CURRICULUM/2.2.0/sources/LANGGRAPH_STATE|LangGraph persistence]] — מקור
+- [[02_CURRICULUM/2.2.0/sources/MAKE_AGENTS|Make AI agents]] — מקור
+- [[02_CURRICULUM/2.2.0/sources/MCP_SPEC|MCP specification]] — מקור
+- [[02_CURRICULUM/2.2.0/sources/N8N_APPROVALS|n8n human-in-the-loop]] — מקור
+- [[02_CURRICULUM/2.2.0/sources/N8N_EVALS|n8n quality metrics]] — מקור
+- [[02_CURRICULUM/2.2.0/sources/N8N_WEBHOOK|n8n webhook credentials]] — מקור
+- [[02_CURRICULUM/2.2.0/sources/NEXTJS|Next.js App Router]] — מקור
+- [[02_CURRICULUM/2.2.0/sources/OLLAMA_SCHEMA|Ollama structured outputs]] — מקור
+- [[02_CURRICULUM/2.2.0/sources/OPENAI_AGENTS|OpenAI Agents SDK]] — מקור
+- [[02_CURRICULUM/2.2.0/sources/OPENAI_AUDIO|OpenAI audio guide]] — מקור
+- [[02_CURRICULUM/2.2.0/sources/OPENAI_DATA|OpenAI data controls]] — מקור
+- [[02_CURRICULUM/2.2.0/sources/OPENAI_DEPRECATIONS|OpenAI deprecations]] — מקור
+- [[02_CURRICULUM/2.2.0/sources/OPENAI_IMAGE|OpenAI image generation]] — מקור
+- [[02_CURRICULUM/2.2.0/sources/OPENAI_QUICKSTART|OpenAI quickstart]] — מקור
+- [[02_CURRICULUM/2.2.0/sources/OPENAI_RUNTIME|OpenAI managed agent runtime]] — מקור
+- [[02_CURRICULUM/2.2.0/sources/OPENAI_SCHEMA|OpenAI structured outputs]] — מקור
+- [[02_CURRICULUM/2.2.0/sources/OPENAI_TOOLS|OpenAI function calling]] — מקור
+- [[02_CURRICULUM/2.2.0/sources/OPENAI_VIDEO|OpenAI video generation]] — מקור
+- [[02_CURRICULUM/2.2.0/sources/OPENAI_WEBRTC|OpenAI WebRTC]] — מקור
+- [[02_CURRICULUM/2.2.0/sources/OTEL|OpenTelemetry signals]] — מקור
+- [[02_CURRICULUM/2.2.0/sources/OWASP_GENAI|OWASP LLM risks]] — מקור
+- [[02_CURRICULUM/2.2.0/sources/PEFT_LORA|PEFT LoRA]] — מקור
+- [[02_CURRICULUM/2.2.0/sources/POSTGRES_TRANSACTIONS|PostgreSQL transactions]] — מקור
+- [[02_CURRICULUM/2.2.0/sources/POWER_DLP|Power Platform data policies]] — מקור
+- [[02_CURRICULUM/2.2.0/sources/PROMPTFOO_TESTS|Promptfoo test cases]] — מקור
+- [[02_CURRICULUM/2.2.0/sources/PYTHON_ASYNC|Python asyncio]] — מקור
+- [[02_CURRICULUM/2.2.0/sources/PYTHON_JSON|Python JSON module]] — מקור
+- [[02_CURRICULUM/2.2.0/sources/PYTHON_SQLITE|Python SQLite module]] — מקור
+- [[02_CURRICULUM/2.2.0/sources/PYTHON_TUTORIAL|Python tutorial]] — מקור
+- [[02_CURRICULUM/2.2.0/sources/REACT|React learn]] — מקור
+- [[02_CURRICULUM/2.2.0/sources/SEARCH_SECURITY|Azure search security trimming]] — מקור
+- [[02_CURRICULUM/2.2.0/sources/STRIPE_WEBHOOKS|Stripe webhooks]] — מקור
+- [[02_CURRICULUM/2.2.0/sources/TWILIO_SANDBOX|WhatsApp sandbox]] — מקור
+- [[02_CURRICULUM/2.2.0/sources/WCAG|WCAG 2.2]] — מקור
+- [[02_CURRICULUM/quiz-banks/1.0.0-draft/Index|טיוטת שאלות לחיזוק ההבנה]] — טיוטה לביקורת
+- [[Index|מפת הידע של הקורס]] — תיקייה ראשית

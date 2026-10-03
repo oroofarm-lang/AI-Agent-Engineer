@@ -52,6 +52,8 @@ test('unconfigured Mentor performs no fake generation and unverified non-operato
   await page.getByRole('button', { name: /AI Mentor/ }).click();
   await expect(page.getByRole('button', { name: 'שליחה למנטור' })).toBeDisabled();
   await expect(page.getByText('חיבור ה־AI עדיין לא פעיל.', { exact: false })).toBeVisible();
+  await page.getByLabel('דרך ההסבר').selectOption('eli5');
+  await expect(page.getByLabel('דרך ההסבר')).toHaveValue('eli5');
   await page.keyboard.press('Escape');
   const response = await page.request.post('/api/mentor', {
     headers: { Origin: 'http://127.0.0.1:3100' },
@@ -63,8 +65,25 @@ test('unconfigured Mentor performs no fake generation and unverified non-operato
     data: { message: 'test' },
   });
   expect(hostile.status()).toBe(403);
+  const orchestrate = await page.request.post('/api/agents/orchestrate', {
+    headers: { Origin: 'http://127.0.0.1:3100' },
+    data: { message: 'fixture only' },
+  });
+  expect(orchestrate.status()).toBe(503);
+  const evaluate = await page.request.post('/api/agents/evaluate', {
+    headers: { Origin: 'http://127.0.0.1:3100' },
+    data: { message: 'fixture only' },
+  });
+  expect(evaluate.status()).toBe(503);
+  const forbiddenVault = await page.request.post('/api/vault/sync', {
+    headers: { Origin: 'http://127.0.0.1:3100' },
+    data: {},
+  });
+  expect(forbiddenVault.status()).toBe(404);
   const after = await (await page.request.get('/api/export')).json();
   expect(after.mentorMessages).toEqual(before.mentorMessages);
+  expect(after.agentSteps).toEqual(before.agentSteps);
+  expect(after.agentEvaluations).toEqual(before.agentEvaluations);
   expect((await page.goto('/admin'))?.status()).toBe(404);
   await expect(page.getByRole('heading', { name: 'העמוד לא נמצא' })).toBeVisible();
 });

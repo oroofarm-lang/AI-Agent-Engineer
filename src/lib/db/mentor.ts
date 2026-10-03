@@ -57,13 +57,20 @@ export function mentorRepository({ sqlite }: Connection, userId: string) {
           return { duplicate: true, threadId: previous.thread_id, state: previous.state };
         }
         const now = new Date(),
-          timestamp = now.toISOString();
+          timestamp = now.toISOString(),
+          staleBefore = new Date(now.getTime() - 60000).toISOString();
         // Stale calls remain failed/unknown. A timeout never triggers an automatic charged retry.
+        // Expire the same owner's unfinished specialist steps in the existing reservation transaction.
+        sqlite
+          .prepare(
+            "UPDATE agent_steps SET state = 'FAILED', error_code = 'AGENT_RUN_STALE', finished_at = ? WHERE user_id = ? AND state = 'RUNNING' AND run_id IN (SELECT id FROM mentor_runs WHERE user_id = ? AND state = 'RUNNING' AND created_at < ?)",
+          )
+          .run(timestamp, userId, userId, staleBefore);
         sqlite
           .prepare(
             "UPDATE mentor_runs SET state = 'FAILED', finished_at = ? WHERE user_id = ? AND state = 'RUNNING' AND created_at < ?",
           )
-          .run(timestamp, userId, new Date(now.getTime() - 60000).toISOString());
+          .run(timestamp, userId, staleBefore);
         if (
           sqlite
             .prepare("SELECT id FROM mentor_runs WHERE user_id = ? AND state = 'RUNNING'")

@@ -7,7 +7,7 @@
   },
   "scripts": {
     "dev": "next dev --hostname 127.0.0.1",
-    "build": "npm run curriculum:check && next build",
+    "build": "npm run curriculum:check && node scripts/prepare-vault-assets.mjs && next build && node scripts/check-build-privacy.mjs",
     "start": "next start --hostname 127.0.0.1",
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
@@ -15,6 +15,7 @@
     "test:e2e": "playwright test",
     "db:setup": "node scripts/init-auth.mjs && tsx scripts/setup-db.ts",
     "db:seed": "npm run db:setup",
+    "db:migrate:backup": "tsx scripts/backup-and-migrate.ts",
     "curriculum:check": "tsx scripts/check-curriculum.ts",
     "check": "npm run lint && npm run typecheck && npm test",
     "verify": "npm run check && npm run test:labs && npm run build && npm run test:e2e",
@@ -24,7 +25,7 @@
     "db:cleanup": "tsx scripts/cleanup-auth.ts",
     "test:labs": "python3 -m unittest discover -s content/labs -p 'test_*.py' -v",
     "mail:check": "tsx scripts/check-mail.ts",
-    "vault:sync": "node scripts/sync-vault.mjs",
+    "vault:sync": "node scripts/prepare-vault-assets.mjs && tsx scripts/sync-vault.ts",
     "quality:inventory": "node scripts/quality-inventory.mjs",
     "mentor:refresh": "tsx scripts/refresh-mentor-knowledge.ts",
     "quality:audit": "npm run quality:inventory && npm run verify"

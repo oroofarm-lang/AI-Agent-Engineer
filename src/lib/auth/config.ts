@@ -86,6 +86,8 @@ export function authOptions(connection: Connection) {
               'project_workspaces',
               'skill_mastery',
               'assessment_reviews',
+              'agent_evaluations',
+              'agent_steps',
               'mentor_runs',
               'mentor_messages',
               'mentor_threads',
