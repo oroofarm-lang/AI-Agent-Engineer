@@ -5,6 +5,25 @@ import type { Connection } from './connection';
 import { curriculumVersions, users } from './schema';
 import { eq } from 'drizzle-orm';
 import type { Curriculum } from '../curriculum/schema';
+/** Registration touches only release metadata, never learner records or schema migrations. */
+export function registerCurriculum(connection: Connection, curriculum: Curriculum) {
+  const { db } = connection;
+  const manifestHash = createHash('sha256').update(JSON.stringify(curriculum)).digest('hex');
+  const existing = db
+    .select()
+    .from(curriculumVersions)
+    .where(eq(curriculumVersions.version, curriculum.version))
+    .get();
+  if (existing && existing.manifestHash !== manifestHash)
+    throw new Error(
+      'Released curriculum changed without a version bump. Preserve the release and create a new version.',
+    );
+  db.insert(curriculumVersions)
+    .values({ version: curriculum.version, releasedAt: curriculum.releaseDate, manifestHash })
+    .onConflictDoNothing()
+    .run();
+  return manifestHash;
+}
 export function setupDatabase(connection: Connection, curriculum: Curriculum) {
   const { sqlite, db } = connection;
   sqlite.exec(
@@ -32,19 +51,6 @@ export function setupDatabase(connection: Connection, curriculum: Curriculum) {
       .values({ id: 'local', locale: 'he-IL', createdAt: new Date().toISOString() })
       .onConflictDoNothing()
       .run();
-    const manifestHash = createHash('sha256').update(JSON.stringify(curriculum)).digest('hex');
-    const existing = db
-      .select()
-      .from(curriculumVersions)
-      .where(eq(curriculumVersions.version, curriculum.version))
-      .get();
-    if (existing && existing.manifestHash !== manifestHash)
-      throw new Error(
-        'Released curriculum changed without a version bump. Preserve the release and create a new version.',
-      );
-    db.insert(curriculumVersions)
-      .values({ version: curriculum.version, releasedAt: curriculum.releaseDate, manifestHash })
-      .onConflictDoNothing()
-      .run();
+    registerCurriculum(connection, curriculum);
   })();
 }

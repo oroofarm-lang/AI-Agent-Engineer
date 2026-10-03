@@ -9,6 +9,9 @@ lesson_id: "MKT_07"
 quiz_version: "1.0.0"
 review_status: "requires-human-review"
 source_section: "Concepts"
+source_curriculum_version: "2.2.0"
+active_curriculum_version: "2.2.0"
+needs_version_review: false
 related: ["[[01_AGENTS/Agent-Marketing-Growth]]","[[01_AGENTS/Agent-Visual-Media]]","[[02_CURRICULUM/2.2.0/exercises/MKT_07]]","[[02_CURRICULUM/2.2.0/lessons/MKT_07]]","[[02_CURRICULUM/2.2.0/sources/OPENAI_VIDEO]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/Index]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_MKT_07]]"]
 ---
 

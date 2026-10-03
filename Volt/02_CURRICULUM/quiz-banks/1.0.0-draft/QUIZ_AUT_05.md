@@ -9,6 +9,9 @@ lesson_id: "AUT_05"
 quiz_version: "1.0.0"
 review_status: "requires-human-review"
 source_section: "Challenge"
+source_curriculum_version: "2.2.0"
+active_curriculum_version: "2.2.0"
+needs_version_review: false
 related: ["[[01_AGENTS/Agent-Agentic-Workflows]]","[[01_AGENTS/Agent-Automation-Engineer]]","[[01_AGENTS/Agent-Security-Auditor]]","[[02_CURRICULUM/2.2.0/exercises/AUT_05]]","[[02_CURRICULUM/2.2.0/lessons/AUT_05]]","[[02_CURRICULUM/2.2.0/sources/N8N_APPROVALS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/Index]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AUT_05]]"]
 ---
 

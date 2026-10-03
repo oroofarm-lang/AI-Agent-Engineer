@@ -9,6 +9,9 @@ lesson_id: "W14D66_FRONTEND_FUNDAMENTALS"
 quiz_version: "1.0.0"
 review_status: "requires-human-review"
 source_section: "Challenge"
+source_curriculum_version: "2.2.0"
+active_curriculum_version: "2.2.0"
+needs_version_review: false
 related: ["[[01_AGENTS/Agent-Database-Architect]]","[[01_AGENTS/Agent-Production-Reliability]]","[[01_AGENTS/Agent-Security-Auditor]]","[[01_AGENTS/Agent-UI-UX-Inspector]]","[[02_CURRICULUM/2.2.0/exercises/W14D66_FRONTEND_FUNDAMENTALS]]","[[02_CURRICULUM/2.2.0/lessons/W14D66_FRONTEND_FUNDAMENTALS]]","[[02_CURRICULUM/2.2.0/sources/NEXTJS]]","[[02_CURRICULUM/2.2.0/sources/REACT]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/Index]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W14D66_FRONTEND_FUNDAMENTALS]]"]
 ---
 

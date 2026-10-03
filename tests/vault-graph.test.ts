@@ -47,6 +47,52 @@ const write = (vaultRoot: string, files: Map<string, string>) =>
   writer.writeVaultFiles({ vaultRoot, files, version: curriculum.version });
 
 describe('complete public knowledge graph', () => {
+  it('keeps an older teaching draft explicitly unreviewed after publication and rejects a mismatched published bank', () => {
+    const quizBank = JSON.parse(
+      readFileSync('content/authoring/quiz-bank/1.0.0-draft.json', 'utf8'),
+    );
+    const before = JSON.stringify(quizBank);
+    const next = { ...curriculum, version: '2.2.1' };
+    const result = builder.buildVaultFiles({ curriculum: next, lessonBodies, registry, quizBank });
+    expect(result.counts.quizzes).toBe(139);
+    for (const quiz of quizBank.quizzes) {
+      const file = result.files.get(`02_CURRICULUM/quiz-banks/1.0.0-draft/${quiz.id}.md`)!;
+      expect(file).toContain('source_curriculum_version: "2.2.0"');
+      expect(file).toContain('active_curriculum_version: "2.2.1"');
+      expect(file).toContain('needs_version_review: true');
+      expect(file).toContain('יש לבדוק את התאמת השאלות לגרסה הפעילה לפני פרסום');
+      expect(file).toContain('review_status: "requires-human-review"');
+    }
+    expect(JSON.stringify(quizBank)).toBe(before);
+    expect(() =>
+      builder.buildVaultFiles({
+        curriculum: next,
+        lessonBodies,
+        registry,
+        quizBank: { ...quizBank, status: 'published', reviewStatus: 'approved' },
+      }),
+    ).toThrow('Quiz curriculum version mismatch');
+  });
+  it('links the human-reviewed release API to discovery, the actual Auditor, and every course module', () => {
+    const api = '04_AUTOMATIONS_AND_APIS/endpoints/CURRICULUM_AUDITOR.md';
+    expect(graph.files.get(api)).toContain('permission_scope: "verified-operator"');
+    expect(graph.files.get(api)).toContain('אישור אנושי נפרד');
+    const linked = new Set(graph.relations.map((edge) => `${edge.from}\0${edge.to}`));
+    for (const file of [
+      '04_AUTOMATIONS_AND_APIS/Knowledge-Updates.md',
+      '01_AGENTS/Agent-Curriculum-Auditor.md',
+      '01_AGENTS/Agent-Hebrew-UX.md',
+      ...curriculum.modules!.map(
+        (chapter) => `02_CURRICULUM/${curriculum.version}/modules/${chapter.id}.md`,
+      ),
+    ]) {
+      expect(linked.has(`${api}\0${file}`)).toBe(true);
+      expect(linked.has(`${file}\0${api}`)).toBe(true);
+    }
+    expect(
+      graph.files.get('04_AUTOMATIONS_AND_APIS/assets/CURRICULUM_REVIEW_COMPONENT.md'),
+    ).toContain('src/components/curriculum-review.tsx');
+  });
   it('links the existing application question separately from the unpublished teaching draft and never exports learner answers', () => {
     const systemQuestion = JSON.parse(readFileSync('content/quizzes/system/1.0.0.json', 'utf8'));
     const result = builder.buildVaultFiles({ curriculum, lessonBodies, registry, systemQuestion });

@@ -9,6 +9,9 @@ lesson_id: "W02D09_MODEL_RELIABILITY"
 quiz_version: "1.0.0"
 review_status: "requires-human-review"
 source_section: "Build First"
+source_curriculum_version: "2.2.0"
+active_curriculum_version: "2.2.0"
+needs_version_review: false
 related: ["[[01_AGENTS/Agent-Code-Reviewer]]","[[01_AGENTS/Agent-Curriculum-Pedagogy]]","[[01_AGENTS/Agent-Model-Data]]","[[01_AGENTS/Agent-Quiz-Designer]]","[[02_CURRICULUM/2.2.0/exercises/W02D09_MODEL_RELIABILITY]]","[[02_CURRICULUM/2.2.0/lessons/W02D09_MODEL_RELIABILITY]]","[[02_CURRICULUM/2.2.0/sources/ANTHROPIC_AGENTS]]","[[02_CURRICULUM/2.2.0/sources/PYTHON_TUTORIAL]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/Index]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W02D09_MODEL_RELIABILITY]]"]
 ---
 

@@ -2,7 +2,7 @@
 
 ## Authority and current scope
 
-Read `../MASTER_SPEC.md` and `master-curriculum-spec.md` before editing. Curriculum content is data, never embedded in a React component. Version `1.0.0` begins with all 80 source-derived outlines and one published lesson. The source-derived English outlines remain visible while authored Hebrew lessons are developed. No generated outline should be presented as a complete course day.
+Read `../MASTER_SPEC.md` and `master-curriculum-spec.md` before editing. Curriculum content is data, never embedded in a React component. The current baseline is `2.2.0`: 139 published Hebrew units in 14 modules, retaining the original 80 stable IDs. A published unit can be a guided lesson or a compact practice workbook; publication means availability, not technical verification. See `CONTENT_QA.md` for actual content depth and review coverage.
 
 ## Publish a lesson
 
@@ -27,7 +27,7 @@ Project briefs, starter downloads, attempt history and verified-operator human r
 
 `sources.json` stores source metadata. Each source stores stable ID, title, HTTPS URL, type, vendor, related lesson IDs, technology IDs and nullable lastVerified. A source link alone does not mean verification. Keep lastVerified null until someone has checked what is taught against the source and recorded a rationale. A baseline/release date is not a verification date.
 
-The full technology registry and audited evidence storage are phase 4 work. Until then, update references manually through a reviewed content change and record the reason. Foundation content should not change in response to vendor marketing. Operator documentation records that full freshness auditing is still unavailable.
+The technology/discovery registry and bounded primary-source collector are implemented. Discovery records are separate from technical verification. The [Curriculum Auditor](CURRICULUM_AUDITOR.md) stores exact-hash proposals, canonical source references, author paraphrases, complete section comparisons, dependency impact and explicit human decisions. Foundation content should not change in response to vendor marketing. No refresh or AI answer certifies a teaching claim.
 
 ## Version releases and progress
 
@@ -35,7 +35,7 @@ The full technology registry and audited evidence storage are phase 4 work. Unti
 - Change curriculum version and affected lesson versions for a release; record releaseDate, minimumMigrationVersion, majorChanges and `changelog.json`.
 - Preserve stable IDs and old learner rows. `npm run db:setup` registers the new metadata manifest and never overwrites earlier progress versions.
 - Applied SQL migrations are immutable. Create a new migration file for schema changes.
-- Setup rejects in-place changes to a registered manifest. From 1.1.0 this includes published Markdown body hashes and rubric definitions. Approval-bound proposals, supplements and transactional release rollback remain phase 4 work; the setup check is not a complete release-management system.
+- Setup rejects in-place changes to a registered manifest. From 1.1.0 this includes published Markdown body hashes and rubric definitions. Section updates use the verified-operator review screen at `/admin/curriculum`, immutable release snapshots and an atomic active pointer. Only an approved exact proposal hash can publish. Rollback preserves learner rows and old release bytes. New catalog IDs, rubrics, dependencies or supplements require a separately reviewed catalog extension; the section editor does not silently change them.
 - Never delete a database to fix a version mismatch. Restore the prior manifest or intentionally publish a new version.
 
 ## Validation
@@ -57,7 +57,7 @@ The checker validates 139 units, the preserved 80 day records, 14 modules and 16
 
 Evidence submissions do not grant mastery. They require build completion and exact current version tokens; a rejected or stale submission must preserve the learner's typed text. Do not add automatic scoring based on answer length or keywords. The verified-operator review workflow assesses the practical evidence against the stored rubric.
 
-From 1.1.0, setup also hashes published lesson bodies and rubric data as part of the registered manifest. Preserve prior content snapshots; do not change an already registered release in place. Approval-bound application/rollback is still not implemented.
+From 1.1.0, setup also hashes published lesson bodies and rubric data as part of the registered manifest. Preserve prior content snapshots; do not change an already registered release in place. The runtime release mechanism binds each loaded catalog to its exact immutable body directory, so a concurrent publication cannot mix old metadata with new lesson bytes. Human technical and pedagogical review remains required before publishing a meaningful teaching change.
 
 ## Topic extension and workbook availability (2.0.0)
 

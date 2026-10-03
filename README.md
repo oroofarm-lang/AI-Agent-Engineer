@@ -145,6 +145,8 @@ heartbeat runs at 09:00 Asia/Jerusalem and requires the computer/app to be runni
 scheduled execution has not been observed. Manual GitHub dispatch is separate.
 See [knowledge discovery and its limits](docs/KNOWLEDGE_UPDATES.md).
 
+Verified configured operators can open `/admin/curriculum` to compare an exact section proposal against the current course, inspect canonical source links and affected learning dependencies, record human review, publish a new immutable version and return to the prior version. Source collection and AI feedback cannot approve a release. `CURRICULUM_AUDITOR_DIR` stores the private persistent ledger; no reviewer identities or private proposals enter Volt. [Curriculum Auditor architecture and operations](docs/CURRICULUM_AUDITOR.md) describes the boundaries, recovery and required human teaching review.
+
 ## Public Obsidian / Sidian graph
 
 Open `Volt` as a vault and start with `Index.md`. `00_ORCHESTRATION/System_Overview.canvas` gives a 17-note entry map with five labeled sections; `Root_Knowledge_Graph.canvas` contains all 1,033 public notes. Open any of the 14 chapter maps under `02_CURRICULUM/2.2.0/maps/` to see its lessons, exercises, rubrics, question status and related specialists/sources. The 21 specialist maps under `01_AGENTS/maps/` show connected chapters, allowed tools and primary references. All 37 Canvas files use actual note paths and existing graph relationships. `Index.md`, each chapter and each specialist link to their focused maps.

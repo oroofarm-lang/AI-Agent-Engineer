@@ -9,6 +9,9 @@ lesson_id: "W11D52_EVALUATION_DATASET_DESIGN"
 quiz_version: "1.0.0"
 review_status: "requires-human-review"
 source_section: "Concepts"
+source_curriculum_version: "2.2.0"
+active_curriculum_version: "2.2.0"
+needs_version_review: false
 related: ["[[01_AGENTS/Agent-Curriculum-Auditor]]","[[01_AGENTS/Agent-Production-Reliability]]","[[01_AGENTS/Agent-Progress-Tracker]]","[[01_AGENTS/Agent-Quiz-Designer]]","[[01_AGENTS/Agent-Security-Auditor]]","[[02_CURRICULUM/2.2.0/exercises/W11D52_EVALUATION_DATASET_DESIGN]]","[[02_CURRICULUM/2.2.0/lessons/W11D52_EVALUATION_DATASET_DESIGN]]","[[02_CURRICULUM/2.2.0/sources/ANTHROPIC_EVALS]]","[[02_CURRICULUM/2.2.0/sources/PROMPTFOO_TESTS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/Index]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W11D52_EVALUATION_DATASET_DESIGN]]"]
 ---
 

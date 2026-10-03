@@ -9,6 +9,9 @@ lesson_id: "WEB_04"
 quiz_version: "1.0.0"
 review_status: "requires-human-review"
 source_section: "Concepts"
+source_curriculum_version: "2.2.0"
+active_curriculum_version: "2.2.0"
+needs_version_review: false
 related: ["[[01_AGENTS/Agent-Code-Reviewer]]","[[01_AGENTS/Agent-UI-UX-Inspector]]","[[02_CURRICULUM/2.2.0/exercises/WEB_04]]","[[02_CURRICULUM/2.2.0/lessons/WEB_04]]","[[02_CURRICULUM/2.2.0/sources/FASTAPI]]","[[02_CURRICULUM/2.2.0/sources/HUBSPOT_WEBHOOKS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/Index]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_WEB_04]]"]
 ---
 

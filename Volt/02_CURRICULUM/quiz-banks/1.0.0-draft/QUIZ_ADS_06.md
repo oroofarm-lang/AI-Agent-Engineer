@@ -9,6 +9,9 @@ lesson_id: "ADS_06"
 quiz_version: "1.0.0"
 review_status: "requires-human-review"
 source_section: "Concepts"
+source_curriculum_version: "2.2.0"
+active_curriculum_version: "2.2.0"
+needs_version_review: false
 related: ["[[01_AGENTS/Agent-Paid-Media-Measurement]]","[[01_AGENTS/Agent-Visual-Media]]","[[02_CURRICULUM/2.2.0/exercises/ADS_06]]","[[02_CURRICULUM/2.2.0/lessons/ADS_06]]","[[02_CURRICULUM/2.2.0/sources/ANTHROPIC_EVALS]]","[[02_CURRICULUM/2.2.0/sources/GOOGLE_ADS_TESTS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/Index]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_ADS_06]]"]
 ---
 

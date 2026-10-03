@@ -9,6 +9,9 @@ lesson_id: "DAT_01"
 quiz_version: "1.0.0"
 review_status: "requires-human-review"
 source_section: "Deep Dive"
+source_curriculum_version: "2.2.0"
+active_curriculum_version: "2.2.0"
+needs_version_review: false
 related: ["[[01_AGENTS/Agent-Database-Architect]]","[[01_AGENTS/Agent-Model-Data]]","[[02_CURRICULUM/2.2.0/exercises/DAT_01]]","[[02_CURRICULUM/2.2.0/lessons/DAT_01]]","[[02_CURRICULUM/2.2.0/sources/POSTGRES_TRANSACTIONS]]","[[02_CURRICULUM/2.2.0/sources/PYTHON_SQLITE]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/Index]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_DAT_01]]"]
 ---
 

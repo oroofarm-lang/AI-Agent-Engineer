@@ -9,6 +9,9 @@ lesson_id: "W13D61_BACKEND_APIS"
 quiz_version: "1.0.0"
 review_status: "requires-human-review"
 source_section: "Build First"
+source_curriculum_version: "2.2.0"
+active_curriculum_version: "2.2.0"
+needs_version_review: false
 related: ["[[01_AGENTS/Agent-Database-Architect]]","[[01_AGENTS/Agent-Production-Reliability]]","[[01_AGENTS/Agent-Security-Auditor]]","[[01_AGENTS/Agent-UI-UX-Inspector]]","[[02_CURRICULUM/2.2.0/exercises/W13D61_BACKEND_APIS]]","[[02_CURRICULUM/2.2.0/lessons/W13D61_BACKEND_APIS]]","[[02_CURRICULUM/2.2.0/sources/FASTAPI]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/Index]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W13D61_BACKEND_APIS]]"]
 ---
 

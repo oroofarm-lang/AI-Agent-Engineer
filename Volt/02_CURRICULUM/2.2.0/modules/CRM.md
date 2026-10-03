@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 required_entry: false
 lesson_ids: ["CRM_01","CRM_02","CRM_03","CRM_04","CRM_05","CRM_06","CRM_07","CRM_08"]
 prerequisite_module_ids: ["CORE","AUTOMATION"]
-related: ["[[01_AGENTS/Agent-Automation-Engineer]]","[[01_AGENTS/Agent-Code-Reviewer]]","[[01_AGENTS/Agent-CRM-Sales]]","[[01_AGENTS/Agent-Database-Architect]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Voice-Audio]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/Index]]","[[02_CURRICULUM/2.2.0/lessons/CRM_01]]","[[02_CURRICULUM/2.2.0/lessons/CRM_02]]","[[02_CURRICULUM/2.2.0/lessons/CRM_03]]","[[02_CURRICULUM/2.2.0/lessons/CRM_04]]","[[02_CURRICULUM/2.2.0/lessons/CRM_05]]","[[02_CURRICULUM/2.2.0/lessons/CRM_06]]","[[02_CURRICULUM/2.2.0/lessons/CRM_07]]","[[02_CURRICULUM/2.2.0/lessons/CRM_08]]","[[02_CURRICULUM/2.2.0/modules/AUTOMATION]]","[[02_CURRICULUM/2.2.0/modules/CORE]]","[[04_AUTOMATIONS_AND_APIS/assets/BUSINESS_DATA]]","[[04_AUTOMATIONS_AND_APIS/assets/CONTACTS_DATA]]","[[04_AUTOMATIONS_AND_APIS/assets/DATA_GUIDE]]","[[04_AUTOMATIONS_AND_APIS/knowledge-sources/OPENAI_CHANGELOG]]","[[04_AUTOMATIONS_AND_APIS/knowledge-sources/OPENAI_MODELS]]","[[04_AUTOMATIONS_AND_APIS/knowledge-sources/OPENAI_NEWS]]"]
+related: ["[[01_AGENTS/Agent-Automation-Engineer]]","[[01_AGENTS/Agent-Code-Reviewer]]","[[01_AGENTS/Agent-CRM-Sales]]","[[01_AGENTS/Agent-Database-Architect]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Voice-Audio]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/Index]]","[[02_CURRICULUM/2.2.0/lessons/CRM_01]]","[[02_CURRICULUM/2.2.0/lessons/CRM_02]]","[[02_CURRICULUM/2.2.0/lessons/CRM_03]]","[[02_CURRICULUM/2.2.0/lessons/CRM_04]]","[[02_CURRICULUM/2.2.0/lessons/CRM_05]]","[[02_CURRICULUM/2.2.0/lessons/CRM_06]]","[[02_CURRICULUM/2.2.0/lessons/CRM_07]]","[[02_CURRICULUM/2.2.0/lessons/CRM_08]]","[[02_CURRICULUM/2.2.0/modules/AUTOMATION]]","[[02_CURRICULUM/2.2.0/modules/CORE]]","[[04_AUTOMATIONS_AND_APIS/assets/BUSINESS_DATA]]","[[04_AUTOMATIONS_AND_APIS/assets/CONTACTS_DATA]]","[[04_AUTOMATIONS_AND_APIS/assets/DATA_GUIDE]]","[[04_AUTOMATIONS_AND_APIS/endpoints/CURRICULUM_AUDITOR]]","[[04_AUTOMATIONS_AND_APIS/knowledge-sources/OPENAI_CHANGELOG]]","[[04_AUTOMATIONS_AND_APIS/knowledge-sources/OPENAI_MODELS]]","[[04_AUTOMATIONS_AND_APIS/knowledge-sources/OPENAI_NEWS]]"]
 ---
 
 # מכירות ושירות לקוחות
@@ -56,6 +56,7 @@ related: ["[[01_AGENTS/Agent-Automation-Engineer]]","[[01_AGENTS/Agent-Code-Revi
 - [[04_AUTOMATIONS_AND_APIS/assets/BUSINESS_DATA|נתוני עסק לתרגול]] — קובץ עזר לפרק
 - [[04_AUTOMATIONS_AND_APIS/assets/CONTACTS_DATA|נתוני לקוחות לתרגול]] — קובץ עזר לפרק
 - [[04_AUTOMATIONS_AND_APIS/assets/DATA_GUIDE|מדריך נתוני התרגול]] — קובץ עזר לפרק
+- [[04_AUTOMATIONS_AND_APIS/endpoints/CURRICULUM_AUDITOR|בדיקה, פרסום וחזרה לגרסת קורס קודמת]] — עדכון גרסה ללא איפוס התקדמות
 - [[04_AUTOMATIONS_AND_APIS/knowledge-sources/OPENAI_CHANGELOG|OpenAI API changelog]] — פרק קשור
 - [[04_AUTOMATIONS_AND_APIS/knowledge-sources/OPENAI_MODELS|OpenAI model catalog]] — פרק קשור
 - [[04_AUTOMATIONS_AND_APIS/knowledge-sources/OPENAI_NEWS|OpenAI News]] — פרק קשור

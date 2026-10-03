@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 required_entry: false
 lesson_ids: ["BIZ_01","BIZ_02","BIZ_03","BIZ_04","BIZ_05","BIZ_06"]
 prerequisite_module_ids: ["CORE"]
-related: ["[[01_AGENTS/Agent-Business-Discovery]]","[[01_AGENTS/Agent-CRM-Sales]]","[[01_AGENTS/Agent-Curriculum-Auditor]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Marketing-Growth]]","[[01_AGENTS/Agent-Paid-Media-Measurement]]","[[01_AGENTS/Agent-Progress-Tracker]]","[[01_AGENTS/Agent-Quiz-Designer]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/Index]]","[[02_CURRICULUM/2.2.0/lessons/BIZ_01]]","[[02_CURRICULUM/2.2.0/lessons/BIZ_02]]","[[02_CURRICULUM/2.2.0/lessons/BIZ_03]]","[[02_CURRICULUM/2.2.0/lessons/BIZ_04]]","[[02_CURRICULUM/2.2.0/lessons/BIZ_05]]","[[02_CURRICULUM/2.2.0/lessons/BIZ_06]]","[[02_CURRICULUM/2.2.0/modules/CAPSTONE]]","[[02_CURRICULUM/2.2.0/modules/CORE]]"]
+related: ["[[01_AGENTS/Agent-Business-Discovery]]","[[01_AGENTS/Agent-CRM-Sales]]","[[01_AGENTS/Agent-Curriculum-Auditor]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Marketing-Growth]]","[[01_AGENTS/Agent-Paid-Media-Measurement]]","[[01_AGENTS/Agent-Progress-Tracker]]","[[01_AGENTS/Agent-Quiz-Designer]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/Index]]","[[02_CURRICULUM/2.2.0/lessons/BIZ_01]]","[[02_CURRICULUM/2.2.0/lessons/BIZ_02]]","[[02_CURRICULUM/2.2.0/lessons/BIZ_03]]","[[02_CURRICULUM/2.2.0/lessons/BIZ_04]]","[[02_CURRICULUM/2.2.0/lessons/BIZ_05]]","[[02_CURRICULUM/2.2.0/lessons/BIZ_06]]","[[02_CURRICULUM/2.2.0/modules/CAPSTONE]]","[[02_CURRICULUM/2.2.0/modules/CORE]]","[[04_AUTOMATIONS_AND_APIS/endpoints/CURRICULUM_AUDITOR]]"]
 ---
 
 # הפיכת הידע לשירות
@@ -51,3 +51,4 @@ related: ["[[01_AGENTS/Agent-Business-Discovery]]","[[01_AGENTS/Agent-CRM-Sales]
 - [[02_CURRICULUM/2.2.0/lessons/BIZ_06|מבחן מסכם: הצגת פתרון ללקוח]] — שיעור בפרק
 - [[02_CURRICULUM/2.2.0/modules/CAPSTONE|פרויקט גמר לעסק]] — תלות בין פרקים
 - [[02_CURRICULUM/2.2.0/modules/CORE|פרק 1: יסודות · פרק חובה]] — תלות בין פרקים
+- [[04_AUTOMATIONS_AND_APIS/endpoints/CURRICULUM_AUDITOR|בדיקה, פרסום וחזרה לגרסת קורס קודמת]] — עדכון גרסה ללא איפוס התקדמות

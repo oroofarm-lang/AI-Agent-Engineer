@@ -1,5 +1,5 @@
 import path from 'node:path';
-import { loadCurriculum, readLesson } from '../curriculum/load';
+import { loadCurriculum, readCatalogLesson } from '../curriculum/load';
 import { loadAgentRegistry } from '../agents/registry';
 import { loadKnowledgeRegistry } from '../ai/knowledge-registry';
 import { buildVaultFiles } from '../../../scripts/lib/vault-export.mjs';
@@ -16,7 +16,7 @@ export async function syncPublicVault() {
   const lessonBodies = Object.fromEntries(
     curriculum.lessons
       .filter((lesson) => lesson.publicationStatus === 'published')
-      .map((lesson) => [lesson.id, readLesson(lesson.id)]),
+      .map((lesson) => [lesson.id, readCatalogLesson(curriculum, lesson.id)]),
   );
   const { assets: publicAssets, apis } = publicSnapshot;
   const graph = buildVaultFiles({

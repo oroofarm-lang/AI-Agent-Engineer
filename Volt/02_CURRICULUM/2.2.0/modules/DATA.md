@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 required_entry: false
 lesson_ids: ["DAT_01","DAT_02","DAT_03","DAT_04"]
 prerequisite_module_ids: ["CORE","QUALITY"]
-related: ["[[01_AGENTS/Agent-Curriculum-Auditor]]","[[01_AGENTS/Agent-Curriculum-Pedagogy]]","[[01_AGENTS/Agent-Database-Architect]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Model-Data]]","[[01_AGENTS/Agent-Paid-Media-Measurement]]","[[01_AGENTS/Agent-Progress-Tracker]]","[[01_AGENTS/Agent-Quiz-Designer]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/Index]]","[[02_CURRICULUM/2.2.0/lessons/DAT_01]]","[[02_CURRICULUM/2.2.0/lessons/DAT_02]]","[[02_CURRICULUM/2.2.0/lessons/DAT_03]]","[[02_CURRICULUM/2.2.0/lessons/DAT_04]]","[[02_CURRICULUM/2.2.0/modules/CORE]]","[[02_CURRICULUM/2.2.0/modules/QUALITY]]","[[04_AUTOMATIONS_AND_APIS/assets/CAMPAIGNS_DATA]]","[[04_AUTOMATIONS_AND_APIS/knowledge-sources/OLLAMA]]"]
+related: ["[[01_AGENTS/Agent-Curriculum-Auditor]]","[[01_AGENTS/Agent-Curriculum-Pedagogy]]","[[01_AGENTS/Agent-Database-Architect]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Model-Data]]","[[01_AGENTS/Agent-Paid-Media-Measurement]]","[[01_AGENTS/Agent-Progress-Tracker]]","[[01_AGENTS/Agent-Quiz-Designer]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/Index]]","[[02_CURRICULUM/2.2.0/lessons/DAT_01]]","[[02_CURRICULUM/2.2.0/lessons/DAT_02]]","[[02_CURRICULUM/2.2.0/lessons/DAT_03]]","[[02_CURRICULUM/2.2.0/lessons/DAT_04]]","[[02_CURRICULUM/2.2.0/modules/CORE]]","[[02_CURRICULUM/2.2.0/modules/QUALITY]]","[[04_AUTOMATIONS_AND_APIS/assets/CAMPAIGNS_DATA]]","[[04_AUTOMATIONS_AND_APIS/endpoints/CURRICULUM_AUDITOR]]","[[04_AUTOMATIONS_AND_APIS/knowledge-sources/OLLAMA]]"]
 ---
 
 # נתונים ומודלים מקומיים
@@ -48,4 +48,5 @@ related: ["[[01_AGENTS/Agent-Curriculum-Auditor]]","[[01_AGENTS/Agent-Curriculum
 - [[02_CURRICULUM/2.2.0/modules/CORE|פרק 1: יסודות · פרק חובה]] — תלות בין פרקים
 - [[02_CURRICULUM/2.2.0/modules/QUALITY|איכות, אבטחה ובקרה]] — תלות בין פרקים
 - [[04_AUTOMATIONS_AND_APIS/assets/CAMPAIGNS_DATA|נתוני קמפיינים לתרגול]] — קובץ עזר לפרק
+- [[04_AUTOMATIONS_AND_APIS/endpoints/CURRICULUM_AUDITOR|בדיקה, פרסום וחזרה לגרסת קורס קודמת]] — עדכון גרסה ללא איפוס התקדמות
 - [[04_AUTOMATIONS_AND_APIS/knowledge-sources/OLLAMA|Ollama]] — פרק קשור

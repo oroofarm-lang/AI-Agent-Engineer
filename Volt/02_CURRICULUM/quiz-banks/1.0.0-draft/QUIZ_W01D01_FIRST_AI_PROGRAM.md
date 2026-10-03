@@ -9,6 +9,9 @@ lesson_id: "W01D01_FIRST_AI_PROGRAM"
 quiz_version: "1.0.0"
 review_status: "requires-human-review"
 source_section: "Concepts"
+source_curriculum_version: "2.2.0"
+active_curriculum_version: "2.2.0"
+needs_version_review: false
 related: ["[[01_AGENTS/Agent-Code-Reviewer]]","[[01_AGENTS/Agent-Curriculum-Pedagogy]]","[[01_AGENTS/Agent-Model-Data]]","[[01_AGENTS/Agent-Quiz-Designer]]","[[02_CURRICULUM/2.2.0/exercises/W01D01_FIRST_AI_PROGRAM]]","[[02_CURRICULUM/2.2.0/lessons/W01D01_FIRST_AI_PROGRAM]]","[[02_CURRICULUM/2.2.0/sources/GIT_BOOK]]","[[02_CURRICULUM/2.2.0/sources/OPENAI_QUICKSTART]]","[[02_CURRICULUM/2.2.0/sources/PYTHON_TUTORIAL]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/Index]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_FIRST_AI_PROGRAM]]"]
 ---
 

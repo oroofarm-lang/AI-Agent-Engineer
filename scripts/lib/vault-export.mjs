@@ -10,6 +10,14 @@ const wikilink = (file, title) => `[[${file.replace(/\.md$/, '')}|${safeTitle(ti
 /** Public source descriptors point to real files; they are not uploaded learner artifacts. */
 export const publicAssetCatalog = [
   {
+    id: 'CURRICULUM_REVIEW_COMPONENT',
+    title: 'בדיקת הצעות לעדכון הקורס',
+    sourcePath: 'src/components/curriculum-review.tsx',
+    kind: 'ui-code',
+    moduleIds: ['QUALITY', 'KNOWLEDGE'],
+    agentIds: ['Agent-Curriculum-Auditor', 'Agent-Hebrew-UX'],
+  },
+  {
     id: 'REINFORCEMENT_COMPONENT',
     title: 'שאלת תרגול ושמירת תשובה',
     sourcePath: 'src/components/assessment/reinforcement-quiz.tsx',
@@ -138,6 +146,16 @@ export const publicAssetCatalog = [
 ];
 
 export const publicApiCatalog = [
+  {
+    id: 'CURRICULUM_AUDITOR',
+    path: '/api/auditor',
+    methods: ['GET', 'POST'],
+    title: 'בדיקה, פרסום וחזרה לגרסת קורס קודמת',
+    scope: 'verified-operator',
+    sourcePath: 'src/app/api/auditor/route.ts',
+    description:
+      'מפעיל מאומת ומורשה משווה נוסחים ומקורות, שומר הצעה והחלטה על הנוסח המדויק, ומפרסם גרסה רק לאחר אישור אנושי נפרד. הפרסום שומר את הגרסה הקודמת ומאפשר חזרה אליה ללא שינוי ברשומות הלומדים. גילוי עדכונים ומשוב סוכן אינם אישור לפרסום. יומן ההצעות, זהות הבודק והמסד הפרטי אינם מיוצאים לכספת.',
+  },
   {
     id: 'QUIZZES',
     path: '/api/quizzes',
@@ -719,6 +737,15 @@ export function buildVaultFiles({
   connect(knowledge, policies, 'גבולות אימות');
   if (paths.api.has('KNOWLEDGE'))
     connect(knowledge, paths.api.get('KNOWLEDGE'), 'קריאת תוצאות ורענון');
+  if (paths.api.has('CURRICULUM_AUDITOR')) {
+    const auditor = paths.api.get('CURRICULUM_AUDITOR');
+    connect(knowledge, auditor, 'הצעה וביקורת אנושית');
+    connect(auditor, paths.agent.get('Agent-Curriculum-Auditor'), 'הצעת מומחה ללא הרשאת פרסום');
+    connect(auditor, paths.agent.get('Agent-Hebrew-UX'), 'בדיקת ניסוח');
+    connect(auditor, policies, 'אישור נפרד לפרסום');
+    for (const file of paths.module.values())
+      connect(auditor, file, 'עדכון גרסה ללא איפוס התקדמות');
+  }
   if (knowledgeRegistry) {
     for (const technology of knowledgeRegistry.technologies) {
       validateId(technology.id, 'technology');
@@ -911,9 +938,15 @@ export function buildVaultFiles({
     if (!Array.isArray(quizzes)) throw new Error('Invalid public quiz bank');
     const quizVersion = quizBank.version || '0.0.0';
     if (!/^\d+\.\d+\.\d+$/.test(quizVersion)) throw new Error('Invalid quiz bank version');
-    if (quizBank.curriculumVersion && quizBank.curriculumVersion !== version)
-      throw new Error('Quiz curriculum version mismatch');
     const draft = quizBank.status !== 'published' || quizBank.reviewStatus !== 'approved';
+    const authoredVersion = quizBank.curriculumVersion || version;
+    if (!/^\d+\.\d+\.\d+$/.test(authoredVersion))
+      throw new Error('Invalid quiz curriculum version');
+    const needsVersionReview = authoredVersion !== version;
+    if (needsVersionReview && !draft) throw new Error('Quiz curriculum version mismatch');
+    const versionNotice = needsVersionReview
+      ? `\n\n**טיוטה שנכתבה לגרסת הקורס ${authoredVersion}. גרסת הקורס הפעילה היא ${version}. יש לבדוק את התאמת השאלות לגרסה הפעילה לפני פרסום.**`
+      : '';
     const quizRoot = `02_CURRICULUM/quiz-banks/${quizVersion}${draft ? '-draft' : ''}`;
     const quizIndex = add(
       `${quizRoot}/Index.md`,
@@ -921,9 +954,15 @@ export function buildVaultFiles({
       'QUIZ_BANK_INDEX',
       draft ? 'טיוטת שאלות לחיזוק ההבנה' : 'שאלות לחיזוק ההבנה',
       draft
-        ? 'השאלות נכתבו לפי השיעורים, אך עדיין דורשות ביקורת הוראה אנושית. הן אינן פעילות בשיעורים ואינן מעניקות ציון או שליטה. נשמרות כאן לצורך קריאה וביקורת.'
+        ? `השאלות נכתבו לפי השיעורים, אך עדיין דורשות ביקורת הוראה אנושית. הן אינן פעילות בשיעורים ואינן מעניקות ציון או שליטה. נשמרות כאן לצורך קריאה וביקורת.${versionNotice}`
         : 'שאלות לחיזוק ההבנה, נפרדות מהגשת ראיות והערכת שליטה.',
-      { quiz_version: quizVersion, review_status: draft ? 'requires-human-review' : 'approved' },
+      {
+        quiz_version: quizVersion,
+        review_status: draft ? 'requires-human-review' : 'approved',
+        source_curriculum_version: authoredVersion,
+        active_curriculum_version: version,
+        needs_version_review: needsVersionReview,
+      },
     );
     connect(sectionIndexes.curriculum, quizIndex, draft ? 'טיוטה לביקורת' : 'חיזוק ההבנה');
     for (const quiz of quizzes) {
@@ -944,13 +983,16 @@ export function buildVaultFiles({
         'quiz',
         quiz.id,
         `בדיקת הבנה: ${quiz.question}`,
-        `${draft ? '**טיוטה לביקורת אנושית — אינה פעילה בשיעורים.**\n\n' : ''}${quiz.question}\n\n${quiz.options.map((option) => `- ${option.id}: ${option.text}`).join('\n')}\n\n## תשובה והסבר ללמידה\n\nאפשרות: ${quiz.correctOptionId}.\n\n${quiz.explanation}\n\nקטע מקור בשיעור: ${quiz.sourceSection}. השאלה מיועדת לחיזוק הבנה; היא אינה אישור שליטה מקצועית.`,
+        `${draft ? `**טיוטה לביקורת אנושית — אינה פעילה בשיעורים.**${versionNotice}\n\n` : ''}${quiz.question}\n\n${quiz.options.map((option) => `- ${option.id}: ${option.text}`).join('\n')}\n\n## תשובה והסבר ללמידה\n\nאפשרות: ${quiz.correctOptionId}.\n\n${quiz.explanation}\n\nקטע מקור בשיעור: ${quiz.sourceSection}. השאלה מיועדת לחיזוק הבנה; היא אינה אישור שליטה מקצועית.`,
         {
           quiz_id: quiz.id,
           lesson_id: quiz.lessonId,
           quiz_version: quizVersion,
           review_status: draft ? 'requires-human-review' : 'approved',
           source_section: quiz.sourceSection,
+          source_curriculum_version: authoredVersion,
+          active_curriculum_version: version,
+          needs_version_review: needsVersionReview,
         },
       );
       paths.quiz.set(quiz.id, file);

@@ -9,6 +9,9 @@ lesson_id: "W15D72_CODE_SANDBOX_AGENTS"
 quiz_version: "1.0.0"
 review_status: "requires-human-review"
 source_section: "Failure Lab"
+source_curriculum_version: "2.2.0"
+active_curriculum_version: "2.2.0"
+needs_version_review: false
 related: ["[[01_AGENTS/Agent-Agentic-Workflows]]","[[01_AGENTS/Agent-Code-Reviewer]]","[[01_AGENTS/Agent-Curriculum-Auditor]]","[[01_AGENTS/Agent-Security-Auditor]]","[[02_CURRICULUM/2.2.0/exercises/W15D72_CODE_SANDBOX_AGENTS]]","[[02_CURRICULUM/2.2.0/lessons/W15D72_CODE_SANDBOX_AGENTS]]","[[02_CURRICULUM/2.2.0/sources/DOCKER]]","[[02_CURRICULUM/2.2.0/sources/OWASP_GENAI]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/Index]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W15D72_CODE_SANDBOX_AGENTS]]"]
 ---
 

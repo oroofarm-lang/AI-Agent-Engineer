@@ -7,7 +7,7 @@ import remarkGfm from 'remark-gfm';
 import { ArrowRight, ArrowLeft, Clock3 } from 'lucide-react';
 import { getCurriculum, getRepository } from '@/lib/data';
 import { lessonNavigation } from '@/lib/curriculum/navigation';
-import { readLesson } from '@/lib/curriculum/load';
+import { readCatalogLesson } from '@/lib/curriculum/load';
 import { he } from '@/lib/i18n/he';
 import { LessonCanvas } from '@/components/learning/lesson-canvas';
 import { markdownCards } from '@/lib/curriculum/cards';
@@ -56,7 +56,7 @@ export default async function LessonPage({
       </div>
     );
   const sections = published
-    ? readLesson(lesson.id)
+    ? readCatalogLesson(c, lesson.id)
         .split(/^## /m)
         .filter(Boolean)
         .map((part) => ({

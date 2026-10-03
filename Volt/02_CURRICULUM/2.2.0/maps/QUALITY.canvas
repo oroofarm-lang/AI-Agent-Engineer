@@ -386,7 +386,7 @@
       "x": 5656,
       "y": 250,
       "width": 1370,
-      "height": 4020,
+      "height": 4250,
       "label": "קשרים נוספים לפרק ולשיעורים",
       "color": "6"
     },
@@ -671,10 +671,20 @@
       "color": "6"
     },
     {
+      "id": "file-f421739858508fb19cac137b",
+      "type": "file",
+      "file": "04_AUTOMATIONS_AND_APIS/assets/CURRICULUM_REVIEW_COMPONENT.md",
+      "x": 5680,
+      "y": 3550,
+      "width": 640,
+      "height": 180,
+      "color": "6"
+    },
+    {
       "id": "file-6da7c6d6dd97f316ce77112a",
       "type": "file",
       "file": "04_AUTOMATIONS_AND_APIS/assets/PROOF_COMPONENT.md",
-      "x": 5680,
+      "x": 6360,
       "y": 3550,
       "width": 640,
       "height": 180,
@@ -684,8 +694,8 @@
       "id": "file-9e3e97de93af0eadf98932f0",
       "type": "file",
       "file": "04_AUTOMATIONS_AND_APIS/assets/REINFORCEMENT_COMPONENT.md",
-      "x": 6360,
-      "y": 3550,
+      "x": 5680,
+      "y": 3780,
       "width": 640,
       "height": 180,
       "color": "6"
@@ -694,7 +704,7 @@
       "id": "file-da38c5069e356aed89f2a7e6",
       "type": "file",
       "file": "04_AUTOMATIONS_AND_APIS/knowledge-sources/LANGGRAPH.md",
-      "x": 5680,
+      "x": 6360,
       "y": 3780,
       "width": 640,
       "height": 180,
@@ -704,8 +714,8 @@
       "id": "file-8054ccbe9a59e8e9a8011252",
       "type": "file",
       "file": "04_AUTOMATIONS_AND_APIS/knowledge-sources/N8N.md",
-      "x": 6360,
-      "y": 3780,
+      "x": 5680,
+      "y": 4010,
       "width": 640,
       "height": 180,
       "color": "6"
@@ -714,7 +724,7 @@
       "id": "file-110ce1b846b736e5f857ae5b",
       "type": "file",
       "file": "04_AUTOMATIONS_AND_APIS/technologies/LANGGRAPH.md",
-      "x": 5680,
+      "x": 6360,
       "y": 4010,
       "width": 640,
       "height": 180,
@@ -724,8 +734,8 @@
       "id": "file-fdab6efb1437fd6b660f5e82",
       "type": "file",
       "file": "04_AUTOMATIONS_AND_APIS/technologies/N8N.md",
-      "x": 6360,
-      "y": 4010,
+      "x": 5680,
+      "y": 4240,
       "width": 640,
       "height": 180,
       "color": "6"
@@ -4521,6 +4531,76 @@
       "fromEnd": "arrow",
       "toEnd": "arrow",
       "label": "מקור למומחה"
+    },
+    {
+      "id": "edge-bccb48dbd866379c45003126",
+      "fromNode": "file-f421739858508fb19cac137b",
+      "fromSide": "right",
+      "toNode": "file-0b799de71d380da126de9268",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קובץ עזר לפרק"
+    },
+    {
+      "id": "edge-3093006e7618cda5f2768cdb",
+      "fromNode": "file-f421739858508fb19cac137b",
+      "fromSide": "right",
+      "toNode": "file-6d1e195fbb57cc5b91e69c4c",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קובץ עזר למומחה"
+    },
+    {
+      "id": "edge-573f11bb0297de92e36e5804",
+      "fromNode": "file-f421739858508fb19cac137b",
+      "fromSide": "right",
+      "toNode": "file-61e6e2118dba2a11aa442a3f",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קובץ עזר למומחה"
+    },
+    {
+      "id": "edge-46db6a2884b5924b943b6cbc",
+      "fromNode": "file-f421739858508fb19cac137b",
+      "fromSide": "right",
+      "toNode": "file-be11d40265cd2df767d8f455",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קובץ עזר למומחה"
+    },
+    {
+      "id": "edge-52a3642f2103e2f8302285fc",
+      "fromNode": "file-f421739858508fb19cac137b",
+      "fromSide": "right",
+      "toNode": "file-456cb68b048665cc5ebc34d1",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קובץ עזר למומחה"
+    },
+    {
+      "id": "edge-48e5f431795fce2cacc04854",
+      "fromNode": "file-f421739858508fb19cac137b",
+      "fromSide": "right",
+      "toNode": "file-2365f0a01a9b198c38e3ca05",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קובץ עזר למומחה"
+    },
+    {
+      "id": "edge-eddcbc6d1edf0772c574ccdd",
+      "fromNode": "file-f421739858508fb19cac137b",
+      "fromSide": "right",
+      "toNode": "file-5e5d06c1515c3bcc85ac90df",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קובץ עזר למומחה"
     },
     {
       "id": "edge-0006fafff554882eb872702f",

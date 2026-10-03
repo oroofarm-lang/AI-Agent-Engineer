@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 required_entry: false
 lesson_ids: ["W16D76_DISCOVERY","W16D77_ARCHITECTURE","W16D78_BUILD","W16D79_HARDEN","W16D80_FINAL_BOSS_DEMONSTRATE_FULL_SOLUTION"]
 prerequisite_module_ids: ["BUSINESS","QUALITY","PRODUCT","AUTOMATION"]
-related: ["[[01_AGENTS/Agent-Agentic-Workflows]]","[[01_AGENTS/Agent-Business-Discovery]]","[[01_AGENTS/Agent-Curriculum-Auditor]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Paid-Media-Measurement]]","[[01_AGENTS/Agent-Production-Reliability]]","[[01_AGENTS/Agent-Progress-Tracker]]","[[01_AGENTS/Agent-Quiz-Designer]]","[[01_AGENTS/Agent-Security-Auditor]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/Index]]","[[02_CURRICULUM/2.2.0/lessons/W16D76_DISCOVERY]]","[[02_CURRICULUM/2.2.0/lessons/W16D77_ARCHITECTURE]]","[[02_CURRICULUM/2.2.0/lessons/W16D78_BUILD]]","[[02_CURRICULUM/2.2.0/lessons/W16D79_HARDEN]]","[[02_CURRICULUM/2.2.0/lessons/W16D80_FINAL_BOSS_DEMONSTRATE_FULL_SOLUTION]]","[[02_CURRICULUM/2.2.0/modules/AUTOMATION]]","[[02_CURRICULUM/2.2.0/modules/BUSINESS]]","[[02_CURRICULUM/2.2.0/modules/PRODUCT]]","[[02_CURRICULUM/2.2.0/modules/QUALITY]]"]
+related: ["[[01_AGENTS/Agent-Agentic-Workflows]]","[[01_AGENTS/Agent-Business-Discovery]]","[[01_AGENTS/Agent-Curriculum-Auditor]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Paid-Media-Measurement]]","[[01_AGENTS/Agent-Production-Reliability]]","[[01_AGENTS/Agent-Progress-Tracker]]","[[01_AGENTS/Agent-Quiz-Designer]]","[[01_AGENTS/Agent-Security-Auditor]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/Index]]","[[02_CURRICULUM/2.2.0/lessons/W16D76_DISCOVERY]]","[[02_CURRICULUM/2.2.0/lessons/W16D77_ARCHITECTURE]]","[[02_CURRICULUM/2.2.0/lessons/W16D78_BUILD]]","[[02_CURRICULUM/2.2.0/lessons/W16D79_HARDEN]]","[[02_CURRICULUM/2.2.0/lessons/W16D80_FINAL_BOSS_DEMONSTRATE_FULL_SOLUTION]]","[[02_CURRICULUM/2.2.0/modules/AUTOMATION]]","[[02_CURRICULUM/2.2.0/modules/BUSINESS]]","[[02_CURRICULUM/2.2.0/modules/PRODUCT]]","[[02_CURRICULUM/2.2.0/modules/QUALITY]]","[[04_AUTOMATIONS_AND_APIS/endpoints/CURRICULUM_AUDITOR]]"]
 ---
 
 # פרויקט גמר לעסק
@@ -52,3 +52,4 @@ related: ["[[01_AGENTS/Agent-Agentic-Workflows]]","[[01_AGENTS/Agent-Business-Di
 - [[02_CURRICULUM/2.2.0/modules/BUSINESS|הפיכת הידע לשירות]] — תלות בין פרקים
 - [[02_CURRICULUM/2.2.0/modules/PRODUCT|מוצר, שירות ופריסה]] — תלות בין פרקים
 - [[02_CURRICULUM/2.2.0/modules/QUALITY|איכות, אבטחה ובקרה]] — תלות בין פרקים
+- [[04_AUTOMATIONS_AND_APIS/endpoints/CURRICULUM_AUDITOR|בדיקה, פרסום וחזרה לגרסת קורס קודמת]] — עדכון גרסה ללא איפוס התקדמות

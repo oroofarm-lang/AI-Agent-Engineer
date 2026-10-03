@@ -386,7 +386,7 @@
       "x": 5656,
       "y": 250,
       "width": 1370,
-      "height": 1950,
+      "height": 2180,
       "label": "קשרים נוספים לפרק ולשיעורים",
       "color": "6"
     },
@@ -546,6 +546,16 @@
       "file": "04_AUTOMATIONS_AND_APIS/assets/BUSINESS_DATA.md",
       "x": 6360,
       "y": 1940,
+      "width": 640,
+      "height": 180,
+      "color": "6"
+    },
+    {
+      "id": "file-f421739858508fb19cac137b",
+      "type": "file",
+      "file": "04_AUTOMATIONS_AND_APIS/assets/CURRICULUM_REVIEW_COMPONENT.md",
+      "x": 5680,
+      "y": 2170,
       "width": 640,
       "height": 180,
       "color": "6"
@@ -2721,6 +2731,56 @@
       "fromEnd": "arrow",
       "toEnd": "arrow",
       "label": "תחום הפרק"
+    },
+    {
+      "id": "edge-48e5f431795fce2cacc04854",
+      "fromNode": "file-f421739858508fb19cac137b",
+      "fromSide": "right",
+      "toNode": "file-2365f0a01a9b198c38e3ca05",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קובץ עזר למומחה"
+    },
+    {
+      "id": "edge-6edff99de7188060d1c3166e",
+      "fromNode": "file-f421739858508fb19cac137b",
+      "fromSide": "right",
+      "toNode": "file-83cb4dfcbb0c572286356c47",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קובץ עזר לפרק"
+    },
+    {
+      "id": "edge-7947535041c4eb94938e1335",
+      "fromNode": "file-f421739858508fb19cac137b",
+      "fromSide": "right",
+      "toNode": "file-c1de88bc3689e476f87416fa",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קובץ עזר למומחה"
+    },
+    {
+      "id": "edge-5bcc029c497f409c358a0e65",
+      "fromNode": "file-f421739858508fb19cac137b",
+      "fromSide": "right",
+      "toNode": "file-38f2fd0c23b80ae8a5143910",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קובץ עזר למומחה"
+    },
+    {
+      "id": "edge-eddcbc6d1edf0772c574ccdd",
+      "fromNode": "file-f421739858508fb19cac137b",
+      "fromSide": "right",
+      "toNode": "file-5e5d06c1515c3bcc85ac90df",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קובץ עזר למומחה"
     },
     {
       "id": "edge-cf24c3827b035f2b5773b24e",

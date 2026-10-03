@@ -7,7 +7,7 @@ curriculum_version: "2.2.0"
 required_entry: false
 lesson_ids: ["WEB_01","WEB_02","WEB_03","WEB_04","WEB_05","WEB_06"]
 prerequisite_module_ids: ["PRODUCT"]
-related: ["[[01_AGENTS/Agent-Code-Reviewer]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Production-Reliability]]","[[01_AGENTS/Agent-UI-UX-Inspector]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/Index]]","[[02_CURRICULUM/2.2.0/lessons/WEB_01]]","[[02_CURRICULUM/2.2.0/lessons/WEB_02]]","[[02_CURRICULUM/2.2.0/lessons/WEB_03]]","[[02_CURRICULUM/2.2.0/lessons/WEB_04]]","[[02_CURRICULUM/2.2.0/lessons/WEB_05]]","[[02_CURRICULUM/2.2.0/lessons/WEB_06]]","[[02_CURRICULUM/2.2.0/modules/PRODUCT]]","[[04_AUTOMATIONS_AND_APIS/assets/BYTE_COMPONENT]]","[[04_AUTOMATIONS_AND_APIS/assets/JOURNEY_MAP_COMPONENT]]","[[04_AUTOMATIONS_AND_APIS/assets/PORTFOLIO_COMPONENT]]","[[04_AUTOMATIONS_AND_APIS/assets/UPLOAD_COMPONENT]]"]
+related: ["[[01_AGENTS/Agent-Code-Reviewer]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Production-Reliability]]","[[01_AGENTS/Agent-UI-UX-Inspector]]","[[01_AGENTS/Orchestrator-Prime]]","[[02_CURRICULUM/2.2.0/Index]]","[[02_CURRICULUM/2.2.0/lessons/WEB_01]]","[[02_CURRICULUM/2.2.0/lessons/WEB_02]]","[[02_CURRICULUM/2.2.0/lessons/WEB_03]]","[[02_CURRICULUM/2.2.0/lessons/WEB_04]]","[[02_CURRICULUM/2.2.0/lessons/WEB_05]]","[[02_CURRICULUM/2.2.0/lessons/WEB_06]]","[[02_CURRICULUM/2.2.0/modules/PRODUCT]]","[[04_AUTOMATIONS_AND_APIS/assets/BYTE_COMPONENT]]","[[04_AUTOMATIONS_AND_APIS/assets/JOURNEY_MAP_COMPONENT]]","[[04_AUTOMATIONS_AND_APIS/assets/PORTFOLIO_COMPONENT]]","[[04_AUTOMATIONS_AND_APIS/assets/UPLOAD_COMPONENT]]","[[04_AUTOMATIONS_AND_APIS/endpoints/CURRICULUM_AUDITOR]]"]
 ---
 
 # אתרים וכלים פנימיים
@@ -50,3 +50,4 @@ related: ["[[01_AGENTS/Agent-Code-Reviewer]]","[[01_AGENTS/Agent-Hebrew-UX]]","[
 - [[04_AUTOMATIONS_AND_APIS/assets/JOURNEY_MAP_COMPONENT|מפת המסע — רכיב הממשק]] — קובץ עזר לפרק
 - [[04_AUTOMATIONS_AND_APIS/assets/PORTFOLIO_COMPONENT|תצוגת תיק העבודות]] — קובץ עזר לפרק
 - [[04_AUTOMATIONS_AND_APIS/assets/UPLOAD_COMPONENT|בחירת קבצים ותצוגה מקדימה]] — קובץ עזר לפרק
+- [[04_AUTOMATIONS_AND_APIS/endpoints/CURRICULUM_AUDITOR|בדיקה, פרסום וחזרה לגרסת קורס קודמת]] — עדכון גרסה ללא איפוס התקדמות

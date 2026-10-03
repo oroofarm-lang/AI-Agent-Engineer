@@ -9,6 +9,9 @@ lesson_id: "W09D43_PARALLEL_WORK"
 quiz_version: "1.0.0"
 review_status: "requires-human-review"
 source_section: "Build First"
+source_curriculum_version: "2.2.0"
+active_curriculum_version: "2.2.0"
+needs_version_review: false
 related: ["[[01_AGENTS/Agent-Agentic-Workflows]]","[[01_AGENTS/Agent-Code-Reviewer]]","[[01_AGENTS/Agent-Curriculum-Auditor]]","[[01_AGENTS/Agent-Security-Auditor]]","[[02_CURRICULUM/2.2.0/exercises/W09D43_PARALLEL_WORK]]","[[02_CURRICULUM/2.2.0/lessons/W09D43_PARALLEL_WORK]]","[[02_CURRICULUM/2.2.0/sources/PYTHON_ASYNC]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/Index]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W09D43_PARALLEL_WORK]]"]
 ---
 

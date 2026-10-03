@@ -2,6 +2,7 @@ import { defineConfig, devices } from '@playwright/test';
 import { randomUUID } from 'node:crypto';
 const testDatabase = `.data/e2e-${randomUUID()}.sqlite`;
 const testKnowledge = `.data/e2e-${randomUUID()}-knowledge.json`;
+const testAuditor = `.data/e2e-${randomUUID()}-auditor`;
 export default defineConfig({
   testDir: './tests/e2e',
   fullyParallel: false,
@@ -11,7 +12,7 @@ export default defineConfig({
   projects: [{ name: 'chromium', use: { ...devices['Desktop Chrome'] } }],
   webServer: {
     command:
-      'npm run db:setup && npx tsx scripts/setup-test-knowledge.ts && npm run start -- --port 3100',
+      'npm run db:setup && npx tsx scripts/setup-test-knowledge.ts && npx tsx scripts/setup-test-auditor.ts && npm run start -- --port 3100',
     url: 'http://127.0.0.1:3100',
     reuseExistingServer: false,
     timeout: 120000,
@@ -28,6 +29,7 @@ export default defineConfig({
       MAIL_FROM: '',
       ADMIN_EMAILS: 'qa-manager@example.test',
       MENTOR_KNOWLEDGE_PATH: testKnowledge,
+      CURRICULUM_AUDITOR_DIR: testAuditor,
     },
   },
 });

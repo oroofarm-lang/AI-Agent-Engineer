@@ -1,6 +1,6 @@
 import { getSession } from '@/lib/auth/session';
-import { getRepository } from '@/lib/data';
-import { readLesson } from '@/lib/curriculum/load';
+import { getRepository, getCurriculum } from '@/lib/data';
+import { readCatalogLesson } from '@/lib/curriculum/load';
 import { markdownCards } from '@/lib/curriculum/cards';
 import { z } from 'zod';
 export async function POST(request: Request) {
@@ -17,7 +17,7 @@ export async function POST(request: Request) {
         stepId: z.string().max(100),
       })
       .parse(await request.json());
-    const ids = readLesson(input.lessonId)
+    const ids = readCatalogLesson(getCurriculum(), input.lessonId)
       .split(/^## /m)
       .filter(Boolean)
       .flatMap((part, i) =>

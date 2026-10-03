@@ -1,15 +1,19 @@
 import fs from 'node:fs';
-import path from 'node:path';
 import { z } from 'zod';
 import { curriculumSchema, skillSchema, sourceSchema } from './schema';
 import { validateIntegrity, validateBody } from './validate';
 import { assessmentSchema, validateAssessments } from './assessment';
 import { createHash } from 'node:crypto';
-const defaultRoot = path.join(process.cwd(), 'content/curriculum');
+import { activeCurriculumSelection, bindCatalogDirectory, catalogDirectory } from './runtime';
+import { checkedPath } from '../auditor/files';
 const json = (root: string, name: string): unknown =>
-  JSON.parse(fs.readFileSync(path.join(root, name), 'utf8'));
+  JSON.parse(fs.readFileSync(checkedPath(root, name), 'utf8'));
 /** The optional directory is for local release validation; it is never taken from an HTTP request. */
-export function loadCurriculum(root = defaultRoot) {
+export function loadCurriculum(directory?: string) {
+  const selection = directory
+    ? { root: directory, expectedHash: null }
+    : activeCurriculumSelection();
+  const root = selection.root;
   const curriculum = curriculumSchema.parse(json(root, 'curriculum.json'));
   const skills = z.array(skillSchema).parse(json(root, 'skills.json'));
   const sources = z.array(sourceSchema).parse(json(root, 'sources.json'));
@@ -23,9 +27,27 @@ export function loadCurriculum(root = defaultRoot) {
       .filter((l) => l.publicationStatus === 'published')
       .map((l) => [l.id, createHash('sha256').update(readLesson(l.id, root)).digest('hex')]),
   );
-  return { ...curriculum, skills, sources, assessments, lessonBodyHashes };
+  const catalog = { ...curriculum, skills, sources, assessments, lessonBodyHashes };
+  if (
+    selection.expectedHash &&
+    createHash('sha256').update(JSON.stringify(catalog)).digest('hex') !== selection.expectedHash
+  )
+    throw new Error('CURRICULUM_RELEASE_INTEGRITY');
+  bindCatalogDirectory(catalog, root);
+  return catalog;
 }
-export function readLesson(id: string, root = defaultRoot) {
+export function readLesson(id: string, root = activeCurriculumSelection().root) {
   if (!/^[A-Z][A-Z0-9_]+$/.test(id)) throw new Error('Invalid lesson ID');
-  return fs.readFileSync(path.join(root, 'lessons', `${id}.md`), 'utf8');
+  return fs.readFileSync(checkedPath(root, `lessons/${id}.md`), 'utf8');
+}
+/** A request's lesson bytes always come from the exact immutable catalog it loaded. */
+export function readCatalogLesson(catalog: ReturnType<typeof loadCurriculum>, id: string) {
+  if (
+    !catalog.lessons.some((lesson) => lesson.id === id && lesson.publicationStatus === 'published')
+  )
+    throw new Error('UNKNOWN_LESSON');
+  const body = readLesson(id, catalogDirectory(catalog));
+  if (createHash('sha256').update(body).digest('hex') !== catalog.lessonBodyHashes[id])
+    throw new Error('CURRICULUM_RELEASE_INTEGRITY');
+  return body;
 }

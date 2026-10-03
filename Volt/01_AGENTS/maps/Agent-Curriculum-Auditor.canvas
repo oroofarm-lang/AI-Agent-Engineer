@@ -231,11 +231,21 @@
       "color": "6"
     },
     {
+      "id": "file-5bc7aebe0f983dfc0da916ff",
+      "type": "file",
+      "file": "04_AUTOMATIONS_AND_APIS/endpoints/CURRICULUM_AUDITOR.md",
+      "x": 3520,
+      "y": 330,
+      "width": 640,
+      "height": 180,
+      "color": "6"
+    },
+    {
       "id": "file-2d7e24b38f198bb60b5fdc2d",
       "type": "file",
       "file": "04_AUTOMATIONS_AND_APIS/tools/course.read.md",
-      "x": 3520,
-      "y": 330,
+      "x": 2840,
+      "y": 560,
       "width": 640,
       "height": 180,
       "color": "6"
@@ -244,7 +254,7 @@
       "id": "file-0914020642e16e3c80c1a5d2",
       "type": "file",
       "file": "04_AUTOMATIONS_AND_APIS/tools/knowledge.read.md",
-      "x": 2840,
+      "x": 3520,
       "y": 560,
       "width": 640,
       "height": 180,
@@ -254,8 +264,8 @@
       "id": "file-d5540778b1acf8178c14bc4e",
       "type": "file",
       "file": "04_AUTOMATIONS_AND_APIS/tools/progress.read.md",
-      "x": 3520,
-      "y": 560,
+      "x": 2840,
+      "y": 790,
       "width": 640,
       "height": 180,
       "color": "6"
@@ -264,7 +274,7 @@
       "id": "file-1fc04e1a582099d875b2da2b",
       "type": "file",
       "file": "04_AUTOMATIONS_AND_APIS/tools/sources.read.md",
-      "x": 2840,
+      "x": 3520,
       "y": 790,
       "width": 640,
       "height": 180,
@@ -433,6 +443,16 @@
       "label": "אופן ההסבר"
     },
     {
+      "id": "edge-719c0cd0956470b0bbbdb8e3",
+      "fromNode": "file-5bc7aebe0f983dfc0da916ff",
+      "fromSide": "right",
+      "toNode": "file-6363038c2b4ca056835e2e3f",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "אישור נפרד לפרסום · כללי הרשאה"
+    },
+    {
       "id": "edge-98e76efcdac4d5dafdb865b7",
       "fromNode": "file-5d3c954b8033ec6a918bdf48",
       "fromSide": "right",
@@ -461,6 +481,126 @@
       "fromEnd": "arrow",
       "toEnd": "arrow",
       "label": "גבולות אימות"
+    },
+    {
+      "id": "edge-4a7dc5bc8d62f49b7611aa76",
+      "fromNode": "file-dd59730edbda4feb9e1f1512",
+      "fromSide": "right",
+      "toNode": "file-5bc7aebe0f983dfc0da916ff",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "הצעה וביקורת אנושית"
+    },
+    {
+      "id": "edge-b48dfc128828fa9c2e11d1bc",
+      "fromNode": "file-5bc7aebe0f983dfc0da916ff",
+      "fromSide": "right",
+      "toNode": "file-2365f0a01a9b198c38e3ca05",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "הצעת מומחה ללא הרשאת פרסום"
+    },
+    {
+      "id": "edge-91375f31ea2c2e13a7b902ed",
+      "fromNode": "file-5bc7aebe0f983dfc0da916ff",
+      "fromSide": "right",
+      "toNode": "file-e524d6cd1c71643b9b26c73d",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "עדכון גרסה ללא איפוס התקדמות"
+    },
+    {
+      "id": "edge-e1abe5d8133901e555e83a82",
+      "fromNode": "file-5bc7aebe0f983dfc0da916ff",
+      "fromSide": "right",
+      "toNode": "file-7aca0e7fd231016556337819",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "עדכון גרסה ללא איפוס התקדמות"
+    },
+    {
+      "id": "edge-3066ad541f5a2112c4723e59",
+      "fromNode": "file-5bc7aebe0f983dfc0da916ff",
+      "fromSide": "right",
+      "toNode": "file-83cb4dfcbb0c572286356c47",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "עדכון גרסה ללא איפוס התקדמות"
+    },
+    {
+      "id": "edge-d3df441d481be30d0173f91c",
+      "fromNode": "file-5bc7aebe0f983dfc0da916ff",
+      "fromSide": "right",
+      "toNode": "file-0b799de71d380da126de9268",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "עדכון גרסה ללא איפוס התקדמות"
+    },
+    {
+      "id": "edge-0ee0439848ed4ef5bee76e22",
+      "fromNode": "file-5bc7aebe0f983dfc0da916ff",
+      "fromSide": "right",
+      "toNode": "file-94958df03cf48d1fae507e41",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "עדכון גרסה ללא איפוס התקדמות"
+    },
+    {
+      "id": "edge-9cac147bbece7fe1d5f082f5",
+      "fromNode": "file-5bc7aebe0f983dfc0da916ff",
+      "fromSide": "right",
+      "toNode": "file-22b74700b12188a8bf2d912d",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "עדכון גרסה ללא איפוס התקדמות"
+    },
+    {
+      "id": "edge-e357a27429bd32433a36f379",
+      "fromNode": "file-5bc7aebe0f983dfc0da916ff",
+      "fromSide": "right",
+      "toNode": "file-24128e5aa8c2bde8b01b424c",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "עדכון גרסה ללא איפוס התקדמות"
+    },
+    {
+      "id": "edge-be997597502da374f9287aee",
+      "fromNode": "file-5bc7aebe0f983dfc0da916ff",
+      "fromSide": "right",
+      "toNode": "file-ecb517fedf6156e95a2cf50a",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "עדכון גרסה ללא איפוס התקדמות"
+    },
+    {
+      "id": "edge-99112085859a4bda83645620",
+      "fromNode": "file-5bc7aebe0f983dfc0da916ff",
+      "fromSide": "right",
+      "toNode": "file-f153ef609cccbaa11cf964cd",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "עדכון גרסה ללא איפוס התקדמות"
+    },
+    {
+      "id": "edge-2050f6ff56d5a664c2026068",
+      "fromNode": "file-5bc7aebe0f983dfc0da916ff",
+      "fromSide": "right",
+      "toNode": "file-5bb40e289d26ca5b75238a9d",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "עדכון גרסה ללא איפוס התקדמות"
     },
     {
       "id": "edge-78e82c312c87601a4bbd586f",

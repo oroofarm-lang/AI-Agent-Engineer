@@ -10,7 +10,7 @@ import {
   Sparkles,
 } from 'lucide-react';
 import { getCurriculum, getRepository } from '@/lib/data';
-import { readLesson } from '@/lib/curriculum/load';
+import { readCatalogLesson } from '@/lib/curriculum/load';
 import { missionSummary } from '@/lib/curriculum/mission';
 import { calculateProgress } from '@/lib/domain/progress';
 import { learningPath, canStudyLesson } from '@/lib/domain/learning-path';
@@ -24,7 +24,7 @@ export default async function Dashboard() {
   const lesson = path.next,
     metrics = calculateProgress(c.lessons, records),
     current = records.find((p) => p.lessonId === lesson.id);
-  const mission = missionSummary(readLesson(lesson.id));
+  const mission = missionSummary(readCatalogLesson(c, lesson.id));
   return (
     <div className="page dashboard neon-dashboard">
       <div className="page-heading">

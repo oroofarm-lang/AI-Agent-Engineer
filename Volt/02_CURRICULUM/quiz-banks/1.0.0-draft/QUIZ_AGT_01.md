@@ -9,6 +9,9 @@ lesson_id: "AGT_01"
 quiz_version: "1.0.0"
 review_status: "requires-human-review"
 source_section: "Build First"
+source_curriculum_version: "2.2.0"
+active_curriculum_version: "2.2.0"
+needs_version_review: false
 related: ["[[01_AGENTS/Agent-Agentic-Workflows]]","[[01_AGENTS/Agent-Code-Reviewer]]","[[01_AGENTS/Agent-Curriculum-Auditor]]","[[01_AGENTS/Agent-Security-Auditor]]","[[02_CURRICULUM/2.2.0/exercises/AGT_01]]","[[02_CURRICULUM/2.2.0/lessons/AGT_01]]","[[02_CURRICULUM/2.2.0/sources/A2A_SPEC]]","[[02_CURRICULUM/2.2.0/sources/MCP_SPEC]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/Index]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_AGT_01]]"]
 ---
 

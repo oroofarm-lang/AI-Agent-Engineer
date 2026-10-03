@@ -9,6 +9,9 @@ lesson_id: "W05D23_AGENT_MEMORY"
 quiz_version: "1.0.0"
 review_status: "requires-human-review"
 source_section: "Concepts"
+source_curriculum_version: "2.2.0"
+active_curriculum_version: "2.2.0"
+needs_version_review: false
 related: ["[[01_AGENTS/Agent-Curriculum-Auditor]]","[[01_AGENTS/Agent-Database-Architect]]","[[01_AGENTS/Agent-Knowledge-RAG]]","[[02_CURRICULUM/2.2.0/exercises/W05D23_AGENT_MEMORY]]","[[02_CURRICULUM/2.2.0/lessons/W05D23_AGENT_MEMORY]]","[[02_CURRICULUM/2.2.0/sources/ANTHROPIC_EVALS]]","[[02_CURRICULUM/2.2.0/sources/SEARCH_SECURITY]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/Index]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_W05D23_AGENT_MEMORY]]"]
 ---
 

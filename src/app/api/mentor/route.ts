@@ -6,7 +6,7 @@ import { agentInput, sendAgentMessage } from '@/lib/agents/orchestrator';
 import { agentRepository } from '@/lib/db/agents';
 import { loadAgentRegistry } from '@/lib/agents/registry';
 import { mentorConfiguration, openAIProvider } from '@/lib/ai/provider';
-import { readLesson } from '@/lib/curriculum/load';
+import { readCatalogLesson } from '@/lib/curriculum/load';
 import { boundedJSON } from '@/lib/http/body';
 import { ensureKnowledge, readKnowledge } from '@/lib/ai/knowledge-store';
 export const runtime = 'nodejs';
@@ -58,7 +58,7 @@ export async function POST(request: Request) {
     const c = getCurriculum();
     const body =
       input.lessonId && c.lessons.some((lesson) => lesson.id === input.lessonId)
-        ? readLesson(input.lessonId)
+        ? readCatalogLesson(c, input.lessonId)
         : '';
     const result = await sendAgentMessage(
       getConnection(),

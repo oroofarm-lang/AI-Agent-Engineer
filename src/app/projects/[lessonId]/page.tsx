@@ -3,7 +3,7 @@ import { notFound } from 'next/navigation';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import { getCurriculum, getLearningSystem, getRepository } from '@/lib/data';
-import { readLesson } from '@/lib/curriculum/load';
+import { readCatalogLesson } from '@/lib/curriculum/load';
 import { isProject } from '@/lib/domain/projects';
 import { canStudyLesson } from '@/lib/domain/learning-path';
 import { CodeBlock } from '@/components/code-block';
@@ -17,7 +17,7 @@ export default async function Project({ params }: { params: Promise<{ lessonId: 
   const repo = await getRepository(),
     allowed = canStudyLesson(c, repo.progress(), lesson),
     workspace = (await getLearningSystem()).workspaces().find((w) => w.lesson_id === lessonId);
-  const sections = readLesson(lessonId)
+  const sections = readCatalogLesson(c, lessonId)
     .split(/^## /m)
     .filter(Boolean)
     .map((part) => ({ name: part.split('\n')[0], body: part.slice(part.indexOf('\n') + 1) }));

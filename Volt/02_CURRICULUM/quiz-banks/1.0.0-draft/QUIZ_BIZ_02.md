@@ -9,6 +9,9 @@ lesson_id: "BIZ_02"
 quiz_version: "1.0.0"
 review_status: "requires-human-review"
 source_section: "Concepts"
+source_curriculum_version: "2.2.0"
+active_curriculum_version: "2.2.0"
+needs_version_review: false
 related: ["[[01_AGENTS/Agent-Business-Discovery]]","[[01_AGENTS/Agent-CRM-Sales]]","[[01_AGENTS/Agent-Marketing-Growth]]","[[02_CURRICULUM/2.2.0/exercises/BIZ_02]]","[[02_CURRICULUM/2.2.0/lessons/BIZ_02]]","[[02_CURRICULUM/2.2.0/sources/ANTHROPIC_AGENTS]]","[[02_CURRICULUM/2.2.0/sources/ANTHROPIC_EVALS]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/Index]]","[[03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_BIZ_02]]"]
 ---
 

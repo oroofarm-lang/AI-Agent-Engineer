@@ -10,6 +10,8 @@ XP and streaks are derived from the user's persisted build timestamps: 100 XP on
 
 SQLite remains appropriate for one persistent Node host with multiple users. It requires a persistent local volume and backups. Do not deploy this database on ephemeral/serverless storage or share its file over a network filesystem. Horizontal scaling requires a deliberate PostgreSQL migration of both learner and auth adapters; this release does not pretend to include such an infrastructure deployment.
 
+The Curriculum Auditor also requires a private persistent local directory: `CURRICULUM_AUDITOR_DIR`, default `.data/curriculum-auditor`. Preserve its active pointer, immutable release snapshots, proposals, decisions and journal across deploys. Keep it outside public assets and production traces; it must be an actual directory, without symlink path components. Back up this ledger alongside the database and recover the matching active release before serving traffic. See [release operations](CURRICULUM_AUDITOR.md). Section publication adds only a curriculum-version registration; it does not migrate or rewrite learner tables.
+
 ## Local setup
 
 1. `npm ci`
