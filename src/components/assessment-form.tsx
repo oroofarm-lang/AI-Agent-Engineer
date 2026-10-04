@@ -88,7 +88,7 @@ export function AssessmentForm({
     { ok: true, message: '' },
   );
   const submitted = result.ok && Boolean(result.message),
-    disabled = !built || pending || submitted;
+    disabled = pending || submitted;
   const valid = (id: string) => {
     const draft = templateDrafts.find((item) => item.definition.criterionId === id);
     return templateModes[id] && draft
@@ -120,7 +120,8 @@ export function AssessmentForm({
       </p>
       {!built && (
         <p className="muted">
-          השאלות זמינות לקריאה. כדי לענות ולהגיש, השלם קודם את תרגיל הבנייה וסמן אותו כהושלם בשיעור.
+          אפשר למלא טבלאות, לכתוב תשובות ולבחור קבצים כבר עכשיו. כדי להגיש, השלם קודם את תרגיל
+          הבנייה וסמן אותו כהושלם בשיעור.
         </p>
       )}
       <ReinforcementQuiz
@@ -343,7 +344,7 @@ export function AssessmentForm({
             קבצים שנבחרו להגשה: {files.length + selectedTemplates.length} (כולל תבניות שנבחרו).
             הקבצים יישמרו בחשבון שלך עם התשובות; אפשר להוריד אותם לאחר ההגשה.
           </p>
-          <button className="button primary" type="submit">
+          <button className="button primary" type="submit" disabled={!built}>
             {pending
               ? 'שומר תשובות וקבצים…'
               : submitted

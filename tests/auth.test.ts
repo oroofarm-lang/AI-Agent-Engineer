@@ -48,7 +48,7 @@ it('requires email verification, delivers reset through transport and revokes ol
     );
   const credentials = {
     email: 'verified@example.test',
-    password: 'Long password for test 926',
+    password: 'simple88',
     name: 'Verified Learner',
   };
   expect((await post('/sign-up/email', credentials)).status).toBe(200);
@@ -76,15 +76,10 @@ it('requires email verification, delivers reset through transport and revokes ol
   const target = new URL(resetRedirect.headers.get('location')!, origin);
   const token = target.searchParams.get('token');
   expect(token).toBeTruthy();
-  expect(
-    (await post('/reset-password', { token, newPassword: 'Different long password 826' })).status,
-  ).toBe(200);
+  expect((await post('/reset-password', { token, newPassword: 'newpass8' })).status).toBe(200);
   expect(await auth.api.getSession({ headers: new Headers({ cookie }) })).toBeNull();
   expect(
     (await post('/reset-password', { token, newPassword: 'Reused token password 333' })).status,
   ).toBe(400);
-  expect(
-    (await post('/sign-in/email', { ...credentials, password: 'Different long password 826' }))
-      .status,
-  ).toBe(200);
+  expect((await post('/sign-in/email', { ...credentials, password: 'newpass8' })).status).toBe(200);
 });

@@ -149,6 +149,7 @@ export async function sendAgentMessage(
         context: JSON.stringify({
           lesson: lesson ? { id: lesson.id, title: lesson.title, skillIds: lesson.skillIds } : null,
           moduleId: chapter?.id,
+          templateProgress: context.templateProgress,
           recommended: recommended.map((item) => item.id),
           requiredAgentIds: execution?.requiredAgentIds || [],
           agents: candidates.map((item) => ({
@@ -213,6 +214,10 @@ export async function sendAgentMessage(
             curriculumVersion: curriculum.version,
             explanationLevel: input.explanationLevel,
             answers,
+            templateProgress: context.templateProgress,
+            ...(synthesis.allowedTools.includes('evidence.read')
+              ? { selectedTemplate: context.selectedTemplate }
+              : {}),
             ...(execution?.specialistContext
               ? { selectedSubmission: execution.specialistContext }
               : {}),

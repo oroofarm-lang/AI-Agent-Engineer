@@ -29,7 +29,7 @@ export function authOptions(connection: Connection) {
     trustedOrigins: [baseURL],
     emailAndPassword: {
       enabled: true,
-      minPasswordLength: 12,
+      minPasswordLength: 8,
       maxPasswordLength: 128,
       requireEmailVerification: !local || mail,
       revokeSessionsOnPasswordReset: true,

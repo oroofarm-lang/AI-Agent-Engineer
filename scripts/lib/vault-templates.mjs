@@ -131,6 +131,9 @@ export function addTemplateWorkspaces({
         connect(file, paths.agent.get(agent.id), 'תחום עזרה בתבנית');
     }
     for (const id of [
+      'MENTOR_COMPONENT',
+      'MENTOR_TEMPLATE_CONTEXT',
+      'MENTOR_INPUT_CONTRACT',
       'TEMPLATE_SCHEMA',
       'TEMPLATE_FORMATS',
       'TEMPLATE_DRAFT_CONTRACT',

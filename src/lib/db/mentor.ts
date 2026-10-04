@@ -29,6 +29,11 @@ export function mentorRepository({ sqlite }: Connection, userId: string) {
   return {
     thread,
     messages,
+    hasRun(id: string) {
+      return Boolean(
+        sqlite.prepare('SELECT 1 FROM mentor_runs WHERE id=? AND user_id=?').get(id, userId),
+      );
+    },
     latest(lessonId: string | null) {
       return sqlite
         .prepare(

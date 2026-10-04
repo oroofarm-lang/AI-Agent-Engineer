@@ -119,7 +119,7 @@ export function AuthForm({
               type="password"
               autoComplete={mode === 'login' ? 'current-password' : 'new-password'}
               required
-              minLength={12}
+              minLength={mode === 'login' ? 1 : 8}
               maxLength={128}
               aria-describedby="password-help"
               dir="ltr"
@@ -127,7 +127,7 @@ export function AuthForm({
           </label>
         )}
         {mode !== 'forgot' && (
-          <p id="password-help">12–128 תווים. מומלץ להשתמש במשפט סיסמה ייחודי.</p>
+          <p id="password-help">8–128 תווים. מומלץ להשתמש במשפט סיסמה ייחודי.</p>
         )}
         {mode === 'signup' && (
           <p>בהרשמה מאשרים את תנאי השימוש. מדיניות הפרטיות והצהרת הנגישות זמינות בתחתית העמוד.</p>
@@ -137,7 +137,11 @@ export function AuthForm({
             הרשמה אינה מצרפת אותך לרשימת תפוצה. אפשר לבחור לקבל עדכונים במייל בהגדרות החשבון.
           </p>
         )}
-        <button disabled={busy} className="button primary" type="submit">
+        <button
+          disabled={busy || (mode === 'forgot' && !mailEnabled)}
+          className="button primary"
+          type="submit"
+        >
           {busy
             ? 'רגע…'
             : mode === 'login'
@@ -191,7 +195,7 @@ export function AuthForm({
             שליחה מחדש של קישור אימות
           </button>
         )}
-        {mailEnabled && (
+        {
           <button
             className="text-link"
             onClick={() => {
@@ -201,7 +205,7 @@ export function AuthForm({
           >
             שכחתי סיסמה
           </button>
-        )}
+        }
       </div>
       {!mailEnabled && (
         <p className="muted">

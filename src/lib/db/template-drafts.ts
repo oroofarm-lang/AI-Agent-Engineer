@@ -132,6 +132,39 @@ export function templateDraftRepository(
   }
   return {
     get,
+    mentorSummary(lessonId: string | null) {
+      const owned = sqlite
+        .prepare('SELECT COUNT(*) AS n FROM template_drafts WHERE user_id=?')
+        .get(userId) as { n: number };
+      const definitions = lessonId
+        ? catalog.templates.filter((definition) => definition.lessonId === lessonId)
+        : [];
+      return {
+        ownedStoredDocuments: owned.n,
+        scope: 'Current lesson exact definitions; aggregate includes historical saved documents.',
+        lessonId,
+        drafts: definitions.map((definition) => {
+          if (!bound(definition.id))
+            return {
+              templateId: definition.id,
+              criterionId: definition.criterionId,
+              state: 'definition-unavailable',
+              meaning:
+                'No exact template binding for this rubric snapshot; no content or completion inferred.',
+            };
+          const draft = get({ templateId: definition.id });
+          return {
+            templateId: definition.id,
+            criterionId: definition.criterionId,
+            definitionHash: draft.definitionHash,
+            revision: draft.revision,
+            updatedAt: draft.updatedAt,
+            ...draft.completion,
+            meaning: 'Saved content structure only; not submitted, executed or graded.',
+          };
+        }),
+      };
+    },
     save(raw: DraftSaveInput, now = new Date()) {
       const input = draftSaveSchema.parse(raw);
       const fingerprint = digest(input);

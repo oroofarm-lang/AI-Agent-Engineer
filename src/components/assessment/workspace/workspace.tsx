@@ -173,7 +173,16 @@ export function TemplateWorkspace({
     'read-only': 'הטיוטה הזו זמינה לקריאה בלבד.',
   };
   return (
-    <div className={styles.workspace} data-template-workspace={initial.definition.id}>
+    <div
+      className={styles.workspace}
+      data-template-workspace={initial.definition.id}
+      data-template-criterion={initial.definition.criterionId}
+      data-template-definition-hash={initial.definitionHash}
+      data-template-revision={view.revision}
+      data-template-saved={
+        !invalid && view.status === 'saved' && view.revision > 0 && !initial.readOnly
+      }
+    >
       <p className="muted">{initial.definition.guidance}</p>
       <p role="status" aria-live="polite">
         {invalid

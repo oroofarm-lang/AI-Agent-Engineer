@@ -11,6 +11,30 @@ const wikilink = (file, title) => `[[${file.replace(/\.md$/, '')}|${safeTitle(ti
 /** Public source descriptors point to real files; they are not uploaded learner artifacts. */
 export const publicAssetCatalog = [
   {
+    id: 'MENTOR_COMPONENT',
+    title: 'בחירת הקשר לשיחה עם המנטור',
+    sourcePath: 'src/components/mentor-info.tsx',
+    kind: 'ui-code',
+    moduleIds: ['PRODUCT', 'QUALITY'],
+    agentIds: ['Agent-Hebrew-UX', 'Agent-Security-Auditor'],
+  },
+  {
+    id: 'MENTOR_TEMPLATE_CONTEXT',
+    title: 'צירוף גרסת טיוטה שמורה לפי הרשאה',
+    sourcePath: 'src/lib/ai/template-context.ts',
+    kind: 'ui-code',
+    moduleIds: ['PRODUCT', 'QUALITY'],
+    agentIds: ['Agent-Hebrew-UX', 'Agent-Security-Auditor'],
+  },
+  {
+    id: 'MENTOR_INPUT_CONTRACT',
+    title: 'מבנה בקשות העזרה וההקשר הנבחר',
+    sourcePath: 'src/lib/ai/policy.ts',
+    kind: 'ui-code',
+    moduleIds: ['PRODUCT', 'QUALITY'],
+    agentIds: ['Agent-Hebrew-UX', 'Agent-Security-Auditor'],
+  },
+  {
     id: 'WORKSPACE_NAVIGATION_COMPONENT',
     title: 'התראה לפני מעבר כשאין אישור לשמירת העבודה',
     sourcePath: 'src/components/workspace-navigation.tsx',

@@ -9,6 +9,7 @@ import { mentorInstructions, type MentorInput } from './policy';
 import type { MentorProvider } from './provider';
 import { markdownCards } from '../curriculum/cards';
 import { knowledgeContext, type KnowledgeSnapshot } from './knowledge';
+import { mentorTemplateContext } from './template-context';
 import { quizRepository } from '../db/quizzes';
 
 export async function sendMentorMessage(
@@ -58,6 +59,10 @@ export async function sendMentorMessage(
   const helpLevel =
     boss || input.learningMode === 'interview' ? Math.min(2, input.helpLevel) : input.helpLevel;
   const mentors = mentorRepository(connection, userId);
+  // An identical completed request reuses its original result even if the draft later changed.
+  const templateContext = mentors.hasRun(input.requestId)
+    ? null
+    : mentorTemplateContext(connection, curriculum, userId, input);
   const run = mentors.reserve({
     id: input.requestId,
     threadId: input.threadId,
@@ -88,6 +93,7 @@ export async function sendMentorMessage(
       : undefined;
     const context = JSON.stringify({
       curriculumVersion: curriculum.version,
+      ...(templateContext ?? mentorTemplateContext(connection, curriculum, userId, input)),
       activeTask: task,
       knowledge: knowledge ? knowledgeContext(knowledge, lesson?.id) : null,
       skillMastery: connection.sqlite

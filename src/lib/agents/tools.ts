@@ -10,6 +10,8 @@ const serverContext = z.object({
   sources: z.unknown().optional(),
   progress: z.unknown(),
   quizResults: z.unknown().optional(),
+  templateProgress: z.unknown().optional(),
+  selectedTemplate: z.unknown().optional(),
   skillMastery: z.unknown(),
   knowledge: z.unknown(),
   selectedNotes: z.string(),
@@ -40,6 +42,7 @@ export function executeAgentTool(
         progress: context.progress,
         quizResults: context.quizResults ?? [],
         skillMastery: context.skillMastery,
+        templateProgress: context.templateProgress ?? null,
         mastery: 'Only stored human assessment decisions establish mastery.',
       };
     case 'knowledge.read':
@@ -47,6 +50,7 @@ export function executeAgentTool(
     case 'evidence.read':
       return {
         selectedCode: context.selectedCode,
+        selectedTemplate: context.selectedTemplate ?? null,
         selectedNotes: context.selectedNotes,
         selectedReflections: context.selectedReflections ?? null,
         execution: 'not-run',

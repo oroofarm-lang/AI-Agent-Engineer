@@ -81,6 +81,26 @@ Generate real PDF bytes locally in the browser using a lazily imported React PDF
 
 The subsequent implementation parses Markdown into an inert PDF layout: headings, bold, lists, code blocks, blockquotes and labeled table records. Each text node receives explicit RTL direction because the renderer does not inherit it; code blocks retain explicit LTR. Italic emphasis is represented by underlining with the available regular/bold fonts. PDF export is not a submission and does not claim tagged-PDF accessibility or full Markdown visual parity.
 
-## Pending workspace navigation — 2026-10-04
+## Workspace navigation safeguards — 2026-10-04
 
 Add one root navigation guard registry. Each mounted workspace registers a live predicate for invalid data or save states other than acknowledged saved/read-only; hidden question workspaces remain registered. Guard every current Next Link through its documented onNavigate callback. A rejected native confirmation prevents the SPA route transition and retains the buffers; downloads and new-tab navigation do not invoke onNavigate. A root beforeunload listener covers full document exits. Do not claim that this callback intercepts browser history traversal or arbitrary router.push calls; those require separate acceptance. The registry contains predicates, never exported learner content, and unregisters workspaces on unmount. Verify one saved workspace plus another hidden failed workspace, export without exit, cancelled internal navigation, explicit retry and unblocked navigation only after real save acknowledgement.
+
+## Template-aware Mentor context — 2026-10-04
+
+The shared service assembles owner-scoped saved-document counts and exact current-lesson criterion completion metadata, without answer text. An explicit nullable selectedTemplate reference binds one template ID, definition SHA-256 and positive saved revision to the current assessment criterion. The server resolves that owned active draft and rejects foreign-task/stale/absent revisions before reserving a model run. At most 8,000 characters of its server-rendered Markdown are supplied with total/included counts and an explicit truncation flag; this is not execution or grading. The browser captures only saved-reference attributes on Mentor open, resets consent each opening and sends no DOM answer text. Evidence-capable specialists and Hebrew synthesis receive explicitly selected contents; the routing agent receives only progress metadata. No migration or new provider permission is required. Prove ownership, opt-in, stale revisions, truncation, tool permissions and real browser reference capture with isolated data.
+
+
+## Drafting before build completion — 2026-10-04
+
+The build prerequisite applies to submission, not to preparing answers, saved
+tables or selecting attachments. The assessment fieldset is disabled only while
+submitting or after successful submission. The submit button and server retain
+the build prerequisite. Browser acceptance fills and saves a table before build
+completion, opens the native file chooser, selects a synthetic file, and reloads
+the saved cell. Attachment selection is temporary until actual submission.
+
+Template Mentor request replays preserve the original result despite subsequent
+draft revisions. A frozen rubric without an exact matching template definition
+reports unavailable metadata without inventing progress. Both contracts have
+isolated service tests, including owned versus foreign drafts and specialist
+evidence permissions.

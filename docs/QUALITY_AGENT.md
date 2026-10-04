@@ -50,3 +50,14 @@ a guarantee that every Hebrew phrase is correct. A passing axe audit is not a
 full WCAG certification or a human screen-reader test. Report actual commands,
 results, coverage, and limitations. Do not claim SMTP delivery or paid model
 execution without evidence. These constraints keep the quality agent honest.
+
+## Regression cases added on 2026-10-04
+
+Before marking the build exercise complete, the browser test must open a table,
+fill a real cell, observe the server save acknowledgement, reload and recover
+that value. It must click “בחירת קבצים”, receive the native filechooser event,
+and select a synthetic attachment. Submission remains disabled until the build
+exercise is complete; drafting and choosing attachments must remain available.
+The authentication test uses eight-character passwords for registration and
+reset, verifies a one-use reset token, and checks old-session revocation.
+Its email transport is mocked: this is not evidence of actual inbox delivery.

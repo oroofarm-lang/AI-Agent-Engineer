@@ -80,6 +80,8 @@ export async function POST(request: Request) {
     const allowed = [
       'BODY_TOO_LARGE',
       'INVALID_TASK_CONTEXT',
+      'INVALID_TEMPLATE_CONTEXT',
+      'TEMPLATE_REVISION_CONFLICT',
       'FOUNDATION_REQUIRED',
       'UNKNOWN_LESSON',
       'UNKNOWN_THREAD',

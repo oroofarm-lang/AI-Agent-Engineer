@@ -121,3 +121,30 @@ test('lesson table workspace autosaves, resumes, exports and preserves local typ
   ).toEqual([]);
   await workspace.screenshot({ path: 'test-results/template-workspace.png' });
 });
+
+test('unbuilt lesson allows saved table editing and opens the native file picker while submission stays locked', async ({
+  page,
+}) => {
+  await page.goto('/learn/FND_01?module=CORE');
+  await page.getByRole('button', { name: 'התחלת השיעור' }).click();
+  const question = page.locator('.assessment-question:not([hidden])');
+  await question.getByText('לעבוד בתבנית בתוך השיעור', { exact: true }).click();
+  const workspace = question.locator('[data-template-workspace]');
+  const cell = workspace.getByRole('textbox', { name: /^שורה 1,/ }).first();
+  await cell.fill('בדיקת טבלה לפני השלמת תרגיל הבנייה');
+  await expect(workspace.getByText('הטיוטה שמורה בחשבון שלך.', { exact: true })).toBeVisible();
+  const chooser = page.waitForEvent('filechooser');
+  await question.getByRole('button', { name: 'בחירת קבצים', exact: true }).click();
+  await (
+    await chooser
+  ).setFiles({
+    name: 'practice.txt',
+    mimeType: 'text/plain',
+    buffer: Buffer.from('Synthetic practice attachment'),
+  });
+  await expect(question.getByText('practice.txt', { exact: true })).toBeVisible();
+  await expect(page.getByRole('button', { name: 'הגשת ראיות להערכה', exact: true })).toBeDisabled();
+  await page.reload();
+  await question.getByText('לעבוד בתבנית בתוך השיעור', { exact: true }).click();
+  await expect(cell).toHaveValue('בדיקת טבלה לפני השלמת תרגיל הבנייה');
+});

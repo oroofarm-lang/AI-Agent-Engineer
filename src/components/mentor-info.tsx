@@ -7,6 +7,7 @@ import ReactMarkdown from 'react-markdown';
 import { CodeBlock } from './code-block';
 import { helpLabels } from '@/lib/ai/policy';
 import { useMentorContext } from './learning/mentor-context';
+type TemplateReference = { templateId: string; definitionHash: string; revision: number };
 type Message = { id: string; role: 'user' | 'assistant'; body: string };
 type Participation = { agentId: string; title: string; role: string; state: string };
 const errors: Record<string, string> = {
@@ -16,6 +17,10 @@ const errors: Record<string, string> = {
   MENTOR_DAILY_LIMIT: 'הגעת למגבלה של 20 בקשות ביום. אפשר להמשיך ללמוד ללא המנטור.',
   AI_RATE_LIMIT: 'ספק ה־AI הגביל את הבקשה. לא בוצע ניסיון חוזר אוטומטי.',
   AI_CONNECTION_FAILED: 'לא התקבלה תשובה בזמן. ייתכן שהבקשה נקלטה אצל הספק; לא שלחנו אותה שוב.',
+  INVALID_TEMPLATE_CONTEXT:
+    'הטיוטה שנבחרה אינה שייכת לסעיף הנוכחי. סגור ופתח את המנטור מתוך הסעיף המתאים.',
+  TEMPLATE_REVISION_CONFLICT:
+    'הטיוטה השתנתה מאז שנבחרה או שלא נשמרה בחשבון שלך. סגור ופתח שוב את המנטור כדי לבחור את הגרסה השמורה.',
   FOUNDATION_REQUIRED: 'צריך להשלים את תרגילי פרק היסודות לפני עבודה ביחידה הזו.',
   AGENT_ROUTING_INVALID: 'לא הצלחנו לבחור את תחומי העזרה לשאלה הזו. לא נשמרה תשובת AI.',
   AGENT_CONTEXT_LIMIT: 'צורף יותר מדי מידע לבקשה. נסה שאלה ממוקדת יותר עם פחות מידע מצורף.',
@@ -38,6 +43,8 @@ export function MentorInfo() {
   const [helpLevel, setHelpLevel] = useState(1);
   const [includeNotes, setIncludeNotes] = useState(false);
   const [includeReflections, setIncludeReflections] = useState(false);
+  const [templateReference, setTemplateReference] = useState<TemplateReference | null>(null);
+  const [includeTemplate, setIncludeTemplate] = useState(false);
   const [knowledgeStatus, setKnowledgeStatus] = useState('');
   const [explanationLevel, setExplanationLevel] = useState('practical');
   const [participation, setParticipation] = useState<Participation[]>([]);
@@ -69,6 +76,22 @@ export function MentorInfo() {
     setMessage('');
     setIncludeNotes(false);
     setIncludeReflections(false);
+    setIncludeTemplate(false);
+    const workspace =
+      activeTask?.kind === 'assessment'
+        ? document.querySelector<HTMLElement>(
+            `[data-template-criterion="${CSS.escape(activeTask.id)}"][data-template-saved="true"]`,
+          )
+        : null;
+    setTemplateReference(
+      workspace?.dataset.templateWorkspace && workspace.dataset.templateDefinitionHash
+        ? {
+            templateId: workspace.dataset.templateWorkspace,
+            definitionHash: workspace.dataset.templateDefinitionHash,
+            revision: Number(workspace.dataset.templateRevision),
+          }
+        : null,
+    );
     setParticipation([]);
     try {
       await load();
@@ -96,6 +119,7 @@ export function MentorInfo() {
           helpLevel,
           includeNotes,
           includeReflections,
+          selectedTemplate: includeTemplate ? templateReference : null,
           explanationLevel,
           activeTask: activeTask ? { kind: activeTask.kind, id: activeTask.id } : null,
         }),
@@ -150,7 +174,8 @@ export function MentorInfo() {
           {lessonId
             ? 'השיחה משויכת לשיעור הנוכחי. תוכן השיעור ומצב ההתקדמות מצורפים לבקשה.'
             : 'שיחה כללית על הלמידה ועל ההתקדמות שלך.'}{' '}
-          מתחילים ברמז, ובוחרים כמה עזרה לקבל.
+          מצב מילוי התבניות מצורף ללא תוכן התשובות. תוכן הטיוטה מצורף רק אם תבחר בכך. מתחילים ברמז,
+          ובוחרים כמה עזרה לקבל.
         </p>
         {activeTask && lessonId && (
           <p className="notice">
@@ -263,8 +288,8 @@ export function MentorInfo() {
             </label>
           </div>
           <p className="muted tiny">
-            באתגרי סיום ובבחינה עצמית, המנטור מתבקש לתת רק שאלה מנחה או כיוון לפתרון.
-            תשובותיו עשויות לחרוג מכך.
+            באתגרי סיום ובבחינה עצמית, המנטור מתבקש לתת רק שאלה מנחה או כיוון לפתרון. תשובותיו
+            עשויות לחרוג מכך.
           </p>
           <label className="field-label">
             מה ניסית, ובמה נתקעת?
@@ -328,6 +353,23 @@ export function MentorInfo() {
               לצרף רשומות מיומן הלמידה ומתיעוד התקלות שלי, לפי השיעור
             </label>
           </details>
+          {templateReference && (
+            <label className="toggle-row">
+              <input
+                type="checkbox"
+                checked={includeTemplate}
+                disabled={busy}
+                onChange={(event) => setIncludeTemplate(event.target.checked)}
+              />
+              לצרף את הטיוטה השמורה של הסעיף הנוכחי · גרסה {templateReference.revision}
+            </label>
+          )}
+          {templateReference && (
+            <p className="muted tiny">
+              אם תבחר לצרף את הטיוטה, תישלח רק הגרסה השמורה שבחרת, ללא שינויים שטרם נשמרו. מטיוטה
+              ארוכה יישלחו עד 8,000 תווים.
+            </p>
+          )}
           <p className="muted tiny">
             בשליחה, השאלה וההקשר שנבחרו מועברים ל־OpenAI. השיחה נשמרת בחשבון שלך. המנטור אינו מריץ
             את הקוד ואינו קובע אם הגעת לשליטה בנושא. עד 20 בקשות ביום; המונה מתאפס בחצות לפי שעון
