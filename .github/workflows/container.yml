@@ -26,6 +26,14 @@ jobs:
     timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
+      - name: Validate Compose with synthetic configuration only
+        shell: bash
+        run: |
+          set -euo pipefail
+          trap 'rm -f .env.production' EXIT
+          printf '%s\n' 'APP_DOMAIN=academy.example.test' 'ACME_EMAIL=qa@example.test' > .env.production
+          chmod 600 .env.production
+          docker compose --env-file .env.production config --quiet
       - name: Build without deployment secrets
         run: docker build -t ai-agent-engineer:smoke .
       - name: Validate HTTPS proxy configuration without starting a public listener
