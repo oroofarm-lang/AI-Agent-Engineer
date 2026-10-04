@@ -1,10 +1,15 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { createHash } from 'node:crypto';
-import { publicAssetCatalog, publicApiCatalog } from './lib/vault-export.mjs';
+import {
+  publicAssetCatalog,
+  publicApiCatalog,
+  publicDeploymentSources,
+} from './lib/vault-export.mjs';
 const assets = publicAssetCatalog.map((asset) => {
   if (
     !(
+      publicDeploymentSources.includes(asset.sourcePath) ||
       /^(src\/components|content\/labs|public\/course-data)\//.test(asset.sourcePath) ||
       /^src\/lib\/templates\/(schema|formats|persistence|submission)\.ts$/.test(asset.sourcePath) ||
       /^src\/lib\/templates\/pdf(-markdown|-text)?\.tsx$/.test(asset.sourcePath) ||

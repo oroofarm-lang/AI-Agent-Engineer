@@ -1,0 +1,90 @@
+---
+generated: true
+schema_version: 1
+kind: "asset"
+entity_id: "DEPLOY_CONTAINER_CI"
+curriculum_version: "2.2.0"
+source_path: ".github/workflows/container.yml"
+asset_kind: "deployment-code"
+source_sha256: "bbd4e7b8f2097315629072cbcfc5120992e2137530f7a0f08fdb1cd766e2689d"
+related: ["[[01_AGENTS/Agent-Curriculum-Auditor]]","[[01_AGENTS/Agent-Database-Architect]]","[[01_AGENTS/Agent-Production-Reliability]]","[[01_AGENTS/Agent-Progress-Tracker]]","[[01_AGENTS/Agent-Quiz-Designer]]","[[01_AGENTS/Agent-Security-Auditor]]","[[01_AGENTS/Agent-UI-UX-Inspector]]","[[02_CURRICULUM/2.2.0/modules/PRODUCT]]","[[02_CURRICULUM/2.2.0/modules/QUALITY]]","[[04_AUTOMATIONS_AND_APIS/Deployment]]","[[04_AUTOMATIONS_AND_APIS/Index]]"]
+---
+
+# בדיקות חבילת הפריסה ב־GitHub
+
+[קובץ המקור הציבורי](https://github.com/oroofarm-lang/AI-Agent-Engineer/blob/main/.github/workflows/container.yml)
+
+סוג הקובץ: `deployment-code`. נתיב במאגר הציבורי: `.github/workflows/container.yml`.
+
+זהו קובץ קוד ציבורי. הכללתו בכספת אינה מעידה שבוצעה כאן הרצה.
+
+## תוכן הקובץ הציבורי
+
+```
+name: Production container smoke
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'Dockerfile'
+      - '.dockerignore'
+      - 'compose.yaml'
+      - 'deploy/**'
+      - 'scripts/deployment/**'
+      - '.github/workflows/container.yml'
+  pull_request:
+    paths:
+      - 'Dockerfile'
+      - '.dockerignore'
+      - 'compose.yaml'
+      - 'deploy/**'
+      - 'scripts/deployment/**'
+      - '.github/workflows/container.yml'
+permissions:
+  contents: read
+jobs:
+  container:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate Linux maintenance units and UTC calendars
+        run: |
+          systemd-analyze verify deploy/systemd/*.service deploy/systemd/*.timer
+          systemd-analyze calendar --iterations=6 --base-time='2026-10-04 00:00:00 UTC' 'Mon,Wed,Fri *-*-* 06:17:00 UTC'
+          systemd-analyze calendar --iterations=3 --base-time='2026-10-04 00:00:00 UTC' '*-*-* 06:35:00 UTC'
+      - name: Validate Compose with synthetic configuration only
+        shell: bash
+        run: |
+          set -euo pipefail
+          trap 'rm -f .env.production' EXIT
+          printf '%s\n' 'APP_DOMAIN=academy.example.test' 'ACME_EMAIL=qa@example.test' > .env.production
+          chmod 600 .env.production
+          docker compose --env-file .env.production config --quiet
+      - name: Build without deployment secrets
+        run: docker build -t ai-agent-engineer:smoke .
+      - name: Validate HTTPS proxy configuration without starting a public listener
+        run: >-
+          docker run --rm
+          -e APP_DOMAIN=academy.example.test -e ACME_EMAIL=qa@example.test
+          -v "$PWD/deploy/Caddyfile:/etc/caddy/Caddyfile:ro"
+          caddy:2.10-alpine caddy validate --config /etc/caddy/Caddyfile --adapter caddyfile
+      - name: Isolated persistence and startup smoke
+        run: sh scripts/deployment/smoke-test.sh ai-agent-engineer:smoke
+
+```
+
+## קשרים במפת הידע
+
+- [[01_AGENTS/Agent-Curriculum-Auditor|מקורות ועדכוני תוכן]] — קובץ עזר למומחה
+- [[01_AGENTS/Agent-Database-Architect|מסדי נתונים ומצב]] — קובץ עזר למומחה
+- [[01_AGENTS/Agent-Production-Reliability|פריסה, ניטור ואמינות]] — קובץ עזר למומחה
+- [[01_AGENTS/Agent-Progress-Tracker|משוב על העבודה והתקדמות]] — קובץ עזר למומחה
+- [[01_AGENTS/Agent-Quiz-Designer|תרגול ובדיקות הבנה]] — קובץ עזר למומחה
+- [[01_AGENTS/Agent-Security-Auditor|אבטחה והרשאות]] — קובץ עזר למומחה
+- [[01_AGENTS/Agent-UI-UX-Inspector|ממשק, ניווט ונגישות]] — קובץ עזר למומחה
+- [[02_CURRICULUM/2.2.0/modules/PRODUCT|מוצר, שירות ופריסה]] — קובץ עזר לפרק
+- [[02_CURRICULUM/2.2.0/modules/QUALITY|איכות, אבטחה ובקרה]] — קובץ עזר לפרק
+- [[04_AUTOMATIONS_AND_APIS/Deployment|פריסה, אחסון מתמשך ותזמון תחזוקה]] — קובץ פריסה ציבורי
+- [[04_AUTOMATIONS_AND_APIS/Index|חיבורים, ממשקים וקובצי עזר]] — קובץ עזר

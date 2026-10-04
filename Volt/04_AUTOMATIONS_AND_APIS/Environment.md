@@ -4,7 +4,7 @@ schema_version: 1
 kind: "configuration"
 entity_id: "ENVIRONMENT"
 curriculum_version: "2.2.0"
-related: ["[[00_ORCHESTRATION/System-Policies]]","[[04_AUTOMATIONS_AND_APIS/Index]]"]
+related: ["[[00_ORCHESTRATION/System-Policies]]","[[04_AUTOMATIONS_AND_APIS/Deployment]]","[[04_AUTOMATIONS_AND_APIS/Index]]"]
 ---
 
 # הגדרת חיבורים וסודות בצד השרת
@@ -18,4 +18,5 @@ related: ["[[00_ORCHESTRATION/System-Policies]]","[[04_AUTOMATIONS_AND_APIS/Inde
 ## קשרים במפת הידע
 
 - [[00_ORCHESTRATION/System-Policies|הרשאות, מידע פרטי וגבולות משוב]] — שמירת סודות
+- [[04_AUTOMATIONS_AND_APIS/Deployment|פריסה, אחסון מתמשך ותזמון תחזוקה]] — הגדרות בזמן הפעלה
 - [[04_AUTOMATIONS_AND_APIS/Index|חיבורים, ממשקים וקובצי עזר]] — הגדרת סביבה

@@ -21,6 +21,7 @@ export type PublicApi = {
   description: string;
   status?: string;
 };
+export const publicDeploymentSources: readonly string[];
 export const publicAssetCatalog: PublicAsset[];
 export const publicApiCatalog: PublicApi[];
 export function buildVaultFiles(input: {

@@ -48,6 +48,44 @@ const write = (vaultRoot: string, files: Map<string, string>) =>
   writer.writeVaultFiles({ vaultRoot, files, version: curriculum.version });
 
 describe('complete public knowledge graph', () => {
+  it('links every deployment source reciprocally to the deployment hub and knowledge jobs to discovery', () => {
+    const deployment = '04_AUTOMATIONS_AND_APIS/Deployment.md';
+    const knowledge = '04_AUTOMATIONS_AND_APIS/Knowledge-Updates.md';
+    const snapshot = JSON.parse(readFileSync('content/vault/public-assets.json', 'utf8'));
+    const sources = snapshot.assets.filter(
+      (asset: { kind: string }) => asset.kind === 'deployment-code',
+    );
+    expect(sources).toHaveLength(16);
+    expect(graph.files.get(deployment)).toContain('אינה מוכיחה שהאתר הותקן');
+    const relations = new Set(graph.relations.map((edge) => `${edge.from}\0${edge.to}`));
+    const canvas = JSON.parse(graph.files.get('Root_Knowledge_Graph.canvas')!);
+    for (const asset of sources) {
+      const file = `04_AUTOMATIONS_AND_APIS/assets/${asset.id}.md`;
+      expect(asset.sha256).toBe(
+        createHash('sha256').update(readFileSync(asset.sourcePath)).digest('hex'),
+      );
+      expect(relations.has(`${deployment}\0${file}`)).toBe(true);
+      expect(relations.has(`${file}\0${deployment}`)).toBe(true);
+      expect(canvas.nodes.some((node: { file?: string }) => node.file === file)).toBe(true);
+      if (asset.id.startsWith('KNOWLEDGE_')) {
+        expect(relations.has(`${knowledge}\0${file}`)).toBe(true);
+        expect(relations.has(`${file}\0${knowledge}`)).toBe(true);
+      }
+    }
+    for (const sourcePath of [
+      'deploy/credentials.json',
+      '.env.production',
+      '.github/workflows/private.yml',
+    ])
+      expect(() =>
+        builder.buildVaultFiles({
+          curriculum,
+          lessonBodies,
+          registry,
+          publicAssets: [{ id: 'UNLISTED', sourcePath }],
+        }),
+      ).toThrow('Invalid public source path');
+  });
   it('keeps teaching drafts distinct while linking a published bank to its lessons and actual save API', () => {
     const draft = JSON.parse(readFileSync('content/authoring/quiz-bank/1.0.0-draft.json', 'utf8'));
     // Synthetic graph fixture: no real approval or publication is performed.

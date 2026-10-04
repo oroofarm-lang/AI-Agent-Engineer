@@ -8,8 +8,155 @@ const quote = (value) => JSON.stringify(String(value));
 const safeTitle = (value) => String(value).replace(/[\[\]|\r\n]/g, ' ');
 const wikilink = (file, title) => `[[${file.replace(/\.md$/, '')}|${safeTitle(title)}]]`;
 
+export const publicDeploymentSources = Object.freeze([
+  'Dockerfile',
+  '.dockerignore',
+  'compose.yaml',
+  'deploy/Caddyfile',
+  'scripts/deployment/entrypoint.sh',
+  'scripts/deployment/healthcheck.mjs',
+  'scripts/deployment/smoke-test.sh',
+  '.github/workflows/container.yml',
+  '.github/workflows/mentor-knowledge.yml',
+  'scripts/refresh-mentor-knowledge.ts',
+  'scripts/cleanup-auth.ts',
+  'scripts/backup-and-migrate.ts',
+  'deploy/systemd/ai-course-mentor-refresh.service',
+  'deploy/systemd/ai-course-mentor-refresh.timer',
+  'deploy/systemd/ai-course-auth-cleanup.service',
+  'deploy/systemd/ai-course-auth-cleanup.timer',
+]);
+
 /** Public source descriptors point to real files; they are not uploaded learner artifacts. */
 export const publicAssetCatalog = [
+  {
+    id: 'DEPLOY_IMAGE',
+    title: 'בניית תמונת האפליקציה',
+    sourcePath: 'Dockerfile',
+    kind: 'deployment-code',
+    moduleIds: ['PRODUCT', 'QUALITY'],
+    agentIds: ['Agent-Production-Reliability', 'Agent-Security-Auditor'],
+  },
+  {
+    id: 'DEPLOY_BUILD_EXCLUSIONS',
+    title: 'הפרדת מידע פרטי מתמונת האפליקציה',
+    sourcePath: '.dockerignore',
+    kind: 'deployment-code',
+    moduleIds: ['PRODUCT', 'QUALITY'],
+    agentIds: ['Agent-Production-Reliability', 'Agent-Security-Auditor'],
+  },
+  {
+    id: 'DEPLOY_COMPOSE',
+    title: 'השרת והאחסון שנשמר בין הפעלות',
+    sourcePath: 'compose.yaml',
+    kind: 'deployment-code',
+    moduleIds: ['PRODUCT', 'QUALITY'],
+    agentIds: ['Agent-Production-Reliability', 'Agent-Security-Auditor'],
+  },
+  {
+    id: 'DEPLOY_HTTPS_PROXY',
+    title: 'שרת הכניסה וגבולות הבקשה',
+    sourcePath: 'deploy/Caddyfile',
+    kind: 'deployment-code',
+    moduleIds: ['PRODUCT', 'QUALITY'],
+    agentIds: ['Agent-Production-Reliability', 'Agent-Security-Auditor'],
+  },
+  {
+    id: 'DEPLOY_STARTUP',
+    title: 'בדיקת הגדרות וגיבוי לפני הפעלה',
+    sourcePath: 'scripts/deployment/entrypoint.sh',
+    kind: 'deployment-code',
+    moduleIds: ['PRODUCT', 'QUALITY'],
+    agentIds: ['Agent-Production-Reliability', 'Agent-Security-Auditor'],
+  },
+  {
+    id: 'DEPLOY_READINESS',
+    title: 'בדיקת מוכנות פנימית',
+    sourcePath: 'scripts/deployment/healthcheck.mjs',
+    kind: 'deployment-code',
+    moduleIds: ['PRODUCT', 'QUALITY'],
+    agentIds: ['Agent-Production-Reliability', 'Agent-Security-Auditor'],
+  },
+  {
+    id: 'DEPLOY_RESTORE_SMOKE',
+    title: 'בדיקת שמירה ושחזור עם נתונים סינתטיים',
+    sourcePath: 'scripts/deployment/smoke-test.sh',
+    kind: 'deployment-code',
+    moduleIds: ['PRODUCT', 'QUALITY'],
+    agentIds: ['Agent-Production-Reliability', 'Agent-Security-Auditor'],
+  },
+  {
+    id: 'DEPLOY_CONTAINER_CI',
+    title: 'בדיקות חבילת הפריסה ב־GitHub',
+    sourcePath: '.github/workflows/container.yml',
+    kind: 'deployment-code',
+    moduleIds: ['PRODUCT', 'QUALITY'],
+    agentIds: ['Agent-Production-Reliability', 'Agent-Security-Auditor'],
+  },
+  {
+    id: 'KNOWLEDGE_CI',
+    title: 'גילוי מקורות ציבוריים ב־GitHub',
+    sourcePath: '.github/workflows/mentor-knowledge.yml',
+    kind: 'deployment-code',
+    moduleIds: ['PRODUCT', 'QUALITY'],
+    agentIds: ['Agent-Production-Reliability', 'Agent-Security-Auditor'],
+  },
+  {
+    id: 'KNOWLEDGE_REFRESH_CLI',
+    title: 'רענון המטמון שבו המנטור משתמש',
+    sourcePath: 'scripts/refresh-mentor-knowledge.ts',
+    kind: 'deployment-code',
+    moduleIds: ['PRODUCT', 'QUALITY'],
+    agentIds: ['Agent-Production-Reliability', 'Agent-Security-Auditor'],
+  },
+  {
+    id: 'AUTH_CLEANUP_CLI',
+    title: 'ניקוי רשומות אימות שפג תוקפן',
+    sourcePath: 'scripts/cleanup-auth.ts',
+    kind: 'deployment-code',
+    moduleIds: ['PRODUCT', 'QUALITY'],
+    agentIds: ['Agent-Production-Reliability', 'Agent-Security-Auditor'],
+  },
+  {
+    id: 'DEPLOY_BACKUP_MIGRATION',
+    title: 'גיבוי עקבי לפני שינוי מבנה מסד הנתונים',
+    sourcePath: 'scripts/backup-and-migrate.ts',
+    kind: 'deployment-code',
+    moduleIds: ['PRODUCT', 'QUALITY'],
+    agentIds: ['Agent-Production-Reliability', 'Agent-Security-Auditor'],
+  },
+  {
+    id: 'KNOWLEDGE_HOST_SERVICE',
+    title: 'שירות רענון המקורות בשרת',
+    sourcePath: 'deploy/systemd/ai-course-mentor-refresh.service',
+    kind: 'deployment-code',
+    moduleIds: ['PRODUCT', 'QUALITY'],
+    agentIds: ['Agent-Production-Reliability', 'Agent-Security-Auditor'],
+  },
+  {
+    id: 'KNOWLEDGE_HOST_TIMER',
+    title: 'תזמון רענון שלוש פעמים בשבוע',
+    sourcePath: 'deploy/systemd/ai-course-mentor-refresh.timer',
+    kind: 'deployment-code',
+    moduleIds: ['PRODUCT', 'QUALITY'],
+    agentIds: ['Agent-Production-Reliability', 'Agent-Security-Auditor'],
+  },
+  {
+    id: 'AUTH_HOST_SERVICE',
+    title: 'שירות לניקוי רשומות אימות זהות שפג תוקפן',
+    sourcePath: 'deploy/systemd/ai-course-auth-cleanup.service',
+    kind: 'deployment-code',
+    moduleIds: ['PRODUCT', 'QUALITY'],
+    agentIds: ['Agent-Production-Reliability', 'Agent-Security-Auditor'],
+  },
+  {
+    id: 'AUTH_HOST_TIMER',
+    title: 'תזמון יומי לניקוי רשומות אימות זהות',
+    sourcePath: 'deploy/systemd/ai-course-auth-cleanup.timer',
+    kind: 'deployment-code',
+    moduleIds: ['PRODUCT', 'QUALITY'],
+    agentIds: ['Agent-Production-Reliability', 'Agent-Security-Auditor'],
+  },
   {
     id: 'MENTOR_LESSON_HELP',
     title: 'בחירת רמת הסבר מתוך השיעור',
@@ -514,6 +661,7 @@ function safePublicSource(sourcePath) {
     sourcePath.includes('\\') ||
     sourcePath.split('/').some((part) => !part || part === '.' || part === '..') ||
     !(
+      publicDeploymentSources.includes(sourcePath) ||
       /^(src|content\/labs|public\/course-data|scripts)\//.test(sourcePath) ||
       /^content\/templates\/releases\/\d{1,4}\.\d{1,4}\.\d{1,4}\.json$/.test(sourcePath)
     )
@@ -1009,6 +1157,22 @@ export function buildVaultFiles({
       }),
     );
     connect(sectionIndexes.integrations, paths.asset.get(asset.id), 'קובץ עזר');
+  }
+  const deployment = add(
+    '04_AUTOMATIONS_AND_APIS/Deployment.md',
+    'configuration',
+    'DEPLOYMENT',
+    'פריסה, אחסון מתמשך ותזמון תחזוקה',
+    'חבילת הפריסה מיועדת למופע Node יחיד עם SQLite, אחסון מתמשך ושרת כניסה Caddy. הקבצים הציבוריים מקושרים כאן לפי תפקידם. הכללתם בגרף אינה מוכיחה שהאתר הותקן על שרת ציבורי.\n\nבחבילת הפריסה מוגדר רענון של המקורות שלוש פעמים בשבוע באמצעות systemd. לאחר התקנת התזמון בשרת, תוצאות הרענון נשמרות במטמון שבו המנטור משתמש. הבדיקה ב־GitHub מפיקה רשימה נפרדת של מקורות שהתגלו ואינה מעתיקה אותה אוטומטית לשרת. התקנת הטיימרים ובדיקת הרצה אמיתית נעשות אחרי הקמת השרת.\n\nמסד משתמשים, קובצי סביבה, סודות וגיבויים פרטיים אינם נכללים בכספת. אין לבצע שחזור אוטומטי במערכת חיה. בדיקת השחזור הציבורית משתמשת רק בכרכי בדיקה עם נתונים סינתטיים.\n\n[הוראות פריסה](https://github.com/oroofarm-lang/AI-Agent-Engineer/blob/main/docs/DEPLOY_CONTAINER_HE.md)',
+  );
+  connect(sectionIndexes.integrations, deployment, 'חבילת פריסה');
+  connect(deployment, environment, 'הגדרות בזמן הפעלה');
+  connect(deployment, knowledge, 'רענון מטמון המקורות');
+  connect(deployment, policies, 'פרטיות והרשאות');
+  for (const asset of publicAssets.filter((item) => item.kind === 'deployment-code')) {
+    connect(deployment, paths.asset.get(asset.id), 'קובץ פריסה ציבורי');
+    if (asset.id.startsWith('KNOWLEDGE_'))
+      connect(knowledge, paths.asset.get(asset.id), 'גילוי ותזמון מקורות');
   }
   for (const chapter of modules) {
     for (const id of chapter.lessonIds) {

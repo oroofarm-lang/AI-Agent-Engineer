@@ -2,6 +2,262 @@
   "schemaVersion": 1,
   "assets": [
     {
+      "id": "DEPLOY_IMAGE",
+      "title": "בניית תמונת האפליקציה",
+      "sourcePath": "Dockerfile",
+      "kind": "deployment-code",
+      "moduleIds": [
+        "PRODUCT",
+        "QUALITY"
+      ],
+      "agentIds": [
+        "Agent-Production-Reliability",
+        "Agent-Security-Auditor"
+      ],
+      "body": "# syntax=docker/dockerfile:1\nFROM node:24-bookworm-slim AS dependencies\nWORKDIR /app\nRUN apt-get update && apt-get install -y --no-install-recommends python3 make g++ \\\n    && rm -rf /var/lib/apt/lists/*\nCOPY package.json package-lock.json ./\nRUN npm ci\n\nFROM dependencies AS build\nCOPY . .\nENV NEXT_TELEMETRY_DISABLED=1\nRUN npm run build\n\nFROM node:24-bookworm-slim AS runtime\nWORKDIR /app\nENV NODE_ENV=production NEXT_TELEMETRY_DISABLED=1 PORT=3000\n# Runtime migration and knowledge commands need the installed TypeScript runner.\nCOPY --from=build --chown=node:node /app /app\nRUN mkdir -p /app/.data /app/Volt /app/.next/cache \\\n    && chown -R node:node /app/.data /app/Volt /app/.next/cache \\\n    && chmod 700 /app/.data\nUSER node\nEXPOSE 3000\nHEALTHCHECK --interval=30s --timeout=8s --start-period=120s --retries=3 \\\n    CMD [\"node\", \"scripts/deployment/healthcheck.mjs\"]\nENTRYPOINT [\"sh\", \"scripts/deployment/entrypoint.sh\"]\n",
+      "sha256": "5cfef7a3a9270a80879b3cb6b08b0a237b995696e9266d9a51404c777898a1e6"
+    },
+    {
+      "id": "DEPLOY_BUILD_EXCLUSIONS",
+      "title": "הפרדת מידע פרטי מתמונת האפליקציה",
+      "sourcePath": ".dockerignore",
+      "kind": "deployment-code",
+      "moduleIds": [
+        "PRODUCT",
+        "QUALITY"
+      ],
+      "agentIds": [
+        "Agent-Production-Reliability",
+        "Agent-Security-Auditor"
+      ],
+      "body": ".git\n.github\n.next\nnode_modules\n.data\n.env\n.env.*\nVolt\n.codex\nplaywright-report\ntest-results\ncoverage\n*.tsbuildinfo\n.DS_Store\n**/*.sqlite*\n**/*.db\n**/*.log\n**/__pycache__\n**/*.pyc\n",
+      "sha256": "249a7c176e468906961bc304e512f341c6c99c87a7733ff7ff2c26a3b53451ff"
+    },
+    {
+      "id": "DEPLOY_COMPOSE",
+      "title": "השרת והאחסון שנשמר בין הפעלות",
+      "sourcePath": "compose.yaml",
+      "kind": "deployment-code",
+      "moduleIds": [
+        "PRODUCT",
+        "QUALITY"
+      ],
+      "agentIds": [
+        "Agent-Production-Reliability",
+        "Agent-Security-Auditor"
+      ],
+      "body": "name: ai-agent-engineer\nservices:\n  app:\n    build: .\n    image: ai-agent-engineer:${APP_RELEASE:-local}\n    env_file: .env.production\n    environment:\n      DATABASE_URL: /app/.data/learning.sqlite\n      CURRICULUM_AUDITOR_DIR: /app/.data/curriculum-auditor\n      QUIZ_REVIEW_DIR: /app/.data/quiz-releases\n      MENTOR_KNOWLEDGE_PATH: /app/.data/mentor/knowledge.json\n      VAULT_EXPORT_DIR: /app/Volt\n    restart: unless-stopped\n    init: true\n    read_only: true\n    stop_grace_period: 30s\n    volumes:\n      - learning-data:/app/.data\n      - public-vault:/app/Volt\n      - next-cache:/app/.next/cache\n    tmpfs:\n      - /tmp:rw,noexec,nosuid,size=64m\n    expose: ['3000']\n  caddy:\n    image: caddy:2.10-alpine\n    environment:\n      APP_DOMAIN: ${APP_DOMAIN:?Set APP_DOMAIN to the real course hostname}\n      ACME_EMAIL: ${ACME_EMAIL:?Set ACME_EMAIL for certificate notices}\n    depends_on:\n      app:\n        condition: service_healthy\n    restart: unless-stopped\n    ports:\n      - '80:80'\n      - '443:443'\n      - '443:443/udp'\n    volumes:\n      - ./deploy/Caddyfile:/etc/caddy/Caddyfile:ro\n      - caddy-data:/data\n      - caddy-config:/config\nvolumes:\n  learning-data:\n  public-vault:\n  next-cache:\n  caddy-data:\n  caddy-config:\n",
+      "sha256": "0eb49aa8871ec9ceaa5932d39438322c4613e7105d6a1d3a1aec3e45218a817c"
+    },
+    {
+      "id": "DEPLOY_HTTPS_PROXY",
+      "title": "שרת הכניסה וגבולות הבקשה",
+      "sourcePath": "deploy/Caddyfile",
+      "kind": "deployment-code",
+      "moduleIds": [
+        "PRODUCT",
+        "QUALITY"
+      ],
+      "agentIds": [
+        "Agent-Production-Reliability",
+        "Agent-Security-Auditor"
+      ],
+      "body": "{\n  email {$ACME_EMAIL}\n}\n{$APP_DOMAIN} {\n  request_body {\n    max_size 12MB\n  }\n  reverse_proxy app:3000 {\n    # Direct Internet -> Caddy topology. Never trust a client-supplied limiter address.\n    header_up X-Real-IP {remote_host}\n    flush_interval -1\n  }\n}\n",
+      "sha256": "78eb2d7a354d7a7dd4380285f39e880692b331f03332ca74dfc94386f42e69d2"
+    },
+    {
+      "id": "DEPLOY_STARTUP",
+      "title": "בדיקת הגדרות וגיבוי לפני הפעלה",
+      "sourcePath": "scripts/deployment/entrypoint.sh",
+      "kind": "deployment-code",
+      "moduleIds": [
+        "PRODUCT",
+        "QUALITY"
+      ],
+      "agentIds": [
+        "Agent-Production-Reliability",
+        "Agent-Security-Auditor"
+      ],
+      "body": "#!/bin/sh\nset -eu\numask 077\n# Public deployments fail closed before touching storage if configuration is missing.\nnode scripts/check-deployment.mjs\nif node -e 'const fs = require(\"node:fs\"); process.exit(fs.existsSync(process.env.DATABASE_URL || \".data/learning.sqlite\") ? 0 : 1)'; then\n  npm run db:migrate:backup\nelse\n  npm run db:setup\nfi\n# An edited public note may block projection; preserve it and keep learning operational.\nnpm run vault:sync || printf '%s\\n' 'Public Vault projection needs operator attention; existing notes were preserved.' >&2\nexec node node_modules/next/dist/bin/next start --hostname 0.0.0.0 --port \"${PORT:-3000}\"\n",
+      "sha256": "db1092fefcdd60e54bf75e46263112ad77b872356a2dba9d4d79a672da0a1fdd"
+    },
+    {
+      "id": "DEPLOY_READINESS",
+      "title": "בדיקת מוכנות פנימית",
+      "sourcePath": "scripts/deployment/healthcheck.mjs",
+      "kind": "deployment-code",
+      "moduleIds": [
+        "PRODUCT",
+        "QUALITY"
+      ],
+      "agentIds": [
+        "Agent-Production-Reliability",
+        "Agent-Security-Auditor"
+      ],
+      "body": "import fs from 'node:fs';\nimport path from 'node:path';\nimport { createHash } from 'node:crypto';\nimport { pathToFileURL } from 'node:url';\nimport Database from 'better-sqlite3';\n\n/** Read schema metadata only. Never create a missing database or return learner rows. */\nexport function databaseReady(filename, migrations = 'src/lib/db/migrations') {\n  let database;\n  try {\n    database = new Database(filename, { readonly: true, fileMustExist: true, timeout: 1000 });\n    const files = fs.readdirSync(migrations).filter((name) => name.endsWith('.sql'));\n    if (!files.length) return false;\n    const applied = database.prepare('SELECT hash FROM schema_migrations WHERE name = ?');\n    return files.every((name) => {\n      const expected = createHash('sha256')\n        .update(fs.readFileSync(path.join(migrations, name)))\n        .digest('hex');\n      return applied.get(name)?.hash === expected;\n    });\n  } catch {\n    return false;\n  } finally {\n    database?.close();\n  }\n}\nexport async function healthcheck({\n  origin = 'http://127.0.0.1:3000',\n  databasePath = process.env.DATABASE_URL || '.data/learning.sqlite',\n  migrationsDirectory = 'src/lib/db/migrations',\n} = {}) {\n  if (!databaseReady(databasePath, migrationsDirectory)) return false;\n  try {\n    const response = await fetch(new URL('/auth', origin), {\n      redirect: 'error',\n      signal: AbortSignal.timeout(5000),\n    });\n    await response.body?.cancel();\n    return response.status === 200;\n  } catch {\n    return false;\n  }\n}\nif (process.argv[1] && import.meta.url === pathToFileURL(path.resolve(process.argv[1])).href) {\n  if (!(await healthcheck())) {\n    console.error('Application readiness check failed. No private data was printed.');\n    process.exitCode = 1;\n  }\n}\n",
+      "sha256": "33301813b46cf36769e79c81f19fd826b95cde15568f6bc7a8860679402cdf4e"
+    },
+    {
+      "id": "DEPLOY_RESTORE_SMOKE",
+      "title": "בדיקת שמירה ושחזור עם נתונים סינתטיים",
+      "sourcePath": "scripts/deployment/smoke-test.sh",
+      "kind": "deployment-code",
+      "moduleIds": [
+        "PRODUCT",
+        "QUALITY"
+      ],
+      "agentIds": [
+        "Agent-Production-Reliability",
+        "Agent-Security-Auditor"
+      ],
+      "body": "#!/bin/sh\nset -eu\nimage=\"${1:?Pass the built image name}\"\ntask_id=\"ai-engineer-smoke-$$\"\ncleanup() {\n  docker rm -f \"$task_id\" >/dev/null 2>&1 || true\n  docker volume rm \"$task_id-data\" \"$task_id-vault\" \"$task_id-cache\" >/dev/null 2>&1 || true\n}\ntrap cleanup EXIT INT TERM\n\n# Image must not contain a database, personal Vault or local secrets.\ndocker run --rm --entrypoint node \"$image\" -e '\nconst fs = require(\"node:fs\");\nfor (const file of [\".env.local\", \".env.production\", \".git\", \".data/learning.sqlite\", \"Volt/מחברת\"])\n  if (fs.existsSync(file)) throw new Error(\"Private build content detected\");'\n\nstart() {\n  docker run -d --name \"$task_id\" --read-only --tmpfs /tmp:rw,noexec,nosuid,size=64m \\\n    --mount \"type=volume,src=$task_id-data,dst=/app/.data\" \\\n    --mount \"type=volume,src=$task_id-vault,dst=/app/Volt\" \\\n    --mount \"type=volume,src=$task_id-cache,dst=/app/.next/cache\" \\\n    -e DATABASE_URL=/app/.data/learning.sqlite \\\n    -e CURRICULUM_AUDITOR_DIR=/app/.data/curriculum-auditor \\\n    -e QUIZ_REVIEW_DIR=/app/.data/quiz-releases \\\n    -e MENTOR_KNOWLEDGE_PATH=/app/.data/mentor/knowledge.json \\\n    -e VAULT_EXPORT_DIR=/app/Volt \\\n    -e BETTER_AUTH_URL=https://academy.example.test \\\n    -e BETTER_AUTH_SECRET=synthetic-container-test-secret-0123456789 \\\n    -e MAIL_PROVIDER=smtp -e SMTP_HOST=mail.example.test -e SMTP_PORT=465 \\\n    -e SMTP_USER=synthetic -e SMTP_PASSWORD=synthetic \\\n    -e MAIL_FROM=qa@example.test -e ADMIN_EMAILS=qa@example.test \\\n    -e LEGAL_OPERATOR=Synthetic-QA -e LEGAL_CONTACT_EMAIL=qa@example.test \\\n    \"$image\" >/dev/null\n}\nwait_ready() {\n  for attempt in $(seq 1 100); do\n    status=\"$(docker inspect --format '{{.State.Health.Status}}' \"$task_id\")\"\n    if [ \"$status\" = healthy ]; then return; fi\n    if [ \"$(docker inspect --format '{{.State.Running}}' \"$task_id\")\" != true ]; then\n      docker logs \"$task_id\"\n      return 1\n    fi\n    sleep 3\n  done\n  docker logs \"$task_id\"\n  return 1\n}\nstart\nwait_ready\n# Synthetic marker proves the mounted database survives container replacement.\ndocker exec \"$task_id\" node -e '\nconst Database = require(\"better-sqlite3\"); const db = new Database(process.env.DATABASE_URL);\ndb.exec(\"CREATE TABLE deployment_smoke_marker(value TEXT); INSERT INTO deployment_smoke_marker VALUES (\\u0027synthetic-only\\u0027)\"); db.close();'\ndocker stop --time 30 \"$task_id\" >/dev/null\ndocker rm \"$task_id\" >/dev/null\nstart\nwait_ready\ndocker exec \"$task_id\" node -e '\nconst fs = require(\"node:fs\"); const Database = require(\"better-sqlite3\");\nconst db = new Database(process.env.DATABASE_URL, {readonly:true});\nif (db.prepare(\"SELECT value FROM deployment_smoke_marker\").get().value !== \"synthetic-only\") throw new Error(\"Storage lost\");\ndb.close();\nconst backups = fs.readdirSync(\".data/backups\").filter(name => name.endsWith(\".sqlite\"));\nif (!backups.length) throw new Error(\"Missing pre-migration backup\");'\n# Restore drill touches only this smoke run's isolated synthetic volume.\n# Change the live marker after backup, so persistence alone cannot pass restoration.\ndocker exec \"$task_id\" node -e '\nconst Database = require(\"better-sqlite3\"); const db = new Database(process.env.DATABASE_URL);\ndb.prepare(\"UPDATE deployment_smoke_marker SET value = ?\").run(\"changed-after-backup\"); db.close();'\ndocker stop --time 30 \"$task_id\" >/dev/null\ndocker rm \"$task_id\" >/dev/null\ndocker run --rm --read-only --entrypoint node \\\n  --mount \"type=volume,src=$task_id-data,dst=/app/.data\" \"$image\" -e '\nconst fs = require(\"node:fs\"); const Database = require(\"better-sqlite3\");\nconst filename = \".data/learning.sqlite\";\nconst backup = \".data/backups/\" + fs.readdirSync(\".data/backups\").filter(name => name.endsWith(\".sqlite\")).sort().at(-1);\nconst source = new Database(backup, {readonly:true, fileMustExist:true});\nif (source.prepare(\"PRAGMA integrity_check\").pluck().get() !== \"ok\") throw new Error(\"Backup integrity failed\");\nif (source.prepare(\"SELECT value FROM deployment_smoke_marker\").get().value !== \"synthetic-only\") throw new Error(\"Backup content mismatch\");\nsource.close();\nfor (const suffix of [\"-wal\", \"-shm\"]) fs.rmSync(filename + suffix, {force:true});\nfs.copyFileSync(backup, filename); fs.chmodSync(filename, 0o600);'\nstart\nwait_ready\ndocker exec \"$task_id\" node -e '\nconst Database = require(\"better-sqlite3\");\nconst db = new Database(process.env.DATABASE_URL, {readonly:true, fileMustExist:true});\nif (db.prepare(\"SELECT value FROM deployment_smoke_marker\").get().value !== \"synthetic-only\") throw new Error(\"Restored data mismatch\");\ndb.close();'\nprintf '%s\\n' 'Container smoke passed: read-only runtime, readiness, retained synthetic storage, pre-migration backup and isolated restore. No real email, AI call or public deployment.'\n",
+      "sha256": "24eef066d31ee7a37e0e7885b96a03aedeb9af33229df5d997ea937b2f7808a3"
+    },
+    {
+      "id": "DEPLOY_CONTAINER_CI",
+      "title": "בדיקות חבילת הפריסה ב־GitHub",
+      "sourcePath": ".github/workflows/container.yml",
+      "kind": "deployment-code",
+      "moduleIds": [
+        "PRODUCT",
+        "QUALITY"
+      ],
+      "agentIds": [
+        "Agent-Production-Reliability",
+        "Agent-Security-Auditor"
+      ],
+      "body": "name: Production container smoke\non:\n  workflow_dispatch:\n  push:\n    branches: [main]\n    paths:\n      - 'Dockerfile'\n      - '.dockerignore'\n      - 'compose.yaml'\n      - 'deploy/**'\n      - 'scripts/deployment/**'\n      - '.github/workflows/container.yml'\n  pull_request:\n    paths:\n      - 'Dockerfile'\n      - '.dockerignore'\n      - 'compose.yaml'\n      - 'deploy/**'\n      - 'scripts/deployment/**'\n      - '.github/workflows/container.yml'\npermissions:\n  contents: read\njobs:\n  container:\n    runs-on: ubuntu-latest\n    timeout-minutes: 20\n    steps:\n      - uses: actions/checkout@v4\n      - name: Validate Linux maintenance units and UTC calendars\n        run: |\n          systemd-analyze verify deploy/systemd/*.service deploy/systemd/*.timer\n          systemd-analyze calendar --iterations=6 --base-time='2026-10-04 00:00:00 UTC' 'Mon,Wed,Fri *-*-* 06:17:00 UTC'\n          systemd-analyze calendar --iterations=3 --base-time='2026-10-04 00:00:00 UTC' '*-*-* 06:35:00 UTC'\n      - name: Validate Compose with synthetic configuration only\n        shell: bash\n        run: |\n          set -euo pipefail\n          trap 'rm -f .env.production' EXIT\n          printf '%s\\n' 'APP_DOMAIN=academy.example.test' 'ACME_EMAIL=qa@example.test' > .env.production\n          chmod 600 .env.production\n          docker compose --env-file .env.production config --quiet\n      - name: Build without deployment secrets\n        run: docker build -t ai-agent-engineer:smoke .\n      - name: Validate HTTPS proxy configuration without starting a public listener\n        run: >-\n          docker run --rm\n          -e APP_DOMAIN=academy.example.test -e ACME_EMAIL=qa@example.test\n          -v \"$PWD/deploy/Caddyfile:/etc/caddy/Caddyfile:ro\"\n          caddy:2.10-alpine caddy validate --config /etc/caddy/Caddyfile --adapter caddyfile\n      - name: Isolated persistence and startup smoke\n        run: sh scripts/deployment/smoke-test.sh ai-agent-engineer:smoke\n",
+      "sha256": "bbd4e7b8f2097315629072cbcfc5120992e2137530f7a0f08fdb1cd766e2689d"
+    },
+    {
+      "id": "KNOWLEDGE_CI",
+      "title": "גילוי מקורות ציבוריים ב־GitHub",
+      "sourcePath": ".github/workflows/mentor-knowledge.yml",
+      "kind": "deployment-code",
+      "moduleIds": [
+        "PRODUCT",
+        "QUALITY"
+      ],
+      "agentIds": [
+        "Agent-Production-Reliability",
+        "Agent-Security-Auditor"
+      ],
+      "body": "name: Mentor public knowledge sources\non:\n  workflow_dispatch:\n  schedule:\n    # UTC due slots match the application; avoid the busy top of the hour.\n    - cron: '17 6 * * 1,3,5'\n  push:\n    branches: [main]\n    paths:\n      - '.github/workflows/mentor-knowledge.yml'\n      - 'scripts/refresh-mentor-knowledge.ts'\n      - 'src/lib/ai/knowledge*.ts'\n      - 'content/knowledge/registry.json'\nconcurrency:\n  group: mentor-public-knowledge\n  cancel-in-progress: false\npermissions:\n  contents: read\njobs:\n  refresh:\n    runs-on: ubuntu-latest\n    timeout-minutes: 5\n    env:\n      MENTOR_KNOWLEDGE_PATH: .data/mentor/knowledge.json\n    steps:\n      - uses: actions/checkout@v4\n      - uses: actions/setup-node@v4\n        with:\n          node-version: '24'\n          cache: npm\n      - run: npm ci\n      - run: npm run mentor:refresh\n      - uses: actions/upload-artifact@v4\n        if: always()\n        with:\n          name: mentor-public-knowledge\n          path: .data/mentor/knowledge.json\n          include-hidden-files: true\n          retention-days: 14\n",
+      "sha256": "4fadf52ba2e0ee8bdcf87c1eff52c4da6d823bd8e3364f4c7bdf9cc2a9281505"
+    },
+    {
+      "id": "KNOWLEDGE_REFRESH_CLI",
+      "title": "רענון המטמון שבו המנטור משתמש",
+      "sourcePath": "scripts/refresh-mentor-knowledge.ts",
+      "kind": "deployment-code",
+      "moduleIds": [
+        "PRODUCT",
+        "QUALITY"
+      ],
+      "agentIds": [
+        "Agent-Production-Reliability",
+        "Agent-Security-Auditor"
+      ],
+      "body": "import { loadEnvConfig } from '@next/env';\n// Load the same cache and release-ledger settings as the server before importing readers.\nloadEnvConfig(process.cwd());\n\nasync function main() {\n  const { refreshKnowledge } = await import('../src/lib/ai/knowledge');\n  const { persistKnowledge, readKnowledge } = await import('../src/lib/ai/knowledge-store');\n  const snapshot = await refreshKnowledge(fetch, new Date(), await readKnowledge());\n  await persistKnowledge(snapshot);\n  for (const source of snapshot.sources)\n    console.log(\n      `${source.id}: ${source.status}, ${source.items.length} discovery references, ${source.change}`,\n    );\n  if (snapshot.sources.some((source) => source.status !== 'ok')) process.exitCode = 1;\n}\nmain().catch(() => {\n  console.error('Knowledge refresh failed');\n  process.exitCode = 1;\n});\n",
+      "sha256": "d8d7505ccee268af61403869239d9ca18582e404df092e8bcb31165fa943d692"
+    },
+    {
+      "id": "AUTH_CLEANUP_CLI",
+      "title": "ניקוי רשומות אימות שפג תוקפן",
+      "sourcePath": "scripts/cleanup-auth.ts",
+      "kind": "deployment-code",
+      "moduleIds": [
+        "PRODUCT",
+        "QUALITY"
+      ],
+      "agentIds": [
+        "Agent-Production-Reliability",
+        "Agent-Security-Auditor"
+      ],
+      "body": "import { loadEnvConfig } from '@next/env';\nimport { getConnection } from '../src/lib/db/connection';\nloadEnvConfig(process.cwd());\nconst { sqlite } = getConnection();\ntry {\n  sqlite.transaction(() => {\n    for (const table of ['session', 'verification'])\n      sqlite.prepare(`DELETE FROM \"${table}\" WHERE \"expiresAt\" < ?`).run(new Date().toISOString());\n    sqlite\n      .prepare('DELETE FROM \"rateLimit\" WHERE \"lastRequest\" < ?')\n      .run(Date.now() - 24 * 60 * 60 * 1000);\n  })();\n  console.log('Expired authentication records cleaned.');\n} finally {\n  sqlite.close();\n}\n",
+      "sha256": "d7fad365fbb23be0c0d0f84ec91019d778eefc45352f43cdd804b84a190c3b8d"
+    },
+    {
+      "id": "DEPLOY_BACKUP_MIGRATION",
+      "title": "גיבוי עקבי לפני שינוי מבנה מסד הנתונים",
+      "sourcePath": "scripts/backup-and-migrate.ts",
+      "kind": "deployment-code",
+      "moduleIds": [
+        "PRODUCT",
+        "QUALITY"
+      ],
+      "agentIds": [
+        "Agent-Production-Reliability",
+        "Agent-Security-Auditor"
+      ],
+      "body": "import { loadEnvConfig } from '@next/env';\nimport { chmodSync, mkdirSync, existsSync } from 'node:fs';\nimport path from 'node:path';\nimport { randomUUID } from 'node:crypto';\nimport { getConnection } from '../src/lib/db/connection';\nimport { setupDatabase } from '../src/lib/db/migrate';\nimport { loadCurriculum } from '../src/lib/curriculum/load';\n\nasync function main() {\n  loadEnvConfig(process.cwd());\n  const databasePath = path.resolve(process.env.DATABASE_URL || '.data/learning.sqlite');\n  if (!existsSync(databasePath))\n    throw new Error('No existing database. Use npm run db:setup for a new installation.');\n  const connection = getConnection();\n  try {\n    const directory = path.join(path.dirname(databasePath), 'backups');\n    mkdirSync(directory, { recursive: true, mode: 0o700 });\n    chmodSync(directory, 0o700);\n    const filename = path.join(\n      directory,\n      `before-migration-${new Date().toISOString().replaceAll(':', '-')}-${randomUUID()}.sqlite`,\n    );\n    // SQLite online backup includes committed WAL state; no row contents are logged.\n    await connection.sqlite.backup(filename);\n    chmodSync(filename, 0o600);\n    console.log('Consistent private backup saved before applying additive migrations.');\n    setupDatabase(connection, loadCurriculum());\n    console.log(\n      'Migrations applied successfully. Existing curriculum versions and learner records were retained.',\n    );\n  } finally {\n    connection.sqlite.close();\n  }\n}\nmain().catch(() => {\n  console.error(\n    'Backup/migration failed. No automatic restore or retry was performed. Inspect the migration before retrying.',\n  );\n  process.exitCode = 1;\n});\n",
+      "sha256": "b39592f3d2a8aa897e11e344dcd91c2149c884ca4a5ebcd96fea35635484ed8f"
+    },
+    {
+      "id": "KNOWLEDGE_HOST_SERVICE",
+      "title": "שירות רענון המקורות בשרת",
+      "sourcePath": "deploy/systemd/ai-course-mentor-refresh.service",
+      "kind": "deployment-code",
+      "moduleIds": [
+        "PRODUCT",
+        "QUALITY"
+      ],
+      "agentIds": [
+        "Agent-Production-Reliability",
+        "Agent-Security-Auditor"
+      ],
+      "body": "[Unit]\nDescription=Refresh public AI discovery sources three times weekly\nRequires=docker.service\nAfter=docker.service network-online.target\nWants=network-online.target\n\n[Service]\nType=oneshot\nWorkingDirectory=/opt/AI-Agent-Engineer\nUMask=0077\nExecStart=/usr/bin/docker compose --env-file .env.production run --rm --no-deps -T --entrypoint npm app run mentor:refresh\nTimeoutStartSec=10min\n",
+      "sha256": "6d5f6dd6e0aa004f08d4cac537fb1159b9136c0abca651566e825f8fa924aee0"
+    },
+    {
+      "id": "KNOWLEDGE_HOST_TIMER",
+      "title": "תזמון רענון שלוש פעמים בשבוע",
+      "sourcePath": "deploy/systemd/ai-course-mentor-refresh.timer",
+      "kind": "deployment-code",
+      "moduleIds": [
+        "PRODUCT",
+        "QUALITY"
+      ],
+      "agentIds": [
+        "Agent-Production-Reliability",
+        "Agent-Security-Auditor"
+      ],
+      "body": "[Unit]\nDescription=Refresh public AI discovery sources three times weekly\n\n[Timer]\nOnCalendar=Mon,Wed,Fri *-*-* 06:17:00 UTC\nPersistent=true\nAccuracySec=1min\nUnit=ai-course-mentor-refresh.service\n\n[Install]\nWantedBy=timers.target\n",
+      "sha256": "118c49264165d75622fb8194ef88ab03b5aa3b3b48100733a02c65ecd4f0b11b"
+    },
+    {
+      "id": "AUTH_HOST_SERVICE",
+      "title": "שירות לניקוי רשומות אימות זהות שפג תוקפן",
+      "sourcePath": "deploy/systemd/ai-course-auth-cleanup.service",
+      "kind": "deployment-code",
+      "moduleIds": [
+        "PRODUCT",
+        "QUALITY"
+      ],
+      "agentIds": [
+        "Agent-Production-Reliability",
+        "Agent-Security-Auditor"
+      ],
+      "body": "[Unit]\nDescription=Remove expired authentication records daily\nRequires=docker.service\nAfter=docker.service network-online.target\nWants=network-online.target\n\n[Service]\nType=oneshot\nWorkingDirectory=/opt/AI-Agent-Engineer\nUMask=0077\nExecStart=/usr/bin/docker compose --env-file .env.production run --rm --no-deps -T --entrypoint npm app run db:cleanup\nTimeoutStartSec=10min\n",
+      "sha256": "d80a5a949b29d371dffbc1fac2992c83713556e09a4f17857c10015f40159694"
+    },
+    {
+      "id": "AUTH_HOST_TIMER",
+      "title": "תזמון יומי לניקוי רשומות אימות זהות",
+      "sourcePath": "deploy/systemd/ai-course-auth-cleanup.timer",
+      "kind": "deployment-code",
+      "moduleIds": [
+        "PRODUCT",
+        "QUALITY"
+      ],
+      "agentIds": [
+        "Agent-Production-Reliability",
+        "Agent-Security-Auditor"
+      ],
+      "body": "[Unit]\nDescription=Remove expired authentication records daily\n\n[Timer]\nOnCalendar=*-*-* 06:35:00 UTC\nPersistent=true\nAccuracySec=1min\nUnit=ai-course-auth-cleanup.service\n\n[Install]\nWantedBy=timers.target\n",
+      "sha256": "bda97ec1709f9145c99e337a195020d26823fd21c2f036d6f203d692c66f4d31"
+    },
+    {
       "id": "MENTOR_LESSON_HELP",
       "title": "בחירת רמת הסבר מתוך השיעור",
       "sourcePath": "src/components/learning/mentor-help.tsx",

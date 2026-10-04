@@ -1,0 +1,55 @@
+---
+generated: true
+schema_version: 1
+kind: "asset"
+entity_id: "AUTH_CLEANUP_CLI"
+curriculum_version: "2.2.0"
+source_path: "scripts/cleanup-auth.ts"
+asset_kind: "deployment-code"
+source_sha256: "d7fad365fbb23be0c0d0f84ec91019d778eefc45352f43cdd804b84a190c3b8d"
+related: ["[[01_AGENTS/Agent-Curriculum-Auditor]]","[[01_AGENTS/Agent-Database-Architect]]","[[01_AGENTS/Agent-Production-Reliability]]","[[01_AGENTS/Agent-Progress-Tracker]]","[[01_AGENTS/Agent-Quiz-Designer]]","[[01_AGENTS/Agent-Security-Auditor]]","[[01_AGENTS/Agent-UI-UX-Inspector]]","[[02_CURRICULUM/2.2.0/modules/PRODUCT]]","[[02_CURRICULUM/2.2.0/modules/QUALITY]]","[[04_AUTOMATIONS_AND_APIS/Deployment]]","[[04_AUTOMATIONS_AND_APIS/Index]]"]
+---
+
+# ניקוי רשומות אימות שפג תוקפן
+
+[קובץ המקור הציבורי](https://github.com/oroofarm-lang/AI-Agent-Engineer/blob/main/scripts/cleanup-auth.ts)
+
+סוג הקובץ: `deployment-code`. נתיב במאגר הציבורי: `scripts/cleanup-auth.ts`.
+
+זהו קובץ קוד ציבורי. הכללתו בכספת אינה מעידה שבוצעה כאן הרצה.
+
+## תוכן הקובץ הציבורי
+
+```
+import { loadEnvConfig } from '@next/env';
+import { getConnection } from '../src/lib/db/connection';
+loadEnvConfig(process.cwd());
+const { sqlite } = getConnection();
+try {
+  sqlite.transaction(() => {
+    for (const table of ['session', 'verification'])
+      sqlite.prepare(`DELETE FROM "${table}" WHERE "expiresAt" < ?`).run(new Date().toISOString());
+    sqlite
+      .prepare('DELETE FROM "rateLimit" WHERE "lastRequest" < ?')
+      .run(Date.now() - 24 * 60 * 60 * 1000);
+  })();
+  console.log('Expired authentication records cleaned.');
+} finally {
+  sqlite.close();
+}
+
+```
+
+## קשרים במפת הידע
+
+- [[01_AGENTS/Agent-Curriculum-Auditor|מקורות ועדכוני תוכן]] — קובץ עזר למומחה
+- [[01_AGENTS/Agent-Database-Architect|מסדי נתונים ומצב]] — קובץ עזר למומחה
+- [[01_AGENTS/Agent-Production-Reliability|פריסה, ניטור ואמינות]] — קובץ עזר למומחה
+- [[01_AGENTS/Agent-Progress-Tracker|משוב על העבודה והתקדמות]] — קובץ עזר למומחה
+- [[01_AGENTS/Agent-Quiz-Designer|תרגול ובדיקות הבנה]] — קובץ עזר למומחה
+- [[01_AGENTS/Agent-Security-Auditor|אבטחה והרשאות]] — קובץ עזר למומחה
+- [[01_AGENTS/Agent-UI-UX-Inspector|ממשק, ניווט ונגישות]] — קובץ עזר למומחה
+- [[02_CURRICULUM/2.2.0/modules/PRODUCT|מוצר, שירות ופריסה]] — קובץ עזר לפרק
+- [[02_CURRICULUM/2.2.0/modules/QUALITY|איכות, אבטחה ובקרה]] — קובץ עזר לפרק
+- [[04_AUTOMATIONS_AND_APIS/Deployment|פריסה, אחסון מתמשך ותזמון תחזוקה]] — קובץ פריסה ציבורי
+- [[04_AUTOMATIONS_AND_APIS/Index|חיבורים, ממשקים וקובצי עזר]] — קובץ עזר
