@@ -6,7 +6,7 @@ const assets = publicAssetCatalog.map((asset) => {
   if (
     !(
       /^(src\/components|content\/labs|public\/course-data)\//.test(asset.sourcePath) ||
-      /^src\/lib\/templates\/(schema|formats|persistence)\.ts$/.test(asset.sourcePath)
+      /^src\/lib\/templates\/(schema|formats|persistence|submission)\.ts$/.test(asset.sourcePath)
     ) ||
     asset.sourcePath.split('/').some((part) => part === '..')
   )

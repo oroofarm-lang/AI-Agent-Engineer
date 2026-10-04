@@ -139,7 +139,10 @@ export function validateTemplateCatalog(
 /** Count only learner content, excluding labels and unchanged starter values. */
 export function templateCompletion(raw: unknown, definition: TemplateDefinition) {
   const document = validateTemplateDocument(raw, definition);
-  let characters = document.notes.trim().length;
+  let characters = document.notes
+    .replace(/^ {0,3}#{1,6}(?:[ \t]+.*)?$/gm, '')
+    .replace(/^\s*(?:```.*|~~~.*|[-*_]{3,})\s*$/gm, '')
+    .trim().length;
   let completedRows = 0;
   if (document.table && definition.kind === 'table') {
     const requiredIds = definition.starter.columns.map((column) => column.id);

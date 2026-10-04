@@ -229,11 +229,20 @@ test('operator reviews exact questions, publishes only complete approval, and pr
     ).toBeNull();
     const ledger = JSON.parse(await fs.readFile(path.join(reviewRoot, 'active.json'), 'utf8'));
     expect(ledger.selection.releaseHash).toBe(activeHash);
+    const rollback = review.waitForResponse(
+      (response) =>
+        response.url().endsWith('/api/quizzes/review') &&
+        response.request().method() === 'POST' &&
+        response.request().postDataJSON()?.operation === 'rollback',
+    );
     await review.getByRole('button', { name: 'לחזור לגרסת השאלות הקודמת' }).click();
+    const rolledBack = await rollback;
+    expect(rolledBack.ok()).toBe(true);
+    expect((await rolledBack.json()).vaultSync.status).toBe('SYNCED');
+    activeHash = undefined;
     await expect(
       review.getByRole('status').filter({ hasText: 'המערכת חזרה לגרסת השאלות הקודמת.' }),
     ).toBeVisible();
-    activeHash = undefined;
     await expect(review.getByLabel('מספר הגרסה לפרסום')).toHaveValue('1.0.1');
     await page.reload();
     await learnerQuiz.locator('summary').click();
@@ -264,14 +273,17 @@ test('operator reviews exact questions, publishes only complete approval, and pr
     expect((await fs.stat(path.join(reviewRoot, 'releases/1.0.0.json'))).isFile()).toBe(true);
   } finally {
     if (activeHash)
-      expect(
-        (
-          await manager.request.post('/api/quizzes/review', {
-            headers: { Origin: origin },
-            data: { operation: 'rollback', requestId: randomUUID(), releaseHash: activeHash },
-          })
-        ).ok(),
-      ).toBe(true);
+      expect
+        .soft(
+          (
+            await manager.request.post('/api/quizzes/review', {
+              headers: { Origin: origin },
+              data: { operation: 'rollback', requestId: randomUUID(), releaseHash: activeHash },
+            })
+          ).ok(),
+          'Synthetic release cleanup must succeed without hiding an earlier failure',
+        )
+        .toBe(true);
     await manager.close();
   }
 });

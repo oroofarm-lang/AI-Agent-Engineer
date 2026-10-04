@@ -25,12 +25,12 @@ export function addTemplateWorkspaces({
     'index',
     'TEMPLATE_WORKSPACES_INDEX',
     'תבניות טקסט וטבלה לכל סעיפי ההערכה',
-    'הגדרות ציבוריות של מבנה התשובות: טקסט, כותרות טבלה ושורות התחלה. הן אינן עבודות שהוגשו. שירות שמירת הטיוטות הפרטיות ממומש בממשק ה־API המקושר. עורכי הטקסט והטבלה, השמירה האוטומטית והייבוא והייצוא של JSON ו־CSV מחוברים לממשק השיעור. הגשה ישירה של התבנית כקובץ מובנה עדיין לא חוברה. הייבוא, הייצוא ובדיקת מבנה הנתונים ממומשים בקובצי המקור המקושרים.\n\n' +
+    'הגדרות ציבוריות של מבנה התשובות: טקסט, כותרות טבלה ושורות התחלה. הן אינן עבודות שהוגשו. שירות שמירת הטיוטות הפרטיות ממומש בממשק ה־API המקושר. עורכי הטקסט והטבלה, השמירה האוטומטית והייבוא והייצוא של JSON ו־CSV מחוברים לממשק השיעור. הלומד יכול לבחור טיוטות שמורות ולהגיש אותן בלחצן ״הגש מתוך הטמפלייט״. המערכת מצרפת עותק קבוע של התוכן וההגדרה להגשה הפרטית, עם אפשרות לכלול אותה בתיק העבודות. הייבוא, הייצוא ובדיקת מבנה הנתונים ממומשים בקובצי המקור המקושרים.\n\n' +
       sourceLink(sourcePath),
     {
       template_version: catalog.version,
       source_curriculum_version: catalog.sourceCurriculumVersion,
-      implementation_status: 'editors-autosave-no-template-submission',
+      implementation_status: 'editors-autosave-frozen-template-submission',
     },
   );
   connect(sectionIndex, index, 'מבנה תבניות ההגשה');
@@ -86,7 +86,7 @@ export function addTemplateWorkspaces({
       throw new Error('Invalid template table');
     const lesson = lessons.find((item) => item.id === definition.lessonId);
     if (!lesson) throw new Error('Template without published lesson');
-    const body = `## המשימה\n\n${definition.prompt}\n\n## מה לצרף\n\n${definition.evidenceHint}\n\n## מבנה העבודה\n\n${definition.guidance}\n\n${table ? 'עמודות הטבלה:\n\n' + table.columns.map((column) => `- ${column.label}`).join('\n') + `\n\nמספר השורות בתבנית: ${table.rows.length}. מספר השורות שיש למלא במלואן: ${definition.minimumRows}.\n\n\`\`\`json\n` + JSON.stringify({ columns: table.columns.map(({ id, label }) => ({ id, label })), rows: table.rows }, null, 2) + '\n\`\`\`' : 'תבנית טקסט בפורמט Markdown. המסמך מתחיל ריק; כתיבת כותרות בלבד אינה משלימה את המשימה.'}\n\n${sourceLink(sourcePath)}\n\nזו הגדרת תבנית בלבד. אין כאן תשובת לומד, הגשה או תוצאה של הרצת קוד. עורך השיעור מחובר לשירות שמירת הטיוטות הפרטיות. ההגשה הישירה כקובץ תבנית מובנה עדיין לא חוברה; אין לייצא לכאן תוכן טיוטות או עבודות אישיות.`;
+    const body = `## המשימה\n\n${definition.prompt}\n\n## מה לצרף\n\n${definition.evidenceHint}\n\n## מבנה העבודה\n\n${definition.guidance}\n\n${table ? 'עמודות הטבלה:\n\n' + table.columns.map((column) => `- ${column.label}`).join('\n') + `\n\nמספר השורות בתבנית: ${table.rows.length}. מספר השורות שיש למלא במלואן: ${definition.minimumRows}.\n\n\`\`\`json\n` + JSON.stringify({ columns: table.columns.map(({ id, label }) => ({ id, label })), rows: table.rows }, null, 2) + '\n\`\`\`' : 'תבנית טקסט בפורמט Markdown. המסמך מתחיל ריק; כתיבת כותרות בלבד אינה משלימה את המשימה.'}\n\n${sourceLink(sourcePath)}\n\nזו הגדרת תבנית בלבד. אין כאן תשובת לומד, הגשה או תוצאה של הרצת קוד. עורך השיעור מחובר לשירות שמירת הטיוטות הפרטיות. בהגשה מתוך התבנית מצורף לעבודה הפרטית עותק קבוע של הטיוטה השמורה, כולל ההגדרה וגרסאות העריכה והקורס; אין לייצא לכאן תוכן טיוטות או עבודות אישיות.`;
     const file = add(
       `${root}/${definition.id}.md`,
       'interactive-template',
@@ -102,7 +102,7 @@ export function addTemplateWorkspaces({
         rubric_version: definition.rubricVersion,
         editor_kind: definition.kind,
         source_path: sourcePath,
-        implementation_status: 'editors-autosave-no-template-submission',
+        implementation_status: 'editors-autosave-frozen-template-submission',
       },
     );
     if (!byLesson.has(definition.lessonId)) byLesson.set(definition.lessonId, []);
@@ -130,7 +130,13 @@ export function addTemplateWorkspaces({
       )
         connect(file, paths.agent.get(agent.id), 'תחום עזרה בתבנית');
     }
-    for (const id of ['TEMPLATE_SCHEMA', 'TEMPLATE_FORMATS', 'TEMPLATE_DRAFT_CONTRACT'])
+    for (const id of [
+      'TEMPLATE_SCHEMA',
+      'TEMPLATE_FORMATS',
+      'TEMPLATE_DRAFT_CONTRACT',
+      'TEMPLATE_SUBMISSION_CONTRACT',
+      'PROOF_COMPONENT',
+    ])
       if (paths.asset.has(id)) connect(file, paths.asset.get(id), 'קוד מבנה ופורמטים');
     if (paths.api.has('TEMPLATE_DRAFTS'))
       connect(file, paths.api.get('TEMPLATE_DRAFTS'), 'שמירת טיוטה פרטית');

@@ -279,7 +279,7 @@ it('limits total owned document bytes across retained definitions without affect
   expect(
     templateDraftRepository(connection, curriculum, 'other').save(input()).draft.revision,
   ).toBe(1);
-});
+}, 20000); // Fills the real 16 MiB quota across retained versions; default 5 seconds is not a performance requirement.
 
 it('exports only owned frozen drafts and receipts, and real authenticated account deletion removes them without touching another owner', async () => {
   const { connection, curriculum, drafts } = fixture();

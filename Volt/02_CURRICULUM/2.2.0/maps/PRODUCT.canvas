@@ -1121,10 +1121,20 @@
       "color": "6"
     },
     {
+      "id": "file-9398c8f4199f53afce374c6f",
+      "type": "file",
+      "file": "04_AUTOMATIONS_AND_APIS/assets/TEMPLATE_SUBMISSION_CONTRACT.md",
+      "x": 7100,
+      "y": 4240,
+      "width": 640,
+      "height": 180,
+      "color": "6"
+    },
+    {
       "id": "file-1dd25fdb65722cf0f794a1e2",
       "type": "file",
       "file": "04_AUTOMATIONS_AND_APIS/assets/UPLOAD_COMPONENT.md",
-      "x": 7100,
+      "x": 7780,
       "y": 4240,
       "width": 640,
       "height": 180,
@@ -1134,8 +1144,8 @@
       "id": "file-8054ccbe9a59e8e9a8011252",
       "type": "file",
       "file": "04_AUTOMATIONS_AND_APIS/knowledge-sources/N8N.md",
-      "x": 7780,
-      "y": 4240,
+      "x": 7100,
+      "y": 4470,
       "width": 640,
       "height": 180,
       "color": "6"
@@ -1144,7 +1154,7 @@
       "id": "file-fdab6efb1437fd6b660f5e82",
       "type": "file",
       "file": "04_AUTOMATIONS_AND_APIS/technologies/N8N.md",
-      "x": 7100,
+      "x": 7780,
       "y": 4470,
       "width": 640,
       "height": 180,
@@ -3913,6 +3923,56 @@
       "label": "מקור למומחה"
     },
     {
+      "id": "edge-cf91bc2b0545474e1117046a",
+      "fromNode": "file-9398c8f4199f53afce374c6f",
+      "fromSide": "right",
+      "toNode": "file-970f1c3b737ba49e4fa49178",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קובץ עזר לפרק"
+    },
+    {
+      "id": "edge-f26f67038db0f9bd2f202189",
+      "fromNode": "file-9398c8f4199f53afce374c6f",
+      "fromSide": "right",
+      "toNode": "file-0d144fd688f42b47485b3f13",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קובץ עזר למומחה"
+    },
+    {
+      "id": "edge-0b4295390d0e63fc1ed40919",
+      "fromNode": "file-9398c8f4199f53afce374c6f",
+      "fromSide": "right",
+      "toNode": "file-c1de88bc3689e476f87416fa",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קובץ עזר למומחה"
+    },
+    {
+      "id": "edge-60caec25b5803cf8b748d1a8",
+      "fromNode": "file-9398c8f4199f53afce374c6f",
+      "fromSide": "right",
+      "toNode": "file-61e6e2118dba2a11aa442a3f",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קובץ עזר למומחה"
+    },
+    {
+      "id": "edge-3661b7b2c42a0939b048be28",
+      "fromNode": "file-9398c8f4199f53afce374c6f",
+      "fromSide": "right",
+      "toNode": "file-be11d40265cd2df767d8f455",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קובץ עזר למומחה"
+    },
+    {
       "id": "edge-1350f5fead73369b97421f26",
       "fromNode": "file-e50179f19b36d92d16979756",
       "fromSide": "right",
@@ -5743,6 +5803,26 @@
       "label": "קוד מבנה ופורמטים"
     },
     {
+      "id": "edge-9f1237efce1463fb97f0aea4",
+      "fromNode": "file-21c395dd87178150078bed69",
+      "fromSide": "right",
+      "toNode": "file-9398c8f4199f53afce374c6f",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קוד מבנה ופורמטים"
+    },
+    {
+      "id": "edge-0f3948897459979205db993d",
+      "fromNode": "file-21c395dd87178150078bed69",
+      "fromSide": "right",
+      "toNode": "file-6da7c6d6dd97f316ce77112a",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קוד מבנה ופורמטים"
+    },
+    {
       "id": "edge-17b85e58c5e9a5d72b34a73a",
       "fromNode": "file-47eaa030147c14bc7aed5150",
       "fromSide": "right",
@@ -5877,6 +5957,26 @@
       "fromNode": "file-47eaa030147c14bc7aed5150",
       "fromSide": "right",
       "toNode": "file-e50179f19b36d92d16979756",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קוד מבנה ופורמטים"
+    },
+    {
+      "id": "edge-f445779c1ea21329692c4574",
+      "fromNode": "file-47eaa030147c14bc7aed5150",
+      "fromSide": "right",
+      "toNode": "file-9398c8f4199f53afce374c6f",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קוד מבנה ופורמטים"
+    },
+    {
+      "id": "edge-b06940206892b17de459386c",
+      "fromNode": "file-47eaa030147c14bc7aed5150",
+      "fromSide": "right",
+      "toNode": "file-6da7c6d6dd97f316ce77112a",
       "toSide": "left",
       "fromEnd": "arrow",
       "toEnd": "arrow",
@@ -6023,6 +6123,26 @@
       "label": "קוד מבנה ופורמטים"
     },
     {
+      "id": "edge-75d461f55a2b2868dd9a9e62",
+      "fromNode": "file-84b1f1d6d7a9094ead3781a9",
+      "fromSide": "right",
+      "toNode": "file-9398c8f4199f53afce374c6f",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קוד מבנה ופורמטים"
+    },
+    {
+      "id": "edge-2dd8009128f05c7d195ca24e",
+      "fromNode": "file-84b1f1d6d7a9094ead3781a9",
+      "fromSide": "right",
+      "toNode": "file-6da7c6d6dd97f316ce77112a",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קוד מבנה ופורמטים"
+    },
+    {
       "id": "edge-b75bfc6b6ff2a3a0716413db",
       "fromNode": "file-4a720088eecedfa6b564d3ea",
       "fromSide": "right",
@@ -6157,6 +6277,26 @@
       "fromNode": "file-4a720088eecedfa6b564d3ea",
       "fromSide": "right",
       "toNode": "file-e50179f19b36d92d16979756",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קוד מבנה ופורמטים"
+    },
+    {
+      "id": "edge-1d5a356b73b131b7f359372d",
+      "fromNode": "file-4a720088eecedfa6b564d3ea",
+      "fromSide": "right",
+      "toNode": "file-9398c8f4199f53afce374c6f",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קוד מבנה ופורמטים"
+    },
+    {
+      "id": "edge-6d123a875a3a3113f56cbdd2",
+      "fromNode": "file-4a720088eecedfa6b564d3ea",
+      "fromSide": "right",
+      "toNode": "file-6da7c6d6dd97f316ce77112a",
       "toSide": "left",
       "fromEnd": "arrow",
       "toEnd": "arrow",
@@ -6303,6 +6443,26 @@
       "label": "קוד מבנה ופורמטים"
     },
     {
+      "id": "edge-8b95ed12c523a054539b32c8",
+      "fromNode": "file-e6d34319f8472c9301910c39",
+      "fromSide": "right",
+      "toNode": "file-9398c8f4199f53afce374c6f",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קוד מבנה ופורמטים"
+    },
+    {
+      "id": "edge-affd234f81c47329ad4b7877",
+      "fromNode": "file-e6d34319f8472c9301910c39",
+      "fromSide": "right",
+      "toNode": "file-6da7c6d6dd97f316ce77112a",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קוד מבנה ופורמטים"
+    },
+    {
       "id": "edge-677a889c61d9c98995010eca",
       "fromNode": "file-2437b388bcbe4514904e5da9",
       "fromSide": "right",
@@ -6437,6 +6597,26 @@
       "fromNode": "file-2437b388bcbe4514904e5da9",
       "fromSide": "right",
       "toNode": "file-e50179f19b36d92d16979756",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קוד מבנה ופורמטים"
+    },
+    {
+      "id": "edge-eb14e09787907c461da70f65",
+      "fromNode": "file-2437b388bcbe4514904e5da9",
+      "fromSide": "right",
+      "toNode": "file-9398c8f4199f53afce374c6f",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קוד מבנה ופורמטים"
+    },
+    {
+      "id": "edge-389606bb40d1754e0a075124",
+      "fromNode": "file-2437b388bcbe4514904e5da9",
+      "fromSide": "right",
+      "toNode": "file-6da7c6d6dd97f316ce77112a",
       "toSide": "left",
       "fromEnd": "arrow",
       "toEnd": "arrow",
@@ -6593,6 +6773,26 @@
       "label": "קוד מבנה ופורמטים"
     },
     {
+      "id": "edge-5c34f6c5e66da6fc36ac319d",
+      "fromNode": "file-5c22ddd1be8ffb632ef8f9b1",
+      "fromSide": "right",
+      "toNode": "file-9398c8f4199f53afce374c6f",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קוד מבנה ופורמטים"
+    },
+    {
+      "id": "edge-4c3c38ec37cf504b780d0017",
+      "fromNode": "file-5c22ddd1be8ffb632ef8f9b1",
+      "fromSide": "right",
+      "toNode": "file-6da7c6d6dd97f316ce77112a",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קוד מבנה ופורמטים"
+    },
+    {
       "id": "edge-7bc0d56e39e2f19b68a35b35",
       "fromNode": "file-627e32b9b33e312de2e44631",
       "fromSide": "right",
@@ -6737,6 +6937,26 @@
       "fromNode": "file-627e32b9b33e312de2e44631",
       "fromSide": "right",
       "toNode": "file-e50179f19b36d92d16979756",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קוד מבנה ופורמטים"
+    },
+    {
+      "id": "edge-b46964a62b9dbefc167a1bfc",
+      "fromNode": "file-627e32b9b33e312de2e44631",
+      "fromSide": "right",
+      "toNode": "file-9398c8f4199f53afce374c6f",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קוד מבנה ופורמטים"
+    },
+    {
+      "id": "edge-0b0cd86a357269e55f8ad531",
+      "fromNode": "file-627e32b9b33e312de2e44631",
+      "fromSide": "right",
+      "toNode": "file-6da7c6d6dd97f316ce77112a",
       "toSide": "left",
       "fromEnd": "arrow",
       "toEnd": "arrow",
@@ -6893,6 +7113,26 @@
       "label": "קוד מבנה ופורמטים"
     },
     {
+      "id": "edge-17dd8607602eb98a6efcadf3",
+      "fromNode": "file-304fa1d407722777d8d5b44c",
+      "fromSide": "right",
+      "toNode": "file-9398c8f4199f53afce374c6f",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קוד מבנה ופורמטים"
+    },
+    {
+      "id": "edge-54f0b3630c5cd0ed8f02c668",
+      "fromNode": "file-304fa1d407722777d8d5b44c",
+      "fromSide": "right",
+      "toNode": "file-6da7c6d6dd97f316ce77112a",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קוד מבנה ופורמטים"
+    },
+    {
       "id": "edge-62cdd5bd4152118579b742c5",
       "fromNode": "file-676f547f836403d4a936a1c8",
       "fromSide": "right",
@@ -7037,6 +7277,26 @@
       "fromNode": "file-676f547f836403d4a936a1c8",
       "fromSide": "right",
       "toNode": "file-e50179f19b36d92d16979756",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קוד מבנה ופורמטים"
+    },
+    {
+      "id": "edge-531ff9c44817f4504fbf26bc",
+      "fromNode": "file-676f547f836403d4a936a1c8",
+      "fromSide": "right",
+      "toNode": "file-9398c8f4199f53afce374c6f",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קוד מבנה ופורמטים"
+    },
+    {
+      "id": "edge-e19557ca3ee19fd9a1e65a6e",
+      "fromNode": "file-676f547f836403d4a936a1c8",
+      "fromSide": "right",
+      "toNode": "file-6da7c6d6dd97f316ce77112a",
       "toSide": "left",
       "fromEnd": "arrow",
       "toEnd": "arrow",
@@ -7193,6 +7453,26 @@
       "label": "קוד מבנה ופורמטים"
     },
     {
+      "id": "edge-5228c0e05cdbf4bdf446366e",
+      "fromNode": "file-37f3b897037f9eee754165c2",
+      "fromSide": "right",
+      "toNode": "file-9398c8f4199f53afce374c6f",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קוד מבנה ופורמטים"
+    },
+    {
+      "id": "edge-6e3650cb340bb815759e9540",
+      "fromNode": "file-37f3b897037f9eee754165c2",
+      "fromSide": "right",
+      "toNode": "file-6da7c6d6dd97f316ce77112a",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קוד מבנה ופורמטים"
+    },
+    {
       "id": "edge-648644112f77d98d0fc8f83e",
       "fromNode": "file-4edeee63096fd1ce905d5709",
       "fromSide": "right",
@@ -7337,6 +7617,26 @@
       "fromNode": "file-4edeee63096fd1ce905d5709",
       "fromSide": "right",
       "toNode": "file-e50179f19b36d92d16979756",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קוד מבנה ופורמטים"
+    },
+    {
+      "id": "edge-caf7084f098b5200fe033e3b",
+      "fromNode": "file-4edeee63096fd1ce905d5709",
+      "fromSide": "right",
+      "toNode": "file-9398c8f4199f53afce374c6f",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קוד מבנה ופורמטים"
+    },
+    {
+      "id": "edge-37c184b74f5efb9de83b3a61",
+      "fromNode": "file-4edeee63096fd1ce905d5709",
+      "fromSide": "right",
+      "toNode": "file-6da7c6d6dd97f316ce77112a",
       "toSide": "left",
       "fromEnd": "arrow",
       "toEnd": "arrow",
@@ -7493,6 +7793,26 @@
       "label": "קוד מבנה ופורמטים"
     },
     {
+      "id": "edge-307d043f8cf8dd91c9942c9f",
+      "fromNode": "file-2f07021e8c66c5f378757d19",
+      "fromSide": "right",
+      "toNode": "file-9398c8f4199f53afce374c6f",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קוד מבנה ופורמטים"
+    },
+    {
+      "id": "edge-34cb89118eebc06d95452b54",
+      "fromNode": "file-2f07021e8c66c5f378757d19",
+      "fromSide": "right",
+      "toNode": "file-6da7c6d6dd97f316ce77112a",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קוד מבנה ופורמטים"
+    },
+    {
       "id": "edge-1d663d77b6525de448233576",
       "fromNode": "file-ea2715f73c7eca9f8e811aa1",
       "fromSide": "right",
@@ -7637,6 +7957,26 @@
       "fromNode": "file-ea2715f73c7eca9f8e811aa1",
       "fromSide": "right",
       "toNode": "file-e50179f19b36d92d16979756",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קוד מבנה ופורמטים"
+    },
+    {
+      "id": "edge-cd6f57bbcc38529240f7c970",
+      "fromNode": "file-ea2715f73c7eca9f8e811aa1",
+      "fromSide": "right",
+      "toNode": "file-9398c8f4199f53afce374c6f",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קוד מבנה ופורמטים"
+    },
+    {
+      "id": "edge-1a72427720e67686c9b61028",
+      "fromNode": "file-ea2715f73c7eca9f8e811aa1",
+      "fromSide": "right",
+      "toNode": "file-6da7c6d6dd97f316ce77112a",
       "toSide": "left",
       "fromEnd": "arrow",
       "toEnd": "arrow",
@@ -7793,6 +8133,26 @@
       "label": "קוד מבנה ופורמטים"
     },
     {
+      "id": "edge-5ad09a10755b009d1c84b5bd",
+      "fromNode": "file-b86c84bcf4cf95cff9532f04",
+      "fromSide": "right",
+      "toNode": "file-9398c8f4199f53afce374c6f",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קוד מבנה ופורמטים"
+    },
+    {
+      "id": "edge-28a2e408dad4c27c7c3ceb2c",
+      "fromNode": "file-b86c84bcf4cf95cff9532f04",
+      "fromSide": "right",
+      "toNode": "file-6da7c6d6dd97f316ce77112a",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קוד מבנה ופורמטים"
+    },
+    {
       "id": "edge-f39fc137cf0a47b6da9f9938",
       "fromNode": "file-29b7ca788bf0eb0689fa37a8",
       "fromSide": "right",
@@ -7937,6 +8297,26 @@
       "fromNode": "file-29b7ca788bf0eb0689fa37a8",
       "fromSide": "right",
       "toNode": "file-e50179f19b36d92d16979756",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קוד מבנה ופורמטים"
+    },
+    {
+      "id": "edge-3d0c50c6babd0747532c4ee9",
+      "fromNode": "file-29b7ca788bf0eb0689fa37a8",
+      "fromSide": "right",
+      "toNode": "file-9398c8f4199f53afce374c6f",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קוד מבנה ופורמטים"
+    },
+    {
+      "id": "edge-bf87e5195fd5f8a30f1272cc",
+      "fromNode": "file-29b7ca788bf0eb0689fa37a8",
+      "fromSide": "right",
+      "toNode": "file-6da7c6d6dd97f316ce77112a",
       "toSide": "left",
       "fromEnd": "arrow",
       "toEnd": "arrow",
@@ -8093,6 +8473,26 @@
       "label": "קוד מבנה ופורמטים"
     },
     {
+      "id": "edge-6dd5f9a6d27966f98a4ce6bc",
+      "fromNode": "file-776e2a4462bd81bdc631838b",
+      "fromSide": "right",
+      "toNode": "file-9398c8f4199f53afce374c6f",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קוד מבנה ופורמטים"
+    },
+    {
+      "id": "edge-c7dda3a37ac206511046d0ae",
+      "fromNode": "file-776e2a4462bd81bdc631838b",
+      "fromSide": "right",
+      "toNode": "file-6da7c6d6dd97f316ce77112a",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קוד מבנה ופורמטים"
+    },
+    {
       "id": "edge-8192546e872e7b82365028cb",
       "fromNode": "file-6cc77e559428d019e9ba1a2c",
       "fromSide": "right",
@@ -8237,6 +8637,26 @@
       "fromNode": "file-6cc77e559428d019e9ba1a2c",
       "fromSide": "right",
       "toNode": "file-e50179f19b36d92d16979756",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קוד מבנה ופורמטים"
+    },
+    {
+      "id": "edge-34ffd283f55718538f730408",
+      "fromNode": "file-6cc77e559428d019e9ba1a2c",
+      "fromSide": "right",
+      "toNode": "file-9398c8f4199f53afce374c6f",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קוד מבנה ופורמטים"
+    },
+    {
+      "id": "edge-5324882eb4faf74d86ce68ec",
+      "fromNode": "file-6cc77e559428d019e9ba1a2c",
+      "fromSide": "right",
+      "toNode": "file-6da7c6d6dd97f316ce77112a",
       "toSide": "left",
       "fromEnd": "arrow",
       "toEnd": "arrow",
@@ -8393,6 +8813,26 @@
       "label": "קוד מבנה ופורמטים"
     },
     {
+      "id": "edge-996dfbca8b3b0f3bd14c5e0a",
+      "fromNode": "file-d9a10460b5800db212900558",
+      "fromSide": "right",
+      "toNode": "file-9398c8f4199f53afce374c6f",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קוד מבנה ופורמטים"
+    },
+    {
+      "id": "edge-63e3423a90f12c06ef029add",
+      "fromNode": "file-d9a10460b5800db212900558",
+      "fromSide": "right",
+      "toNode": "file-6da7c6d6dd97f316ce77112a",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קוד מבנה ופורמטים"
+    },
+    {
       "id": "edge-2188313872c7c0defba87242",
       "fromNode": "file-6fe2ac95d71f2e867e3bc0c4",
       "fromSide": "right",
@@ -8537,6 +8977,26 @@
       "fromNode": "file-6fe2ac95d71f2e867e3bc0c4",
       "fromSide": "right",
       "toNode": "file-e50179f19b36d92d16979756",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קוד מבנה ופורמטים"
+    },
+    {
+      "id": "edge-a35e539fb2e006b4eabab244",
+      "fromNode": "file-6fe2ac95d71f2e867e3bc0c4",
+      "fromSide": "right",
+      "toNode": "file-9398c8f4199f53afce374c6f",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קוד מבנה ופורמטים"
+    },
+    {
+      "id": "edge-d1aa8c6f79f9a11a7dcad98d",
+      "fromNode": "file-6fe2ac95d71f2e867e3bc0c4",
+      "fromSide": "right",
+      "toNode": "file-6da7c6d6dd97f316ce77112a",
       "toSide": "left",
       "fromEnd": "arrow",
       "toEnd": "arrow",
@@ -8693,6 +9153,26 @@
       "label": "קוד מבנה ופורמטים"
     },
     {
+      "id": "edge-901ea18d9efaf592ee1020c6",
+      "fromNode": "file-cb81b24b980c6e42a684f3fc",
+      "fromSide": "right",
+      "toNode": "file-9398c8f4199f53afce374c6f",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קוד מבנה ופורמטים"
+    },
+    {
+      "id": "edge-40a3a8581e0add55b1eb7986",
+      "fromNode": "file-cb81b24b980c6e42a684f3fc",
+      "fromSide": "right",
+      "toNode": "file-6da7c6d6dd97f316ce77112a",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קוד מבנה ופורמטים"
+    },
+    {
       "id": "edge-c1a39efa784db69af934cc0a",
       "fromNode": "file-e69bca92ab2c1911ceedfb38",
       "fromSide": "right",
@@ -8837,6 +9317,26 @@
       "fromNode": "file-e69bca92ab2c1911ceedfb38",
       "fromSide": "right",
       "toNode": "file-e50179f19b36d92d16979756",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קוד מבנה ופורמטים"
+    },
+    {
+      "id": "edge-884ad07494506ff84f4dc7db",
+      "fromNode": "file-e69bca92ab2c1911ceedfb38",
+      "fromSide": "right",
+      "toNode": "file-9398c8f4199f53afce374c6f",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קוד מבנה ופורמטים"
+    },
+    {
+      "id": "edge-3ed6a8ed03b3026ff9e4bb6a",
+      "fromNode": "file-e69bca92ab2c1911ceedfb38",
+      "fromSide": "right",
+      "toNode": "file-6da7c6d6dd97f316ce77112a",
       "toSide": "left",
       "fromEnd": "arrow",
       "toEnd": "arrow",
@@ -8993,6 +9493,26 @@
       "label": "קוד מבנה ופורמטים"
     },
     {
+      "id": "edge-be0f9f83cdba9346513900bb",
+      "fromNode": "file-9b4bb0c412aa392ec28bf007",
+      "fromSide": "right",
+      "toNode": "file-9398c8f4199f53afce374c6f",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קוד מבנה ופורמטים"
+    },
+    {
+      "id": "edge-df8b63f4930cd13e0fb32aca",
+      "fromNode": "file-9b4bb0c412aa392ec28bf007",
+      "fromSide": "right",
+      "toNode": "file-6da7c6d6dd97f316ce77112a",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קוד מבנה ופורמטים"
+    },
+    {
       "id": "edge-380f24869a934c2be67871ae",
       "fromNode": "file-d69a3afc74a6511e500c48b4",
       "fromSide": "right",
@@ -9137,6 +9657,26 @@
       "fromNode": "file-d69a3afc74a6511e500c48b4",
       "fromSide": "right",
       "toNode": "file-e50179f19b36d92d16979756",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קוד מבנה ופורמטים"
+    },
+    {
+      "id": "edge-eb098d9f5f536e93c3532e6c",
+      "fromNode": "file-d69a3afc74a6511e500c48b4",
+      "fromSide": "right",
+      "toNode": "file-9398c8f4199f53afce374c6f",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קוד מבנה ופורמטים"
+    },
+    {
+      "id": "edge-a6efd9aacaa206e90436ec5b",
+      "fromNode": "file-d69a3afc74a6511e500c48b4",
+      "fromSide": "right",
+      "toNode": "file-6da7c6d6dd97f316ce77112a",
       "toSide": "left",
       "fromEnd": "arrow",
       "toEnd": "arrow",
@@ -9293,6 +9833,26 @@
       "label": "קוד מבנה ופורמטים"
     },
     {
+      "id": "edge-1c30f4916dade2841e79491d",
+      "fromNode": "file-9dffc76dc26074e34ae23c68",
+      "fromSide": "right",
+      "toNode": "file-9398c8f4199f53afce374c6f",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קוד מבנה ופורמטים"
+    },
+    {
+      "id": "edge-ae4dbbbb1266d1615df96b87",
+      "fromNode": "file-9dffc76dc26074e34ae23c68",
+      "fromSide": "right",
+      "toNode": "file-6da7c6d6dd97f316ce77112a",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קוד מבנה ופורמטים"
+    },
+    {
       "id": "edge-f4c2ad553af27b30059de21f",
       "fromNode": "file-e99dbbb7d636cb97b9625bb1",
       "fromSide": "right",
@@ -9437,6 +9997,26 @@
       "fromNode": "file-e99dbbb7d636cb97b9625bb1",
       "fromSide": "right",
       "toNode": "file-e50179f19b36d92d16979756",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קוד מבנה ופורמטים"
+    },
+    {
+      "id": "edge-100e84ab469e761d84db26cc",
+      "fromNode": "file-e99dbbb7d636cb97b9625bb1",
+      "fromSide": "right",
+      "toNode": "file-9398c8f4199f53afce374c6f",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קוד מבנה ופורמטים"
+    },
+    {
+      "id": "edge-3dfc436ebdd2ad8b9c55ad92",
+      "fromNode": "file-e99dbbb7d636cb97b9625bb1",
+      "fromSide": "right",
+      "toNode": "file-6da7c6d6dd97f316ce77112a",
       "toSide": "left",
       "fromEnd": "arrow",
       "toEnd": "arrow",
@@ -9593,6 +10173,26 @@
       "label": "קוד מבנה ופורמטים"
     },
     {
+      "id": "edge-a5e944ef8e1462a9ea7ff240",
+      "fromNode": "file-6864f7986e6dbee407b9f8d3",
+      "fromSide": "right",
+      "toNode": "file-9398c8f4199f53afce374c6f",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קוד מבנה ופורמטים"
+    },
+    {
+      "id": "edge-4c864412136ab4cba9e32d65",
+      "fromNode": "file-6864f7986e6dbee407b9f8d3",
+      "fromSide": "right",
+      "toNode": "file-6da7c6d6dd97f316ce77112a",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קוד מבנה ופורמטים"
+    },
+    {
       "id": "edge-c0ab5ae89d5ffdc1105b6c28",
       "fromNode": "file-4a8e4bd45131afa9afce80a8",
       "fromSide": "right",
@@ -9737,6 +10337,26 @@
       "fromNode": "file-4a8e4bd45131afa9afce80a8",
       "fromSide": "right",
       "toNode": "file-e50179f19b36d92d16979756",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קוד מבנה ופורמטים"
+    },
+    {
+      "id": "edge-b39ce57d5f55f293230dd917",
+      "fromNode": "file-4a8e4bd45131afa9afce80a8",
+      "fromSide": "right",
+      "toNode": "file-9398c8f4199f53afce374c6f",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קוד מבנה ופורמטים"
+    },
+    {
+      "id": "edge-6d4af85616d5976ec16e9e4f",
+      "fromNode": "file-4a8e4bd45131afa9afce80a8",
+      "fromSide": "right",
+      "toNode": "file-6da7c6d6dd97f316ce77112a",
       "toSide": "left",
       "fromEnd": "arrow",
       "toEnd": "arrow",
@@ -9893,6 +10513,26 @@
       "label": "קוד מבנה ופורמטים"
     },
     {
+      "id": "edge-c83f738ed567e544b5090f95",
+      "fromNode": "file-11f2177f1ffeb83fc15eb8df",
+      "fromSide": "right",
+      "toNode": "file-9398c8f4199f53afce374c6f",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קוד מבנה ופורמטים"
+    },
+    {
+      "id": "edge-ffa6e13cbc6fb5a9533213f3",
+      "fromNode": "file-11f2177f1ffeb83fc15eb8df",
+      "fromSide": "right",
+      "toNode": "file-6da7c6d6dd97f316ce77112a",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קוד מבנה ופורמטים"
+    },
+    {
       "id": "edge-54ea9ea33fa1402f60380da3",
       "fromNode": "file-953bade0b3cc67e20c129d51",
       "fromSide": "right",
@@ -10037,6 +10677,26 @@
       "fromNode": "file-953bade0b3cc67e20c129d51",
       "fromSide": "right",
       "toNode": "file-e50179f19b36d92d16979756",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קוד מבנה ופורמטים"
+    },
+    {
+      "id": "edge-cfcb2696374d245e97bb4dc9",
+      "fromNode": "file-953bade0b3cc67e20c129d51",
+      "fromSide": "right",
+      "toNode": "file-9398c8f4199f53afce374c6f",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קוד מבנה ופורמטים"
+    },
+    {
+      "id": "edge-1112e893943b393423ffc5b5",
+      "fromNode": "file-953bade0b3cc67e20c129d51",
+      "fromSide": "right",
+      "toNode": "file-6da7c6d6dd97f316ce77112a",
       "toSide": "left",
       "fromEnd": "arrow",
       "toEnd": "arrow",

@@ -1,5 +1,9 @@
 'use server';
 import { revalidatePath } from 'next/cache';
+import { requireUser } from '@/lib/auth/session';
+import { getConnection } from '@/lib/db/connection';
+import { submitTemplateEvidence } from '@/lib/db/template-submissions';
+import { getCurriculum } from '@/lib/data';
 import { getAssessmentRepository } from '@/lib/data';
 import type { ActionResult } from '../learn/actions';
 import { MAX_FILES, MAX_FILE_BYTES, MAX_TOTAL_BYTES } from '@/lib/domain/artifacts';
@@ -29,7 +33,7 @@ export async function submitEvidence(
         return { id, criterionId, name: file.name, data: new Uint8Array(await file.arrayBuffer()) };
       }),
     );
-    repo.submit({
+    const payload = {
       submissionId: form.get('submissionId'),
       assessmentId: form.get('assessmentId'),
       rubricVersion: form.get('rubricVersion'),
@@ -45,22 +49,33 @@ export async function submitEvidence(
             },
           }
         : {}),
-    });
+    };
+    if (form.has('templateReferences')) {
+      const references = form.get('templateReferences');
+      if (typeof references !== 'string' || references.length > 4096)
+        throw new Error('INVALID_TEMPLATE_REFERENCES');
+      submitTemplateEvidence(getConnection(), getCurriculum(), (await requireUser()).id, {
+        ...payload,
+        templates: JSON.parse(references),
+      });
+    } else repo.submit(payload);
   } catch (error) {
     const message = error instanceof Error ? error.message : '';
     return {
       ok: false,
       message: ['FILES_TOO_LARGE', 'STORAGE_LIMIT'].includes(message)
-        ? 'הקבצים לא נשמרו. אפשר לצרף עד 6 קבצים, עד 3MB לקובץ ועד 8MB להגשה. נפח האחסון לחשבון הוא 100MB.'
+        ? 'הקבצים לא נשמרו. אפשר לצרף עד 6 קבצים בסך הכול, כולל התבניות שנבחרו. הגודל המרבי הוא 3MB לקובץ ו־8MB להגשה. נפח האחסון לחשבון הוא 100MB.'
         : ['UNSUPPORTED_FILE', 'INVALID_FILE'].includes(message)
           ? 'אחד הקבצים אינו נתמך או שתוכנו אינו מתאים לסוג הקובץ. בחר קובץ טקסט, קוד, PDF, PNG או JPEG תקין.'
-          : message === 'BUILD_REQUIRED'
-            ? 'השלם את תרגיל הבנייה וסמן אותו כהושלם לפני הגשת העבודה לבדיקה.'
-            : message === 'STALE_ASSESSMENT'
-              ? 'גרסת המחוון השתנתה. שמור עותק של התשובות ורענן את העמוד לפני הגשה.'
-              : message === 'SUBMISSION_CONFLICT'
-                ? 'ההגשה הקודמת כבר נשמרה. להגשה חדשה יש לפתוח שוב את השיעור.'
-                : 'ההגשה לא נשמרה. כתוב בין 80 ל־12,000 תווים בכל סעיף ונסה שוב.',
+          : message.startsWith('TEMPLATE_') || message === 'INVALID_TEMPLATE_REFERENCES'
+            ? 'התבנית לא הוגשה. ודא שהמילוי הושלם ושהטיוטה שמורה בגרסה העדכנית, ונסה שוב.'
+            : message === 'BUILD_REQUIRED'
+              ? 'השלם את תרגיל הבנייה וסמן אותו כהושלם לפני הגשת העבודה לבדיקה.'
+              : message === 'STALE_ASSESSMENT'
+                ? 'גרסת המחוון השתנתה. שמור עותק של התשובות ורענן את העמוד לפני הגשה.'
+                : message === 'SUBMISSION_CONFLICT'
+                  ? 'ההגשה הקודמת כבר נשמרה. להגשה חדשה יש לפתוח שוב את השיעור.'
+                  : 'לא התקבל אישור להגשה. בדוק שכל הסעיפים מלאים ושהתבניות שבחרת שמורות, ונסה שוב.',
     };
   }
   revalidatePath('/learn', 'layout');

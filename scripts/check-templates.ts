@@ -13,5 +13,5 @@ validateTemplateCatalog(raw, {
   assessments: loadCurriculum().assessments,
 });
 console.log(
-  `Templates ${templates.version}: ${templates.templates.length} exact criterion workspaces, ${templates.templates.filter((definition) => definition.kind === 'table').length} table structures. Lesson editors and owned autosave are connected; direct frozen template submission remains unfinished.`,
+  `Templates ${templates.version}: ${templates.templates.length} exact criterion workspaces, ${templates.templates.filter((definition) => definition.kind === 'table').length} table structures. Exact rubric bindings passed. This structural check does not certify editor, submission or provider execution.`,
 );

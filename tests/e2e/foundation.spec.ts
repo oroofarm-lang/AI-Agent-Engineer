@@ -45,8 +45,9 @@ test('dashboard → lesson → build → notes → export persists without an AP
   await fields.nth(0).fill(' '.repeat(90));
   await page.getByRole('button', { name: 'הגשת ראיות להערכה' }).click();
   await expect(
-    page.getByText('ההגשה לא נשמרה. כתוב בין 80 ל־12,000 תווים בכל סעיף ונסה שוב.'),
+    page.getByText('ההגשה לא נשמרה. השלם כל סעיף וודא שהתבניות שבחרת מוכנות ושמורות בחשבון.'),
   ).toBeVisible();
+  expect((await (await page.request.get('/api/export')).json()).assessmentResults).toEqual([]);
   await expect(fields.nth(1)).toHaveValue(retainedEvidence);
   await fields.nth(0).fill(retainedEvidence);
   await page.getByRole('button', { name: 'הגשת ראיות להערכה' }).click();

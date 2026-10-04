@@ -1,5 +1,5 @@
 'use client';
-import { useActionState, useEffect, useRef, useState } from 'react';
+import { useActionState, useCallback, useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
 import { Check, ArrowLeft, ArrowRight } from 'lucide-react';
 import type { Assessment } from '@/lib/curriculum/assessment';
@@ -9,6 +9,7 @@ import { PortfolioCard } from './assessment/portfolio-card';
 import { reducedMotion } from '@/lib/domain/motion';
 import { ReinforcementQuiz } from './assessment/reinforcement-quiz';
 import { TemplateWorkspace, type InitialWorkspace } from './assessment/workspace/workspace';
+import { templateSubmission } from '@/lib/templates/formats';
 import type { PublicPracticeQuestion } from '@/lib/quizzes/catalog';
 
 export function AssessmentForm({
@@ -26,6 +27,41 @@ export function AssessmentForm({
   practiceQuestion: PublicPracticeQuestion;
   templateDrafts: InitialWorkspace[];
 }) {
+  // Preserve retry identity across unrelated Server Action revalidation.
+  const [ownedSubmissionId] = useState(submissionId);
+  const [templateModes, setTemplateModes] = useState<Record<string, boolean>>({});
+  const [templateStates, setTemplateStates] = useState<
+    Record<string, { revision: number; ready: boolean }>
+  >(() =>
+    Object.fromEntries(
+      templateDrafts.map((draft) => {
+        let ready = false;
+        try {
+          templateSubmission(draft.document, draft.definition);
+          ready = draft.revision > 0 && !draft.readOnly;
+        } catch {}
+        return [draft.definition.id, { revision: draft.revision, ready }];
+      }),
+    ),
+  );
+  const updateTemplateState = useCallback(
+    (id: string, state: { revision: number; ready: boolean }) => {
+      setTemplateStates((previous) =>
+        previous[id]?.revision === state.revision && previous[id]?.ready === state.ready
+          ? previous
+          : { ...previous, [id]: state },
+      );
+    },
+    [],
+  );
+  const selectedTemplates = templateDrafts.filter(
+    (draft) => templateModes[draft.definition.criterionId],
+  );
+  const templateReferences = selectedTemplates.map((draft) => ({
+    templateId: draft.definition.id,
+    definitionHash: draft.definitionHash,
+    revision: templateStates[draft.definition.id]?.revision || 0,
+  }));
   const [openedTemplates, setOpenedTemplates] = useState<Record<string, boolean>>({});
   const [evidence, setEvidence] = useState<Record<string, string>>({});
   const [files, setFiles] = useState<SelectedArtifact[]>([]);
@@ -39,14 +75,26 @@ export function AssessmentForm({
   const [result, action, pending] = useActionState(
     async (previous: { ok: boolean; message: string }, form: FormData) => {
       for (const item of files) form.append(`artifact:${item.criterionId}:${item.id}`, item.file);
-      return submitEvidence(previous, form);
+      try {
+        return await submitEvidence(previous, form);
+      } catch {
+        return {
+          ok: false,
+          message:
+            'לא התקבל אישור להגשה. התשובות עדיין כאן; נסה להגיש שוב כדי לבדוק אם העבודה נשמרה.',
+        };
+      }
     },
     { ok: true, message: '' },
   );
   const submitted = result.ok && Boolean(result.message),
     disabled = !built || pending || submitted;
-  const valid = (id: string) =>
-    (evidence[id]?.trim().length || 0) >= 80 && (evidence[id]?.length || 0) <= 12000;
+  const valid = (id: string) => {
+    const draft = templateDrafts.find((item) => item.definition.criterionId === id);
+    return templateModes[id] && draft
+      ? Boolean(templateStates[draft.definition.id]?.ready)
+      : (evidence[id]?.trim().length || 0) >= 80 && (evidence[id]?.length || 0) <= 12000;
+  };
   const ready = assessment.criteria.filter((item) => valid(item.id)).length;
   function go(next: number) {
     moved.current = true;
@@ -105,21 +153,37 @@ export function AssessmentForm({
       </nav>
       <form
         action={action}
+        // Keep answer and portfolio selections intact after any resolved action, including a lost acknowledgement.
+        onReset={(event) => event.preventDefault()}
         noValidate
         onSubmit={(event) => {
           setFeedback('');
+          if (files.length + selectedTemplates.length > 6) {
+            event.preventDefault();
+            setFeedback(
+              'אפשר לצרף עד 6 קבצים בסך הכול, כולל התבניות שנבחרו. הסר קובץ או בטל בחירת תבנית ונסה שוב.',
+            );
+            return;
+          }
           const invalid = assessment.criteria.findIndex((item) => !valid(item.id));
           if (invalid >= 0) {
             event.preventDefault();
             go(invalid);
-            setFeedback('ההגשה לא נשמרה. כתוב בין 80 ל־12,000 תווים בכל סעיף ונסה שוב.');
+            setFeedback('ההגשה לא נשמרה. השלם כל סעיף וודא שהתבניות שבחרת מוכנות ושמורות בחשבון.');
           }
         }}
       >
-        <input type="hidden" name="submissionId" value={submissionId} />
+        <input type="hidden" name="submissionId" value={ownedSubmissionId} />
         <input type="hidden" name="assessmentId" value={assessment.id} />
         <input type="hidden" name="rubricVersion" value={assessment.version} />
         <input type="hidden" name="curriculumVersion" value={curriculumVersion} />
+        {selectedTemplates.length > 0 && (
+          <input
+            type="hidden"
+            name="templateReferences"
+            value={JSON.stringify(templateReferences)}
+          />
+        )}
         <fieldset disabled={disabled}>
           {assessment.criteria.map((item, i) => (
             <section
@@ -145,6 +209,7 @@ export function AssessmentForm({
                 {item.evidenceHint} (80–12,000 תווים)
               </p>
               <textarea
+                hidden={Boolean(templateModes[item.id])}
                 value={evidence[item.id] ?? ''}
                 onChange={(event) =>
                   setEvidence((previous) => ({ ...previous, [item.id]: event.target.value }))
@@ -161,9 +226,32 @@ export function AssessmentForm({
               <p id={`${item.id}-feedback`} className="answer-feedback" role="status">
                 {valid(item.id)
                   ? 'המילוי הושלם. איכות התשובה תיבדק לאחר ההגשה.'
-                  : `עוד ${Math.max(0, 80 - (evidence[item.id]?.trim().length || 0))} תווים לפחות כדי לתאר את העבודה.`}
+                  : templateModes[item.id]
+                    ? 'השלם את התבנית והמתן לאישור השמירה.'
+                    : `עוד ${Math.max(0, 80 - (evidence[item.id]?.trim().length || 0))} תווים לפחות כדי לתאר את העבודה.`}
               </p>
-              <details>
+              <label className="toggle-row">
+                <input
+                  type="checkbox"
+                  checked={Boolean(templateModes[item.id])}
+                  onChange={(event) => {
+                    setTemplateModes((previous) => ({
+                      ...previous,
+                      [item.id]: event.target.checked,
+                    }));
+                    if (event.target.checked)
+                      setOpenedTemplates((previous) => ({ ...previous, [item.id]: true }));
+                  }}
+                />
+                להגיש את סעיף {i + 1} מתוך התבנית
+              </label>
+              {templateModes[item.id] && (
+                <p className="muted">
+                  הטיוטה השמורה תשמש כתשובה. עותק קבוע שלה יצורף כקובץ להגשה. הטקסט שכתבת ידנית נשאר
+                  בנפרד; ביטול הבחירה יחזיר אותך אליו.
+                </p>
+              )}
+              <details open={templateModes[item.id] ? true : undefined}>
                 <summary
                   onClick={() =>
                     setOpenedTemplates((previous) => ({ ...previous, [item.id]: true }))
@@ -177,6 +265,7 @@ export function AssessmentForm({
                       initial={templateDrafts.find((d) => d.definition.criterionId === item.id)!}
                       curriculumVersion={curriculumVersion}
                       disabled={disabled}
+                      onSubmissionState={updateTemplateState}
                       onUse={(text) =>
                         setEvidence((previous) => ({ ...previous, [item.id]: text }))
                       }
@@ -246,16 +335,22 @@ export function AssessmentForm({
               title={title}
               summary={summary}
               status={submitted ? 'ממתינה להערכה' : 'טיוטה · עדיין לא הוגשה'}
-              fileCount={files.length}
+              fileCount={files.length + selectedTemplates.length}
               preview
             />
           </details>
           <p className="muted">
-            קבצים שנבחרו להגשה: {files.length}. הקבצים יישמרו בחשבון שלך עם התשובות; אפשר להוריד
-            אותם לאחר ההגשה.
+            קבצים שנבחרו להגשה: {files.length + selectedTemplates.length} (כולל תבניות שנבחרו).
+            הקבצים יישמרו בחשבון שלך עם התשובות; אפשר להוריד אותם לאחר ההגשה.
           </p>
           <button className="button primary" type="submit">
-            {pending ? 'שומר תשובות וקבצים…' : submitted ? 'הראיות הוגשו' : 'הגשת ראיות להערכה'}
+            {pending
+              ? 'שומר תשובות וקבצים…'
+              : submitted
+                ? 'הראיות הוגשו'
+                : selectedTemplates.length
+                  ? 'הגש מתוך הטמפלייט'
+                  : 'הגשת ראיות להערכה'}
           </button>
         </fieldset>
         <p role="status" className={result.ok ? 'form-status' : 'form-error'}>

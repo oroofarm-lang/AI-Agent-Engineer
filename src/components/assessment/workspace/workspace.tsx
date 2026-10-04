@@ -42,11 +42,13 @@ export function TemplateWorkspace({
   curriculumVersion,
   disabled,
   onUse,
+  onSubmissionState,
 }: {
   initial: InitialWorkspace;
   curriculumVersion: string;
   disabled: boolean;
   onUse: (text: string) => void;
+  onSubmissionState: (id: string, state: { revision: number; ready: boolean }) => void;
 }) {
   const [coordinator] = useState(
     () =>
@@ -94,6 +96,7 @@ export function TemplateWorkspace({
     return () => window.removeEventListener('beforeunload', warn);
   }, [coordinator]);
   function edit(document: TemplateDocument) {
+    onSubmissionState(initial.definition.id, { revision: view.revision, ready: false });
     setLocal(document);
     setMessage('');
     try {
@@ -114,6 +117,20 @@ export function TemplateWorkspace({
   } catch {
     /* Incomplete/temporarily invalid work remains editable and is never submitted. */
   }
+  useEffect(() => {
+    onSubmissionState(initial.definition.id, {
+      revision: view.revision,
+      ready: ready && !invalid && view.status === 'saved' && !initial.readOnly,
+    });
+  }, [
+    onSubmissionState,
+    initial.definition.id,
+    initial.readOnly,
+    view.revision,
+    view.status,
+    ready,
+    invalid,
+  ]);
   async function reloadSaved() {
     if (
       !window.confirm('טעינת הטיוטה השמורה תחליף את העבודה המקומית. הורד עותק לפני ההחלפה. להמשיך?')
