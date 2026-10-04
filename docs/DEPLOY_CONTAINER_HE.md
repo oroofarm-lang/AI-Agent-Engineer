@@ -63,6 +63,8 @@ docker compose --env-file .env.production run --rm --no-deps --entrypoint npm ap
 
 ## בדיקות החבילה
 
-GitHub Actions בונה תמונה ללא סודות, מאמת את תצורת Caddy, מפעיל אותה עם פרטים סינתטיים ובודק מוכנות, שמירת מסד לאחר החלפת המכולה וגיבוי לפני מיגרציה. כרכי הבדיקה נוצרים ונמחקים בנפרד. SMTP בבדיקת המכולה אינו שירות פעיל ואין שליחת מייל. בדיקת המכולה אינה פריסה ציבורית או הסמכת נגישות.
+GitHub Actions בונה תמונה ללא סודות, מאמת את תצורת Caddy, מפעיל אותה עם פרטים סינתטיים ובודק מוכנות, שמירת מסד לאחר החלפת המכולה וגיבוי לפני מיגרציה. היא גם משנה רשומת בדיקה, משחזרת את הגיבוי בכרך הבדיקה ומוודאת הפעלה מחדש עם הערך המקורי. תצורת Compose נבדקת עם הגדרות סינתטיות וללא הדפסתן. כרכי הבדיקה נוצרים ונמחקים בנפרד. SMTP בבדיקת המכולה אינו שירות פעיל ואין שליחת מייל. בדיקת המכולה אינה פריסה ציבורית או הסמכת נגישות.
 
 מקורות: [Next.js self-hosting](https://nextjs.org/docs/app/guides/self-hosting), [Caddy reverse_proxy](https://caddyserver.com/docs/caddyfile/directives/reverse_proxy), [Caddy request_body](https://caddyserver.com/docs/caddyfile/directives/request_body), [Docker Compose](https://docs.docker.com/reference/compose-file/services/). מדריך Next.js המותקן בפרויקט נקרא לפני הכנת החבילה; תיעוד התשתית נבדק ב־2026-10-04.
+
+תוצאות הריצות שנצפו והגבולות שלהן מתועדות ב־[דוח בדיקות הפריסה](quality-reports/2026-10-04-production-container.md).
