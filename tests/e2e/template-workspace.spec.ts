@@ -148,3 +148,32 @@ test('unbuilt lesson allows saved table editing and opens the native file picker
   await question.getByText('לעבוד בתבנית בתוך השיעור', { exact: true }).click();
   await expect(cell).toHaveValue('בדיקת טבלה לפני השלמת תרגיל הבנייה');
 });
+
+test('Markdown formatting preserves oversized multiline selections and supports keyboard emphasis', async ({
+  page,
+}) => {
+  await page.goto('/learn/FND_01?module=CORE');
+  await page.getByRole('button', { name: 'התחלת השיעור' }).click();
+  const question = page.locator('.assessment-question:not([hidden])');
+  await question.getByText('לעבוד בתבנית בתוך השיעור', { exact: true }).click();
+  const workspace = question.locator('[data-template-workspace]');
+  const notes = workspace.getByRole('textbox', { name: 'הסבר, תוצאות ומה למדתי' });
+  const long = 'abcdefg\n'.repeat(1460);
+  await notes.fill(long);
+  await notes.evaluate((node: HTMLTextAreaElement) => node.setSelectionRange(0, node.value.length));
+  await workspace.getByRole('button', { name: 'רשימה', exact: true }).click();
+  await expect(workspace.getByText('העיצוב לא הוחל כי הוא חורג', { exact: false })).toBeVisible();
+  await expect(notes).toHaveValue(long);
+  await notes.fill('sample');
+  await notes.evaluate((node: HTMLTextAreaElement) => node.setSelectionRange(0, node.value.length));
+  await notes.press('Control+b');
+  await expect(notes).toHaveValue('**sample**');
+  await workspace.getByText('תצוגה מקדימה של העבודה', { exact: true }).click();
+  await expect(
+    workspace.locator('.template-preview strong').filter({ hasText: 'sample' }),
+  ).toBeVisible();
+  await expect(workspace.getByText('הטיוטה שמורה בחשבון שלך.', { exact: true })).toBeVisible();
+  await page.reload();
+  await question.getByText('לעבוד בתבנית בתוך השיעור', { exact: true }).click();
+  await expect(notes).toHaveValue('**sample**');
+});

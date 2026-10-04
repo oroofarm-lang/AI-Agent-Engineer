@@ -1,5 +1,5 @@
 'use client';
-import { useRef } from 'react';
+import { useRef, useState } from 'react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import { codeTokens, formatMarkdown, type MarkdownFormat } from '@/lib/templates/markdown-edit';
@@ -52,6 +52,25 @@ export function MarkdownEditor({
   disabled?: boolean;
 }) {
   const editor = useRef<HTMLTextAreaElement>(null);
+  const [formatError, setFormatError] = useState('');
+  function applyFormat(format: MarkdownFormat) {
+    const element = editor.current;
+    if (!element || disabled) return;
+    try {
+      const change = formatMarkdown(value, element.selectionStart, element.selectionEnd, format);
+      onChange(change.text);
+      setFormatError('');
+      requestAnimationFrame(() => {
+        element.focus();
+        element.setSelectionRange(change.start, change.end);
+      });
+    } catch {
+      setFormatError(
+        'העיצוב לא הוחל כי הוא חורג ממגבלת 12,000 התווים. הטקסט שלך לא השתנה. קצר מעט את הטקסט ונסה שוב.',
+      );
+      element.focus();
+    }
+  }
   const formats: [MarkdownFormat, string][] = [
     ['bold', 'הדגשה'],
     ['italic', 'כתב נטוי'],
@@ -67,22 +86,15 @@ export function MarkdownEditor({
           <button
             type="button"
             key={format}
-            onClick={() => {
-              const element = editor.current;
-              if (!element) return;
-              const change = formatMarkdown(
-                value,
-                element.selectionStart,
-                element.selectionEnd,
-                format,
-              );
-              onChange(change.text);
-              requestAnimationFrame(() => {
-                element.focus();
-                element.setSelectionRange(change.start, change.end);
-              });
-            }}
-            disabled={disabled || value.length > 11980}
+            onClick={() => applyFormat(format)}
+            aria-keyshortcuts={
+              format === 'bold'
+                ? 'Control+b Meta+b'
+                : format === 'italic'
+                  ? 'Control+i Meta+i'
+                  : undefined
+            }
+            disabled={disabled}
           >
             {label}
           </button>
@@ -92,12 +104,35 @@ export function MarkdownEditor({
         id={id}
         ref={editor}
         value={value}
-        onChange={(event) => onChange(event.target.value)}
+        onChange={(event) => {
+          onChange(event.target.value);
+          setFormatError('');
+        }}
+        onKeyDown={(event) => {
+          if (
+            !(event.ctrlKey || event.metaKey) ||
+            event.altKey ||
+            event.shiftKey ||
+            event.nativeEvent.isComposing
+          )
+            return;
+          const key = event.key.toLowerCase();
+          if (key !== 'b' && key !== 'i') return;
+          event.preventDefault();
+          applyFormat(key === 'b' ? 'bold' : 'italic');
+        }}
+        aria-describedby={`${id}-format-help ${id}-format-error`}
         maxLength={12000}
         rows={8}
         disabled={disabled}
         dir="auto"
       />
+      <p id={`${id}-format-help`} className="muted">
+        אפשר לעצב טקסט מסומן באמצעות הכפתורים. קיצורי מקלדת: Ctrl או ⌘ עם B להדגשה ועם I לכתב נטוי.
+      </p>
+      <p id={`${id}-format-error`} role="status" className="form-error">
+        {formatError}
+      </p>
       <span className="muted">{value.length.toLocaleString('he-IL')} מתוך 12,000 תווים</span>
     </div>
   );
