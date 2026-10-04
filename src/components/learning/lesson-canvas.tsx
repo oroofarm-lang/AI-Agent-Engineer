@@ -170,6 +170,14 @@ export function LessonCanvas({
                     : 'הבנתי, סיימתי לקרוא'
                   : 'הבנתי, לשקופית הבאה'}
               </button>
+              {finished.includes(index) && (
+                <button
+                  className="button subtle"
+                  onClick={() => setFinished((previous) => previous.filter((value) => value !== index))}
+                >
+                  ביטול סימון הקריאה
+                </button>
+              )}
               <span role="status">
                 {finished.includes(index)
                   ? 'סימון קריאה בלבד. את תרגיל הבנייה מגישים בנפרד.'

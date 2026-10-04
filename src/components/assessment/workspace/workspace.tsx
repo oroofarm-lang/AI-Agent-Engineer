@@ -73,6 +73,7 @@ export function TemplateWorkspace({
   );
   const [view, setView] = useState<SaveView>(() => coordinator.view());
   const [local, setLocal] = useState(initial.document);
+  const [exportingPDF, setExportingPDF] = useState(false);
   const [invalid, setInvalid] = useState(false),
     [message, setMessage] = useState('');
   const invalidRef = useRef(false);
@@ -250,6 +251,30 @@ export function TemplateWorkspace({
           }
         >
           הורדת JSON
+        </button>
+        <button
+          type="button"
+          className="button secondary"
+          disabled={invalid || exportingPDF}
+          onClick={async () => {
+            setExportingPDF(true);
+            try {
+              const { exportTemplatePDF } = await import('@/lib/templates/pdf');
+              const blob = await exportTemplatePDF(local, initial.definition);
+              const url = URL.createObjectURL(blob);
+              const anchor = document.createElement('a');
+              anchor.href = url;
+              anchor.download = `${initial.definition.id}.pdf`;
+              anchor.click();
+              setTimeout(() => URL.revokeObjectURL(url), 1000);
+            } catch {
+              setMessage('לא הצלחנו ליצור את קובץ ה־PDF. העבודה עדיין כאן; אפשר לנסות שוב.');
+            } finally {
+              setExportingPDF(false);
+            }
+          }}
+        >
+          {exportingPDF ? 'מכין PDF…' : 'הורדת PDF'}
         </button>
         {local.table && (
           <button

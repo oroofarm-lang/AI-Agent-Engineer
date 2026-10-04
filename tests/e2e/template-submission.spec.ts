@@ -49,6 +49,17 @@ test('saved templates submit as frozen owned artifacts and portfolio, including 
     const response = await page.request.get(`/api/templates/drafts?templateId=${id}`);
     expect(response.ok()).toBe(true);
     snapshots.set(id, (await response.json()).draft);
+    if (i === 0) {
+      const downloaded = page.waitForEvent('download');
+      await workspace.getByRole('button', { name: 'הורדת PDF', exact: true }).click();
+      const pdfDownload = await downloaded;
+      expect(pdfDownload.suggestedFilename()).toBe(`${id}.pdf`);
+      await pdfDownload.saveAs('test-results/template-export.pdf');
+      const { readFile } = await import('node:fs/promises');
+      const bytes = await readFile('test-results/template-export.pdf');
+      expect(bytes.subarray(0, 5).toString()).toBe('%PDF-');
+      expect(bytes.length).toBeGreaterThan(5000);
+    }
   }
   await expect(quiz.getByText(`תשובות מוכנות להגשה: ${count}`, { exact: true })).toBeVisible();
   await nav.getByRole('button', { name: /^שאלה 1( |$)/ }).click();
@@ -113,7 +124,9 @@ test('saved templates submit as frozen owned artifacts and portfolio, including 
   expect(committed.assessmentResults).toHaveLength(1);
   expect(committed.assessmentArtifacts).toHaveLength(count + 1);
   // An unrelated Server Action refresh must not replace the retry identity.
-  await page.getByLabel('ההערות שלי לשיעור').fill('הערה סינתטית לבדיקת רענון לאחר אובדן אישור הגשה.');
+  await page
+    .getByLabel('ההערות שלי לשיעור')
+    .fill('הערה סינתטית לבדיקת רענון לאחר אובדן אישור הגשה.');
   await page.getByRole('button', { name: 'שמירת הערות', exact: true }).click();
   await expect(page.getByText('ההערות נשמרו בחשבון שלך.', { exact: true })).toBeVisible();
   await expect(quiz.locator('input[name="submissionId"]')).toHaveValue(submissionId);

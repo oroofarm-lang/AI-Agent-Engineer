@@ -28,6 +28,15 @@ test('focus cards, concrete instruction practice and reading acknowledgement wor
     .getByRole('button', { name: /^שקופית 1:/ })
     .click();
   await expect(page.getByRole('heading', { name: 'המשימה', exact: true })).toBeVisible();
+  await page.getByRole('button', { name: 'ביטול סימון הקריאה', exact: true }).click();
+  await expect(numbered.getByRole('button', { name: /^שקופית 1:/ })).not.toHaveClass(/acknowledged/);
+  await expect(page.getByRole('button', { name: 'ביטול סימון הקריאה' })).toHaveCount(0);
+  await numbered.getByRole('button').last().click();
+  await page.getByRole('button', { name: 'הבנתי, סיימתי לקרוא', exact: true }).click();
+  await expect(page.getByRole('button', { name: 'סיימתי לקרוא', exact: true })).toBeDisabled();
+  await page.getByRole('button', { name: 'ביטול סימון הקריאה', exact: true }).click();
+  await expect(page.getByRole('button', { name: 'הבנתי, סיימתי לקרוא', exact: true })).toBeEnabled();
+  await page.getByRole('button', { name: 'הבנתי, סיימתי לקרוא', exact: true }).click();
   const after = await (await page.request.get('/api/export')).json();
   expect(after.lessonProgress).toEqual(before.lessonProgress);
   await page.getByRole('button', { name: 'קריאה רציפה' }).click();
