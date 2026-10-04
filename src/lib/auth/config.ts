@@ -13,7 +13,7 @@ export function authOptions(connection: Connection) {
     !local &&
     (new URL(baseURL).protocol !== 'https:' || !process.env.BETTER_AUTH_SECRET || !mail)
   )
-    throw new Error('Public auth requires HTTPS, BETTER_AUTH_SECRET, SMTP_URL and MAIL_FROM.');
+    throw new Error('Public auth requires HTTPS, BETTER_AUTH_SECRET, a configured mail provider and MAIL_FROM.');
   const secret =
     process.env.BETTER_AUTH_SECRET ||
     readFileSync(

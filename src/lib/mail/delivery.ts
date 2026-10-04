@@ -1,6 +1,15 @@
 import nodemailer from 'nodemailer';
+import { sendGmailEmail } from './gmail';
 
 export function mailConfigured() {
+  if (process.env.MAIL_PROVIDER === 'gmail')
+    return Boolean(
+      process.env.MAIL_FROM &&
+      process.env.GMAIL_CLIENT_ID &&
+      process.env.GMAIL_CLIENT_SECRET &&
+      process.env.GMAIL_REFRESH_TOKEN,
+    );
+  if (process.env.MAIL_PROVIDER && process.env.MAIL_PROVIDER !== 'smtp') return false;
   return Boolean(
     process.env.MAIL_FROM &&
     (process.env.SMTP_URL ||
@@ -10,6 +19,7 @@ export function mailConfigured() {
 
 export function mailTransport() {
   if (!mailConfigured()) throw new Error('MAIL_NOT_CONFIGURED');
+  if (process.env.MAIL_PROVIDER === 'gmail') throw new Error('SMTP_NOT_SELECTED');
   return nodemailer.createTransport({
     ...(process.env.SMTP_URL
       ? { url: process.env.SMTP_URL }
@@ -30,11 +40,17 @@ export function mailTransport() {
 }
 
 export async function sendAccountEmail(to: string, subject: string, url: string) {
+  const text = `Agent Engineer\n\n${url}\n\nהקישור מיועד לאימות החשבון או לאיפוס הסיסמה, לפי בקשתך. אם לא ביקשת זאת, אפשר להתעלם מההודעה.`;
+  if (process.env.MAIL_PROVIDER === 'gmail') {
+    if (!mailConfigured()) throw new Error('MAIL_NOT_CONFIGURED');
+    await sendGmailEmail(to, subject, text);
+    return;
+  }
   const result = await mailTransport().sendMail({
     from: process.env.MAIL_FROM,
     to,
     subject,
-    text: `Agent Engineer\n\n${url}\n\nהקישור מיועד לאימות החשבון או לאיפוס הסיסמה, לפי בקשתך. אם לא ביקשת זאת, אפשר להתעלם מההודעה.`,
+    text,
   });
   if (result?.rejected?.length) throw new Error('MAIL_REJECTED');
 }

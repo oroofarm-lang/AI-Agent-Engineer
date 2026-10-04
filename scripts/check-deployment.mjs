@@ -11,8 +11,17 @@ const required = [
 ];
 const missing = required.filter((key) => !process.env[key]);
 if (missing.length) throw new Error(`Deployment is not configured: ${missing.join(', ')}`);
-if (!process.env.SMTP_URL && !(process.env.SMTP_HOST && process.env.SMTP_USER && process.env.SMTP_PASSWORD))
-  throw new Error('Deployment requires configured SMTP delivery.');
+const gmail =
+  process.env.MAIL_PROVIDER === 'gmail' &&
+  process.env.GMAIL_CLIENT_ID &&
+  process.env.GMAIL_CLIENT_SECRET &&
+  process.env.GMAIL_REFRESH_TOKEN;
+const smtp =
+  (!process.env.MAIL_PROVIDER || process.env.MAIL_PROVIDER === 'smtp') &&
+  (process.env.SMTP_URL ||
+    (process.env.SMTP_HOST && process.env.SMTP_USER && process.env.SMTP_PASSWORD));
+if (!gmail && !smtp)
+  throw new Error('Deployment requires a configured SMTP or Gmail OAuth provider.');
 if (!process.env.BETTER_AUTH_URL.startsWith('https://'))
   throw new Error('Public origin must use HTTPS.');
 if (process.env.BETTER_AUTH_SECRET.length < 32)

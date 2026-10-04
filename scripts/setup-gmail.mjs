@@ -2,40 +2,9 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import { randomUUID } from 'node:crypto';
 import { createInterface } from 'node:readline/promises';
+import { readHiddenInput } from './lib/hidden-input.mjs';
 import { gmailConfiguration } from './lib/gmail-config.mjs';
 
-function hiddenPassword() {
-  return new Promise((resolve, reject) => {
-    let value = '';
-    const priorRaw = process.stdin.isRaw;
-    process.stdin.setRawMode(true);
-    process.stdout.write('סיסמת אפליקציה של Google (לא תוצג): ');
-    process.stdin.resume();
-    const cleanup = () => {
-      process.stdin.off('data', receive);
-      process.stdin.setRawMode(Boolean(priorRaw));
-      process.stdin.pause();
-      process.stdout.write('\n');
-    };
-    function receive(buffer) {
-      for (const char of buffer.toString('utf8')) {
-        if (char === '\u0003' || char === '\u0004') {
-          cleanup();
-          reject(new Error('CANCELLED'));
-          return;
-        }
-        if (char === '\r' || char === '\n') {
-          cleanup();
-          resolve(value);
-          return;
-        }
-        if (char === '\u007f' || char === '\b') value = value.slice(0, -1);
-        else if (char >= ' ') value += char;
-      }
-    }
-    process.stdin.on('data', receive);
-  });
-}
 async function main() {
   if (!process.stdin.isTTY || !process.stdout.isTTY) throw new Error('TTY_REQUIRED');
   console.log('חיבור Gmail לאימות חשבון ולאיפוס סיסמה. אין להזין את סיסמת החשבון הרגילה.');
@@ -43,7 +12,7 @@ async function main() {
   const prompt = createInterface({ input: process.stdin, output: process.stdout });
   const email = await prompt.question('כתובת Gmail לשליחה: ');
   prompt.close();
-  const password = await hiddenPassword();
+  const password = await readHiddenInput('סיסמת אפליקציה של Google (לא תוצג): ');
   const target = path.resolve('.env.local');
   let previous = '';
   try {

@@ -30,7 +30,8 @@
     "mentor:refresh": "tsx scripts/refresh-mentor-knowledge.ts",
     "quality:audit": "npm run quality:inventory && npm run verify",
     "templates:check": "tsx scripts/check-templates.ts",
-    "mail:setup:gmail": "node scripts/setup-gmail.mjs"
+    "mail:setup:gmail": "node scripts/setup-gmail.mjs",
+    "mail:setup:gmail:oauth": "node scripts/setup-gmail-oauth.mjs"
   },
   "dependencies": {
     "@fontsource/noto-sans-hebrew": "^5.3.0",
