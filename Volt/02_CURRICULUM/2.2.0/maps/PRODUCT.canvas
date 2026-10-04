@@ -776,7 +776,7 @@
       "x": 7076,
       "y": 250,
       "width": 1370,
-      "height": 5630,
+      "height": 6090,
       "label": "קשרים נוספים לפרק ולשיעורים",
       "color": "6"
     },
@@ -1051,11 +1051,21 @@
       "color": "6"
     },
     {
+      "id": "file-0ca5c16e35c4a5004b58cc61",
+      "type": "file",
+      "file": "04_AUTOMATIONS_AND_APIS/assets/MENTOR_ACTIVE_TASK.md",
+      "x": 7780,
+      "y": 3320,
+      "width": 640,
+      "height": 180,
+      "color": "6"
+    },
+    {
       "id": "file-25122d83d4c496cabc744ce1",
       "type": "file",
       "file": "04_AUTOMATIONS_AND_APIS/assets/MENTOR_COMPONENT.md",
-      "x": 7780,
-      "y": 3320,
+      "x": 7100,
+      "y": 3550,
       "width": 640,
       "height": 180,
       "color": "6"
@@ -1064,8 +1074,28 @@
       "id": "file-f8ca97dd4bd1cad5713d8d1c",
       "type": "file",
       "file": "04_AUTOMATIONS_AND_APIS/assets/MENTOR_INPUT_CONTRACT.md",
-      "x": 7100,
+      "x": 7780,
       "y": 3550,
+      "width": 640,
+      "height": 180,
+      "color": "6"
+    },
+    {
+      "id": "file-fa1b728d0c2e77821cf4ea81",
+      "type": "file",
+      "file": "04_AUTOMATIONS_AND_APIS/assets/MENTOR_LESSON_HELP_STYLE.md",
+      "x": 7100,
+      "y": 3780,
+      "width": 640,
+      "height": 180,
+      "color": "6"
+    },
+    {
+      "id": "file-9f99a571769c0fc3adba53c8",
+      "type": "file",
+      "file": "04_AUTOMATIONS_AND_APIS/assets/MENTOR_LESSON_HELP.md",
+      "x": 7780,
+      "y": 3780,
       "width": 640,
       "height": 180,
       "color": "6"
@@ -1074,8 +1104,8 @@
       "id": "file-c3009050d0238474c9ec827e",
       "type": "file",
       "file": "04_AUTOMATIONS_AND_APIS/assets/MENTOR_TEMPLATE_CONTEXT.md",
-      "x": 7780,
-      "y": 3550,
+      "x": 7100,
+      "y": 4010,
       "width": 640,
       "height": 180,
       "color": "6"
@@ -1084,8 +1114,8 @@
       "id": "file-5859f5e7c5b2fdd5e8b63009",
       "type": "file",
       "file": "04_AUTOMATIONS_AND_APIS/assets/PORTFOLIO_COMPONENT.md",
-      "x": 7100,
-      "y": 3780,
+      "x": 7780,
+      "y": 4010,
       "width": 640,
       "height": 180,
       "color": "6"
@@ -1094,8 +1124,8 @@
       "id": "file-6da7c6d6dd97f316ce77112a",
       "type": "file",
       "file": "04_AUTOMATIONS_AND_APIS/assets/PROOF_COMPONENT.md",
-      "x": 7780,
-      "y": 3780,
+      "x": 7100,
+      "y": 4240,
       "width": 640,
       "height": 180,
       "color": "6"
@@ -1104,8 +1134,8 @@
       "id": "file-c0ca35f9ba74923cd8714ce9",
       "type": "file",
       "file": "04_AUTOMATIONS_AND_APIS/assets/QUIZ_REVIEW_COMPONENT.md",
-      "x": 7100,
-      "y": 4010,
+      "x": 7780,
+      "y": 4240,
       "width": 640,
       "height": 180,
       "color": "6"
@@ -1114,8 +1144,8 @@
       "id": "file-9e3e97de93af0eadf98932f0",
       "type": "file",
       "file": "04_AUTOMATIONS_AND_APIS/assets/REINFORCEMENT_COMPONENT.md",
-      "x": 7780,
-      "y": 4010,
+      "x": 7100,
+      "y": 4470,
       "width": 640,
       "height": 180,
       "color": "6"
@@ -1124,8 +1154,8 @@
       "id": "file-e50179f19b36d92d16979756",
       "type": "file",
       "file": "04_AUTOMATIONS_AND_APIS/assets/TEMPLATE_DRAFT_CONTRACT.md",
-      "x": 7100,
-      "y": 4240,
+      "x": 7780,
+      "y": 4470,
       "width": 640,
       "height": 180,
       "color": "6"
@@ -1134,8 +1164,8 @@
       "id": "file-f2fd61b766033bc14fe7cfd2",
       "type": "file",
       "file": "04_AUTOMATIONS_AND_APIS/assets/TEMPLATE_FORMATS.md",
-      "x": 7780,
-      "y": 4240,
+      "x": 7100,
+      "y": 4700,
       "width": 640,
       "height": 180,
       "color": "6"
@@ -1144,8 +1174,8 @@
       "id": "file-74c46a45967aff45e3fdaf10",
       "type": "file",
       "file": "04_AUTOMATIONS_AND_APIS/assets/TEMPLATE_MARKDOWN_COMPONENT.md",
-      "x": 7100,
-      "y": 4470,
+      "x": 7780,
+      "y": 4700,
       "width": 640,
       "height": 180,
       "color": "6"
@@ -1154,8 +1184,8 @@
       "id": "file-c8a68bd518c28bde2f5b7f66",
       "type": "file",
       "file": "04_AUTOMATIONS_AND_APIS/assets/TEMPLATE_PDF_DIRECTION.md",
-      "x": 7780,
-      "y": 4470,
+      "x": 7100,
+      "y": 4930,
       "width": 640,
       "height": 180,
       "color": "6"
@@ -1164,8 +1194,8 @@
       "id": "file-90a46fd8260184be4c99858e",
       "type": "file",
       "file": "04_AUTOMATIONS_AND_APIS/assets/TEMPLATE_PDF_EXPORT.md",
-      "x": 7100,
-      "y": 4700,
+      "x": 7780,
+      "y": 4930,
       "width": 640,
       "height": 180,
       "color": "6"
@@ -1174,8 +1204,8 @@
       "id": "file-5b0a3e869b74eef341533b92",
       "type": "file",
       "file": "04_AUTOMATIONS_AND_APIS/assets/TEMPLATE_PDF_MARKDOWN.md",
-      "x": 7780,
-      "y": 4700,
+      "x": 7100,
+      "y": 5160,
       "width": 640,
       "height": 180,
       "color": "6"
@@ -1184,8 +1214,8 @@
       "id": "file-9e66b3167040e1791ffa0fa5",
       "type": "file",
       "file": "04_AUTOMATIONS_AND_APIS/assets/TEMPLATE_SCHEMA.md",
-      "x": 7100,
-      "y": 4930,
+      "x": 7780,
+      "y": 5160,
       "width": 640,
       "height": 180,
       "color": "6"
@@ -1194,8 +1224,8 @@
       "id": "file-9398c8f4199f53afce374c6f",
       "type": "file",
       "file": "04_AUTOMATIONS_AND_APIS/assets/TEMPLATE_SUBMISSION_CONTRACT.md",
-      "x": 7780,
-      "y": 4930,
+      "x": 7100,
+      "y": 5390,
       "width": 640,
       "height": 180,
       "color": "6"
@@ -1204,8 +1234,8 @@
       "id": "file-3af262fb6ebc6db9869ae9f0",
       "type": "file",
       "file": "04_AUTOMATIONS_AND_APIS/assets/TEMPLATE_TABLE_COMPONENT.md",
-      "x": 7100,
-      "y": 5160,
+      "x": 7780,
+      "y": 5390,
       "width": 640,
       "height": 180,
       "color": "6"
@@ -1214,8 +1244,8 @@
       "id": "file-9bd0492c26c7c658b0c61902",
       "type": "file",
       "file": "04_AUTOMATIONS_AND_APIS/assets/TEMPLATE_WORKSPACE_COMPONENT.md",
-      "x": 7780,
-      "y": 5160,
+      "x": 7100,
+      "y": 5620,
       "width": 640,
       "height": 180,
       "color": "6"
@@ -1224,8 +1254,8 @@
       "id": "file-1dd25fdb65722cf0f794a1e2",
       "type": "file",
       "file": "04_AUTOMATIONS_AND_APIS/assets/UPLOAD_COMPONENT.md",
-      "x": 7100,
-      "y": 5390,
+      "x": 7780,
+      "y": 5620,
       "width": 640,
       "height": 180,
       "color": "6"
@@ -1234,8 +1264,8 @@
       "id": "file-c240e8585cd1a151190dd59b",
       "type": "file",
       "file": "04_AUTOMATIONS_AND_APIS/assets/WORKSPACE_NAVIGATION_COMPONENT.md",
-      "x": 7780,
-      "y": 5390,
+      "x": 7100,
+      "y": 5850,
       "width": 640,
       "height": 180,
       "color": "6"
@@ -1244,8 +1274,8 @@
       "id": "file-8054ccbe9a59e8e9a8011252",
       "type": "file",
       "file": "04_AUTOMATIONS_AND_APIS/knowledge-sources/N8N.md",
-      "x": 7100,
-      "y": 5620,
+      "x": 7780,
+      "y": 5850,
       "width": 640,
       "height": 180,
       "color": "6"
@@ -1254,8 +1284,8 @@
       "id": "file-fdab6efb1437fd6b660f5e82",
       "type": "file",
       "file": "04_AUTOMATIONS_AND_APIS/technologies/N8N.md",
-      "x": 7780,
-      "y": 5620,
+      "x": 7100,
+      "y": 6080,
       "width": 640,
       "height": 180,
       "color": "6"
@@ -4021,6 +4051,176 @@
       "fromEnd": "arrow",
       "toEnd": "arrow",
       "label": "מקור למומחה"
+    },
+    {
+      "id": "edge-2bd8edc92e5fca2ade8f2018",
+      "fromNode": "file-9f99a571769c0fc3adba53c8",
+      "fromSide": "right",
+      "toNode": "file-970f1c3b737ba49e4fa49178",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קובץ עזר לפרק"
+    },
+    {
+      "id": "edge-bbcf1136074063aaf82a9983",
+      "fromNode": "file-9f99a571769c0fc3adba53c8",
+      "fromSide": "right",
+      "toNode": "file-0d144fd688f42b47485b3f13",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קובץ עזר למומחה"
+    },
+    {
+      "id": "edge-a363414368012ccceac61476",
+      "fromNode": "file-9f99a571769c0fc3adba53c8",
+      "fromSide": "right",
+      "toNode": "file-c1de88bc3689e476f87416fa",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קובץ עזר למומחה"
+    },
+    {
+      "id": "edge-a82fb85f8144413a76ed4baa",
+      "fromNode": "file-9f99a571769c0fc3adba53c8",
+      "fromSide": "right",
+      "toNode": "file-61e6e2118dba2a11aa442a3f",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קובץ עזר למומחה"
+    },
+    {
+      "id": "edge-61ad295967eafc290e6e19f4",
+      "fromNode": "file-9f99a571769c0fc3adba53c8",
+      "fromSide": "right",
+      "toNode": "file-be11d40265cd2df767d8f455",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קובץ עזר למומחה"
+    },
+    {
+      "id": "edge-d26f69a1c3a7b9619b40eb27",
+      "fromNode": "file-9f99a571769c0fc3adba53c8",
+      "fromSide": "right",
+      "toNode": "file-5e5d06c1515c3bcc85ac90df",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קובץ עזר למומחה"
+    },
+    {
+      "id": "edge-f40eb141d39d3f08a9e6983b",
+      "fromNode": "file-fa1b728d0c2e77821cf4ea81",
+      "fromSide": "right",
+      "toNode": "file-970f1c3b737ba49e4fa49178",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קובץ עזר לפרק"
+    },
+    {
+      "id": "edge-e4ef1af6545f019c5b494bff",
+      "fromNode": "file-fa1b728d0c2e77821cf4ea81",
+      "fromSide": "right",
+      "toNode": "file-0d144fd688f42b47485b3f13",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קובץ עזר למומחה"
+    },
+    {
+      "id": "edge-1a52fb40a9a596669572bf5b",
+      "fromNode": "file-fa1b728d0c2e77821cf4ea81",
+      "fromSide": "right",
+      "toNode": "file-c1de88bc3689e476f87416fa",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קובץ עזר למומחה"
+    },
+    {
+      "id": "edge-c5e31e57a7071c02344d33dc",
+      "fromNode": "file-fa1b728d0c2e77821cf4ea81",
+      "fromSide": "right",
+      "toNode": "file-61e6e2118dba2a11aa442a3f",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קובץ עזר למומחה"
+    },
+    {
+      "id": "edge-ff967826f11d82adf9a73565",
+      "fromNode": "file-fa1b728d0c2e77821cf4ea81",
+      "fromSide": "right",
+      "toNode": "file-be11d40265cd2df767d8f455",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קובץ עזר למומחה"
+    },
+    {
+      "id": "edge-330e21c2b3a4d8ca41a99d83",
+      "fromNode": "file-fa1b728d0c2e77821cf4ea81",
+      "fromSide": "right",
+      "toNode": "file-5e5d06c1515c3bcc85ac90df",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קובץ עזר למומחה"
+    },
+    {
+      "id": "edge-425296367f900d364402f619",
+      "fromNode": "file-0ca5c16e35c4a5004b58cc61",
+      "fromSide": "right",
+      "toNode": "file-970f1c3b737ba49e4fa49178",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קובץ עזר לפרק"
+    },
+    {
+      "id": "edge-4c2de8b0597305aab0efa19d",
+      "fromNode": "file-0ca5c16e35c4a5004b58cc61",
+      "fromSide": "right",
+      "toNode": "file-0d144fd688f42b47485b3f13",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קובץ עזר למומחה"
+    },
+    {
+      "id": "edge-7193e0df2202de9f2016e4f1",
+      "fromNode": "file-0ca5c16e35c4a5004b58cc61",
+      "fromSide": "right",
+      "toNode": "file-c1de88bc3689e476f87416fa",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קובץ עזר למומחה"
+    },
+    {
+      "id": "edge-c6a26139fe175417e1c48e95",
+      "fromNode": "file-0ca5c16e35c4a5004b58cc61",
+      "fromSide": "right",
+      "toNode": "file-61e6e2118dba2a11aa442a3f",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קובץ עזר למומחה"
+    },
+    {
+      "id": "edge-a4cb55f19e265d170c2daf60",
+      "fromNode": "file-0ca5c16e35c4a5004b58cc61",
+      "fromSide": "right",
+      "toNode": "file-be11d40265cd2df767d8f455",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "קובץ עזר למומחה"
     },
     {
       "id": "edge-3298c3a7524d0a226f3c6af6",

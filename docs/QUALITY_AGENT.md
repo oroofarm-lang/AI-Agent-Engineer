@@ -61,3 +61,12 @@ exercise is complete; drafting and choosing attachments must remain available.
 The authentication test uses eight-character passwords for registration and
 reset, verifies a one-use reset token, and checks old-session revocation.
 Its email transport is mocked: this is not evidence of actual inbox delivery.
+
+## Lesson explanation regression cases
+
+Lesson shortcuts must open the existing Mentor with the selected public card identity,
+explanation level and explain mode. Opening alone must never send a model request or
+include a private draft. Test all three levels and repeat after changing the numbered
+slide. On mobile with 200 percent text, verify the expanded controls fit, pass scoped
+automated accessibility checks, open by keyboard and return focus after Escape.
+Provider responses in these browser tests are fixtures, not evidence of real AI output.

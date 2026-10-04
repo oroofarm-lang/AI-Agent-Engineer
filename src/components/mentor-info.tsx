@@ -1,12 +1,17 @@
 'use client';
 import { containDialogFocus } from '@/lib/client/dialog';
-import { useRef, useState } from 'react';
+import { useRef, useState, useEffect, useCallback } from 'react';
 import { usePathname } from 'next/navigation';
 import { Sparkles, X } from 'lucide-react';
 import ReactMarkdown from 'react-markdown';
 import { CodeBlock } from './code-block';
 import { helpLabels } from '@/lib/ai/policy';
-import { useMentorContext } from './learning/mentor-context';
+import {
+  useMentorContext,
+  useMentorActions,
+  type Task,
+  type ExplanationLevel,
+} from './learning/mentor-context';
 type TemplateReference = { templateId: string; definitionHash: string; revision: number };
 type Message = { id: string; role: 'user' | 'assistant'; body: string };
 type Participation = { agentId: string; title: string; role: string; state: string };
@@ -29,6 +34,7 @@ export function MentorInfo() {
   const dialog = useRef<HTMLDialogElement>(null);
   const pathname = usePathname();
   const activeTask = useMentorContext();
+  const { registerOpener } = useMentorActions();
   const lessonId = /^\/(learn|projects)\//.test(pathname) ? pathname.split('/')[2] : null;
   const [messages, setMessages] = useState<Message[]>([]);
   const [threadId, setThreadId] = useState<string>();
@@ -48,7 +54,7 @@ export function MentorInfo() {
   const [knowledgeStatus, setKnowledgeStatus] = useState('');
   const [explanationLevel, setExplanationLevel] = useState('practical');
   const [participation, setParticipation] = useState<Participation[]>([]);
-  async function load() {
+  const load = useCallback(async () => {
     const response = await fetch(
       `/api/mentor${lessonId ? `?lessonId=${encodeURIComponent(lessonId)}` : ''}`,
     );
@@ -64,42 +70,57 @@ export function MentorInfo() {
         ? `מקורות עדכון: ${data.knowledge.sources.filter((source: { status: string }) => source.status === 'ok').length} מתוך ${data.knowledge.sources.length} זמינים. ניסיון העדכון האחרון: ${new Intl.DateTimeFormat('he-IL', { dateStyle: 'short', timeZone: 'Asia/Jerusalem' }).format(new Date(data.knowledge.attemptedAt))}.`
         : 'עדיין לא בוצע ניסיון לעדכן את המקורות.',
     );
-  }
-  async function open() {
-    dialog.current?.showModal();
-    setStatus('טוען שיחה…');
-    setReady(false);
-    setLoaded(false);
-    setMessages([]);
-    setThreadId(undefined);
-    setCode('');
-    setMessage('');
-    setIncludeNotes(false);
-    setIncludeReflections(false);
-    setIncludeTemplate(false);
-    const workspace =
-      activeTask?.kind === 'assessment'
-        ? document.querySelector<HTMLElement>(
-            `[data-template-criterion="${CSS.escape(activeTask.id)}"][data-template-saved="true"]`,
-          )
-        : null;
-    setTemplateReference(
-      workspace?.dataset.templateWorkspace && workspace.dataset.templateDefinitionHash
-        ? {
-            templateId: workspace.dataset.templateWorkspace,
-            definitionHash: workspace.dataset.templateDefinitionHash,
-            revision: Number(workspace.dataset.templateRevision),
-          }
-        : null,
-    );
-    setParticipation([]);
-    try {
-      await load();
-      setStatus('');
-    } catch {
-      setStatus('טעינת השיחה נכשלה. סגור ופתח שוב כדי לנסות מחדש.');
-    }
-  }
+  }, [lessonId]);
+  const open = useCallback(
+    async (requestedTask?: Task, level?: ExplanationLevel) => {
+      const task = requestedTask || activeTask;
+      if (level) {
+        setExplanationLevel(level);
+        setMode('explain');
+      }
+      dialog.current?.showModal();
+      setStatus('טוען שיחה…');
+      setReady(false);
+      setLoaded(false);
+      setMessages([]);
+      setThreadId(undefined);
+      setCode('');
+      setMessage('');
+      setIncludeNotes(false);
+      setIncludeReflections(false);
+      setIncludeTemplate(false);
+      const workspace =
+        task?.kind === 'assessment'
+          ? document.querySelector<HTMLElement>(
+              `[data-template-criterion="${CSS.escape(task.id)}"][data-template-saved="true"]`,
+            )
+          : null;
+      setTemplateReference(
+        workspace?.dataset.templateWorkspace && workspace.dataset.templateDefinitionHash
+          ? {
+              templateId: workspace.dataset.templateWorkspace,
+              definitionHash: workspace.dataset.templateDefinitionHash,
+              revision: Number(workspace.dataset.templateRevision),
+            }
+          : null,
+      );
+      setParticipation([]);
+      try {
+        await load();
+        setStatus('');
+      } catch {
+        setStatus('טעינת השיחה נכשלה. סגור ופתח שוב כדי לנסות מחדש.');
+      }
+    },
+    [activeTask, load],
+  );
+  useEffect(
+    () =>
+      registerOpener((task, level) => {
+        void open(task, level);
+      }),
+    [registerOpener, open],
+  );
   async function send(event: React.FormEvent) {
     event.preventDefault();
     setBusy(true);
@@ -147,7 +168,7 @@ export function MentorInfo() {
   }
   return (
     <>
-      <button className="button subtle" onClick={open}>
+      <button className="button subtle" onClick={() => void open()}>
         <Sparkles size={16} /> AI Mentor
       </button>
       <dialog
@@ -174,8 +195,8 @@ export function MentorInfo() {
           {lessonId
             ? 'השיחה משויכת לשיעור הנוכחי. תוכן השיעור ומצב ההתקדמות מצורפים לבקשה.'
             : 'שיחה כללית על הלמידה ועל ההתקדמות שלך.'}{' '}
-          מצב מילוי התבניות מצורף ללא תוכן התשובות. תוכן הטיוטה מצורף רק אם תבחר בכך. מתחילים ברמז,
-          ובוחרים כמה עזרה לקבל.
+          מצב מילוי התבניות מצורף ללא תוכן התשובות. תוכן הטיוטה מצורף רק אם תבחר בכך. אפשר לבחור רמז או הסבר,
+          וכמה עזרה לקבל.
         </p>
         {activeTask && lessonId && (
           <p className="notice">

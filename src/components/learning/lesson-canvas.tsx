@@ -2,6 +2,7 @@
 import { useEffect, useRef, useState, type ReactNode, type CSSProperties } from 'react';
 import { ArrowLeft, ArrowRight, Check, Layers3, BookOpen, Sparkles } from 'lucide-react';
 import { reducedMotion } from '@/lib/domain/motion';
+import { MentorHelp } from './mentor-help';
 import { AiMascot } from './ai-mascot';
 import { InstructionPractice } from './instruction-practice';
 
@@ -127,6 +128,7 @@ export function LessonCanvas({
                   {s.title}
                 </h2>
                 {s.content}
+                <MentorHelp task={{ kind: 'lesson', id: s.id, title: s.title }} />
               </section>
             ))}
           </article>
@@ -152,6 +154,7 @@ export function LessonCanvas({
                 {step.title}
               </h2>
               <div className="canvas-step-content">{step.content}</div>
+              <MentorHelp task={{ kind: 'lesson', id: step.id, title: step.title }} />
               {index === 0 &&
                 ['W01D01_FIRST_AI_PROGRAM', 'W02D07_CONTEXT_ENGINEERING'].includes(lessonId) && (
                   <InstructionPractice />
@@ -173,7 +176,9 @@ export function LessonCanvas({
               {finished.includes(index) && (
                 <button
                   className="button subtle"
-                  onClick={() => setFinished((previous) => previous.filter((value) => value !== index))}
+                  onClick={() =>
+                    setFinished((previous) => previous.filter((value) => value !== index))
+                  }
                 >
                   ביטול סימון הקריאה
                 </button>

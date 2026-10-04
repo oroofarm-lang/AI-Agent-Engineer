@@ -11,6 +11,30 @@ const wikilink = (file, title) => `[[${file.replace(/\.md$/, '')}|${safeTitle(ti
 /** Public source descriptors point to real files; they are not uploaded learner artifacts. */
 export const publicAssetCatalog = [
   {
+    id: 'MENTOR_LESSON_HELP',
+    title: 'בחירת רמת הסבר מתוך השיעור',
+    sourcePath: 'src/components/learning/mentor-help.tsx',
+    kind: 'ui-code',
+    moduleIds: ['PRODUCT', 'QUALITY'],
+    agentIds: ['Agent-Curriculum-Pedagogy', 'Agent-Hebrew-UX'],
+  },
+  {
+    id: 'MENTOR_LESSON_HELP_STYLE',
+    title: 'עיצוב אפשרויות הסבר למסכים קטנים',
+    sourcePath: 'src/components/learning/mentor-help.module.css',
+    kind: 'ui-code',
+    moduleIds: ['PRODUCT', 'QUALITY'],
+    agentIds: ['Agent-UI-UX-Inspector', 'Agent-Hebrew-UX'],
+  },
+  {
+    id: 'MENTOR_ACTIVE_TASK',
+    title: 'בחירת ההקשר הנוכחי בשיעור ובתרגיל',
+    sourcePath: 'src/components/learning/mentor-context.tsx',
+    kind: 'ui-code',
+    moduleIds: ['PRODUCT', 'QUALITY'],
+    agentIds: ['Agent-Curriculum-Pedagogy', 'Agent-Security-Auditor'],
+  },
+  {
     id: 'MENTOR_COMPONENT',
     title: 'בחירת הקשר לשיחה עם המנטור',
     sourcePath: 'src/components/mentor-info.tsx',
