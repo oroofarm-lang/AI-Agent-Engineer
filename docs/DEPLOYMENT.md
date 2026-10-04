@@ -88,3 +88,7 @@ and [GitHub's release API](https://docs.github.com/en/rest/releases/releases#lis
 Release metadata is a discovery aid, not evidence of API correctness. Actual
 provider generation still needs an explicit available model and server key; follow
 the connection setup guide for live acceptance.
+
+## Persistent container package — 2026-10-04
+
+A concrete Docker/Compose/Caddy package is prepared for the single persistent Node host: see [the Hebrew operations guide](DEPLOY_CONTAINER_HE.md). Startup checks public deployment configuration, creates a fresh schema or takes a consistent backup before migration, and preserves edited public Vault notes. The internal healthcheck inspects migration metadata and an actual /auth response without exposing learner data. Private data and configuration are excluded from the image. The container workflow tests only isolated synthetic volumes. No public hostname or host has been provisioned; actual container and HTTPS acceptance must be reported from their measured runs, not inferred from this package.

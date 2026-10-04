@@ -1,0 +1,13 @@
+{
+  email {$ACME_EMAIL}
+}
+{$APP_DOMAIN} {
+  request_body {
+    max_size 12MB
+  }
+  reverse_proxy app:3000 {
+    # Direct Internet -> Caddy topology. Never trust a client-supplied limiter address.
+    header_up X-Real-IP {remote_host}
+    flush_interval -1
+  }
+}

@@ -1,0 +1,46 @@
+name: ai-agent-engineer
+services:
+  app:
+    build: .
+    image: ai-agent-engineer:${APP_RELEASE:-local}
+    env_file: .env.production
+    environment:
+      DATABASE_URL: /app/.data/learning.sqlite
+      CURRICULUM_AUDITOR_DIR: /app/.data/curriculum-auditor
+      QUIZ_REVIEW_DIR: /app/.data/quiz-releases
+      MENTOR_KNOWLEDGE_PATH: /app/.data/mentor/knowledge.json
+      VAULT_EXPORT_DIR: /app/Volt
+    restart: unless-stopped
+    init: true
+    read_only: true
+    stop_grace_period: 30s
+    volumes:
+      - learning-data:/app/.data
+      - public-vault:/app/Volt
+      - next-cache:/app/.next/cache
+    tmpfs:
+      - /tmp:rw,noexec,nosuid,size=64m
+    expose: ['3000']
+  caddy:
+    image: caddy:2.10-alpine
+    environment:
+      APP_DOMAIN: ${APP_DOMAIN:?Set APP_DOMAIN to the real course hostname}
+      ACME_EMAIL: ${ACME_EMAIL:?Set ACME_EMAIL for certificate notices}
+    depends_on:
+      app:
+        condition: service_healthy
+    restart: unless-stopped
+    ports:
+      - '80:80'
+      - '443:443'
+      - '443:443/udp'
+    volumes:
+      - ./deploy/Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy-data:/data
+      - caddy-config:/config
+volumes:
+  learning-data:
+  public-vault:
+  next-cache:
+  caddy-data:
+  caddy-config:
