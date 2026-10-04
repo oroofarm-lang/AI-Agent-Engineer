@@ -62,4 +62,29 @@ if (db.prepare("SELECT value FROM deployment_smoke_marker").get().value !== "syn
 db.close();
 const backups = fs.readdirSync(".data/backups").filter(name => name.endsWith(".sqlite"));
 if (!backups.length) throw new Error("Missing pre-migration backup");'
-printf '%s\n' 'Container smoke passed: read-only runtime, readiness, retained synthetic storage and pre-migration backup. No real email, AI call or public deployment.'
+# Restore drill touches only this smoke run's isolated synthetic volume.
+# Change the live marker after backup, so persistence alone cannot pass restoration.
+docker exec "$task_id" node -e '
+const Database = require("better-sqlite3"); const db = new Database(process.env.DATABASE_URL);
+db.prepare("UPDATE deployment_smoke_marker SET value = ?").run("changed-after-backup"); db.close();'
+docker stop --time 30 "$task_id" >/dev/null
+docker rm "$task_id" >/dev/null
+docker run --rm --read-only --entrypoint node \
+  --mount "type=volume,src=$task_id-data,dst=/app/.data" "$image" -e '
+const fs = require("node:fs"); const Database = require("better-sqlite3");
+const filename = ".data/learning.sqlite";
+const backup = ".data/backups/" + fs.readdirSync(".data/backups").filter(name => name.endsWith(".sqlite")).sort().at(-1);
+const source = new Database(backup, {readonly:true, fileMustExist:true});
+if (source.prepare("PRAGMA integrity_check").pluck().get() !== "ok") throw new Error("Backup integrity failed");
+if (source.prepare("SELECT value FROM deployment_smoke_marker").get().value !== "synthetic-only") throw new Error("Backup content mismatch");
+source.close();
+for (const suffix of ["-wal", "-shm"]) fs.rmSync(filename + suffix, {force:true});
+fs.copyFileSync(backup, filename); fs.chmodSync(filename, 0o600);'
+start
+wait_ready
+docker exec "$task_id" node -e '
+const Database = require("better-sqlite3");
+const db = new Database(process.env.DATABASE_URL, {readonly:true, fileMustExist:true});
+if (db.prepare("SELECT value FROM deployment_smoke_marker").get().value !== "synthetic-only") throw new Error("Restored data mismatch");
+db.close();'
+printf '%s\n' 'Container smoke passed: read-only runtime, readiness, retained synthetic storage, pre-migration backup and isolated restore. No real email, AI call or public deployment.'
