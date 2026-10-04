@@ -8,7 +8,8 @@
       "y": 0,
       "width": 560,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#מכירות ושירות לקוחות"
     },
     {
       "id": "group-3fc5e802fda3ba6a8f060dc8",
@@ -28,7 +29,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#מודל נתונים ללקוחות ולעסקאות"
     },
     {
       "id": "file-2531e5692fd9d98ad60ad665",
@@ -38,7 +40,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#יבוא לקוחות ומניעת כפילות"
     },
     {
       "id": "file-ab7c22b1edd13d08caa4b434",
@@ -48,7 +51,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#סיווג לידים ומעקב מכירות"
     },
     {
       "id": "file-db4b85bb842c165a8528a1d0",
@@ -58,7 +62,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#הצעות עבודה מתוך קטלוג"
     },
     {
       "id": "file-8637a5d77d20252ce3641a67",
@@ -68,7 +73,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#שירות בכמה ערוצים"
     },
     {
       "id": "file-0aa82c0e727cb6ad4358a8a0",
@@ -78,7 +84,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#סביבת עבודה לעובדים"
     },
     {
       "id": "file-c377994abf0bb6069f3d4acd",
@@ -88,7 +95,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#מלאי, מוצרים והזמנות"
     },
     {
       "id": "file-fbeaa9c621733561e00ae511",
@@ -98,7 +106,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#מבחן מסכם: מערכת עבודה לעסק"
     },
     {
       "id": "group-fcfc63ccff38ef6091f5b423",
@@ -118,7 +127,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: מודל נתונים ללקוחות ולעסקאות"
     },
     {
       "id": "file-9e2b6129a7e9f8ee04237d1b",
@@ -128,7 +138,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: יבוא לקוחות ומניעת כפילות"
     },
     {
       "id": "file-1435acc0b676d05656e5eb0a",
@@ -138,7 +149,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: סיווג לידים ומעקב מכירות"
     },
     {
       "id": "file-db2563e498dc8a65d2f07946",
@@ -148,7 +160,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: הצעות עבודה מתוך קטלוג"
     },
     {
       "id": "file-98f2b54d9d73e3f4e82b31ef",
@@ -158,7 +171,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: שירות בכמה ערוצים"
     },
     {
       "id": "file-ebb7a8c11679ad55b43f4f02",
@@ -168,7 +182,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: סביבת עבודה לעובדים"
     },
     {
       "id": "file-3db1913c356c6fae71ea30cf",
@@ -178,7 +193,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: מלאי, מוצרים והזמנות"
     },
     {
       "id": "file-db8b7a5a0d04f7011ffba6ba",
@@ -188,7 +204,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: מבחן מסכם: מערכת עבודה לעסק"
     },
     {
       "id": "group-d5a776cc2cd79a84bab0e7b4",
@@ -208,7 +225,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · מודל נתונים ללקוחות ולעסקאות"
     },
     {
       "id": "file-33b0885606d33a537639f639",
@@ -218,7 +236,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · יבוא לקוחות ומניעת כפילות"
     },
     {
       "id": "file-d24661297f06a854d1d05507",
@@ -228,7 +247,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · סיווג לידים ומעקב מכירות"
     },
     {
       "id": "file-755d405da3af41415b11ea9b",
@@ -238,7 +258,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · הצעות עבודה מתוך קטלוג"
     },
     {
       "id": "file-11bdb1d2c72f5b843cd0b993",
@@ -248,7 +269,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · שירות בכמה ערוצים"
     },
     {
       "id": "file-3f2ef9ffaf5ccb6caaa32f38",
@@ -258,7 +280,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · סביבת עבודה לעובדים"
     },
     {
       "id": "file-de20536440478a60b988208d",
@@ -268,7 +291,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · מלאי, מוצרים והזמנות"
     },
     {
       "id": "file-05acc0583f6e86bf7a0610d7",
@@ -278,7 +302,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · מבחן מסכם: מערכת עבודה לעסק"
     },
     {
       "id": "group-6d2b9db7d06a0b32961ad391",
@@ -298,7 +323,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טבלה: מודל נתונים ללקוחות ולעסקאות · BUILD"
     },
     {
       "id": "file-b276ef1fb1b9318a21fdb949",
@@ -308,7 +334,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: מודל נתונים ללקוחות ולעסקאות · DIAGNOSE"
     },
     {
       "id": "file-3e00dfb65d8bc3dea5b71309",
@@ -318,7 +345,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: מודל נתונים ללקוחות ולעסקאות · TRANSFER"
     },
     {
       "id": "file-5e1ba56f6d866061184d0489",
@@ -328,7 +356,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טבלה: יבוא לקוחות ומניעת כפילות · BUILD"
     },
     {
       "id": "file-642e0651666fd1b20cf3f3b1",
@@ -338,7 +367,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: יבוא לקוחות ומניעת כפילות · DIAGNOSE"
     },
     {
       "id": "file-0e52ae84b080c1a96318acad",
@@ -348,7 +378,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: יבוא לקוחות ומניעת כפילות · TRANSFER"
     },
     {
       "id": "file-9c8bff7ac0bf2e007da1379e",
@@ -358,7 +389,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: סיווג לידים ומעקב מכירות · BUILD"
     },
     {
       "id": "file-9fea11cb55949974aa795d85",
@@ -368,7 +400,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: סיווג לידים ומעקב מכירות · DIAGNOSE"
     },
     {
       "id": "file-0ca86f28ee83675f8a2b996f",
@@ -378,7 +411,8 @@
       "y": 1250,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: סיווג לידים ומעקב מכירות · TRANSFER"
     },
     {
       "id": "file-88a832d44dbcbe9faeba600c",
@@ -388,7 +422,8 @@
       "y": 1250,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: הצעות עבודה מתוך קטלוג · BUILD"
     },
     {
       "id": "file-74f8c8ca169094ccf7a83ab2",
@@ -398,7 +433,8 @@
       "y": 1480,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: הצעות עבודה מתוך קטלוג · DIAGNOSE"
     },
     {
       "id": "file-64ad240558267b3b5912e019",
@@ -408,7 +444,8 @@
       "y": 1480,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: הצעות עבודה מתוך קטלוג · TRANSFER"
     },
     {
       "id": "file-b46510d9173cc1bcd0ac8013",
@@ -418,7 +455,8 @@
       "y": 1710,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: שירות בכמה ערוצים · BUILD"
     },
     {
       "id": "file-425650b150a9d4d42738dc8c",
@@ -428,7 +466,8 @@
       "y": 1710,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: שירות בכמה ערוצים · DIAGNOSE"
     },
     {
       "id": "file-f80f02b43ac2c91df78f8bfa",
@@ -438,7 +477,8 @@
       "y": 1940,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: שירות בכמה ערוצים · TRANSFER"
     },
     {
       "id": "file-c6d756b019ba62c8f413948e",
@@ -448,7 +488,8 @@
       "y": 1940,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: סביבת עבודה לעובדים · BUILD"
     },
     {
       "id": "file-10855eb8ce8bcab5230bea19",
@@ -458,7 +499,8 @@
       "y": 2170,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: סביבת עבודה לעובדים · DIAGNOSE"
     },
     {
       "id": "file-35b7c056cdf30135451168c0",
@@ -468,7 +510,8 @@
       "y": 2170,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: סביבת עבודה לעובדים · TRANSFER"
     },
     {
       "id": "file-60afd48dd0a36d44331322f2",
@@ -478,7 +521,8 @@
       "y": 2400,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: מלאי, מוצרים והזמנות · BUILD"
     },
     {
       "id": "file-a08a8fa006f82eddb4d8001c",
@@ -488,7 +532,8 @@
       "y": 2400,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: מלאי, מוצרים והזמנות · DIAGNOSE"
     },
     {
       "id": "file-b2b20c2b35c6381c208074f8",
@@ -498,7 +543,8 @@
       "y": 2630,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: מלאי, מוצרים והזמנות · TRANSFER"
     },
     {
       "id": "file-b84fb5048a196e11b1f533ae",
@@ -508,7 +554,8 @@
       "y": 2630,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: מבחן מסכם: מערכת עבודה לעסק · BUILD"
     },
     {
       "id": "file-d4687d462f5944733c1f7f04",
@@ -518,7 +565,8 @@
       "y": 2860,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: מבחן מסכם: מערכת עבודה לעסק · DIAGNOSE"
     },
     {
       "id": "file-1c88f6247eb4e262fbcf4f03",
@@ -528,7 +576,8 @@
       "y": 2860,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: מבחן מסכם: מערכת עבודה לעסק · TRANSFER"
     },
     {
       "id": "group-4bec941bc3244d1696251f25",
@@ -548,7 +597,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: לאותו לקוח יש שתי עסקאות. איך נכון לייצג זאת במודל הנתונים של ה־CRM?"
     },
     {
       "id": "file-d1f5f8fc76491c05a8ef668b",
@@ -558,7 +608,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: בקובץ יבוא מופיעות שתי רשומות עם אותו שם, אבל פרטי הקשר שונים. האם צריך למזג אותן אוטומטית?"
     },
     {
       "id": "file-fc19208bbc0058d4e78bd8f5",
@@ -568,7 +619,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: נוצרה משימת מעקב לליד, אך לא נקבע מי מטפל בו ומתי. מה חסר כדי שהמעקב יהיה שימושי?"
     },
     {
       "id": "file-1f3063bbc5be3472cb525781",
@@ -578,7 +630,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: המודל מציע ללקוח הנחה שאינה מותרת בקטלוג. איך צריך להכין את הצעת העבודה?"
     },
     {
       "id": "file-5f07317a7cac24ec39f6fd1e",
@@ -588,7 +641,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: פנייה בדוא״ל ופנייה ב־WhatsApp נושאות אותו שם. מה נדרש לפני שיוך שתיהן לאותו לקוח?"
     },
     {
       "id": "file-017310d8e4a617f9414c94f2",
@@ -598,7 +652,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: עובד משנה את כתובת העמוד כדי לפתוח פנייה שלא הוקצתה לו. מה צריכה מערכת ההרשאות לבדוק?"
     },
     {
       "id": "file-c052924813bd01a7b9e454b2",
@@ -608,7 +663,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: שתי הזמנות מנסות לרכוש את הפריט האחרון במלאי. איזה עיקרון צריך להנחות את עדכון היתרה?"
     },
     {
       "id": "file-6f06c453b846d2299c51751c",
@@ -618,7 +674,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: מערכת הפניות מחוברת ל־CRM. האם החיבור מאפשר לדלג על בדיקת ההרשאות ב־CRM?"
     },
     {
       "id": "file-88f2e8af7d4a18cf9c6ade6b",
@@ -628,7 +685,8 @@
       "y": 1250,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#לפני שמגישים · שאלה קצרה לתרגול"
     },
     {
       "id": "group-7edfdd52f43a5ec62e929811",
@@ -648,7 +706,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#אוטומציה וחיבור מערכות"
     },
     {
       "id": "file-01b5ae97a0708e4906c8cbb0",
@@ -658,7 +717,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#קוד וניפוי שגיאות"
     },
     {
       "id": "file-3e54d6ed97893807e0fe903b",
@@ -668,7 +728,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#לקוחות, מכירות ושירות"
     },
     {
       "id": "file-c1de88bc3689e476f87416fa",
@@ -678,7 +739,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#מסדי נתונים ומצב"
     },
     {
       "id": "file-5e5d06c1515c3bcc85ac90df",
@@ -688,7 +750,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#עברית ברורה וסיכום התשובה"
     },
     {
       "id": "file-d80abe7699649f478011b4c4",
@@ -698,7 +761,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#קול, תמלול ושיחה"
     },
     {
       "id": "file-940cffbeca2b500e56117503",
@@ -708,7 +772,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#תיאום צוות ההדרכה"
     },
     {
       "id": "file-5a6f260befdd13e241fbeb42",
@@ -718,7 +783,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#אוטומציה והטמעת מערכות"
     },
     {
       "id": "file-e524d6cd1c71643b9b26c73d",
@@ -728,7 +794,8 @@
       "y": 1250,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#פרק 1: יסודות · פרק חובה"
     },
     {
       "id": "file-f03151db663f045aa571ee4f",
@@ -738,7 +805,8 @@
       "y": 1250,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#CRM ותפעול לקוחות"
     },
     {
       "id": "file-e74b7402f647a79b592a2cb6",
@@ -748,7 +816,8 @@
       "y": 1480,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#Database"
     },
     {
       "id": "file-efe3b332a07b13dead3e240c",
@@ -758,7 +827,8 @@
       "y": 1480,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#HTTP/APIs"
     },
     {
       "id": "file-181f8e915599a29bf0e3508e",
@@ -768,7 +838,8 @@
       "y": 1710,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#HubSpot webhooks"
     },
     {
       "id": "file-952fc0d125f2b9ebb7f7b5ff",
@@ -778,7 +849,8 @@
       "y": 1710,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#OpenAI structured outputs"
     },
     {
       "id": "file-c6fec4cda4db32c5eb5375a8",
@@ -788,7 +860,8 @@
       "y": 1940,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#OWASP LLM risks"
     },
     {
       "id": "file-5ed55157a249384edea9d3f9",
@@ -798,7 +871,8 @@
       "y": 1940,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#PostgreSQL transactions"
     },
     {
       "id": "file-4011d9590af373839e1a786f",
@@ -808,7 +882,8 @@
       "y": 2170,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#Azure search security trimming"
     },
     {
       "id": "file-c3c04b12ea9b913a21947708",
@@ -818,7 +893,8 @@
       "y": 2170,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#Stripe webhooks"
     },
     {
       "id": "file-41522b4a40406487ebad9aa0",
@@ -828,7 +904,8 @@
       "y": 2400,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#WhatsApp sandbox"
     },
     {
       "id": "file-b6910d5acd0d1ccb86418698",
@@ -838,7 +915,8 @@
       "y": 2400,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#נתוני עסק לתרגול"
     },
     {
       "id": "file-d5db458c419d244907f6005b",
@@ -848,7 +926,8 @@
       "y": 2630,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#נתוני לקוחות לתרגול"
     },
     {
       "id": "file-213d3d011952ce6560ce5827",
@@ -858,7 +937,8 @@
       "y": 2630,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#מדריך נתוני התרגול"
     },
     {
       "id": "file-693c6c26d44904c20f888faf",
@@ -868,7 +948,8 @@
       "y": 2860,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#OpenAI API changelog"
     },
     {
       "id": "file-c0131ac7a08fc5cdd6a75412",
@@ -878,7 +959,8 @@
       "y": 2860,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#OpenAI model catalog"
     },
     {
       "id": "file-2f2afba4cb407b8929230541",
@@ -888,7 +970,8 @@
       "y": 3090,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#OpenAI News"
     },
     {
       "id": "file-50756ec2fd98a720af1e2363",
@@ -898,7 +981,8 @@
       "y": 3090,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#OpenAI API and models"
     }
   ],
   "edges": [

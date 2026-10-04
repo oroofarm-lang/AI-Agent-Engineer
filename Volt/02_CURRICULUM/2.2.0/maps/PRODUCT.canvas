@@ -8,7 +8,8 @@
       "y": 0,
       "width": 560,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#מוצר, שירות ופריסה"
     },
     {
       "id": "group-ce7e2b8cb056cf41d3948ea3",
@@ -28,7 +29,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#ממשקי API בצד השרת"
     },
     {
       "id": "file-1fefb125134d6ec41704f85c",
@@ -38,7 +40,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#PostgreSQL ונתונים לפרודקשן"
     },
     {
       "id": "file-1bba736ffa8d0b2e4eb92b86",
@@ -48,7 +51,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#תורים ועובדים"
     },
     {
       "id": "file-330ae0e5f70a169822fa7e1d",
@@ -58,7 +62,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#Streaming ואירועי ריצה"
     },
     {
       "id": "file-be07494ecc316828734dea97",
@@ -68,7 +73,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#פרויקט: שירות Agent API"
     },
     {
       "id": "file-7f660e23637c758737672f27",
@@ -78,7 +84,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#React ו־Next.js למערכות AI"
     },
     {
       "id": "file-0c58a567ba36f7fbf69ac456",
@@ -88,7 +95,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#ממשק לסוכן ולפעולותיו"
     },
     {
       "id": "file-214ed3d65a44ccf8e990f769",
@@ -98,7 +106,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#פריסה וסביבות"
     },
     {
       "id": "file-1f7df1a65395414e2e35dbc6",
@@ -108,7 +117,8 @@
       "y": 1250,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#עלות, ביצועים וניטור"
     },
     {
       "id": "file-2a8d80a538a7644c12f9de68",
@@ -118,7 +128,8 @@
       "y": 1250,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#פרויקט: מוצר AI עסקי"
     },
     {
       "id": "group-7bb573736361e0bc3dcd104f",
@@ -138,7 +149,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: ממשקי API בצד השרת"
     },
     {
       "id": "file-326a6af16d39f1bfdc1f312c",
@@ -148,7 +160,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: PostgreSQL ונתונים לפרודקשן"
     },
     {
       "id": "file-1ddd0c628d1e9d337d6f71bd",
@@ -158,7 +171,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: תורים ועובדים"
     },
     {
       "id": "file-2b69225b6fbd46670c8b21ab",
@@ -168,7 +182,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: Streaming ואירועי ריצה"
     },
     {
       "id": "file-466cdb606eda6ba16b59bc8c",
@@ -178,7 +193,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: פרויקט: שירות Agent API"
     },
     {
       "id": "file-664820198e0b1bf55ff8da0c",
@@ -188,7 +204,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: React ו־Next.js למערכות AI"
     },
     {
       "id": "file-8a77e2d3d671b72e5e2085fc",
@@ -198,7 +215,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: ממשק לסוכן ולפעולותיו"
     },
     {
       "id": "file-53c6420489ed3403c59a6659",
@@ -208,7 +226,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: פריסה וסביבות"
     },
     {
       "id": "file-bdde7e4cea234c6b8a86ff01",
@@ -218,7 +237,8 @@
       "y": 1250,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: עלות, ביצועים וניטור"
     },
     {
       "id": "file-652ad1721870277ddc06ba1e",
@@ -228,7 +248,8 @@
       "y": 1250,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: פרויקט: מוצר AI עסקי"
     },
     {
       "id": "group-949b9ae6fe5634b7efc81a38",
@@ -248,7 +269,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · ממשקי API בצד השרת"
     },
     {
       "id": "file-d1a57bd9be057dcbaa772891",
@@ -258,7 +280,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · PostgreSQL ונתונים לפרודקשן"
     },
     {
       "id": "file-0a2440ee15f880a933f127bf",
@@ -268,7 +291,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · תורים ועובדים"
     },
     {
       "id": "file-8e4b097d69e15cffa9949d23",
@@ -278,7 +302,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · Streaming ואירועי ריצה"
     },
     {
       "id": "file-5e3b14de88be35aa715a46dc",
@@ -288,7 +313,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · פרויקט: שירות Agent API"
     },
     {
       "id": "file-970df4ba41f252743a58ed0c",
@@ -298,7 +324,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · React ו־Next.js למערכות AI"
     },
     {
       "id": "file-74f252d83f72ca4844a3b6ad",
@@ -308,7 +335,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · ממשק לסוכן ולפעולותיו"
     },
     {
       "id": "file-6858dfaf96eecbe6bb07ca23",
@@ -318,7 +346,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · פריסה וסביבות"
     },
     {
       "id": "file-eabbe901307e4a4ec44cb3d4",
@@ -328,7 +357,8 @@
       "y": 1250,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · עלות, ביצועים וניטור"
     },
     {
       "id": "file-c95c39f8aa0a038dcfe728e0",
@@ -338,7 +368,8 @@
       "y": 1250,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · פרויקט: מוצר AI עסקי"
     },
     {
       "id": "group-5e302cf6078b235b6fab24ed",
@@ -358,7 +389,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: ממשקי API בצד השרת · BUILD"
     },
     {
       "id": "file-47eaa030147c14bc7aed5150",
@@ -368,7 +400,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: ממשקי API בצד השרת · DIAGNOSE"
     },
     {
       "id": "file-84b1f1d6d7a9094ead3781a9",
@@ -378,7 +411,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: ממשקי API בצד השרת · TRANSFER"
     },
     {
       "id": "file-4a720088eecedfa6b564d3ea",
@@ -388,7 +422,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: PostgreSQL ונתונים לפרודקשן · BUILD"
     },
     {
       "id": "file-e6d34319f8472c9301910c39",
@@ -398,7 +433,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: PostgreSQL ונתונים לפרודקשן · DIAGNOSE"
     },
     {
       "id": "file-2437b388bcbe4514904e5da9",
@@ -408,7 +444,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: PostgreSQL ונתונים לפרודקשן · TRANSFER"
     },
     {
       "id": "file-5c22ddd1be8ffb632ef8f9b1",
@@ -418,7 +455,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: תורים ועובדים · BUILD"
     },
     {
       "id": "file-627e32b9b33e312de2e44631",
@@ -428,7 +466,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: תורים ועובדים · DIAGNOSE"
     },
     {
       "id": "file-304fa1d407722777d8d5b44c",
@@ -438,7 +477,8 @@
       "y": 1250,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: תורים ועובדים · TRANSFER"
     },
     {
       "id": "file-676f547f836403d4a936a1c8",
@@ -448,7 +488,8 @@
       "y": 1250,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: Streaming ואירועי ריצה · BUILD"
     },
     {
       "id": "file-37f3b897037f9eee754165c2",
@@ -458,7 +499,8 @@
       "y": 1480,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: Streaming ואירועי ריצה · DIAGNOSE"
     },
     {
       "id": "file-4edeee63096fd1ce905d5709",
@@ -468,7 +510,8 @@
       "y": 1480,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: Streaming ואירועי ריצה · TRANSFER"
     },
     {
       "id": "file-2f07021e8c66c5f378757d19",
@@ -478,7 +521,8 @@
       "y": 1710,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: פרויקט: שירות Agent API · BUILD"
     },
     {
       "id": "file-ea2715f73c7eca9f8e811aa1",
@@ -488,7 +532,8 @@
       "y": 1710,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: פרויקט: שירות Agent API · DIAGNOSE"
     },
     {
       "id": "file-b86c84bcf4cf95cff9532f04",
@@ -498,7 +543,8 @@
       "y": 1940,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: פרויקט: שירות Agent API · TRANSFER"
     },
     {
       "id": "file-29b7ca788bf0eb0689fa37a8",
@@ -508,7 +554,8 @@
       "y": 1940,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: React ו־Next.js למערכות AI · BUILD"
     },
     {
       "id": "file-776e2a4462bd81bdc631838b",
@@ -518,7 +565,8 @@
       "y": 2170,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: React ו־Next.js למערכות AI · DIAGNOSE"
     },
     {
       "id": "file-6cc77e559428d019e9ba1a2c",
@@ -528,7 +576,8 @@
       "y": 2170,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: React ו־Next.js למערכות AI · TRANSFER"
     },
     {
       "id": "file-d9a10460b5800db212900558",
@@ -538,7 +587,8 @@
       "y": 2400,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: ממשק לסוכן ולפעולותיו · BUILD"
     },
     {
       "id": "file-6fe2ac95d71f2e867e3bc0c4",
@@ -548,7 +598,8 @@
       "y": 2400,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: ממשק לסוכן ולפעולותיו · DIAGNOSE"
     },
     {
       "id": "file-cb81b24b980c6e42a684f3fc",
@@ -558,7 +609,8 @@
       "y": 2630,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: ממשק לסוכן ולפעולותיו · TRANSFER"
     },
     {
       "id": "file-e69bca92ab2c1911ceedfb38",
@@ -568,7 +620,8 @@
       "y": 2630,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: פריסה וסביבות · BUILD"
     },
     {
       "id": "file-9b4bb0c412aa392ec28bf007",
@@ -578,7 +631,8 @@
       "y": 2860,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: פריסה וסביבות · DIAGNOSE"
     },
     {
       "id": "file-d69a3afc74a6511e500c48b4",
@@ -588,7 +642,8 @@
       "y": 2860,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: פריסה וסביבות · TRANSFER"
     },
     {
       "id": "file-9dffc76dc26074e34ae23c68",
@@ -598,7 +653,8 @@
       "y": 3090,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: עלות, ביצועים וניטור · BUILD"
     },
     {
       "id": "file-e99dbbb7d636cb97b9625bb1",
@@ -608,7 +664,8 @@
       "y": 3090,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: עלות, ביצועים וניטור · DIAGNOSE"
     },
     {
       "id": "file-6864f7986e6dbee407b9f8d3",
@@ -618,7 +675,8 @@
       "y": 3320,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: עלות, ביצועים וניטור · TRANSFER"
     },
     {
       "id": "file-4a8e4bd45131afa9afce80a8",
@@ -628,7 +686,8 @@
       "y": 3320,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: פרויקט: מוצר AI עסקי · BUILD"
     },
     {
       "id": "file-11f2177f1ffeb83fc15eb8df",
@@ -638,7 +697,8 @@
       "y": 3550,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: פרויקט: מוצר AI עסקי · DIAGNOSE"
     },
     {
       "id": "file-953bade0b3cc67e20c129d51",
@@ -648,7 +708,8 @@
       "y": 3550,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: פרויקט: מוצר AI עסקי · TRANSFER"
     },
     {
       "id": "group-e4d017b7fdb111c5317cba39",
@@ -668,7 +729,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: מה צריך GET /runs/{id} לבדוק לפני החזרת פרטי ריצה?"
     },
     {
       "id": "file-102d01926bb6ad6b4e6a2a7c",
@@ -678,7 +740,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: היכן צריך לנסות תחילה Migration שמעביר customers ו־runs ל־PostgreSQL?"
     },
     {
       "id": "file-6f5c35943bbc57fb0145d247",
@@ -688,7 +751,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: Worker נעצר אחרי שחלק מהפעולה בוצע, והתור מסר שוב אותה עבודה. למה חשוב מזהה הפעולה?"
     },
     {
       "id": "file-b77f5cae1192014060e16f51",
@@ -698,7 +762,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: הדפדפן התנתק באמצע Streaming והמשתמש התחבר מחדש. מה צריך הממשק לטעון?"
     },
     {
       "id": "file-138be643402e1f70f4b04eaf",
@@ -708,7 +773,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: איזו בדיקה מתאימה לדרישת End-to-End של שירות Agent API?"
     },
     {
       "id": "file-adc2040fd340d7091f171c30",
@@ -718,7 +784,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: תשובה לבקשה ישנה הגיעה אחרי תשובה לבקשה החדשה. מה צריך הממשק למנוע?"
     },
     {
       "id": "file-fcbe39abc47862540feab3f0",
@@ -728,7 +795,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: איזה מידע צריך להציג לפני לחיצה על אישור פעולה?"
     },
     {
       "id": "file-a33b7cc15baed62fa1704da8",
@@ -738,7 +806,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: השירות נארז ב־Docker. איזו מסקנה אינה מוצדקת מהאריזה לבדה?"
     },
     {
       "id": "file-5a36d5b280e00c8d41e06fc5",
@@ -748,7 +817,8 @@
       "y": 1250,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: מה צריך מפתח המטמון להביא בחשבון כדי שלא להחזיר מידע ישן או של לקוח אחר?"
     },
     {
       "id": "file-0ba70400fb0cfb591191c78a",
@@ -758,7 +828,8 @@
       "y": 1250,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: ממשק המוצר נראה תקין. איזו בדיקה עדיין נדרשת לפני מסירה?"
     },
     {
       "id": "file-88f2e8af7d4a18cf9c6ade6b",
@@ -768,7 +839,8 @@
       "y": 1480,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#לפני שמגישים · שאלה קצרה לתרגול"
     },
     {
       "id": "group-134452e90b3094dd4d8ec8d5",
@@ -788,7 +860,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#מסדי נתונים ומצב"
     },
     {
       "id": "file-5e5d06c1515c3bcc85ac90df",
@@ -798,7 +871,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#עברית ברורה וסיכום התשובה"
     },
     {
       "id": "file-be11d40265cd2df767d8f455",
@@ -808,7 +882,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#פריסה, ניטור ואמינות"
     },
     {
       "id": "file-61e6e2118dba2a11aa442a3f",
@@ -818,7 +893,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#אבטחה והרשאות"
     },
     {
       "id": "file-0d144fd688f42b47485b3f13",
@@ -828,7 +904,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#ממשק, ניווט ונגישות"
     },
     {
       "id": "file-940cffbeca2b500e56117503",
@@ -838,7 +915,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#תיאום צוות ההדרכה"
     },
     {
       "id": "file-5bb40e289d26ca5b75238a9d",
@@ -848,7 +926,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#פרויקט גמר לעסק"
     },
     {
       "id": "file-e524d6cd1c71643b9b26c73d",
@@ -858,7 +937,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#פרק 1: יסודות · פרק חובה"
     },
     {
       "id": "file-649090b1c55a7a3e598fdfd5",
@@ -868,7 +948,8 @@
       "y": 1250,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#אתרים וכלים פנימיים"
     },
     {
       "id": "file-6d3e232a1d2d882015dd6955",
@@ -878,7 +959,8 @@
       "y": 1250,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#Backend"
     },
     {
       "id": "file-e74b7402f647a79b592a2cb6",
@@ -888,7 +970,8 @@
       "y": 1480,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#Database"
     },
     {
       "id": "file-0cbc9d78347ea8836d3870cb",
@@ -898,7 +981,8 @@
       "y": 1480,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#Deployment"
     },
     {
       "id": "file-4a55026c78c1ed92ddf4798b",
@@ -908,7 +992,8 @@
       "y": 1710,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#Monitoring"
     },
     {
       "id": "file-4dda898be1a2a543c3f0cf5d",
@@ -918,7 +1003,8 @@
       "y": 1710,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#Queues"
     },
     {
       "id": "file-75d665b28b8e117f1112f317",
@@ -928,7 +1014,8 @@
       "y": 1940,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#Docker overview"
     },
     {
       "id": "file-db7c9bcd629d1af12cf0a74f",
@@ -938,7 +1025,8 @@
       "y": 1940,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#FastAPI tutorial"
     },
     {
       "id": "file-f3bad14ed1144d4606dda94b",
@@ -948,7 +1036,8 @@
       "y": 2170,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#HTTP overview"
     },
     {
       "id": "file-db25419de1ef7d7b604061d2",
@@ -958,7 +1047,8 @@
       "y": 2170,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#n8n human-in-the-loop"
     },
     {
       "id": "file-087b2d36b8d4b93ed512d34a",
@@ -968,7 +1058,8 @@
       "y": 2400,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#Next.js App Router"
     },
     {
       "id": "file-3eba38c8b74e3926daece44c",
@@ -978,7 +1069,8 @@
       "y": 2400,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#OpenAI data controls"
     },
     {
       "id": "file-30d49bf2bdfc0f02ba19e206",
@@ -988,7 +1080,8 @@
       "y": 2630,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#OpenTelemetry signals"
     },
     {
       "id": "file-5ed55157a249384edea9d3f9",
@@ -998,7 +1091,8 @@
       "y": 2630,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#PostgreSQL transactions"
     },
     {
       "id": "file-7de2b8064c789c866081ed5b",
@@ -1008,7 +1102,8 @@
       "y": 2860,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#React learn"
     },
     {
       "id": "file-c3c04b12ea9b913a21947708",
@@ -1018,7 +1113,8 @@
       "y": 2860,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#Stripe webhooks"
     },
     {
       "id": "file-135823c10fdd5f990317e375",
@@ -1028,7 +1124,8 @@
       "y": 3090,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#בקשת משוב אוטומטי וכיסוי החומר"
     },
     {
       "id": "file-015a37700a008604107e3ba9",
@@ -1038,7 +1135,8 @@
       "y": 3090,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#ניקוי רשומות אימות שפג תוקפן"
     },
     {
       "id": "file-5b358bd71351c24fec401c00",
@@ -1048,7 +1146,8 @@
       "y": 3320,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#שירות לניקוי רשומות אימות זהות שפג תוקפן"
     },
     {
       "id": "file-c25a43df34ae001cb73c8981",
@@ -1058,7 +1157,8 @@
       "y": 3320,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#תזמון יומי לניקוי רשומות אימות זהות"
     },
     {
       "id": "file-bf6b361f16fb0b68acbec7e3",
@@ -1068,7 +1168,8 @@
       "y": 3550,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#Byte — רכיב הרובוט האינטראקטיבי"
     },
     {
       "id": "file-7389a27c53068324334676db",
@@ -1078,7 +1179,8 @@
       "y": 3550,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#גיבוי עקבי לפני שינוי מבנה מסד הנתונים"
     },
     {
       "id": "file-d80b7d313f8c8dc860f17c66",
@@ -1088,7 +1190,8 @@
       "y": 3780,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#הפרדת מידע פרטי מתמונת האפליקציה"
     },
     {
       "id": "file-68d6602602f8c4e952ee28f1",
@@ -1098,7 +1201,8 @@
       "y": 3780,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#השרת והאחסון שנשמר בין הפעלות"
     },
     {
       "id": "file-7fda2d323420d5c261ef5525",
@@ -1108,7 +1212,8 @@
       "y": 4010,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#בדיקות חבילת הפריסה ב־GitHub"
     },
     {
       "id": "file-a14a894bcfa462960ca71816",
@@ -1118,7 +1223,8 @@
       "y": 4010,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#שרת הכניסה וגבולות הבקשה"
     },
     {
       "id": "file-0158549a7d0debdf1dc9f914",
@@ -1128,7 +1234,8 @@
       "y": 4240,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#בניית תמונת האפליקציה"
     },
     {
       "id": "file-17683f383f123f0317e550d3",
@@ -1138,7 +1245,8 @@
       "y": 4240,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#בדיקת מוכנות פנימית"
     },
     {
       "id": "file-79f1f7f5dfdd7f7300783979",
@@ -1148,7 +1256,8 @@
       "y": 4470,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#בדיקת שמירה ושחזור עם נתונים סינתטיים"
     },
     {
       "id": "file-d9d888fc23ea70db060b7cbc",
@@ -1158,7 +1267,8 @@
       "y": 4470,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#בדיקת הגדרות וגיבוי לפני הפעלה"
     },
     {
       "id": "file-2fb42056d86b43185207a904",
@@ -1168,7 +1278,8 @@
       "y": 4700,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#מפת המסע — רכיב הממשק"
     },
     {
       "id": "file-f1d6074a2bb2b5140bb65c86",
@@ -1178,7 +1289,8 @@
       "y": 4700,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#גילוי מקורות ציבוריים ב־GitHub"
     },
     {
       "id": "file-2bef11ae08ba36ee7ae78a98",
@@ -1188,7 +1300,8 @@
       "y": 4930,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#שירות רענון המקורות בשרת"
     },
     {
       "id": "file-16117e9ac8271a7761061563",
@@ -1198,7 +1311,8 @@
       "y": 4930,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#תזמון רענון שלוש פעמים בשבוע"
     },
     {
       "id": "file-1a5ab07b35b837af2deb18ec",
@@ -1208,7 +1322,8 @@
       "y": 5160,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#רענון המטמון שבו המנטור משתמש"
     },
     {
       "id": "file-0ca5c16e35c4a5004b58cc61",
@@ -1218,7 +1333,8 @@
       "y": 5160,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#בחירת ההקשר הנוכחי בשיעור ובתרגיל"
     },
     {
       "id": "file-25122d83d4c496cabc744ce1",
@@ -1228,7 +1344,8 @@
       "y": 5390,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#בחירת הקשר לשיחה עם המנטור"
     },
     {
       "id": "file-f8ca97dd4bd1cad5713d8d1c",
@@ -1238,7 +1355,8 @@
       "y": 5390,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#מבנה בקשות העזרה וההקשר הנבחר"
     },
     {
       "id": "file-fa1b728d0c2e77821cf4ea81",
@@ -1248,7 +1366,8 @@
       "y": 5620,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#עיצוב אפשרויות הסבר למסכים קטנים"
     },
     {
       "id": "file-9f99a571769c0fc3adba53c8",
@@ -1258,7 +1377,8 @@
       "y": 5620,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#בחירת רמת הסבר מתוך השיעור"
     },
     {
       "id": "file-c3009050d0238474c9ec827e",
@@ -1268,7 +1388,8 @@
       "y": 5850,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#צירוף גרסת טיוטה שמורה לפי הרשאה"
     },
     {
       "id": "file-5859f5e7c5b2fdd5e8b63009",
@@ -1278,7 +1399,8 @@
       "y": 5850,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#תצוגת תיק העבודות"
     },
     {
       "id": "file-6da7c6d6dd97f316ce77112a",
@@ -1288,7 +1410,8 @@
       "y": 6080,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#שאלות ההוכחה המעשית"
     },
     {
       "id": "file-c0ca35f9ba74923cd8714ce9",
@@ -1298,7 +1421,8 @@
       "y": 6080,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#בדיקת שאלות ואישור מאגר לפרסום"
     },
     {
       "id": "file-9e3e97de93af0eadf98932f0",
@@ -1308,7 +1432,8 @@
       "y": 6310,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#שאלת תרגול ושמירת תשובה"
     },
     {
       "id": "file-e50179f19b36d92d16979756",
@@ -1318,7 +1443,8 @@
       "y": 6310,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#מבנה בקשות לשמירת טיוטות פרטיות"
     },
     {
       "id": "file-f2fd61b766033bc14fe7cfd2",
@@ -1328,7 +1454,8 @@
       "y": 6540,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#ייבוא וייצוא של תבניות העבודה"
     },
     {
       "id": "file-74c46a45967aff45e3fdaf10",
@@ -1338,7 +1465,8 @@
       "y": 6540,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#עורך טקסט ותצוגה מקדימה"
     },
     {
       "id": "file-c8a68bd518c28bde2f5b7f66",
@@ -1348,7 +1476,8 @@
       "y": 6770,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#כיוון כתיבה עברי בקובץ PDF"
     },
     {
       "id": "file-90a46fd8260184be4c99858e",
@@ -1358,7 +1487,8 @@
       "y": 6770,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#ייצוא העבודה לקובץ PDF"
     },
     {
       "id": "file-5b0a3e869b74eef341533b92",
@@ -1368,7 +1498,8 @@
       "y": 7000,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#עיצוב טקסט ותוכן Markdown ב־PDF"
     },
     {
       "id": "file-9e66b3167040e1791ffa0fa5",
@@ -1378,7 +1509,8 @@
       "y": 7000,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#סכמות תבניות טקסט וטבלה"
     },
     {
       "id": "file-9398c8f4199f53afce374c6f",
@@ -1388,7 +1520,8 @@
       "y": 7230,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#בחירת טיוטות שמורות להגשה"
     },
     {
       "id": "file-3af262fb6ebc6db9869ae9f0",
@@ -1398,7 +1531,8 @@
       "y": 7230,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#עורך טבלאות בתוך השיעור"
     },
     {
       "id": "file-9bd0492c26c7c658b0c61902",
@@ -1408,7 +1542,8 @@
       "y": 7460,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#עריכת תבנית ושמירה אוטומטית"
     },
     {
       "id": "file-1dd25fdb65722cf0f794a1e2",
@@ -1418,7 +1553,8 @@
       "y": 7460,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#בחירת קבצים ותצוגה מקדימה"
     },
     {
       "id": "file-c240e8585cd1a151190dd59b",
@@ -1428,7 +1564,8 @@
       "y": 7690,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#התראה לפני מעבר כשאין אישור לשמירת העבודה"
     },
     {
       "id": "file-8054ccbe9a59e8e9a8011252",
@@ -1438,7 +1575,8 @@
       "y": 7690,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#n8n"
     },
     {
       "id": "file-fdab6efb1437fd6b660f5e82",
@@ -1448,7 +1586,8 @@
       "y": 7920,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#n8n"
     }
   ],
   "edges": [

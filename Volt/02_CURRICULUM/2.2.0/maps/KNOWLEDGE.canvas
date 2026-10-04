@@ -8,7 +8,8 @@
       "y": 0,
       "width": 560,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#זיכרון ומערכות ידע"
     },
     {
       "id": "group-671f01bbd03090a9d7bceb45",
@@ -28,7 +29,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#סוגי זיכרון לסוכנים"
     },
     {
       "id": "file-50083d5cad16a2f1c1fb51c1",
@@ -38,7 +40,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#איכות ועדכון זיכרון"
     },
     {
       "id": "file-acc25be1e4609796c65f0963",
@@ -48,7 +51,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#פרויקט: סוכן זיכרון אישי"
     },
     {
       "id": "file-dc9c9953c2309bc3d5a4293d",
@@ -58,7 +62,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#Embeddings ודמיון סמנטי"
     },
     {
       "id": "file-3527caa7063fd8e3ab34fa0d",
@@ -68,7 +73,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#קליטת מסמכים וחלוקה לקטעים"
     },
     {
       "id": "file-3dd5c6b8e88383cded14411d",
@@ -78,7 +84,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#שליפה משולבת ודירוג מחדש"
     },
     {
       "id": "file-32aa0294d7b5704f24fa8192",
@@ -88,7 +95,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#כשלים במערכות RAG"
     },
     {
       "id": "file-a25f53435bac2a4304ae201b",
@@ -98,7 +106,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#פרויקט: עוזר ידע ארגוני"
     },
     {
       "id": "group-d493166e0638c674cd3579ab",
@@ -118,7 +127,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: סוגי זיכרון לסוכנים"
     },
     {
       "id": "file-ef3c755cf0344eb7f7d74295",
@@ -128,7 +138,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: איכות ועדכון זיכרון"
     },
     {
       "id": "file-d4e27c2d224acc7e34cdc53d",
@@ -138,7 +149,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: פרויקט: סוכן זיכרון אישי"
     },
     {
       "id": "file-8f413026f4c318c6704ef0b3",
@@ -148,7 +160,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: Embeddings ודמיון סמנטי"
     },
     {
       "id": "file-eb5f75df221e8461d0bd6350",
@@ -158,7 +171,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: קליטת מסמכים וחלוקה לקטעים"
     },
     {
       "id": "file-09505e281fc41be9181506dd",
@@ -168,7 +182,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: שליפה משולבת ודירוג מחדש"
     },
     {
       "id": "file-9af5e573ef894a4927945a7b",
@@ -178,7 +193,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: כשלים במערכות RAG"
     },
     {
       "id": "file-0c6fd294043dcdfeeb6dbe67",
@@ -188,7 +204,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: פרויקט: עוזר ידע ארגוני"
     },
     {
       "id": "group-49f965293fabf7a2b00e132e",
@@ -208,7 +225,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · סוגי זיכרון לסוכנים"
     },
     {
       "id": "file-2a096c1540ba879ea4f6d3bc",
@@ -218,7 +236,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · איכות ועדכון זיכרון"
     },
     {
       "id": "file-62f6c75cff4221d5c18cc6f0",
@@ -228,7 +247,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · פרויקט: סוכן זיכרון אישי"
     },
     {
       "id": "file-58097f9b64adaa534263eb17",
@@ -238,7 +258,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · Embeddings ודמיון סמנטי"
     },
     {
       "id": "file-34d88c762388a9651cd8da02",
@@ -248,7 +269,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · קליטת מסמכים וחלוקה לקטעים"
     },
     {
       "id": "file-fd365defe67a897dee40c184",
@@ -258,7 +280,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · שליפה משולבת ודירוג מחדש"
     },
     {
       "id": "file-34b37eac2f8fa1bc8e77fd20",
@@ -268,7 +291,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · כשלים במערכות RAG"
     },
     {
       "id": "file-dbb71aa91568a6f8274e17da",
@@ -278,7 +302,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · פרויקט: עוזר ידע ארגוני"
     },
     {
       "id": "group-b0a9273f761a2432c5366278",
@@ -298,7 +323,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: סוגי זיכרון לסוכנים · BUILD"
     },
     {
       "id": "file-b4bafa903a9f424b7c3a035c",
@@ -308,7 +334,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: סוגי זיכרון לסוכנים · DIAGNOSE"
     },
     {
       "id": "file-e786180825730daed3e4d399",
@@ -318,7 +345,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: סוגי זיכרון לסוכנים · TRANSFER"
     },
     {
       "id": "file-3bed270e2123836987ff8110",
@@ -328,7 +356,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: איכות ועדכון זיכרון · BUILD"
     },
     {
       "id": "file-6678e10f9e92b1b62ce37c5f",
@@ -338,7 +367,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: איכות ועדכון זיכרון · DIAGNOSE"
     },
     {
       "id": "file-6adde90a202c77dcaf461921",
@@ -348,7 +378,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: איכות ועדכון זיכרון · TRANSFER"
     },
     {
       "id": "file-204f50ac0f0f66ae40ba5cef",
@@ -358,7 +389,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: פרויקט: סוכן זיכרון אישי · BUILD"
     },
     {
       "id": "file-fb100ab4c2c516ba33161dd9",
@@ -368,7 +400,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: פרויקט: סוכן זיכרון אישי · DIAGNOSE"
     },
     {
       "id": "file-aa6987fbccc46f4e66318919",
@@ -378,7 +411,8 @@
       "y": 1250,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: פרויקט: סוכן זיכרון אישי · TRANSFER"
     },
     {
       "id": "file-645216e0b4ad8f217e99ded7",
@@ -388,7 +422,8 @@
       "y": 1250,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: Embeddings ודמיון סמנטי · BUILD"
     },
     {
       "id": "file-0c6bed6538467d06a8f50add",
@@ -398,7 +433,8 @@
       "y": 1480,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: Embeddings ודמיון סמנטי · DIAGNOSE"
     },
     {
       "id": "file-68887f9c809aea7b09eeea3d",
@@ -408,7 +444,8 @@
       "y": 1480,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: Embeddings ודמיון סמנטי · TRANSFER"
     },
     {
       "id": "file-1a30a684c77e78e6e0cd3f60",
@@ -418,7 +455,8 @@
       "y": 1710,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טבלה: קליטת מסמכים וחלוקה לקטעים · BUILD"
     },
     {
       "id": "file-fcec20c142846cf8b5325314",
@@ -428,7 +466,8 @@
       "y": 1710,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טבלה: קליטת מסמכים וחלוקה לקטעים · DIAGNOSE"
     },
     {
       "id": "file-59fe78d882ab97460549cd45",
@@ -438,7 +477,8 @@
       "y": 1940,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: קליטת מסמכים וחלוקה לקטעים · TRANSFER"
     },
     {
       "id": "file-2d961e138b27df13fbb588d4",
@@ -448,7 +488,8 @@
       "y": 1940,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: שליפה משולבת ודירוג מחדש · BUILD"
     },
     {
       "id": "file-6c6f157b936fa4189d3895f7",
@@ -458,7 +499,8 @@
       "y": 2170,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: שליפה משולבת ודירוג מחדש · DIAGNOSE"
     },
     {
       "id": "file-d8b8ea83e3c4d5961a689054",
@@ -468,7 +510,8 @@
       "y": 2170,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: שליפה משולבת ודירוג מחדש · TRANSFER"
     },
     {
       "id": "file-6c11289481540952dc4e96f7",
@@ -478,7 +521,8 @@
       "y": 2400,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: כשלים במערכות RAG · BUILD"
     },
     {
       "id": "file-053f1279cc738f547ce4c9dd",
@@ -488,7 +532,8 @@
       "y": 2400,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: כשלים במערכות RAG · DIAGNOSE"
     },
     {
       "id": "file-144559f93fb44802272f5b64",
@@ -498,7 +543,8 @@
       "y": 2630,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: כשלים במערכות RAG · TRANSFER"
     },
     {
       "id": "file-33151dca378e080203a36989",
@@ -508,7 +554,8 @@
       "y": 2630,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: פרויקט: עוזר ידע ארגוני · BUILD"
     },
     {
       "id": "file-95feed3e3b2759895a5a2f2f",
@@ -518,7 +565,8 @@
       "y": 2860,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: פרויקט: עוזר ידע ארגוני · DIAGNOSE"
     },
     {
       "id": "file-8f6a3237f7278918829330c0",
@@ -528,7 +576,8 @@
       "y": 2860,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: פרויקט: עוזר ידע ארגוני · TRANSFER"
     },
     {
       "id": "group-6ca74082d3201bf82a9fa2b8",
@@ -548,7 +597,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: משתמש אומר: ״היום אני מעדיף שיחה קצרה״. מה צריך לברר לפני שמירתה כהעדפה ארוכת טווח?"
     },
     {
       "id": "file-0e81d97a49e0b442b967e43b",
@@ -558,7 +608,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: רשומה חדשה סותרת זיכרון קיים. האם תאריך חדש יותר מספיק כדי לקבל אותה?"
     },
     {
       "id": "file-0056a5af921503c4af5e4ce9",
@@ -568,7 +619,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: משתמש ב׳ מבקש לקרוא זיכרון השייך למשתמש א׳. מה על פעולת retrieve לבדוק?"
     },
     {
       "id": "file-e648a4f2595bf043a886fd0b",
@@ -578,7 +630,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: לשני מוצרים תיאור דומה אבל מק״ט שונה. מדוע כדאי לבדוק גם חיפוש לפי מילים?"
     },
     {
       "id": "file-7b64583baf776e291c00dec8",
@@ -588,7 +641,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: מדוע שומרים לכל קטע document_id, version, page ו־chunk_id?"
     },
     {
       "id": "file-66129a525724001ca6462168",
@@ -598,7 +652,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: קטע של לקוח אחר מתאים מאוד לשאלה. מתי צריך לסנן אותו?"
     },
     {
       "id": "file-0853a486e0e28cbcd21d2a14",
@@ -608,7 +663,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: השליפה החזירה את הקטע הנכון, אבל התשובה הוסיפה טענה שאינה בו. איזה כשל יש לבדוק?"
     },
     {
       "id": "file-13e154670920c3f5f5a5f896",
@@ -618,7 +674,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: איזה ציטוט מתאים לתשובת עוזר הידע הארגוני?"
     },
     {
       "id": "file-88f2e8af7d4a18cf9c6ade6b",
@@ -628,7 +685,8 @@
       "y": 1250,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#לפני שמגישים · שאלה קצרה לתרגול"
     },
     {
       "id": "group-b53ba598a925156cf710459b",
@@ -648,7 +706,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#סוכנים ותהליכי עבודה"
     },
     {
       "id": "file-2365f0a01a9b198c38e3ca05",
@@ -658,7 +717,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#מקורות ועדכוני תוכן"
     },
     {
       "id": "file-c1de88bc3689e476f87416fa",
@@ -668,7 +728,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#מסדי נתונים ומצב"
     },
     {
       "id": "file-5e5d06c1515c3bcc85ac90df",
@@ -678,7 +739,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#עברית ברורה וסיכום התשובה"
     },
     {
       "id": "file-38f2fd0c23b80ae8a5143910",
@@ -688,7 +750,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#ידע, זיכרון ושליפת מקורות"
     },
     {
       "id": "file-940cffbeca2b500e56117503",
@@ -698,7 +761,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#תיאום צוות ההדרכה"
     },
     {
       "id": "file-e524d6cd1c71643b9b26c73d",
@@ -708,7 +772,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#פרק 1: יסודות · פרק חובה"
     },
     {
       "id": "file-e74b7402f647a79b592a2cb6",
@@ -718,7 +783,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#Database"
     },
     {
       "id": "file-193b69fded703c1cf64f1d61",
@@ -728,7 +794,8 @@
       "y": 1250,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#Embeddings"
     },
     {
       "id": "file-d50755618f78f2e5722d4a08",
@@ -738,7 +805,8 @@
       "y": 1250,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#Memory"
     },
     {
       "id": "file-d11f89016409787f1c7896c7",
@@ -748,7 +816,8 @@
       "y": 1480,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#RAG"
     },
     {
       "id": "file-886997be98c974f852744e7d",
@@ -758,7 +827,8 @@
       "y": 1480,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#Retrieval"
     },
     {
       "id": "file-ec3b3561ca67003381a0f91a",
@@ -768,7 +838,8 @@
       "y": 1710,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#State"
     },
     {
       "id": "file-03dc4032dc824d78e33c8bd3",
@@ -778,7 +849,8 @@
       "y": 1710,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#Demystifying evals for AI agents"
     },
     {
       "id": "file-4011d9590af373839e1a786f",
@@ -788,7 +860,8 @@
       "y": 1940,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#Azure search security trimming"
     },
     {
       "id": "file-b6910d5acd0d1ccb86418698",
@@ -798,7 +871,8 @@
       "y": 1940,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#נתוני עסק לתרגול"
     },
     {
       "id": "file-f421739858508fb19cac137b",
@@ -808,7 +882,8 @@
       "y": 2170,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#בדיקת הצעות לעדכון הקורס"
     },
     {
       "id": "file-1fd9614b391361dbbf271ada",
@@ -818,7 +893,8 @@
       "y": 2170,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#גרסת מפת הידע ועדכון הייצוא"
     }
   ],
   "edges": [

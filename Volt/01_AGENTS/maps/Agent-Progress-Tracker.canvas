@@ -8,7 +8,8 @@
       "y": 0,
       "width": 560,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#משוב על העבודה והתקדמות"
     },
     {
       "id": "group-709a0aa47e3545b346e0a52f",
@@ -28,7 +29,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#פרסום ומדידה"
     },
     {
       "id": "file-7aca0e7fd231016556337819",
@@ -38,7 +40,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#סוכנים ותזמור"
     },
     {
       "id": "file-f153ef609cccbaa11cf964cd",
@@ -48,7 +51,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#הפיכת הידע לשירות"
     },
     {
       "id": "file-5bb40e289d26ca5b75238a9d",
@@ -58,7 +62,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#פרויקט גמר לעסק"
     },
     {
       "id": "file-e524d6cd1c71643b9b26c73d",
@@ -68,7 +73,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#פרק 1: יסודות · פרק חובה"
     },
     {
       "id": "file-ecb517fedf6156e95a2cf50a",
@@ -78,7 +84,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#נתונים ומודלים מקומיים"
     },
     {
       "id": "file-0b799de71d380da126de9268",
@@ -88,7 +95,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#איכות, אבטחה ובקרה"
     },
     {
       "id": "file-24128e5aa8c2bde8b01b424c",
@@ -98,7 +106,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#קול ושירות לקוחות"
     },
     {
       "id": "group-05e89210f70f0cbd085b59a1",
@@ -118,7 +127,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#Evals"
     },
     {
       "id": "file-097783d0396c5c550a4b3b95",
@@ -128,7 +138,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#Observability"
     },
     {
       "id": "file-b491cc100cd0858d49b48492",
@@ -138,7 +149,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#Testing"
     },
     {
       "id": "file-ca475a2c515b05acc79979c7",
@@ -148,7 +160,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#Tracing"
     },
     {
       "id": "file-03dc4032dc824d78e33c8bd3",
@@ -158,7 +171,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#Demystifying evals for AI agents"
     },
     {
       "id": "file-b1273e067284784bfa1461e9",
@@ -168,7 +182,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#Promptfoo test cases"
     },
     {
       "id": "group-a0a40f3142d04841b3393d25",
@@ -188,7 +203,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#משוב מנומק על עבודה"
     },
     {
       "id": "file-5d3c954b8033ec6a918bdf48",
@@ -198,7 +214,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#תזמור מומחי הלמידה"
     },
     {
       "id": "file-2d7e24b38f198bb60b5fdc2d",
@@ -208,7 +225,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#קריאת חומר הקורס"
     },
     {
       "id": "file-2ee2be37619c3b34d016fb51",
@@ -218,7 +236,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#קריאת העבודה שבחרת"
     },
     {
       "id": "file-0914020642e16e3c80c1a5d2",
@@ -228,7 +247,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#קריאת עדכונים שנאספו"
     },
     {
       "id": "file-d5540778b1acf8178c14bc4e",
@@ -238,7 +258,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#קריאת ההתקדמות שלך"
     },
     {
       "id": "file-6e5531e678f7f498b5a94919",
@@ -248,7 +269,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#בדיקת התאמה למחוון"
     },
     {
       "id": "file-1fc04e1a582099d875b2da2b",
@@ -258,7 +280,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#קריאת מראי מקום"
     },
     {
       "id": "group-89b894c2a1663faf8062049c",
@@ -278,7 +301,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: בירור צרכים ופגישת אפיון · DIAGNOSE"
     },
     {
       "id": "file-af3f9c05c347ea45a9160928",
@@ -288,7 +312,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: בחירת פיילוט לפי ערך וסיכון · DIAGNOSE"
     },
     {
       "id": "file-1c95cbec531ef2d377c6697f",
@@ -298,7 +323,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: הצעת עבודה וקריטריוני קבלה · DIAGNOSE"
     },
     {
       "id": "file-fa802c6c635a6c617610be45",
@@ -308,7 +334,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: חשבונות לקוח, מידע והרשאות · DIAGNOSE"
     },
     {
       "id": "file-aa098bbdb97bb68e607fd293",
@@ -318,7 +345,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: פיילוט, הדרכת עובדים ומסירה · DIAGNOSE"
     },
     {
       "id": "file-07b986b73bb7e505c1909f52",
@@ -328,7 +356,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: מבחן מסכם: הצגת פתרון ללקוח · DIAGNOSE"
     },
     {
       "id": "file-a9aa825ed114b5861ac32faa",
@@ -338,7 +367,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טבלה: עוזר נתונים עסקיים · DIAGNOSE"
     },
     {
       "id": "file-8b0091e70945a61c75f60c6d",
@@ -348,7 +378,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: כללים, חיזוי קלאסי ו־LLM · DIAGNOSE"
     },
     {
       "id": "file-86056c023ebb049bb4ec82b9",
@@ -358,7 +389,8 @@
       "y": 1250,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: מודלים מקומיים ומשאבי חומרה · DIAGNOSE"
     },
     {
       "id": "file-6452472781687d583a63e72c",
@@ -368,7 +400,8 @@
       "y": 1250,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: Prompting, ‏RAG ו־Fine-tuning · DIAGNOSE"
     },
     {
       "id": "file-4908738c7aaa62489f1b240e",
@@ -378,7 +411,8 @@
       "y": 1480,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: מפת עולם ה־AI · DIAGNOSE"
     },
     {
       "id": "file-04ceec1a45e66e261ae7c82e",
@@ -388,7 +422,8 @@
       "y": 1480,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: בחירת מודלים לפי מדידה · DIAGNOSE"
     },
     {
       "id": "file-4a1ab8f59eaf764803d35019",
@@ -398,7 +433,8 @@
       "y": 1710,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: מסמכים, תמונות וקול כקלט · DIAGNOSE"
     },
     {
       "id": "file-98cd473f31ae6da967ade3b5",
@@ -408,7 +444,8 @@
       "y": 1710,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: מיפוי צורך עסקי ופיילוט · DIAGNOSE"
     },
     {
       "id": "file-c727c8e9f1a77f1d41f65eb7",
@@ -418,7 +455,8 @@
       "y": 1940,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: תמלול שיחות ובדיקת דיוק · DIAGNOSE"
     },
     {
       "id": "file-e390ab7a65e4aab98e41e45d",
@@ -428,7 +466,8 @@
       "y": 1940,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: טיפול אחרי שיחה · DIAGNOSE"
     },
     {
       "id": "file-d7842558684cdf0fa720ec43",
@@ -438,7 +477,8 @@
       "y": 2170,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: ממשק קולי עם תמלול וקריינות · DIAGNOSE"
     },
     {
       "id": "file-7b8bd233a2ec87a35ab796aa",
@@ -448,7 +488,8 @@
       "y": 2170,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: שיחה חיה וקטיעות · DIAGNOSE"
     },
     {
       "id": "file-3f7475b6ecac00eb3405ac2b",
@@ -458,7 +499,8 @@
       "y": 2400,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: העברה לאדם ותיאום פגישות · DIAGNOSE"
     },
     {
       "id": "file-0b3a5e087ae32cf754015cc8",
@@ -468,7 +510,8 @@
       "y": 2400,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: מבחן מסכם: עוזר קולי עסקי · DIAGNOSE"
     },
     {
       "id": "file-7a61bd210eaea710c236d85f",
@@ -478,7 +521,8 @@
       "y": 2630,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: אינטגרציה ישירה עם Responses API · DIAGNOSE"
     },
     {
       "id": "file-dd891cf95d7b2146c1c4a8d0",
@@ -488,7 +532,8 @@
       "y": 2630,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: SDK לסוכנים · DIAGNOSE"
     },
     {
       "id": "file-94c515d2ae3e572f37745832",
@@ -498,7 +543,8 @@
       "y": 2860,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: סביבות הרצה מנוהלות ושמירת מצב · DIAGNOSE"
     },
     {
       "id": "file-99c67413aa11e552fe03a9a3",
@@ -508,7 +554,8 @@
       "y": 2860,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: תהליכי גרף עם LangGraph · DIAGNOSE"
     },
     {
       "id": "file-b531fe93eaf9e6eb06c7abc7",
@@ -518,7 +565,8 @@
       "y": 3090,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: מבחן מסכם: שתי ארכיטקטורות לאותה מערכת · DIAGNOSE"
     },
     {
       "id": "file-a1ce160f2531fef888c15bee",
@@ -528,7 +576,8 @@
       "y": 3090,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: למה הדגמה אינה בדיקת איכות? · BUILD"
     },
     {
       "id": "file-21ec0f246a7ff2c8a81cd17a",
@@ -538,7 +587,8 @@
       "y": 3320,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: למה הדגמה אינה בדיקת איכות? · DIAGNOSE"
     },
     {
       "id": "file-a0de2a09358041123e8c9695",
@@ -548,7 +598,8 @@
       "y": 3320,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: למה הדגמה אינה בדיקת איכות? · TRANSFER"
     },
     {
       "id": "file-0a9150bd726160f99c64b2c3",
@@ -558,7 +609,8 @@
       "y": 3550,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: תכנון נתוני הערכה · BUILD"
     },
     {
       "id": "file-dd400ccbddaa71ea53a5a07a",
@@ -568,7 +620,8 @@
       "y": 3550,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: תכנון נתוני הערכה · DIAGNOSE"
     },
     {
       "id": "file-d9bc87bbae398f6ba334b3b6",
@@ -578,7 +631,8 @@
       "y": 3780,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: תכנון נתוני הערכה · TRANSFER"
     },
     {
       "id": "file-79886c098395711852b6c17e",
@@ -588,7 +642,8 @@
       "y": 3780,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: מחוונים ושופטים · BUILD"
     },
     {
       "id": "file-e88c401aa84dd53618ae4b3b",
@@ -598,7 +653,8 @@
       "y": 4010,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: מחוונים ושופטים · DIAGNOSE"
     },
     {
       "id": "file-6d2b05789b7cb65ac4c61149",
@@ -608,7 +664,8 @@
       "y": 4010,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: מחוונים ושופטים · TRANSFER"
     },
     {
       "id": "file-e8f365e881f6964bf6b221c1",
@@ -618,7 +675,8 @@
       "y": 4240,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: תיעוד ריצות וניטור · BUILD"
     },
     {
       "id": "file-1ec4924f71257b4d641ef24e",
@@ -628,7 +686,8 @@
       "y": 4240,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: תיעוד ריצות וניטור · DIAGNOSE"
     },
     {
       "id": "file-cbcce58eab74b69416f551aa",
@@ -638,7 +697,8 @@
       "y": 4470,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: תיעוד ריצות וניטור · TRANSFER"
     },
     {
       "id": "file-9a18a043f6ba3b3ead3aa502",
@@ -648,7 +708,8 @@
       "y": 4470,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: פרויקט: מעבדת איכות לסוכן · BUILD"
     },
     {
       "id": "file-4f250efdc25cc99f31158122",
@@ -658,7 +719,8 @@
       "y": 4700,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: פרויקט: מעבדת איכות לסוכן · DIAGNOSE"
     },
     {
       "id": "file-63ef2eac516270f03a69bb38",
@@ -668,7 +730,8 @@
       "y": 4700,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: פרויקט: מעבדת איכות לסוכן · TRANSFER"
     },
     {
       "id": "file-4f7a4d62d93ba51cded08682",
@@ -678,7 +741,8 @@
       "y": 4930,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: הזרקת הוראות זדוניות · BUILD"
     },
     {
       "id": "file-3954969a0c92c61b88608ca8",
@@ -688,7 +752,8 @@
       "y": 4930,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: הזרקת הוראות זדוניות · DIAGNOSE"
     },
     {
       "id": "file-8bf63b267be8f4f7c2d9493f",
@@ -698,7 +763,8 @@
       "y": 5160,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: הזרקת הוראות זדוניות · TRANSFER"
     },
     {
       "id": "file-4946436edcc4e1e4a62d50f3",
@@ -708,7 +774,8 @@
       "y": 5160,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: תקיפות כלים וחשיפת מידע · BUILD"
     },
     {
       "id": "file-22cfe29d6717b091f0c80878",
@@ -718,7 +785,8 @@
       "y": 5390,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: תקיפות כלים וחשיפת מידע · DIAGNOSE"
     },
     {
       "id": "file-8bbd688f66778b482ff5903a",
@@ -728,7 +796,8 @@
       "y": 5390,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: תקיפות כלים וחשיפת מידע · TRANSFER"
     },
     {
       "id": "file-a5a3f11c818b4c4a0e6710ea",
@@ -738,7 +807,8 @@
       "y": 5620,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: אישור אנושי וחידוש תהליך · BUILD"
     },
     {
       "id": "file-08e237442ee82cd35fe71639",
@@ -748,7 +818,8 @@
       "y": 5620,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: אישור אנושי וחידוש תהליך · DIAGNOSE"
     },
     {
       "id": "file-d84aacd1dfca5246593f87d8",
@@ -758,7 +829,8 @@
       "y": 5850,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: אישור אנושי וחידוש תהליך · TRANSFER"
     },
     {
       "id": "file-4c4954077710168bc711c911",
@@ -768,7 +840,8 @@
       "y": 5850,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: מבחן מסכם: בדיקת תקיפה ותיקון · BUILD"
     },
     {
       "id": "file-ec1ab097729229906ce8f7c9",
@@ -778,7 +851,8 @@
       "y": 6080,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: מבחן מסכם: בדיקת תקיפה ותיקון · DIAGNOSE"
     },
     {
       "id": "file-45e824f369f97812d505b395",
@@ -788,7 +862,8 @@
       "y": 6080,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: מבחן מסכם: בדיקת תקיפה ותיקון · TRANSFER"
     },
     {
       "id": "file-a84bb2e1f906f7fecaea2f0e",
@@ -798,7 +873,8 @@
       "y": 6310,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: פרויקט גמר: גילוי צרכים · BUILD"
     },
     {
       "id": "file-8a2a3cc58deac5f768922a1b",
@@ -808,7 +884,8 @@
       "y": 6310,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: פרויקט גמר: גילוי צרכים · DIAGNOSE"
     },
     {
       "id": "file-3afd693b604deb77ee649b28",
@@ -818,7 +895,8 @@
       "y": 6540,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: פרויקט גמר: גילוי צרכים · TRANSFER"
     },
     {
       "id": "file-dd2869953c918dd5d57c60a8",
@@ -828,7 +906,8 @@
       "y": 6540,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: פרויקט גמר: ארכיטקטורה · BUILD"
     },
     {
       "id": "file-c203c0c8b2c61899bf1907a0",
@@ -838,7 +917,8 @@
       "y": 6770,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: פרויקט גמר: ארכיטקטורה · DIAGNOSE"
     },
     {
       "id": "file-4067f357d3c18e4f54c840ad",
@@ -848,7 +928,8 @@
       "y": 6770,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: פרויקט גמר: ארכיטקטורה · TRANSFER"
     },
     {
       "id": "file-ae2c46d2843005759a325d0a",
@@ -858,7 +939,8 @@
       "y": 7000,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: פרויקט גמר: בנייה · BUILD"
     },
     {
       "id": "file-c250690a754e63a1adb5b426",
@@ -868,7 +950,8 @@
       "y": 7000,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: פרויקט גמר: בנייה · DIAGNOSE"
     },
     {
       "id": "file-4602033a57d31805fbd00700",
@@ -878,7 +961,8 @@
       "y": 7230,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: פרויקט גמר: בנייה · TRANSFER"
     },
     {
       "id": "file-477be4d07b8325cc53169f03",
@@ -888,7 +972,8 @@
       "y": 7230,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: פרויקט גמר: הקשחה · BUILD"
     },
     {
       "id": "file-689810644ca1069d6c71934c",
@@ -898,7 +983,8 @@
       "y": 7460,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: פרויקט גמר: הקשחה · DIAGNOSE"
     },
     {
       "id": "file-0eba9a278c822a410a369728",
@@ -908,7 +994,8 @@
       "y": 7460,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: פרויקט גמר: הקשחה · TRANSFER"
     },
     {
       "id": "file-478d07f5ec2e7dee51c2239d",
@@ -918,7 +1005,8 @@
       "y": 7690,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: מבחן גמר: פתרון עסקי מלא · BUILD"
     },
     {
       "id": "file-ebc823990d55f76f95977a72",
@@ -928,7 +1016,8 @@
       "y": 7690,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: מבחן גמר: פתרון עסקי מלא · DIAGNOSE"
     },
     {
       "id": "file-e09cc414b69602a1ec77915c",
@@ -938,7 +1027,8 @@
       "y": 7920,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: מבחן גמר: פתרון עסקי מלא · TRANSFER"
     },
     {
       "id": "group-231e73aee4f8ec9314e8c1f6",
@@ -958,7 +1048,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#Orchestrator-Prime — תזמור הלמידה"
     },
     {
       "id": "file-cbcd36b52d140cdaab76b905",
@@ -968,7 +1059,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#שלוש דרכי הסבר ורמות עזרה"
     },
     {
       "id": "file-6363038c2b4ca056835e2e3f",
@@ -978,7 +1070,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הרשאות, מידע פרטי וגבולות משוב"
     },
     {
       "id": "file-12507a9e98d7ff86f1515735",
@@ -988,7 +1081,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#מומחי הלמידה והכלים"
     },
     {
       "id": "file-dd59730edbda4feb9e1f1512",
@@ -998,7 +1092,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#רענון מקורות וביקורת תוכן"
     }
   ],
   "edges": [

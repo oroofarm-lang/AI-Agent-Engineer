@@ -8,7 +8,8 @@
       "y": 0,
       "width": 560,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#אתרים וכלים פנימיים"
     },
     {
       "id": "group-962c6aa7dd07f7586bc302ab",
@@ -28,7 +29,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#תכנון אתר ומסע משתמש"
     },
     {
       "id": "file-b5a56ad8d5e3e89823158963",
@@ -38,7 +40,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#עיצוב, RTL ונגישות"
     },
     {
       "id": "file-9f24f0916a623c399115c62a",
@@ -48,7 +51,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#בניית אתר בעזרת AI ובדיקת הקוד"
     },
     {
       "id": "file-c6c12dbf2e059b1f61a580e8",
@@ -58,7 +62,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#טפסים וחיבור ל־CRM"
     },
     {
       "id": "file-939ad772d51dc02a6892652f",
@@ -68,7 +73,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#בדיקות לפני פריסה"
     },
     {
       "id": "file-dd015f8de6213623aebcbc8e",
@@ -78,7 +84,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#מבחן מסכם: אתר המחובר למערכת AI"
     },
     {
       "id": "group-e0e53790dbb2a7173d868587",
@@ -98,7 +105,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: תכנון אתר ומסע משתמש"
     },
     {
       "id": "file-66defbd0b39995efdced9238",
@@ -108,7 +116,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: עיצוב, RTL ונגישות"
     },
     {
       "id": "file-14adc559b4891ba131f0730e",
@@ -118,7 +127,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: בניית אתר בעזרת AI ובדיקת הקוד"
     },
     {
       "id": "file-e84403ebb4483697ecb0613d",
@@ -128,7 +138,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: טפסים וחיבור ל־CRM"
     },
     {
       "id": "file-393e9096f9bf3a66ed11d05e",
@@ -138,7 +149,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: בדיקות לפני פריסה"
     },
     {
       "id": "file-d0ff065d9225297bfde224bb",
@@ -148,7 +160,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: מבחן מסכם: אתר המחובר למערכת AI"
     },
     {
       "id": "group-b25aa3e6c43d1864638de6bd",
@@ -168,7 +181,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · תכנון אתר ומסע משתמש"
     },
     {
       "id": "file-b54587bc1fa37c192343dd1f",
@@ -178,7 +192,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · עיצוב, RTL ונגישות"
     },
     {
       "id": "file-6f65dad8b32206559c4a0b8a",
@@ -188,7 +203,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · בניית אתר בעזרת AI ובדיקת הקוד"
     },
     {
       "id": "file-9244809c8f0bc0920bb6e646",
@@ -198,7 +214,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · טפסים וחיבור ל־CRM"
     },
     {
       "id": "file-ab61ac96678c8ef7782e4df2",
@@ -208,7 +225,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · בדיקות לפני פריסה"
     },
     {
       "id": "file-e01e66f8fbddbd6d995e4b31",
@@ -218,7 +236,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · מבחן מסכם: אתר המחובר למערכת AI"
     },
     {
       "id": "group-7609bed22b2da86e8c3cdbc3",
@@ -238,7 +257,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: תכנון אתר ומסע משתמש · BUILD"
     },
     {
       "id": "file-66342ea23b883214bc421519",
@@ -248,7 +268,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: תכנון אתר ומסע משתמש · DIAGNOSE"
     },
     {
       "id": "file-bbc9738944547547163aa380",
@@ -258,7 +279,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: תכנון אתר ומסע משתמש · TRANSFER"
     },
     {
       "id": "file-d3c0d32a9a38608e85211e00",
@@ -268,7 +290,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: עיצוב, RTL ונגישות · BUILD"
     },
     {
       "id": "file-aa65b5a6e1108a36eb896676",
@@ -278,7 +301,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: עיצוב, RTL ונגישות · DIAGNOSE"
     },
     {
       "id": "file-df4f206a3f074b8d4d755e4f",
@@ -288,7 +312,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: עיצוב, RTL ונגישות · TRANSFER"
     },
     {
       "id": "file-2461d20abee4ef7731840801",
@@ -298,7 +323,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: בניית אתר בעזרת AI ובדיקת הקוד · BUILD"
     },
     {
       "id": "file-82721e07934d8506f867a0a6",
@@ -308,7 +334,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: בניית אתר בעזרת AI ובדיקת הקוד · DIAGNOSE"
     },
     {
       "id": "file-7dc22af4f62bd62dcde31946",
@@ -318,7 +345,8 @@
       "y": 1250,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: בניית אתר בעזרת AI ובדיקת הקוד · TRANSFER"
     },
     {
       "id": "file-01e1ba7628b23c3bd91f7347",
@@ -328,7 +356,8 @@
       "y": 1250,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: טפסים וחיבור ל־CRM · BUILD"
     },
     {
       "id": "file-1881d85911fe666a3b55f1fa",
@@ -338,7 +367,8 @@
       "y": 1480,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: טפסים וחיבור ל־CRM · DIAGNOSE"
     },
     {
       "id": "file-6e33271ca62cf130a22b9196",
@@ -348,7 +378,8 @@
       "y": 1480,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: טפסים וחיבור ל־CRM · TRANSFER"
     },
     {
       "id": "file-94889836808b3473807d33b4",
@@ -358,7 +389,8 @@
       "y": 1710,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: בדיקות לפני פריסה · BUILD"
     },
     {
       "id": "file-81f5cb3b52689e4150bdeaf1",
@@ -368,7 +400,8 @@
       "y": 1710,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: בדיקות לפני פריסה · DIAGNOSE"
     },
     {
       "id": "file-644c31bde37801a16134beeb",
@@ -378,7 +411,8 @@
       "y": 1940,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: בדיקות לפני פריסה · TRANSFER"
     },
     {
       "id": "file-6107515b54ef1242f966e8db",
@@ -388,7 +422,8 @@
       "y": 1940,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: מבחן מסכם: אתר המחובר למערכת AI · BUILD"
     },
     {
       "id": "file-78adabdfd418b7e4d217b11e",
@@ -398,7 +433,8 @@
       "y": 2170,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: מבחן מסכם: אתר המחובר למערכת AI · DIAGNOSE"
     },
     {
       "id": "file-39a741fc30bf0b439d5dbe41",
@@ -408,7 +444,8 @@
       "y": 2170,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: מבחן מסכם: אתר המחובר למערכת AI · TRANSFER"
     },
     {
       "id": "group-60a9f0c5955e7eeaf3da0af9",
@@ -428,7 +465,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: בטופס פנייה מופיע ״הושלם״ מיד לאחר שהמשימה נכנסה לתור. מהו התיקון המתאים למסע המשתמש?"
     },
     {
       "id": "file-761e793dec837c9e08300e6a",
@@ -438,7 +476,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: ממשק בעברית מוגדר כ־RTL. כיצד צריך להתייחס לקוד ולשימוש במקלדת?"
     },
     {
       "id": "file-db61d5913c913426c15ffe05",
@@ -448,7 +487,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: כרטיס בדף שנוצר בעזרת AI נראה טוב במחשב אך חורג מרוחב הטלפון. מה נדרש כדי להשלים את הבנייה?"
     },
     {
       "id": "file-1a6d34abaa86ea03ae1a38f6",
@@ -458,7 +498,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: הטופס נשלח, הרשת נותקה, והמשתמש מנסה שוב. מה עוזר למנוע יצירת שתי פניות?"
     },
     {
       "id": "file-c74a0233d7d96099d7fc251d",
@@ -468,7 +509,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: דוח אוטומטי על האתר נראה תקין. איזו בדיקה עסקית עדיין צריך לבצע לפני פרסום?"
     },
     {
       "id": "file-0f04d5800b20b7707a918fea",
@@ -478,7 +520,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: העוזר באתר מציג תשובות קבועות לצורכי הדגמה. כיצד נכון לתאר אותו למשתמש?"
     },
     {
       "id": "file-88f2e8af7d4a18cf9c6ade6b",
@@ -488,7 +531,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#לפני שמגישים · שאלה קצרה לתרגול"
     },
     {
       "id": "group-3005f1c293a9948fa1a7a265",
@@ -508,7 +552,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#קוד וניפוי שגיאות"
     },
     {
       "id": "file-5e5d06c1515c3bcc85ac90df",
@@ -518,7 +563,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#עברית ברורה וסיכום התשובה"
     },
     {
       "id": "file-be11d40265cd2df767d8f455",
@@ -528,7 +574,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#פריסה, ניטור ואמינות"
     },
     {
       "id": "file-0d144fd688f42b47485b3f13",
@@ -538,7 +585,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#ממשק, ניווט ונגישות"
     },
     {
       "id": "file-940cffbeca2b500e56117503",
@@ -548,7 +596,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#תיאום צוות ההדרכה"
     },
     {
       "id": "file-970f1c3b737ba49e4fa49178",
@@ -558,7 +607,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#מוצר, שירות ופריסה"
     },
     {
       "id": "file-6d3e232a1d2d882015dd6955",
@@ -568,7 +618,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#Backend"
     },
     {
       "id": "file-0cbc9d78347ea8836d3870cb",
@@ -578,7 +629,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#Deployment"
     },
     {
       "id": "file-8e3cf6e7a274c18e65e218e6",
@@ -588,7 +640,8 @@
       "y": 1250,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#ממשק ונגישות"
     },
     {
       "id": "file-75d665b28b8e117f1112f317",
@@ -598,7 +651,8 @@
       "y": 1250,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#Docker overview"
     },
     {
       "id": "file-db7c9bcd629d1af12cf0a74f",
@@ -608,7 +662,8 @@
       "y": 1480,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#FastAPI tutorial"
     },
     {
       "id": "file-181f8e915599a29bf0e3508e",
@@ -618,7 +673,8 @@
       "y": 1480,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#HubSpot webhooks"
     },
     {
       "id": "file-087b2d36b8d4b93ed512d34a",
@@ -628,7 +684,8 @@
       "y": 1710,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#Next.js App Router"
     },
     {
       "id": "file-7de2b8064c789c866081ed5b",
@@ -638,7 +695,8 @@
       "y": 1710,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#React learn"
     },
     {
       "id": "file-f355bfaee1a42bfa9f58d08a",
@@ -648,7 +706,8 @@
       "y": 1940,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#WCAG 2.2"
     },
     {
       "id": "file-bf6b361f16fb0b68acbec7e3",
@@ -658,7 +717,8 @@
       "y": 1940,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#Byte — רכיב הרובוט האינטראקטיבי"
     },
     {
       "id": "file-2fb42056d86b43185207a904",
@@ -668,7 +728,8 @@
       "y": 2170,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#מפת המסע — רכיב הממשק"
     },
     {
       "id": "file-5859f5e7c5b2fdd5e8b63009",
@@ -678,7 +739,8 @@
       "y": 2170,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#תצוגת תיק העבודות"
     },
     {
       "id": "file-1dd25fdb65722cf0f794a1e2",
@@ -688,7 +750,8 @@
       "y": 2400,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#בחירת קבצים ותצוגה מקדימה"
     }
   ],
   "edges": [

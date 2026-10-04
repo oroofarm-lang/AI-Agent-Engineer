@@ -8,7 +8,8 @@
       "y": 0,
       "width": 560,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#איכות, אבטחה ובקרה"
     },
     {
       "id": "group-03f54177e952cae6e9ddd88a",
@@ -28,7 +29,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#תכנון נתוני הערכה"
     },
     {
       "id": "file-9f2e6ac261eb5f610b02d9ae",
@@ -38,7 +40,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#מחוונים ושופטים"
     },
     {
       "id": "file-4ec3d63c95e2b88fcaf7ac23",
@@ -48,7 +51,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#תיעוד ריצות וניטור"
     },
     {
       "id": "file-f60e259e64f81a563d038365",
@@ -58,7 +62,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#פרויקט: מעבדת איכות לסוכן"
     },
     {
       "id": "file-806da2f5fa7d17e92263afc3",
@@ -68,7 +73,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#הזרקת הוראות זדוניות"
     },
     {
       "id": "file-fde00da17ef2b1963830daf9",
@@ -78,7 +84,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#תקיפות כלים וחשיפת מידע"
     },
     {
       "id": "file-c08894e86051b665fbfc766b",
@@ -88,7 +95,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#אישור אנושי וחידוש תהליך"
     },
     {
       "id": "file-3c3bc952f552c2b1d24c4695",
@@ -98,7 +106,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#מבחן מסכם: בדיקת תקיפה ותיקון"
     },
     {
       "id": "group-f7a8dd74bbc4382368cc1583",
@@ -118,7 +127,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: תכנון נתוני הערכה"
     },
     {
       "id": "file-8543d34d8749989a980bfb04",
@@ -128,7 +138,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: מחוונים ושופטים"
     },
     {
       "id": "file-81331d1a741f78cf9ea21185",
@@ -138,7 +149,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: תיעוד ריצות וניטור"
     },
     {
       "id": "file-35515e1ed57ddb18503a59fd",
@@ -148,7 +160,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: פרויקט: מעבדת איכות לסוכן"
     },
     {
       "id": "file-4fe6480f0c68d782bf3a3a50",
@@ -158,7 +171,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: הזרקת הוראות זדוניות"
     },
     {
       "id": "file-08023ca61045a674d32ef871",
@@ -168,7 +182,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: תקיפות כלים וחשיפת מידע"
     },
     {
       "id": "file-65c9630f77314b1b538a91b8",
@@ -178,7 +193,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: אישור אנושי וחידוש תהליך"
     },
     {
       "id": "file-b86726eafbcfb16fd56d8f87",
@@ -188,7 +204,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: מבחן מסכם: בדיקת תקיפה ותיקון"
     },
     {
       "id": "group-ea70bd3ba3f8cabadbdb2a70",
@@ -208,7 +225,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · תכנון נתוני הערכה"
     },
     {
       "id": "file-4b9477819dade223fb5afb0f",
@@ -218,7 +236,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · מחוונים ושופטים"
     },
     {
       "id": "file-0617e3d3c78db91f3e73242e",
@@ -228,7 +247,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · תיעוד ריצות וניטור"
     },
     {
       "id": "file-71ab3bf17b23b3f965a9b025",
@@ -238,7 +258,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · פרויקט: מעבדת איכות לסוכן"
     },
     {
       "id": "file-80f0675b9dea74da98315846",
@@ -248,7 +269,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · הזרקת הוראות זדוניות"
     },
     {
       "id": "file-f2f4b9d3fbf7842023fc1aa3",
@@ -258,7 +280,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · תקיפות כלים וחשיפת מידע"
     },
     {
       "id": "file-759b98c2654302f702942bb9",
@@ -268,7 +291,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · אישור אנושי וחידוש תהליך"
     },
     {
       "id": "file-96d2c3cb035aba465ecf193d",
@@ -278,7 +302,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · מבחן מסכם: בדיקת תקיפה ותיקון"
     },
     {
       "id": "group-4af1ad67a5d44fcc3db6fd26",
@@ -298,7 +323,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: תכנון נתוני הערכה · BUILD"
     },
     {
       "id": "file-dd400ccbddaa71ea53a5a07a",
@@ -308,7 +334,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: תכנון נתוני הערכה · DIAGNOSE"
     },
     {
       "id": "file-d9bc87bbae398f6ba334b3b6",
@@ -318,7 +345,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: תכנון נתוני הערכה · TRANSFER"
     },
     {
       "id": "file-79886c098395711852b6c17e",
@@ -328,7 +356,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: מחוונים ושופטים · BUILD"
     },
     {
       "id": "file-e88c401aa84dd53618ae4b3b",
@@ -338,7 +367,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: מחוונים ושופטים · DIAGNOSE"
     },
     {
       "id": "file-6d2b05789b7cb65ac4c61149",
@@ -348,7 +378,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: מחוונים ושופטים · TRANSFER"
     },
     {
       "id": "file-e8f365e881f6964bf6b221c1",
@@ -358,7 +389,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: תיעוד ריצות וניטור · BUILD"
     },
     {
       "id": "file-1ec4924f71257b4d641ef24e",
@@ -368,7 +400,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: תיעוד ריצות וניטור · DIAGNOSE"
     },
     {
       "id": "file-cbcce58eab74b69416f551aa",
@@ -378,7 +411,8 @@
       "y": 1250,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: תיעוד ריצות וניטור · TRANSFER"
     },
     {
       "id": "file-9a18a043f6ba3b3ead3aa502",
@@ -388,7 +422,8 @@
       "y": 1250,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: פרויקט: מעבדת איכות לסוכן · BUILD"
     },
     {
       "id": "file-4f250efdc25cc99f31158122",
@@ -398,7 +433,8 @@
       "y": 1480,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: פרויקט: מעבדת איכות לסוכן · DIAGNOSE"
     },
     {
       "id": "file-63ef2eac516270f03a69bb38",
@@ -408,7 +444,8 @@
       "y": 1480,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: פרויקט: מעבדת איכות לסוכן · TRANSFER"
     },
     {
       "id": "file-4f7a4d62d93ba51cded08682",
@@ -418,7 +455,8 @@
       "y": 1710,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: הזרקת הוראות זדוניות · BUILD"
     },
     {
       "id": "file-3954969a0c92c61b88608ca8",
@@ -428,7 +466,8 @@
       "y": 1710,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: הזרקת הוראות זדוניות · DIAGNOSE"
     },
     {
       "id": "file-8bf63b267be8f4f7c2d9493f",
@@ -438,7 +477,8 @@
       "y": 1940,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: הזרקת הוראות זדוניות · TRANSFER"
     },
     {
       "id": "file-4946436edcc4e1e4a62d50f3",
@@ -448,7 +488,8 @@
       "y": 1940,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: תקיפות כלים וחשיפת מידע · BUILD"
     },
     {
       "id": "file-22cfe29d6717b091f0c80878",
@@ -458,7 +499,8 @@
       "y": 2170,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: תקיפות כלים וחשיפת מידע · DIAGNOSE"
     },
     {
       "id": "file-8bbd688f66778b482ff5903a",
@@ -468,7 +510,8 @@
       "y": 2170,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: תקיפות כלים וחשיפת מידע · TRANSFER"
     },
     {
       "id": "file-a5a3f11c818b4c4a0e6710ea",
@@ -478,7 +521,8 @@
       "y": 2400,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: אישור אנושי וחידוש תהליך · BUILD"
     },
     {
       "id": "file-08e237442ee82cd35fe71639",
@@ -488,7 +532,8 @@
       "y": 2400,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: אישור אנושי וחידוש תהליך · DIAGNOSE"
     },
     {
       "id": "file-d84aacd1dfca5246593f87d8",
@@ -498,7 +543,8 @@
       "y": 2630,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: אישור אנושי וחידוש תהליך · TRANSFER"
     },
     {
       "id": "file-4c4954077710168bc711c911",
@@ -508,7 +554,8 @@
       "y": 2630,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: מבחן מסכם: בדיקת תקיפה ותיקון · BUILD"
     },
     {
       "id": "file-ec1ab097729229906ce8f7c9",
@@ -518,7 +565,8 @@
       "y": 2860,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: מבחן מסכם: בדיקת תקיפה ותיקון · DIAGNOSE"
     },
     {
       "id": "file-45e824f369f97812d505b395",
@@ -528,7 +576,8 @@
       "y": 2860,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: מבחן מסכם: בדיקת תקיפה ותיקון · TRANSFER"
     },
     {
       "id": "group-57155a67b4a330e54cbd1114",
@@ -548,7 +597,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: מדוע שומרים חלק ממקרי הבדיקה למדידה הסופית?"
     },
     {
       "id": "file-f7e4a576fe21ae310223fed1",
@@ -558,7 +608,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: מודל בודק נתן ציון גבוה לתשובה יפה אך שגויה. מה צריך לעשות לפני הסתמכות על ציוניו?"
     },
     {
       "id": "file-635d0ff1c8db8d3fa2ec6e2c",
@@ -568,7 +619,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: ריצה איטית לא החזירה חריגה. איזה תיעוד מסייע לאתר את העיכוב?"
     },
     {
       "id": "file-222b6e478134d2a3b307867c",
@@ -578,7 +630,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: שינוי שיפר דיוק אך הגדיל את הזמן מעבר למגבלה. איך נכון להציג את ההשוואה?"
     },
     {
       "id": "file-aa1e50fddec92d890d09952e",
@@ -588,7 +641,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: מסמך חיצוני מבקש לשלוח מידע ליעד שאינו מורשה. איזו הגנה נדרשת מעבר להנחיית בטיחות למודל?"
     },
     {
       "id": "file-ff42834a2a807c9a5714cd97",
@@ -598,7 +652,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: בקשת כלי כוללת JSON תקין עם נתיב מחוץ לתיקיית העבודה. מה צריך לבדוק?"
     },
     {
       "id": "file-8f88ee0d02bc44135dfb432f",
@@ -608,7 +663,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: טיוטת הפעולה נערכה אחרי אישור אנושי. מה צריך לבדוק לפני הביצוע?"
     },
     {
       "id": "file-57022b0eb2a86a32f8690ed2",
@@ -618,7 +674,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: תוקנה תקיפה אחת במערכת. איזו בדיקה נוספת דורש המבחן המסכם?"
     },
     {
       "id": "file-88f2e8af7d4a18cf9c6ade6b",
@@ -628,7 +685,8 @@
       "y": 1250,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#לפני שמגישים · שאלה קצרה לתרגול"
     },
     {
       "id": "group-b6b146a82a9d3ea1e43e4c80",
@@ -648,7 +706,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#אוטומציה וחיבור מערכות"
     },
     {
       "id": "file-b986990a67228050c817fe81",
@@ -658,7 +717,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#אפיון שירות ופרויקט עסקי"
     },
     {
       "id": "file-01b5ae97a0708e4906c8cbb0",
@@ -668,7 +728,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#קוד וניפוי שגיאות"
     },
     {
       "id": "file-3e54d6ed97893807e0fe903b",
@@ -678,7 +739,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#לקוחות, מכירות ושירות"
     },
     {
       "id": "file-2365f0a01a9b198c38e3ca05",
@@ -688,7 +750,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#מקורות ועדכוני תוכן"
     },
     {
       "id": "file-5e5d06c1515c3bcc85ac90df",
@@ -698,7 +761,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#עברית ברורה וסיכום התשובה"
     },
     {
       "id": "file-32329bf144be4a54e19368b2",
@@ -708,7 +772,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#פרסום ומדידה"
     },
     {
       "id": "file-be11d40265cd2df767d8f455",
@@ -718,7 +783,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#פריסה, ניטור ואמינות"
     },
     {
       "id": "file-6d1e195fbb57cc5b91e69c4c",
@@ -728,7 +794,8 @@
       "y": 1250,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#משוב על העבודה והתקדמות"
     },
     {
       "id": "file-456cb68b048665cc5ebc34d1",
@@ -738,7 +805,8 @@
       "y": 1250,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#תרגול ובדיקות הבנה"
     },
     {
       "id": "file-61e6e2118dba2a11aa442a3f",
@@ -748,7 +816,8 @@
       "y": 1480,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#אבטחה והרשאות"
     },
     {
       "id": "file-940cffbeca2b500e56117503",
@@ -758,7 +827,8 @@
       "y": 1480,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#תיאום צוות ההדרכה"
     },
     {
       "id": "file-5bb40e289d26ca5b75238a9d",
@@ -768,7 +838,8 @@
       "y": 1710,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#פרויקט גמר לעסק"
     },
     {
       "id": "file-e524d6cd1c71643b9b26c73d",
@@ -778,7 +849,8 @@
       "y": 1710,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#פרק 1: יסודות · פרק חובה"
     },
     {
       "id": "file-ecb517fedf6156e95a2cf50a",
@@ -788,7 +860,8 @@
       "y": 1940,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#נתונים ומודלים מקומיים"
     },
     {
       "id": "file-e64f6c8f7b1b3257c0e20355",
@@ -798,7 +871,8 @@
       "y": 1940,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#Authorization"
     },
     {
       "id": "file-b42017f04f774204a1664fe3",
@@ -808,7 +882,8 @@
       "y": 2170,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#Evals"
     },
     {
       "id": "file-570ad4f02fcf2ad9586d8869",
@@ -818,7 +893,8 @@
       "y": 2170,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#Human Approval"
     },
     {
       "id": "file-9d5b8e2f04d8902b2b2ebd05",
@@ -828,7 +904,8 @@
       "y": 2400,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#Prompt Injection"
     },
     {
       "id": "file-b491cc100cd0858d49b48492",
@@ -838,7 +915,8 @@
       "y": 2400,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#Testing"
     },
     {
       "id": "file-ca475a2c515b05acc79979c7",
@@ -848,7 +926,8 @@
       "y": 2630,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#Tracing"
     },
     {
       "id": "file-03dc4032dc824d78e33c8bd3",
@@ -858,7 +937,8 @@
       "y": 2630,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#Demystifying evals for AI agents"
     },
     {
       "id": "file-d30fe61a4c1a6d1151717a05",
@@ -868,7 +948,8 @@
       "y": 2860,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#LangGraph persistence"
     },
     {
       "id": "file-db25419de1ef7d7b604061d2",
@@ -878,7 +959,8 @@
       "y": 2860,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#n8n human-in-the-loop"
     },
     {
       "id": "file-30d49bf2bdfc0f02ba19e206",
@@ -888,7 +970,8 @@
       "y": 3090,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#OpenTelemetry signals"
     },
     {
       "id": "file-c6fec4cda4db32c5eb5375a8",
@@ -898,7 +981,8 @@
       "y": 3090,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#OWASP LLM risks"
     },
     {
       "id": "file-b1273e067284784bfa1461e9",
@@ -908,7 +992,8 @@
       "y": 3320,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#Promptfoo test cases"
     },
     {
       "id": "file-135823c10fdd5f990317e375",
@@ -918,7 +1003,8 @@
       "y": 3320,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#בקשת משוב אוטומטי וכיסוי החומר"
     },
     {
       "id": "file-015a37700a008604107e3ba9",
@@ -928,7 +1014,8 @@
       "y": 3550,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#ניקוי רשומות אימות שפג תוקפן"
     },
     {
       "id": "file-5b358bd71351c24fec401c00",
@@ -938,7 +1025,8 @@
       "y": 3550,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#שירות לניקוי רשומות אימות זהות שפג תוקפן"
     },
     {
       "id": "file-c25a43df34ae001cb73c8981",
@@ -948,7 +1036,8 @@
       "y": 3780,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#תזמון יומי לניקוי רשומות אימות זהות"
     },
     {
       "id": "file-f421739858508fb19cac137b",
@@ -958,7 +1047,8 @@
       "y": 3780,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#בדיקת הצעות לעדכון הקורס"
     },
     {
       "id": "file-7389a27c53068324334676db",
@@ -968,7 +1058,8 @@
       "y": 4010,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#גיבוי עקבי לפני שינוי מבנה מסד הנתונים"
     },
     {
       "id": "file-d80b7d313f8c8dc860f17c66",
@@ -978,7 +1069,8 @@
       "y": 4010,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#הפרדת מידע פרטי מתמונת האפליקציה"
     },
     {
       "id": "file-68d6602602f8c4e952ee28f1",
@@ -988,7 +1080,8 @@
       "y": 4240,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#השרת והאחסון שנשמר בין הפעלות"
     },
     {
       "id": "file-7fda2d323420d5c261ef5525",
@@ -998,7 +1091,8 @@
       "y": 4240,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#בדיקות חבילת הפריסה ב־GitHub"
     },
     {
       "id": "file-a14a894bcfa462960ca71816",
@@ -1008,7 +1102,8 @@
       "y": 4470,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#שרת הכניסה וגבולות הבקשה"
     },
     {
       "id": "file-0158549a7d0debdf1dc9f914",
@@ -1018,7 +1113,8 @@
       "y": 4470,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#בניית תמונת האפליקציה"
     },
     {
       "id": "file-17683f383f123f0317e550d3",
@@ -1028,7 +1124,8 @@
       "y": 4700,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#בדיקת מוכנות פנימית"
     },
     {
       "id": "file-79f1f7f5dfdd7f7300783979",
@@ -1038,7 +1135,8 @@
       "y": 4700,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#בדיקת שמירה ושחזור עם נתונים סינתטיים"
     },
     {
       "id": "file-d9d888fc23ea70db060b7cbc",
@@ -1048,7 +1146,8 @@
       "y": 4930,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#בדיקת הגדרות וגיבוי לפני הפעלה"
     },
     {
       "id": "file-f1d6074a2bb2b5140bb65c86",
@@ -1058,7 +1157,8 @@
       "y": 4930,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#גילוי מקורות ציבוריים ב־GitHub"
     },
     {
       "id": "file-2bef11ae08ba36ee7ae78a98",
@@ -1068,7 +1168,8 @@
       "y": 5160,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#שירות רענון המקורות בשרת"
     },
     {
       "id": "file-16117e9ac8271a7761061563",
@@ -1078,7 +1179,8 @@
       "y": 5160,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#תזמון רענון שלוש פעמים בשבוע"
     },
     {
       "id": "file-1a5ab07b35b837af2deb18ec",
@@ -1088,7 +1190,8 @@
       "y": 5390,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#רענון המטמון שבו המנטור משתמש"
     },
     {
       "id": "file-0ca5c16e35c4a5004b58cc61",
@@ -1098,7 +1201,8 @@
       "y": 5390,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#בחירת ההקשר הנוכחי בשיעור ובתרגיל"
     },
     {
       "id": "file-25122d83d4c496cabc744ce1",
@@ -1108,7 +1212,8 @@
       "y": 5620,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#בחירת הקשר לשיחה עם המנטור"
     },
     {
       "id": "file-f8ca97dd4bd1cad5713d8d1c",
@@ -1118,7 +1223,8 @@
       "y": 5620,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#מבנה בקשות העזרה וההקשר הנבחר"
     },
     {
       "id": "file-fa1b728d0c2e77821cf4ea81",
@@ -1128,7 +1234,8 @@
       "y": 5850,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#עיצוב אפשרויות הסבר למסכים קטנים"
     },
     {
       "id": "file-9f99a571769c0fc3adba53c8",
@@ -1138,7 +1245,8 @@
       "y": 5850,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#בחירת רמת הסבר מתוך השיעור"
     },
     {
       "id": "file-c3009050d0238474c9ec827e",
@@ -1148,7 +1256,8 @@
       "y": 6080,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#צירוף גרסת טיוטה שמורה לפי הרשאה"
     },
     {
       "id": "file-6da7c6d6dd97f316ce77112a",
@@ -1158,7 +1267,8 @@
       "y": 6080,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#שאלות ההוכחה המעשית"
     },
     {
       "id": "file-c0ca35f9ba74923cd8714ce9",
@@ -1168,7 +1278,8 @@
       "y": 6310,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#בדיקת שאלות ואישור מאגר לפרסום"
     },
     {
       "id": "file-9e3e97de93af0eadf98932f0",
@@ -1178,7 +1289,8 @@
       "y": 6310,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#שאלת תרגול ושמירת תשובה"
     },
     {
       "id": "file-e50179f19b36d92d16979756",
@@ -1188,7 +1300,8 @@
       "y": 6540,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#מבנה בקשות לשמירת טיוטות פרטיות"
     },
     {
       "id": "file-f2fd61b766033bc14fe7cfd2",
@@ -1198,7 +1311,8 @@
       "y": 6540,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#ייבוא וייצוא של תבניות העבודה"
     },
     {
       "id": "file-74c46a45967aff45e3fdaf10",
@@ -1208,7 +1322,8 @@
       "y": 6770,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#עורך טקסט ותצוגה מקדימה"
     },
     {
       "id": "file-c8a68bd518c28bde2f5b7f66",
@@ -1218,7 +1333,8 @@
       "y": 6770,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#כיוון כתיבה עברי בקובץ PDF"
     },
     {
       "id": "file-90a46fd8260184be4c99858e",
@@ -1228,7 +1344,8 @@
       "y": 7000,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#ייצוא העבודה לקובץ PDF"
     },
     {
       "id": "file-5b0a3e869b74eef341533b92",
@@ -1238,7 +1355,8 @@
       "y": 7000,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#עיצוב טקסט ותוכן Markdown ב־PDF"
     },
     {
       "id": "file-9e66b3167040e1791ffa0fa5",
@@ -1248,7 +1366,8 @@
       "y": 7230,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#סכמות תבניות טקסט וטבלה"
     },
     {
       "id": "file-9398c8f4199f53afce374c6f",
@@ -1258,7 +1377,8 @@
       "y": 7230,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#בחירת טיוטות שמורות להגשה"
     },
     {
       "id": "file-3af262fb6ebc6db9869ae9f0",
@@ -1268,7 +1388,8 @@
       "y": 7460,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#עורך טבלאות בתוך השיעור"
     },
     {
       "id": "file-9bd0492c26c7c658b0c61902",
@@ -1278,7 +1399,8 @@
       "y": 7460,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#עריכת תבנית ושמירה אוטומטית"
     },
     {
       "id": "file-1fd9614b391361dbbf271ada",
@@ -1288,7 +1410,8 @@
       "y": 7690,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#גרסת מפת הידע ועדכון הייצוא"
     },
     {
       "id": "file-c240e8585cd1a151190dd59b",
@@ -1298,7 +1421,8 @@
       "y": 7690,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#התראה לפני מעבר כשאין אישור לשמירת העבודה"
     },
     {
       "id": "file-da38c5069e356aed89f2a7e6",
@@ -1308,7 +1432,8 @@
       "y": 7920,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#LangGraph"
     },
     {
       "id": "file-8054ccbe9a59e8e9a8011252",
@@ -1318,7 +1443,8 @@
       "y": 7920,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#n8n"
     },
     {
       "id": "file-110ce1b846b736e5f857ae5b",
@@ -1328,7 +1454,8 @@
       "y": 8150,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#LangGraph"
     },
     {
       "id": "file-fdab6efb1437fd6b660f5e82",
@@ -1338,7 +1465,8 @@
       "y": 8150,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#n8n"
     }
   ],
   "edges": [

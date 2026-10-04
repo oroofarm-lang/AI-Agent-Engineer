@@ -8,7 +8,8 @@
       "y": 0,
       "width": 560,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#אוטומציה והטמעת מערכות"
     },
     {
       "id": "group-3197c0d71c0c130913569566",
@@ -28,7 +29,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#תכנון כלים עסקיים"
     },
     {
       "id": "file-4572f614491dedb5c8b7288a",
@@ -38,7 +40,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#MCP: חיבור כלים והקשר"
     },
     {
       "id": "file-97df8b6cbe03cca3d1bfa789",
@@ -48,7 +51,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#תופעות לוואי והרשאות"
     },
     {
       "id": "file-db27fcb67350ff1466fb621c",
@@ -58,7 +62,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#פרויקט: סוכן תפעול"
     },
     {
       "id": "file-971daaa3c5c622d7ffed8a18",
@@ -68,7 +73,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#אוטומציה ראשונה ב־n8n"
     },
     {
       "id": "file-9ad327e32b3f43b4dc2ec7e4",
@@ -78,7 +84,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#חיבור גיליון, דוא״ל ומערכת CRM"
     },
     {
       "id": "file-dd16c54ed50ff37026248e98",
@@ -88,7 +95,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#שלב AI בתוך תהליך קבוע"
     },
     {
       "id": "file-fe38cbafc1fe34ff79a097b1",
@@ -98,7 +106,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#כשלים, ניסיונות חוזרים וכפילויות"
     },
     {
       "id": "file-f9dca0b253433b4e3ea442dd",
@@ -108,7 +117,8 @@
       "y": 1250,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#אישור אנושי בתהליך חזותי"
     },
     {
       "id": "file-24fbed985ddbc14d99f1fb15",
@@ -118,7 +128,8 @@
       "y": 1250,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#העברת תהליך ל־Make"
     },
     {
       "id": "file-10686ba26cc937546230fd80",
@@ -128,7 +139,8 @@
       "y": 1480,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#הטמעה בסביבת Microsoft 365"
     },
     {
       "id": "file-344fa50fdb4641fea1bddd9e",
@@ -138,7 +150,8 @@
       "y": 1480,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#מבחן מסכם: מערכת אוטומציה עסקית"
     },
     {
       "id": "group-b6d8c1c2fb1e7b80e3e27731",
@@ -158,7 +171,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: תכנון כלים עסקיים"
     },
     {
       "id": "file-b8113162b4c79ce085ef8eaa",
@@ -168,7 +182,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: MCP: חיבור כלים והקשר"
     },
     {
       "id": "file-229fe12bf6442d028c70faba",
@@ -178,7 +193,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: תופעות לוואי והרשאות"
     },
     {
       "id": "file-902586ea24d8fba05f77a478",
@@ -188,7 +204,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: פרויקט: סוכן תפעול"
     },
     {
       "id": "file-ca2613a90ade2ec115d015b1",
@@ -198,7 +215,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: אוטומציה ראשונה ב־n8n"
     },
     {
       "id": "file-7826b55a10f0096aed484bf9",
@@ -208,7 +226,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: חיבור גיליון, דוא״ל ומערכת CRM"
     },
     {
       "id": "file-e762ab926b6133c7239049b2",
@@ -218,7 +237,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: שלב AI בתוך תהליך קבוע"
     },
     {
       "id": "file-b49cfc19b767789206154ead",
@@ -228,7 +248,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: כשלים, ניסיונות חוזרים וכפילויות"
     },
     {
       "id": "file-f40e57d5a055cc97f4463030",
@@ -238,7 +259,8 @@
       "y": 1250,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: אישור אנושי בתהליך חזותי"
     },
     {
       "id": "file-f8793988254720a9e8f6258c",
@@ -248,7 +270,8 @@
       "y": 1250,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: העברת תהליך ל־Make"
     },
     {
       "id": "file-f7001deafa7766f855a348cf",
@@ -258,7 +281,8 @@
       "y": 1480,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: הטמעה בסביבת Microsoft 365"
     },
     {
       "id": "file-1a5774b530d5e7b65e3a2b0b",
@@ -268,7 +292,8 @@
       "y": 1480,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: מבחן מסכם: מערכת אוטומציה עסקית"
     },
     {
       "id": "group-9ab8b6a75f1f971a45784f59",
@@ -288,7 +313,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · תכנון כלים עסקיים"
     },
     {
       "id": "file-c020c2a60b454b234e20ab6c",
@@ -298,7 +324,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · MCP: חיבור כלים והקשר"
     },
     {
       "id": "file-4736069da9ec8cb0d42c5d52",
@@ -308,7 +335,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · תופעות לוואי והרשאות"
     },
     {
       "id": "file-e5ae5fbfcb5df86c44568c28",
@@ -318,7 +346,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · פרויקט: סוכן תפעול"
     },
     {
       "id": "file-6fc96ea58817032a4c1dc7b9",
@@ -328,7 +357,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · אוטומציה ראשונה ב־n8n"
     },
     {
       "id": "file-e013d5aa56e59819c70eba37",
@@ -338,7 +368,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · חיבור גיליון, דוא״ל ומערכת CRM"
     },
     {
       "id": "file-15c8260a60b73eced65f1487",
@@ -348,7 +379,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · שלב AI בתוך תהליך קבוע"
     },
     {
       "id": "file-8a7142e47f8229e710efd851",
@@ -358,7 +390,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · כשלים, ניסיונות חוזרים וכפילויות"
     },
     {
       "id": "file-668d962b6d06ce3f96c20449",
@@ -368,7 +401,8 @@
       "y": 1250,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · אישור אנושי בתהליך חזותי"
     },
     {
       "id": "file-e49705795282d26b40ce21bb",
@@ -378,7 +412,8 @@
       "y": 1250,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · העברת תהליך ל־Make"
     },
     {
       "id": "file-a01b6d5ca7afee2952370b81",
@@ -388,7 +423,8 @@
       "y": 1480,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · הטמעה בסביבת Microsoft 365"
     },
     {
       "id": "file-78947ad94fe44f91fc878d3b",
@@ -398,7 +434,8 @@
       "y": 1480,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · מבחן מסכם: מערכת אוטומציה עסקית"
     },
     {
       "id": "group-7462ad02b4a9c1e5cd8f095e",
@@ -418,7 +455,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: תכנון כלים עסקיים · BUILD"
     },
     {
       "id": "file-44d330363ece4a38bdca92f0",
@@ -428,7 +466,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: תכנון כלים עסקיים · DIAGNOSE"
     },
     {
       "id": "file-58b7e743e85715ff27c0d368",
@@ -438,7 +477,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: תכנון כלים עסקיים · TRANSFER"
     },
     {
       "id": "file-bc64f77770b913709b5e5792",
@@ -448,7 +488,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: MCP: חיבור כלים והקשר · BUILD"
     },
     {
       "id": "file-6a74995441c45e7546f44e53",
@@ -458,7 +499,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: MCP: חיבור כלים והקשר · DIAGNOSE"
     },
     {
       "id": "file-e8a75391aada8bd1b2f3f79c",
@@ -468,7 +510,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: MCP: חיבור כלים והקשר · TRANSFER"
     },
     {
       "id": "file-806518cc7b9cf68fad8f595d",
@@ -478,7 +521,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: תופעות לוואי והרשאות · BUILD"
     },
     {
       "id": "file-c59679e57616839fabe28741",
@@ -488,7 +532,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: תופעות לוואי והרשאות · DIAGNOSE"
     },
     {
       "id": "file-defa8f42103c61bf3170ff68",
@@ -498,7 +543,8 @@
       "y": 1250,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: תופעות לוואי והרשאות · TRANSFER"
     },
     {
       "id": "file-a86ff30fe18e3b08f32008e8",
@@ -508,7 +554,8 @@
       "y": 1250,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: פרויקט: סוכן תפעול · BUILD"
     },
     {
       "id": "file-c4ece3f7e319d199c1cc5b81",
@@ -518,7 +565,8 @@
       "y": 1480,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: פרויקט: סוכן תפעול · DIAGNOSE"
     },
     {
       "id": "file-91be09b265e31f19915e2c18",
@@ -528,7 +576,8 @@
       "y": 1480,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: פרויקט: סוכן תפעול · TRANSFER"
     },
     {
       "id": "file-5ff1009c8a33c8346986678f",
@@ -538,7 +587,8 @@
       "y": 1710,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: אוטומציה ראשונה ב־n8n · BUILD"
     },
     {
       "id": "file-bb8b3e890f2fb45fcf42b1a6",
@@ -548,7 +598,8 @@
       "y": 1710,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: אוטומציה ראשונה ב־n8n · DIAGNOSE"
     },
     {
       "id": "file-92f360ee4089d3eb7bbf683e",
@@ -558,7 +609,8 @@
       "y": 1940,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: אוטומציה ראשונה ב־n8n · TRANSFER"
     },
     {
       "id": "file-2d1c303055e08317d96ff54b",
@@ -568,7 +620,8 @@
       "y": 1940,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: חיבור גיליון, דוא״ל ומערכת CRM · BUILD"
     },
     {
       "id": "file-afc204c0d4c4b8e72b823773",
@@ -578,7 +631,8 @@
       "y": 2170,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: חיבור גיליון, דוא״ל ומערכת CRM · DIAGNOSE"
     },
     {
       "id": "file-920035bf5f6c9b9fdaf99167",
@@ -588,7 +642,8 @@
       "y": 2170,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: חיבור גיליון, דוא״ל ומערכת CRM · TRANSFER"
     },
     {
       "id": "file-72d73334f599b0c1afe59fd2",
@@ -598,7 +653,8 @@
       "y": 2400,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: שלב AI בתוך תהליך קבוע · BUILD"
     },
     {
       "id": "file-84805ea3693f43726bc3fe7f",
@@ -608,7 +664,8 @@
       "y": 2400,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: שלב AI בתוך תהליך קבוע · DIAGNOSE"
     },
     {
       "id": "file-fe4ce08a28044451ec63f8fb",
@@ -618,7 +675,8 @@
       "y": 2630,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: שלב AI בתוך תהליך קבוע · TRANSFER"
     },
     {
       "id": "file-6bd72562358d3c8d370d2e29",
@@ -628,7 +686,8 @@
       "y": 2630,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: כשלים, ניסיונות חוזרים וכפילויות · BUILD"
     },
     {
       "id": "file-7acb057ddded70e3d3e7eefe",
@@ -638,7 +697,8 @@
       "y": 2860,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: כשלים, ניסיונות חוזרים וכפילויות · DIAGNOSE"
     },
     {
       "id": "file-b0673f3d73ee9867962a5aa2",
@@ -648,7 +708,8 @@
       "y": 2860,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: כשלים, ניסיונות חוזרים וכפילויות · TRANSFER"
     },
     {
       "id": "file-faa2a4a872a7f602d9d4cae3",
@@ -658,7 +719,8 @@
       "y": 3090,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: אישור אנושי בתהליך חזותי · BUILD"
     },
     {
       "id": "file-06951e280e87e66a7bd2b6f5",
@@ -668,7 +730,8 @@
       "y": 3090,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: אישור אנושי בתהליך חזותי · DIAGNOSE"
     },
     {
       "id": "file-732f36e04859fc3b80a02ec4",
@@ -678,7 +741,8 @@
       "y": 3320,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: אישור אנושי בתהליך חזותי · TRANSFER"
     },
     {
       "id": "file-4a6f1d41d17bbfca8b0c4a52",
@@ -688,7 +752,8 @@
       "y": 3320,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: העברת תהליך ל־Make · BUILD"
     },
     {
       "id": "file-73c5fecf055c9645125a8ff2",
@@ -698,7 +763,8 @@
       "y": 3550,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: העברת תהליך ל־Make · DIAGNOSE"
     },
     {
       "id": "file-6a8aad016f67d356d629016f",
@@ -708,7 +774,8 @@
       "y": 3550,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: העברת תהליך ל־Make · TRANSFER"
     },
     {
       "id": "file-cc8f1e2b82c70734f50e57fc",
@@ -718,7 +785,8 @@
       "y": 3780,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: הטמעה בסביבת Microsoft 365 · BUILD"
     },
     {
       "id": "file-170c5c3c629cf4ac2e46a41a",
@@ -728,7 +796,8 @@
       "y": 3780,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: הטמעה בסביבת Microsoft 365 · DIAGNOSE"
     },
     {
       "id": "file-8019ca61f741afb47767a0a6",
@@ -738,7 +807,8 @@
       "y": 4010,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: הטמעה בסביבת Microsoft 365 · TRANSFER"
     },
     {
       "id": "file-065e1999c399134fd85cd21e",
@@ -748,7 +818,8 @@
       "y": 4010,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: מבחן מסכם: מערכת אוטומציה עסקית · BUILD"
     },
     {
       "id": "file-28c6b8d0d35fe74b4becfffc",
@@ -758,7 +829,8 @@
       "y": 4240,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: מבחן מסכם: מערכת אוטומציה עסקית · DIAGNOSE"
     },
     {
       "id": "file-a6c1d28407c343102a99b133",
@@ -768,7 +840,8 @@
       "y": 4240,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: מבחן מסכם: מערכת אוטומציה עסקית · TRANSFER"
     },
     {
       "id": "group-38f5a6400e52545a0299f202",
@@ -788,7 +861,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: תהליך n8n עובד עם רשומה אחת. איזו בדיקה נוספת מבקש השיעור?"
     },
     {
       "id": "file-c831f5950a96a53616637aef",
@@ -798,7 +872,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: בגיליון יש שני לקוחות בעלי אותו שם. על מה נכון לבסס סנכרון של רשומה חוזרת?"
     },
     {
       "id": "file-77ecc3008af375a50048a549",
@@ -808,7 +883,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: שלב ה־AI החזיר טקסט חופשי במקום המבנה שהוגדר. מה צריך לקרות לפני כתיבה ל־CRM?"
     },
     {
       "id": "file-41a10e83f9d9360fc3f1aef1",
@@ -818,7 +894,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: אותו אירוע הגיע פעמיים. מה צריך לבדוק לפני יצירת משימה עסקית נוספת?"
     },
     {
       "id": "file-99ebbb43f4917a2b6f6ace6e",
@@ -828,7 +905,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: טיוטת תשובה שונתה אחרי אישור בתהליך החזותי. מה נדרש כדי להמשיך?"
     },
     {
       "id": "file-1974d7f25bf753e93620a5d5",
@@ -838,7 +916,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: מהו בסיס הוגן לבדיקה לאחר העברת תהליך מ־n8n ל־Make?"
     },
     {
       "id": "file-233ddb0f18d557e384aecf08",
@@ -848,7 +927,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: Copilot Studio מציע Connector שהארגון לא אישר. האם עצם הופעתו במוצר מאפשרת להשתמש בו?"
     },
     {
       "id": "file-982e9e1e5fec34eef0c8e2a2",
@@ -858,7 +938,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: שלב יצירת משימה הצליח, אבל הפנייה אינה ב־CRM הנכון. איך צריך להעריך את התהליך?"
     },
     {
       "id": "file-6220058708636fe7e2c98703",
@@ -868,7 +949,8 @@
       "y": 1250,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: מה היתרון בפיצול כלי CRM ל־lookup_customer, prepare_update ו־apply_update?"
     },
     {
       "id": "file-3ce86e76739f15f79e4f03bd",
@@ -878,7 +960,8 @@
       "y": 1250,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: מה ההבדל בין Tool ל־Resource בתיאור MCP שבשיעור?"
     },
     {
       "id": "file-41194c54f508b7cf0ad5fd37",
@@ -888,7 +971,8 @@
       "y": 1480,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: מה צריך להגדיר אישור אנושי לפעולה בעלת השפעה משמעותית?"
     },
     {
       "id": "file-38b19e6b51034bbe22c4b1e6",
@@ -898,7 +982,8 @@
       "y": 1480,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: הסוכן הכין טיוטת עדכון CRM אך טרם קיבל אישור. מה מותר להציג?"
     },
     {
       "id": "file-88f2e8af7d4a18cf9c6ade6b",
@@ -908,7 +993,8 @@
       "y": 1710,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#לפני שמגישים · שאלה קצרה לתרגול"
     },
     {
       "id": "group-de8df9b4e9553055b6f11e9f",
@@ -928,7 +1014,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#סוכנים ותהליכי עבודה"
     },
     {
       "id": "file-b36640071cb2134abf5dd905",
@@ -938,7 +1025,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#אוטומציה וחיבור מערכות"
     },
     {
       "id": "file-b986990a67228050c817fe81",
@@ -948,7 +1036,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#אפיון שירות ופרויקט עסקי"
     },
     {
       "id": "file-01b5ae97a0708e4906c8cbb0",
@@ -958,7 +1047,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#קוד וניפוי שגיאות"
     },
     {
       "id": "file-3e54d6ed97893807e0fe903b",
@@ -968,7 +1058,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#לקוחות, מכירות ושירות"
     },
     {
       "id": "file-5e5d06c1515c3bcc85ac90df",
@@ -978,7 +1069,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#עברית ברורה וסיכום התשובה"
     },
     {
       "id": "file-61e6e2118dba2a11aa442a3f",
@@ -988,7 +1080,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#אבטחה והרשאות"
     },
     {
       "id": "file-d80abe7699649f478011b4c4",
@@ -998,7 +1091,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#קול, תמלול ושיחה"
     },
     {
       "id": "file-940cffbeca2b500e56117503",
@@ -1008,7 +1102,8 @@
       "y": 1250,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#תיאום צוות ההדרכה"
     },
     {
       "id": "file-5bb40e289d26ca5b75238a9d",
@@ -1018,7 +1113,8 @@
       "y": 1250,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#פרויקט גמר לעסק"
     },
     {
       "id": "file-e524d6cd1c71643b9b26c73d",
@@ -1028,7 +1124,8 @@
       "y": 1480,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#פרק 1: יסודות · פרק חובה"
     },
     {
       "id": "file-bf5a8f960e055342962ecaf4",
@@ -1038,7 +1135,8 @@
       "y": 1480,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#מכירות ושירות לקוחות"
     },
     {
       "id": "file-94958df03cf48d1fae507e41",
@@ -1048,7 +1146,8 @@
       "y": 1710,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#תוכן ושיווק עם AI"
     },
     {
       "id": "file-24128e5aa8c2bde8b01b424c",
@@ -1058,7 +1157,8 @@
       "y": 1710,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#קול ושירות לקוחות"
     },
     {
       "id": "file-efe3b332a07b13dead3e240c",
@@ -1068,7 +1168,8 @@
       "y": 1940,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#HTTP/APIs"
     },
     {
       "id": "file-570ad4f02fcf2ad9586d8869",
@@ -1078,7 +1179,8 @@
       "y": 1940,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#Human Approval"
     },
     {
       "id": "file-94c631f2aa4cd7d4bb3957f5",
@@ -1088,7 +1190,8 @@
       "y": 2170,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#MCP"
     },
     {
       "id": "file-2d6fd33ca187274dac9c3bb2",
@@ -1098,7 +1201,8 @@
       "y": 2170,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#Workflows"
     },
     {
       "id": "file-43e7e16db351a9c0eb610e98",
@@ -1108,7 +1212,8 @@
       "y": 2400,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#Copilot Studio generative actions"
     },
     {
       "id": "file-181f8e915599a29bf0e3508e",
@@ -1118,7 +1223,8 @@
       "y": 2400,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#HubSpot webhooks"
     },
     {
       "id": "file-a0a311442b5e6bd2b0e06558",
@@ -1128,7 +1234,8 @@
       "y": 2630,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#Make AI agents"
     },
     {
       "id": "file-5457a48d8226b42bebcbe504",
@@ -1138,7 +1245,8 @@
       "y": 2630,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#MCP specification"
     },
     {
       "id": "file-db25419de1ef7d7b604061d2",
@@ -1148,7 +1256,8 @@
       "y": 2860,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#n8n human-in-the-loop"
     },
     {
       "id": "file-6fbaae1e0f05987b0b8aa661",
@@ -1158,7 +1267,8 @@
       "y": 2860,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#n8n quality metrics"
     },
     {
       "id": "file-16bd328f440c159860960e38",
@@ -1168,7 +1278,8 @@
       "y": 3090,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#n8n webhook credentials"
     },
     {
       "id": "file-952fc0d125f2b9ebb7f7b5ff",
@@ -1178,7 +1289,8 @@
       "y": 3090,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#OpenAI structured outputs"
     },
     {
       "id": "file-5ed55157a249384edea9d3f9",
@@ -1188,7 +1300,8 @@
       "y": 3320,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#PostgreSQL transactions"
     },
     {
       "id": "file-c245e46e49e890dd33cc2ee8",
@@ -1198,7 +1311,8 @@
       "y": 3320,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#Power Platform data policies"
     },
     {
       "id": "file-c3c04b12ea9b913a21947708",
@@ -1208,7 +1322,8 @@
       "y": 3550,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#Stripe webhooks"
     },
     {
       "id": "file-d5db458c419d244907f6005b",
@@ -1218,7 +1333,8 @@
       "y": 3550,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#נתוני לקוחות לתרגול"
     },
     {
       "id": "file-834469f32163f327a9c37912",
@@ -1228,7 +1344,8 @@
       "y": 3780,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#MCP TypeScript SDK"
     },
     {
       "id": "file-8054ccbe9a59e8e9a8011252",
@@ -1238,7 +1355,8 @@
       "y": 3780,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#n8n"
     },
     {
       "id": "file-693c6c26d44904c20f888faf",
@@ -1248,7 +1366,8 @@
       "y": 4010,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#OpenAI API changelog"
     },
     {
       "id": "file-c0131ac7a08fc5cdd6a75412",
@@ -1258,7 +1377,8 @@
       "y": 4010,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#OpenAI model catalog"
     },
     {
       "id": "file-2f2afba4cb407b8929230541",
@@ -1268,7 +1388,8 @@
       "y": 4240,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#OpenAI News"
     },
     {
       "id": "file-50ade14a63a3131cbc0934da",
@@ -1278,7 +1399,8 @@
       "y": 4240,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#Model Context Protocol"
     },
     {
       "id": "file-fdab6efb1437fd6b660f5e82",
@@ -1288,7 +1410,8 @@
       "y": 4470,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#n8n"
     },
     {
       "id": "file-50756ec2fd98a720af1e2363",
@@ -1298,7 +1421,8 @@
       "y": 4470,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#OpenAI API and models"
     }
   ],
   "edges": [

@@ -1,44 +1,398 @@
 {
-	"nodes":[
-		{"id":"overview-group-0","type":"group","x":-20,"y":260,"width":480,"height":710,"label":"תזמור וכללי המערכת","color":"1"},
-		{"id":"overview-group-1","type":"group","x":510,"y":260,"width":480,"height":710,"label":"מומחי הלמידה והכלים","color":"2"},
-		{"id":"overview-group-2","type":"group","x":1040,"y":260,"width":480,"height":930,"label":"כל הפרקים והשיעורים","color":"3"},
-		{"id":"overview-group-3","type":"group","x":1570,"y":260,"width":480,"height":710,"label":"תרגילים, ראיות ותיק עבודות","color":"4"},
-		{"id":"overview-group-4","type":"group","x":2100,"y":260,"width":480,"height":710,"label":"חיבורים, ממשקים וקובצי עזר","color":"5"},
-		{"id":"file-b16bc2b3a0dd60b0b15bdaec","type":"file","file":"Index.md","x":1050,"y":0,"width":440,"height":160,"color":"4"},
-		{"id":"file-76767df736c27346a78e3518","type":"file","file":"00_ORCHESTRATION/Index.md","x":0,"y":320,"width":440,"height":160,"color":"1"},
-		{"id":"file-d66ecadd7d89e951cad06d3f","type":"file","file":"00_ORCHESTRATION/Orchestrator-Prime.md","x":0,"y":540,"width":440,"height":160,"color":"1"},
-		{"id":"file-6363038c2b4ca056835e2e3f","type":"file","file":"00_ORCHESTRATION/System-Policies.md","x":0,"y":760,"width":440,"height":160,"color":"1"},
-		{"id":"file-12507a9e98d7ff86f1515735","type":"file","file":"01_AGENTS/Index.md","x":530,"y":320,"width":440,"height":160,"color":"2"},
-		{"id":"file-940cffbeca2b500e56117503","type":"file","file":"01_AGENTS/Orchestrator-Prime.md","x":530,"y":540,"width":440,"height":160,"color":"2"},
-		{"id":"file-5e5d06c1515c3bcc85ac90df","type":"file","file":"01_AGENTS/Agent-Hebrew-UX.md","x":530,"y":760,"width":440,"height":160,"color":"2"},
-		{"id":"file-d6ffa1fe4be245d1b0239ea7","type":"file","file":"02_CURRICULUM/2.2.0/Index.md","x":1060,"y":320,"width":440,"height":160,"color":"3"},
-		{"id":"file-e524d6cd1c71643b9b26c73d","type":"file","file":"02_CURRICULUM/2.2.0/modules/CORE.md","x":1060,"y":540,"width":440,"height":160,"color":"3"},
-		{"id":"file-7902062268ae1596d7611757","type":"file","file":"02_CURRICULUM/2.2.0/lessons/W01D01_FIRST_AI_PROGRAM.md","x":1060,"y":760,"width":440,"height":160,"color":"3"},
-		{"id":"file-50b9c38f3ca066ee411d561b","type":"file","file":"02_CURRICULUM/2.2.0/exercises/W01D01_FIRST_AI_PROGRAM.md","x":1060,"y":980,"width":440,"height":160,"color":"3"},
-		{"id":"file-06627b39ba72acf7124422cf","type":"file","file":"03_PRACTICAL_PROOFS/2.2.0/Index.md","x":1590,"y":320,"width":440,"height":160,"color":"4"},
-		{"id":"file-0c025d62f8a28141b4cd0d50","type":"file","file":"03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_FIRST_AI_PROGRAM.md","x":1590,"y":540,"width":440,"height":160,"color":"4"},
-		{"id":"file-54e0fbecd666c159516ec7af","type":"file","file":"03_PRACTICAL_PROOFS/2.2.0/templates/ASSESS_FIRST_AI_PROGRAM.md","x":1590,"y":760,"width":440,"height":160,"color":"4"},
-		{"id":"file-5ede7b45c1b563eec6f9eb43","type":"file","file":"04_AUTOMATIONS_AND_APIS/Index.md","x":2120,"y":320,"width":440,"height":160,"color":"5"},
-		{"id":"file-dd59730edbda4feb9e1f1512","type":"file","file":"04_AUTOMATIONS_AND_APIS/Knowledge-Updates.md","x":2120,"y":540,"width":440,"height":160,"color":"5"},
-		{"id":"file-50756ec2fd98a720af1e2363","type":"file","file":"04_AUTOMATIONS_AND_APIS/technologies/OPENAI_API.md","x":2120,"y":760,"width":440,"height":160,"color":"5"}
-	],
-	"edges":[
-		{"id":"edge-250e4329b3d4810c4f6e0655","fromNode":"file-b16bc2b3a0dd60b0b15bdaec","fromSide":"bottom","toNode":"file-76767df736c27346a78e3518","toSide":"top","fromEnd":"arrow","toEnd":"arrow"},
-		{"id":"edge-cf23bb10dd29f373b6ab11db","fromNode":"file-76767df736c27346a78e3518","fromSide":"bottom","toNode":"file-d66ecadd7d89e951cad06d3f","toSide":"top","fromEnd":"arrow","toEnd":"arrow","label":"כלל מערכת"},
-		{"id":"edge-591bde19b3b6824c1f1e66ed","fromNode":"file-d66ecadd7d89e951cad06d3f","fromSide":"bottom","toNode":"file-6363038c2b4ca056835e2e3f","toSide":"top","fromEnd":"arrow","toEnd":"arrow","label":"גבולות הרשאה"},
-		{"id":"edge-f6ba2c3c7e1e2c360e5ca7f0","fromNode":"file-b16bc2b3a0dd60b0b15bdaec","fromSide":"bottom","toNode":"file-12507a9e98d7ff86f1515735","toSide":"top","fromEnd":"arrow","toEnd":"arrow"},
-		{"id":"edge-cecb5b3846ce97cf668c962b","fromNode":"file-12507a9e98d7ff86f1515735","fromSide":"bottom","toNode":"file-940cffbeca2b500e56117503","toSide":"top","fromEnd":"arrow","toEnd":"arrow","label":"מומחה"},
-		{"id":"edge-5c36188788477c0b21e5bde1","fromNode":"file-12507a9e98d7ff86f1515735","fromSide":"right","toNode":"file-5e5d06c1515c3bcc85ac90df","toSide":"right","fromEnd":"arrow","toEnd":"arrow","label":"מומחה"},
-		{"id":"edge-681b204ef8e12bca3993863d","fromNode":"file-b16bc2b3a0dd60b0b15bdaec","fromSide":"bottom","toNode":"file-d6ffa1fe4be245d1b0239ea7","toSide":"top","fromEnd":"arrow","toEnd":"arrow"},
-		{"id":"edge-aaa4ea13711f1b25f1d2c945","fromNode":"file-d6ffa1fe4be245d1b0239ea7","fromSide":"bottom","toNode":"file-e524d6cd1c71643b9b26c73d","toSide":"top","fromEnd":"arrow","toEnd":"arrow","label":"פרק"},
-		{"id":"edge-4269cddd7de1da115ef1085b","fromNode":"file-e524d6cd1c71643b9b26c73d","fromSide":"bottom","toNode":"file-7902062268ae1596d7611757","toSide":"top","fromEnd":"arrow","toEnd":"arrow","label":"שיעור בפרק"},
-		{"id":"edge-ddf56e8eb8f17ec102af1b7f","fromNode":"file-7902062268ae1596d7611757","fromSide":"bottom","toNode":"file-50b9c38f3ca066ee411d561b","toSide":"top","fromEnd":"arrow","toEnd":"arrow","label":"תרגול מתוך השיעור"},
-		{"id":"edge-1d9ed7656e5d6d55c203453b","fromNode":"file-b16bc2b3a0dd60b0b15bdaec","fromSide":"bottom","toNode":"file-06627b39ba72acf7124422cf","toSide":"top","fromEnd":"arrow","toEnd":"arrow"},
-		{"id":"edge-98ec17c64a8385a6166a8a5e","fromNode":"file-06627b39ba72acf7124422cf","fromSide":"bottom","toNode":"file-0c025d62f8a28141b4cd0d50","toSide":"top","fromEnd":"arrow","toEnd":"arrow","label":"מחוון"},
-		{"id":"edge-66e949840a611ecdb1d1debf","fromNode":"file-0c025d62f8a28141b4cd0d50","fromSide":"bottom","toNode":"file-54e0fbecd666c159516ec7af","toSide":"top","fromEnd":"arrow","toEnd":"arrow","label":"תבנית הגשה"},
-		{"id":"edge-e83bed8dff10b69389353f06","fromNode":"file-b16bc2b3a0dd60b0b15bdaec","fromSide":"bottom","toNode":"file-5ede7b45c1b563eec6f9eb43","toSide":"top","fromEnd":"arrow","toEnd":"arrow"},
-		{"id":"edge-b672960f4ea8666e53913eed","fromNode":"file-5ede7b45c1b563eec6f9eb43","fromSide":"bottom","toNode":"file-dd59730edbda4feb9e1f1512","toSide":"top","fromEnd":"arrow","toEnd":"arrow","label":"אוטומציה"},
-		{"id":"edge-5153180c8ee134a0a265780d","fromNode":"file-dd59730edbda4feb9e1f1512","fromSide":"bottom","toNode":"file-50756ec2fd98a720af1e2363","toSide":"top","fromEnd":"arrow","toEnd":"arrow","label":"טכנולוגיה במעקב"}
-	]
+  "nodes": [
+    {
+      "id": "overview-group-0",
+      "type": "group",
+      "x": -20,
+      "y": 260,
+      "width": 480,
+      "height": 710,
+      "label": "תזמור וכללי המערכת",
+      "color": "1"
+    },
+    {
+      "id": "overview-group-1",
+      "type": "group",
+      "x": 510,
+      "y": 260,
+      "width": 480,
+      "height": 710,
+      "label": "מומחי הלמידה והכלים",
+      "color": "2"
+    },
+    {
+      "id": "overview-group-2",
+      "type": "group",
+      "x": 1040,
+      "y": 260,
+      "width": 480,
+      "height": 930,
+      "label": "כל הפרקים והשיעורים",
+      "color": "3"
+    },
+    {
+      "id": "overview-group-3",
+      "type": "group",
+      "x": 1570,
+      "y": 260,
+      "width": 480,
+      "height": 710,
+      "label": "תרגילים, ראיות ותיק עבודות",
+      "color": "4"
+    },
+    {
+      "id": "overview-group-4",
+      "type": "group",
+      "x": 2100,
+      "y": 260,
+      "width": 480,
+      "height": 710,
+      "label": "חיבורים, ממשקים וקובצי עזר",
+      "color": "5"
+    },
+    {
+      "id": "file-b16bc2b3a0dd60b0b15bdaec",
+      "type": "file",
+      "file": "Index.md",
+      "x": 1050,
+      "y": 0,
+      "width": 440,
+      "height": 160,
+      "color": "4",
+      "subpath": "#מפת הידע של הקורס"
+    },
+    {
+      "id": "file-76767df736c27346a78e3518",
+      "type": "file",
+      "file": "00_ORCHESTRATION/Index.md",
+      "x": 0,
+      "y": 320,
+      "width": 440,
+      "height": 160,
+      "color": "1",
+      "subpath": "#תזמור וכללי המערכת"
+    },
+    {
+      "id": "file-d66ecadd7d89e951cad06d3f",
+      "type": "file",
+      "file": "00_ORCHESTRATION/Orchestrator-Prime.md",
+      "x": 0,
+      "y": 540,
+      "width": 440,
+      "height": 160,
+      "color": "1",
+      "subpath": "#Orchestrator-Prime — תזמור הלמידה"
+    },
+    {
+      "id": "file-6363038c2b4ca056835e2e3f",
+      "type": "file",
+      "file": "00_ORCHESTRATION/System-Policies.md",
+      "x": 0,
+      "y": 760,
+      "width": 440,
+      "height": 160,
+      "color": "1",
+      "subpath": "#הרשאות, מידע פרטי וגבולות משוב"
+    },
+    {
+      "id": "file-12507a9e98d7ff86f1515735",
+      "type": "file",
+      "file": "01_AGENTS/Index.md",
+      "x": 530,
+      "y": 320,
+      "width": 440,
+      "height": 160,
+      "color": "2",
+      "subpath": "#מומחי הלמידה והכלים"
+    },
+    {
+      "id": "file-940cffbeca2b500e56117503",
+      "type": "file",
+      "file": "01_AGENTS/Orchestrator-Prime.md",
+      "x": 530,
+      "y": 540,
+      "width": 440,
+      "height": 160,
+      "color": "2",
+      "subpath": "#תיאום צוות ההדרכה"
+    },
+    {
+      "id": "file-5e5d06c1515c3bcc85ac90df",
+      "type": "file",
+      "file": "01_AGENTS/Agent-Hebrew-UX.md",
+      "x": 530,
+      "y": 760,
+      "width": 440,
+      "height": 160,
+      "color": "2",
+      "subpath": "#עברית ברורה וסיכום התשובה"
+    },
+    {
+      "id": "file-d6ffa1fe4be245d1b0239ea7",
+      "type": "file",
+      "file": "02_CURRICULUM/2.2.0/Index.md",
+      "x": 1060,
+      "y": 320,
+      "width": 440,
+      "height": 160,
+      "color": "3",
+      "subpath": "#כל הפרקים והשיעורים"
+    },
+    {
+      "id": "file-e524d6cd1c71643b9b26c73d",
+      "type": "file",
+      "file": "02_CURRICULUM/2.2.0/modules/CORE.md",
+      "x": 1060,
+      "y": 540,
+      "width": 440,
+      "height": 160,
+      "color": "3",
+      "subpath": "#פרק 1: יסודות · פרק חובה"
+    },
+    {
+      "id": "file-7902062268ae1596d7611757",
+      "type": "file",
+      "file": "02_CURRICULUM/2.2.0/lessons/W01D01_FIRST_AI_PROGRAM.md",
+      "x": 1060,
+      "y": 760,
+      "width": 440,
+      "height": 160,
+      "color": "3",
+      "subpath": "#תוכנית ה־AI הראשונה שלך"
+    },
+    {
+      "id": "file-50b9c38f3ca066ee411d561b",
+      "type": "file",
+      "file": "02_CURRICULUM/2.2.0/exercises/W01D01_FIRST_AI_PROGRAM.md",
+      "x": 1060,
+      "y": 980,
+      "width": 440,
+      "height": 160,
+      "color": "3",
+      "subpath": "#התרגול: תוכנית ה־AI הראשונה שלך"
+    },
+    {
+      "id": "file-06627b39ba72acf7124422cf",
+      "type": "file",
+      "file": "03_PRACTICAL_PROOFS/2.2.0/Index.md",
+      "x": 1590,
+      "y": 320,
+      "width": 440,
+      "height": 160,
+      "color": "4",
+      "subpath": "#תרגילים, ראיות ותיק עבודות"
+    },
+    {
+      "id": "file-0c025d62f8a28141b4cd0d50",
+      "type": "file",
+      "file": "03_PRACTICAL_PROOFS/2.2.0/rubrics/ASSESS_FIRST_AI_PROGRAM.md",
+      "x": 1590,
+      "y": 540,
+      "width": 440,
+      "height": 160,
+      "color": "4",
+      "subpath": "#מתיקייה ריקה לתוכנית עובדת"
+    },
+    {
+      "id": "file-54e0fbecd666c159516ec7af",
+      "type": "file",
+      "file": "03_PRACTICAL_PROOFS/2.2.0/templates/ASSESS_FIRST_AI_PROGRAM.md",
+      "x": 1590,
+      "y": 760,
+      "width": 440,
+      "height": 160,
+      "color": "4",
+      "subpath": "#תבנית הגשה: מתיקייה ריקה לתוכנית עובדת"
+    },
+    {
+      "id": "file-5ede7b45c1b563eec6f9eb43",
+      "type": "file",
+      "file": "04_AUTOMATIONS_AND_APIS/Index.md",
+      "x": 2120,
+      "y": 320,
+      "width": 440,
+      "height": 160,
+      "color": "5",
+      "subpath": "#חיבורים, ממשקים וקובצי עזר"
+    },
+    {
+      "id": "file-dd59730edbda4feb9e1f1512",
+      "type": "file",
+      "file": "04_AUTOMATIONS_AND_APIS/Knowledge-Updates.md",
+      "x": 2120,
+      "y": 540,
+      "width": 440,
+      "height": 160,
+      "color": "5",
+      "subpath": "#רענון מקורות וביקורת תוכן"
+    },
+    {
+      "id": "file-50756ec2fd98a720af1e2363",
+      "type": "file",
+      "file": "04_AUTOMATIONS_AND_APIS/technologies/OPENAI_API.md",
+      "x": 2120,
+      "y": 760,
+      "width": 440,
+      "height": 160,
+      "color": "5",
+      "subpath": "#OpenAI API and models"
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-250e4329b3d4810c4f6e0655",
+      "fromNode": "file-b16bc2b3a0dd60b0b15bdaec",
+      "fromSide": "bottom",
+      "toNode": "file-76767df736c27346a78e3518",
+      "toSide": "top",
+      "fromEnd": "arrow",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "edge-cf23bb10dd29f373b6ab11db",
+      "fromNode": "file-76767df736c27346a78e3518",
+      "fromSide": "bottom",
+      "toNode": "file-d66ecadd7d89e951cad06d3f",
+      "toSide": "top",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "כלל מערכת"
+    },
+    {
+      "id": "edge-591bde19b3b6824c1f1e66ed",
+      "fromNode": "file-d66ecadd7d89e951cad06d3f",
+      "fromSide": "bottom",
+      "toNode": "file-6363038c2b4ca056835e2e3f",
+      "toSide": "top",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "גבולות הרשאה"
+    },
+    {
+      "id": "edge-f6ba2c3c7e1e2c360e5ca7f0",
+      "fromNode": "file-b16bc2b3a0dd60b0b15bdaec",
+      "fromSide": "bottom",
+      "toNode": "file-12507a9e98d7ff86f1515735",
+      "toSide": "top",
+      "fromEnd": "arrow",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "edge-cecb5b3846ce97cf668c962b",
+      "fromNode": "file-12507a9e98d7ff86f1515735",
+      "fromSide": "bottom",
+      "toNode": "file-940cffbeca2b500e56117503",
+      "toSide": "top",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "מומחה"
+    },
+    {
+      "id": "edge-5c36188788477c0b21e5bde1",
+      "fromNode": "file-12507a9e98d7ff86f1515735",
+      "fromSide": "right",
+      "toNode": "file-5e5d06c1515c3bcc85ac90df",
+      "toSide": "right",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "מומחה"
+    },
+    {
+      "id": "edge-681b204ef8e12bca3993863d",
+      "fromNode": "file-b16bc2b3a0dd60b0b15bdaec",
+      "fromSide": "bottom",
+      "toNode": "file-d6ffa1fe4be245d1b0239ea7",
+      "toSide": "top",
+      "fromEnd": "arrow",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "edge-aaa4ea13711f1b25f1d2c945",
+      "fromNode": "file-d6ffa1fe4be245d1b0239ea7",
+      "fromSide": "bottom",
+      "toNode": "file-e524d6cd1c71643b9b26c73d",
+      "toSide": "top",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "פרק"
+    },
+    {
+      "id": "edge-4269cddd7de1da115ef1085b",
+      "fromNode": "file-e524d6cd1c71643b9b26c73d",
+      "fromSide": "bottom",
+      "toNode": "file-7902062268ae1596d7611757",
+      "toSide": "top",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "שיעור בפרק"
+    },
+    {
+      "id": "edge-ddf56e8eb8f17ec102af1b7f",
+      "fromNode": "file-7902062268ae1596d7611757",
+      "fromSide": "bottom",
+      "toNode": "file-50b9c38f3ca066ee411d561b",
+      "toSide": "top",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תרגול מתוך השיעור"
+    },
+    {
+      "id": "edge-1d9ed7656e5d6d55c203453b",
+      "fromNode": "file-b16bc2b3a0dd60b0b15bdaec",
+      "fromSide": "bottom",
+      "toNode": "file-06627b39ba72acf7124422cf",
+      "toSide": "top",
+      "fromEnd": "arrow",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "edge-98ec17c64a8385a6166a8a5e",
+      "fromNode": "file-06627b39ba72acf7124422cf",
+      "fromSide": "bottom",
+      "toNode": "file-0c025d62f8a28141b4cd0d50",
+      "toSide": "top",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "מחוון"
+    },
+    {
+      "id": "edge-66e949840a611ecdb1d1debf",
+      "fromNode": "file-0c025d62f8a28141b4cd0d50",
+      "fromSide": "bottom",
+      "toNode": "file-54e0fbecd666c159516ec7af",
+      "toSide": "top",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "תבנית הגשה"
+    },
+    {
+      "id": "edge-e83bed8dff10b69389353f06",
+      "fromNode": "file-b16bc2b3a0dd60b0b15bdaec",
+      "fromSide": "bottom",
+      "toNode": "file-5ede7b45c1b563eec6f9eb43",
+      "toSide": "top",
+      "fromEnd": "arrow",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "edge-b672960f4ea8666e53913eed",
+      "fromNode": "file-5ede7b45c1b563eec6f9eb43",
+      "fromSide": "bottom",
+      "toNode": "file-dd59730edbda4feb9e1f1512",
+      "toSide": "top",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "אוטומציה"
+    },
+    {
+      "id": "edge-5153180c8ee134a0a265780d",
+      "fromNode": "file-dd59730edbda4feb9e1f1512",
+      "fromSide": "bottom",
+      "toNode": "file-50756ec2fd98a720af1e2363",
+      "toSide": "top",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "טכנולוגיה במעקב"
+    }
+  ]
 }

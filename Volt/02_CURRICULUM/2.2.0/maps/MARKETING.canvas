@@ -8,7 +8,8 @@
       "y": 0,
       "width": 560,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#תוכן ושיווק עם AI"
     },
     {
       "id": "group-ec4a3228557b32f09f4d4c27",
@@ -28,7 +29,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#בריף מותג וקהל"
     },
     {
       "id": "file-b8be5d9cf475604be00575a1",
@@ -38,7 +40,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#מחקר קהל ומתחרים"
     },
     {
       "id": "file-9ef85d93732009400dc90333",
@@ -48,7 +51,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#אסטרטגיית תוכן ולוח עבודה"
     },
     {
       "id": "file-1a779e3cda3f7a76dc5cd593",
@@ -58,7 +62,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#כתיבה ועריכה בעברית"
     },
     {
       "id": "file-c2aad941a9e5d8822788b90c",
@@ -68,7 +73,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#מקור אחד לכמה פורמטים"
     },
     {
       "id": "file-cbe2292dac6974ef7b488659",
@@ -78,7 +84,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#יצירת תמונות ועריכה לפי בריף"
     },
     {
       "id": "file-adf1f3fe071d4ed8b67ff1a0",
@@ -88,7 +95,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#וידאו: מתסריט לתוצר"
     },
     {
       "id": "file-5f65a2b445c733d7e874ce51",
@@ -98,7 +106,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#קריינות, תמלול ותרגום"
     },
     {
       "id": "file-9c8f553ce8535c9c03056c42",
@@ -108,7 +117,8 @@
       "y": 1250,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#SEO ואישור פרסום"
     },
     {
       "id": "file-64152fa987f4090bea088cbd",
@@ -118,7 +128,8 @@
       "y": 1250,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#מבחן מסכם: סטודיו תוכן עסקי"
     },
     {
       "id": "group-1311a36048a31dceefac2bc7",
@@ -138,7 +149,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: בריף מותג וקהל"
     },
     {
       "id": "file-c5a3ca630db2daa90927ebca",
@@ -148,7 +160,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: מחקר קהל ומתחרים"
     },
     {
       "id": "file-d95771210e9ecbd5f0501ea0",
@@ -158,7 +171,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: אסטרטגיית תוכן ולוח עבודה"
     },
     {
       "id": "file-7b46d2eb97dcfecaa7dcae95",
@@ -168,7 +182,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: כתיבה ועריכה בעברית"
     },
     {
       "id": "file-ab5a5336e04aa1c35a1415c1",
@@ -178,7 +193,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: מקור אחד לכמה פורמטים"
     },
     {
       "id": "file-8a4e817c3c5b4527424286f6",
@@ -188,7 +204,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: יצירת תמונות ועריכה לפי בריף"
     },
     {
       "id": "file-72557bccaea344c93dd3ed6e",
@@ -198,7 +215,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: וידאו: מתסריט לתוצר"
     },
     {
       "id": "file-63eccda564b95baff8a515ef",
@@ -208,7 +226,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: קריינות, תמלול ותרגום"
     },
     {
       "id": "file-0bca53ced4a26a633d3d5d5f",
@@ -218,7 +237,8 @@
       "y": 1250,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: SEO ואישור פרסום"
     },
     {
       "id": "file-c7be3444b271069847865223",
@@ -228,7 +248,8 @@
       "y": 1250,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: מבחן מסכם: סטודיו תוכן עסקי"
     },
     {
       "id": "group-b6a466f3cbf5e1529d1b73a3",
@@ -248,7 +269,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · בריף מותג וקהל"
     },
     {
       "id": "file-c7109a60eca06bb17dba1882",
@@ -258,7 +280,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · מחקר קהל ומתחרים"
     },
     {
       "id": "file-a5fbecb7efe2354ac476600c",
@@ -268,7 +291,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · אסטרטגיית תוכן ולוח עבודה"
     },
     {
       "id": "file-f6d208aec06a11fc5004c0a4",
@@ -278,7 +302,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · כתיבה ועריכה בעברית"
     },
     {
       "id": "file-9451a6d64773290f4a9a22ce",
@@ -288,7 +313,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · מקור אחד לכמה פורמטים"
     },
     {
       "id": "file-fb76c9a7bd02cf5a14ff050d",
@@ -298,7 +324,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · יצירת תמונות ועריכה לפי בריף"
     },
     {
       "id": "file-5bf59f889dd4512b692d0757",
@@ -308,7 +335,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · וידאו: מתסריט לתוצר"
     },
     {
       "id": "file-917cd2684ce74e36ebd1ebb2",
@@ -318,7 +346,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · קריינות, תמלול ותרגום"
     },
     {
       "id": "file-0921ae861a5ba4bf69fa07bd",
@@ -328,7 +357,8 @@
       "y": 1250,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · SEO ואישור פרסום"
     },
     {
       "id": "file-b499ddf738eb83267812e427",
@@ -338,7 +368,8 @@
       "y": 1250,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · מבחן מסכם: סטודיו תוכן עסקי"
     },
     {
       "id": "group-fc65af855147ca626159fd09",
@@ -358,7 +389,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: בריף מותג וקהל · BUILD"
     },
     {
       "id": "file-38e694e9dda11fa2c67cade7",
@@ -368,7 +400,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: בריף מותג וקהל · DIAGNOSE"
     },
     {
       "id": "file-77c5bf977a0bd403edeab2a1",
@@ -378,7 +411,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: בריף מותג וקהל · TRANSFER"
     },
     {
       "id": "file-fd2c5d9afbd043cb715c34cb",
@@ -388,7 +422,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טבלה: מחקר קהל ומתחרים · BUILD"
     },
     {
       "id": "file-a3d13c66640a103a1f328030",
@@ -398,7 +433,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: מחקר קהל ומתחרים · DIAGNOSE"
     },
     {
       "id": "file-09c07cff8484a9cb13516bcc",
@@ -408,7 +444,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: מחקר קהל ומתחרים · TRANSFER"
     },
     {
       "id": "file-0d542c2ee02721c524efc7d2",
@@ -418,7 +455,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: אסטרטגיית תוכן ולוח עבודה · BUILD"
     },
     {
       "id": "file-33d7b1eef62e84c7ba304450",
@@ -428,7 +466,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: אסטרטגיית תוכן ולוח עבודה · DIAGNOSE"
     },
     {
       "id": "file-9955fa2ada5aa6dac4c2b4cb",
@@ -438,7 +477,8 @@
       "y": 1250,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: אסטרטגיית תוכן ולוח עבודה · TRANSFER"
     },
     {
       "id": "file-2de724be78c7853e9b002d69",
@@ -448,7 +488,8 @@
       "y": 1250,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: כתיבה ועריכה בעברית · BUILD"
     },
     {
       "id": "file-4733263fc4e1b5b466511cd3",
@@ -458,7 +499,8 @@
       "y": 1480,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: כתיבה ועריכה בעברית · DIAGNOSE"
     },
     {
       "id": "file-150ba10d0972b9c189c3371b",
@@ -468,7 +510,8 @@
       "y": 1480,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: כתיבה ועריכה בעברית · TRANSFER"
     },
     {
       "id": "file-4cc3fcc14f8768302e3d3ba6",
@@ -478,7 +521,8 @@
       "y": 1710,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טבלה: מקור אחד לכמה פורמטים · BUILD"
     },
     {
       "id": "file-d2a6143d88ea9853310ace6c",
@@ -488,7 +532,8 @@
       "y": 1710,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: מקור אחד לכמה פורמטים · DIAGNOSE"
     },
     {
       "id": "file-c15702d3b7587f48422e08d4",
@@ -498,7 +543,8 @@
       "y": 1940,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: מקור אחד לכמה פורמטים · TRANSFER"
     },
     {
       "id": "file-2d39d63e19f09c4a7128076d",
@@ -508,7 +554,8 @@
       "y": 1940,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: יצירת תמונות ועריכה לפי בריף · BUILD"
     },
     {
       "id": "file-35382632ad8f18b2e541aa55",
@@ -518,7 +565,8 @@
       "y": 2170,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: יצירת תמונות ועריכה לפי בריף · DIAGNOSE"
     },
     {
       "id": "file-309e13c7e9c28ab80b65e213",
@@ -528,7 +576,8 @@
       "y": 2170,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: יצירת תמונות ועריכה לפי בריף · TRANSFER"
     },
     {
       "id": "file-b657048766df9487d859e4ca",
@@ -538,7 +587,8 @@
       "y": 2400,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: וידאו: מתסריט לתוצר · BUILD"
     },
     {
       "id": "file-ea59f1bc54226beb9a5e9c3d",
@@ -548,7 +598,8 @@
       "y": 2400,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: וידאו: מתסריט לתוצר · DIAGNOSE"
     },
     {
       "id": "file-fca82b0cd3babbf206cb96d2",
@@ -558,7 +609,8 @@
       "y": 2630,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: וידאו: מתסריט לתוצר · TRANSFER"
     },
     {
       "id": "file-8e4e86664e2326b6ed17655f",
@@ -568,7 +620,8 @@
       "y": 2630,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: קריינות, תמלול ותרגום · BUILD"
     },
     {
       "id": "file-855e8a0da0b52bd693bbde1a",
@@ -578,7 +631,8 @@
       "y": 2860,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: קריינות, תמלול ותרגום · DIAGNOSE"
     },
     {
       "id": "file-09189660856e5d40b84a76d8",
@@ -588,7 +642,8 @@
       "y": 2860,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: קריינות, תמלול ותרגום · TRANSFER"
     },
     {
       "id": "file-ad15ed5174301400c8491822",
@@ -598,7 +653,8 @@
       "y": 3090,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: SEO ואישור פרסום · BUILD"
     },
     {
       "id": "file-3419b60a922c580688909f0a",
@@ -608,7 +664,8 @@
       "y": 3090,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: SEO ואישור פרסום · DIAGNOSE"
     },
     {
       "id": "file-d74450ed664bc7c73ca353bf",
@@ -618,7 +675,8 @@
       "y": 3320,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: SEO ואישור פרסום · TRANSFER"
     },
     {
       "id": "file-865268eef3d067256553239b",
@@ -628,7 +686,8 @@
       "y": 3320,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: מבחן מסכם: סטודיו תוכן עסקי · BUILD"
     },
     {
       "id": "file-f518fbb3a93b95c6feb08aa4",
@@ -638,7 +697,8 @@
       "y": 3550,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: מבחן מסכם: סטודיו תוכן עסקי · DIAGNOSE"
     },
     {
       "id": "file-8ab9c14fe7ed57a156c48690",
@@ -648,7 +708,8 @@
       "y": 3550,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: מבחן מסכם: סטודיו תוכן עסקי · TRANSFER"
     },
     {
       "id": "group-c1520be523564e8bef85cd86",
@@ -668,7 +729,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: בריף מותג כולל המלצת לקוח שאין לה מקור. מה נכון לעשות לפני יצירת התוכן?"
     },
     {
       "id": "file-a0ca27bff549139cbe1dc804",
@@ -678,7 +740,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: מתחרה פרסם הרבה סרטונים על נושא מסוים. מה אפשר להסיק מכך במחקר קהל?"
     },
     {
       "id": "file-f8c8e82a041fffce7b572807",
@@ -688,7 +751,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: בלוח התוכן יש עשרים פוסטים, אך לא הוגדר למי הם מיועדים ומה מטרתם. מה חסר?"
     },
     {
       "id": "file-7833c701aa9d45385a6f6d46",
@@ -698,7 +762,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: בטיוטה בעברית מופיעה הבטחה על מוצר שאינה קיימת במידע שסופק. מה צריך לעשות בעריכה?"
     },
     {
       "id": "file-05d071fa4f07b858c4379f4e",
@@ -708,7 +773,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: מאמר אומר שהשירות זמין רק ללקוחות רשומים, אך הפוסט המקוצר משמיט את התנאי. האם זו התאמה תקינה לפורמט?"
     },
     {
       "id": "file-4a5cf61f4f7bc153c4d7676d",
@@ -718,7 +784,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: תמונת קמפיין נראית מרשימה, אבל שם המוצר בתוכה שגוי. איך נכון להתייחס לגרסה?"
     },
     {
       "id": "file-1323472d4658d91e79af988c",
@@ -728,7 +795,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: הפרומפט לסרטון מתאר דמות אחידה, אך עדיין לא צפית בתוצר. איזו בדיקה נדרשת לפני אישורו?"
     },
     {
       "id": "file-8021834c18de56e8f9e1b809",
@@ -738,7 +806,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: בתרגום של תמלול השתנה מספר שמופיע בהקלטה המקורית. מהי הבדיקה המתאימה?"
     },
     {
       "id": "file-6b88733cc9c0fba492b6b40b",
@@ -748,7 +817,8 @@
       "y": 1250,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: מאמר כולל כותרת ותיאור לחיפוש, אך אינו מוסיף מידע מועיל לקורא. האם אפשר לאשר אותו רק בזכות הגדרות ה־SEO?"
     },
     {
       "id": "file-a2b1521af07d259eede5bd5f",
@@ -758,7 +828,8 @@
       "y": 1250,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: בתיק סטודיו התוכן נכתבה תחזית שלפיה הקמפיין יביא יותר פניות. איך צריך להציג אותה כל עוד אין נתוני ביצוע?"
     },
     {
       "id": "file-88f2e8af7d4a18cf9c6ade6b",
@@ -768,7 +839,8 @@
       "y": 1480,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#לפני שמגישים · שאלה קצרה לתרגול"
     },
     {
       "id": "group-6c6c22fb1b2cf8588772d4d6",
@@ -788,7 +860,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#מקורות ועדכוני תוכן"
     },
     {
       "id": "file-5e5d06c1515c3bcc85ac90df",
@@ -798,7 +871,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#עברית ברורה וסיכום התשובה"
     },
     {
       "id": "file-38f2fd0c23b80ae8a5143910",
@@ -808,7 +882,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#ידע, זיכרון ושליפת מקורות"
     },
     {
       "id": "file-7cafce29328822f0b04575a3",
@@ -818,7 +893,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#תוכן ושיווק"
     },
     {
       "id": "file-572162055e0283e66fbd845a",
@@ -828,7 +904,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#מודלים, הקשר ונתונים"
     },
     {
       "id": "file-32329bf144be4a54e19368b2",
@@ -838,7 +915,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#פרסום ומדידה"
     },
     {
       "id": "file-f109de79984fed5a51fa26db",
@@ -848,7 +926,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#תוכן חזותי ותהליכי מדיה"
     },
     {
       "id": "file-940cffbeca2b500e56117503",
@@ -858,7 +937,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#תיאום צוות ההדרכה"
     },
     {
       "id": "file-22b74700b12188a8bf2d912d",
@@ -868,7 +948,8 @@
       "y": 1250,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#פרסום ומדידה"
     },
     {
       "id": "file-5a6f260befdd13e241fbeb42",
@@ -878,7 +959,8 @@
       "y": 1250,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#אוטומציה והטמעת מערכות"
     },
     {
       "id": "file-e524d6cd1c71643b9b26c73d",
@@ -888,7 +970,8 @@
       "y": 1480,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#פרק 1: יסודות · פרק חובה"
     },
     {
       "id": "file-41000b0d993471f892d3992f",
@@ -898,7 +981,8 @@
       "y": 1480,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#מערכות תוכן"
     },
     {
       "id": "file-28ff7b2549a9ca23e4df4869",
@@ -908,7 +992,8 @@
       "y": 1710,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#Grounding"
     },
     {
       "id": "file-a7ce439191edcd683ce41d23",
@@ -918,7 +1003,8 @@
       "y": 1710,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#Google guidance on AI content"
     },
     {
       "id": "file-db25419de1ef7d7b604061d2",
@@ -928,7 +1014,8 @@
       "y": 1940,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#n8n human-in-the-loop"
     },
     {
       "id": "file-4b532326234c05fd3db6ea68",
@@ -938,7 +1025,8 @@
       "y": 1940,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#OpenAI audio guide"
     },
     {
       "id": "file-5de510373456ff879229f77d",
@@ -948,7 +1036,8 @@
       "y": 2170,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#OpenAI image generation"
     },
     {
       "id": "file-38d019cb40977865dc52a8e2",
@@ -958,7 +1047,8 @@
       "y": 2170,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#OpenAI quickstart"
     },
     {
       "id": "file-952fc0d125f2b9ebb7f7b5ff",
@@ -968,7 +1058,8 @@
       "y": 2400,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#OpenAI structured outputs"
     },
     {
       "id": "file-1a1afae26d81603b8a8c226f",
@@ -978,7 +1069,8 @@
       "y": 2400,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#OpenAI video generation"
     },
     {
       "id": "file-fdca7d9e05c7e9e7c89afd50",
@@ -988,7 +1080,8 @@
       "y": 2630,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#נתוני קמפיינים לתרגול"
     },
     {
       "id": "file-213d3d011952ce6560ce5827",
@@ -998,7 +1091,8 @@
       "y": 2630,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#מדריך נתוני התרגול"
     },
     {
       "id": "file-8054ccbe9a59e8e9a8011252",
@@ -1008,7 +1102,8 @@
       "y": 2860,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#n8n"
     },
     {
       "id": "file-693c6c26d44904c20f888faf",
@@ -1018,7 +1113,8 @@
       "y": 2860,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#OpenAI API changelog"
     },
     {
       "id": "file-c0131ac7a08fc5cdd6a75412",
@@ -1028,7 +1124,8 @@
       "y": 3090,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#OpenAI model catalog"
     },
     {
       "id": "file-2f2afba4cb407b8929230541",
@@ -1038,7 +1135,8 @@
       "y": 3090,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#OpenAI News"
     },
     {
       "id": "file-fdab6efb1437fd6b660f5e82",
@@ -1048,7 +1146,8 @@
       "y": 3320,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#n8n"
     },
     {
       "id": "file-50756ec2fd98a720af1e2363",
@@ -1058,7 +1157,8 @@
       "y": 3320,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#OpenAI API and models"
     }
   ],
   "edges": [

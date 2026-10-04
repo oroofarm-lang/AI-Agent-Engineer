@@ -8,7 +8,8 @@
       "y": 0,
       "width": 560,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#סוכנים ותזמור"
     },
     {
       "id": "group-1962c5bf7d1439121f3dc89e",
@@ -28,7 +29,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#פירוק משימות מחקר"
     },
     {
       "id": "file-3de0291859f1a80d7f92d871",
@@ -38,7 +40,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#חיפוש ואיכות ראיות"
     },
     {
       "id": "file-6ab8249730056830966983e7",
@@ -48,7 +51,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#מחקר איטרטיבי ותנאי עצירה"
     },
     {
       "id": "file-a380d81563442501f9bf5cf1",
@@ -58,7 +62,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#אימות דוח מחקר"
     },
     {
       "id": "file-74c59830bc92437b1b758f41",
@@ -68,7 +73,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#מבחן מסכם: סוכן מחקר"
     },
     {
       "id": "file-930bb5edd207add28f49141f",
@@ -78,7 +84,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#אינטגרציה ישירה עם Responses API"
     },
     {
       "id": "file-b2a48c815be556a7e8b92dc6",
@@ -88,7 +95,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#SDK לסוכנים"
     },
     {
       "id": "file-90875551ae1d95939fe84d2a",
@@ -98,7 +106,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#סביבות הרצה מנוהלות ושמירת מצב"
     },
     {
       "id": "file-541c80f20ea0486ea772f19a",
@@ -108,7 +117,8 @@
       "y": 1250,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#תהליכי גרף עם LangGraph"
     },
     {
       "id": "file-5af049009a8153dfb4cf5190",
@@ -118,7 +128,8 @@
       "y": 1250,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#מבחן מסכם: שתי ארכיטקטורות לאותה מערכת"
     },
     {
       "id": "file-813c4dc89b932414f195018d",
@@ -128,7 +139,8 @@
       "y": 1480,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#תהליכים דטרמיניסטיים עם AI"
     },
     {
       "id": "file-c8926582b64563060373491e",
@@ -138,7 +150,8 @@
       "y": 1480,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#ניתוב פניות"
     },
     {
       "id": "file-474bfd59ad3541f082925c25",
@@ -148,7 +161,8 @@
       "y": 1710,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#עבודה במקביל"
     },
     {
       "id": "file-d94f0b43220d79aea37248eb",
@@ -158,7 +172,8 @@
       "y": 1710,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#תהליכים ארוכים והתאוששות"
     },
     {
       "id": "file-14029e4392d63f4e10d15aaa",
@@ -168,7 +183,8 @@
       "y": 1940,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#פרויקט: תהליך עבודה שנמשך לאחר תקלה"
     },
     {
       "id": "file-878721429c066c17ebd9b342",
@@ -178,7 +194,8 @@
       "y": 1940,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#מתי כמה סוכנים מועילים?"
     },
     {
       "id": "file-29c1db75c21d170025caf37f",
@@ -188,7 +205,8 @@
       "y": 2170,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#מנהל ומומחים"
     },
     {
       "id": "file-67597e01ca5cc00726d42c3c",
@@ -198,7 +216,8 @@
       "y": 2170,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#העברת אחריות בין סוכנים"
     },
     {
       "id": "file-e1b65e48d846991a260cae03",
@@ -208,7 +227,8 @@
       "y": 2400,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#MCP, ‏A2A ותקשורת בין סוכנים"
     },
     {
       "id": "file-14bf1a17b6868642febce72c",
@@ -218,7 +238,8 @@
       "y": 2400,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#מצב משותף ותיאום"
     },
     {
       "id": "file-04a0f5c81d57a074e5f84ba1",
@@ -228,7 +249,8 @@
       "y": 2630,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#פרויקט: צוות AI עסקי"
     },
     {
       "id": "file-9eaac6fd1304ece0a7817c72",
@@ -238,7 +260,8 @@
       "y": 2630,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#סוכני דפדפן ומחשב"
     },
     {
       "id": "file-f945994d8dadbe10385e820a",
@@ -248,7 +271,8 @@
       "y": 2860,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#Sandbox וסוכני קוד"
     },
     {
       "id": "file-c301d33b292ad8e138a88297",
@@ -258,7 +282,8 @@
       "y": 2860,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#גילוי כלים דינמי"
     },
     {
       "id": "file-c0c19c4b10827b8d932ffcc6",
@@ -268,7 +293,8 @@
       "y": 3090,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#סוכן כתיבת קוד מבוקר"
     },
     {
       "id": "file-ea1f12f15106a1d5c3faf932",
@@ -278,7 +304,8 @@
       "y": 3090,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#פרויקט: תהליך אוטונומי מבוקר"
     },
     {
       "id": "group-16f8212b6926b53d9472f494",
@@ -298,7 +325,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: פירוק משימות מחקר"
     },
     {
       "id": "file-cd7c9f3f863c417ea684b283",
@@ -308,7 +336,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: חיפוש ואיכות ראיות"
     },
     {
       "id": "file-61b33e02131f68d25b26b142",
@@ -318,7 +347,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: מחקר איטרטיבי ותנאי עצירה"
     },
     {
       "id": "file-13ffcc3168a687e3fd78e507",
@@ -328,7 +358,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: אימות דוח מחקר"
     },
     {
       "id": "file-4dc37648d7e35320e3978ea8",
@@ -338,7 +369,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: מבחן מסכם: סוכן מחקר"
     },
     {
       "id": "file-42b8deb8ef348a2b8fe11ab1",
@@ -348,7 +380,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: אינטגרציה ישירה עם Responses API"
     },
     {
       "id": "file-f7fcd09661fab5edc78c9235",
@@ -358,7 +391,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: SDK לסוכנים"
     },
     {
       "id": "file-590aea0af7b6bc409e3f490c",
@@ -368,7 +402,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: סביבות הרצה מנוהלות ושמירת מצב"
     },
     {
       "id": "file-c5d767e3a90a0d3f27a22e47",
@@ -378,7 +413,8 @@
       "y": 1250,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: תהליכי גרף עם LangGraph"
     },
     {
       "id": "file-824731de002384328f3125f8",
@@ -388,7 +424,8 @@
       "y": 1250,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: מבחן מסכם: שתי ארכיטקטורות לאותה מערכת"
     },
     {
       "id": "file-8b78f197fdca3284caf590f7",
@@ -398,7 +435,8 @@
       "y": 1480,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: תהליכים דטרמיניסטיים עם AI"
     },
     {
       "id": "file-c610ec487b54d35f7cd66753",
@@ -408,7 +446,8 @@
       "y": 1480,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: ניתוב פניות"
     },
     {
       "id": "file-47bccdbebb8ce992127c69de",
@@ -418,7 +457,8 @@
       "y": 1710,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: עבודה במקביל"
     },
     {
       "id": "file-eeb2e246703f1ff160041a23",
@@ -428,7 +468,8 @@
       "y": 1710,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: תהליכים ארוכים והתאוששות"
     },
     {
       "id": "file-dc90e595c1e1836ef75ca311",
@@ -438,7 +479,8 @@
       "y": 1940,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: פרויקט: תהליך עבודה שנמשך לאחר תקלה"
     },
     {
       "id": "file-d93668d87ae751b81a12d5ad",
@@ -448,7 +490,8 @@
       "y": 1940,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: מתי כמה סוכנים מועילים?"
     },
     {
       "id": "file-fc8880298442b2802f3f2935",
@@ -458,7 +501,8 @@
       "y": 2170,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: מנהל ומומחים"
     },
     {
       "id": "file-bbd8d97312ed04ee8822345c",
@@ -468,7 +512,8 @@
       "y": 2170,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: העברת אחריות בין סוכנים"
     },
     {
       "id": "file-dbc437344dbd630c427a7733",
@@ -478,7 +523,8 @@
       "y": 2400,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: MCP, ‏A2A ותקשורת בין סוכנים"
     },
     {
       "id": "file-5ffb31f1ddcb14d642e9a5ac",
@@ -488,7 +534,8 @@
       "y": 2400,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: מצב משותף ותיאום"
     },
     {
       "id": "file-bcda7fec038a785a09506429",
@@ -498,7 +545,8 @@
       "y": 2630,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: פרויקט: צוות AI עסקי"
     },
     {
       "id": "file-6714d89846f3e3520d1d4e4d",
@@ -508,7 +556,8 @@
       "y": 2630,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: סוכני דפדפן ומחשב"
     },
     {
       "id": "file-ab14637f054b403528c4910a",
@@ -518,7 +567,8 @@
       "y": 2860,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: Sandbox וסוכני קוד"
     },
     {
       "id": "file-680b76349d4d63511de100af",
@@ -528,7 +578,8 @@
       "y": 2860,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: גילוי כלים דינמי"
     },
     {
       "id": "file-c7f8eb5f90a88ee99b9daed7",
@@ -538,7 +589,8 @@
       "y": 3090,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: סוכן כתיבת קוד מבוקר"
     },
     {
       "id": "file-9dedc4fcf8de16bb465ae735",
@@ -548,7 +600,8 @@
       "y": 3090,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: פרויקט: תהליך אוטונומי מבוקר"
     },
     {
       "id": "group-1782f04f633ce112ce609a36",
@@ -568,7 +621,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · פירוק משימות מחקר"
     },
     {
       "id": "file-602fae484d9a16f95011bf73",
@@ -578,7 +632,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · חיפוש ואיכות ראיות"
     },
     {
       "id": "file-c8b015db7a91726d5f0842f1",
@@ -588,7 +643,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · מחקר איטרטיבי ותנאי עצירה"
     },
     {
       "id": "file-094d84460fc7adfb5be5c4d0",
@@ -598,7 +654,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · אימות דוח מחקר"
     },
     {
       "id": "file-efa6b435b5707b654f6d20a9",
@@ -608,7 +665,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · מבחן מסכם: סוכן מחקר"
     },
     {
       "id": "file-454c61bb5efb820c2be7f298",
@@ -618,7 +676,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · אינטגרציה ישירה עם Responses API"
     },
     {
       "id": "file-3e10a2f86b057ac5ba1f77f3",
@@ -628,7 +687,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · SDK לסוכנים"
     },
     {
       "id": "file-3099a13c5d65a9f24cb377bb",
@@ -638,7 +698,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · סביבות הרצה מנוהלות ושמירת מצב"
     },
     {
       "id": "file-975204438a8c51ec2a68c67d",
@@ -648,7 +709,8 @@
       "y": 1250,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · תהליכי גרף עם LangGraph"
     },
     {
       "id": "file-733a0abff5ff2c03c516c121",
@@ -658,7 +720,8 @@
       "y": 1250,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · מבחן מסכם: שתי ארכיטקטורות לאותה מערכת"
     },
     {
       "id": "file-df122ae5e661251a4e28667c",
@@ -668,7 +731,8 @@
       "y": 1480,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · תהליכים דטרמיניסטיים עם AI"
     },
     {
       "id": "file-bce93bde00a1b1fb408c4c88",
@@ -678,7 +742,8 @@
       "y": 1480,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · ניתוב פניות"
     },
     {
       "id": "file-9d7f80509c0c83a262ffb843",
@@ -688,7 +753,8 @@
       "y": 1710,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · עבודה במקביל"
     },
     {
       "id": "file-2e3e6f066a582931d284ecfa",
@@ -698,7 +764,8 @@
       "y": 1710,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · תהליכים ארוכים והתאוששות"
     },
     {
       "id": "file-440a0b66799f2cfc6b129fab",
@@ -708,7 +775,8 @@
       "y": 1940,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · פרויקט: תהליך עבודה שנמשך לאחר תקלה"
     },
     {
       "id": "file-c05a404be4cc64f75b218956",
@@ -718,7 +786,8 @@
       "y": 1940,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · מתי כמה סוכנים מועילים?"
     },
     {
       "id": "file-81275b942170aa4b8ec1d744",
@@ -728,7 +797,8 @@
       "y": 2170,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · מנהל ומומחים"
     },
     {
       "id": "file-9efe09bd4a8449d24074a70e",
@@ -738,7 +808,8 @@
       "y": 2170,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · העברת אחריות בין סוכנים"
     },
     {
       "id": "file-c5f361c6a8ce2d8e445d9a68",
@@ -748,7 +819,8 @@
       "y": 2400,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · MCP, ‏A2A ותקשורת בין סוכנים"
     },
     {
       "id": "file-0153e6bbd1a0bdd396e84f6d",
@@ -758,7 +830,8 @@
       "y": 2400,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · מצב משותף ותיאום"
     },
     {
       "id": "file-843a2e397bd04ed5c90b5b64",
@@ -768,7 +841,8 @@
       "y": 2630,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · פרויקט: צוות AI עסקי"
     },
     {
       "id": "file-82c51832186dfb4cce298508",
@@ -778,7 +852,8 @@
       "y": 2630,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · סוכני דפדפן ומחשב"
     },
     {
       "id": "file-961de7a37a45e38d0307bd07",
@@ -788,7 +863,8 @@
       "y": 2860,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · Sandbox וסוכני קוד"
     },
     {
       "id": "file-d024b19c9c79e45c4f2c052f",
@@ -798,7 +874,8 @@
       "y": 2860,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · גילוי כלים דינמי"
     },
     {
       "id": "file-eb3019bfeb995ac5bc42a890",
@@ -808,7 +885,8 @@
       "y": 3090,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · סוכן כתיבת קוד מבוקר"
     },
     {
       "id": "file-c7bc8adb0bf53a7f0d985786",
@@ -818,7 +896,8 @@
       "y": 3090,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · פרויקט: תהליך אוטונומי מבוקר"
     },
     {
       "id": "group-266ce94ba7f1708ca376a631",
@@ -838,7 +917,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: פירוק משימות מחקר · BUILD"
     },
     {
       "id": "file-5a4a6ae49d6ecf87f4b276a2",
@@ -848,7 +928,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: פירוק משימות מחקר · DIAGNOSE"
     },
     {
       "id": "file-d521a001331f59cd4b683fbb",
@@ -858,7 +939,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: פירוק משימות מחקר · TRANSFER"
     },
     {
       "id": "file-b378ea77d32fb5b89a2b827a",
@@ -868,7 +950,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: חיפוש ואיכות ראיות · BUILD"
     },
     {
       "id": "file-b6aac0607bead33aa2c12b74",
@@ -878,7 +961,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: חיפוש ואיכות ראיות · DIAGNOSE"
     },
     {
       "id": "file-9e542dcb1ecfa1a2c0a26aa9",
@@ -888,7 +972,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: חיפוש ואיכות ראיות · TRANSFER"
     },
     {
       "id": "file-442327fb4be548657140b2cf",
@@ -898,7 +983,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: מחקר איטרטיבי ותנאי עצירה · BUILD"
     },
     {
       "id": "file-c5700c0a58a9371c23735aed",
@@ -908,7 +994,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: מחקר איטרטיבי ותנאי עצירה · DIAGNOSE"
     },
     {
       "id": "file-52ce044d6a90529fd18f1fa6",
@@ -918,7 +1005,8 @@
       "y": 1250,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: מחקר איטרטיבי ותנאי עצירה · TRANSFER"
     },
     {
       "id": "file-6cc0b946ed22a19544a3a8ec",
@@ -928,7 +1016,8 @@
       "y": 1250,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טבלה: אימות דוח מחקר · BUILD"
     },
     {
       "id": "file-0659e923ac68869839b91a7c",
@@ -938,7 +1027,8 @@
       "y": 1480,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: אימות דוח מחקר · DIAGNOSE"
     },
     {
       "id": "file-04e7eb762dd63b810150e459",
@@ -948,7 +1038,8 @@
       "y": 1480,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: אימות דוח מחקר · TRANSFER"
     },
     {
       "id": "file-f6237cc7cc7bfd43cd4229b5",
@@ -958,7 +1049,8 @@
       "y": 1710,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: מבחן מסכם: סוכן מחקר · BUILD"
     },
     {
       "id": "file-ee2e4430592bd6f9e0ca9a9e",
@@ -968,7 +1060,8 @@
       "y": 1710,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: מבחן מסכם: סוכן מחקר · DIAGNOSE"
     },
     {
       "id": "file-930c21e5d81efc729b144438",
@@ -978,7 +1071,8 @@
       "y": 1940,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: מבחן מסכם: סוכן מחקר · TRANSFER"
     },
     {
       "id": "file-5b7d8fbd9a88146089034f46",
@@ -988,7 +1082,8 @@
       "y": 1940,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: אינטגרציה ישירה עם Responses API · BUILD"
     },
     {
       "id": "file-7a61bd210eaea710c236d85f",
@@ -998,7 +1093,8 @@
       "y": 2170,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: אינטגרציה ישירה עם Responses API · DIAGNOSE"
     },
     {
       "id": "file-5a138e92b892d1a7b8c2bf83",
@@ -1008,7 +1104,8 @@
       "y": 2170,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: אינטגרציה ישירה עם Responses API · TRANSFER"
     },
     {
       "id": "file-823e95f316a64240da72e83e",
@@ -1018,7 +1115,8 @@
       "y": 2400,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: SDK לסוכנים · BUILD"
     },
     {
       "id": "file-dd891cf95d7b2146c1c4a8d0",
@@ -1028,7 +1126,8 @@
       "y": 2400,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: SDK לסוכנים · DIAGNOSE"
     },
     {
       "id": "file-f9702ec3f07474081c4e9267",
@@ -1038,7 +1137,8 @@
       "y": 2630,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: SDK לסוכנים · TRANSFER"
     },
     {
       "id": "file-3fb6dc24c8beb632456000fc",
@@ -1048,7 +1148,8 @@
       "y": 2630,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טבלה: סביבות הרצה מנוהלות ושמירת מצב · BUILD"
     },
     {
       "id": "file-94c515d2ae3e572f37745832",
@@ -1058,7 +1159,8 @@
       "y": 2860,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: סביבות הרצה מנוהלות ושמירת מצב · DIAGNOSE"
     },
     {
       "id": "file-005217f40d01228d51ac0fc7",
@@ -1068,7 +1170,8 @@
       "y": 2860,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: סביבות הרצה מנוהלות ושמירת מצב · TRANSFER"
     },
     {
       "id": "file-f52160fb54b8229738c9c080",
@@ -1078,7 +1181,8 @@
       "y": 3090,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: תהליכי גרף עם LangGraph · BUILD"
     },
     {
       "id": "file-99c67413aa11e552fe03a9a3",
@@ -1088,7 +1192,8 @@
       "y": 3090,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: תהליכי גרף עם LangGraph · DIAGNOSE"
     },
     {
       "id": "file-2b52050617d85b869d37a91c",
@@ -1098,7 +1203,8 @@
       "y": 3320,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: תהליכי גרף עם LangGraph · TRANSFER"
     },
     {
       "id": "file-1beaf652d1827d840e110a3e",
@@ -1108,7 +1214,8 @@
       "y": 3320,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: מבחן מסכם: שתי ארכיטקטורות לאותה מערכת · BUILD"
     },
     {
       "id": "file-b531fe93eaf9e6eb06c7abc7",
@@ -1118,7 +1225,8 @@
       "y": 3550,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: מבחן מסכם: שתי ארכיטקטורות לאותה מערכת · DIAGNOSE"
     },
     {
       "id": "file-a3e99def58335cefef58c70c",
@@ -1128,7 +1236,8 @@
       "y": 3550,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: מבחן מסכם: שתי ארכיטקטורות לאותה מערכת · TRANSFER"
     },
     {
       "id": "file-fe31c2553289238f5920632d",
@@ -1138,7 +1247,8 @@
       "y": 3780,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: תהליכים דטרמיניסטיים עם AI · BUILD"
     },
     {
       "id": "file-3eaa7b6bfdb324ffcfccaf11",
@@ -1148,7 +1258,8 @@
       "y": 3780,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: תהליכים דטרמיניסטיים עם AI · DIAGNOSE"
     },
     {
       "id": "file-eb828dcfb3962952ea2d7008",
@@ -1158,7 +1269,8 @@
       "y": 4010,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: תהליכים דטרמיניסטיים עם AI · TRANSFER"
     },
     {
       "id": "file-eb969ce66073cd4e1ad65e02",
@@ -1168,7 +1280,8 @@
       "y": 4010,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: ניתוב פניות · BUILD"
     },
     {
       "id": "file-882515b66a9313f27319718f",
@@ -1178,7 +1291,8 @@
       "y": 4240,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: ניתוב פניות · DIAGNOSE"
     },
     {
       "id": "file-217dfa7f0a31f36c5fc49a35",
@@ -1188,7 +1302,8 @@
       "y": 4240,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: ניתוב פניות · TRANSFER"
     },
     {
       "id": "file-f4f8e5f8151a4d6b692ffab4",
@@ -1198,7 +1313,8 @@
       "y": 4470,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: עבודה במקביל · BUILD"
     },
     {
       "id": "file-065d900cc0fe90bb84aa6505",
@@ -1208,7 +1324,8 @@
       "y": 4470,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: עבודה במקביל · DIAGNOSE"
     },
     {
       "id": "file-a696b6713b409c49fa6aebd1",
@@ -1218,7 +1335,8 @@
       "y": 4700,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: עבודה במקביל · TRANSFER"
     },
     {
       "id": "file-e0fd3dd143f4c38715547100",
@@ -1228,7 +1346,8 @@
       "y": 4700,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: תהליכים ארוכים והתאוששות · BUILD"
     },
     {
       "id": "file-d73b71bc98db1544ff13cddd",
@@ -1238,7 +1357,8 @@
       "y": 4930,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: תהליכים ארוכים והתאוששות · DIAGNOSE"
     },
     {
       "id": "file-af22f2af4e856ff8bb15cace",
@@ -1248,7 +1368,8 @@
       "y": 4930,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: תהליכים ארוכים והתאוששות · TRANSFER"
     },
     {
       "id": "file-b7f6e588f6dee678c54ccc2f",
@@ -1258,7 +1379,8 @@
       "y": 5160,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: פרויקט: תהליך עבודה שנמשך לאחר תקלה · BUILD"
     },
     {
       "id": "file-f8995587713110148b4445ce",
@@ -1268,7 +1390,8 @@
       "y": 5160,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: פרויקט: תהליך עבודה שנמשך לאחר תקלה · DIAGNOSE"
     },
     {
       "id": "file-ec1b0c87544ba1069636bb63",
@@ -1278,7 +1401,8 @@
       "y": 5390,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: פרויקט: תהליך עבודה שנמשך לאחר תקלה · TRANSFER"
     },
     {
       "id": "file-97c5a11a15e9a44222f4f399",
@@ -1288,7 +1412,8 @@
       "y": 5390,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: מתי כמה סוכנים מועילים? · BUILD"
     },
     {
       "id": "file-ef022b6fc9322cb8ec53dbee",
@@ -1298,7 +1423,8 @@
       "y": 5620,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: מתי כמה סוכנים מועילים? · DIAGNOSE"
     },
     {
       "id": "file-354dcc8ea2ebb7207991a478",
@@ -1308,7 +1434,8 @@
       "y": 5620,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: מתי כמה סוכנים מועילים? · TRANSFER"
     },
     {
       "id": "file-1eb9fcc124d9de457eb71a24",
@@ -1318,7 +1445,8 @@
       "y": 5850,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: מנהל ומומחים · BUILD"
     },
     {
       "id": "file-866b6cc2c9145c9315ffea82",
@@ -1328,7 +1456,8 @@
       "y": 5850,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: מנהל ומומחים · DIAGNOSE"
     },
     {
       "id": "file-e35d1be132a7127e0bc484f5",
@@ -1338,7 +1467,8 @@
       "y": 6080,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: מנהל ומומחים · TRANSFER"
     },
     {
       "id": "file-354c6d50c4776d5a4ad7175b",
@@ -1348,7 +1478,8 @@
       "y": 6080,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: העברת אחריות בין סוכנים · BUILD"
     },
     {
       "id": "file-8f155f6d39b7ad01da85719a",
@@ -1358,7 +1489,8 @@
       "y": 6310,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: העברת אחריות בין סוכנים · DIAGNOSE"
     },
     {
       "id": "file-c5f020b659bd6d2430489eca",
@@ -1368,7 +1500,8 @@
       "y": 6310,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: העברת אחריות בין סוכנים · TRANSFER"
     },
     {
       "id": "file-392460337f500f53552ede91",
@@ -1378,7 +1511,8 @@
       "y": 6540,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: MCP, ‏A2A ותקשורת בין סוכנים · BUILD"
     },
     {
       "id": "file-d108332ca0ab3c876a370356",
@@ -1388,7 +1522,8 @@
       "y": 6540,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: MCP, ‏A2A ותקשורת בין סוכנים · DIAGNOSE"
     },
     {
       "id": "file-477eefa64b7d919d01e7f371",
@@ -1398,7 +1533,8 @@
       "y": 6770,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: MCP, ‏A2A ותקשורת בין סוכנים · TRANSFER"
     },
     {
       "id": "file-2ebda587eb4909f3158da66b",
@@ -1408,7 +1544,8 @@
       "y": 6770,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: מצב משותף ותיאום · BUILD"
     },
     {
       "id": "file-e8075abcc0d5396b9f5a194b",
@@ -1418,7 +1555,8 @@
       "y": 7000,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: מצב משותף ותיאום · DIAGNOSE"
     },
     {
       "id": "file-c0ef060fb09a3a9d363dde6a",
@@ -1428,7 +1566,8 @@
       "y": 7000,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: מצב משותף ותיאום · TRANSFER"
     },
     {
       "id": "file-392ab4137b12964cf5814121",
@@ -1438,7 +1577,8 @@
       "y": 7230,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: פרויקט: צוות AI עסקי · BUILD"
     },
     {
       "id": "file-d9eaaa3a2c4a881904a1c4da",
@@ -1448,7 +1588,8 @@
       "y": 7230,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: פרויקט: צוות AI עסקי · DIAGNOSE"
     },
     {
       "id": "file-6ea210082138ec62203db21f",
@@ -1458,7 +1599,8 @@
       "y": 7460,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: פרויקט: צוות AI עסקי · TRANSFER"
     },
     {
       "id": "file-0e9ba7216fceb3b43a4ef5ad",
@@ -1468,7 +1610,8 @@
       "y": 7460,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: סוכני דפדפן ומחשב · BUILD"
     },
     {
       "id": "file-c79e5d14ebbee89daad9aef1",
@@ -1478,7 +1621,8 @@
       "y": 7690,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: סוכני דפדפן ומחשב · DIAGNOSE"
     },
     {
       "id": "file-cc245bdfe110bc46590a33b2",
@@ -1488,7 +1632,8 @@
       "y": 7690,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: סוכני דפדפן ומחשב · TRANSFER"
     },
     {
       "id": "file-8131bd6cbdefa0dd378855cd",
@@ -1498,7 +1643,8 @@
       "y": 7920,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: Sandbox וסוכני קוד · BUILD"
     },
     {
       "id": "file-f7ce17438ed7bce6f2391042",
@@ -1508,7 +1654,8 @@
       "y": 7920,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: Sandbox וסוכני קוד · DIAGNOSE"
     },
     {
       "id": "file-4cfe109bc8845928c68c17bf",
@@ -1518,7 +1665,8 @@
       "y": 8150,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: Sandbox וסוכני קוד · TRANSFER"
     },
     {
       "id": "file-418df160c57c82a95dd40911",
@@ -1528,7 +1676,8 @@
       "y": 8150,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: גילוי כלים דינמי · BUILD"
     },
     {
       "id": "file-db7946ad72348527a5ee0214",
@@ -1538,7 +1687,8 @@
       "y": 8380,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: גילוי כלים דינמי · DIAGNOSE"
     },
     {
       "id": "file-22e3f0355860fb583e2e3b33",
@@ -1548,7 +1698,8 @@
       "y": 8380,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: גילוי כלים דינמי · TRANSFER"
     },
     {
       "id": "file-bbe663576194512ed38518f7",
@@ -1558,7 +1709,8 @@
       "y": 8610,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: סוכן כתיבת קוד מבוקר · BUILD"
     },
     {
       "id": "file-71adf7bdf4116c9a80b2c8f9",
@@ -1568,7 +1720,8 @@
       "y": 8610,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: סוכן כתיבת קוד מבוקר · DIAGNOSE"
     },
     {
       "id": "file-e570fb0d9501c2c59f743fa0",
@@ -1578,7 +1731,8 @@
       "y": 8840,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: סוכן כתיבת קוד מבוקר · TRANSFER"
     },
     {
       "id": "file-07ad342b35205c7502a20e22",
@@ -1588,7 +1742,8 @@
       "y": 8840,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: פרויקט: תהליך אוטונומי מבוקר · BUILD"
     },
     {
       "id": "file-d3bbe5a7d77e9f60b7ef7e41",
@@ -1598,7 +1753,8 @@
       "y": 9070,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: פרויקט: תהליך אוטונומי מבוקר · DIAGNOSE"
     },
     {
       "id": "file-f034d6b93b0da58a031505a8",
@@ -1608,7 +1764,8 @@
       "y": 9070,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: פרויקט: תהליך אוטונומי מבוקר · TRANSFER"
     },
     {
       "id": "group-a5c40e8e2688865fc1c142be",
@@ -1628,7 +1785,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: מה מתאר Agent Card בתרגיל התקשורת בין שירותים?"
     },
     {
       "id": "file-d9be7ffcd14261992971ee72",
@@ -1638,7 +1796,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: איזו שאלת משנה כדאי להשאיר בתוכנית להשוואת ספקים?"
     },
     {
       "id": "file-bf1e78ea2f2475410d652abc",
@@ -1648,7 +1807,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: איזה מידע כדאי לשמור לצד טענה שנמצאה במחקר?"
     },
     {
       "id": "file-b213cd8a68a3bddb5e581025",
@@ -1658,7 +1818,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: בסבב מחקר נוסף נמצאו שוב אותם קישורים בלי מידע שמקדם את ההחלטה. מה מתאים לתנאי העצירה?"
     },
     {
       "id": "file-43e91dfb28ac9eecaac3652c",
@@ -1668,7 +1829,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: קישור בדוח נפתח בהצלחה, אבל הקטע אינו תומך בטענה שלידו. מה הבעיה?"
     },
     {
       "id": "file-2e4cc39de93be813f5375d15",
@@ -1678,7 +1840,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: באיזה מדד לא מספיק להשתמש לבדו כדי להעריך את סוכן המחקר?"
     },
     {
       "id": "file-165b7dbc7ce4b40e2efe7a1a",
@@ -1688,7 +1851,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: מדוע מחזירים תוצאת כלי עם ה־call_id המתאים?"
     },
     {
       "id": "file-1330aba549064f5016c951f5",
@@ -1698,7 +1862,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: אחרי מעבר לסוכן מבוסס SDK, מי עדיין אחראי להרשאות הכלים והמידע?"
     },
     {
       "id": "file-f3e0c3390210bffed9153d3e",
@@ -1708,7 +1873,8 @@
       "y": 1250,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: סביבת הרצה שמרה את מצב התהליך. מה עדיין צריך לבדוק לפני שחוזרים על פעולה חיצונית?"
     },
     {
       "id": "file-6c0ec96c1338732cfcd7f027",
@@ -1718,7 +1884,8 @@
       "y": 1250,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: מה מאפשר Interrupt בתהליך prepare → approve → execute?"
     },
     {
       "id": "file-d0452a33a9d64a7fb4d93b30",
@@ -1728,7 +1895,8 @@
       "y": 1480,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: מה צריך להשאיר זהה בהשוואה בין לולאה ידנית למימוש SDK או גרף?"
     },
     {
       "id": "file-f7ceb61704092ebab62f59e7",
@@ -1738,7 +1906,8 @@
       "y": 1480,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: מודל הציע חריגה מכלל הזכאות העסקי. מי צריך לקבוע אם מותר לבצע אותה?"
     },
     {
       "id": "file-8a6a6b4fa39254a9b359edb3",
@@ -1748,7 +1917,8 @@
       "y": 1710,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: פנייה עוסקת גם במכירה וגם בתמיכה, ואין די מידע לבחור יעד. מה יכול הנתב להחזיר?"
     },
     {
       "id": "file-f5c1ea951b6c7e190aecef14",
@@ -1758,7 +1928,8 @@
       "y": 1710,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: בשלוש קריאות מחקר בו־זמניות, קריאה אחת נכשלת. מה צריך שלב איסוף התוצאות לעשות?"
     },
     {
       "id": "file-5a7f8d6a0247be19f05ebc8d",
@@ -1768,7 +1939,8 @@
       "y": 1940,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: השירות החיצוני ביצע שינוי, אך התוכנית קרסה לפני רישום הצלחה. למה נדרש שלב reconcile?"
     },
     {
       "id": "file-aefaf3f011b0412aa04e780e",
@@ -1778,7 +1950,8 @@
       "y": 1940,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: איזה ניסוי בודק התאוששות לאחר הפעלה מחדש של תהליך העבודה?"
     },
     {
       "id": "file-fdc0bc475a325b4ade0ad5d2",
@@ -1788,7 +1961,8 @@
       "y": 2170,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: איך כדאי להחליט אם מנהל ושני מומחים עדיפים על סוכן יחיד?"
     },
     {
       "id": "file-c07cabe9cc47c57498c688ec",
@@ -1798,7 +1972,8 @@
       "y": 2170,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: בדפוס מנהל ומומחים, מי נשאר אחראי לתוצאה הכוללת?"
     },
     {
       "id": "file-631c3a4261e1fccc5bc87a94",
@@ -1808,7 +1983,8 @@
       "y": 2400,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: מה מבדיל Handoff מבקשה למומחה לבצע חישוב?"
     },
     {
       "id": "file-4299f94e87d3c4a5bce5664e",
@@ -1818,7 +1994,8 @@
       "y": 2400,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: שני מומחים מציעים ערכים שונים לאותו שדה במצב המשותף. מה נדרש?"
     },
     {
       "id": "file-ac85f89bd1f47acc8f83d38a",
@@ -1828,7 +2005,8 @@
       "y": 2630,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: מומחה אחד נכשל ולתוצאה אחרת חסר מקור. מה צריך צוות ה־AI לתעד?"
     },
     {
       "id": "file-8ef11a8de2205fd9bb46e119",
@@ -1838,7 +2016,8 @@
       "y": 2630,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: כפתור עבר מקום ונפתח חלון נוסף. מה צריך סוכן הדפדפן לבדוק לפני פעולה שמשנה נתונים?"
     },
     {
       "id": "file-2aa5f5cea4d6d8f105573188",
@@ -1848,7 +2027,8 @@
       "y": 2860,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: איך בודקים שה־Sandbox אוכף את הגבולות שהוגדרו?"
     },
     {
       "id": "file-21a2dfdebec2a4c5028fbd41",
@@ -1858,7 +2038,8 @@
       "y": 2860,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: חיפוש כלים מצא כלי בעל שם מתאים. מה עוד צריך לבדוק לפני הפעלתו?"
     },
     {
       "id": "file-06aace35ea60e7c6cc638cb5",
@@ -1868,7 +2049,8 @@
       "y": 3090,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: תיקון קוד העביר בדיקה אחת, אבל שבר פעולה אחרת. איזה שלב נדרש בתהליך המבוקר?"
     },
     {
       "id": "file-ce21d221a759696e8ca86ddb",
@@ -1878,7 +2060,8 @@
       "y": 3090,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: המערכת הגיעה לפעולה שדורשת אישור אדם. האם בקשת אישור יכולה להיות סיום תקין של המשימה הנוכחית?"
     },
     {
       "id": "file-88f2e8af7d4a18cf9c6ade6b",
@@ -1888,7 +2071,8 @@
       "y": 3320,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#לפני שמגישים · שאלה קצרה לתרגול"
     },
     {
       "id": "group-3c5861cb545933378fe673f7",
@@ -1908,7 +2092,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#סוכנים ותהליכי עבודה"
     },
     {
       "id": "file-b36640071cb2134abf5dd905",
@@ -1918,7 +2103,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#אוטומציה וחיבור מערכות"
     },
     {
       "id": "file-b986990a67228050c817fe81",
@@ -1928,7 +2114,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#אפיון שירות ופרויקט עסקי"
     },
     {
       "id": "file-01b5ae97a0708e4906c8cbb0",
@@ -1938,7 +2125,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#קוד וניפוי שגיאות"
     },
     {
       "id": "file-2365f0a01a9b198c38e3ca05",
@@ -1948,7 +2136,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#מקורות ועדכוני תוכן"
     },
     {
       "id": "file-c1de88bc3689e476f87416fa",
@@ -1958,7 +2147,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#מסדי נתונים ומצב"
     },
     {
       "id": "file-5e5d06c1515c3bcc85ac90df",
@@ -1968,7 +2158,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#עברית ברורה וסיכום התשובה"
     },
     {
       "id": "file-38f2fd0c23b80ae8a5143910",
@@ -1978,7 +2169,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#ידע, זיכרון ושליפת מקורות"
     },
     {
       "id": "file-572162055e0283e66fbd845a",
@@ -1988,7 +2180,8 @@
       "y": 1250,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#מודלים, הקשר ונתונים"
     },
     {
       "id": "file-be11d40265cd2df767d8f455",
@@ -1998,7 +2191,8 @@
       "y": 1250,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#פריסה, ניטור ואמינות"
     },
     {
       "id": "file-6d1e195fbb57cc5b91e69c4c",
@@ -2008,7 +2202,8 @@
       "y": 1480,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#משוב על העבודה והתקדמות"
     },
     {
       "id": "file-61e6e2118dba2a11aa442a3f",
@@ -2018,7 +2213,8 @@
       "y": 1480,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#אבטחה והרשאות"
     },
     {
       "id": "file-940cffbeca2b500e56117503",
@@ -2028,7 +2224,8 @@
       "y": 1710,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#תיאום צוות ההדרכה"
     },
     {
       "id": "file-e524d6cd1c71643b9b26c73d",
@@ -2038,7 +2235,8 @@
       "y": 1710,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#פרק 1: יסודות · פרק חובה"
     },
     {
       "id": "file-df279451132a88a01025cb3a",
@@ -2048,7 +2246,8 @@
       "y": 1940,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#Agent Loop"
     },
     {
       "id": "file-4ad38f3f1a99d70ead846df3",
@@ -2058,7 +2257,8 @@
       "y": 1940,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#Coding Agents"
     },
     {
       "id": "file-f7c7947c3622f0d2420e1bef",
@@ -2068,7 +2268,8 @@
       "y": 2170,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#Computer Use"
     },
     {
       "id": "file-26442e2e68e721438d8359dd",
@@ -2078,7 +2279,8 @@
       "y": 2170,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#Coordination"
     },
     {
       "id": "file-c563fc51980449b44b4af853",
@@ -2088,7 +2290,8 @@
       "y": 2400,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#Durable Execution"
     },
     {
       "id": "file-28ff7b2549a9ca23e4df4869",
@@ -2098,7 +2301,8 @@
       "y": 2400,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#Grounding"
     },
     {
       "id": "file-730018c916d2bb4f1cdf7a44",
@@ -2108,7 +2312,8 @@
       "y": 2630,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#Handoffs"
     },
     {
       "id": "file-a3b776697aef5957c70d722e",
@@ -2118,7 +2323,8 @@
       "y": 2630,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#Manager"
     },
     {
       "id": "file-94c631f2aa4cd7d4bb3957f5",
@@ -2128,7 +2334,8 @@
       "y": 2860,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#MCP"
     },
     {
       "id": "file-819424c463bd80f2e68b4ffd",
@@ -2138,7 +2345,8 @@
       "y": 2860,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#Planning"
     },
     {
       "id": "file-0807e48763e0736f01eea10a",
@@ -2148,7 +2356,8 @@
       "y": 3090,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#Routers"
     },
     {
       "id": "file-1bb5652043f1a8533a5ef2f1",
@@ -2158,7 +2367,8 @@
       "y": 3090,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#Sandbox Agents"
     },
     {
       "id": "file-ec3b3561ca67003381a0f91a",
@@ -2168,7 +2378,8 @@
       "y": 3320,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#State"
     },
     {
       "id": "file-ca475a2c515b05acc79979c7",
@@ -2178,7 +2389,8 @@
       "y": 3320,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#Tracing"
     },
     {
       "id": "file-2d6fd33ca187274dac9c3bb2",
@@ -2188,7 +2400,8 @@
       "y": 3550,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#Workflows"
     },
     {
       "id": "file-cbaac02edabca908d04672b8",
@@ -2198,7 +2411,8 @@
       "y": 3550,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#A2A specification"
     },
     {
       "id": "file-2615642f349027d95eb5e45b",
@@ -2208,7 +2422,8 @@
       "y": 3780,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#Building effective agents"
     },
     {
       "id": "file-75d665b28b8e117f1112f317",
@@ -2218,7 +2433,8 @@
       "y": 3780,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#Docker overview"
     },
     {
       "id": "file-d30fe61a4c1a6d1151717a05",
@@ -2228,7 +2444,8 @@
       "y": 4010,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#LangGraph persistence"
     },
     {
       "id": "file-5457a48d8226b42bebcbe504",
@@ -2238,7 +2455,8 @@
       "y": 4010,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#MCP specification"
     },
     {
       "id": "file-8683e4104bfebba5cb040ea4",
@@ -2248,7 +2466,8 @@
       "y": 4240,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#OpenAI Agents SDK"
     },
     {
       "id": "file-bf67713482bfdebe0c545686",
@@ -2258,7 +2477,8 @@
       "y": 4240,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#OpenAI deprecations"
     },
     {
       "id": "file-38d019cb40977865dc52a8e2",
@@ -2268,7 +2488,8 @@
       "y": 4470,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#OpenAI quickstart"
     },
     {
       "id": "file-edc56d60e20e647b71ce4fd1",
@@ -2278,7 +2499,8 @@
       "y": 4470,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#OpenAI managed agent runtime"
     },
     {
       "id": "file-ac3003bfda18ec625f1b5e71",
@@ -2288,7 +2510,8 @@
       "y": 4700,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#OpenAI function calling"
     },
     {
       "id": "file-c6fec4cda4db32c5eb5375a8",
@@ -2298,7 +2521,8 @@
       "y": 4700,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#OWASP LLM risks"
     },
     {
       "id": "file-af1d6d70aed955de3b9246a7",
@@ -2308,7 +2532,8 @@
       "y": 4930,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#Python asyncio"
     },
     {
       "id": "file-c3c04b12ea9b913a21947708",
@@ -2318,7 +2543,8 @@
       "y": 4930,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#Stripe webhooks"
     },
     {
       "id": "file-8b8c58a745a979c7c62081c1",
@@ -2328,7 +2554,8 @@
       "y": 5160,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#בדיקות המעבדה"
     },
     {
       "id": "file-12a00c5f15109100785c52cd",
@@ -2338,7 +2565,8 @@
       "y": 5160,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#OpenAI Agents SDK"
     },
     {
       "id": "file-da38c5069e356aed89f2a7e6",
@@ -2348,7 +2576,8 @@
       "y": 5390,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#LangGraph"
     },
     {
       "id": "file-834469f32163f327a9c37912",
@@ -2358,7 +2587,8 @@
       "y": 5390,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#MCP TypeScript SDK"
     },
     {
       "id": "file-693c6c26d44904c20f888faf",
@@ -2368,7 +2598,8 @@
       "y": 5620,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#OpenAI API changelog"
     },
     {
       "id": "file-c0131ac7a08fc5cdd6a75412",
@@ -2378,7 +2609,8 @@
       "y": 5620,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#OpenAI model catalog"
     },
     {
       "id": "file-2f2afba4cb407b8929230541",
@@ -2388,7 +2620,8 @@
       "y": 5850,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#OpenAI News"
     },
     {
       "id": "file-110ce1b846b736e5f857ae5b",
@@ -2398,7 +2631,8 @@
       "y": 5850,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#LangGraph"
     },
     {
       "id": "file-50ade14a63a3131cbc0934da",
@@ -2408,7 +2642,8 @@
       "y": 6080,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#Model Context Protocol"
     },
     {
       "id": "file-d40510794859db547370ae10",
@@ -2418,7 +2653,8 @@
       "y": 6080,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#OpenAI Agents SDK"
     },
     {
       "id": "file-50756ec2fd98a720af1e2363",
@@ -2428,7 +2664,8 @@
       "y": 6310,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#OpenAI API and models"
     }
   ],
   "edges": [

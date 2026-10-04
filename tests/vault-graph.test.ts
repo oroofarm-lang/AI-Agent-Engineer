@@ -48,6 +48,27 @@ const write = (vaultRoot: string, files: Map<string, string>) =>
   writer.writeVaultFiles({ vaultRoot, files, version: curriculum.version });
 
 describe('complete public knowledge graph', () => {
+  it('anchors every generated Canvas file card to its real content heading rather than technical properties', () => {
+    let maps = 0;
+    let cards = 0;
+    for (const [file, content] of graph.files) {
+      if (!file.endsWith('.canvas')) continue;
+      maps++;
+      const canvas = JSON.parse(content);
+      for (const node of canvas.nodes) {
+        if (node.type !== 'file') continue;
+        cards++;
+        const note = graph.files.get(node.file);
+        expect(note, `${file}: ${node.file}`).toBeDefined();
+        const heading = note!.match(/^# (.+)$/m)?.[1];
+        expect(heading, `${node.file} has a content heading`).toBeTruthy();
+        expect(node.subpath, `${file}: ${node.file}`).toBe(`#${heading}`);
+      }
+    }
+    expect(maps).toBeGreaterThan(30);
+    expect(cards).toBeGreaterThan(graph.counts.documents);
+  });
+
   it('links every deployment source reciprocally to the deployment hub and knowledge jobs to discovery', () => {
     const deployment = '04_AUTOMATIONS_AND_APIS/Deployment.md';
     const knowledge = '04_AUTOMATIONS_AND_APIS/Knowledge-Updates.md';

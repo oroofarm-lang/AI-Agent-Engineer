@@ -8,7 +8,8 @@
       "y": 0,
       "width": 560,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#נתונים ומודלים מקומיים"
     },
     {
       "id": "group-33b500c300215be5d9b31448",
@@ -28,7 +29,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#עוזר נתונים עסקיים"
     },
     {
       "id": "file-baca4cf620a68ceb5371a3c4",
@@ -38,7 +40,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#כללים, חיזוי קלאסי ו־LLM"
     },
     {
       "id": "file-16fd346c0461a784095e1630",
@@ -48,7 +51,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#מודלים מקומיים ומשאבי חומרה"
     },
     {
       "id": "file-23e2954662190403871178a9",
@@ -58,7 +62,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#Prompting, ‏RAG ו־Fine-tuning"
     },
     {
       "id": "group-5af0b68aa5a16c36887a493e",
@@ -78,7 +83,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: עוזר נתונים עסקיים"
     },
     {
       "id": "file-daef6d833869b7e6f217ad5e",
@@ -88,7 +94,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: כללים, חיזוי קלאסי ו־LLM"
     },
     {
       "id": "file-ef3bfc651d1eac255f079708",
@@ -98,7 +105,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: מודלים מקומיים ומשאבי חומרה"
     },
     {
       "id": "file-adb58a7a1d30174db026c55e",
@@ -108,7 +116,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: Prompting, ‏RAG ו־Fine-tuning"
     },
     {
       "id": "group-dfcdcd635ecac21c22bee040",
@@ -128,7 +137,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · עוזר נתונים עסקיים"
     },
     {
       "id": "file-8d25507cd365fcae66ff127c",
@@ -138,7 +148,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · כללים, חיזוי קלאסי ו־LLM"
     },
     {
       "id": "file-1c7464cfbbe3533c188bacb2",
@@ -148,7 +159,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · מודלים מקומיים ומשאבי חומרה"
     },
     {
       "id": "file-0b71fad7e57f28b2262bd9cb",
@@ -158,7 +170,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · Prompting, ‏RAG ו־Fine-tuning"
     },
     {
       "id": "group-1bbf500e939d02b2fa4a8ba2",
@@ -178,7 +191,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: עוזר נתונים עסקיים · BUILD"
     },
     {
       "id": "file-a9aa825ed114b5861ac32faa",
@@ -188,7 +202,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טבלה: עוזר נתונים עסקיים · DIAGNOSE"
     },
     {
       "id": "file-8ec38d198a833a6712706fdf",
@@ -198,7 +213,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: עוזר נתונים עסקיים · TRANSFER"
     },
     {
       "id": "file-81ad80f7098d6e7e1681dcfd",
@@ -208,7 +224,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: כללים, חיזוי קלאסי ו־LLM · BUILD"
     },
     {
       "id": "file-8b0091e70945a61c75f60c6d",
@@ -218,7 +235,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: כללים, חיזוי קלאסי ו־LLM · DIAGNOSE"
     },
     {
       "id": "file-0a3797d01e419a7ba396a426",
@@ -228,7 +246,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: כללים, חיזוי קלאסי ו־LLM · TRANSFER"
     },
     {
       "id": "file-6bc0835c98296fa28821cce2",
@@ -238,7 +257,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: מודלים מקומיים ומשאבי חומרה · BUILD"
     },
     {
       "id": "file-86056c023ebb049bb4ec82b9",
@@ -248,7 +268,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: מודלים מקומיים ומשאבי חומרה · DIAGNOSE"
     },
     {
       "id": "file-33cf86c40791fde3b1478551",
@@ -258,7 +279,8 @@
       "y": 1250,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: מודלים מקומיים ומשאבי חומרה · TRANSFER"
     },
     {
       "id": "file-5b29e0472a621373408c50ab",
@@ -268,7 +290,8 @@
       "y": 1250,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: Prompting, ‏RAG ו־Fine-tuning · BUILD"
     },
     {
       "id": "file-6452472781687d583a63e72c",
@@ -278,7 +301,8 @@
       "y": 1480,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: Prompting, ‏RAG ו־Fine-tuning · DIAGNOSE"
     },
     {
       "id": "file-d1b6c1925d52dbec8b6b8e40",
@@ -288,7 +312,8 @@
       "y": 1480,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: Prompting, ‏RAG ו־Fine-tuning · TRANSFER"
     },
     {
       "id": "group-7104b48d0bc35c1fe7a9a6da",
@@ -308,7 +333,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: שאילתת מכירות רצה בלי שגיאה, אך JOIN הכפיל שורות והגדיל את סכום ההכנסות. מה צריך לבדוק?"
     },
     {
       "id": "file-0f4d3f46edef7c12719ff4f5",
@@ -318,7 +344,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: במשימת חיזוי נוסף לקלט שדה שמגלה את התשובה ואינו זמין בזמן ההחלטה. מה הבעיה?"
     },
     {
       "id": "file-8053c03defa4acf60546dea3",
@@ -328,7 +355,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: מודל מופעל במחשב המקומי. איזו מסקנה מותר להסיק מכך בלבד?"
     },
     {
       "id": "file-cf7f5591666c75368a17cfc9",
@@ -338,7 +366,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: עסק צריך לענות לפי נהלים שמתעדכנים מדי שבוע. איזו גישה השיעור מציע לבדוק תחילה?"
     },
     {
       "id": "file-88f2e8af7d4a18cf9c6ade6b",
@@ -348,7 +377,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#לפני שמגישים · שאלה קצרה לתרגול"
     },
     {
       "id": "group-12b9d34178adcdecc235f12e",
@@ -368,7 +398,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#מקורות ועדכוני תוכן"
     },
     {
       "id": "file-df95ffa2242331aca94feb09",
@@ -378,7 +409,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#הסבר והדרכה"
     },
     {
       "id": "file-c1de88bc3689e476f87416fa",
@@ -388,7 +420,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#מסדי נתונים ומצב"
     },
     {
       "id": "file-5e5d06c1515c3bcc85ac90df",
@@ -398,7 +431,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#עברית ברורה וסיכום התשובה"
     },
     {
       "id": "file-572162055e0283e66fbd845a",
@@ -408,7 +442,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#מודלים, הקשר ונתונים"
     },
     {
       "id": "file-32329bf144be4a54e19368b2",
@@ -418,7 +453,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#פרסום ומדידה"
     },
     {
       "id": "file-6d1e195fbb57cc5b91e69c4c",
@@ -428,7 +464,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#משוב על העבודה והתקדמות"
     },
     {
       "id": "file-456cb68b048665cc5ebc34d1",
@@ -438,7 +475,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#תרגול ובדיקות הבנה"
     },
     {
       "id": "file-940cffbeca2b500e56117503",
@@ -448,7 +486,8 @@
       "y": 1250,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#תיאום צוות ההדרכה"
     },
     {
       "id": "file-e524d6cd1c71643b9b26c73d",
@@ -458,7 +497,8 @@
       "y": 1250,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#פרק 1: יסודות · פרק חובה"
     },
     {
       "id": "file-0b799de71d380da126de9268",
@@ -468,7 +508,8 @@
       "y": 1480,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#איכות, אבטחה ובקרה"
     },
     {
       "id": "file-d1ee7f34b67ea14a55418301",
@@ -478,7 +519,8 @@
       "y": 1480,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#יסודות AI"
     },
     {
       "id": "file-e74b7402f647a79b592a2cb6",
@@ -488,7 +530,8 @@
       "y": 1710,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#Database"
     },
     {
       "id": "file-b42017f04f774204a1664fe3",
@@ -498,7 +541,8 @@
       "y": 1710,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#Evals"
     },
     {
       "id": "file-03dc4032dc824d78e33c8bd3",
@@ -508,7 +552,8 @@
       "y": 1940,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#Demystifying evals for AI agents"
     },
     {
       "id": "file-416363e3f49a6f73b2217d41",
@@ -518,7 +563,8 @@
       "y": 1940,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#Machine Learning Crash Course"
     },
     {
       "id": "file-30a5ad3d9d6c61f52b68316e",
@@ -528,7 +574,8 @@
       "y": 2170,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#Ollama structured outputs"
     },
     {
       "id": "file-3eba38c8b74e3926daece44c",
@@ -538,7 +585,8 @@
       "y": 2170,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#OpenAI data controls"
     },
     {
       "id": "file-4439c3528f22c688304afb08",
@@ -548,7 +596,8 @@
       "y": 2400,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#PEFT LoRA"
     },
     {
       "id": "file-5ed55157a249384edea9d3f9",
@@ -558,7 +607,8 @@
       "y": 2400,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#PostgreSQL transactions"
     },
     {
       "id": "file-fd403ed8e09d0b181bd1dff2",
@@ -568,7 +618,8 @@
       "y": 2630,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#Python SQLite module"
     },
     {
       "id": "file-fdca7d9e05c7e9e7c89afd50",
@@ -578,7 +629,8 @@
       "y": 2630,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#נתוני קמפיינים לתרגול"
     },
     {
       "id": "file-eb19de3827a6efe59350e55e",
@@ -588,7 +640,8 @@
       "y": 2860,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#Ollama"
     },
     {
       "id": "file-58ae82fef0882109e1f321fc",
@@ -598,7 +651,8 @@
       "y": 2860,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#Ollama"
     }
   ],
   "edges": [

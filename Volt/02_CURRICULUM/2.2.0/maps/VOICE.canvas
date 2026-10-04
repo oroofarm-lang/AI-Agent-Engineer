@@ -8,7 +8,8 @@
       "y": 0,
       "width": 560,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#קול ושירות לקוחות"
     },
     {
       "id": "group-39d94efcb22e64faf50c960c",
@@ -28,7 +29,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#תמלול שיחות ובדיקת דיוק"
     },
     {
       "id": "file-5687a7fd8ace1a28c85913ac",
@@ -38,7 +40,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#טיפול אחרי שיחה"
     },
     {
       "id": "file-86b45041cad33d943cc79d16",
@@ -48,7 +51,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#ממשק קולי עם תמלול וקריינות"
     },
     {
       "id": "file-6c29ba7653d146657319a2ff",
@@ -58,7 +62,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#שיחה חיה וקטיעות"
     },
     {
       "id": "file-31607aa5278d69a3f1b61c8d",
@@ -68,7 +73,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#העברה לאדם ותיאום פגישות"
     },
     {
       "id": "file-32ffe56fc404b434f481839e",
@@ -78,7 +84,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#מבחן מסכם: עוזר קולי עסקי"
     },
     {
       "id": "group-5b3434ce5bf2efd26dbb0efc",
@@ -98,7 +105,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: תמלול שיחות ובדיקת דיוק"
     },
     {
       "id": "file-126701d160e7e9012f1514d8",
@@ -108,7 +116,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: טיפול אחרי שיחה"
     },
     {
       "id": "file-dd7f1ad93325e7c92161ffac",
@@ -118,7 +127,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: ממשק קולי עם תמלול וקריינות"
     },
     {
       "id": "file-c3b100e61a73f67d42bce963",
@@ -128,7 +138,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: שיחה חיה וקטיעות"
     },
     {
       "id": "file-3c7036c17ed01baa46216193",
@@ -138,7 +149,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: העברה לאדם ותיאום פגישות"
     },
     {
       "id": "file-f2116f51672134f0898c5277",
@@ -148,7 +160,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: מבחן מסכם: עוזר קולי עסקי"
     },
     {
       "id": "group-1ffdea6adb6d77049153779c",
@@ -168,7 +181,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · תמלול שיחות ובדיקת דיוק"
     },
     {
       "id": "file-98695ea9e3150b8d66f1dcc0",
@@ -178,7 +192,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · טיפול אחרי שיחה"
     },
     {
       "id": "file-d7a6670172eb2cb9dd457af1",
@@ -188,7 +203,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · ממשק קולי עם תמלול וקריינות"
     },
     {
       "id": "file-28043cc3528fed46a02fe362",
@@ -198,7 +214,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · שיחה חיה וקטיעות"
     },
     {
       "id": "file-d536ad37a5a838b3b23c6b2d",
@@ -208,7 +225,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · העברה לאדם ותיאום פגישות"
     },
     {
       "id": "file-a8d75fdeed1bdc7e51039dc7",
@@ -218,7 +236,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · מבחן מסכם: עוזר קולי עסקי"
     },
     {
       "id": "group-f3b315a3e845853579d4f027",
@@ -238,7 +257,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: תמלול שיחות ובדיקת דיוק · BUILD"
     },
     {
       "id": "file-c727c8e9f1a77f1d41f65eb7",
@@ -248,7 +268,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: תמלול שיחות ובדיקת דיוק · DIAGNOSE"
     },
     {
       "id": "file-339557a2471fee3320922759",
@@ -258,7 +279,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: תמלול שיחות ובדיקת דיוק · TRANSFER"
     },
     {
       "id": "file-c1992ea6a3fdb920f3e4f61e",
@@ -268,7 +290,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: טיפול אחרי שיחה · BUILD"
     },
     {
       "id": "file-e390ab7a65e4aab98e41e45d",
@@ -278,7 +301,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: טיפול אחרי שיחה · DIAGNOSE"
     },
     {
       "id": "file-a890e38869c9eeb4017c915f",
@@ -288,7 +312,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: טיפול אחרי שיחה · TRANSFER"
     },
     {
       "id": "file-76cba80c95c456d4878b392e",
@@ -298,7 +323,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: ממשק קולי עם תמלול וקריינות · BUILD"
     },
     {
       "id": "file-d7842558684cdf0fa720ec43",
@@ -308,7 +334,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: ממשק קולי עם תמלול וקריינות · DIAGNOSE"
     },
     {
       "id": "file-91f7b734eae5c877ea6c727b",
@@ -318,7 +345,8 @@
       "y": 1250,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: ממשק קולי עם תמלול וקריינות · TRANSFER"
     },
     {
       "id": "file-9c7e9e6277bda2a158d3c1af",
@@ -328,7 +356,8 @@
       "y": 1250,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: שיחה חיה וקטיעות · BUILD"
     },
     {
       "id": "file-7b8bd233a2ec87a35ab796aa",
@@ -338,7 +367,8 @@
       "y": 1480,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: שיחה חיה וקטיעות · DIAGNOSE"
     },
     {
       "id": "file-5e17e513ef75f7d1780f165c",
@@ -348,7 +378,8 @@
       "y": 1480,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: שיחה חיה וקטיעות · TRANSFER"
     },
     {
       "id": "file-3e5aa2e57031aac301b14425",
@@ -358,7 +389,8 @@
       "y": 1710,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: העברה לאדם ותיאום פגישות · BUILD"
     },
     {
       "id": "file-3f7475b6ecac00eb3405ac2b",
@@ -368,7 +400,8 @@
       "y": 1710,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: העברה לאדם ותיאום פגישות · DIAGNOSE"
     },
     {
       "id": "file-46a0224918528dc0182d1323",
@@ -378,7 +411,8 @@
       "y": 1940,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: העברה לאדם ותיאום פגישות · TRANSFER"
     },
     {
       "id": "file-5b65c678e3d52bc0bd0e73c3",
@@ -388,7 +422,8 @@
       "y": 1940,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: מבחן מסכם: עוזר קולי עסקי · BUILD"
     },
     {
       "id": "file-0b3a5e087ae32cf754015cc8",
@@ -398,7 +433,8 @@
       "y": 2170,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: מבחן מסכם: עוזר קולי עסקי · DIAGNOSE"
     },
     {
       "id": "file-dd09296016b1c59ce8728361",
@@ -408,7 +444,8 @@
       "y": 2170,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: מבחן מסכם: עוזר קולי עסקי · TRANSFER"
     },
     {
       "id": "group-d9c305d90591be181e63fcd2",
@@ -428,7 +465,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: מספר הזמנה בתמלול נשמע חשוד. מה מאפשר לבדוק מה באמת נאמר?"
     },
     {
       "id": "file-2fb257e6e756acaf1378fd99",
@@ -438,7 +476,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: סיכום השיחה כולל התחייבות להנחה שלא נאמרה בשיחה. מה נכון לעשות לפני הפיכת הסיכום למשימות?"
     },
     {
       "id": "file-db5b3dca522cd9b0c06e76ae",
@@ -448,7 +487,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: שם מוצר נשמע שגוי בהקראה של העוזר. איך מאתרים את מקור התקלה בתהליך הקולי המדורג?"
     },
     {
       "id": "file-5977f6d6e70092e245444087",
@@ -458,7 +498,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: משתמש קוטע תשובה קולית ומשנה את בקשתו בזמן שכלי עובד. מה צריך לנהל לצד הדיבור?"
     },
     {
       "id": "file-0819e15878775c1bcfc32f1a",
@@ -468,7 +509,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: העוזר הציע שעה לפגישה, אבל היומן עדיין לא אישר שהפגישה נשמרה. איך נכון להציג את המצב?"
     },
     {
       "id": "file-1b277315e2b57b390921f8a1",
@@ -478,7 +520,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: עוזר קולי עבר שיחת הדגמה אחת בלי תקלה. מה חסר כדי להעריך את איכותו העסקית?"
     },
     {
       "id": "file-88f2e8af7d4a18cf9c6ade6b",
@@ -488,7 +531,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#לפני שמגישים · שאלה קצרה לתרגול"
     },
     {
       "id": "group-31c88687247d807a02570540",
@@ -508,7 +552,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#מקורות ועדכוני תוכן"
     },
     {
       "id": "file-5e5d06c1515c3bcc85ac90df",
@@ -518,7 +563,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#עברית ברורה וסיכום התשובה"
     },
     {
       "id": "file-32329bf144be4a54e19368b2",
@@ -528,7 +574,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#פרסום ומדידה"
     },
     {
       "id": "file-6d1e195fbb57cc5b91e69c4c",
@@ -538,7 +585,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#משוב על העבודה והתקדמות"
     },
     {
       "id": "file-456cb68b048665cc5ebc34d1",
@@ -548,7 +596,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#תרגול ובדיקות הבנה"
     },
     {
       "id": "file-d80abe7699649f478011b4c4",
@@ -558,7 +607,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#קול, תמלול ושיחה"
     },
     {
       "id": "file-940cffbeca2b500e56117503",
@@ -568,7 +618,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#תיאום צוות ההדרכה"
     },
     {
       "id": "file-5a6f260befdd13e241fbeb42",
@@ -578,7 +629,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#אוטומציה והטמעת מערכות"
     },
     {
       "id": "file-e524d6cd1c71643b9b26c73d",
@@ -588,7 +640,8 @@
       "y": 1250,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#פרק 1: יסודות · פרק חובה"
     },
     {
       "id": "file-b42017f04f774204a1664fe3",
@@ -598,7 +651,8 @@
       "y": 1250,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#Evals"
     },
     {
       "id": "file-7a4583f7c809499b9042b73f",
@@ -608,7 +662,8 @@
       "y": 1480,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#קול ומסמכים"
     },
     {
       "id": "file-c0b28de3c34797d60334af76",
@@ -618,7 +673,8 @@
       "y": 1480,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#Gemini document processing"
     },
     {
       "id": "file-181f8e915599a29bf0e3508e",
@@ -628,7 +684,8 @@
       "y": 1710,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#HubSpot webhooks"
     },
     {
       "id": "file-4b532326234c05fd3db6ea68",
@@ -638,7 +695,8 @@
       "y": 1710,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#OpenAI audio guide"
     },
     {
       "id": "file-7aa1f219d63306ae55e33a95",
@@ -648,7 +706,8 @@
       "y": 1940,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#OpenAI WebRTC"
     },
     {
       "id": "file-dbb4b094ebabd037a53d01a8",
@@ -658,7 +717,8 @@
       "y": 1940,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#תסריט שיחה לתרגול"
     },
     {
       "id": "file-213d3d011952ce6560ce5827",
@@ -668,7 +728,8 @@
       "y": 2170,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#מדריך נתוני התרגול"
     },
     {
       "id": "file-693c6c26d44904c20f888faf",
@@ -678,7 +739,8 @@
       "y": 2170,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#OpenAI API changelog"
     },
     {
       "id": "file-c0131ac7a08fc5cdd6a75412",
@@ -688,7 +750,8 @@
       "y": 2400,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#OpenAI model catalog"
     },
     {
       "id": "file-2f2afba4cb407b8929230541",
@@ -698,7 +761,8 @@
       "y": 2400,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#OpenAI News"
     },
     {
       "id": "file-50756ec2fd98a720af1e2363",
@@ -708,7 +772,8 @@
       "y": 2630,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#OpenAI API and models"
     }
   ],
   "edges": [

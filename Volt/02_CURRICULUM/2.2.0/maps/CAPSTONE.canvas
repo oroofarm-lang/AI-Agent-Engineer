@@ -8,7 +8,8 @@
       "y": 0,
       "width": 560,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#פרויקט גמר לעסק"
     },
     {
       "id": "group-83712b32cd8af7888e7a2217",
@@ -28,7 +29,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#פרויקט גמר: גילוי צרכים"
     },
     {
       "id": "file-828bcad14d5456e43f0e2cb0",
@@ -38,7 +40,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#פרויקט גמר: ארכיטקטורה"
     },
     {
       "id": "file-836809f7164d359fceb0649a",
@@ -48,7 +51,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#פרויקט גמר: בנייה"
     },
     {
       "id": "file-cbf2f436d19f9d6b60bf7845",
@@ -58,7 +62,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#פרויקט גמר: הקשחה"
     },
     {
       "id": "file-4ac7d91c004f2deb2078c1a8",
@@ -68,7 +73,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "5"
+      "color": "5",
+      "subpath": "#מבחן גמר: פתרון עסקי מלא"
     },
     {
       "id": "group-2878e1459f07f75f205c035f",
@@ -88,7 +94,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: פרויקט גמר: גילוי צרכים"
     },
     {
       "id": "file-f1b47f49d26deb4001fb1f98",
@@ -98,7 +105,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: פרויקט גמר: ארכיטקטורה"
     },
     {
       "id": "file-73b1835cfa6f08847c9ae40a",
@@ -108,7 +116,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: פרויקט גמר: בנייה"
     },
     {
       "id": "file-71fe62d7d07cd2c31f3483d3",
@@ -118,7 +127,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: פרויקט גמר: הקשחה"
     },
     {
       "id": "file-d4d369bb6c30164d31383016",
@@ -128,7 +138,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#התרגול: מבחן גמר: פתרון עסקי מלא"
     },
     {
       "id": "group-24be473421b17263b5b01f63",
@@ -148,7 +159,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · פרויקט גמר: גילוי צרכים"
     },
     {
       "id": "file-89691741f3f92332c8995240",
@@ -158,7 +170,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · פרויקט גמר: ארכיטקטורה"
     },
     {
       "id": "file-c18c2a0c1bbfb6b0fd608436",
@@ -168,7 +181,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · פרויקט גמר: בנייה"
     },
     {
       "id": "file-7743bce8299099097c05c40b",
@@ -178,7 +192,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · פרויקט גמר: הקשחה"
     },
     {
       "id": "file-1673c388e0ff423584f1e223",
@@ -188,7 +203,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "4"
+      "color": "4",
+      "subpath": "#הוכחה מעשית · מבחן גמר: פתרון עסקי מלא"
     },
     {
       "id": "group-d6cddb4d955fecbfa605738a",
@@ -208,7 +224,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: פרויקט גמר: גילוי צרכים · BUILD"
     },
     {
       "id": "file-8a2a3cc58deac5f768922a1b",
@@ -218,7 +235,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: פרויקט גמר: גילוי צרכים · DIAGNOSE"
     },
     {
       "id": "file-3afd693b604deb77ee649b28",
@@ -228,7 +246,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: פרויקט גמר: גילוי צרכים · TRANSFER"
     },
     {
       "id": "file-dd2869953c918dd5d57c60a8",
@@ -238,7 +257,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: פרויקט גמר: ארכיטקטורה · BUILD"
     },
     {
       "id": "file-c203c0c8b2c61899bf1907a0",
@@ -248,7 +268,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: פרויקט גמר: ארכיטקטורה · DIAGNOSE"
     },
     {
       "id": "file-4067f357d3c18e4f54c840ad",
@@ -258,7 +279,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: פרויקט גמר: ארכיטקטורה · TRANSFER"
     },
     {
       "id": "file-ae2c46d2843005759a325d0a",
@@ -268,7 +290,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: פרויקט גמר: בנייה · BUILD"
     },
     {
       "id": "file-c250690a754e63a1adb5b426",
@@ -278,7 +301,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: פרויקט גמר: בנייה · DIAGNOSE"
     },
     {
       "id": "file-4602033a57d31805fbd00700",
@@ -288,7 +312,8 @@
       "y": 1250,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: פרויקט גמר: בנייה · TRANSFER"
     },
     {
       "id": "file-477be4d07b8325cc53169f03",
@@ -298,7 +323,8 @@
       "y": 1250,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: פרויקט גמר: הקשחה · BUILD"
     },
     {
       "id": "file-689810644ca1069d6c71934c",
@@ -308,7 +334,8 @@
       "y": 1480,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: פרויקט גמר: הקשחה · DIAGNOSE"
     },
     {
       "id": "file-0eba9a278c822a410a369728",
@@ -318,7 +345,8 @@
       "y": 1480,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: פרויקט גמר: הקשחה · TRANSFER"
     },
     {
       "id": "file-478d07f5ec2e7dee51c2239d",
@@ -328,7 +356,8 @@
       "y": 1710,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: מבחן גמר: פתרון עסקי מלא · BUILD"
     },
     {
       "id": "file-ebc823990d55f76f95977a72",
@@ -338,7 +367,8 @@
       "y": 1710,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: מבחן גמר: פתרון עסקי מלא · DIAGNOSE"
     },
     {
       "id": "file-e09cc414b69602a1ec77915c",
@@ -348,7 +378,8 @@
       "y": 1940,
       "width": 640,
       "height": 180,
-      "color": "3"
+      "color": "3",
+      "subpath": "#תבנית טקסט: מבחן גמר: פתרון עסקי מלא · TRANSFER"
     },
     {
       "id": "group-89ece5dfed56e342e083ed42",
@@ -368,7 +399,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: מה צריך לעשות לפני שבוחרים טכנולוגיה לפרויקט הגמר?"
     },
     {
       "id": "file-9993ba338f351c326cc91d9e",
@@ -378,7 +410,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: איזה מידע צריך תרשים הארכיטקטורה להבהיר מעבר לשמות הרכיבים?"
     },
     {
       "id": "file-cdce2b697806bc1f27e20929",
@@ -388,7 +421,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: מהי המטרה של Vertical Slice בפרויקט הגמר?"
     },
     {
       "id": "file-19c9ba2c3810c63d0f3d11a3",
@@ -398,7 +432,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: בדיקת הפעלה מחדש חשפה פעולה עסקית כפולה. מהו הצעד הנדרש לאחר אבחון הכשל?"
     },
     {
       "id": "file-78574a574a984754ca666e3b",
@@ -408,7 +443,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#בדיקת הבנה: איזו ראיה מתאימה לשליטה מקצועית במבחן הגמר?"
     },
     {
       "id": "file-88f2e8af7d4a18cf9c6ade6b",
@@ -418,7 +454,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "2"
+      "color": "2",
+      "subpath": "#לפני שמגישים · שאלה קצרה לתרגול"
     },
     {
       "id": "group-cabde20d468732ec1e5c8405",
@@ -438,7 +475,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#סוכנים ותהליכי עבודה"
     },
     {
       "id": "file-b986990a67228050c817fe81",
@@ -448,7 +486,8 @@
       "y": 330,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#אפיון שירות ופרויקט עסקי"
     },
     {
       "id": "file-2365f0a01a9b198c38e3ca05",
@@ -458,7 +497,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#מקורות ועדכוני תוכן"
     },
     {
       "id": "file-5e5d06c1515c3bcc85ac90df",
@@ -468,7 +508,8 @@
       "y": 560,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#עברית ברורה וסיכום התשובה"
     },
     {
       "id": "file-32329bf144be4a54e19368b2",
@@ -478,7 +519,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#פרסום ומדידה"
     },
     {
       "id": "file-be11d40265cd2df767d8f455",
@@ -488,7 +530,8 @@
       "y": 790,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#פריסה, ניטור ואמינות"
     },
     {
       "id": "file-6d1e195fbb57cc5b91e69c4c",
@@ -498,7 +541,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#משוב על העבודה והתקדמות"
     },
     {
       "id": "file-456cb68b048665cc5ebc34d1",
@@ -508,7 +552,8 @@
       "y": 1020,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#תרגול ובדיקות הבנה"
     },
     {
       "id": "file-61e6e2118dba2a11aa442a3f",
@@ -518,7 +563,8 @@
       "y": 1250,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#אבטחה והרשאות"
     },
     {
       "id": "file-940cffbeca2b500e56117503",
@@ -528,7 +574,8 @@
       "y": 1250,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#תיאום צוות ההדרכה"
     },
     {
       "id": "file-5a6f260befdd13e241fbeb42",
@@ -538,7 +585,8 @@
       "y": 1480,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#אוטומציה והטמעת מערכות"
     },
     {
       "id": "file-f153ef609cccbaa11cf964cd",
@@ -548,7 +596,8 @@
       "y": 1480,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#הפיכת הידע לשירות"
     },
     {
       "id": "file-970f1c3b737ba49e4fa49178",
@@ -558,7 +607,8 @@
       "y": 1710,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#מוצר, שירות ופריסה"
     },
     {
       "id": "file-0b799de71d380da126de9268",
@@ -568,7 +618,8 @@
       "y": 1710,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#איכות, אבטחה ובקרה"
     },
     {
       "id": "file-df279451132a88a01025cb3a",
@@ -578,7 +629,8 @@
       "y": 1940,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#Agent Loop"
     },
     {
       "id": "file-e64f6c8f7b1b3257c0e20355",
@@ -588,7 +640,8 @@
       "y": 1940,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#Authorization"
     },
     {
       "id": "file-0cbc9d78347ea8836d3870cb",
@@ -598,7 +651,8 @@
       "y": 2170,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#Deployment"
     },
     {
       "id": "file-b42017f04f774204a1664fe3",
@@ -608,7 +662,8 @@
       "y": 2170,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#Evals"
     },
     {
       "id": "file-03dc4032dc824d78e33c8bd3",
@@ -618,7 +673,8 @@
       "y": 2400,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#Demystifying evals for AI agents"
     },
     {
       "id": "file-c6fec4cda4db32c5eb5375a8",
@@ -628,7 +684,8 @@
       "y": 2400,
       "width": 640,
       "height": 180,
-      "color": "6"
+      "color": "6",
+      "subpath": "#OWASP LLM risks"
     }
   ],
   "edges": [
