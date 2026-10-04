@@ -74,8 +74,9 @@ The optional Mentor knowledge cache defaults to `.data/mentor/knowledge.json`.
 `MENTOR_KNOWLEDGE_PATH` overrides its path. Preserve a writable private directory
 outside the deploy bundle. `npm run mentor:refresh` uses no model key and reads only
 fixed public official release APIs. It records unavailable sources honestly; it
-never applies a curriculum release. A manual GitHub workflow produces a cache
-artifact; it does not synchronize that artifact to the running application.
+never applies a curriculum release. The command loads the project environment before
+initializing readers, so its configured cache path matches the server. A GitHub workflow scheduled Monday/Wednesday/Friday at 06:17 UTC, also
+triggered manually or by discovery-code changes, produces a cache artifact; it does not synchronize that artifact to the running application.
 User-approved local heartbeat `automation` is active for Monday/Wednesday/Friday
 at 09:00 Asia/Jerusalem. Keep the computer on and the desktop app running; the
 project must remain available. This is not a hosted scheduler and the first scheduled
