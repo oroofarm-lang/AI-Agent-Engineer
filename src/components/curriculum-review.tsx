@@ -1,7 +1,7 @@
 'use client';
 import { useEffect, useRef, useState } from 'react';
 import { useRouter } from 'next/navigation';
-import Link from 'next/link';
+import Link from '@/components/workspace-navigation';
 import { requiredSections } from '@/lib/curriculum/schema';
 import type { auditorStore } from '@/lib/auditor/store';
 import type { ProposalInput } from '@/lib/auditor/schema';

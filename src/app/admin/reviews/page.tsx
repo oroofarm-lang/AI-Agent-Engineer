@@ -1,6 +1,6 @@
 import { randomUUID } from 'node:crypto';
 import { notFound } from 'next/navigation';
-import Link from 'next/link';
+import Link from '@/components/workspace-navigation';
 import { requireUser } from '@/lib/auth/session';
 import { isOperator } from '@/lib/admin/access';
 import { getConnection } from '@/lib/db/connection';

@@ -6,7 +6,7 @@ entity_id: "QUIZ_REVIEW_COMPONENT"
 curriculum_version: "2.2.0"
 source_path: "src/components/quiz-bank-review.tsx"
 asset_kind: "ui-code"
-source_sha256: "9b1d5066277a8e490559aa3d0d00426e128b65f114fcf8095a614eadd16f7407"
+source_sha256: "9d4c846304e192cad39f9c03a444c24afce25c2d9b094ced2eb5b5e39488a5c1"
 related: ["[[01_AGENTS/Agent-Curriculum-Auditor]]","[[01_AGENTS/Agent-Database-Architect]]","[[01_AGENTS/Agent-Production-Reliability]]","[[01_AGENTS/Agent-Progress-Tracker]]","[[01_AGENTS/Agent-Quiz-Designer]]","[[01_AGENTS/Agent-Security-Auditor]]","[[01_AGENTS/Agent-UI-UX-Inspector]]","[[02_CURRICULUM/2.2.0/modules/PRODUCT]]","[[02_CURRICULUM/2.2.0/modules/QUALITY]]","[[02_CURRICULUM/quiz-banks/1.0.0-draft/Index]]","[[04_AUTOMATIONS_AND_APIS/Index]]"]
 ---
 
@@ -23,7 +23,7 @@ related: ["[[01_AGENTS/Agent-Curriculum-Auditor]]","[[01_AGENTS/Agent-Database-A
 ```
 'use client';
 import { useEffect, useRef, useState, type FormEvent } from 'react';
-import Link from 'next/link';
+import Link from '@/components/workspace-navigation';
 import { useRouter } from 'next/navigation';
 import type { quizReviewStore } from '@/lib/quizzes/review-store';
 import { reducedMotion } from '@/lib/domain/motion';

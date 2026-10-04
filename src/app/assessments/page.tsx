@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import Link from '@/components/workspace-navigation';
 import { getAssessmentRepository, getCurriculum, getLearningSystem } from '@/lib/data';
 import { assessmentSchema } from '@/lib/curriculum/assessment';
 import { z } from 'zod';

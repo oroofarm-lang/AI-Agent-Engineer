@@ -983,12 +983,21 @@ describe('public interactive-template structure projection', () => {
         '04_AUTOMATIONS_AND_APIS/assets/TEMPLATE_DRAFT_CONTRACT.md',
         '04_AUTOMATIONS_AND_APIS/assets/TEMPLATE_SUBMISSION_CONTRACT.md',
         '04_AUTOMATIONS_AND_APIS/assets/PROOF_COMPONENT.md',
+        '04_AUTOMATIONS_AND_APIS/assets/WORKSPACE_NAVIGATION_COMPONENT.md',
+        '04_AUTOMATIONS_AND_APIS/assets/TEMPLATE_WORKSPACE_COMPONENT.md',
+        '04_AUTOMATIONS_AND_APIS/assets/TEMPLATE_MARKDOWN_COMPONENT.md',
+        '04_AUTOMATIONS_AND_APIS/assets/TEMPLATE_PDF_EXPORT.md',
+        '04_AUTOMATIONS_AND_APIS/assets/TEMPLATE_PDF_MARKDOWN.md',
+        '04_AUTOMATIONS_AND_APIS/assets/TEMPLATE_PDF_DIRECTION.md',
         '04_AUTOMATIONS_AND_APIS/endpoints/TEMPLATE_DRAFTS.md',
         '01_AGENTS/Orchestrator-Prime.md',
       ]) {
         expect(links.has(`${file}\0${related}`)).toBe(true);
         expect(links.has(`${related}\0${file}`)).toBe(true);
       }
+      const tableEditor = '04_AUTOMATIONS_AND_APIS/assets/TEMPLATE_TABLE_COMPONENT.md';
+      expect(links.has(`${file}\0${tableEditor}`)).toBe(definition.kind === 'table');
+      expect(links.has(`${tableEditor}\0${file}`)).toBe(definition.kind === 'table');
       const chapter = curriculum.modules!.find((item) =>
         item.lessonIds.includes(definition.lessonId),
       )!;

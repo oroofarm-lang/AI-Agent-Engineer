@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import Link from '@/components/workspace-navigation';
 import { TopicCatalog } from '@/components/topic-catalog';
 import { ArrowLeft, Check } from 'lucide-react';
 import { getCurriculum, getRepository } from '@/lib/data';

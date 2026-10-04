@@ -1,6 +1,6 @@
 'use client';
 import { useEffect, useRef, useState, type FormEvent } from 'react';
-import Link from 'next/link';
+import Link from '@/components/workspace-navigation';
 import { useRouter } from 'next/navigation';
 import type { quizReviewStore } from '@/lib/quizzes/review-store';
 import { reducedMotion } from '@/lib/domain/motion';

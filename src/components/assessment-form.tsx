@@ -1,6 +1,6 @@
 'use client';
 import { useActionState, useCallback, useEffect, useRef, useState } from 'react';
-import Link from 'next/link';
+import Link from '@/components/workspace-navigation';
 import { Check, ArrowLeft, ArrowRight } from 'lucide-react';
 import type { Assessment } from '@/lib/curriculum/assessment';
 import { submitEvidence } from '@/app/assessments/actions';

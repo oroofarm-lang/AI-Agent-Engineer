@@ -5,7 +5,7 @@ import { templateDraftRepository } from '@/lib/db/template-drafts';
 import { templatesForAssessment } from '@/lib/templates/catalog';
 import { AssessmentForm } from '@/components/assessment-form';
 import { notFound } from 'next/navigation';
-import Link from 'next/link';
+import Link from '@/components/workspace-navigation';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import { ArrowRight, ArrowLeft, Clock3 } from 'lucide-react';

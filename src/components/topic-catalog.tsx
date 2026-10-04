@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import Link from '@/components/workspace-navigation';
 import { ArrowLeft } from 'lucide-react';
 import type { Curriculum } from '@/lib/curriculum/schema';
 import type { Progress } from '@/lib/domain/progress';

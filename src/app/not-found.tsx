@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import Link from '@/components/workspace-navigation';
 export default function NotFound() {
   return (
     <div className="page narrow">

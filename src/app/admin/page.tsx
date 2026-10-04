@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import Link from '@/components/workspace-navigation';
 import { notFound } from 'next/navigation';
 import { requireUser } from '@/lib/auth/session';
 import { isOperator } from '@/lib/admin/access';

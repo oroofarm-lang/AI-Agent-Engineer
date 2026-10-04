@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import Link from '@/components/workspace-navigation';
 import { requireUser } from '@/lib/auth/session';
 import { getConnection } from '@/lib/db/connection';
 import { portfolioRepository } from '@/lib/db/portfolio';

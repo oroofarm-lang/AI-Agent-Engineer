@@ -6,7 +6,7 @@ entity_id: "PORTFOLIO_COMPONENT"
 curriculum_version: "2.2.0"
 source_path: "src/components/assessment/portfolio-card.tsx"
 asset_kind: "ui-code"
-source_sha256: "1b6143cceaf3a3b4db85b6ce726e5ebbb3f5fcdeca37f30ae7dbc7b76df53cde"
+source_sha256: "f4ea59ee77424fd2f51c7d65e3e1b8f1050a08773b8ae031ef24719220aba5ac"
 related: ["[[01_AGENTS/Agent-Code-Reviewer]]","[[01_AGENTS/Agent-Database-Architect]]","[[01_AGENTS/Agent-Production-Reliability]]","[[01_AGENTS/Agent-Security-Auditor]]","[[01_AGENTS/Agent-UI-UX-Inspector]]","[[02_CURRICULUM/2.2.0/modules/PRODUCT]]","[[02_CURRICULUM/2.2.0/modules/WEB]]","[[04_AUTOMATIONS_AND_APIS/Index]]"]
 ---
 
@@ -21,7 +21,7 @@ related: ["[[01_AGENTS/Agent-Code-Reviewer]]","[[01_AGENTS/Agent-Database-Archit
 ## תוכן הקובץ הציבורי
 
 ```
-import Link from 'next/link';
+import Link from '@/components/workspace-navigation';
 export function PortfolioCard({
   title,
   summary,

@@ -6,7 +6,7 @@ entity_id: "JOURNEY_MAP_COMPONENT"
 curriculum_version: "2.2.0"
 source_path: "src/components/learning/lesson-map.tsx"
 asset_kind: "ui-code"
-source_sha256: "350a835313195165123866f5c10717e9ba7b287efbd5657308d650b3dd6dfd7b"
+source_sha256: "d8da57c365094e3b2995e41bf377a189267ea78f37ee7770fa9cab0a724e2ace"
 related: ["[[01_AGENTS/Agent-Code-Reviewer]]","[[01_AGENTS/Agent-Database-Architect]]","[[01_AGENTS/Agent-Production-Reliability]]","[[01_AGENTS/Agent-Security-Auditor]]","[[01_AGENTS/Agent-UI-UX-Inspector]]","[[02_CURRICULUM/2.2.0/modules/PRODUCT]]","[[02_CURRICULUM/2.2.0/modules/WEB]]","[[04_AUTOMATIONS_AND_APIS/Index]]"]
 ---
 
@@ -23,7 +23,7 @@ related: ["[[01_AGENTS/Agent-Code-Reviewer]]","[[01_AGENTS/Agent-Database-Archit
 ```
 'use client';
 import { useState, type CSSProperties } from 'react';
-import Link from 'next/link';
+import Link from '@/components/workspace-navigation';
 import { Check, LockKeyhole, Play, ArrowLeft, Map, Clock3 } from 'lucide-react';
 import type { Lesson, Curriculum } from '@/lib/curriculum/schema';
 import type { Progress } from '@/lib/domain/progress';

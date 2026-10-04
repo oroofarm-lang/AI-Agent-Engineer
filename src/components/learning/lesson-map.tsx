@@ -1,6 +1,6 @@
 'use client';
 import { useState, type CSSProperties } from 'react';
-import Link from 'next/link';
+import Link from '@/components/workspace-navigation';
 import { Check, LockKeyhole, Play, ArrowLeft, Map, Clock3 } from 'lucide-react';
 import type { Lesson, Curriculum } from '@/lib/curriculum/schema';
 import type { Progress } from '@/lib/domain/progress';

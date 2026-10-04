@@ -1,5 +1,5 @@
 import { getSession } from '@/lib/auth/session';
-import Link from 'next/link';
+import Link from '@/components/workspace-navigation';
 import { Zap, ArrowUpLeft } from 'lucide-react';
 import { getCurriculum, getRepository } from '@/lib/data';
 import { calculateProgress } from '@/lib/domain/progress';

@@ -1,5 +1,5 @@
 import { randomUUID } from 'node:crypto';
-import Link from 'next/link';
+import Link from '@/components/workspace-navigation';
 import { notFound } from 'next/navigation';
 import { ReflectionForm, FailureCaseForm } from '@/components/reflection-form';
 import { getCurriculum, getReflectionRepository } from '@/lib/data';

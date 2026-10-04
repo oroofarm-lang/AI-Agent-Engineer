@@ -25,7 +25,7 @@ export function addTemplateWorkspaces({
     'index',
     'TEMPLATE_WORKSPACES_INDEX',
     'תבניות טקסט וטבלה לכל סעיפי ההערכה',
-    'הגדרות ציבוריות של מבנה התשובות: טקסט, כותרות טבלה ושורות התחלה. הן אינן עבודות שהוגשו. שירות שמירת הטיוטות הפרטיות ממומש בממשק ה־API המקושר. עורכי הטקסט והטבלה, השמירה האוטומטית והייבוא והייצוא של JSON ו־CSV מחוברים לממשק השיעור. הלומד יכול לבחור טיוטות שמורות ולהגיש אותן בלחצן ״הגש מתוך הטמפלייט״. המערכת מצרפת עותק קבוע של התוכן וההגדרה להגשה הפרטית, עם אפשרות לכלול אותה בתיק העבודות. הייבוא, הייצוא ובדיקת מבנה הנתונים ממומשים בקובצי המקור המקושרים.\n\n' +
+    'הגדרות ציבוריות של מבנה התשובות: טקסט, כותרות טבלה ושורות התחלה. הן אינן עבודות שהוגשו. שירות שמירת הטיוטות הפרטיות ממומש בממשק ה־API המקושר. עורכי הטקסט והטבלה, השמירה האוטומטית והייבוא והייצוא של JSON ו־CSV מחוברים לממשק השיעור, ויש גם הורדת PDF. אם טרם התקבל אישור לשמירת העבודה, לחיצה על קישור לעמוד אחר תציג בקשה לאשר את המעבר. בחירה בביטול משאירה אותך בעמוד הנוכחי. הלומד יכול לבחור טיוטות שמורות ולהגיש אותן בלחצן ״הגש מתוך הטמפלייט״. המערכת מצרפת עותק קבוע של התוכן וההגדרה להגשה הפרטית, עם אפשרות לכלול אותה בתיק העבודות. הייבוא, הייצוא ובדיקת מבנה הנתונים ממומשים בקובצי המקור המקושרים.\n\n' +
       sourceLink(sourcePath),
     {
       template_version: catalog.version,
@@ -136,8 +136,16 @@ export function addTemplateWorkspaces({
       'TEMPLATE_DRAFT_CONTRACT',
       'TEMPLATE_SUBMISSION_CONTRACT',
       'PROOF_COMPONENT',
+      'WORKSPACE_NAVIGATION_COMPONENT',
+      'TEMPLATE_WORKSPACE_COMPONENT',
+      'TEMPLATE_MARKDOWN_COMPONENT',
+      'TEMPLATE_PDF_EXPORT',
+      'TEMPLATE_PDF_MARKDOWN',
+      'TEMPLATE_PDF_DIRECTION',
     ])
       if (paths.asset.has(id)) connect(file, paths.asset.get(id), 'קוד מבנה ופורמטים');
+    if (definition.kind === 'table' && paths.asset.has('TEMPLATE_TABLE_COMPONENT'))
+      connect(file, paths.asset.get('TEMPLATE_TABLE_COMPONENT'), 'עורך טבלת העבודה');
     if (paths.api.has('TEMPLATE_DRAFTS'))
       connect(file, paths.api.get('TEMPLATE_DRAFTS'), 'שמירת טיוטה פרטית');
   }

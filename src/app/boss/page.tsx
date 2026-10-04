@@ -1,5 +1,5 @@
 import { randomUUID } from 'node:crypto';
-import Link from 'next/link';
+import Link from '@/components/workspace-navigation';
 import {
   getCurriculum,
   getRepository,

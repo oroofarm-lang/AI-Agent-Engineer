@@ -1,6 +1,7 @@
 'use client';
 import { useEffect, useRef, useState } from 'react';
 import { z } from 'zod';
+import { useWorkspaceNavigation } from '@/components/workspace-navigation';
 import {
   DraftSaveCoordinator,
   DraftSaveError,
@@ -50,6 +51,7 @@ export function TemplateWorkspace({
   onUse: (text: string) => void;
   onSubmissionState: (id: string, state: { revision: number; ready: boolean }) => void;
 }) {
+  const navigation = useWorkspaceNavigation();
   const [coordinator] = useState(
     () =>
       new DraftSaveCoordinator({
@@ -86,16 +88,14 @@ export function TemplateWorkspace({
     }, 700);
     return () => clearTimeout(timer);
   }, [coordinator, invalid, locked, view]);
-  useEffect(() => {
-    function warn(event: BeforeUnloadEvent) {
-      if (invalidRef.current || !['saved', 'read-only'].includes(coordinator.view().status)) {
-        event.preventDefault();
-        event.returnValue = '';
-      }
-    }
-    window.addEventListener('beforeunload', warn);
-    return () => window.removeEventListener('beforeunload', warn);
-  }, [coordinator]);
+  useEffect(
+    () =>
+      navigation.register(
+        () => invalidRef.current || !['saved', 'read-only'].includes(coordinator.view().status),
+      ),
+    [coordinator, navigation],
+  );
+
   function edit(document: TemplateDocument) {
     onSubmissionState(initial.definition.id, { revision: view.revision, ready: false });
     setLocal(document);

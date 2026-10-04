@@ -6,7 +6,7 @@ entity_id: "CURRICULUM_REVIEW_COMPONENT"
 curriculum_version: "2.2.0"
 source_path: "src/components/curriculum-review.tsx"
 asset_kind: "ui-code"
-source_sha256: "3a19ba2d73b867ea4e837e7ecb40076d2f7e78a1cde04d4e657e419e908fedb1"
+source_sha256: "28554a956d82605ca7854a1d40565ade3915dd8a1bfde060aced4ca0d432d85e"
 related: ["[[01_AGENTS/Agent-Curriculum-Auditor]]","[[01_AGENTS/Agent-Database-Architect]]","[[01_AGENTS/Agent-Hebrew-UX]]","[[01_AGENTS/Agent-Knowledge-RAG]]","[[01_AGENTS/Agent-Production-Reliability]]","[[01_AGENTS/Agent-Progress-Tracker]]","[[01_AGENTS/Agent-Quiz-Designer]]","[[01_AGENTS/Agent-Security-Auditor]]","[[02_CURRICULUM/2.2.0/modules/KNOWLEDGE]]","[[02_CURRICULUM/2.2.0/modules/QUALITY]]","[[04_AUTOMATIONS_AND_APIS/Index]]"]
 ---
 
@@ -24,7 +24,7 @@ related: ["[[01_AGENTS/Agent-Curriculum-Auditor]]","[[01_AGENTS/Agent-Database-A
 'use client';
 import { useEffect, useRef, useState } from 'react';
 import { useRouter } from 'next/navigation';
-import Link from 'next/link';
+import Link from '@/components/workspace-navigation';
 import { requiredSections } from '@/lib/curriculum/schema';
 import type { auditorStore } from '@/lib/auditor/store';
 import type { ProposalInput } from '@/lib/auditor/schema';

@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import Link from '@/components/workspace-navigation';
 import { requireUser } from '@/lib/auth/session';
 import { isOperator } from '@/lib/admin/access';
 import { readKnowledge } from '@/lib/ai/knowledge-store';

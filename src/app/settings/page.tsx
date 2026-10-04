@@ -1,7 +1,7 @@
 import { requireUser } from '@/lib/auth/session';
 import { AccountControls } from '@/components/account-controls';
 import { Download, Database, KeyRound, ShieldCheck } from 'lucide-react';
-import Link from 'next/link';
+import Link from '@/components/workspace-navigation';
 import { mentorConfiguration } from '@/lib/ai/provider';
 import { mailConfigured } from '@/lib/mail/delivery';
 import { isOperator } from '@/lib/admin/access';

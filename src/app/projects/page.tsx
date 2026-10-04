@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import Link from '@/components/workspace-navigation';
 import { getCurriculum, getRepository, getLearningSystem } from '@/lib/data';
 import { projectCatalog } from '@/lib/domain/projects';
 import { he } from '@/lib/i18n/he';

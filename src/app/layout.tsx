@@ -5,6 +5,7 @@ import { legalDocuments } from '@/lib/legal';
 import type { Metadata } from 'next';
 import { Navigation } from '@/components/navigation';
 import { ActivityHeader } from '@/components/learning/activity-header';
+import { WorkspaceNavigation } from '@/components/workspace-navigation';
 import { MentorContext } from '@/components/learning/mentor-context';
 import './globals.css';
 import './neon.css';
@@ -26,21 +27,23 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <a className="skip-link" href="#main">
           דלג לתוכן
         </a>
-        <MentorContext>
-          <AccessibilityMenu />
-          <RouteFocus />
-          <Navigation />
-          <div className="app-content">
-            <ActivityHeader />
-            <main id="main" tabIndex={-1}>
-              {children}
-            </main>
-            <LegalFooter
-              documents={legalDocuments()}
-              operator={process.env.LEGAL_OPERATOR || 'Agent Engineer'}
-            />
-          </div>
-        </MentorContext>
+        <WorkspaceNavigation>
+          <MentorContext>
+            <AccessibilityMenu />
+            <RouteFocus />
+            <Navigation />
+            <div className="app-content">
+              <ActivityHeader />
+              <main id="main" tabIndex={-1}>
+                {children}
+              </main>
+              <LegalFooter
+                documents={legalDocuments()}
+                operator={process.env.LEGAL_OPERATOR || 'Agent Engineer'}
+              />
+            </div>
+          </MentorContext>
+        </WorkspaceNavigation>
       </body>
     </html>
   );
