@@ -1,0 +1,12 @@
+[Unit]
+Description=Remove expired authentication records daily
+Requires=docker.service
+After=docker.service network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=/opt/AI-Agent-Engineer
+UMask=0077
+ExecStart=/usr/bin/docker compose --env-file .env.production run --rm --no-deps -T --entrypoint npm app run db:cleanup
+TimeoutStartSec=10min

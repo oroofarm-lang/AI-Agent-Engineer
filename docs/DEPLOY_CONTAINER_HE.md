@@ -55,7 +55,40 @@ docker compose --env-file .env.production run --rm --no-deps --entrypoint npm ap
 docker compose --env-file .env.production run --rm --no-deps --entrypoint npm app run db:cleanup
 ```
 
-תזמון השרת יותקן וייבדק לאחר שיש שרת אמיתי. ה־workflow ב־GitHub מפיק קובץ גילוי ציבורי; הוא אינו מתקין אותו אוטומטית על שרת זה. הפקודה בשרת מרעננת ישירות את המטמון שבו המנטור משתמש. רענון אינו משנה שיעור משוחרר ללא אישור אנושי.
+בקבצי deploy/systemd הוכנו שני זוגות service/timer להפעלה דרך systemd על Linux: רענון בימי שני, רביעי ושישי ב־06:17 UTC, וניקוי רשומות אימות שפג תוקפן בכל יום ב־06:35 UTC. אלו שעות UTC קבועות; השעה המקומית בישראל משתנה עם שעון הקיץ. שתי הפעולות משתמשות באותה תצורת Compose ובאותם כרכי אחסון. אין צורך בהעתקת מפתחות לקובצי התזמון.
+
+ברירת המחדל היא התקנה בתיקייה /opt/AI-Agent-Engineer ו־Docker ב־/usr/bin/docker. אם התקנת השרת שונה, יש לעדכן WorkingDirectory ו־ExecStart בשני קובצי השירות לפני ההתקנה. אין להתקין אותם במחשב ה־Mac: הם מיועדים לשרת Linux עם systemd.
+
+אחרי שהשרת עלה ו־.env.production הוגדר, התקן על השרת בלבד:
+
+```
+sudo install -m 644 deploy/systemd/ai-course-* /etc/systemd/system/
+sudo systemctl daemon-reload
+sudo systemctl enable --now ai-course-mentor-refresh.timer ai-course-auth-cleanup.timer
+```
+
+אמת את זמני ההפעלה:
+
+```
+systemctl list-timers ai-course-mentor-refresh.timer ai-course-auth-cleanup.timer
+```
+
+בצע בדיקת רענון אמיתית בשרת:
+
+```
+sudo systemctl start ai-course-mentor-refresh.service
+systemctl status ai-course-mentor-refresh.service
+```
+
+בדוק שהשירות הסתיים עם תוצאה תקינה ושעמוד עדכוני הידע מציג רענון חדש. היומן אמור להכיל סטטוס מקורות ציבוריים בלבד; אין להעתיק סודות או נתוני תלמידים לדוח. Persistent=true מאפשר הפעלה אחת להשלמת מועד שהוחמץ כשהתזמון הופעל בעבר והשרת היה כבוי. systemd אינו מפעיל במקביל מופע נוסף של אותו שירות שכבר רץ. כשל אינו מפעיל לולאת ניסיונות חוזרים: הוא דורש בדיקת מפעיל או המתנה למועד הבא.
+
+להסרה עתידית של התזמון בלבד, בלי מחיקת נתונים:
+
+```
+sudo systemctl disable --now ai-course-mentor-refresh.timer ai-course-auth-cleanup.timer
+```
+
+תזמון השרת יותקן וייבדק לאחר שיש שרת אמיתי. בדיקת התחביר ב־CI אינה הוכחה שטיימר פעל בשרת הציבורי. ה־workflow ב־GitHub מפיק קובץ גילוי ציבורי; הוא אינו מתקין אותו אוטומטית על שרת זה. הפקודה בשרת מרעננת ישירות את המטמון שבו המנטור משתמש. רענון אינו משנה שיעור משוחרר ללא אישור אנושי.
 
 ## קבלה לפני הזמנת תלמידים
 
@@ -68,3 +101,5 @@ GitHub Actions בונה תמונה ללא סודות, מאמת את תצורת C
 מקורות: [Next.js self-hosting](https://nextjs.org/docs/app/guides/self-hosting), [Caddy reverse_proxy](https://caddyserver.com/docs/caddyfile/directives/reverse_proxy), [Caddy request_body](https://caddyserver.com/docs/caddyfile/directives/request_body), [Docker Compose](https://docs.docker.com/reference/compose-file/services/). מדריך Next.js המותקן בפרויקט נקרא לפני הכנת החבילה; תיעוד התשתית נבדק ב־2026-10-04.
 
 תוצאות הריצות שנצפו והגבולות שלהן מתועדות ב־[דוח בדיקות הפריסה](quality-reports/2026-10-04-production-container.md).
+
+תיעוד התזמון: [systemd.timer — המקור הרשמי](https://raw.githubusercontent.com/systemd/systemd/main/man/systemd.timer.xml), [systemd.time — המקור הרשמי](https://raw.githubusercontent.com/systemd/systemd/main/man/systemd.time.xml).

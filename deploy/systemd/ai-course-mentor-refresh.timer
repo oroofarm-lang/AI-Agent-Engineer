@@ -1,0 +1,11 @@
+[Unit]
+Description=Refresh public AI discovery sources three times weekly
+
+[Timer]
+OnCalendar=Mon,Wed,Fri *-*-* 06:17:00 UTC
+Persistent=true
+AccuracySec=1min
+Unit=ai-course-mentor-refresh.service
+
+[Install]
+WantedBy=timers.target

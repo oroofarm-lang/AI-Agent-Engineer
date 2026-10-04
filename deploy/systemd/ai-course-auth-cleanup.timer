@@ -1,0 +1,11 @@
+[Unit]
+Description=Remove expired authentication records daily
+
+[Timer]
+OnCalendar=*-*-* 06:35:00 UTC
+Persistent=true
+AccuracySec=1min
+Unit=ai-course-auth-cleanup.service
+
+[Install]
+WantedBy=timers.target

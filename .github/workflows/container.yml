@@ -26,6 +26,11 @@ jobs:
     timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
+      - name: Validate Linux maintenance units and UTC calendars
+        run: |
+          systemd-analyze verify deploy/systemd/*.service deploy/systemd/*.timer
+          systemd-analyze calendar --iterations=6 --base-time='2026-10-04 00:00:00 UTC' 'Mon,Wed,Fri *-*-* 06:17:00 UTC'
+          systemd-analyze calendar --iterations=3 --base-time='2026-10-04 00:00:00 UTC' '*-*-* 06:35:00 UTC'
       - name: Validate Compose with synthetic configuration only
         shell: bash
         run: |
