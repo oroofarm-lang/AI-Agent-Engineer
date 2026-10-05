@@ -30,8 +30,8 @@
         "Agent-Production-Reliability",
         "Agent-Security-Auditor"
       ],
-      "body": ".git\n.github\n.next\nnode_modules\n.data\n.env\n.env.*\nVolt\n.codex\nplaywright-report\ntest-results\ncoverage\n*.tsbuildinfo\n.DS_Store\n**/*.sqlite*\n**/*.db\n**/*.log\n**/__pycache__\n**/*.pyc\n",
-      "sha256": "249a7c176e468906961bc304e512f341c6c99c87a7733ff7ff2c26a3b53451ff"
+      "body": ".git\n.github/*\n!.github/workflows\n.github/workflows/*\n!.github/workflows/container.yml\n!.github/workflows/mentor-knowledge.yml\n.next\nnode_modules\n.data\n.env\n.env.*\nVolt\n.codex\nplaywright-report\ntest-results\ncoverage\n*.tsbuildinfo\n.DS_Store\n**/*.sqlite*\n**/*.db\n**/*.log\n**/__pycache__\n**/*.pyc\n",
+      "sha256": "af8d6a7ef55113caed7444f09be668310c17036dae0fc8a73c76a6e141425810"
     },
     {
       "id": "DEPLOY_COMPOSE",

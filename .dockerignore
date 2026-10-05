@@ -1,5 +1,9 @@
 .git
-.github
+.github/*
+!.github/workflows
+.github/workflows/*
+!.github/workflows/container.yml
+!.github/workflows/mentor-knowledge.yml
 .next
 node_modules
 .data
