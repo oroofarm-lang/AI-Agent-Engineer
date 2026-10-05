@@ -54,8 +54,10 @@ it('requires email verification, delivers reset through transport and revokes ol
   expect((await post('/sign-up/email', credentials)).status).toBe(200);
   expect(mail.messages).toHaveLength(1);
   expect((await post('/sign-in/email', credentials)).status).toBe(403);
-  const verification = mail.messages[0].text.split('\n\n')[1];
+  const verification = mail.messages[0].text.match(/https:\/\/\S+/)![0];
   expect((await auth.handler(new Request(verification))).status).toBeLessThan(400);
+  expect(mail.messages).toHaveLength(2);
+  expect(mail.messages[1].text).toContain('כתובת המייל שלך אומתה');
   const signedIn = await post('/sign-in/email', credentials);
   expect(signedIn.status).toBe(200);
   const cookie = signedIn.headers
@@ -70,7 +72,7 @@ it('requires email verification, delivers reset through transport and revokes ol
     (await post('/request-password-reset', { email: credentials.email, redirectTo: '/auth' }))
       .status,
   ).toBe(200);
-  const resetUrl = mail.messages.at(-1)!.text.split('\n\n')[1];
+  const resetUrl = mail.messages.at(-1)!.text.match(/https:\/\/\S+/)![0];
   // Reset emails first visit the library's redirect endpoint, which yields the form token.
   const resetRedirect = await auth.handler(new Request(resetUrl));
   const target = new URL(resetRedirect.headers.get('location')!, origin);

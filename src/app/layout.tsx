@@ -19,6 +19,7 @@ export const dynamic = 'force-dynamic';
 export const metadata: Metadata = {
   title: { default: 'Agent Engineer · סביבת הלמידה', template: '%s · Agent Engineer' },
   description: 'מערכת למידה אישית להנדסת סוכני AI. בונים, מבינים, שוברים, מתקנים ומוכיחים.',
+  ...(process.env.DEMO_MODE === 'true' ? { robots: { index: false, follow: false } } : {}),
 };
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
@@ -33,6 +34,21 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
             <RouteFocus />
             <Navigation />
             <div className="app-content">
+              {process.env.DEMO_MODE === 'true' && (
+                <aside
+                  aria-label="גרסת ניסיון"
+                  style={{
+                    padding: '16px',
+                    border: '2px solid #756d59',
+                    background: '#f5ebc9',
+                    color: '#51431d',
+                    lineHeight: 1.8,
+                  }}
+                >
+                  <strong>גרסת ניסיון</strong> · החשבונות, ההתקדמות והקבצים בגרסה הזו עשויים להתאפס
+                  כאשר השרת מופעל מחדש. אין להעלות מידע אישי או קבצים חשובים.
+                </aside>
+              )}
               <ActivityHeader />
               <main id="main" tabIndex={-1}>
                 {children}

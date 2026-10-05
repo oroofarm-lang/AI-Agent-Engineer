@@ -27,6 +27,7 @@ it('uses only token refresh and the send endpoint, encodes MIME, and never reque
     'learner@example.test',
     'איפוס סיסמה',
     'https://academy.example.test/auth?token=synthetic',
+    '<html lang="he" dir="rtl"><body>בדיקה</body></html>',
   );
   expect(request).toHaveBeenCalledTimes(2);
   expect(request.mock.calls[0][0]).toBe('https://oauth2.googleapis.com/token');
@@ -36,6 +37,9 @@ it('uses only token refresh and the send endpoint, encodes MIME, and never reque
   const mime = Buffer.from(JSON.parse(request.mock.calls[1][1].body).raw, 'base64url').toString();
   expect(mime).toContain('To: learner@example.test');
   expect(mime).toContain('sender@example.test');
+  expect(mime).toContain('multipart/alternative');
+  expect(mime).toContain('text/html');
+  expect(mime).toContain('text/plain');
   expect(mime).not.toContain('synthetic-secret');
   expect(mime).not.toContain('synthetic-refresh');
 });

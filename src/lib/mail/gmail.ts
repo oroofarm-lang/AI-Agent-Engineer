@@ -39,7 +39,7 @@ export async function gmailAccessToken() {
     throw new Error('GMAIL_SCOPE_MISSING');
   return token.access_token;
 }
-export async function sendGmailEmail(to: string, subject: string, text: string) {
+export async function sendGmailEmail(to: string, subject: string, text: string, html?: string) {
   const accessToken = await gmailAccessToken();
   // Nodemailer builds inert MIME bytes only; this transport never opens an SMTP connection.
   const built = await nodemailer
@@ -55,6 +55,7 @@ export async function sendGmailEmail(to: string, subject: string, text: string) 
       to,
       subject,
       text,
+      ...(html ? { html } : {}),
     });
   if (!Buffer.isBuffer(built.message)) throw new Error('GMAIL_MIME_FAILED');
   const raw = built.message.toString('base64url');

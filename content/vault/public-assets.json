@@ -78,8 +78,8 @@
         "Agent-Production-Reliability",
         "Agent-Security-Auditor"
       ],
-      "body": "#!/bin/sh\nset -eu\numask 077\n# Public deployments fail closed before touching storage if configuration is missing.\nnode scripts/check-deployment.mjs\nif node -e 'const fs = require(\"node:fs\"); process.exit(fs.existsSync(process.env.DATABASE_URL || \".data/learning.sqlite\") ? 0 : 1)'; then\n  npm run db:migrate:backup\nelse\n  npm run db:setup\nfi\n# An edited public note may block projection; preserve it and keep learning operational.\nnpm run vault:sync || printf '%s\\n' 'Public Vault projection needs operator attention; existing notes were preserved.' >&2\nexec node node_modules/next/dist/bin/next start --hostname 0.0.0.0 --port \"${PORT:-3000}\"\n",
-      "sha256": "db1092fefcdd60e54bf75e46263112ad77b872356a2dba9d4d79a672da0a1fdd"
+      "body": "#!/bin/sh\nset -eu\numask 077\n# Render supplies the actual assigned hostname; never guess a subdomain before creation.\nif [ -z \"${BETTER_AUTH_URL:-}\" ] && [ \"${RENDER:-}\" = \"true\" ]; then\n  export BETTER_AUTH_URL=\"${RENDER_EXTERNAL_URL:?Render external URL is required}\"\nfi\n# Public deployments fail closed before touching storage if configuration is missing.\nnode scripts/check-deployment.mjs\nif node -e 'const fs = require(\"node:fs\"); process.exit(fs.existsSync(process.env.DATABASE_URL || \".data/learning.sqlite\") ? 0 : 1)'; then\n  npm run db:migrate:backup\nelse\n  npm run db:setup\nfi\n# An edited public note may block projection; preserve it and keep learning operational.\nnpm run vault:sync || printf '%s\\n' 'Public Vault projection needs operator attention; existing notes were preserved.' >&2\nexec node node_modules/next/dist/bin/next start --hostname 0.0.0.0 --port \"${PORT:-3000}\"\n",
+      "sha256": "93f6f766be1d828f6a47efd839bf458d229849a6632fbf286df465ca8cdfd45e"
     },
     {
       "id": "DEPLOY_READINESS",

@@ -1,7 +1,7 @@
 import { betterAuth } from 'better-auth';
 import { readFileSync } from 'node:fs';
 import path from 'node:path';
-import { mailConfigured, sendAccountEmail } from '../mail/delivery';
+import { mailConfigured, sendAccountEmail, sendTemplatedEmail } from '../mail/delivery';
 import type { Connection } from '../db/connection';
 import { users } from '../db/schema';
 
@@ -13,7 +13,9 @@ export function authOptions(connection: Connection) {
     !local &&
     (new URL(baseURL).protocol !== 'https:' || !process.env.BETTER_AUTH_SECRET || !mail)
   )
-    throw new Error('Public auth requires HTTPS, BETTER_AUTH_SECRET, a configured mail provider and MAIL_FROM.');
+    throw new Error(
+      'Public auth requires HTTPS, BETTER_AUTH_SECRET, a configured mail provider and MAIL_FROM.',
+    );
   const secret =
     process.env.BETTER_AUTH_SECRET ||
     readFileSync(
@@ -35,16 +37,40 @@ export function authOptions(connection: Connection) {
       revokeSessionsOnPasswordReset: true,
       ...(mail
         ? {
-            sendResetPassword: async ({ user, url }: { user: { email: string }; url: string }) =>
-              sendAccountEmail(user.email, 'איפוס סיסמה · Agent Engineer', url),
+            sendResetPassword: async ({
+              user,
+              url,
+            }: {
+              user: { email: string; name?: string };
+              url: string;
+            }) => sendAccountEmail(user.email, 'איפוס סיסמה · Agent Engineer', url, user.name),
           }
         : {}),
     },
     emailVerification: {
       sendOnSignUp: !local || mail,
       autoSignInAfterVerification: true,
-      sendVerificationEmail: async ({ user, url }: { user: { email: string }; url: string }) =>
-        sendAccountEmail(user.email, 'אימות כתובת דוא״ל · Agent Engineer', url),
+      sendVerificationEmail: async ({
+        user,
+        url,
+      }: {
+        user: { email: string; name?: string };
+        url: string;
+      }) => sendAccountEmail(user.email, 'אימות כתובת דוא״ל · Agent Engineer', url, user.name),
+      afterEmailVerification: async (user: { email: string; name?: string }) => {
+        if (!mail) return;
+        // A failed welcome message must not undo a successfully verified account.
+        try {
+          await sendTemplatedEmail(
+            user.email,
+            'welcome',
+            new URL('/learn/FND_01?module=CORE', baseURL).href,
+            user.name,
+          );
+        } catch {
+          console.error('WELCOME_EMAIL_FAILED');
+        }
+      },
     },
     session: {
       expiresIn: 60 * 60 * 24 * 7,

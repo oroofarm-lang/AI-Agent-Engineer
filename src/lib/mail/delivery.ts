@@ -1,5 +1,6 @@
 import nodemailer from 'nodemailer';
 import { sendGmailEmail } from './gmail';
+import { accountEmail, type AccountEmailKind } from './templates';
 
 export function mailConfigured() {
   if (process.env.MAIL_PROVIDER === 'gmail')
@@ -39,11 +40,21 @@ export function mailTransport() {
   });
 }
 
-export async function sendAccountEmail(to: string, subject: string, url: string) {
-  const text = `Agent Engineer\n\n${url}\n\nהקישור מיועד לאימות החשבון או לאיפוס הסיסמה, לפי בקשתך. אם לא ביקשת זאת, אפשר להתעלם מההודעה.`;
+export async function sendAccountEmail(to: string, subject: string, url: string, name?: string) {
+  const kind = subject.startsWith('איפוס') ? 'reset' : 'verification';
+  return sendTemplatedEmail(to, kind, url, name);
+}
+
+export async function sendTemplatedEmail(
+  to: string,
+  kind: AccountEmailKind,
+  url: string,
+  name?: string,
+) {
+  const { subject, text, html } = accountEmail(kind, url, name);
   if (process.env.MAIL_PROVIDER === 'gmail') {
     if (!mailConfigured()) throw new Error('MAIL_NOT_CONFIGURED');
-    await sendGmailEmail(to, subject, text);
+    await sendGmailEmail(to, subject, text, html);
     return;
   }
   const result = await mailTransport().sendMail({
@@ -51,6 +62,7 @@ export async function sendAccountEmail(to: string, subject: string, url: string)
     to,
     subject,
     text,
+    html,
   });
   if (result?.rejected?.length) throw new Error('MAIL_REJECTED');
 }
